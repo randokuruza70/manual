@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS079">
+    <part type="conn" code="A36,D9,E1,F1,k2">
+      <name>Battery (Main)</name>
+    </part>
+    <part type="conn" code="E2,F2">
+      <name>Battery (Sub)</name>
+    </part>
+    <part type="conn" code="k1,m3,m4">
+      <name>No. 1 Magnet Switch Assembly</name>
+    </part>
+    <part type="conn" code="I107">
+      <name>No. 12 Junction Connector</name>
+    </part>
+    <part type="conn" code="A23">
+      <name>No. 2 Junction Connector</name>
+    </part>
+    <part type="conn" code="A43">
+      <name>No. 34 Junction Connector</name>
+    </part>
+    <part type="conn" code="I105">
+      <name>No. 8 Junction Connector</name>
+    </part>
+    <part type="conn" code="s1">
+      <text>F1 E F2 MGSW IG SW G W Y L-R W-B L-W</text>
+      <name>Winch Assembly</name>
+    </part>
+    <part type="conn" code="m1,m2,s2,t1">
+      <text>MGSW E F1 F2 IG SW B</text>
+      <name>Winch Motor with Magnet Switch Assembly</name>
+    </part>
+    <part type="fuse" code="FUSE23">
+      <text>GAUGE</text>
+    </part>
+  </ttl>
+</EWDSearch>

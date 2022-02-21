@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS047" code="I108,I109" type="conn" figID="5,7">
+    <name>No. 13 Junction Connector</name>
+  </text>
+  <text ewd="SYS047" code="A23" type="conn" figID="11">
+    <name>No. 2 Junction Connector</name>
+  </text>
+  <text ewd="SYS047" code="L53" type="conn" figID="14">
+    <name>No. 31 Junction Connector</name>
+  </text>
+  <text ewd="SYS047" code="I105" type="conn" figID="6">
+    <name>No. 8 Junction Connector</name>
+  </text>
+  <text ewd="SYS047" code="A2" type="conn" figID="3">
+    <name>Windshield Washer Motor and Pump Assembly</name>
+  </text>
+  <text ewd="SYS047" code="A39" type="conn" figID="9">
+    <name>Windshield Wiper Motor Assembly</name>
+  </text>
+  <text ewd="SYS047" code="L22,L23" type="conn" figID="2,13">
+    <name>Windshield Wiper Switch Assembly</name>
+  </text>
+  <text ewd="SYS047" code="I26" type="conn" figID="12">
+    <name>Wiper Lock Switch (Limit Switch Assembly)</name>
+  </text>
+  <text ewd="SYS047" code="FUSE20" type="fuse" figID="39">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS047" code="FUSE29" type="fuse" figID="40">
+    <name>20A WIP</name>
+  </text>
+  <text ewd="SYS047" code="AA" type="gp" figID="33">
+    <name />
+  </text>
+  <text ewd="SYS047" code="IC" type="gp" figID="32">
+    <name />
+  </text>
+  <text ewd="SYS047" code="LA" type="gp" figID="35">
+    <name />
+  </text>
+  <text ewd="SYS047" code="LB" type="gp" figID="34">
+    <name />
+  </text>
+  <text ewd="SYS047" code="2" type="rb" figID="8,10">
+    <name />
+  </text>
+  <text ewd="SYS047" code="FUSE20" type="rb" figID="1">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS047" code="FUSE29" type="rb" figID="4">
+    <name>20A WIP</name>
+  </text>
+  <text ewd="SYS047" code="SP9" type="sp" figID="37">
+    <name />
+  </text>
+  <text ewd="SYS047" code="SP66" type="sp" figID="36">
+    <name />
+  </text>
+  <text ewd="SYS047" code="SP82" type="sp" figID="38">
+    <name />
+  </text>
+  <text ewd="SYS047" code="IL5" type="w2w" figID="26,27,28,29,30">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS047" code="AI2" type="w2w" figID="20,21,24">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS047" code="AI3" type="w2w" figID="19,22,23,25,31">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+</EwdTree>

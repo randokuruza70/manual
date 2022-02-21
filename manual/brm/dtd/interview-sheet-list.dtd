@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- #  DTD VERSION 1.5  UPDATE May. 22, 2013    -->
+<!ELEMENT tmc-service-interview (itv_sysytem+)>
+<!ELEMENT itv_sysytem (name, interview_lv1+)>
+<!ATTLIST itv_sysytem
+	item-id CDATA #REQUIRED
+>
+<!ELEMENT interview_lv1 (name, interview_lv2+)>
+<!ATTLIST interview_lv1
+	item-id CDATA #REQUIRED
+>
+<!ELEMENT interview_lv2 (name, interview_lv3+)>
+<!ATTLIST interview_lv2
+	item-id CDATA #REQUIRED
+>
+<!ELEMENT interview_lv3 (name)>
+<!ATTLIST interview_lv3
+	item-id CDATA #REQUIRED
+>
+<!ELEMENT name (#PCDATA)>

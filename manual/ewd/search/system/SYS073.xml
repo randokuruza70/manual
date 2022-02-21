@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS073">
+    <part type="conn" code="C32,C95">
+      <name>Back-Up Light Switch Assembly</name>
+    </part>
+    <part type="conn" code="L25,L26,L50">
+      <text>ES I/F CPU LL LR B HZSW</text>
+      <name>Combination Meter Assembly</name>
+      <name type="inner">Flasher Circuit</name>
+      <name type="inner">Turn LH</name>
+      <name type="inner">Turn RH</name>
+    </part>
+    <part type="conn" code="I23">
+      <name>Diode (Turn Signal Light LH)</name>
+    </part>
+    <part type="conn" code="I22">
+      <name>Diode (Turn Signal Light RH)</name>
+    </part>
+    <part type="conn" code="L14">
+      <text>E TL TR</text>
+      <name>Hazard Warning Signal Switch Assembly</name>
+    </part>
+    <part type="conn" code="L14,M1">
+      <text>E F</text>
+      <name>Hazard Warning Signal Switch Assembly</name>
+    </part>
+    <part type="conn" code="L24">
+      <text>TL TR EL RH N LH EL TR LH N RH TL</text>
+      <name>Headlight Dimmer Switch Assembly</name>
+      <name type="inner">Turn Switch</name>
+      <name type="inner">Turn Switch</name>
+    </part>
+    <part type="conn" code="I59">
+      <name>No. 10 Junction Connector</name>
+    </part>
+    <part type="conn" code="I107">
+      <name>No. 12 Junction Connector</name>
+    </part>
+    <part type="conn" code="I108">
+      <name>No. 13 Junction Connector</name>
+    </part>
+    <part type="conn" code="I108,I109">
+      <name>No. 13 Junction Connector</name>
+    </part>
+    <part type="conn" code="L32,L34">
+      <name>No. 24 Junction Connector , No. 26 Junction Connector</name>
+    </part>
+    <part type="conn" code="L53">
+      <name>No. 31 Junction Connector</name>
+    </part>
+    <part type="conn" code="I97">
+      <name>No. 32 Junction Connector</name>
+    </part>
+    <part type="conn" code="I104">
+      <name>No. 6 Junction Connector</name>
+    </part>
+    <part type="conn" code="I105">
+      <name>No. 8 Junction Connector</name>
+    </part>
+    <part type="conn" code="I106">
+      <name>No. 9 Junction Connector</name>
+    </part>
+    <part type="conn" code="I19">
+      <name>Stop Light Switch Assembly</name>
+    </part>
+    <part type="conn" code="T10">
+      <text>TBKU FOG +B CTLA GND TRNL COS1 TRNR</text>
+      <name>Trailer Socket</name>
+    </part>
+    <part type="conn" code="I29">
+      <text>LR LL ER EL</text>
+      <name>Turn Signal Flasher Assembly</name>
+    </part>
+    <part type="fuse" code="FUSE23">
+      <text>GAUGE</text>
+    </part>
+    <part type="fuse" code="FUSE57">
+      <text>MAIN1</text>
+    </part>
+    <part type="fuse" code="FUSE25">
+      <text>RR FOG</text>
+    </part>
+    <part type="fuse" code="FUSE33">
+      <text>STOP</text>
+    </part>
+    <part type="fuse" code="FUSE18">
+      <text>TAIL</text>
+    </part>
+    <part type="fuse" code="FUSE34">
+      <text>TRAILER</text>
+    </part>
+    <part type="fuse" code="FUSE27">
+      <text>TRAILER STOP</text>
+    </part>
+    <part type="fuse" code="FUSE51">
+      <text>TURN&amp;HAZ</text>
+    </part>
+  </ttl>
+</EWDSearch>

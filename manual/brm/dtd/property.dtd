@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- #  DTD VERSION 1.5  UPDATE May. 22, 2013    -->
+<!ELEMENT tmc-service-pub-other (pub)>
+<!ELEMENT pub (name, models?, brand?, market-code?, manual-type-id, spec1?, spec2?, index-name, model-year-base?, term-base, revision)>
+<!ATTLIST pub
+	id ID #REQUIRED
+	type CDATA #REQUIRED
+	xml:lang CDATA #REQUIRED
+>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT models (model+)>
+<!ELEMENT model (model-name, model-code+)>
+<!ELEMENT model-name (#PCDATA)>
+<!ELEMENT model-code (#PCDATA)>
+<!ELEMENT brand (#PCDATA)>
+<!ELEMENT market-code (#PCDATA)>
+<!ELEMENT manual-type-id (#PCDATA)>
+<!ELEMENT spec1 (#PCDATA)>
+<!ELEMENT spec2 (#PCDATA)>
+<!ELEMENT index-name (#PCDATA)>
+<!ELEMENT model-year-base (year-base+)>
+<!ELEMENT year-base EMPTY>
+<!ATTLIST year-base
+	term-id-from CDATA #REQUIRED
+	model-year CDATA #REQUIRED
+>
+<!ELEMENT term-base (term+)>
+<!ELEMENT term (#PCDATA)>
+<!ATTLIST term
+	term-id-from CDATA #REQUIRED
+	date CDATA #REQUIRED
+	remarks CDATA #IMPLIED
+>
+<!ELEMENT revision (release+)>
+<!ELEMENT release (term | correction+)>
+<!ATTLIST release
+	send-date CDATA #REQUIRED
+>
+<!ELEMENT correction (#PCDATA)>
+<!ATTLIST correction
+	id ID #IMPLIED
+	sicr CDATA #IMPLIED
+>

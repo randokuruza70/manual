@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS021">
+    <part type="conn" code="I43">
+      <text>EPA2 VPA2 VCP2 EPA VPA VCPA</text>
+      <name>Accelerator Pedal Sensor Assembly</name>
+    </part>
+    <part type="conn" code="C21">
+      <text>A1A+ A1A- +B HA1A</text>
+      <name>Air Fuel Ratio Sensor (Bank 1 Sensor 1)</name>
+    </part>
+    <part type="conn" code="I51">
+      <text>GSW2</text>
+      <name>Airbag Sensor Assembly</name>
+    </part>
+    <part type="conn" code="A20,A42">
+      <text>CANL CANH SP1</text>
+      <name>Brake Actuator Assembly</name>
+    </part>
+    <part type="conn" code="A25,A26">
+      <name>Brake Vacuum Check Valve Assembly</name>
+    </part>
+    <part type="conn" code="C26">
+      <text>+ -</text>
+      <name>Cam Timing Oil Control Valve Assembly LH (Bank 2)</name>
+    </part>
+    <part type="conn" code="C27">
+      <text>+R -R</text>
+      <name>Cam Timing Oil Control Valve Assembly RH (Bank 1)</name>
+    </part>
+    <part type="conn" code="L25,L26">
+      <text>B CPU IND CHK ES SI IG+ +S (*10) (*14) CANL CANH (*18)</text>
+      <name>Combination Meter Assembly</name>
+      <name type="inner">Check Engine</name>
+      <name type="inner">Sub Tank</name>
+      <name type="inner">Check Engine</name>
+    </part>
+    <part type="conn" code="I88">
+      <text>ACT AC1</text>
+      <name>Cooler Stabilizer Amplifier Assembly</name>
+    </part>
+    <part type="conn" code="C2">
+      <text>NE NE-</text>
+      <name>Crank Position Sensor</name>
+    </part>
+    <part type="conn" code="I17">
+      <text>DLC3 TC TAC CANL CANH</text>
+    </part>
+    <part type="conn" code="C1">
+      <name>E.F.I. Engine Coolant Temperature Sensor</name>
+    </part>
+    <part type="conn" code="A29,C39,I84">
+      <text>ECM +B +B2 +BM IGSW ST1- EKNK KNK1 #10 #20 EKN2 #30 KNK2 #40 #50 #60 NE+ NE- IGT1 IGT2 OX1B IGT3 EX1B IGT4 HT1B IGT5 IGT6 IGF1 VCTA ETA VTA2 OX2B VTA1 EX2B M+ HT2B M- GE01 ACIS VV1+ PRG VV1- VCV1 THA E2G VV2+ VG VV2- ETHA VCV2 EPA2 VPA2 A1A+ A1A- VCP2 HA1A EPA A2A+ A2A- VPA HA2A VCPA PSW STA STP ELS1 ACT AC1 F/PS IMO THWO IMI OC1+ OC1- OC2+ OC2- ELS2 ETHW THW E02 EC E01 E04 E03 E05 E1 ME01 SPD W TC TACH CANL CANH FPR BATT FC MREL</text>
+    </part>
+    <part type="conn" code="L8">
+      <name>Fuel Control Switch Assembly</name>
+    </part>
+    <part type="conn" code="C8">
+      <name>Fuel Injector Assembly No. 1</name>
+    </part>
+    <part type="conn" code="C20">
+      <name>Fuel Injector Assembly No. 2</name>
+    </part>
+    <part type="conn" code="C9">
+      <name>Fuel Injector Assembly No. 3</name>
+    </part>
+    <part type="conn" code="C25">
+      <name>Fuel Injector Assembly No. 4</name>
+    </part>
+    <part type="conn" code="C11">
+      <name>Fuel Injector Assembly No. 5</name>
+    </part>
+    <part type="conn" code="C16">
+      <name>Fuel Injector Assembly No. 6</name>
+    </part>
+    <part type="conn" code="T3">
+      <text>M</text>
+      <name>Fuel Pump</name>
+    </part>
+    <part type="conn" code="C31">
+      <text>M</text>
+      <name>Fuel Pump</name>
+    </part>
+    <part type="conn" code="X2">
+      <text>M</text>
+      <name>Fuel Pump (Sub)</name>
+    </part>
+    <part type="conn" code="T8">
+      <text>M</text>
+      <name>Fuel Pump (Sub)</name>
+    </part>
+    <part type="conn" code="A40">
+      <name>Fuel Pump Resistor Assembly</name>
+    </part>
+    <part type="conn" code="W1">
+      <name>Fuel Tank Solenoid Return Valve Assembly</name>
+    </part>
+    <part type="conn" code="C3">
+      <text>+B THA E2G VG E2</text>
+      <name>Intake Mass Air Flow Meter Sub-Assembly</name>
+    </part>
+    <part type="conn" code="h2">
+      <text>EKNK KNK1</text>
+      <name>Knock Control Sensor (Bank 1)</name>
+    </part>
+    <part type="conn" code="h1">
+      <text>EKN2 KNK2</text>
+      <name>Knock Control Sensor (Bank 2)</name>
+    </part>
+    <part type="conn" code="I77,I78,I83">
+      <name>No. 1 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="A22">
+      <name>No. 1 Junction Connector</name>
+    </part>
+    <part type="conn" code="C37">
+      <name>No. 1 Vacuum Switching Valve (ACIS)</name>
+    </part>
+    <part type="conn" code="I59,I70">
+      <name>No. 10 Junction Connector , No. 19 Junction Connector</name>
+    </part>
+    <part type="conn" code="I59,I72,I95">
+      <name>No. 10 Junction Connector , No. 21 Junction Connector , No. 18 Junction Connector</name>
+    </part>
+    <part type="conn" code="I61,I67">
+      <name>No. 11 Junction Connector , No. 16 Junction Connector</name>
+    </part>
+    <part type="conn" code="I108">
+      <name>No. 13 Junction Connector</name>
+    </part>
+    <part type="conn" code="I98,I99">
+      <name>No. 17 Junction Connector</name>
+    </part>
+    <part type="conn" code="C19">
+      <text>A2A+ A2A- +B HA2A</text>
+      <name>No. 2 Air Fuel Ratio Sensor (Bank 2 Sensor 1)</name>
+    </part>
+    <part type="conn" code="A23">
+      <name>No. 2 Junction Connector</name>
+    </part>
+    <part type="conn" code="C17">
+      <text>OX2B E2 +B HT2B</text>
+      <name>No. 2 Oxygen Sensor (Bank 2 Sensor 2)</name>
+    </part>
+    <part type="conn" code="I96">
+      <name>No. 20 Junction Connector</name>
+    </part>
+    <part type="conn" code="L32,L36">
+      <name>No. 24 Junction Connector , No. 28 Junction Connector</name>
+    </part>
+    <part type="conn" code="L36,L51">
+      <name>No. 28 Junction Connector , No. 25 Junction Connector</name>
+    </part>
+    <part type="conn" code="A24">
+      <name>No. 3 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="C38">
+      <name>No. 4 Junction Connector</name>
+    </part>
+    <part type="conn" code="I93">
+      <name>No. 5 Junction Connector</name>
+    </part>
+    <part type="conn" code="I119,I120,I122,I124">
+      <name>No. 6 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I94">
+      <name>No. 7 Junction Connector</name>
+    </part>
+    <part type="conn" code="I106">
+      <name>No. 9 Junction Connector</name>
+    </part>
+    <part type="conn" code="I70,I106">
+      <name>No. 9 Junction Connector , No. 19 Junction Connector</name>
+    </part>
+    <part type="conn" code="I72,I106,I118">
+      <name>No. 9 Junction Connector , No. 36 Junction Connector , No. 21 Junction Connector</name>
+    </part>
+    <part type="conn" code="C18">
+      <text>OX1B E2 +B HT1B</text>
+      <name>Oxygen Sensor (Bank 1 Sensor 2)</name>
+    </part>
+    <part type="conn" code="C28">
+      <name>Power Steering Oil Pressure Switch</name>
+    </part>
+    <part type="conn" code="C104">
+      <name>Purge VSV</name>
+    </part>
+    <part type="conn" code="C96">
+      <text>SE SI IG+</text>
+      <name>Speedometer Sensor</name>
+    </part>
+    <part type="conn" code="I19">
+      <name>Stop Light Switch Assembly</name>
+    </part>
+    <part type="conn" code="C4">
+      <text>VC E2 VTA2 VTA M+ M-</text>
+      <name>Throttle Body with Motor Assembly</name>
+    </part>
+    <part type="conn" code="L30">
+      <text>EFII EFIO</text>
+      <name>Transponder Key ECU Assembly</name>
+    </part>
+    <part type="conn" code="C24">
+      <text>VVR+ VVR- VC</text>
+      <name>VVT Sensor (Bank 1)</name>
+    </part>
+    <part type="conn" code="C22">
+      <text>VVL+ VVL- VC</text>
+      <name>VVT Sensor (Bank 2)</name>
+    </part>
+    <part type="fuse" code="FUSE45">
+      <text>A/F</text>
+    </part>
+    <part type="fuse" code="FUSE28">
+      <text>DEFOG</text>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>DOME NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE52">
+      <text>EFI</text>
+    </part>
+    <part type="fuse" code="FUSE9">
+      <text>EFI-NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE46">
+      <text>ETCS</text>
+    </part>
+    <part type="fuse" code="FUSE14">
+      <text>IGN</text>
+    </part>
+    <part type="fuse" code="FUSE15">
+      <text>INJ</text>
+    </part>
+    <part type="fuse" code="FUSE57">
+      <text>MAIN1</text>
+    </part>
+    <part type="fuse" code="FUSE16">
+      <text>MET</text>
+    </part>
+    <part type="fuse" code="FUSE3">
+      <text>ST</text>
+    </part>
+    <part type="fuse" code="FUSE26">
+      <text>STOP</text>
+    </part>
+    <part type="fuse" code="FUSE33">
+      <text>STOP</text>
+    </part>
+    <part type="fuse" code="FUSE18">
+      <text>TAIL</text>
+    </part>
+  </ttl>
+</EWDSearch>

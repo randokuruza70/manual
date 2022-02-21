@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="WR045" code="IA3" type="w2w">
+    <name>Cowl Wire and Engine Room Main Wire</name>
+  </text>
+  <text ewd="WR045" code="IA4" type="w2w">
+    <name>Cowl Wire and Engine Room Main Wire</name>
+  </text>
+  <text ewd="WR045" code="IB5" type="w2w">
+    <name>Cowl Wire and No. 2 Engine Room Wire</name>
+  </text>
+  <text ewd="WR045" code="AC1" type="w2w">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="WR045" code="AC2" type="w2w">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="WR045" code="AC3" type="w2w">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="WR045" code="mA1" type="w2w">
+    <name>Magnet Switch to Winch Cable and Engine Room Main Wire</name>
+  </text>
+  <text ewd="WR045" code="JK2" type="w2w">
+    <name>No. 2 Cowl Wire and No. 3 Cowl Wire</name>
+  </text>
+  <text ewd="WR045" code="KI2" type="w2w">
+    <name>No. 3 Cowl Wire and Cowl Wire</name>
+  </text>
+</EwdTree>

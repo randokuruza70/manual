@@ -1,0 +1,1544 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_V1</span>
+<span class="globalServcatName">General</span>
+<span class="globalSection">_030611</span>
+<span class="globalSectionName">INTRODUCTION</span>
+<span class="globalTitle">_0140190</span>
+<span class="globalTitleName">HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS</span>
+<span class="globalCategory">F</span>
+</div>
+<h1>INTRODUCTION&nbsp;&nbsp;HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS&nbsp;&nbsp;HOW TO PROCEED WITH TROUBLESHOOTING&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000G4HR_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">OPERATION FLOW
+</span></p>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>Perform troubleshooting in accordance with the procedure below. The following is an outline of basic troubleshooting procedure. Confirm the troubleshooting procedure for the circuit you are working on before beginning troubleshooting.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">1.VEHICLE BROUGHT TO WORKSHOP
+</span></p>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">2.CUSTOMER PROBLEM ANALYSIS
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>Ask the customer about the conditions and environment when the problem occurred.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">3.INSPECT BATTERY VOLTAGE
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>Measure the battery voltage.
+</p>
+<dl class="spec">
+<dt class="spec">Standard voltage:</dt>
+<dd class="spec"><p>for 12 V battery: 11 to 14 V
+</p>
+<p>for 24 V battery: 20 to 24 V
+</p>
+</dd>
+</dl>
+<br>
+<p>If the voltage is below 11 V or 20 V, recharge or replace the battery before proceeding.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">4.SYMPTOM CONFIRMATION AND DTC (AND FREEZE FRAME DATA) CHECK
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>Visually check the wire harnesses, connectors and fuses for open and short circuits.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>Warm up the engine to the normal operating temperature.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>Confirm the problem symptoms and conditions, and check for DTCs.
+</p>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Result
+</th>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">DTC is output
+</td>
+<td class="alcenter">Go to step 5
+</td>
+</tr>
+<tr>
+<td class="alcenter">DTC is not output
+</td>
+<td class="alcenter">Go to step 6
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">5.DTC CHART
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>Find the output DTC in the DTC chart. Look at the Trouble Area column for a list of potentially malfunctioning circuits and/or parts.
+</p>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">Go to step 7
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">6.PROBLEM SYMPTOMS CHART
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>Find the problem symptoms in the problem symptoms table. Look at the Suspected Area column for a list of potentially malfunctioning circuits and/or parts.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">7.CIRCUIT INSPECTION OR PARTS INSPECTION
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>Identify the malfunctioning circuit or part.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">8.ADJUST, REPAIR OR REPLACE
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>Adjust, repair or replace the malfunctioning circuit or parts.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">9.CONFIRMATION TEST
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>After the adjustment, repairs or replacement of components, confirm that the malfunction no longer exists. If the malfunction does not recur, perform a confirmation test under the same conditions and in the same environment as when the malfunction first occurred.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>END
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">CUSTOMER PROBLEM ANALYSIS
+</span></p>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When troubleshooting, confirm that the problem symptoms have been accurately identified. Preconceptions should be discarded in order to make an accurate judgment. To clearly understand what the problem symptoms are, it is extremely important to ask the customer about the problem and the conditions at the time the malfunction occurred.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Gather as much information as possible for reference. Past problems that seem unrelated may also help in some cases.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The following 5 items are important points for problem analysis:
+</p>
+<table summary="">
+<colgroup>
+<col style="width:50%">
+<col style="width:50%">
+</colgroup>
+<tbody>
+<tr>
+<td>What
+</td>
+<td>Vehicle model, system name
+</td>
+</tr>
+<tr>
+<td>When
+</td>
+<td>Date, time, occurrence frequency
+</td>
+</tr>
+<tr>
+<td>Where
+</td>
+<td>Road conditions
+</td>
+</tr>
+<tr>
+<td>Under what conditions?
+</td>
+<td>Driving conditions, weather conditions
+</td>
+</tr>
+<tr>
+<td>How did it happen?
+</td>
+<td>Problem symptoms
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">SYMPTOM CONFIRMATION AND DIAGNOSTIC TROUBLE CODE
+</span></p>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>The diagnostic system in this vehicle has various functions.
+</p>
+</dd>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The first function is the Diagnostic Trouble Code (DTC) check. A DTC is a code stored in the ECU memory whenever a malfunction in the signal circuits to the ECU occurs. In a DTC check, DTCs stored by a previous malfunction can be checked by a technician during troubleshooting.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Another function is the Input Signal Check, which checks if the signals from various switches are sent to the ECU correctly.
+</p>
+<p>By using these functions, the problem areas can be narrowed down and troubleshooting can be more effective. Diagnostic functions are incorporated in the following systems of this vehicle.
+</p>
+<table summary="">
+<colgroup>
+<col style="width:23%">
+<col style="width:11%">
+<col style="width:11%">
+<col style="width:11%">
+<col style="width:11%">
+<col style="width:11%">
+<col style="width:11%">
+<col style="width:10%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter" rowspan="2">System
+</th>
+<th class="alcenter" colspan="7">Symptom Confirmation and Diagnostic Trouble Code
+</th>
+</tr>
+<tr>
+<th class="alcenter">DTC Check
+<br>
+(Normal Mode)
+</th>
+<th class="alcenter">DTC Check
+<br>
+(Check Mode)
+</th>
+<th class="alcenter">Freeze Frame Data
+</th>
+<th class="alcenter">Sensor Check/Test Mode (Input Signal Check)
+</th>
+<th class="alcenter">Data List
+</th>
+<th class="alcenter">Active Test
+</th>
+<th class="alcenter">Customize Parameter
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">SFI System (1GR-FE)
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">ECD system (1HZ)
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">ECD system (1VD-FTV)
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Transfer System (BF1B)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Transfer System (HF1A)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Anti-lock Brake System
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Power Steering System
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Audio and Visual System
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Charging System (1GR-FE)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Charging System (1HZ)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Charging System (1VD-FTV)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Power Door Lock Control System
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Wireless Door Lock Control System
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Key Reminder Warning System
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Immobiliser System
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Lighting System (INT)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Meter / Gauge System
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alleft">Clock System
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Airbag System
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Seat Belt Warning System
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alleft">Air Conditioning System
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Power Window Control System
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Window Defogger System
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Power Mirror Control System
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Wiper and Washer System
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Lighting System (EXT)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Horn System
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Winch System
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</dd>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>In the DTC check, it is very important to determine whether the problem indicated by the DTC either: 1) still occurs, or 2) occurred in the past but has returned to normal. In addition, the DTC should be compared to the problem symptom to see if they are related. For this reason, DTCs should be checked before and after confirmation of symptoms (i.e., whether or not problem symptoms exist) to determine current system conditions, as shown in the flowchart below.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Never skip the DTC check. Failing to check for DTCs, depending on the case, may result in unnecessary troubleshooting for systems operating normally or lead to repairs not related to the problem. Follow the procedure listed in the flowchart in the correct order.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The following flowchart shows how to proceed with troubleshooting using the DTC check. Directions from the flowchart will indicate how to proceed either to DTC troubleshooting or to the troubleshooting of each problem symptom.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">1.DTC CHECK
+</span></p>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">2.MAKE A NOTE OF DTC DISPLAYED AND THEN CLEAR DTCs
+</span></p>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">3.SYMPTOM CONFIRMATION
+</span></p>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Result
+</th>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">No symptoms exist
+</td>
+<td class="alcenter">Go to step 4
+</td>
+</tr>
+<tr>
+<td class="alcenter">Symptoms exist
+</td>
+<td class="alcenter">Go to step 5
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">4.SIMULATION TEST USING SYMPTOM SIMULATION METHODS
+</span></p>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">5.DTC CHECK
+</span></p>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Result
+</th>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">DTCs are not output
+</td>
+<td class="alcenter">Go to step 6
+</td>
+</tr>
+<tr>
+<td class="alcenter">DTCs are output
+</td>
+<td class="alcenter">TROUBLESHOOT FOR PROBLEM INDICATED BY DTC
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">6.SYMPTOM CONFIRMATION
+</span></p>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Result
+</th>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">Symptoms exist
+</td>
+<td class="alcenter">TROUBLESHOOT FOR EACH PROBLEM SYMPTOM
+</td>
+</tr>
+<tr>
+<td class="alcenter">No symptoms exist
+</td>
+<td class="alcenter">END
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<p>If a DTC was displayed in the initial DTC check, the problem may have occurred in a wire harness or connector in that circuit in the past. Check the wire harness and connectors.
+</p>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">SYMPTOM SIMULATION
+</span></p>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>The most difficult case in troubleshooting is when no problem symptoms occur. In such a case, a thorough problem analysis must be carried out. A simulation of the same or similar conditions and environment in which the problem occurred in the customer's vehicle should be carried out. No matter how much skill or experience a technician has, troubleshooting without confirming the problem symptoms will lead to important repairs being overlooked and mistakes or delays.
+</p>
+</dd>
+</dl>
+<br>
+<dl class="spec">
+<dt class="spec">For example:</dt>
+<dd class="spec"><p>With a problem that only occurs when the engine is cold or as a result of vibration caused by the road during driving, the problem can never be determined if the symptoms are being checked on a stationary vehicle or a vehicle with a warmed-up engine. Vibration, heat or water penetration (moisture) is difficult to reproduce. The following symptom simulation tests are effective substitutes for the conditions and can be applied to a stationary vehicle. Important points in the symptom simulation test:
+</p>
+<p>In the symptom simulation test, the problem symptoms as well as the problem area or parts must be confirmed. First, narrow down the possible problem circuits according to the symptoms. Then, connect the tester and carry out the symptom simulation test, judging whether the circuit being tested is defective or normal. Also, confirm the problem symptoms at the same time. Refer to Problem Symptoms Table for each system to narrow down the possible causes.
+</p>
+<p>To reproduce DTCs, it is necessary to satisfy the respective DTC detection conditions.
+</p>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/D100732C05.png" alt="D100732C05" title="D100732C05">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">1.604,0.115 1.844,0.292</span>
+<span class="captionSize">0.24,0.177</span>
+<span class="fontsize">10</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">0.74,2.531 0.948,2.698</span>
+<span class="captionSize">0.208,0.167</span>
+<span class="fontsize">10</span>
+<span class="captionText">*b</span>
+</span>
+<span class="caption">
+<span class="points">1.531,4.073 1.75,4.271</span>
+<span class="captionSize">0.219,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">*a</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td class="alleft">Vibrate Slightly
+</td>
+</tr>
+<tr>
+<td class="alcenter">*b
+</td>
+<td class="alleft">Shake Slightly
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<p>VIBRATION METHOD: When a malfunction seems to occur as a result of vibration.
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>PARTS OR SENSORS
+</p>
+<p>Apply slight vibration with a finger to the part or sensor suspected to be the cause of the problem, and check whether the malfunction occurs.
+</p>
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3">
+<p>Applying strong vibration to relays may open the relays.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>CONNECTORS
+</p>
+<p>Slightly shake the connector vertically and horizontally.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iii.</div>
+<div class="step3Body">
+<p>WIRE HARNESS
+</p>
+<p>Slightly shake the wire harness vertically and horizontally.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>The connector joint and fulcrum of the vibration are the major areas that should be checked thoroughly.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>HEAT METHOD: When a malfunction seems to occur when the area in question is heated.
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>Heat the component that is the possible cause of the malfunction with a hair dryer or similar device. Check if the malfunction occurs.
+</p>
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Do not heat components to more than 60°C (140°F). Exceeding this temperature may damage the components.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Do not apply heat directly to parts in an ECU.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/D103428.png" alt="D103428" title="D103428">
+</div>
+</div>
+</div>
+<br>
+</div>
+<p>WATER SPRINKLING METHOD: When a malfunction seems to occur on a rainy day or in high-humidity.
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>Sprinkle water onto the vehicle and check if the malfunction occurs.
+</p>
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Never sprinkle water directly into the engine compartment. Indirectly change the temperature and humidity by spraying water onto the front of the radiator.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Never apply water directly onto the electronic components.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>If the vehicle has or had a water leak problem, the leak may have damaged the ECU or connections. Look for evidence of corrosion or short circuits. Proceed with caution during water tests.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/B107149.png" alt="B107149" title="B107149">
+</div>
+</div>
+</div>
+<br>
+</div>
+<p>HIGH ELECTRICAL LOAD METHOD: When a malfunction seems to occur when the electrical load is high.
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>Turn on the heater blower, headlights, rear window defogger and all other electrical loads. Check if the malfunction recurs.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">DIAGNOSTIC TROUBLE CODE CHART
+</span></p>
+<br>
+<p>Look for output Diagnostic Trouble Codes (DTCs) (from the DTC checks) in the Diagnostic Trouble Code chart of the appropriate section. Use the chart to determine the trouble area and the proper inspection procedure. A description of each of the columns of the chart is shown in the table below.
+</p>
+<table summary="">
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Item
+</th>
+<th class="alcenter">Description
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DTC No.
+</td>
+<td>Indicates the diagnostic trouble code.
+</td>
+</tr>
+<tr>
+<td>Detection Item
+</td>
+<td>Indicates the system or details of the problem.
+</td>
+</tr>
+<tr>
+<td>DTC Detection Condition
+</td>
+<td>Indicates the condition in which a DTC is stored.
+</td>
+</tr>
+<tr>
+<td>Trouble Area
+</td>
+<td>Indicates the suspected areas of the problem.
+</td>
+</tr>
+<tr>
+<td>Link
+</td>
+<td>Indicates the page where the inspection procedure for each circuit is to be found, or gives instruction for checking and repairs.
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">PROBLEM SYMPTOMS TABLE
+</span></p>
+<br>
+<p>When no DTC is output but the problem still occurs, use the Problem Symptoms Table. The suspected areas (circuits or parts) for each problem symptom are shown in the table. The suspected areas are listed in order of probability. A description of each of the table columns is shown in the following table.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>In some cases, the problem is not detected by the diagnostic system even though a problem symptom occurs. It is possible that the problem occurs outside the detection range of the diagnostic system, or that the problem occurs in a completely different system.
+</p>
+</dd>
+</dl>
+<br>
+<table summary="">
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Item
+</th>
+<th class="alcenter">Description
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Symptom
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>Suspected Area
+</td>
+<td>Indicates the circuit or part which needs to be checked.
+</td>
+</tr>
+<tr>
+<td>Link
+</td>
+<td>Indicates the page where the inspection procedure is located.
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">PROBLEM SYMPTOMS TABLE
+</span></p>
+<br>
+<p>When no DTC is output but the problem still occurs, use the Problem Symptoms Table. The suspected areas (circuits or parts) for each problem symptom are shown in the table. The suspected areas are listed in order of probability. A description of each of the table columns is shown in the following table.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>In some cases, the problem is not detected by the diagnostic system even though a problem symptom occurs. It is possible that the problem occurs outside the detection range of the diagnostic system, or that the problem occurs in a completely different system.
+</p>
+</dd>
+</dl>
+<br>
+<table summary="">
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Item
+</th>
+<th class="alcenter">Description
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Symptom
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>Suspected Area
+</td>
+<td>Indicates the circuit or part which needs to be checked.
+</td>
+</tr>
+<tr>
+<td>Link
+</td>
+<td>Indicates the page where the inspection procedure is located.
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS071">
+    <part type="conn" code="A38">
+      <text>B E</text>
+      <name>Headlight Assembly LH</name>
+      <name type="inner">Clearance</name>
+    </part>
+    <part type="conn" code="I91">
+      <text>E B</text>
+      <name>Headlight Assembly RH</name>
+      <name type="inner">Clearance</name>
+    </part>
+    <part type="conn" code="L24">
+      <text>OFF EL T H</text>
+      <name>Headlight Dimmer Switch Assembly</name>
+      <name type="inner">Tail</name>
+      <name type="inner">Light Control Switch</name>
+      <name type="inner">Head</name>
+    </part>
+    <part type="conn" code="b4">
+      <name>License Plate Light Assembly</name>
+    </part>
+    <part type="conn" code="e1">
+      <name>License Plate Light Assembly</name>
+    </part>
+    <part type="conn" code="T15">
+      <name>License Plate Light Assembly LH</name>
+    </part>
+    <part type="conn" code="T16">
+      <name>License Plate Light Assembly LH</name>
+    </part>
+    <part type="conn" code="T13">
+      <name>License Plate Light Assembly RH</name>
+    </part>
+    <part type="conn" code="T12">
+      <name>License Plate Light Assembly RH</name>
+    </part>
+    <part type="conn" code="A22">
+      <name>No. 1 Junction Connector</name>
+    </part>
+    <part type="conn" code="L53">
+      <name>No. 31 Junction Connector</name>
+    </part>
+    <part type="conn" code="I104">
+      <name>No. 6 Junction Connector</name>
+    </part>
+    <part type="conn" code="I106">
+      <name>No. 9 Junction Connector</name>
+    </part>
+    <part type="conn" code="T7">
+      <text>TE E2</text>
+      <name>Rear Combination Light Assembly LH</name>
+      <name type="inner">Tail</name>
+    </part>
+    <part type="conn" code="T5">
+      <text>E B</text>
+      <name>Rear Combination Light Assembly LH</name>
+      <name type="inner">Tail</name>
+    </part>
+    <part type="conn" code="T17">
+      <text>E TL</text>
+      <name>Rear Combination Light Assembly LH</name>
+      <name type="inner">Tail</name>
+    </part>
+    <part type="conn" code="T14">
+      <text>TL E</text>
+      <name>Rear Combination Light Assembly RH</name>
+      <name type="inner">Tail</name>
+    </part>
+    <part type="conn" code="T6">
+      <text>TE E2</text>
+      <name>Rear Combination Light Assembly RH</name>
+      <name type="inner">Tail</name>
+    </part>
+    <part type="conn" code="T1">
+      <text>E B</text>
+      <name>Rear Combination Light Assembly RH</name>
+      <name type="inner">Tail</name>
+    </part>
+    <part type="fuse" code="FUSE57">
+      <text>MAIN1</text>
+    </part>
+    <part type="fuse" code="FUSE18">
+      <text>TAIL</text>
+    </part>
+  </ttl>
+</EWDSearch>

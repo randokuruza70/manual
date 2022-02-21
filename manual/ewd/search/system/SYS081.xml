@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS081">
+    <part type="conn" code="A6,I2">
+      <name>A/C Pressure Switch (Cooler Refrigerant Liquid Pipe B)</name>
+    </part>
+    <part type="conn" code="I7">
+      <text>E M1 M2 HI</text>
+      <name>Blower Resistor</name>
+    </part>
+    <part type="conn" code="I88">
+      <text>MGC LOCK SG GND TE B/V PSW B IGN ACT AC1</text>
+      <name>Cooler Stabilizer Amplifier Assembly</name>
+    </part>
+    <part type="conn" code="C2">
+      <text>NE NE-</text>
+      <name>Crank Position Sensor</name>
+    </part>
+    <part type="conn" code="C42">
+      <text>NE+ NE- GND</text>
+      <name>Crank Position Sensor</name>
+    </part>
+    <part type="conn" code="C69,C116">
+      <name>Diesel Engine Coolant Temperature Sensor</name>
+    </part>
+    <part type="conn" code="C1">
+      <name>E.F.I. Engine Coolant Temperature Sensor</name>
+    </part>
+    <part type="conn" code="A29,C39,I84">
+      <text>ECM ACT AC1 NE+ NE- TACH ETHW THW E2</text>
+    </part>
+    <part type="conn" code="I87">
+      <text>M</text>
+      <name>Front Blower Motor (Heater Blower Case)</name>
+    </part>
+    <part type="conn" code="I15">
+      <text>VR1 VR2 E LO M1 M2 HI A/C</text>
+      <name>Heater Blower Switch Assembly</name>
+    </part>
+    <part type="conn" code="C23">
+      <text>SSR+ SSR- MG+</text>
+      <name>Magnet Clutch Assembly</name>
+    </part>
+    <part type="conn" code="I16">
+      <name>No. 1 Cooler Thermistor</name>
+    </part>
+    <part type="conn" code="I59,I67">
+      <name>No. 10 Junction Connector , No. 16 Junction Connector</name>
+    </part>
+    <part type="conn" code="I59,I70">
+      <name>No. 10 Junction Connector , No. 19 Junction Connector</name>
+    </part>
+    <part type="conn" code="I67,I107">
+      <name>No. 12 Junction Connector , No. 16 Junction Connector</name>
+    </part>
+    <part type="conn" code="I108,I109">
+      <name>No. 13 Junction Connector</name>
+    </part>
+    <part type="conn" code="I97">
+      <name>No. 32 Junction Connector</name>
+    </part>
+    <part type="conn" code="C38">
+      <name>No. 4 Junction Connector</name>
+    </part>
+    <part type="conn" code="I94">
+      <name>No. 7 Junction Connector</name>
+    </part>
+    <part type="conn" code="I105">
+      <name>No. 8 Junction Connector</name>
+    </part>
+    <part type="conn" code="C102,C103">
+      <name>Short Connector</name>
+    </part>
+    <part type="fuse" code="FUSE4">
+      <text>A/C</text>
+    </part>
+    <part type="fuse" code="FUSE23">
+      <text>GAUGE</text>
+    </part>
+    <part type="fuse" code="FUSE39">
+      <text>HTR</text>
+    </part>
+  </ttl>
+</EWDSearch>

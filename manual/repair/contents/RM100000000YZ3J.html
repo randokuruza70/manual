@@ -1,0 +1,1311 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">Engine / Hybrid System</span>
+<span class="globalSection">_029760</span>
+<span class="globalSectionName">1VD-FTV ENGINE CONTROL</span>
+<span class="globalTitle">_0282525</span>
+<span class="globalTitleName">ECD SYSTEM(w/ DPF)</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>1VD-FTV ENGINE CONTROL&nbsp;&nbsp;ECD SYSTEM(w/ DPF)&nbsp;&nbsp;P062F&nbsp;&nbsp;Internal Control Module EEPROM Error&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000YZ3J_02" class="category no03">
+<h2>DESCRIPTION</h2>
+<div class="content5">
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:20%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:10%">
+<col style="width:9%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC No.
+</th>
+<th class="alcenter">Detection Item
+</th>
+<th class="alcenter">DTC Detection Condition
+</th>
+<th class="alcenter">Trouble Area
+</th>
+<th class="alcenter">MIL
+</th>
+<th class="alcenter">Memory
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">P062F
+</td>
+<td class="alleft">Internal Control Module EEPROM Error
+</td>
+<td class="alleft">When any condition below is met (1 trip detection logic):
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Injector compensation code is not registered.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Wrong injector compensation code is registered.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Pilot quantity learning value is not registered.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Catalyst deterioration learning value is no tregistered.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Crank time compensation learning value is not registered.*
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>A/F sensor compensation learning value is not registered.*
+</p>
+</div>
+</div>
+</div>
+<br>
+*: When this malfunction occurs, the MIL does not illuminate.
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Injector compensation code
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Pilot quantity learning value
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>A/F sensor compensation learning value
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Catalyst thermal deterioration value
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Crank time compensation learning value
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">Comes on
+</td>
+<td class="alleft">DTC stored
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When an fuel injector is replaced, the new injector compensation code must be input into the ECM. When the ECM is replaced, all of the existing injector compensation codes must be input into the new ECM.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Injector compensation codes are unique, 30-digit, alphanumeric values printed on the head portion of each fuel injector. If an incorrect injector compensation code is input into the ECM, the engine assembly may rattle or engine idling may become rough. In addition, engine failure may occur and the life of the engine may be shortened.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When an fuel injector is replaced, perform pilot quantity learning. When the ECM is replaced, all of the existing pilot quantity learning values must be input into the new ECM.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>When replacing the ECM with a new one, if the injector compensation code, pilot quantity learning value and/or catalyst thermal deterioration value are not entered, DTC P062F will be stored.
+</p>
+</dd>
+</dl>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">When replacing the ECM with a new one, input all learning values and codes into the new ECM as follows:
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>Prior to replacing the ECM, use the GTS to read and save each learning value and code from the original ECM.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>After installing a new ECM, input the saved learning values and codes into the new ECM using the GTS.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>Turn the ignition switch off and turn the GTS off.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>Wait for at least 30 seconds.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>Turn the ignition switch to ON and turn the GTS on.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">f.</div>
+<div class="step2Body">
+<p>Clear DTC P062F stored in the ECM using the GTS.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Each fuel injector has different fuel injection characteristics. In order to optimize the fuel injections, the ECM uses the injector compensation codes to balance the different fuel injections between each fuel injector.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When you first turn the ignition switch to ON after replacing the ECM and other component(s), DTC P062F is stored. Manually clear the DTC upon completion of injector compensation code registration.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<table summary="">
+<colgroup>
+<col style="width:50%">
+<col style="width:50%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Replacement Part
+</th>
+<th class="alcenter">Utility Item
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">ECM
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Learning Values Save
+</p>
+<p>(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">201608,999999,_51,_029760,_0282525,RM100000000Z1DB_02_0007,</span></a>)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Learning Values Write
+</p>
+<p>(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">201608,999999,_51,_029760,_0282525,RM100000000Z1DB_02_0008,</span></a>)
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">Fuel injector
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Input Injector Compensation Code
+</p>
+<p>(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">201608,999999,_51,_029760,_0282525,RM100000000Z1DB_02_0003,</span></a>)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Pilot Quantity Learning
+</p>
+<p>(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">201608,999999,_51,_029760,_0282525,RM100000000Z1DB_02_0009,</span></a>)
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000YZ3J_04" class="category no03">
+<h2>CONFIRMATION DRIVING PATTERN</h2>
+<div class="content5">
+<table summary="">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC No.
+</th>
+<th class="alcenter">DTC Detection Drive Pattern
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">P062F
+</td>
+<td>Ignition switch ON for 1 second
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM100000000YZ3J_03" class="category no10">
+<h2>CAUTION / NOTICE / HINT</h2>
+<div class="content5">
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>After replacing the ECM, the new ECM needs registration (See page <a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV ENGINE CONTROL&gt;ECD SYSTEM(w/ DPF)&gt;REGISTRATION<span class="invisible">201608,999999,_51,_029760,_0282525,RM100000000Z1DB,</span></a>) and initialization (See page <a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV ENGINE CONTROL&gt;ECD SYSTEM(w/ DPF)&gt;INITIALIZATION<span class="invisible">201608,999999,_51,_029760,_0282525,RM100000000YXU9,</span></a>).
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>After replacing the fuel supply pump assembly, the ECM needs initialization.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV ENGINE CONTROL&gt;ECD SYSTEM(w/ DPF)&gt;INITIALIZATION<span class="invisible">201608,999999,_51,_029760,_0282525,RM100000000YXU9,</span></a>
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>After replacing an fuel injector, the ECM needs registration.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV ENGINE CONTROL&gt;ECD SYSTEM(w/ DPF)&gt;REGISTRATION<span class="invisible">201608,999999,_51,_029760,_0282525,RM100000000Z1DB,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>Read freeze frame data using the GTS. Freeze frame data records the engine condition when malfunctions are detected. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, and other data from the time the malfunction occurred.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000YZ3J_01" class="category no01">
+<h2>PROCEDURE</h2>
+<div class="testgrp" id="RM100000000YZ3J_01_0001">
+<div class="testtitle"><span class="titleText">1.LEARNING VALUES CONFIRMATION</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Turn the ignition switch to ON and turn the GTS on.
+</p>
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3">
+<p>Do not start the engine.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Enter the following menus: Engine and ECT / Utility / Learning values confirmation.
+</p>
+<dl class="gtsUtilityNormal">
+<dt class="gtsUtilityNormal">Powertrain &gt; Engine and ECT &gt; Utility</dt>
+<dd class="gtsUtilityNormal">
+<table summary="utility" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Learning Values Confirmation
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsUtilityNormal gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50005</span>
+<span class="gtsEcu">234</span>
+<span class="gtsUtil">242</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000YZ3J_01_0001_1" summary="">
+<colgroup>
+<col style="width:79%">
+<col style="width:20%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Result
+</th>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>The injector compensation codes are not input
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td>The injector compensation codes registered in the ECM are different than the codes imprinted on the injectors
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td>The pilot quantity learning values are set to the default values
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+<tr>
+<td>Except above
+</td>
+<td class="alcenter">C
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When the catalyst deterioration learning values are set to the default values, "FFFFFFFF" is displayed.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When the pilot quantity learning values are set to the default values, "7FFF" is displayed.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">2.REGISTER INJECTOR COMPENSATION CODE</span></div>
+<div class="judgeValueNext"><p>B
+</p></div>
+<div class="nextAction"><span class="titleText">7.LEARNING VALUES WRITE</span></div>
+<div class="judgeValueNext"><p>C
+</p></div>
+<div class="nextAction"><span class="titleText">4.CHECK DTC OUTPUT</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000YZ3J_01_0002">
+<div class="testtitle"><span class="titleText">2.REGISTER INJECTOR COMPENSATION CODE</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Register the injector compensation code.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV ENGINE CONTROL&gt;ECD SYSTEM(w/ DPF)&gt;REGISTRATION<span class="invisible">201608,999999,_51,_029760,_0282525,RM100000000Z1DB_02_0003,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000YZ3J_01_0002_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NEXT
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>NEXT
+</p></div>
+<div class="nextAction"><span class="titleText">3.PILOT QUANTITY LEARNING</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000YZ3J_01_0003">
+<div class="testtitle"><span class="titleText">3.PILOT QUANTITY LEARNING</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Perform the fuel injector pilot quantity learning.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV ENGINE CONTROL&gt;ECD SYSTEM(w/ DPF)&gt;REGISTRATION<span class="invisible">201608,999999,_51,_029760,_0282525,RM100000000Z1DB_02_0009,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000YZ3J_01_0003_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NEXT
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>NEXT
+</p></div>
+<div class="nextAction"><span class="titleText">4.CHECK DTC OUTPUT</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000YZ3J_01_0004">
+<div class="testtitle"><span class="titleText">4.CHECK DTC OUTPUT</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Clear the DTCs.
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Powertrain &gt; Engine and ECT &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Turn the ignition switch off and leave the vehicle for 30 seconds or more.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Turn the ignition switch to ON for 1 second.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>Enter the following menus: Engine and ECT / Trouble Codes.
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Powertrain &gt; Engine and ECT &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>Read the DTCs.
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000YZ3J_01_0004_1" summary="" class="half">
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Result
+</th>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">P062F is output
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">No DTC is output
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">5.REPLACE ECM</span></div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">END</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000YZ3J_01_0005">
+<div class="testtitle"><span class="titleText">5.REPLACE ECM</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Replace the ECM.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV ENGINE CONTROL&gt;ECM&gt;REMOVAL<span class="invisible">201408,201701,_51,_029760,_0135352,RM100000000FJHY,</span><span class="invisible">201701,999999,_51,_029760,_0135352,RM1000000013IGX,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000YZ3J_01_0005_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NEXT
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>NEXT
+</p></div>
+<div class="nextAction"><span class="titleText">6.CONFIRM WHETHER MALFUNCTION HAS BEEN SUCCESSFULLY REPAIRED</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000YZ3J_01_0007">
+<div class="testtitle"><span class="titleText">6.CONFIRM WHETHER MALFUNCTION HAS BEEN SUCCESSFULLY REPAIRED</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Clear the DTCs.
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Powertrain &gt; Engine and ECT &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Turn the ignition switch off and leave the vehicle for 30 seconds or more.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Turn the ignition switch to ON for 1 second.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>Enter the following menus: Engine and ECT / Trouble Codes.
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Powertrain &gt; Engine and ECT &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>Confirm that the DTC is not output again.
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000YZ3J_01_0007_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NEXT
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>NEXT
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">END</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000YZ3J_01_0009">
+<div class="testtitle"><span class="titleText">7.LEARNING VALUES WRITE</span></div>
+<div class="content6">
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>When replacing the ECM, after performing "Learning Values Save" to save the learned values from the old ECM using the GTS and replacing the old ECM with a new one, "Learning Values Write" was not performed using the GTS causing this DTC to be output.
+</p>
+</dd>
+</dl>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Install the old ECM.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Turn the ignition switch to ON and turn the GTS on.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Enter the following menus: Engine and ECT / Utility / Learning values save.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV ENGINE CONTROL&gt;ECD SYSTEM(w/ DPF)&gt;REGISTRATION<span class="invisible">201608,999999,_51,_029760,_0282525,RM100000000Z1DB_02_0007,</span></a>
+</p>
+<dl class="gtsUtilityNormal">
+<dt class="gtsUtilityNormal">Powertrain &gt; Engine and ECT &gt; Utility</dt>
+<dd class="gtsUtilityNormal">
+<table summary="utility" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Learning Values Save
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsUtilityNormal gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50005</span>
+<span class="gtsEcu">234</span>
+<span class="gtsUtil">240</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>Remove the old ECM.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>Install a new ECM.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">g.</div>
+<div class="test1Body">
+<p>Enter the following menus: Engine and ECT / Utility / Learning values write.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV ENGINE CONTROL&gt;ECD SYSTEM(w/ DPF)&gt;REGISTRATION<span class="invisible">201608,999999,_51,_029760,_0282525,RM100000000Z1DB_02_0008,</span></a>
+</p>
+<dl class="gtsUtilityNormal">
+<dt class="gtsUtilityNormal">Powertrain &gt; Engine and ECT &gt; Utility</dt>
+<dd class="gtsUtilityNormal">
+<table summary="utility" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Learning Values Write
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsUtilityNormal gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50005</span>
+<span class="gtsEcu">234</span>
+<span class="gtsUtil">241</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000YZ3J_01_0009_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NEXT
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>NEXT
+</p></div>
+<div class="nextAction"><span class="titleText">8.LEARNING VALUES CONFIRMATION</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000YZ3J_01_0010">
+<div class="testtitle"><span class="titleText">8.LEARNING VALUES CONFIRMATION</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Turn the ignition switch to ON and turn the GTS on.
+</p>
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3">
+<p>Do not start the engine.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Enter the following menus: Engine and ECT / Utility / Learning values confirmation.
+</p>
+<dl class="gtsUtilityNormal">
+<dt class="gtsUtilityNormal">Powertrain &gt; Engine and ECT &gt; Utility</dt>
+<dd class="gtsUtilityNormal">
+<table summary="utility" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Learning Values Confirmation
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsUtilityNormal gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50005</span>
+<span class="gtsEcu">234</span>
+<span class="gtsUtil">242</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000YZ3J_01_0010_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Result
+</th>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">The pilot quantity learning values are set to the default values
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alleft">The catalyst deterioration learning values are set to the default values
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+<tr>
+<td class="alleft">Except above
+</td>
+<td class="alcenter">C
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When the catalyst deterioration learning values are set to the default values, "FFFFFFFF" is displayed.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When the pilot quantity learning values are set to the default values, "7FFF" is displayed.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">3.PILOT QUANTITY LEARNING</span></div>
+<div class="judgeValueNext"><p>B
+</p></div>
+<div class="nextAction"><span class="titleText">9.CATALYST RECORD CLEAR</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000YZ3J_01_0012">
+<div class="testtitle"><span class="titleText">9.CATALYST RECORD CLEAR</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Perform the catalyst record clear.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV ENGINE CONTROL&gt;ECD SYSTEM(w/ DPF)&gt;INITIALIZATION<span class="invisible">201608,999999,_51,_029760,_0282525,RM100000000YXU9,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000YZ3J_01_0012_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NEXT
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>NEXT
+</p></div>
+<div class="nextAction"><span class="titleText">4.CHECK DTC OUTPUT</span></div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

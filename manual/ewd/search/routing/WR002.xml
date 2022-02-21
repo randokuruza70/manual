@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="WR002">
+    <part type="conn" code="C21">
+      <name>Air Fuel Ratio Sensor (Bank 1 Sensor 1)</name>
+    </part>
+    <part type="conn" code="C32">
+      <name>Back-Up Light Switch Assembly</name>
+    </part>
+    <part type="conn" code="C26">
+      <name>Cam Timing Oil Control Valve Assembly LH (Bank 2)</name>
+    </part>
+    <part type="conn" code="C27">
+      <name>Cam Timing Oil Control Valve Assembly RH (Bank 1)</name>
+    </part>
+    <part type="conn" code="C35">
+      <name>Center Differential Lock Indicator Switch (No. 1 Transfer Indicator Switch)</name>
+    </part>
+    <part type="conn" code="C2">
+      <name>Crank Position Sensor</name>
+    </part>
+    <part type="conn" code="C1">
+      <name>E.F.I. Engine Coolant Temperature Sensor</name>
+    </part>
+    <part type="conn" code="C39">
+      <text>ECM</text>
+    </part>
+    <part type="conn" code="C30">
+      <name>Engine Oil Pressure Switch Assembly</name>
+    </part>
+    <part type="conn" code="C8">
+      <name>Fuel Injector Assembly No. 1</name>
+    </part>
+    <part type="conn" code="C20">
+      <name>Fuel Injector Assembly No. 2</name>
+    </part>
+    <part type="conn" code="C9">
+      <name>Fuel Injector Assembly No. 3</name>
+    </part>
+    <part type="conn" code="C25">
+      <name>Fuel Injector Assembly No. 4</name>
+    </part>
+    <part type="conn" code="C11">
+      <name>Fuel Injector Assembly No. 5</name>
+    </part>
+    <part type="conn" code="C16">
+      <name>Fuel Injector Assembly No. 6</name>
+    </part>
+    <part type="conn" code="C31">
+      <name>Fuel Pump</name>
+    </part>
+    <part type="conn" code="C97">
+      <name>Fuel Sender Gage Assembly (Front)</name>
+    </part>
+    <part type="conn" code="C5">
+      <name>Ignition Coil Assembly No. 1</name>
+    </part>
+    <part type="conn" code="C14">
+      <name>Ignition Coil Assembly No. 2</name>
+    </part>
+    <part type="conn" code="C6">
+      <name>Ignition Coil Assembly No. 3</name>
+    </part>
+    <part type="conn" code="C13">
+      <name>Ignition Coil Assembly No. 4</name>
+    </part>
+    <part type="conn" code="C7">
+      <name>Ignition Coil Assembly No. 5</name>
+    </part>
+    <part type="conn" code="C12">
+      <name>Ignition Coil Assembly No. 6</name>
+    </part>
+    <part type="conn" code="C3">
+      <name>Intake Mass Air Flow Meter Sub-Assembly</name>
+    </part>
+    <part type="conn" code="C23">
+      <name>Magnet Clutch Assembly</name>
+    </part>
+    <part type="conn" code="C37">
+      <name>No. 1 Vacuum Switching Valve (ACIS)</name>
+    </part>
+    <part type="conn" code="C19">
+      <name>No. 2 Air Fuel Ratio Sensor (Bank 2 Sensor 1)</name>
+    </part>
+    <part type="conn" code="C17">
+      <name>No. 2 Oxygen Sensor (Bank 2 Sensor 2)</name>
+    </part>
+    <part type="conn" code="C38">
+      <name>No. 4 Junction Connector</name>
+    </part>
+    <part type="conn" code="C29">
+      <name>Oil Pressure Sender Gage Assembly</name>
+    </part>
+    <part type="conn" code="C105">
+      <name>Oil Pressure Sender Gage Assembly</name>
+    </part>
+    <part type="conn" code="C18">
+      <name>Oxygen Sensor (Bank 1 Sensor 2)</name>
+    </part>
+    <part type="conn" code="C28">
+      <name>Power Steering Oil Pressure Switch</name>
+    </part>
+    <part type="conn" code="C104">
+      <name>Purge VSV</name>
+    </part>
+    <part type="conn" code="C15">
+      <name>Purge VSV</name>
+    </part>
+    <part type="conn" code="C10">
+      <name>Radio Setting Condenser (Ignition)</name>
+    </part>
+    <part type="conn" code="C96">
+      <name>Speedometer Sensor</name>
+    </part>
+    <part type="conn" code="C4">
+      <name>Throttle Body with Motor Assembly</name>
+    </part>
+    <part type="conn" code="C36">
+      <name>Transfer L4 Position Switch (No. 1 Transfer Indicator Switch)</name>
+    </part>
+    <part type="conn" code="C24">
+      <name>VVT Sensor (Bank 1)</name>
+    </part>
+    <part type="conn" code="C22">
+      <name>VVT Sensor (Bank 2)</name>
+    </part>
+  </ttl>
+</EWDSearch>

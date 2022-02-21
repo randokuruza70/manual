@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- #  DTD VERSION 1.7  UPDATE Dec. 04, 2014    -->
+<!ELEMENT tmc-service-txt-search (pub+)>
+<!ELEMENT pub (servcat+)>
+<!ATTLIST pub
+	id ID #REQUIRED
+	type (RM | NM | EM | BM) #REQUIRED
+>
+<!ELEMENT servcat (section+)>
+<!ATTLIST servcat
+	id CDATA #REQUIRED
+	t CDATA #REQUIRED
+>
+<!ELEMENT section (ttl+)>
+<!ATTLIST section
+	id ID #REQUIRED
+	t CDATA #REQUIRED
+>
+<!ELEMENT ttl (ncf-para+ | (emlink?, para*))>
+<!ATTLIST ttl
+	id ID #REQUIRED
+	t CDATA #REQUIRED
+	term-id-from CDATA #IMPLIED
+>
+<!ELEMENT ncf-para (para)>
+<!ATTLIST ncf-para
+	ncf-para-category CDATA #REQUIRED
+	t CDATA #REQUIRED
+>
+<!ELEMENT emlink EMPTY>
+<!ATTLIST emlink
+	type CDATA #REQUIRED
+	code CDATA #REQUIRED
+>
+<!ELEMENT para ((name+, (p*, parts*)?) | (emlink, name, parts))>
+<!ATTLIST para
+	category CDATA #REQUIRED
+	id ID #REQUIRED
+	term-id-from CDATA #REQUIRED
+>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT p EMPTY>
+<!ATTLIST p
+	id ID #REQUIRED
+	t CDATA #REQUIRED
+>
+<!ELEMENT parts EMPTY>
+<!ATTLIST parts
+	parts-id CDATA #REQUIRED
+	t CDATA #REQUIRED
+>

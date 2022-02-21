@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="WR011">
+    <part type="conn" code="I43">
+      <name>Accelerator Pedal Sensor Assembly</name>
+    </part>
+    <part type="conn" code="I51">
+      <name>Airbag Sensor Assembly</name>
+    </part>
+    <part type="conn" code="I7">
+      <name>Blower Resistor</name>
+    </part>
+    <part type="conn" code="I50">
+      <name>Clutch Switch Assembly</name>
+    </part>
+    <part type="conn" code="I88">
+      <name>Cooler Stabilizer Amplifier Assembly</name>
+    </part>
+    <part type="conn" code="I11">
+      <name>Cooler Stabilizer Amplifier Assembly</name>
+    </part>
+    <part type="conn" code="I12">
+      <name>Cooler Stabilizer Amplifier Assembly</name>
+    </part>
+    <part type="conn" code="I9">
+      <name>Deceleration Sensor</name>
+    </part>
+    <part type="conn" code="I20">
+      <name>Diode (Door Courtesy)</name>
+    </part>
+    <part type="conn" code="I21">
+      <name>Diode (Interior Light)</name>
+    </part>
+    <part type="conn" code="I45">
+      <name>Diode (Sub Tank Relay)</name>
+    </part>
+    <part type="conn" code="I24">
+      <name>Diode (Transfer L4 Position Switch)</name>
+    </part>
+    <part type="conn" code="I17">
+      <text>DLC3</text>
+    </part>
+    <part type="conn" code="I5">
+      <name>Front Blower Motor (Heater Blower Case)</name>
+    </part>
+    <part type="conn" code="I87">
+      <name>Front Blower Motor (Heater Blower Case)</name>
+    </part>
+    <part type="conn" code="I15">
+      <name>Heater Blower Switch Assembly</name>
+    </part>
+    <part type="conn" code="I49">
+      <name>Motor Antenna Control Relay</name>
+    </part>
+    <part type="conn" code="I100">
+      <name>No. 1 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I79">
+      <name>No. 1 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I78">
+      <name>No. 1 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I77">
+      <name>No. 1 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I16">
+      <name>No. 1 Cooler Thermistor</name>
+    </part>
+    <part type="conn" code="I13">
+      <name>No. 1 Heater Control Indicator Light Assembly</name>
+    </part>
+    <part type="conn" code="I67">
+      <name>No. 16 Junction Connector</name>
+    </part>
+    <part type="conn" code="I99">
+      <name>No. 17 Junction Connector</name>
+    </part>
+    <part type="conn" code="I98">
+      <name>No. 17 Junction Connector</name>
+    </part>
+    <part type="conn" code="I75">
+      <name>No. 17 Junction Connector</name>
+    </part>
+    <part type="conn" code="I68">
+      <name>No. 17 Junction Connector</name>
+    </part>
+    <part type="conn" code="I69">
+      <name>No. 18 Junction Connector</name>
+    </part>
+    <part type="conn" code="I95">
+      <name>No. 18 Junction Connector</name>
+    </part>
+    <part type="conn" code="I70">
+      <name>No. 19 Junction Connector</name>
+    </part>
+    <part type="conn" code="I80">
+      <name>No. 2 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I82">
+      <name>No. 2 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I101">
+      <name>No. 2 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I8">
+      <name>No. 2 Four Wheel Drive Control ECU</name>
+    </part>
+    <part type="conn" code="I96">
+      <name>No. 20 Junction Connector</name>
+    </part>
+    <part type="conn" code="I71">
+      <name>No. 20 Junction Connector</name>
+    </part>
+    <part type="conn" code="I72">
+      <name>No. 21 Junction Connector</name>
+    </part>
+    <part type="conn" code="I73">
+      <name>No. 22 Junction Connector</name>
+    </part>
+    <part type="conn" code="I97">
+      <name>No. 32 Junction Connector</name>
+    </part>
+    <part type="conn" code="I117">
+      <name>No. 35 Junction Connector</name>
+    </part>
+    <part type="conn" code="I118">
+      <name>No. 36 Junction Connector</name>
+    </part>
+    <part type="conn" code="I93">
+      <name>No. 5 Junction Connector</name>
+    </part>
+    <part type="conn" code="I54">
+      <name>No. 5 Junction Connector</name>
+    </part>
+    <part type="conn" code="I122">
+      <name>No. 6 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I124">
+      <name>No. 6 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I123">
+      <name>No. 6 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I120">
+      <name>No. 6 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I121">
+      <name>No. 6 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I119">
+      <name>No. 6 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I94">
+      <name>No. 7 Junction Connector</name>
+    </part>
+    <part type="conn" code="I56">
+      <name>No. 7 Junction Connector</name>
+    </part>
+    <part type="conn" code="I92">
+      <name>Preheating Timer Assembly</name>
+    </part>
+    <part type="conn" code="I42">
+      <name>Preheating Timer Assembly</name>
+    </part>
+    <part type="conn" code="I14">
+      <name>Rear Heater Blower Switch</name>
+    </part>
+    <part type="conn" code="I19">
+      <name>Stop Light Switch Assembly</name>
+    </part>
+    <part type="conn" code="I28">
+      <name>Turn Signal Flasher Assembly</name>
+    </part>
+    <part type="conn" code="I26">
+      <name>Wiper Lock Switch (Limit Switch Assembly)</name>
+    </part>
+  </ttl>
+</EWDSearch>

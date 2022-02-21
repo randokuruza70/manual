@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE WireList SYSTEM "../../dtd/wire.dtd">
+<WireList ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <Area code="EG">
+    <Wire code="A" color="80CFE2" id="WIRE001">Engine Room Main Wire</Wire>
+    <Wire code="B" color="0E3192" id="WIRE002">No. 2 Engine Room Wire</Wire>
+    <Wire code="C" color="99CF16" id="WIRE003">Engine Wire</Wire>
+    <Wire code="D" color="F14E92" id="WIRE004">No. 2 Engine Wire</Wire>
+    <Wire code="E" color="31A388" id="WIRE005">Battery to Battery Cable</Wire>
+    <Wire code="F" color="1A832C" id="WIRE006">Battery to Ground Cable</Wire>
+    <Wire code="H" color="ED4A00" id="WIRE007">Differential Wire</Wire>
+    <Wire code="I" color="FFB300" id="WIRE008">Cowl Wire</Wire>
+    <Wire code="J" color="B54B00" id="WIRE009">No. 2 Cowl Wire</Wire>
+    <Wire code="K" color="737373" id="WIRE010">No. 3 Cowl Wire</Wire>
+    <Wire code="h" color="4F70B0" id="WIRE011">Sensor Wire</Wire>
+    <Wire code="k" color="003D19" id="WIRE012">Battery to Magnet Switch Cable</Wire>
+    <Wire code="m" color="530045" id="WIRE013">Magnet Switch to Winch Cable</Wire>
+    <Wire code="r" color="B30000" id="WIRE014">Fuel Pump Motor Wire</Wire>
+    <Wire code="s" color="037EB4" id="WIRE015">Winch Control Wire</Wire>
+    <Wire code="t" color="0A1051" id="WIRE016">Earth Wire</Wire>
+    <Wire code="u" color="3C0058" id="WIRE017">Lead Injector Wire</Wire>
+    <Wire code="v" color="0380B7" id="WIRE018">Connecting Wire</Wire>
+  </Area>
+  <Area code="INPANE">
+    <Wire code="A" color="80CFE2" id="WIRE019">Engine Room Main Wire</Wire>
+    <Wire code="I" color="FFB300" id="WIRE020">Cowl Wire</Wire>
+    <Wire code="L" color="34AB8F" id="WIRE021">Instrument Panel Wire</Wire>
+    <Wire code="M" color="0D2F8B" id="WIRE022">No. 2 Instrument Panel Wire</Wire>
+    <Wire code="N" color="197F2A" id="WIRE023">No. 3 Instrument Panel Wire</Wire>
+    <Wire code="O" color="CCCCC2" id="WIRE024">Front Door Wire RH</Wire>
+    <Wire code="P" color="5172B3" id="WIRE025">Front Door Wire LH</Wire>
+    <Wire code="S" color="F65095" id="WIRE026">Floor Wire</Wire>
+    <Wire code="U" color="17499" id="WIRE027">No. 3 Floor Wire</Wire>
+    <Wire code="Y" color="F24B00" id="WIRE028">No. 1 Roof Wire</Wire>
+  </Area>
+  <Area code="BODY">
+    <Wire code="C" color="99CF16" id="WIRE029">Engine Wire</Wire>
+    <Wire code="O" color="CCCCC2" id="WIRE030">Front Door Wire RH</Wire>
+    <Wire code="P" color="5172B3" id="WIRE031">Front Door Wire LH</Wire>
+    <Wire code="Q" color="1A862D" id="WIRE032">No. 2 Rear Door Wire</Wire>
+    <Wire code="R" color="4EB8A3" id="WIRE033">No. 1 Rear Door Wire</Wire>
+    <Wire code="S" color="F65095" id="WIRE034">Floor Wire</Wire>
+    <Wire code="T" color="FFFF00" id="WIRE035">No. 2 Floor Wire</Wire>
+    <Wire code="U" color="17499" id="WIRE036">No. 3 Floor Wire</Wire>
+    <Wire code="V" color="6A2990" id="WIRE037">Frame Wire</Wire>
+    <Wire code="W" color="33A88C" id="WIRE038">No. 2 Frame Wire</Wire>
+    <Wire code="X" color="361804" id="WIRE039">No. 3 Frame Wire</Wire>
+    <Wire code="Y" color="F24B00" id="WIRE040">No. 1 Roof Wire</Wire>
+    <Wire code="a" color="0D308F" id="WIRE041">No. 1 Back Door Wire</Wire>
+    <Wire code="b" color="00401A" id="WIRE042">No. 2 Back Door Wire</Wire>
+    <Wire code="c" color="7E7B09" id="WIRE043">No. 1 Rear Window Wire</Wire>
+    <Wire code="d" color="A32501" id="WIRE044">No. 2 Rear Window Wire</Wire>
+    <Wire code="e" color="CE5500" id="WIRE045">No. 3 Back Door Wire</Wire>
+    <Wire code="f" color="7DCBDE" id="WIRE046">No. 4 Back Door Wire</Wire>
+    <Wire code="i" color="FDB46C" id="WIRE047">Switch Wire LH</Wire>
+    <Wire code="j" color="CC0000" id="WIRE048">Switch Wire RH</Wire>
+  </Area>
+</WireList>

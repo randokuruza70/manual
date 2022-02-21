@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <note ewd="WIRE027" code="UI3" type="w2w">
+    <name>No. 3 Floor Wire and Cowl Wire</name>
+  </note>
+  <note ewd="WIRE027" code="UI4" type="w2w">
+    <name>No. 3 Floor Wire and Cowl Wire</name>
+  </note>
+  <note ewd="WIRE027" code="UI5" type="w2w">
+    <name>No. 3 Floor Wire and Cowl Wire</name>
+  </note>
+</EwdTree>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25T2E" style="font-size:6px;font-family:'Arial'" ver="2.1.2.9">
+	<text textID="1">* 1 :2-Door Pick-Up Body Type</text>
+	<text textID="2">* 2 :Except Pick-Up Body Type</text>
+	<text textID="3">* 3 :4-Door Pick-Up Body Type</text>
+	<text textID="4">Brake Actuator Assembly</text>
+	<text textID="5">Combination Meter Assembly</text>
+	<text textID="6">No. 5 Junction Connector</text>
+	<text textID="7">No. 21 Junction Connector</text>
+	<text textID="8">No. 28 Junction Connector</text>
+	<text textID="9">No. 31 Junction Connector</text>
+	<text textID="10">No. 35 Junction Connector</text>
+	<text textID="11">No. 36 Junction Connector</text>
+	<text textID="12">No. 37 Junction Connector</text>
+	<text textID="13">Tire Pressure</text>
+	<text textID="14">Tire Pressure Warning ECU and Receiver</text>
+	<text textID="15">Tire Pressure Warning Reset Switch</text>
+</texts>

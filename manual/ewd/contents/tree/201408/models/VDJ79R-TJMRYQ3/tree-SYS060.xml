@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS060" code="L25" type="conn" figID="1">
+    <name>Combination Meter Assembly</name>
+  </text>
+  <text ewd="SYS060" code="L24" type="conn" figID="9">
+    <name>Headlight Dimmer Switch Assembly</name>
+  </text>
+  <text ewd="SYS060" code="L39" type="conn" figID="8">
+    <name>No. 31 Junction Connector</name>
+  </text>
+  <text ewd="SYS060" code="T5" type="conn" figID="5">
+    <name>Rear Combination Light Assembly LH</name>
+  </text>
+  <text ewd="SYS060" code="FUSE18" type="fuse" figID="40">
+    <name>10A TAIL</name>
+  </text>
+  <text ewd="SYS060" code="FUSE25" type="fuse" figID="41">
+    <name>15A RR FOG</name>
+  </text>
+  <text ewd="SYS060" code="FUSE57" type="fuse" figID="39">
+    <name>50A MAIN1</name>
+  </text>
+  <text ewd="SYS060" code="CA" type="gp" figID="29">
+    <name />
+  </text>
+  <text ewd="SYS060" code="CC" type="gp" figID="28">
+    <name />
+  </text>
+  <text ewd="SYS060" code="LA" type="gp" figID="26">
+    <name />
+  </text>
+  <text ewd="SYS060" code="LB" type="gp" figID="25">
+    <name />
+  </text>
+  <text ewd="SYS060" code="TA" type="gp" figID="27">
+    <name />
+  </text>
+  <text ewd="SYS060" code="2" type="rb" figID="4,6">
+    <name />
+  </text>
+  <text ewd="SYS060" code="FUSE18" type="rb" figID="3">
+    <name>10A TAIL</name>
+  </text>
+  <text ewd="SYS060" code="FUSE25" type="rb" figID="7">
+    <name>15A RR FOG</name>
+  </text>
+  <text ewd="SYS060" code="FUSE57" type="rb" figID="2">
+    <name>50A MAIN1</name>
+  </text>
+  <text ewd="SYS060" code="SP19" type="sp" figID="36,38">
+    <name />
+  </text>
+  <text ewd="SYS060" code="SP45" type="sp" figID="32">
+    <name />
+  </text>
+  <text ewd="SYS060" code="SP58" type="sp" figID="35">
+    <name />
+  </text>
+  <text ewd="SYS060" code="SP60" type="sp" figID="37">
+    <name />
+  </text>
+  <text ewd="SYS060" code="SP71" type="sp" figID="30">
+    <name />
+  </text>
+  <text ewd="SYS060" code="SP82" type="sp" figID="31">
+    <name />
+  </text>
+  <text ewd="SYS060" code="SP106" type="sp" figID="33">
+    <name />
+  </text>
+  <text ewd="SYS060" code="SP113" type="sp" figID="34">
+    <name />
+  </text>
+  <text ewd="SYS060" code="IC2" type="w2w" figID="24">
+    <name>Cowl Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS060" code="IS1" type="w2w" figID="19">
+    <name>Cowl Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS060" code="IL1" type="w2w" figID="20,23">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS060" code="IL2" type="w2w" figID="15,17">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS060" code="AI1" type="w2w" figID="16">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS060" code="AI3" type="w2w" figID="22">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS060" code="AC1" type="w2w" figID="21">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS060" code="TS2" type="w2w" figID="18">
+    <name>No. 2 Floor Wire and Floor Wire</name>
+  </text>
+</EwdTree>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="WR060">
+    <part type="gp" code="AC">
+      <name>Ground Point</name>
+    </part>
+    <part type="gp" code="AA">
+      <name>Ground Point</name>
+    </part>
+    <part type="gp" code="HA">
+      <name>Ground Point</name>
+    </part>
+    <part type="gp" code="tA">
+      <name>Ground Point</name>
+    </part>
+    <part type="gp" code="HB">
+      <name>Ground Point</name>
+    </part>
+    <part type="gp" code="AD">
+      <name>Ground Point</name>
+    </part>
+    <part type="gp" code="IE">
+      <name>Ground Point</name>
+    </part>
+    <part type="gp" code="CA">
+      <name>Ground Point</name>
+    </part>
+    <part type="gp" code="CB">
+      <name>Ground Point</name>
+    </part>
+    <part type="gp" code="DA">
+      <name>Ground Point</name>
+    </part>
+  </ttl>
+</EWDSearch>

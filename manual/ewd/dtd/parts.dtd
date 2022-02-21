@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- #  DTD VERSION 1.7  UPDATE Dec. 04, 2014    -->
+<!ELEMENT tmc-service-parts (pub)>
+<!ELEMENT pub (term+)>
+<!ATTLIST pub
+	id ID #REQUIRED
+	type (RM | NM | EM | BM) #REQUIRED
+>
+<!ELEMENT term (parts*)>
+<!ATTLIST term
+	term-id-from CDATA #REQUIRED
+>
+<!ELEMENT parts (name, location+)>
+<!ATTLIST parts
+	parts-id CDATA #REQUIRED
+	p-type CDATA #REQUIRED
+>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT location EMPTY>
+<!ATTLIST location
+	toc-type CDATA #REQUIRED
+	section-id CDATA #REQUIRED
+	ttl-id CDATA #REQUIRED
+	ncf-para-category CDATA #IMPLIED
+	para-id CDATA #IMPLIED
+	sub-para-id CDATA #IMPLIED
+	step-id CDATA #IMPLIED
+	linkkey CDATA #IMPLIED
+>

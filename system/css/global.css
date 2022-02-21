@@ -1,0 +1,382 @@
+/*! All Rights Reserved. Copyright 2012 (C) TOYOTA  MOTOR  CORPORATION.
+Last Update: 2013/01/28
+All Manual Global Style Sheets:Not Japanese */
+
+@page {
+  margin: 1.5cm 0.5cm;
+}
+
+html {
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+html.noscrollbar {
+  overflow: hidden;
+}
+
+html,
+body,
+form {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+  height: 100%;
+  background: #F7F9F9;
+}
+
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+caption,
+th,
+td,
+img,
+fieldset,
+legend,
+input,
+textarea,
+select,
+option,
+a {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  font-size: 11px;
+  font-family: "Verdana",sans-serif;
+  line-height: 13px;
+}
+
+sub,
+sup {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  line-height: 1;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -2px;
+}
+
+sup {
+  top: -4px;
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
+  list-style-position: outside;
+}
+
+table {
+  border-collapse : collapse;
+}
+
+img {
+  border: none;
+}
+
+a {
+  color: #333333;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #333333;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #B30000;
+  text-decoration: underline;
+}
+
+input.button_style {
+  width: 115px;
+  height: 22px;
+  font-size: 11px;
+  line-height: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #333333;
+}
+
+input.button_style_disable {
+  color: #ACA899;
+  cursor: default;
+}
+
+input.deftxt {
+  color: #A0A0A0;
+}
+
+span.small,
+label.small,
+p.small,
+li.small,
+dt.small,
+dd.small,
+a.small {
+  font-size: 8px;
+  line-height: 10px;
+}
+
+span.smaller,
+label.smaller,
+p.smaller,
+li.smaller,
+dt.smaller,
+dd.smaller,
+a.smaller {
+  font-size: 10px;
+  line-height: 12px;
+}
+
+div.invisible,
+span.invisible,
+ul.invisible,
+li.invisible,
+tr.invisible,
+img.invisible,
+a.invisible {
+  display: none;
+}
+
+span.required {
+  color: #B30000;
+}
+
+tr.color_row_set1,
+div.color_row_set1 {
+  background-color: #FFFFFF;
+}
+
+tr.color_row_set2,
+div.color_row_set2 {
+  background-color: #DDDDDD;
+}
+
+td.number {
+  text-align: right;
+  color: #B30000;
+}
+
+td.date {
+  text-align: center;
+  color: #B30000;
+}
+
+input.input_error,
+textarea.input_error,
+select.input_error {
+  background-color: #FFDDDD;
+}
+
+div#wrapper {
+  position: relative;
+  color: #333333;
+}
+
+div#header {
+  position: relative;
+}
+
+div#body {
+  position: relative;
+  clear: both;
+}
+
+div#footer {
+  clear: both;
+}
+
+div#header_head {
+  height: 30px;
+  border: 1px solid #A0A0A0;
+  border-width: 0px 0px 2px 0px;
+}
+
+div#head_buttons {
+  padding: 4px 0px 4px 10px;
+  float: left;
+}
+
+div#banner {
+  float: left;
+}
+
+div#banner img {
+  margin: 3px 0px 1px 0px;
+}
+
+input#btn_print {
+  width: 115px;
+}
+
+input#btn_printpreview {
+  width: 115px;
+  margin: 0px 0px 0px 10px;
+}
+
+div#navigation {
+  float: right;
+  padding: 0px 0px 2px 0px;
+  height: 28px;
+  background: url(../img/png/navi_bg.png) no-repeat;
+}
+
+div#navigation p {
+  margin: 0px 0px 0px 15px;
+  padding: 0px 10px 0px 17px;
+  _padding: 8px 10px 0px 17px;
+  height: 28px;
+  _height: 20px;
+  line-height: 28px;
+  _line-height: 1;
+  background: url(../img/png/mtrx_bg.png) repeat-x;
+  color: #FFFFFF;
+}
+
+div#navigation a {
+  color: #FFFFFF;
+}
+
+div#navigation a:hover {
+  color: #B30000;
+}
+
+div#contentsBody div.globalInfo {
+  visibility: hidden;
+  height: 0px;
+  _display: none;
+}
+
+div#footer_message {
+  height: 20px;
+  line-height: 20px;
+  text-indent: 8px;
+  background: url(../img/png/cp_bg.png) repeat-x bottom left;
+  color: #FFFFFF;
+}
+
+div#facebox {
+  color: #333333;
+}
+
+table#facebox_table {
+  position: relative;
+}
+
+input.dummy_focus {
+  position: absolute;
+  top: -999px;
+}
+
+div#fbx_system_error {
+  width: 512px;
+  height: 518px;
+  border: 1px solid #A0A0A0;
+  background-color: #F8F8F8;
+}
+
+div#fbx_system_error h2 {
+  text-align: center;
+  font-weight: normal;
+}
+
+div#fbx_system_error_text {
+  text-align: center;
+}
+
+div#fbx_system_error_stack {
+  margin: 0 auto;
+  width: 312px;
+  text-align: left;
+}
+
+div.gts_facebox {
+  position: absolute !important;
+  top: 55px !important;
+  left: 210px !important;
+}
+
+div#fbx_gts {
+  width: 398px;
+  height: 60px;
+  border: 1px solid #A0A0A0;
+  background-color: #F8F8F8;
+}
+
+div#fbx_gts div {
+  height: 20px;
+  line-height: 20px;
+  text-indent: 14px;
+}
+
+table#facebox_table td#facebox_name {
+  letter-spacing: 2px;
+}
+
+div#header div.fontJa,
+div#header div.fontJa a,
+div#header div.fontJa input,
+div#footer div.fontJa {
+  font-size: 14px;
+  font-family: "MS PGOTHIC",sans-serif;
+}
+
+div#header div.fontJa input.button_style {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+div#header div.fontJa div#navigation p {
+  margin: 0px 0px 0px 13px;
+  padding: 0px 10px 0px 13px;
+  _padding: 8px 10px 0px 13px;
+  width: 37px;
+}
+
+div#header div.fontEn div#navigation p {
+  margin: 0px 0px 0px 13px;
+  padding: 0px 10px 0px 13px;
+  _padding: 8px 10px 0px 13px;
+  width: 21px;
+}
+
+div#header div.fontDe div#navigation p {
+  margin: 0px 0px 0px 13px;
+  padding: 0px 10px 0px 13px;
+  _padding: 8px 10px 0px 13px;
+  width: 55px;
+}
+
+div#header div.fontFr div#navigation p {
+  margin: 0px 0px 0px 13px;
+  padding: 0px 10px 0px 13px;
+  _padding: 8px 10px 0px 13px;
+  width: 32px;
+}
+
+div#header div.fontEs div#navigation p {
+  margin: 0px 0px 0px 13px;
+  padding: 0px 10px 0px 13px;
+  _padding: 8px 10px 0px 13px;
+  width: 26px;
+}

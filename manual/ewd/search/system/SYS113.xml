@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS113">
+    <part type="conn" code="I51,S21,S24">
+      <text>+SL D- -SL GSW2 P+ +SR E2 -SR E1 BBL+ BBL- IG2 ACL BBR+ BBR- TC PR+ PR- SIL PL+ PL- ICL+ ICL- ICR+ ICR- CANL DK+ CANH DK- LA P- D+</text>
+      <name>Airbag Sensor Assembly</name>
+    </part>
+    <part type="conn" code="L25,L26">
+      <text>A/B B ES CPU SRS (*6) (*5) CANH CANL</text>
+      <name>Combination Meter Assembly</name>
+    </part>
+    <part type="conn" code="S25">
+      <text>ICL+ ICL-</text>
+      <name>Curtain Shield Airbag Assembly LH</name>
+    </part>
+    <part type="conn" code="S22">
+      <text>ICR+ ICR-</text>
+      <name>Curtain Shield Airbag Assembly RH</name>
+    </part>
+    <part type="conn" code="I17">
+      <text>DLC3 ACL TC SIL</text>
+    </part>
+    <part type="conn" code="S26">
+      <text>BBL+ BBL-</text>
+      <name>Door Side Airbag Sensor LH</name>
+    </part>
+    <part type="conn" code="S23">
+      <text>BBR+ BBR-</text>
+      <name>Door Side Airbag Sensor RH</name>
+    </part>
+    <part type="conn" code="A29,I84">
+      <text>ECM F/PS</text>
+    </part>
+    <part type="conn" code="A13">
+      <text>+SL -SL</text>
+      <name>Front Airbag Sensor LH</name>
+    </part>
+    <part type="conn" code="I52">
+      <text>+SR -SR</text>
+      <name>Front Airbag Sensor RH</name>
+    </part>
+    <part type="conn" code="N1">
+      <text>P- P+</text>
+      <name>Front Passenger Side Squib Circuit (Instrument Panel Passenger Airbag Assembly)</name>
+    </part>
+    <part type="conn" code="S27">
+      <text>L- L+</text>
+      <name>Front Seat Outer Belt Assembly LH</name>
+      <name type="inner">Pretensioner</name>
+    </part>
+    <part type="conn" code="S18">
+      <text>R- R+</text>
+      <name>Front Seat Outer Belt Assembly RH</name>
+      <name type="inner">Pretensioner</name>
+    </part>
+    <part type="conn" code="I103">
+      <text>DK+ DK-</text>
+      <name>Lower No. 1 Instrument Panel Airbag Assembly</name>
+    </part>
+    <part type="conn" code="I59">
+      <name>No. 10 Junction Connector</name>
+    </part>
+    <part type="conn" code="I59,I95">
+      <name>No. 10 Junction Connector , No. 18 Junction Connector</name>
+    </part>
+    <part type="conn" code="I61,I72">
+      <name>No. 11 Junction Connector , No. 21 Junction Connector</name>
+    </part>
+    <part type="conn" code="I98,I99">
+      <name>No. 17 Junction Connector</name>
+    </part>
+    <part type="conn" code="I112,I116,I119,I123">
+      <name>No. 4 CAN Junction Connector , No. 6 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I72,I106,I118">
+      <name>No. 9 Junction Connector , No. 36 Junction Connector , No. 21 Junction Connector</name>
+    </part>
+    <part type="conn" code="z2">
+      <name>Spiral Cable Sub-Assembly , Driver Side Squib Circuit</name>
+    </part>
+    <part type="conn" code="L29,z2">
+      <text>D- D+</text>
+      <name>Spiral Cable Sub-Assembly , Driver Side Squib Circuit</name>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>DOME NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE14">
+      <text>IGN</text>
+    </part>
+    <part type="fuse" code="FUSE16">
+      <text>MET</text>
+    </part>
+  </ttl>
+</EWDSearch>

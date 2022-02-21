@@ -1,0 +1,1173 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">Engine / Hybrid System</span>
+<span class="globalSection">_029760</span>
+<span class="globalSectionName">1VD-FTV ENGINE CONTROL</span>
+<span class="globalTitle">_0282525</span>
+<span class="globalTitleName">ECD SYSTEM(w/ DPF)</span>
+<span class="globalCategory">D</span>
+</div>
+<h1>1VD-FTV ENGINE CONTROL&nbsp;&nbsp;ECD SYSTEM(w/ DPF)&nbsp;&nbsp;FREEZE FRAME DATA&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000YXVY_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">DESCRIPTION
+</span></p>
+<br>
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/A301856E12.png" alt="A301856E12" title="A301856E12">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">2.24,0.938 3.083,1.167</span>
+<span class="captionSize">0.844,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">0.5 seconds</span>
+</span>
+<span class="caption">
+<span class="points">0.344,0.938 1.188,1.167</span>
+<span class="captionSize">0.844,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">0.5 seconds</span>
+</span>
+<span class="caption">
+<span class="points">1.323,0.927 2.167,1.156</span>
+<span class="captionSize">0.844,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">0.5 seconds</span>
+</span>
+<span class="caption">
+<span class="points">0.406,2.813 2.844,3.083</span>
+<span class="captionSize">2.438,0.271</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Freeze frame data recorded</span>
+</span>
+<span class="caption">
+<span class="points">2.375,0.302 3.26,0.563</span>
+<span class="captionSize">0.885,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">DTC is stored</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+<p>The ECM records vehicle and driving condition information as freeze frame data the moment a DTC is stored. When troubleshooting, freeze frame data can be helpful in determining whether the vehicle was moving or stationary, whether the air fuel ratio was lean or rich, as well as the other data recorded at the time of a malfunction.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>If it is impossible to duplicate the problem even though a DTC is stored, confirm the freeze frame data.
+</p>
+</dd>
+</dl>
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>The ECM records engine conditions in the form of freeze frame data every 0.5 seconds. Using the GTS, 5 separate sets of freeze frame data can be checked.
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>3 data sets from before the DTC was stored
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>1 data set from when the DTC was stored
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>1 data set from after the DTC was stored
+</p>
+<p>These data sets can be used to simulate the condition of the vehicle from around the time of the occurrence of the malfunction. The data may assist in identifying the cause of the malfunction, and in judging whether it was temporary or not.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">PENDING FREEZE FRAME DATA
+</span></p>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>Pending freeze frame data is stored when a 2 trip DTC is first detected during the first trip.
+</p>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>Turn the ignition switch to ON.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>Turn the GTS on.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>Enter the following menus: Engine and ECT / Trouble Codes.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>Select a DTC in order to display its pending freeze frame data.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Pending freeze frame data is cleared when any of the following occurs.
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Using the GTS, the DTCs are cleared.
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>The cable is disconnected from the negative (-) auxiliary battery terminal.
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>40 trips with the engine fully warmed up have been performed after returning to normal.
+</p>
+<p>(Pending freeze frame data will not be cleared by only returning the system to normal.)
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>With previous pending freeze frame data stored, if pending freeze frame data is newly stored when a 2 trip DTC is detected in the first trip, the old freeze frame data will be replaced with the new one of the newly detected DTC in the next trip.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A251781E08.png" alt="A251781E08" title="A251781E08">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.156,0.104 6.771,0.635</span>
+<span class="captionSize">6.615,0.531</span>
+<span class="fontsize">10</span>
+<span class="captionText">When a DTC is detected in both the first and second trips but the system returns to normal from the third trip (2 trip logic DTC):</span>
+</span>
+<span class="caption">
+<span class="points">0.146,1.625 1.24,1.802</span>
+<span class="captionSize">1.094,0.177</span>
+<span class="fontsize">10</span>
+<span class="captionText">Ignition Switch</span>
+</span>
+<span class="caption">
+<span class="points">1.302,1.458 2.115,1.75</span>
+<span class="captionSize">0.813,0.292</span>
+<span class="fontsize">10</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">1.302,1.844 1.552,2.021</span>
+<span class="captionSize">0.25,0.177</span>
+<span class="fontsize">10</span>
+<span class="captionText">Off</span>
+</span>
+<span class="caption">
+<span class="points">0.156,2.583 1.198,2.896</span>
+<span class="captionSize">1.042,0.313</span>
+<span class="fontsize">10</span>
+<span class="captionText">Pending Freeze Frame Data</span>
+</span>
+<span class="caption">
+<span class="points">1.333,2.5 1.781,2.698</span>
+<span class="captionSize">0.448,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">Stored</span>
+</span>
+<span class="caption">
+<span class="points">1.323,2.781 1.771,3.125</span>
+<span class="captionSize">0.448,0.344</span>
+<span class="fontsize">10</span>
+<span class="captionText">Not Stored</span>
+</span>
+<span class="caption">
+<span class="points">0.125,3.708 1.042,4.406</span>
+<span class="captionSize">0.917,0.698</span>
+<span class="fontsize">10</span>
+<span class="captionText">Freeze Frame Data</span>
+</span>
+<span class="caption">
+<span class="points">1.292,3.667 1.74,3.865</span>
+<span class="captionSize">0.448,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">Stored</span>
+</span>
+<span class="caption">
+<span class="points">0.365,4.698 1.75,4.906</span>
+<span class="captionSize">1.385,0.208</span>
+<span class="fontsize">10</span>
+<span class="captionText">:Malfunction detected</span>
+</span>
+<span class="caption">
+<span class="points">0.365,5 2.083,5.208</span>
+<span class="captionSize">1.719,0.208</span>
+<span class="fontsize">10</span>
+<span class="captionText">:Malfunction not detected</span>
+</span>
+<span class="caption">
+<span class="points">2.073,0.885 2.76,1.094</span>
+<span class="captionSize">0.688,0.208</span>
+<span class="fontsize">10</span>
+<span class="captionText">(First Trip)</span>
+</span>
+<span class="caption">
+<span class="points">2.823,0.885 3.781,1.125</span>
+<span class="captionSize">0.958,0.24</span>
+<span class="fontsize">10</span>
+<span class="captionText">(Second Trip)</span>
+</span>
+<span class="caption">
+<span class="points">3.781,0.885 4.74,1.125</span>
+<span class="captionSize">0.958,0.24</span>
+<span class="fontsize">10</span>
+<span class="captionText">(Third Trip)</span>
+</span>
+<span class="caption">
+<span class="points">4.594,0.896 5.552,1.135</span>
+<span class="captionSize">0.958,0.24</span>
+<span class="fontsize">10</span>
+<span class="captionText">(Fourth Trip)</span>
+</span>
+<span class="caption">
+<span class="points">1.302,3.938 1.74,4.292</span>
+<span class="captionSize">0.438,0.354</span>
+<span class="fontsize">10</span>
+<span class="captionText">Not Stored</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A251782E11.png" alt="A251782E11" title="A251782E11">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.188,0.177 7.063,0.594</span>
+<span class="captionSize">6.875,0.417</span>
+<span class="fontsize">10</span>
+<span class="captionText">When 2 trip DTC is first detected in the first trip and another 2 trip DTC is first detected in the second trip:</span>
+</span>
+<span class="caption">
+<span class="points">0.479,1.531 1.396,1.844</span>
+<span class="captionSize">0.917,0.313</span>
+<span class="fontsize">10</span>
+<span class="captionText">Ignition Switch</span>
+</span>
+<span class="caption">
+<span class="points">1.781,1.365 2.302,1.583</span>
+<span class="captionSize">0.521,0.219</span>
+<span class="fontsize">10</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">1.781,1.719 2.125,1.896</span>
+<span class="captionSize">0.344,0.177</span>
+<span class="fontsize">10</span>
+<span class="captionText">Off</span>
+</span>
+<span class="caption">
+<span class="points">0.479,2.323 1.542,2.688</span>
+<span class="captionSize">1.063,0.365</span>
+<span class="fontsize">10</span>
+<span class="captionText">Pending Freeze Frame Data A</span>
+</span>
+<span class="caption">
+<span class="points">0.479,3.271 1.479,3.667</span>
+<span class="captionSize">1,0.396</span>
+<span class="fontsize">10</span>
+<span class="captionText">Pending Freeze Frame Data B</span>
+</span>
+<span class="caption">
+<span class="points">1.781,2.25 2.24,2.417</span>
+<span class="captionSize">0.458,0.167</span>
+<span class="fontsize">10</span>
+<span class="captionText">Stored</span>
+</span>
+<span class="caption">
+<span class="points">1.781,3.156 2.24,3.323</span>
+<span class="captionSize">0.458,0.167</span>
+<span class="fontsize">10</span>
+<span class="captionText">Stored</span>
+</span>
+<span class="caption">
+<span class="points">1.781,2.531 2.208,2.948</span>
+<span class="captionSize">0.427,0.417</span>
+<span class="fontsize">10</span>
+<span class="captionText">Not Stored</span>
+</span>
+<span class="caption">
+<span class="points">1.781,3.448 2.208,3.865</span>
+<span class="captionSize">0.427,0.417</span>
+<span class="fontsize">10</span>
+<span class="captionText">Not Stored</span>
+</span>
+<span class="caption">
+<span class="points">0.677,4.146 3.188,4.385</span>
+<span class="captionSize">2.51,0.24</span>
+<span class="fontsize">10</span>
+<span class="captionText">:Pending malfunction A detected</span>
+</span>
+<span class="caption">
+<span class="points">0.677,4.625 3.188,4.865</span>
+<span class="captionSize">2.51,0.24</span>
+<span class="fontsize">10</span>
+<span class="captionText">:Pending malfunction B detected</span>
+</span>
+<span class="caption">
+<span class="points">0.677,5.135 2.771,5.365</span>
+<span class="captionSize">2.094,0.229</span>
+<span class="fontsize">10</span>
+<span class="captionText">:No malfunction detected</span>
+</span>
+<span class="caption">
+<span class="points">4.198,2.875 5.302,3.052</span>
+<span class="captionSize">1.104,0.177</span>
+<span class="fontsize">10</span>
+<span class="captionText">Uploaded</span>
+</span>
+<span class="caption">
+<span class="points">2.635,0.719 3.333,1.031</span>
+<span class="captionSize">0.698,0.313</span>
+<span class="fontsize">10</span>
+<span class="captionText">(First Trip)</span>
+</span>
+<span class="caption">
+<span class="points">3.542,0.719 4.677,0.99</span>
+<span class="captionSize">1.135,0.271</span>
+<span class="fontsize">10</span>
+<span class="captionText">(Second Trip)</span>
+</span>
+<span class="caption">
+<span class="points">4.604,0.719 5.729,1.052</span>
+<span class="captionSize">1.125,0.333</span>
+<span class="fontsize">10</span>
+<span class="captionText">(Third Trip)</span>
+</span>
+<span class="caption">
+<span class="points">5.521,0.719 6.719,1.052</span>
+<span class="captionSize">1.198,0.333</span>
+<span class="fontsize">10</span>
+<span class="captionText">(Fourth Trip)</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">LIST OF FREEZE FRAME DATA
+</span></p>
+<br>
+</div>
+<br>
+<dl class="gtsFreezeFrame hasAllTable">
+<dt class="gtsFreezeFrame">Powertrain &gt; Engine and ECT</dt>
+<dd class="gtsFreezeFrame">
+<table summary="freeze-frame">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Vehicle Speed
+</td>
+</tr>
+<tr>
+<td class="alleft">Target Idle Engine Speed
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Speed
+</td>
+</tr>
+<tr>
+<td class="alleft">Calculate Load
+</td>
+</tr>
+<tr>
+<td class="alleft">MAF
+</td>
+</tr>
+<tr>
+<td class="alleft">Atmosphere Pressure
+</td>
+</tr>
+<tr>
+<td class="alleft">MAP
+</td>
+</tr>
+<tr>
+<td class="alleft">Coolant Temp
+</td>
+</tr>
+<tr>
+<td class="alleft">Intake Air
+</td>
+</tr>
+<tr>
+<td class="alleft">Intake Air Temp (Turbo) Supported
+</td>
+</tr>
+<tr>
+<td class="alleft">Intake Air Temp (Turbo)
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Run Time
+</td>
+</tr>
+<tr>
+<td class="alleft">Initial Engine Coolant Temp
+</td>
+</tr>
+<tr>
+<td class="alleft">Initial Intake Air Temp
+</td>
+</tr>
+<tr>
+<td class="alleft">Battery Voltage
+</td>
+</tr>
+<tr>
+<td class="alleft">Alternate Duty Ratio
+</td>
+</tr>
+<tr>
+<td class="alleft">Glow Relay Request
+</td>
+</tr>
+<tr>
+<td class="alleft">Glow Relay Request #2
+</td>
+</tr>
+<tr>
+<td class="alleft">Glow Indicator Supported
+</td>
+</tr>
+<tr>
+<td class="alleft">Glow Indicator
+</td>
+</tr>
+<tr>
+<td class="alleft">Accel Position
+</td>
+</tr>
+<tr>
+<td class="alleft">Accel Sens. No.1 Volt %
+</td>
+</tr>
+<tr>
+<td class="alleft">Accel Sens. No.2 Volt %
+</td>
+</tr>
+<tr>
+<td class="alleft">Target Throttle Position Supported
+</td>
+</tr>
+<tr>
+<td class="alleft">Target Throttle Position
+</td>
+</tr>
+<tr>
+<td class="alleft">Target Throttle Position #2 Supported
+</td>
+</tr>
+<tr>
+<td class="alleft">Target Throttle Position #2
+</td>
+</tr>
+<tr>
+<td class="alleft">Actual Throttle Position Supported
+</td>
+</tr>
+<tr>
+<td class="alleft">Actual Throttle Position
+</td>
+</tr>
+<tr>
+<td class="alleft">Actual Throttle Position #2 Supported
+</td>
+</tr>
+<tr>
+<td class="alleft">Actual Throttle Position #2
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Motor DUTY
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Motor DUTY #2
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Close Learning Val.
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Close Learning Val.#2
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Sensor Volt %
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttl Sensor #2 Volt %
+</td>
+</tr>
+<tr>
+<td class="alleft">Injection Volume
+</td>
+</tr>
+<tr>
+<td class="alleft">Inj. FB Vol. for Idle
+</td>
+</tr>
+<tr>
+<td class="alleft">Inj Vol Feedback Learning
+</td>
+</tr>
+<tr>
+<td class="alleft">Idle Signal Output Value
+</td>
+</tr>
+<tr>
+<td class="alleft">Idle Signal Output Value #2
+</td>
+</tr>
+<tr>
+<td class="alleft">Injection Feedback Val #1
+</td>
+</tr>
+<tr>
+<td class="alleft">Injection Feedback Val #2
+</td>
+</tr>
+<tr>
+<td class="alleft">Injection Feedback Val #3
+</td>
+</tr>
+<tr>
+<td class="alleft">Injection Feedback Val #4
+</td>
+</tr>
+<tr>
+<td class="alleft">Injection Feedback Val #5
+</td>
+</tr>
+<tr>
+<td class="alleft">Injection Feedback Val #6
+</td>
+</tr>
+<tr>
+<td class="alleft">Injection Feedback Val #7
+</td>
+</tr>
+<tr>
+<td class="alleft">Injection Feedback Val #8
+</td>
+</tr>
+<tr>
+<td class="alleft">Pilot 1 Injection Period
+</td>
+</tr>
+<tr>
+<td class="alleft">Pilot 2 Injection Period
+</td>
+</tr>
+<tr>
+<td class="alleft">Main Injection Period
+</td>
+</tr>
+<tr>
+<td class="alleft">After Injection Period
+</td>
+</tr>
+<tr>
+<td class="alleft">Pilot 1 Injection Timing
+</td>
+</tr>
+<tr>
+<td class="alleft">Pilot 2 Injection Timing
+</td>
+</tr>
+<tr>
+<td class="alleft">Main Injection Timing
+</td>
+</tr>
+<tr>
+<td class="alleft">After Injection Timing
+</td>
+</tr>
+<tr>
+<td class="alleft">Pilot Quantity Learning
+</td>
+</tr>
+<tr>
+<td class="alleft">Injector Pilot Quantity Learning
+</td>
+</tr>
+<tr>
+<td class="alleft">Actuator Pilot Quantity Learning
+</td>
+</tr>
+<tr>
+<td class="alleft">Temperature Pilot Quantity Learning
+</td>
+</tr>
+<tr>
+<td class="alleft">Catalyst Pilot Quantity Learning
+</td>
+</tr>
+<tr>
+<td class="alleft">Injection Pressure Correction
+</td>
+</tr>
+<tr>
+<td class="alleft">Injection EDU Relay Request
+</td>
+</tr>
+<tr>
+<td class="alleft">Injection EDU Relay Request #2
+</td>
+</tr>
+<tr>
+<td class="alleft">Target Common Rail Pressure Supported
+</td>
+</tr>
+<tr>
+<td class="alleft">Target Common Rail Pressure
+</td>
+</tr>
+<tr>
+<td class="alleft">Common Rail Pressure Supported
+</td>
+</tr>
+<tr>
+<td class="alleft">Common Rail Pressure
+</td>
+</tr>
+<tr>
+<td class="alleft">Fuel Temperature Supported
+</td>
+</tr>
+<tr>
+<td class="alleft">Fuel Temperature
+</td>
+</tr>
+<tr>
+<td class="alleft">Target Pump SCV Current
+</td>
+</tr>
+<tr>
+<td class="alleft">Pump SCV Learning Value
+</td>
+</tr>
+<tr>
+<td class="alleft">Pump SCV Status
+</td>
+</tr>
+<tr>
+<td class="alleft">Pump SCV Duty Request
+</td>
+</tr>
+<tr>
+<td class="alleft">Pressure Discharge Valve
+</td>
+</tr>
+<tr>
+<td class="alleft">AF Lambda B1S1
+</td>
+</tr>
+<tr>
+<td class="alleft">AFS Voltage B1S1
+</td>
+</tr>
+<tr>
+<td class="alleft">AFS Current B1S1
+</td>
+</tr>
+<tr>
+<td class="alleft">A/F Heater Duty B1S1
+</td>
+</tr>
+<tr>
+<td class="alleft">AF Sensor Learning Value
+</td>
+</tr>
+<tr>
+<td class="alleft">Target EGR Valve Pos Supported
+</td>
+</tr>
+<tr>
+<td class="alleft">Target EGR Valve Pos
+</td>
+</tr>
+<tr>
+<td class="alleft">Target EGR Valve Pos #2 Supported
+</td>
+</tr>
+<tr>
+<td class="alleft">Target EGR Valve Pos #2
+</td>
+</tr>
+<tr>
+<td class="alleft">Actual EGR Valve Pos Supported
+</td>
+</tr>
+<tr>
+<td class="alleft">Actual EGR Valve Pos
+</td>
+</tr>
+<tr>
+<td class="alleft">Actual EGR Valve Pos #2 Supported
+</td>
+</tr>
+<tr>
+<td class="alleft">Actual EGR Valve Pos #2
+</td>
+</tr>
+<tr>
+<td class="alleft">EGR Position Sensor
+</td>
+</tr>
+<tr>
+<td class="alleft">EGR Motor Duty #1
+</td>
+</tr>
+<tr>
+<td class="alleft">EGR Close Lrn. Val.
+</td>
+</tr>
+<tr>
+<td class="alleft">EGR Cooler Bypass VSV
+</td>
+</tr>
+<tr>
+<td class="alleft">EGR Cooler Bypass Position
+</td>
+</tr>
+<tr>
+<td class="alleft">Target Booster Pressure Supported
+</td>
+</tr>
+<tr>
+<td class="alleft">Target Booster Pressure
+</td>
+</tr>
+<tr>
+<td class="alleft">Target VN Turbo Position Supported
+</td>
+</tr>
+<tr>
+<td class="alleft">Target VN Turbo Position
+</td>
+</tr>
+<tr>
+<td class="alleft">Target VN Turbo Position #2 Supported
+</td>
+</tr>
+<tr>
+<td class="alleft">Target VN Turbo Position #2
+</td>
+</tr>
+<tr>
+<td class="alleft">Actual VN Position Supported
+</td>
+</tr>
+<tr>
+<td class="alleft">Actual VN Turbo Position
+</td>
+</tr>
+<tr>
+<td class="alleft">Actual VN Position #2 Supported
+</td>
+</tr>
+<tr>
+<td class="alleft">Actual VN Turbo Position #2
+</td>
+</tr>
+<tr>
+<td class="alleft">VN Motor Duty
+</td>
+</tr>
+<tr>
+<td class="alleft">VN Turbo Max Angle
+</td>
+</tr>
+<tr>
+<td class="alleft">VN Turbo Min Angle
+</td>
+</tr>
+<tr>
+<td class="alleft">Exhaust Temperature B1S1 Supported
+</td>
+</tr>
+<tr>
+<td class="alleft">Exhaust Temperature B1S1
+</td>
+</tr>
+<tr>
+<td class="alleft">Exhaust Temperature B1S2 Supported
+</td>
+</tr>
+<tr>
+<td class="alleft">Exhaust Temperature B1S2
+</td>
+</tr>
+<tr>
+<td class="alleft">Exhaust Temperature B1S3 Supported
+</td>
+</tr>
+<tr>
+<td class="alleft">Exhaust Temperature B1S3
+</td>
+</tr>
+<tr>
+<td class="alleft">DPF Differential Pressure Supported
+</td>
+</tr>
+<tr>
+<td class="alleft">DPF Differential Pressure
+</td>
+</tr>
+<tr>
+<td class="alleft">Catalyst Differential Press
+</td>
+</tr>
+<tr>
+<td class="alleft">Diff. Press. Sensor Corr.
+</td>
+</tr>
+<tr>
+<td class="alleft">Exhaust Fuel Addition Injector Status
+</td>
+</tr>
+<tr>
+<td class="alleft">Exhaust Fuel Addition FB
+</td>
+</tr>
+<tr>
+<td class="alleft">DPNR/DPF Status Reju(PM)
+</td>
+</tr>
+<tr>
+<td class="alleft">PM Accumulation Ratio
+</td>
+</tr>
+<tr>
+<td class="alleft">Starter Signal
+</td>
+</tr>
+<tr>
+<td class="alleft">Power Steering Signal
+</td>
+</tr>
+<tr>
+<td class="alleft">Low Gear Switch
+</td>
+</tr>
+<tr>
+<td class="alleft">Clutch Switch
+</td>
+</tr>
+<tr>
+<td class="alleft">Transfer L4
+</td>
+</tr>
+<tr>
+<td class="alleft">Stop Light Switch
+</td>
+</tr>
+<tr>
+<td class="alleft">A/C Signal
+</td>
+</tr>
+<tr>
+<td class="alleft">Idle Up SW
+</td>
+</tr>
+<tr>
+<td class="alleft">Immobiliser Communication
+</td>
+</tr>
+<tr>
+<td class="alleft">Clogged Fuel Filter Switch
+</td>
+</tr>
+<tr>
+<td class="alleft">TC Terminal
+</td>
+</tr>
+<tr>
+<td class="alleft">Time after DTC Cleared
+</td>
+</tr>
+<tr>
+<td class="alleft">Distance from DTC Cleared
+</td>
+</tr>
+<tr>
+<td class="alleft">Warmup Cycle Cleared DTC
+</td>
+</tr>
+<tr>
+<td class="alleft">Dist Batt Cable Disconnect
+</td>
+</tr>
+<tr>
+<td class="alleft">IG OFF Elapsed Time
+</td>
+</tr>
+<tr>
+<td class="alleft">TC and TE1
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Speed (Starter Off)
+</td>
+</tr>
+<tr>
+<td class="alleft">Starter Count
+</td>
+</tr>
+<tr>
+<td class="alleft">Run Dist of Previous Trip
+</td>
+</tr>
+<tr>
+<td class="alleft">Glow Request Lighting Time
+</td>
+</tr>
+<tr>
+<td class="alleft">IG-ON Time
+</td>
+</tr>
+<tr>
+<td class="alleft">MAF Low
+</td>
+</tr>
+<tr>
+<td class="alleft">Boost Pressure Low
+</td>
+</tr>
+<tr>
+<td class="alleft">Common Rail Pressure Low
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Coolant Temp High
+</td>
+</tr>
+<tr>
+<td class="alleft">MAF/Estimate MAF Ratio
+</td>
+</tr>
+<tr>
+<td class="alleft">Rough Idle #1
+</td>
+</tr>
+<tr>
+<td class="alleft">Rough Idle #2
+</td>
+</tr>
+<tr>
+<td class="alleft">Rough Idle #3
+</td>
+</tr>
+<tr>
+<td class="alleft">Rough Idle #4
+</td>
+</tr>
+<tr>
+<td class="alleft">Rough Idle #5
+</td>
+</tr>
+<tr>
+<td class="alleft">Rough Idle #6
+</td>
+</tr>
+<tr>
+<td class="alleft">Rough Idle #7
+</td>
+</tr>
+<tr>
+<td class="alleft">Rough Idle #8
+</td>
+</tr>
+<tr>
+<td class="alleft">Electric Duty Feedback Value
+</td>
+</tr>
+<tr>
+<td class="alleft">A/C Duty Feedback Value
+</td>
+</tr>
+<tr>
+<td class="alleft">PS Duty Feedback Value
+</td>
+</tr>
+<tr>
+<td class="alleft">Idle Injection Volume (Min)
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Starting Time
+</td>
+</tr>
+<tr>
+<td class="alleft">Minimum Engine Speed
+</td>
+</tr>
+<tr>
+<td class="alleft">ACT VSV
+</td>
+</tr>
+<tr>
+<td class="alleft">Brake Override System
+</td>
+</tr>
+<tr>
+<td class="alleft">Immobiliser Fuel Cut History
+</td>
+</tr>
+<tr>
+<td class="alleft">Cruise Main SW
+</td>
+</tr>
+<tr>
+<td class="alleft">Shift SW Status (N,P Range) Supported
+</td>
+</tr>
+<tr>
+<td class="alleft">Shift SW Status (N,P Range)
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

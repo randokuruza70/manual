@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="RL001_RL010-Inn">
+    <part type="jbc" code="3A" />
+    <part type="jbc" code="3B" />
+    <part type="jbc" code="3C" />
+    <part type="jbc" code="3D" />
+    <part type="jbc" code="3E" />
+    <part type="jbc" code="3F" />
+    <part type="jbc" code="3G" />
+    <part type="jbc" code="3H" />
+    <part type="jbc" code="3I" />
+  </ttl>
+</EWDSearch>

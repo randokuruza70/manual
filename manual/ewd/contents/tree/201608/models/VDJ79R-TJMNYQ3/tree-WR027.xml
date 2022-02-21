@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="WR027" code="A6" type="conn">
+    <name>A/C Pressure Switch (Cooler Refrigerant Liquid Pipe B)</name>
+  </text>
+  <text ewd="WR027" code="A10" type="conn">
+    <name>Antenna with Holder Assembly</name>
+  </text>
+  <text ewd="WR027" code="A35" type="conn">
+    <name>Battery (Main)</name>
+  </text>
+  <text ewd="WR027" code="A36" type="conn">
+    <name>Battery (Main)</name>
+  </text>
+  <text ewd="WR027" code="A20" type="conn">
+    <name>Brake Actuator Assembly</name>
+  </text>
+  <text ewd="WR027" code="A42" type="conn">
+    <name>Brake Actuator Assembly</name>
+  </text>
+  <text ewd="WR027" code="A25" type="conn">
+    <name>Brake Vacuum Check Valve Assembly</name>
+  </text>
+  <text ewd="WR027" code="A26" type="conn">
+    <name>Brake Vacuum Check Valve Assembly</name>
+  </text>
+  <text ewd="WR027" code="A27" type="conn">
+    <name>Brake Vacuum Check Valve Assembly</name>
+  </text>
+  <text ewd="WR027" code="A28" type="conn">
+    <name>Brake Vacuum Check Valve Assembly</name>
+  </text>
+  <text ewd="WR027" code="A29" type="conn">
+    <name>ECM</name>
+  </text>
+  <text ewd="WR027" code="A13" type="conn">
+    <name>Front Airbag Sensor LH</name>
+  </text>
+  <text ewd="WR027" code="B2" type="conn">
+    <name>Front Differential Lock Position Switch</name>
+  </text>
+  <text ewd="WR027" code="A21" type="conn">
+    <name>Front Speed Sensor LH (Skid Control Sensor Wire LH)</name>
+  </text>
+  <text ewd="WR027" code="B3" type="conn">
+    <name>Front Speed Sensor RH (Skid Control Sensor Wire RH)</name>
+  </text>
+  <text ewd="WR027" code="B4" type="conn">
+    <name>Front Speed Sensor RH (Skid Control Sensor Wire RH)</name>
+  </text>
+  <text ewd="WR027" code="A8" type="conn">
+    <name>Fuel Filter Vacuum Sensor</name>
+  </text>
+  <text ewd="WR027" code="A9" type="conn">
+    <name>Fuel Sediment Switch</name>
+  </text>
+  <text ewd="WR027" code="A1" type="conn">
+    <name>Headlight Assembly LH</name>
+  </text>
+  <text ewd="WR027" code="A3" type="conn">
+    <name>Headlight Assembly LH</name>
+  </text>
+  <text ewd="WR027" code="A7" type="conn">
+    <name>Headlight Assembly LH</name>
+  </text>
+  <text ewd="WR027" code="A38" type="conn">
+    <name>Headlight Assembly LH</name>
+  </text>
+  <text ewd="WR027" code="A5" type="conn">
+    <name>High Pitched Horn Assembly</name>
+  </text>
+  <text ewd="WR027" code="A4" type="conn">
+    <name>Low Pitched Horn Assembly</name>
+  </text>
+  <text ewd="WR027" code="A22" type="conn">
+    <name>No. 1 Junction Connector</name>
+  </text>
+  <text ewd="WR027" code="B1" type="conn">
+    <name>No. 2 Differential Lock Shift Actuator</name>
+  </text>
+  <text ewd="WR027" code="B5" type="conn">
+    <name>No. 2 Differential Lock Shift Actuator</name>
+  </text>
+  <text ewd="WR027" code="A23" type="conn">
+    <name>No. 2 Junction Connector</name>
+  </text>
+  <text ewd="WR027" code="A11" type="conn">
+    <name>Side Turn Signal Light Assembly LH</name>
+  </text>
+  <text ewd="WR027" code="A2" type="conn">
+    <name>Windshield Washer Motor and Pump Assembly</name>
+  </text>
+  <text ewd="WR027" code="A12" type="conn">
+    <name>Windshield Wiper Motor Assembly</name>
+  </text>
+  <text ewd="WR027" code="A39" type="conn">
+    <name>Windshield Wiper Motor Assembly</name>
+  </text>
+  <text ewd="WR028" code="C32" type="conn">
+    <name>Back-Up Light Switch Assembly</name>
+  </text>
+  <text ewd="WR028" code="C68" type="conn">
+    <name>Cam Position Sensor</name>
+  </text>
+  <text ewd="WR028" code="C35" type="conn">
+    <name>Center Differential Lock Indicator Switch (No. 1 Transfer Indicator Switch)</name>
+  </text>
+  <text ewd="WR028" code="C42" type="conn">
+    <name>Crank Position Sensor</name>
+  </text>
+  <text ewd="WR028" code="C69" type="conn">
+    <name>Diesel Engine Coolant Temperature Sensor</name>
+  </text>
+  <text ewd="WR028" code="C116" type="conn">
+    <name>Diesel Engine Coolant Temperature Sensor</name>
+  </text>
+  <text ewd="WR028" code="C50" type="conn">
+    <name>Diesel Throttle Body Assembly (Bank 1)</name>
+  </text>
+  <text ewd="WR028" code="C58" type="conn">
+    <name>Diesel Throttle Body Assembly (Bank 1)</name>
+  </text>
+  <text ewd="WR028" code="C61" type="conn">
+    <name>Diesel Throttle Body Assembly (Bank 2)</name>
+  </text>
+  <text ewd="WR028" code="C65" type="conn">
+    <name>Diesel Throttle Body Assembly (Bank 2)</name>
+  </text>
+  <text ewd="WR028" code="C59" type="conn">
+    <name>Diesel Turbo Pressure Sensor</name>
+  </text>
+  <text ewd="WR028" code="C101" type="conn">
+    <name>Diesel Turbo Pressure Sensor</name>
+  </text>
+  <text ewd="WR028" code="C39" type="conn">
+    <name>ECM</name>
+  </text>
+  <text ewd="WR028" code="C47" type="conn">
+    <name>EGR Valve Assembly (Bank 1)</name>
+  </text>
+  <text ewd="WR028" code="C106" type="conn">
+    <name>EGR Valve Assembly (Bank 1)</name>
+  </text>
+  <text ewd="WR028" code="C91" type="conn">
+    <name>Electric Vacuum Regulating Valve Assembly (EGR)</name>
+  </text>
+  <text ewd="WR028" code="C71" type="conn">
+    <name>Engine Oil Level Sensor</name>
+  </text>
+  <text ewd="WR028" code="C30" type="conn">
+    <name>Engine Oil Pressure Switch Assembly</name>
+  </text>
+  <text ewd="WR028" code="C56" type="conn">
+    <name>Fuel Pressure Sensor</name>
+  </text>
+  <text ewd="WR028" code="C100" type="conn">
+    <name>Fuel Pressure Sensor</name>
+  </text>
+  <text ewd="WR028" code="C97" type="conn">
+    <name>Fuel Sender Gage Assembly (Front)</name>
+  </text>
+  <text ewd="WR028" code="C43" type="conn">
+    <name>Generator Assembly</name>
+  </text>
+  <text ewd="WR028" code="C44" type="conn">
+    <name>Generator Assembly</name>
+  </text>
+  <text ewd="WR028" code="C45" type="conn">
+    <name>Glow Plug Assembly No. 1</name>
+  </text>
+  <text ewd="WR028" code="C62" type="conn">
+    <name>Glow Plug Assembly No. 2</name>
+  </text>
+  <text ewd="WR028" code="C48" type="conn">
+    <name>Injector Assembly No. 1</name>
+  </text>
+  <text ewd="WR028" code="C107" type="conn">
+    <name>Injector Assembly No. 1</name>
+  </text>
+  <text ewd="WR028" code="C67" type="conn">
+    <name>Injector Assembly No. 2</name>
+  </text>
+  <text ewd="WR028" code="C115" type="conn">
+    <name>Injector Assembly No. 2</name>
+  </text>
+  <text ewd="WR028" code="C49" type="conn">
+    <name>Injector Assembly No. 3</name>
+  </text>
+  <text ewd="WR028" code="C108" type="conn">
+    <name>Injector Assembly No. 3</name>
+  </text>
+  <text ewd="WR028" code="C72" type="conn">
+    <name>Injector Assembly No. 4</name>
+  </text>
+  <text ewd="WR028" code="C117" type="conn">
+    <name>Injector Assembly No. 4</name>
+  </text>
+  <text ewd="WR028" code="C51" type="conn">
+    <name>Injector Assembly No. 5</name>
+  </text>
+  <text ewd="WR028" code="C109" type="conn">
+    <name>Injector Assembly No. 5</name>
+  </text>
+  <text ewd="WR028" code="C64" type="conn">
+    <name>Injector Assembly No. 6</name>
+  </text>
+  <text ewd="WR028" code="C113" type="conn">
+    <name>Injector Assembly No. 6</name>
+  </text>
+  <text ewd="WR028" code="C57" type="conn">
+    <name>Injector Assembly No. 7</name>
+  </text>
+  <text ewd="WR028" code="C110" type="conn">
+    <name>Injector Assembly No. 7</name>
+  </text>
+  <text ewd="WR028" code="C63" type="conn">
+    <name>Injector Assembly No. 8</name>
+  </text>
+  <text ewd="WR028" code="C54" type="conn">
+    <name>Injector Driver (EDU) (No. 1)</name>
+  </text>
+  <text ewd="WR028" code="C55" type="conn">
+    <name>Injector Driver (EDU) (No. 1)</name>
+  </text>
+  <text ewd="WR028" code="C52" type="conn">
+    <name>Injector Driver (EDU) (No. 2)</name>
+  </text>
+  <text ewd="WR028" code="C53" type="conn">
+    <name>Injector Driver (EDU) (No. 2)</name>
+  </text>
+  <text ewd="WR028" code="C60" type="conn">
+    <name>Intake Air Temperature Sensor</name>
+  </text>
+  <text ewd="WR028" code="C41" type="conn">
+    <name>Intake Mass Air Flow Meter Sub-Assembly</name>
+  </text>
+  <text ewd="WR028" code="C23" type="conn">
+    <name>Magnet Clutch Assembly</name>
+  </text>
+  <text ewd="WR028" code="C66" type="conn">
+    <name>No. 2 EGR Valve Assembly (Bank 2)</name>
+  </text>
+  <text ewd="WR028" code="C74" type="conn">
+    <name>Oil Pressure Sender Gage Assembly</name>
+  </text>
+  <text ewd="WR028" code="C28" type="conn">
+    <name>Power Steering Oil Pressure Switch</name>
+  </text>
+  <text ewd="WR028" code="C78" type="conn">
+    <name>Shift Position Switch</name>
+  </text>
+  <text ewd="WR028" code="C81" type="conn">
+    <name>Short Connector</name>
+  </text>
+  <text ewd="WR028" code="C82" type="conn">
+    <name>Short Connector</name>
+  </text>
+  <text ewd="WR028" code="C102" type="conn">
+    <name>Short Connector</name>
+  </text>
+  <text ewd="WR028" code="C103" type="conn">
+    <name>Short Connector</name>
+  </text>
+  <text ewd="WR028" code="C36" type="conn">
+    <name>Transfer L4 Position Switch (No. 1 Transfer Indicator Switch)</name>
+  </text>
+  <text ewd="WR029" code="C114" type="conn">
+    <name>Air Fuel Ratio Sensor (Bank 1 Sensor 1)</name>
+  </text>
+  <text ewd="WR029" code="C128" type="conn">
+    <name>Differential Pressure Sensor</name>
+  </text>
+  <text ewd="WR029" code="C120" type="conn">
+    <name>DPF Temperature Sensor (No. 3 Exhaust Gas Temperature Sensor)</name>
+  </text>
+  <text ewd="WR029" code="C112" type="conn">
+    <name>Injector Assembly No. 8</name>
+  </text>
+  <text ewd="WR029" code="C121" type="conn">
+    <name>Injector Driver (EDU) (No. 1)</name>
+  </text>
+  <text ewd="WR029" code="C122" type="conn">
+    <name>Injector Driver (EDU) (No. 1)</name>
+  </text>
+  <text ewd="WR029" code="C123" type="conn">
+    <name>Injector Driver (EDU) (No. 1)</name>
+  </text>
+  <text ewd="WR029" code="C124" type="conn">
+    <name>Injector Driver (EDU) (No. 1)</name>
+  </text>
+  <text ewd="WR029" code="C125" type="conn">
+    <name>Injector Driver (EDU) (No. 2)</name>
+  </text>
+  <text ewd="WR029" code="C126" type="conn">
+    <name>Injector Driver (EDU) (No. 2)</name>
+  </text>
+  <text ewd="WR029" code="C127" type="conn">
+    <name>Injector Driver (EDU) (No. 2)</name>
+  </text>
+  <text ewd="WR029" code="C118" type="conn">
+    <name>No. 1 Exhaust Gas Temperature Sensor</name>
+  </text>
+  <text ewd="WR029" code="C111" type="conn">
+    <name>No. 1 Vacuum Switching Valve Assembly (for EGR Cooler Bypass Valve)</name>
+  </text>
+  <text ewd="WR029" code="C119" type="conn">
+    <name>No. 2 Exhaust Gas Temperature Sensor</name>
+  </text>
+  <text ewd="WR030" code="D8" type="conn">
+    <name>Battery (Main)</name>
+  </text>
+  <text ewd="WR030" code="D9" type="conn">
+    <name>Battery (Main)</name>
+  </text>
+  <text ewd="WR030" code="I85" type="conn">
+    <name>Brake Fluid Level Warning Switch (Brake Master Cylinder Reservoir Sub-Assembly)</name>
+  </text>
+  <text ewd="WR030" code="u1" type="conn">
+    <name>Exhaust Fuel Addition Injector Assembly</name>
+  </text>
+  <text ewd="WR030" code="J2" type="conn">
+    <name>Fog Light Assembly LH</name>
+  </text>
+  <text ewd="WR030" code="J1" type="conn">
+    <name>Fog Light Assembly RH</name>
+  </text>
+  <text ewd="WR030" code="I52" type="conn">
+    <name>Front Airbag Sensor RH</name>
+  </text>
+  <text ewd="WR030" code="I6" type="conn">
+    <name>Front Blower Motor (Heater Blower Case)</name>
+  </text>
+  <text ewd="WR030" code="r3" type="conn">
+    <name>Fuel Temperature Sensor</name>
+  </text>
+  <text ewd="WR030" code="I76" type="conn">
+    <name>Fuse Block Assembly</name>
+  </text>
+  <text ewd="WR030" code="I36" type="conn">
+    <name>Headlight Assembly RH</name>
+  </text>
+  <text ewd="WR030" code="I38" type="conn">
+    <name>Headlight Assembly RH</name>
+  </text>
+  <text ewd="WR030" code="I40" type="conn">
+    <name>Headlight Assembly RH</name>
+  </text>
+  <text ewd="WR030" code="I91" type="conn">
+    <name>Headlight Assembly RH</name>
+  </text>
+  <text ewd="WR030" code="v1" type="conn">
+    <name>Pressure Discharge Valve Assembly (Common Rail Assembly)</name>
+  </text>
+  <text ewd="WR030" code="I25" type="conn">
+    <name>Side Turn Signal Light Assembly RH</name>
+  </text>
+  <text ewd="WR030" code="D6" type="conn">
+    <name>Starter Assembly</name>
+  </text>
+  <text ewd="WR030" code="D7" type="conn">
+    <name>Starter Assembly</name>
+  </text>
+  <text ewd="WR030" code="r2" type="conn">
+    <name>Suction Control Valve</name>
+  </text>
+  <text ewd="WR030" code="I48" type="conn">
+    <name>Thermistor Assembly</name>
+  </text>
+  <text ewd="WR030" code="I32" type="conn">
+    <name>Vacuum Warning Switch Assembly</name>
+  </text>
+</EwdTree>

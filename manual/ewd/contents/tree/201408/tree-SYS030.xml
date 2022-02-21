@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS030" code="L25,L26" type="conn" figID="11">
+    <name>Combination Meter Assembly</name>
+  </text>
+  <text ewd="SYS030" code="I45" type="conn" figID="3">
+    <name>Diode (Sub Tank Relay)</name>
+  </text>
+  <text ewd="SYS030" code="L8" type="conn" figID="7">
+    <name>Fuel Control Switch Assembly</name>
+  </text>
+  <text ewd="SYS030" code="W2" type="conn" figID="5">
+    <name>Fuel Tank Solenoid Main Valve Assembly</name>
+  </text>
+  <text ewd="SYS030" code="W1" type="conn" figID="4">
+    <name>Fuel Tank Solenoid Return Valve Assembly</name>
+  </text>
+  <text ewd="SYS030" code="A22" type="conn" figID="9">
+    <name>No. 1 Junction Connector</name>
+  </text>
+  <text ewd="SYS030" code="A23" type="conn" figID="10">
+    <name>No. 2 Junction Connector</name>
+  </text>
+  <text ewd="SYS030" code="L32,L36" type="conn" figID="6">
+    <name>No. 24 Junction Connector , No. 28 Junction Connector</name>
+  </text>
+  <text ewd="SYS030" code="I58,I70" type="conn" figID="8">
+    <name>No. 9 Junction Connector , No. 19 Junction Connector</name>
+  </text>
+  <text ewd="SYS030" code="I58,I72" type="conn" figID="12">
+    <name>No. 9 Junction Connector , No. 21 Junction Connector</name>
+  </text>
+  <text ewd="SYS030" code="FUSE5" type="fuse" figID="50">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS030" code="FUSE14" type="fuse" figID="48">
+    <name>10A IGN</name>
+  </text>
+  <text ewd="SYS030" code="FUSE16" type="fuse" figID="49">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS030" code="AA" type="gp" figID="38">
+    <name />
+  </text>
+  <text ewd="SYS030" code="CC" type="gp" figID="39">
+    <name />
+  </text>
+  <text ewd="SYS030" code="CE" type="gp" figID="40">
+    <name />
+  </text>
+  <text ewd="SYS030" code="LA" type="gp" figID="37">
+    <name />
+  </text>
+  <text ewd="SYS030" code="2" type="rb" figID="2">
+    <name />
+  </text>
+  <text ewd="SYS030" code="FUSE5" type="rb" figID="14">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS030" code="FUSE14" type="rb" figID="1">
+    <name>10A IGN</name>
+  </text>
+  <text ewd="SYS030" code="FUSE16" type="rb" figID="13">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS030" code="SP19" type="sp" figID="45">
+    <name />
+  </text>
+  <text ewd="SYS030" code="SP51" type="sp" figID="47">
+    <name />
+  </text>
+  <text ewd="SYS030" code="SP60" type="sp" figID="46">
+    <name />
+  </text>
+  <text ewd="SYS030" code="SP74" type="sp" figID="42">
+    <name />
+  </text>
+  <text ewd="SYS030" code="SP81" type="sp" figID="41">
+    <name />
+  </text>
+  <text ewd="SYS030" code="SP115" type="sp" figID="43">
+    <name />
+  </text>
+  <text ewd="SYS030" code="SP116" type="sp" figID="44">
+    <name />
+  </text>
+  <text ewd="SYS030" code="IL1" type="w2w" figID="19,29,30,36">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS030" code="AI3" type="w2w" figID="21,22,24,32,33,34">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS030" code="AC1" type="w2w" figID="20,31">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS030" code="AC2" type="w2w" figID="27">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS030" code="CA1" type="w2w" figID="23,26">
+    <name>Engine Wire and Engine Room Main Wire</name>
+  </text>
+  <text ewd="SYS030" code="CA2" type="w2w" figID="35">
+    <name>Engine Wire and Engine Room Main Wire</name>
+  </text>
+  <text ewd="SYS030" code="WC2" type="w2w" figID="25,28">
+    <name>No. 2 Frame Wire and Engine Wire</name>
+  </text>
+</EwdTree>

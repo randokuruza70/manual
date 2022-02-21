@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <note id="INTRO01">
+    <name>INTRODUCTION</name>
+  </note>
+  <note id="INTRO02">
+    <name>ABBREVIATIONS</name>
+  </note>
+  <note id="INTRO03">
+    <name>GLOSSARY OF TERMS AND SYMBOLS</name>
+  </note>
+  <note id="INTRO04">
+    <name>WIRE HARNESS REPAIR INTRODUCTION</name>
+  </note>
+  <note id="INTRO05">
+    <name>TERMINAL AND CONNECTOR REPAIR</name>
+  </note>
+</EwdTree>

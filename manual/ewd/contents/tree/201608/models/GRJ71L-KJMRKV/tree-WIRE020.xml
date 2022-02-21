@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <note ewd="WIRE020" code="I43" type="conn">
+    <name>Accelerator Pedal Sensor Assembly</name>
+  </note>
+  <note ewd="WIRE020" code="I51" type="conn">
+    <name>Airbag Sensor Assembly</name>
+  </note>
+  <note ewd="WIRE020" code="I7" type="conn">
+    <name>Blower Resistor</name>
+  </note>
+  <note ewd="WIRE020" code="I50" type="conn">
+    <name>Clutch Switch Assembly</name>
+  </note>
+  <note ewd="WIRE020" code="I11" type="conn">
+    <name>Cooler Stabilizer Amplifier Assembly</name>
+  </note>
+  <note ewd="WIRE020" code="I12" type="conn">
+    <name>Cooler Stabilizer Amplifier Assembly</name>
+  </note>
+  <note ewd="WIRE020" code="I88" type="conn">
+    <name>Cooler Stabilizer Amplifier Assembly</name>
+  </note>
+  <note ewd="WIRE020" code="I9" type="conn">
+    <name>Deceleration Sensor</name>
+  </note>
+  <note ewd="WIRE020" code="I20" type="conn">
+    <name>Diode (Door Courtesy)</name>
+  </note>
+  <note ewd="WIRE020" code="I21" type="conn">
+    <name>Diode (Interior Light)</name>
+  </note>
+  <note ewd="WIRE020" code="I47" type="conn">
+    <name>Diode (Stop Light)</name>
+  </note>
+  <note ewd="WIRE020" code="I45" type="conn">
+    <name>Diode (Sub Tank Relay)</name>
+  </note>
+  <note ewd="WIRE020" code="I24" type="conn">
+    <name>Diode (Transfer L4 Position Switch)</name>
+  </note>
+  <note ewd="WIRE020" code="I23" type="conn">
+    <name>Diode (Turn Signal Light LH)</name>
+  </note>
+  <note ewd="WIRE020" code="I22" type="conn">
+    <name>Diode (Turn Signal Light RH)</name>
+  </note>
+  <note ewd="WIRE020" code="I46" type="conn">
+    <name>Diode (Wiper Relay)</name>
+  </note>
+  <note ewd="WIRE020" code="I17" type="conn">
+    <name>DLC3</name>
+  </note>
+  <note ewd="WIRE020" code="I5" type="conn">
+    <name>Front Blower Motor (Heater Blower Case)</name>
+  </note>
+  <note ewd="WIRE020" code="I6" type="conn">
+    <name>Front Blower Motor (Heater Blower Case)</name>
+  </note>
+  <note ewd="WIRE020" code="I87" type="conn">
+    <name>Front Blower Motor (Heater Blower Case)</name>
+  </note>
+  <note ewd="WIRE020" code="I15" type="conn">
+    <name>Heater Blower Switch Assembly</name>
+  </note>
+  <note ewd="WIRE020" code="I103" type="conn">
+    <name>Lower No. 1 Instrument Panel Airbag Assembly</name>
+  </note>
+  <note ewd="WIRE020" code="I49" type="conn">
+    <name>Motor Antenna Control Relay</name>
+  </note>
+  <note ewd="WIRE020" code="I77" type="conn">
+    <name>No. 1 CAN Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I78" type="conn">
+    <name>No. 1 CAN Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I79" type="conn">
+    <name>No. 1 CAN Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I83" type="conn">
+    <name>No. 1 CAN Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I100" type="conn">
+    <name>No. 1 CAN Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I16" type="conn">
+    <name>No. 1 Cooler Thermistor</name>
+  </note>
+  <note ewd="WIRE020" code="I13" type="conn">
+    <name>No. 1 Heater Control Indicator Light Assembly</name>
+  </note>
+  <note ewd="WIRE020" code="I59" type="conn">
+    <name>No. 10 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I61" type="conn">
+    <name>No. 11 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I62" type="conn">
+    <name>No. 12 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I107" type="conn">
+    <name>No. 12 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I63" type="conn">
+    <name>No. 13 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I65" type="conn">
+    <name>No. 13 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I108" type="conn">
+    <name>No. 13 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I109" type="conn">
+    <name>No. 13 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I66" type="conn">
+    <name>No. 15 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I67" type="conn">
+    <name>No. 16 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I68" type="conn">
+    <name>No. 17 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I75" type="conn">
+    <name>No. 17 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I98" type="conn">
+    <name>No. 17 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I99" type="conn">
+    <name>No. 17 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I69" type="conn">
+    <name>No. 18 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I95" type="conn">
+    <name>No. 18 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I70" type="conn">
+    <name>No. 19 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I80" type="conn">
+    <name>No. 2 CAN Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I81" type="conn">
+    <name>No. 2 CAN Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I82" type="conn">
+    <name>No. 2 CAN Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I101" type="conn">
+    <name>No. 2 CAN Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I8" type="conn">
+    <name>No. 2 Four Wheel Drive Control ECU</name>
+  </note>
+  <note ewd="WIRE020" code="I71" type="conn">
+    <name>No. 20 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I96" type="conn">
+    <name>No. 20 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I72" type="conn">
+    <name>No. 21 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I73" type="conn">
+    <name>No. 22 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I97" type="conn">
+    <name>No. 32 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I110" type="conn">
+    <name>No. 33 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I117" type="conn">
+    <name>No. 35 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I118" type="conn">
+    <name>No. 36 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I112" type="conn">
+    <name>No. 4 CAN Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I113" type="conn">
+    <name>No. 4 CAN Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I114" type="conn">
+    <name>No. 4 CAN Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I115" type="conn">
+    <name>No. 4 CAN Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I116" type="conn">
+    <name>No. 4 CAN Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I111" type="conn">
+    <name>No. 5 CAN Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I54" type="conn">
+    <name>No. 5 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I93" type="conn">
+    <name>No. 5 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I119" type="conn">
+    <name>No. 6 CAN Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I120" type="conn">
+    <name>No. 6 CAN Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I121" type="conn">
+    <name>No. 6 CAN Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I122" type="conn">
+    <name>No. 6 CAN Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I123" type="conn">
+    <name>No. 6 CAN Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I124" type="conn">
+    <name>No. 6 CAN Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I55" type="conn">
+    <name>No. 6 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I104" type="conn">
+    <name>No. 6 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I56" type="conn">
+    <name>No. 7 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I94" type="conn">
+    <name>No. 7 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I57" type="conn">
+    <name>No. 8 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I105" type="conn">
+    <name>No. 8 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I58" type="conn">
+    <name>No. 9 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I106" type="conn">
+    <name>No. 9 Junction Connector</name>
+  </note>
+  <note ewd="WIRE020" code="I10" type="conn">
+    <name>Option Connector (Power Outlet Socket)</name>
+  </note>
+  <note ewd="WIRE020" code="I42" type="conn">
+    <name>Preheating Timer Assembly</name>
+  </note>
+  <note ewd="WIRE020" code="I92" type="conn">
+    <name>Preheating Timer Assembly</name>
+  </note>
+  <note ewd="WIRE020" code="I14" type="conn">
+    <name>Rear Heater Blower Switch</name>
+  </note>
+  <note ewd="WIRE020" code="I19" type="conn">
+    <name>Stop Light Switch Assembly</name>
+  </note>
+  <note ewd="WIRE020" code="I28" type="conn">
+    <name>Turn Signal Flasher Assembly</name>
+  </note>
+  <note ewd="WIRE020" code="I29" type="conn">
+    <name>Turn Signal Flasher Assembly</name>
+  </note>
+  <note ewd="WIRE020" code="I26" type="conn">
+    <name>Wiper Lock Switch (Limit Switch Assembly)</name>
+  </note>
+  <note ewd="WIRE020" code="IS1" type="w2w">
+    <name>Cowl Wire and Floor Wire</name>
+  </note>
+  <note ewd="WIRE020" code="IS2" type="w2w">
+    <name>Cowl Wire and Floor Wire</name>
+  </note>
+  <note ewd="WIRE020" code="IS3" type="w2w">
+    <name>Cowl Wire and Floor Wire</name>
+  </note>
+  <note ewd="WIRE020" code="IL1" type="w2w">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </note>
+  <note ewd="WIRE020" code="IL2" type="w2w">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </note>
+  <note ewd="WIRE020" code="IL3" type="w2w">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </note>
+  <note ewd="WIRE020" code="IL4" type="w2w">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </note>
+  <note ewd="WIRE020" code="IL5" type="w2w">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </note>
+  <note ewd="WIRE020" code="IL6" type="w2w">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </note>
+  <note ewd="WIRE020" code="IL7" type="w2w">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </note>
+  <note ewd="WIRE020" code="IN1" type="w2w">
+    <name>Cowl Wire and No. 3 Instrument Panel Wire</name>
+  </note>
+</EwdTree>

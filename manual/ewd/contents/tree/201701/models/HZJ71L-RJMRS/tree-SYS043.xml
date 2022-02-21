@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS043" code="L25" type="conn" figID="3">
+    <name>Combination Meter Assembly</name>
+  </text>
+  <text ewd="SYS043" code="J2" type="conn" figID="5">
+    <name>Fog Light Assembly LH</name>
+  </text>
+  <text ewd="SYS043" code="J1" type="conn" figID="4">
+    <name>Fog Light Assembly RH</name>
+  </text>
+  <text ewd="SYS043" code="L24" type="conn" figID="1">
+    <name>Headlight Dimmer Switch Assembly</name>
+  </text>
+  <text ewd="SYS043" code="L53" type="conn" figID="2">
+    <name>No. 31 Junction Connector</name>
+  </text>
+  <text ewd="SYS043" code="I106" type="conn" figID="11">
+    <name>No. 9 Junction Connector</name>
+  </text>
+  <text ewd="SYS043" code="FUSE18" type="fuse" figID="60">
+    <name>10A TAIL</name>
+  </text>
+  <text ewd="SYS043" code="FUSE21" type="fuse" figID="61">
+    <name>15A FR FOG</name>
+  </text>
+  <text ewd="SYS043" code="FUSE57" type="fuse" figID="59">
+    <name>50A MAIN1</name>
+  </text>
+  <text ewd="SYS043" code="CA" type="gp" figID="49">
+    <name />
+  </text>
+  <text ewd="SYS043" code="CC" type="gp" figID="48">
+    <name />
+  </text>
+  <text ewd="SYS043" code="CE" type="gp" figID="47">
+    <name />
+  </text>
+  <text ewd="SYS043" code="IE" type="gp" figID="45">
+    <name />
+  </text>
+  <text ewd="SYS043" code="IG" type="gp" figID="46">
+    <name />
+  </text>
+  <text ewd="SYS043" code="LA" type="gp" figID="44">
+    <name />
+  </text>
+  <text ewd="SYS043" code="LB" type="gp" figID="43">
+    <name />
+  </text>
+  <text ewd="SYS043" code="2" type="rb" figID="9,10">
+    <name />
+  </text>
+  <text ewd="SYS043" code="FUSE18" type="rb" figID="7">
+    <name>10A TAIL</name>
+  </text>
+  <text ewd="SYS043" code="FUSE21" type="rb" figID="8">
+    <name>15A FR FOG</name>
+  </text>
+  <text ewd="SYS043" code="FUSE57" type="rb" figID="6">
+    <name>50A MAIN1</name>
+  </text>
+  <text ewd="SYS043" code="SP19" type="sp" figID="56,57">
+    <name />
+  </text>
+  <text ewd="SYS043" code="SP45" type="sp" figID="51">
+    <name />
+  </text>
+  <text ewd="SYS043" code="SP47" type="sp" figID="53">
+    <name />
+  </text>
+  <text ewd="SYS043" code="SP60" type="sp" figID="58">
+    <name />
+  </text>
+  <text ewd="SYS043" code="SP64" type="sp" figID="55">
+    <name />
+  </text>
+  <text ewd="SYS043" code="SP71" type="sp" figID="50">
+    <name />
+  </text>
+  <text ewd="SYS043" code="SP75" type="sp" figID="54">
+    <name />
+  </text>
+  <text ewd="SYS043" code="SP82" type="sp" figID="52">
+    <name />
+  </text>
+  <text ewd="SYS043" code="IC2" type="w2w" figID="39">
+    <name>Cowl Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS043" code="IL1" type="w2w" figID="21,23">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS043" code="IL2" type="w2w" figID="18,41">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS043" code="IL5" type="w2w" figID="20,22">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS043" code="IL6" type="w2w" figID="17,40">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS043" code="AI1" type="w2w" figID="19">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS043" code="AI3" type="w2w" figID="34,35,36,37,42">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS043" code="AC1" type="w2w" figID="33">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS043" code="AC5" type="w2w" figID="38">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS043" code="CA4" type="w2w" figID="32">
+    <name>Engine Wire and Engine Room Main Wire</name>
+  </text>
+  <text ewd="SYS043" code="JK2" type="w2w" figID="25,26,29,30">
+    <name>No. 2 Cowl Wire and No. 3 Cowl Wire</name>
+  </text>
+  <text ewd="SYS043" code="KI2" type="w2w" figID="24,27,28,31">
+    <name>No. 3 Cowl Wire and Cowl Wire</name>
+  </text>
+</EwdTree>

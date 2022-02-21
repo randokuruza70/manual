@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS098" code="L13" type="conn" figID="7">
+    <name>Antenna Switch Assembly</name>
+  </text>
+  <text ewd="SYS098" code="L10" type="conn" figID="1">
+    <name>Ashtray Receptacle Light</name>
+  </text>
+  <text ewd="SYS098" code="L19" type="conn" figID="10">
+    <name>Cigarette Lighter Illumination (Cigarette Lighter Bezel Stay)</name>
+  </text>
+  <text ewd="SYS098" code="L9" type="conn" figID="15">
+    <name>Clock Assembly</name>
+  </text>
+  <text ewd="SYS098" code="L25" type="conn" figID="17">
+    <name>Combination Meter Assembly</name>
+  </text>
+  <text ewd="SYS098" code="L18" type="conn" figID="23">
+    <name>Door Control Switch Assembly</name>
+  </text>
+  <text ewd="SYS098" code="L8" type="conn" figID="9">
+    <name>Fuel Control Switch Assembly</name>
+  </text>
+  <text ewd="SYS098" code="L14" type="conn" figID="25">
+    <name>Hazard Warning Signal Switch Assembly</name>
+  </text>
+  <text ewd="SYS098" code="L24" type="conn" figID="26">
+    <name>Headlight Dimmer Switch Assembly</name>
+  </text>
+  <text ewd="SYS098" code="L15" type="conn" figID="4">
+    <name>Headlight Leveling Switch</name>
+  </text>
+  <text ewd="SYS098" code="L6" type="conn" figID="24">
+    <name>Idle Up Switch</name>
+  </text>
+  <text ewd="SYS098" code="I13" type="conn" figID="21">
+    <name>No. 1 Heater Control Indicator Light Assembly</name>
+  </text>
+  <text ewd="SYS098" code="I61,I72" type="conn" figID="8">
+    <name>No. 11 Junction Connector , No. 21 Junction Connector</name>
+  </text>
+  <text ewd="SYS098" code="I73" type="conn" figID="2">
+    <name>No. 22 Junction Connector</name>
+  </text>
+  <text ewd="SYS098" code="L38" type="conn" figID="13">
+    <name>No. 30 Junction Connector</name>
+  </text>
+  <text ewd="SYS098" code="L39" type="conn" figID="12,14">
+    <name>No. 31 Junction Connector</name>
+  </text>
+  <text ewd="SYS098" code="I58,I72" type="conn" figID="18">
+    <name>No. 9 Junction Connector , No. 21 Junction Connector</name>
+  </text>
+  <text ewd="SYS098" code="L2" type="conn" figID="16">
+    <name>Radio Receiver Assembly</name>
+  </text>
+  <text ewd="SYS098" code="L7" type="conn" figID="5">
+    <name>Rear Window Defogger Switch Assembly</name>
+  </text>
+  <text ewd="SYS098" code="L17" type="conn" figID="22">
+    <name>Transmission Control Switch</name>
+  </text>
+  <text ewd="SYS098" code="FUSE5" type="fuse" figID="71">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS098" code="FUSE16" type="fuse" figID="70">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS098" code="FUSE17" type="fuse" figID="69">
+    <name>10A PANEL</name>
+  </text>
+  <text ewd="SYS098" code="FUSE57" type="fuse" figID="68">
+    <name>50A MAIN1</name>
+  </text>
+  <text ewd="SYS098" code="CA" type="gp" figID="54">
+    <name />
+  </text>
+  <text ewd="SYS098" code="CC" type="gp" figID="53">
+    <name />
+  </text>
+  <text ewd="SYS098" code="CE" type="gp" figID="52">
+    <name />
+  </text>
+  <text ewd="SYS098" code="IA" type="gp" figID="48">
+    <name />
+  </text>
+  <text ewd="SYS098" code="LA" type="gp" figID="47,50">
+    <name />
+  </text>
+  <text ewd="SYS098" code="LB" type="gp" figID="46,49,51">
+    <name />
+  </text>
+  <text ewd="SYS098" code="2" type="rb" figID="6">
+    <name />
+  </text>
+  <text ewd="SYS098" code="FUSE5" type="rb" figID="20">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS098" code="FUSE16" type="rb" figID="19">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS098" code="FUSE17" type="rb" figID="11">
+    <name>10A PANEL</name>
+  </text>
+  <text ewd="SYS098" code="FUSE57" type="rb" figID="3">
+    <name>50A MAIN1</name>
+  </text>
+  <text ewd="SYS098" code="SP19" type="sp" figID="64,65">
+    <name />
+  </text>
+  <text ewd="SYS098" code="SP51" type="sp" figID="67">
+    <name />
+  </text>
+  <text ewd="SYS098" code="SP60" type="sp" figID="66">
+    <name />
+  </text>
+  <text ewd="SYS098" code="SP65" type="sp" figID="57">
+    <name />
+  </text>
+  <text ewd="SYS098" code="SP71" type="sp" figID="55">
+    <name />
+  </text>
+  <text ewd="SYS098" code="SP81" type="sp" figID="59,60,61,62,63">
+    <name />
+  </text>
+  <text ewd="SYS098" code="SP82" type="sp" figID="56">
+    <name />
+  </text>
+  <text ewd="SYS098" code="SP83" type="sp" figID="58">
+    <name />
+  </text>
+  <text ewd="SYS098" code="IC2" type="w2w" figID="43">
+    <name>Cowl Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS098" code="IL1" type="w2w" figID="34,40,41,45">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS098" code="IL2" type="w2w" figID="33">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS098" code="AI1" type="w2w" figID="32">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS098" code="AI3" type="w2w" figID="37,38,39,44">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS098" code="AC1" type="w2w" figID="36">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS098" code="AC5" type="w2w" figID="42">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS098" code="CA2" type="w2w" figID="35">
+    <name>Engine Wire and Engine Room Main Wire</name>
+  </text>
+</EwdTree>

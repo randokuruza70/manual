@@ -1,0 +1,38 @@
+﻿<?xml version="1.0"?>
+<!-- Generator: Adobe Illustrator 10.0, SVG Export Plug-In . SVG Version: 3.0.0 Build 77)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st1 "fill:none;stroke:#000000;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st2 "font-size:6px;">
+	<!ENTITY st3 "font-family:'Arial';">
+	<!ATTLIST svg
+		ewd:ver CDATA #IMPLIED
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/">
+	<!ATTLIST g
+		ewd:pinNo CDATA #IMPLIED>
+]>
+<svg width="21.396" height="19.733" viewBox="0 0 21.396 19.733" style="overflow:visible;enable-background:new 0 0 21.396 19.733" xml:space="preserve" onload="call_execInitLoadProc_svg('connector')" ewd:ver="2.1.2.9" xmlns="&ns_svg;" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:xlink="&ns_xlink;">
+<script type="text/javascript" xlink:href="../../../../../system/js/ewd/fig/svgfig.js"/>
+<g id="レイヤー_1">
+	<path style="&st0;" d="M6.449,1.463v2.473"/>
+	<path style="&st0;" d="M0.5,7.335v7.648"/>
+	<path style="&st0;" d="M3.049,3.936L0.5,7.335"/>
+	<path style="&st0;" d="M14.948,1.463v2.473"/>
+	<path style="&st0;" d="M20.896,7.335v7.648"/>
+	<path style="&st0;" d="M18.347,3.936l2.549,3.4"/>
+	<path style="&st0;" d="M14.948,1.463c-2.802-1.284-5.697-1.284-8.499,0"/>
+	<path style="&st0;" d="M3.049,3.936h3.4"/>
+	<path style="&st0;" d="M10.698,19.233H3.899L0.5,14.984"/>
+	<path style="&st0;" d="M18.347,3.936h-3.399"/>
+	<path style="&st0;" d="M10.698,19.233h6.799l3.399-4.25"/>
+	<path style="&st1;" d="M10.698,16.684H4.749l-1.7-2.55V8.185l1.7-1.7h3.4V3.086h2.549"/>
+	<path style="&st1;" d="M10.698,16.684h5.949l1.7-2.55V8.185l-1.7-1.7h-3.399V3.086h-2.55"/>
+	<g ewd:pinNo="1">
+		<text transform="matrix(1 0 0 1 8.9136 13.812)"><tspan x="0" y="0" style="&st3; &st2;">1</tspan></text>
+	</g>
+</g>
+</svg>

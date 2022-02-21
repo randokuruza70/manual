@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25T2E" style="font-size:6px;font-family:'Arial'" ver="2.1.2.9">
+	<text textID="1">* 8 :Pick-Up Body Type</text>
+	<text textID="2">* 9 :Except Pick-Up Body Type</text>
+	<text textID="3">*10 :w/ Trailer Socket</text>
+	<text textID="4">*12 :Algeria, Australia</text>
+	<text textID="5">*13 :Except *12</text>
+	<text textID="6">*14 :Except Soft Top Body Type</text>
+	<text textID="7">*15 :Soft Top Body Type</text>
+	<text textID="8">*17 :w/ Side Turn Signal Light</text>
+	<text textID="9">*18 :w/o Trailer Socket</text>
+	<text textID="10">*21 :Australia</text>
+	<text textID="11">*22 :Except Australia</text>
+	<text textID="12">Combination Meter Assembly</text>
+	<text textID="13">Flasher Circuit</text>
+	<text textID="14">Hazard Warning Signal Switch Assembly</text>
+	<text textID="15">Headlight Assembly LH</text>
+	<text textID="16">Headlight Assembly RH</text>
+	<text textID="17">Headlight Dimmer Switch Assembly</text>
+	<text textID="18">No. 1 Junction Connector</text>
+	<text textID="19">No. 2 Junction Connector</text>
+	<text textID="20">No. 24 Junction Connector</text>
+	<text textID="21">No. 24 Junction Connector , No. 26 Junction Connector</text>
+	<text textID="22">No. 26 Junction Connector</text>
+	<text textID="23">No. 31 Junction Connector</text>
+	<text textID="24">Rear Combination Light Assembly LH</text>
+	<text textID="25">Rear Combination Light Assembly RH</text>
+	<text textID="26">Side Turn Signal Light Assembly LH</text>
+	<text textID="27">Side Turn Signal Light Assembly RH</text>
+	<text textID="28">Turn</text>
+	<text textID="29">Turn LH</text>
+	<text textID="30">Turn RH</text>
+	<text textID="31">Turn Switch</text>
+</texts>

@@ -1,0 +1,511 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_54</span>
+<span class="globalServcatName">Brake</span>
+<span class="globalSection">_029873</span>
+<span class="globalSectionName">BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS</span>
+<span class="globalTitle">_0287798</span>
+<span class="globalTitleName">VEHICLE STABILITY CONTROL SYSTEM</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&nbsp;&nbsp;VEHICLE STABILITY CONTROL SYSTEM&nbsp;&nbsp;C1203&nbsp;&nbsp;ECM Communication Circuit Malfunction&nbsp;&nbsp;</h1>
+<br>
+<div id="RM1000000012Q7M_01" class="category no03">
+<h2>DESCRIPTION</h2>
+<div class="content5">
+<p>The circuit is used to send TRC and VSC control information from the skid control ECU (brake actuator assembly) to the ECM, and engine control information from the ECM to the skid control ECU (brake actuator assembly) through the CAN communication system.
+</p>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:25%">
+<col style="width:39%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC No.
+</th>
+<th class="alcenter">Detection Item
+</th>
+<th class="alcenter">DTC Detection Condition
+</th>
+<th class="alcenter">Trouble Area
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">C1203
+</td>
+<td class="alleft">ECM Communication Circuit Malfunction
+</td>
+<td class="alleft">Any of the following is detected:
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Engine model information sent from the ECM does not match the information stored in the skid control ECU.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>No system information stored in the skid control ECU.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>Incorrect installation of the skid control ECU or ECM.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM malfunction or ECM with incorrect part number installed
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Skid control ECU (Brake actuator assembly)
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM1000000012Q7M_03" class="category no10">
+<h2>CAUTION / NOTICE / HINT</h2>
+<div class="content5">
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3">
+<p>When replacing the skid control ECU (brake actuator assembly), perform zero point calibration and store system information.
+</p>
+</dd>
+<dd class="atten3">
+<p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;VEHICLE STABILITY CONTROL SYSTEM&gt;CALIBRATION<span class="invisible">201608,999999,_54,_029873,_0287798,RM100000000ZNUE,</span></a>
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM1000000012Q7M_02" class="category no01">
+<h2>PROCEDURE</h2>
+<div class="testgrp" id="RM1000000012Q7M_02_0001">
+<div class="testtitle"><span class="titleText">1.CHECK PART NUMBER (ECM)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Check that the proper ECM is installed.
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM1000000012Q7M_02_0001_1" summary="">
+<colgroup>
+<col style="width:75%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Result
+</th>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">Proper ECM is installed
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">Proper ECM are not installed
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">2.CHECK BRAKE ACTUATOR ASSEMBLY</span></div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">CHECK OR REPLACE CHARGING SYSTEM OR BATTERY</span></div>
+<div class="content6">
+<p>for 1VD-FTV: Click here<a class="mlink" href="javascript:void(0)">Power Source / Network&gt;1VD-FTV BATTERY / CHARGING&gt;CHARGING SYSTEM&gt;ON-VEHICLE INSPECTION<span class="invisible">201408,999999,_57,_029610,_0134069,RM100000000FWAR,</span></a>
+</p>
+<p>for 1GR-FE: Click here<a class="mlink" href="javascript:void(0)">Power Source / Network&gt;1GR-FE BATTERY / CHARGING&gt;CHARGING SYSTEM&gt;ON-VEHICLE INSPECTION<span class="invisible">201408,999999,_57,_029236,_0133250,RM100000000F9WS,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM1000000012Q7M_02_0003">
+<div class="testtitle"><span class="titleText">2.CHECK BRAKE ACTUATOR ASSEMBLY</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Check if the brake actuator assembly had been replaced before the DTC was recorded.
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM1000000012Q7M_02_0003_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">The brake actuator assembly is not replaced
+</td>
+</tr>
+<tr>
+<td class="alcenter">The brake actuator assembly is replaced
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>The brake actuator assembly is not replaced
+</p></div>
+<div class="nextAction"><span class="titleText">3.RECONFIRM DTC</span></div>
+<div class="judgeValueNext"><p>The brake actuator assembly is replaced
+</p></div>
+<div class="nextAction"><span class="titleText">4.PERFORM INITIALIZATION AND CALIBRATION</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM1000000012Q7M_02_0004">
+<div class="testtitle"><span class="titleText">3.RECONFIRM DTC</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Clear the DTC.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;VEHICLE STABILITY CONTROL SYSTEM&gt;DTC CHECK / CLEAR<span class="invisible">201608,999999,_54,_029873,_0287798,RM100000000ZNUI,</span></a>
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Chassis &gt; ABS/VSC/TRC &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Turn the ignition switch off.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Check if the same DTC is recorded.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;VEHICLE STABILITY CONTROL SYSTEM&gt;DTC CHECK / CLEAR<span class="invisible">201608,999999,_54,_029873,_0287798,RM100000000ZNUI,</span></a>
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM1000000012Q7M_02_0004_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">DTC C1203 is not output
+</td>
+</tr>
+<tr>
+<td class="alcenter">DTC C1203 is output
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>DTC C1203 is not output
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">USE SIMULATION METHOD TO CHECK</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">General&gt;INTRODUCTION&gt;HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS&gt;HOW TO PROCEED WITH TROUBLESHOOTING<span class="invisible">201701,999999,_V1,_030611,_0140190,RM10000000136PZ,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>DTC C1203 is output
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPLACE BRAKE ACTUATOR ASSEMBLY</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;BRAKE ACTUATOR(w/ VSC)&gt;REMOVAL<span class="invisible">201701,999999,_54,_029873,_0282728,RM1000000012V48,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM1000000012Q7M_02_0005">
+<div class="testtitle"><span class="titleText">4.PERFORM INITIALIZATION AND CALIBRATION</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Perform initialization and calibration.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;VEHICLE STABILITY CONTROL SYSTEM&gt;CALIBRATION<span class="invisible">201608,999999,_54,_029873,_0287798,RM100000000ZNUE,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM1000000012Q7M_02_0005_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NEXT
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>NEXT
+</p></div>
+<div class="nextAction"><span class="titleText">5.RECONFIRM DTC</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM1000000012Q7M_02_0006">
+<div class="testtitle"><span class="titleText">5.RECONFIRM DTC</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Clear the DTC.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;VEHICLE STABILITY CONTROL SYSTEM&gt;DTC CHECK / CLEAR<span class="invisible">201608,999999,_54,_029873,_0287798,RM100000000ZNUI,</span></a>
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Chassis &gt; ABS/VSC/TRC &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Turn the ignition switch off.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Check if the same DTC is recorded.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;VEHICLE STABILITY CONTROL SYSTEM&gt;DTC CHECK / CLEAR<span class="invisible">201608,999999,_54,_029873,_0287798,RM100000000ZNUI,</span></a>
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM1000000012Q7M_02_0006_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">DTC C1203 is not output
+</td>
+</tr>
+<tr>
+<td class="alcenter">DTC C1203 is output
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>DTC C1203 is not output
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">END</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>DTC C1203 is output
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPLACE BRAKE ACTUATOR ASSEMBLY</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;BRAKE ACTUATOR(w/ VSC)&gt;REMOVAL<span class="invisible">201701,999999,_54,_029873,_0282728,RM1000000012V48,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

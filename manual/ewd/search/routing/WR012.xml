@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="WR012">
+    <part type="conn" code="L13">
+      <name>Antenna Switch Assembly</name>
+    </part>
+    <part type="conn" code="L45">
+      <name>Antenna Switch Assembly</name>
+    </part>
+    <part type="conn" code="L10">
+      <name>Ashtray Receptacle Light</name>
+    </part>
+    <part type="conn" code="L4">
+      <name>Center Differential Lock Switch</name>
+    </part>
+    <part type="conn" code="L12">
+      <name>Cigarette Lighter Assembly</name>
+    </part>
+    <part type="conn" code="L19">
+      <name>Cigarette Lighter Illumination (Cigarette Lighter Bezel Stay)</name>
+    </part>
+    <part type="conn" code="L9">
+      <name>Clock Assembly</name>
+    </part>
+    <part type="conn" code="L26">
+      <name>Combination Meter Assembly</name>
+    </part>
+    <part type="conn" code="L50">
+      <name>Combination Meter Assembly</name>
+    </part>
+    <part type="conn" code="L25">
+      <name>Combination Meter Assembly</name>
+    </part>
+    <part type="conn" code="z3">
+      <name>Cruise Control Switch Wire , Spiral Cable Sub-Assembly</name>
+    </part>
+    <part type="conn" code="L31">
+      <name>Door Control ECU with Receiver Assembly</name>
+    </part>
+    <part type="conn" code="L18">
+      <name>Door Control Switch Assembly</name>
+    </part>
+    <part type="conn" code="L46">
+      <name>Door Control Switch Assembly</name>
+    </part>
+    <part type="conn" code="z2">
+      <name>Driver Side Squib Circuit , Spiral Cable Sub-Assembly</name>
+    </part>
+    <part type="conn" code="L41">
+      <name>Front No. 1 Speaker Assembly LH</name>
+    </part>
+    <part type="conn" code="L1">
+      <name>Front No. 1 Speaker Assembly LH</name>
+    </part>
+    <part type="conn" code="L5">
+      <name>Front No. 1 Speaker Assembly RH</name>
+    </part>
+    <part type="conn" code="L44">
+      <name>Front No. 1 Speaker Assembly RH</name>
+    </part>
+    <part type="conn" code="N1">
+      <name>Front Passenger Side Squib Circuit (Instrument Panel Passenger Airbag Assembly)</name>
+    </part>
+    <part type="conn" code="L8">
+      <name>Fuel Control Switch Assembly</name>
+    </part>
+    <part type="conn" code="L14">
+      <name>Hazard Warning Signal Switch Assembly</name>
+    </part>
+    <part type="conn" code="M1">
+      <name>Hazard Warning Signal Switch Assembly</name>
+    </part>
+    <part type="conn" code="L24">
+      <name>Headlight Dimmer Switch Assembly</name>
+    </part>
+    <part type="conn" code="L15">
+      <name>Headlight Leveling Switch</name>
+    </part>
+    <part type="conn" code="L54">
+      <name>Headlight Leveling Switch</name>
+    </part>
+    <part type="conn" code="z1">
+      <name>Horn Button Wire Sub-Assembly , Spiral Cable Sub-Assembly</name>
+    </part>
+    <part type="conn" code="L6">
+      <name>Idle Up Switch</name>
+    </part>
+    <part type="conn" code="L21">
+      <name>Ignition or Starter Switch Assembly</name>
+    </part>
+    <part type="conn" code="L34">
+      <name>No. 26 Junction Connector</name>
+    </part>
+    <part type="conn" code="L36">
+      <name>No. 28 Junction Connector</name>
+    </part>
+    <part type="conn" code="L37">
+      <name>No. 29 Junction Connector</name>
+    </part>
+    <part type="conn" code="L55">
+      <name>No. 29 Junction Connector</name>
+    </part>
+    <part type="conn" code="L38">
+      <name>No. 30 Junction Connector</name>
+    </part>
+    <part type="conn" code="L52">
+      <name>No. 30 Junction Connector</name>
+    </part>
+    <part type="conn" code="L53">
+      <name>No. 31 Junction Connector</name>
+    </part>
+    <part type="conn" code="L39">
+      <name>No. 31 Junction Connector</name>
+    </part>
+    <part type="conn" code="L57">
+      <name>No. 37 Junction Connector</name>
+    </part>
+    <part type="conn" code="L58">
+      <name>No. 38 Junction Connector</name>
+    </part>
+    <part type="conn" code="L40">
+      <name>Option Connector (Auto Antenna)</name>
+    </part>
+    <part type="conn" code="L16">
+      <name>Outer Mirror Switch Assembly</name>
+    </part>
+    <part type="conn" code="L42">
+      <name>Radio Receiver Assembly</name>
+    </part>
+    <part type="conn" code="L43">
+      <name>Radio Receiver Assembly</name>
+    </part>
+    <part type="conn" code="L2">
+      <name>Radio Receiver Assembly</name>
+    </part>
+    <part type="conn" code="L3">
+      <name>Radio Receiver Assembly</name>
+    </part>
+    <part type="conn" code="L7">
+      <name>Rear Window Defogger Switch Assembly</name>
+    </part>
+    <part type="conn" code="L29">
+      <name>Spiral Cable Sub-Assembly</name>
+    </part>
+    <part type="conn" code="L27">
+      <name>Spiral Cable Sub-Assembly</name>
+    </part>
+    <part type="conn" code="L47">
+      <name>Steering Sensor (Spiral Cable with Sensor Sub-Assembly)</name>
+    </part>
+    <part type="conn" code="L56">
+      <name>Tire Pressure Warning Reset Switch</name>
+    </part>
+    <part type="conn" code="L17">
+      <name>Transmission Control Switch</name>
+    </part>
+    <part type="conn" code="L28">
+      <name>Transponder Key Amplifier</name>
+    </part>
+    <part type="conn" code="L30">
+      <name>Transponder Key ECU Assembly</name>
+    </part>
+    <part type="conn" code="L20">
+      <name>Un-Lock Warning Switch Assembly</name>
+    </part>
+    <part type="conn" code="L49">
+      <name>VSC Off Switch</name>
+    </part>
+    <part type="conn" code="L23">
+      <name>Windshield Wiper Switch Assembly</name>
+    </part>
+    <part type="conn" code="L22">
+      <name>Windshield Wiper Switch Assembly</name>
+    </part>
+  </ttl>
+</EWDSearch>

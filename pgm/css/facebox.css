@@ -1,0 +1,115 @@
+/*! All Rights Reserved. Copyright 2012 (C) TOYOTA  MOTOR  CORPORATION.
+Last Update: 2011/12/16
+Facebox Style Sheets */
+
+body {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#facebox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 100;
+  margin: -200px 0px 0px -300px;
+  text-align: left;
+}
+
+#facebox .popup {
+  position: relative;
+}
+
+#facebox table {
+  border-collapse: collapse;
+}
+
+#facebox td {
+  border-bottom: 0;
+  padding: 0;
+}
+
+#facebox .body {
+  padding: 0px;
+  background: #fff;
+  width: 200px;
+}
+
+#facebox .loading {
+  text-align: center;
+}
+
+#facebox .image {
+  text-align: center;
+}
+
+#facebox img {
+  border: 0;
+  margin: 0;
+}
+
+#facebox_overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+}
+
+.facebox_overlayBG {
+  z-index: 99;
+}
+
+* html #facebox_overlay {
+  position: absolute;
+  height: expression(document.documentElement.scrollHeight > document.documentElement.offsetHeight ? document.documentElement.scrollHeight + 'px' : document.documentElement.offsetHeight + 'px');
+}
+
+#facebox .title {
+  background: url(../img/png/fbx_mtrx_bg.png) repeat-x;
+  color: #ffffff;
+  font-weight: bold;
+  height: 28px;
+  line-height: 26px;
+  text-align: right;
+}
+
+#facebox .tname {
+  background: url(../img/png/fbx_mtrx_bg.png) repeat-x;
+  color: #ffffff;
+  font-weight: bold;
+  height: 28px;
+  line-height: 26px;
+  padding-left: 10px;
+}
+
+td#facebox_name {
+  vertical-align: middle;
+}
+
+#facebox .close_image {
+  margin-top: 3px;
+  margin-right: 3px;
+}
+
+#facebox_overlay2 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height:100%;
+  width:100%;
+  background: none;
+  z-index:98;
+  opacity:0.0;
+  _filter: Alpha(opacity=0);
+}
+
+* html #facebox_overlay2 {
+  position: absolute;
+  height: expression(document.documentElement.scrollHeight > document.documentElement.offsetHeight ? document.documentElement.scrollHeight + 'px' : document.documentElement.offsetHeight + 'px');
+}
+
+html.facebox_noscrollbar {
+  overflow: hidden;
+}

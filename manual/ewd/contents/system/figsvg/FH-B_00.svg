@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'ArialMT';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'ArialMT';">
+	<!ENTITY st11 "font-size:9px;font-family:'Svg Symbol';">
+	<!ENTITY st12 "font-size:6px;font-family:'Svg Symbol';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'Arial';">
+	<!ENTITY st19 "font-size:9px;font-family:'Arial';">
+	<!ENTITY st20 "font-size:6px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 374.392 710.000" viewBox="0 0 374.392 710.000" height="710.000" width="374.392" xml:space="preserve" ewd:ver="2.1.2.9" xmlns="&ns_svg;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:xlink="&ns_xlink;"><script type="text/javascript" xlink:href="../../../../../system/js/ewd/fig/svgfig.js" xmlns:xlink="http://www.w3.org/1999/xlink" />
+<g id="ewd_top"><a ewd:figtype="conn" style="cursor:pointer;" ewd:code="A16" ewd:figID="1"><path style="fill:#CCECF4;stroke:#000000; stroke-width:1.133; stroke-linecap:round;stroke-linejoin:round; " d=" M   220.96,   307.73  L   220.96,   273.74  L   237.96,   273.74  L   237.96,   307.73  L   220.96,   307.73 " /><title ewd:textID="1">Fuel Heater</title></a><a ewd:figtype="rb" style="cursor:pointer;" ewd:code="FUSE22" ewd:figID="2"><path style="fill:#CCECF4;stroke:#000000; stroke-width:0; stroke-linecap:round;stroke-linejoin:round; " d=" M   216.71,    35.78  L   216.71,    78.27  L   242.21,    78.27  L   242.21,    35.78  L   216.71,    35.78 " /></a><a ewd:figtype="conn" style="cursor:pointer;" ewd:code="A22" ewd:figID="3"><path style="fill:#CCECF4;stroke:#000000; stroke-width:1.133; stroke-linecap:round;stroke-linejoin:round; " d=" M   220.96,   409.72  L   220.96,   426.71  L   237.96,   426.71  L   237.96,   409.72  L   220.96,   409.72 " /><title ewd:textID="2">No. 1 Junction Connector</title></a><a ewd:figtype="conn" style="cursor:pointer;" ewd:code="A23" ewd:figID="4"><path style="fill:#CCECF4;stroke:#000000; stroke-width:1.133; stroke-linecap:round;stroke-linejoin:round; " d=" M   314.45,   409.72  L   314.45,   426.71  L   331.44,   426.71  L   331.44,   409.72  L   314.45,   409.72 " /><title ewd:textID="3">No. 2 Junction Connector</title></a><a ewd:figtype="fuse" style="cursor:pointer;" ewd:code="FUSE22" ewd:figID="8"><path style="&st7; stroke-width:0;" d=" M   216.71,    35.78  L   216.71,    78.27  L   242.21,    78.27  L   242.21,    35.78  L   216.71,    35.78 " /></a><a style="cursor:pointer;" ewd:lineID="1"><path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M   229.46,   435.78  L   229.46,   681.67  " /><path style="stroke:#FFFFFF;stroke-width:4.53 ;&st6;" d=" M   229.46,   435.78  L   229.46,   681.67  " /><path style="stroke:#000000;stroke-width:1.13 ;&st6;" d=" M   229.46,   435.78  L   229.46,   681.67  " /></a><a style="cursor:pointer;" ewd:lineID="2"><path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M   229.46,   307.73  L   229.46,   400.65  " /><path style="stroke:#FFFFFF;stroke-width:4.53 ;&st6;" d=" M   229.46,   307.73  L   229.46,   400.65  " /><path style="stroke:#000000;stroke-width:1.13 ;&st6;" d=" M   229.46,   307.73  L   229.46,   400.65  " /></a><a style="cursor:pointer;" ewd:lineID="3"><path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M   229.46,   180.26  L   229.46,   273.74  " /></a><a style="cursor:pointer;" ewd:lineID="4"><path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M   229.46,   103.77  L   229.46,   165.52  " /></a><a style="cursor:pointer;" ewd:lineID="5"><path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M   322.95,   435.78  L   322.95,   664.67  L   237.96,   664.67  L   229.46,   673.17  L   229.46,   681.67  " /><path style="stroke:#FFFFFF;stroke-width:4.53 ;&st6;" d=" M   322.95,   435.78  L   322.95,   664.67  L   237.96,   664.67  L   229.46,   673.17  L   229.46,   681.67  " /><path style="stroke:#000000;stroke-width:1.13 ;&st6;" d=" M   322.95,   435.78  L   322.95,   664.67  L   237.96,   664.67  L   229.46,   673.17  L   229.46,   681.67  " /></a><a style="cursor:pointer;" ewd:lineID="6"><path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M   322.95,   400.65  L   322.95,   333.23  L   246.46,   333.23  L   229.46,   316.23  L   229.46,   307.73  " /><path style="stroke:#FFFFFF;stroke-width:4.53 ;&st6;" d=" M   322.95,   400.65  L   322.95,   333.23  L   246.46,   333.23  L   229.46,   316.23  L   229.46,   307.73  " /><path style="stroke:#000000;stroke-width:1.13 ;&st6;" d=" M   322.95,   400.65  L   322.95,   333.23  L   246.46,   333.23  L   229.46,   316.23  L   229.46,   307.73  " /></a><a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="39" ewd:code="AI3" ewd:figID="6"><path style="&st2;" d=" M   237.96,   171.76  L   220.96,   171.76  L   220.96,   180.26  L   237.96,   180.26  L   237.96,   171.76 " /><text style="&st8;" transform="matrix(&st16;  225.1  178.13 )"><tspan x="0" style="&st18;" y="0">AI3</tspan></text></a><a ewd:figtype="gp" style="cursor:pointer;" ewd:code="AA" ewd:figID="7"><path style="&st2;" d=" M   218.84,   681.67  L   240.08,   681.67  L   229.46,   697.25  L   218.84,   681.67 " /><text style="&st8;" transform="matrix(&st16;  225.47  689.46 )"><tspan x="0" style="&st18;" y="0">AA</tspan></text></a></g></svg>

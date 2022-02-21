@@ -1,0 +1,5026 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">Engine / Hybrid System</span>
+<span class="globalSection">_029758</span>
+<span class="globalSectionName">1GR-FE ENGINE CONTROL</span>
+<span class="globalTitle">_0135343</span>
+<span class="globalTitleName">SFI SYSTEM</span>
+<span class="globalCategory">U</span>
+</div>
+<h1>1GR-FE ENGINE CONTROL&nbsp;&nbsp;SFI SYSTEM&nbsp;&nbsp;DATA LIST / ACTIVE TEST&nbsp;&nbsp;</h1>
+<br>
+<div id="RM1000000013KRD_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">DATA LIST
+</span></p>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>Using the GTS to read the Data List allows the values or states of switches, sensors, actuators and other items to be read without removing any parts. This non-intrusive inspection can be very useful because intermittent conditions or signals may be discovered before parts or wiring is disturbed. Reading the Data List information early in troubleshooting is one way to save diagnostic time
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3">
+<p>In the table below, the values listed under "Normal Condition" are reference values. Do not depend solely on these reference values when deciding whether a part is faulty or not.
+</p>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>Warm up the engine.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>Turn the ignition switch off.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>Turn the ignition switch to ON.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>Turn the GTS on.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">f.</div>
+<div class="step2Body">
+<p>Enter the following menus: Powertrain / Engine and ECT / Data List / All Data.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">g.</div>
+<div class="step2Body">
+<p>Check the values by referring to the table below.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">Various Vehicle Conditions 1 (All Data)
+</span></p>
+<br>
+<dl class="gtsFreezeFrame hasAllTable">
+<dt class="gtsFreezeFrame">Powertrain &gt; Engine and ECT</dt>
+<dd class="gtsFreezeFrame">
+<table summary="freeze-frame">
+<colgroup>
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+<th class="alcenter">Measurement Item
+</th>
+<th class="alcenter">Range
+</th>
+<th class="alcenter">Normal Condition
+</th>
+<th class="alcenter">Diagnostic Note
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Vehicle Speed
+</td>
+<td class="alleft">Vehicle speed
+</td>
+<td class="alleft">Min.: 0 km/h, Max.: 255 km/h
+</td>
+<td class="alleft">Actual vehicle speed
+</td>
+<td class="alleft">The speed indicated on the speedometer.
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Speed
+</td>
+<td class="alleft">Engine speed
+</td>
+<td class="alleft">Min.: 0 rpm, Max.: 16383 rpm
+</td>
+<td class="alleft">650 to 750 rpm: Idling
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Calculate Load
+</td>
+<td class="alleft">Load calculated by ECM
+</td>
+<td class="alleft">Min.: 0%, Max.: 100%
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>11.4 to 16.4%: Idling
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>13.1 to 18.9%: Running without load (2000 rpm)
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Vehicle Load
+</td>
+<td class="alleft">Vehicle load
+</td>
+<td class="alleft">Min.: 0%, Max.: 25700%
+</td>
+<td class="alleft">Actual vehicle load
+</td>
+<td class="alleft">The load percentage in terms of the maximum intake airflow amount.
+</td>
+</tr>
+<tr>
+<td class="alleft">MAF
+</td>
+<td class="alleft">Airflow rate from MAF meter
+</td>
+<td class="alleft">Min.: 0 gm/sec., Max.: 655.35 gm/sec.
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>3.2 to 4.7 gm/sec.: Idling
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>13.1 to 18.9 gm/sec.: 2000 rpm
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">If the value is approximately 0.0 gm/sec.:
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The mass air flow meter power source circuit is open or shorted.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The VG circuit is open or shorted.
+</p>
+</div>
+</div>
+</div>
+<br>
+If the value is 160.0 gm/sec. or more:
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The E2G circuit is open.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Atmosphere Pressure
+</td>
+<td class="alleft">Atmospheric pressure
+</td>
+<td class="alleft">Min.: 0 kPa, Max.: 255 kPa
+</td>
+<td class="alleft">Equivalent to atmospheric pressure (absolute pressure)
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Standard atmospheric pressure: 101 kPa(abs) [758 mmHg(abs)]
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>For every 100 m (328 ft.) increase in altitude, pressure drops by 1 kPa (7.5 mmHg). This varies by weather.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Coolant Temp
+</td>
+<td class="alleft">Engine coolant temperature
+</td>
+<td class="alleft">Min.: -40°C, Max.: 140°C
+</td>
+<td class="alleft">80 to 100°C (176 to 212°F):
+<br>
+After warming up
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the value is -40°C (-40°F), the sensor circuit is open.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the value is 140°C (284°F) or higher, the sensor circuit is shorted.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Intake Air
+</td>
+<td class="alleft">Intake air temperature
+</td>
+<td class="alleft">Min.: -40°C, Max.: 140°C
+</td>
+<td class="alleft">Equivalent to ambient air temperature
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the value is -40°C (-40°F), the sensor circuit is open.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the value is 140°C (284°F) or higher, the sensor circuit is shorted.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Run Time
+</td>
+<td class="alleft">Engine run time
+</td>
+<td class="alleft">Min.: 0 s, Max.: 65535 s
+</td>
+<td class="alleft">Time after engine start
+</td>
+<td class="alleft">This is the time elapsed since the engine started.
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>The time is counted only while the engine is running.
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Initial Engine Coolant Temp
+</td>
+<td class="alleft">Initial engine coolant temperature
+</td>
+<td class="alleft">Min.: -40°C, Max.: 120°C
+</td>
+<td class="alleft">Coolant temperature when engine started
+</td>
+<td class="alleft">This is the coolant temperature stored when the ignition switch is turned to on.
+</td>
+</tr>
+<tr>
+<td class="alleft">Initial Intake Air Temp
+</td>
+<td class="alleft">Initial intake air temperature
+</td>
+<td class="alleft">Min.: -40°C, Max.: 120°C
+</td>
+<td class="alleft">Intake air temperature when engine started
+</td>
+<td class="alleft">This is the intake air temperature stored when the ignition switch is turned to on.
+</td>
+</tr>
+<tr>
+<td class="alleft">Battery Voltage
+</td>
+<td class="alleft">Battery voltage
+</td>
+<td class="alleft">Min.: 0, Max.: 65.5 V
+</td>
+<td class="alleft">11 to 14 V: Idling
+</td>
+<td class="alleft">If 11 V or less, characteristics of some electrical components may change.
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Normal Condition: If no idling conditions are specified, the shift lever should be in neutral, and the A/C switch and all accessory switches should be off.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">Throttle Control 1 (Ptrl Throttle)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+<th class="alcenter">Measurement Item
+</th>
+<th class="alcenter">Range
+</th>
+<th class="alcenter">Normal Condition
+</th>
+<th class="alcenter">Diagnostic Note
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Accel Sens. No.1 Volt %
+</td>
+<td class="alleft">Accelerator Pedal Position (APP) No. 1
+</td>
+<td class="alleft">Min.: 0%, Max.: 100%
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>10 to 22%: Accelerator pedal released
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>52 to 90%: Accelerator pedal fully depressed
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">The accelerator pedal position sensor NO.1 output is converted using 5 V = 100%.
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>If there are no accelerator pedal position sensor DTCs stored, it is possible to conclude that the accelerator pedal position sensor system is normal.
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Accel Sens. No.2 Volt %
+</td>
+<td class="alleft">Accelerator Pedal Position (APP) No. 2
+</td>
+<td class="alleft">Min.: 0%, Max.: 100%
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>24 to 40%: Accelerator pedal released
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>68 to 95%: Accelerator pedal fully depressed
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">The accelerator pedal position sensor NO.2 output is converted using 5 V = 100%.
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Normal Condition: If no idling conditions are specified, the shift lever should be in neutral, and the A/C switch and all accessory switches should be off.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">Throttle Control 2 (All Data)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+<th class="alcenter">Measurement Item
+</th>
+<th class="alcenter">Range
+</th>
+<th class="alcenter">Normal Condition
+</th>
+<th class="alcenter">Diagnostic Note
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Accel Sensor Out No.1
+</td>
+<td class="alleft">APP sensor No. 1 voltage
+</td>
+<td class="alleft">Min.: 0 V, Max.: 4.9 V
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>0.5 to 1.1 V: Accelerator pedal released
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>2.6 to 4.5 V: Accelerator pedal fully depressed
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">This is the raw voltage from the accelerator pedal position sensor NO.1.
+</td>
+</tr>
+<tr>
+<td class="alleft">Accel Sensor Out No.2
+</td>
+<td class="alleft">APP sensor No. 2 voltage
+</td>
+<td class="alleft">Min.: 0 V, Max.: 4.9 V
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>1.2 to 2.0 V: Accelerator pedal released
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>3.4 to 4.75 V: Accelerator pedal fully depressed
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">This is the raw voltage from the accelerator pedal position sensor NO.2.
+<br>
+Accelerator pedal position sensor No. 2 is used to monitor accelerator pedal position sensor No. 1. When there is a malfunction in sensor No. 1, the ECM uses sensor No. 2 to control the engine.
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Normal Condition: If no idling conditions are specified, the shift lever should be in neutral, and the A/C switch and all accessory switches should be off.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">Throttle Control 3 (Ptrl Throttle)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+<th class="alcenter">Measurement Item
+</th>
+<th class="alcenter">Range
+</th>
+<th class="alcenter">Normal Condition
+</th>
+<th class="alcenter">Diagnostic Note
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Accelerator Idle Position
+</td>
+<td class="alleft">Whether or not accelerator pedal position sensor detecting idle
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">ON: Idling
+</td>
+<td class="alleft">This is a parameter calculated by the ECM which indicates whether the accelerator pedal is in the learned idle position.
+</td>
+</tr>
+<tr>
+<td class="alleft">Accel Fully Close #1 (AD)
+</td>
+<td class="alleft">Accelerator fully closed value No. 1 (AD)
+</td>
+<td class="alleft">Min.: 0 V, Max.: 4.9 V
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">The ETCS service data.
+</td>
+</tr>
+<tr>
+<td class="alleft">Accel Fully Close Learn #1
+</td>
+<td class="alleft">Accelerator fully closed learning value No. 1
+</td>
+<td class="alleft">Min.: 0 deg, Max.: 124.5 deg
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">This is the value of accelerator pedal position sensor No. 1 learned when the accelerator pedal is released.
+</td>
+</tr>
+<tr>
+<td class="alleft">Accel Fully Close Learn #2
+</td>
+<td class="alleft">Accelerator fully closed learning value No. 2
+</td>
+<td class="alleft">Min.: 0 deg, Max.: 124.5 deg
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">This is the value of accelerator pedal position sensor No. 2 learned when the accelerator pedal is released.
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Sensor Volt %
+</td>
+<td class="alleft">Throttle valve opening percentage according to throttle position sensor
+</td>
+<td class="alleft">Min.: 0%, Max.: 100%
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>10 to 22%: Accelerator pedal released
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>64 to 96%: Accelerator pedal fully depressed
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">The throttle position sensor No. 1 output is converted using 5 V = 100%.
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>If there are no throttle position sensor DTCs stored, it is possible to conclude that the throttle position sensor system is normal.
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttl Sensor #2 Volt %
+</td>
+<td class="alleft">Throttle valve opening percentage according to throttle position sensor No. 2
+</td>
+<td class="alleft">Min.: 0%, Max.: 100%
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>42 to 62%: Accelerator pedal released
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>92 to 100%: Accelerator pedal fully depressed
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">The throttle position sensor No. 2 output is converted using 5 V = 100%.
+</td>
+</tr>
+<tr>
+<td class="alleft">ST1
+</td>
+<td class="alleft">Brake pedal signal
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">ON: Brake pedal released
+</td>
+<td class="alleft">This is the stop light switch assembly signal (ST1- terminal).
+</td>
+</tr>
+<tr>
+<td class="alleft">System Guard
+</td>
+<td class="alleft">System guard
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When there is a difference between the target and actual throttle valve opening angles, system guard turns off and stops the electronic throttle control system function.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>OFF: Electronic throttle control is stopped.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Open Side Malfunction
+</td>
+<td class="alleft">Open side malfunction
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">This parameter indicates a malfunction in the electronic throttle when the throttle valve is open.
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Idle Position
+</td>
+<td class="alleft">Whether or not throttle position sensor detecting idling
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ON: Accelerator pedal released
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>OFF: Accelerator pedal fully depressed
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is a parameter calculated by the ECM.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The value is ON when the throttle is at the idle position and OFF when the throttle is open.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Require Position
+</td>
+<td class="alleft">Throttle requirement position
+</td>
+<td class="alleft">Min.: 0 V, Max.: 4.9 V
+</td>
+<td class="alleft">0.5 to 1.1 V: Idling
+</td>
+<td class="alleft">This is a value calculated by the ECM showing the voltage for the target throttle valve position. It is almost an exact match of the Throttle Position No.1 value except during very rapid throttle valve movement, such as that used during wheelspin control.
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Sensor Position
+</td>
+<td class="alleft">Throttle position sensor
+</td>
+<td class="alleft">Min.: 0%, Max.: 100%
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>0%: Accelerator pedal released
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>50 to 80%: Accelerator pedal fully depressed
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is the throttle valve opening amount used for engine control.
+</p>
+<p>(100% signifies 125° of throttle valve rotation. This does not include the amount the throttle valve is opened to maintain the idle speed during idling.)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This value has no meaning when the ignition switch ON and the engine is stopped.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The throttle valve opening amount during idling is indicated by 0%.
+</p>
+<p>When the throttle valve is fully open, the value is 68%.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Position No.1
+</td>
+<td class="alleft">Throttle position sensor No. 1 output voltage
+</td>
+<td class="alleft">Min.: 0 V, Max.: 4.9 V
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>0.5 to 1.1 V: Accelerator pedal released
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>3.2 to 4.8 V: Accelerator pedal fully depressed
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>0.6 to 1.4 V: Fail-safe operating
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">This is the throttle position sensor No. 1 output voltage.
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Position No.2
+</td>
+<td class="alleft">Throttle position sensor No. 2 output voltage
+</td>
+<td class="alleft">Min.: 0 V, Max.: 4.9 V
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>2.1 to 3.1 V: Accelerator pedal released
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>4.6 to 5.0 V: Accelerator pedal fully depressed
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>2.1 to 3.1 V: Fail-safe operating
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">This is the throttle position sensor No. 2 output voltage.
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Position Command
+</td>
+<td class="alleft">Throttle position command value
+</td>
+<td class="alleft">Min.: 0 V, Max.: 4.9 V
+</td>
+<td class="alleft">0.5 to 4.8 V
+</td>
+<td class="alleft">Throttle Position Command is the same value as Throttle Require Position.
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Sens Open Pos #1
+</td>
+<td class="alleft">Throttle sensor opener position No. 1
+</td>
+<td class="alleft">Min.: 0 V, Max.: 4.9 V
+</td>
+<td class="alleft">0.6 to 1.4 V
+</td>
+<td class="alleft">This is the throttle position sensor No. 1 output voltage when there is no current supplied to the electronic throttle actuator. The accelerator pedal is released but the throttle valve is kept open by the throttle valve opener with the ignition switch ON.
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Sens Open Pos #2
+</td>
+<td class="alleft">Throttle sensor opener position No. 2
+</td>
+<td class="alleft">Min.: 0 V, Max.: 4.9 V
+</td>
+<td class="alleft">1.7 to 2.5 V
+</td>
+<td class="alleft">This is the throttle position sensor NO.2 output voltage when there is no current supplied to the electronic throttle actuator. The accelerator pedal is released but the throttle valve is kept open by the throttle valve opener with the ignition switch ON.
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Sens Open #1(AD)
+</td>
+<td class="alleft">Throttle position sensor No. 1 output voltage (AD)
+</td>
+<td class="alleft">Min.: 0 V, Max.: 4.9 V
+</td>
+<td class="alleft">0.5 to 4.8 V
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Motor
+</td>
+<td class="alleft">Whether or not throttle actuator control permitted
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">ON: Ignition switch ON
+<br>
+OFF: ETCS has failed
+</td>
+<td class="alleft">Read the value with the ignition switch ON (Do not start engine)
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Motor Current
+</td>
+<td class="alleft">Throttle actuator current
+</td>
+<td class="alleft">Min.: 0 A, Max.: 19.9 A
+</td>
+<td class="alleft">0 to 3.0 A: Idling
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When this value is large but the actual opening angle (Throttle Position No.1) does not reach the target opening angle (Throttle Require Position), there is an "unable to open" malfunction.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This value normally fluctuates around 1 A.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Motor DUTY
+</td>
+<td class="alleft">Throttle actuator
+</td>
+<td class="alleft">Min.: 0%, Max.: 100%
+</td>
+<td class="alleft">10 to 22%: Idling after engine warmed up
+</td>
+<td class="alleft">This is the output duty ratio of the throttle actuator drive circuit.
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Motor Duty (Open)
+</td>
+<td class="alleft">Throttle actuator duty ratio (open)
+</td>
+<td class="alleft">Min.: 0%, Max.: 100%
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is the duty ratio used to drive the throttle actuator and open the throttle valve. It is an ECM command signal.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When the throttle valve is being opened, Throttle Motor Duty (Open) is 10 to 50%.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Motor Duty (Close)
+</td>
+<td class="alleft">Throttle actuator duty ratio (close)
+</td>
+<td class="alleft">Min.: 0%, Max.: 100%
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">This is the duty ratio used to drive the throttle actuator and close the throttle valve. It is an ECM command signal.
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>During idling, the throttle valve opening angle is usually controlled using a duty ratio drive signal which closes the throttle valve. However, when carbon deposits build up, it may be necessary to open the throttle valve more than the throttle valve opener does. In that case, the opening angle is controlled using a "Throttle Motor Duty (Open)" signal which opens the throttle valve.
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Fully Close Learn
+</td>
+<td class="alleft">Throttle valve fully closed (learned value)
+</td>
+<td class="alleft">Min.: 0 V, Max.: 4.9 V
+</td>
+<td class="alleft">0.4 to 1.0 V (Accelerator pedal released)
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The ECM uses this learned value to determine the fully closed (and fully open) position of the throttle valve. This learned value is calculated by the ECM with the throttle valve opener angle (approximately 4 to 7°, the position when the ignition switch ON, the accelerator pedal is released and the throttle actuator is off).
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Learning is performed immediately after the ignition switch is turned to ON.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">ETCS Actuator Power
+</td>
+<td class="alleft">ETCS power supply
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">ON: Ignition switch ON and system normal
+<br>
+OFF: ETCS has failed
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">+BM Voltage
+</td>
+<td class="alleft">+BM voltage
+</td>
+<td class="alleft">Min.: 0, Max.: 19.9
+</td>
+<td class="alleft">1 to 14: Ignition switch ON and system normal
+</td>
+<td class="alleft">This is the power supply for the electronic throttle actuator. When the power supply is interrupted for approximately 1 second, DTCs P2118 (open circuit) and P0657 (short circuit, ECU malfunction) are stored and the electronic throttle control system enters fail-safe mode (normal operation is not restored until the ignition switch is turned OFF).
+</td>
+</tr>
+<tr>
+<td class="alleft">Actuator Power Supply
+</td>
+<td class="alleft">Actuator power supply
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">ON: Idling
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Fail Safe Drive
+</td>
+<td class="alleft">Whether or not fail-safe function executed
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">ON: ETCS has failed
+<br>
+OFF: ETCS normal
+</td>
+<td class="alleft">The ETCS service data.
+</td>
+</tr>
+<tr>
+<td class="alleft">Fail Safe Drive (Main CPU)
+</td>
+<td class="alleft">Whether or not fail-safe function executed
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">ON: ETCS has failed
+<br>
+OFF: ETCS normal
+</td>
+<td class="alleft">The ETCS service data.
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Position
+</td>
+<td class="alleft">Throttle valve opening angle
+</td>
+<td class="alleft">Min.: 0 deg, Max.: 499.99 deg
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">This value has no meaning when the ignition switch is on (IG) and the engine is stopped.
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Normal Condition: If no idling conditions are specified, the shift lever should be in neutral, and the A/C switch and all accessory switches should be off.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">Idle Speed Control (Ptrl Rough Idle)
+</span></p>
+<br>
+<dl class="gtsFreezeFrame hasAllTable">
+<dt class="gtsFreezeFrame">Powertrain &gt; Engine and ECT</dt>
+<dd class="gtsFreezeFrame">
+<table summary="freeze-frame">
+<colgroup>
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+<th class="alcenter">Measurement Item
+</th>
+<th class="alcenter">Range
+</th>
+<th class="alcenter">Normal Condition
+</th>
+<th class="alcenter">Diagnostic Note
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">ISC Flow
+</td>
+<td class="alleft">Flow rate calculated using information from mass air flow meter sub-assembly
+</td>
+<td class="alleft">Min.: 0 L/s, Max.: 79.99 L/s
+</td>
+<td class="alleft">-
+</td>
+<td class="alleft">This is the total ISC airflow amount (the amount of intake air necessary to maintain idling).
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>ISC Flow (total ISC airflow amount) = ISC Learning Value + ISC Feedback Value + each compensation amount
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">ISC Position
+</td>
+<td class="alleft">Requested throttle opening amount calculated using ISC control
+</td>
+<td class="alleft">Min.: 0 deg, Max.: 499.99 deg
+</td>
+<td class="alleft">-
+</td>
+<td class="alleft">This is the throttle valve opening amount while the engine is idling (the throttle valve opening amount necessary to maintain ISC air flow).
+</td>
+</tr>
+<tr>
+<td class="alleft">ISC Feedback Value
+</td>
+<td class="alleft">ISC feedback amount
+</td>
+<td class="alleft">Min.: -40 L/s, Max.: 39.99 L/s
+</td>
+<td class="alleft">-
+</td>
+<td class="alleft">This is the feedback amount necessary to adjust the airflow amount to maintain the target idle speed.
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>When the idle speed differs from the target, the feedback amount is adjusted. If the feedback amount becomes more than a certain value, this will be reflected in the ISC learned airflow value.
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">ISC Learning Value
+</td>
+<td class="alleft">ISC learned airflow value
+</td>
+<td class="alleft">Min.: -40 L/s, Max.: 39.99 L/s
+</td>
+<td class="alleft">-
+</td>
+<td class="alleft">This is the learned value of the airflow amount necessary for engine idling.
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If ISC Feedback Value becomes more than a certain value, this will be reflected in ISC Learning Value.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ISC Flow (total ISC airflow amount) = ISC Learning Value + ISC Feedback Value + each compensation amount
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Electric Load Feedback Val
+</td>
+<td class="alleft">Compensation flow rate according to electrical load
+</td>
+<td class="alleft">Min.: -40 L/s, Max.: 39.99 L/s
+</td>
+<td class="alleft">-
+</td>
+<td class="alleft">This is the ISC compensation amount determined according to the electrical load.
+</td>
+</tr>
+<tr>
+<td class="alleft">Air Conditioner FB Val
+</td>
+<td class="alleft">Compensation flow rate according to air conditioner load
+</td>
+<td class="alleft">Min.: -40 L/s, Max.: 39.99 L/s
+</td>
+<td class="alleft">-
+</td>
+<td class="alleft">This is the ISC compensation amount determined according to the air conditioner load.
+</td>
+</tr>
+<tr>
+<td class="alleft">PS Feedback Val
+</td>
+<td class="alleft">Compensation flow rate according to power steering load
+</td>
+<td class="alleft">Min.: -40 L/s, Max.: 39.99 L/s
+</td>
+<td class="alleft">-
+</td>
+<td class="alleft">This is the ISC compensation amount determined according to the power steering load. Low Revolution Control
+</td>
+</tr>
+<tr>
+<td class="alleft">N Range Status
+</td>
+<td class="alleft">Shift lever N status
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">-
+</td>
+<td class="alleft">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">Fuel System (Ptrl General)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+<th class="alcenter">Measurement Item
+</th>
+<th class="alcenter">Range
+</th>
+<th class="alcenter">Normal Condition
+</th>
+<th class="alcenter">Diagnostic Note
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Injector (Port)
+</td>
+<td class="alleft">Injection period of No. 1 cylinder
+</td>
+<td class="alleft">Min.: 0 ms, Max.: 32.64 ms
+</td>
+<td class="alleft">1.6 to 2.4 msec.: Idling
+</td>
+<td class="alleft">This is the injection period of the No. 1 cylinder (the command value from the ECM).
+</td>
+</tr>
+<tr>
+<td class="alleft">Injection Volum (Cylinder1)
+</td>
+<td class="alleft">Injection volume (Cylinder 1)
+</td>
+<td class="alleft">Min.: 0 ml, Max.: 2.047 ml
+</td>
+<td class="alleft">0.005 to 0.015 ml: Idling
+</td>
+<td class="alleft">The quantity of fuel injection volume for 10 times.
+</td>
+</tr>
+<tr>
+<td class="alleft">Fuel Pump Speed Control
+</td>
+<td class="alleft">Fuel pump speed control status
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">Idling: ON
+</td>
+<td class="alleft">Active Test support data.
+</td>
+</tr>
+<tr>
+<td class="alleft">Fuel Pump/Speed Status
+</td>
+<td class="alleft">Fuel pump/status
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">ON: Cranking
+</td>
+<td class="alleft">Active Test support data.
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Normal Condition: If no idling conditions are specified, the shift lever should be in neutral, and the A/C switch and all accessory switches should be off.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">EVAP System (Ptrl Evaporative)
+</span></p>
+<br>
+<dl class="gtsFreezeFrame hasAllTable">
+<dt class="gtsFreezeFrame">Powertrain &gt; Engine and ECT</dt>
+<dd class="gtsFreezeFrame">
+<table summary="freeze-frame">
+<colgroup>
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+<th class="alcenter">Measurement Item
+</th>
+<th class="alcenter">Range
+</th>
+<th class="alcenter">Normal Condition
+</th>
+<th class="alcenter">Diagnostic Note
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">EVAP (Purge) VSV
+</td>
+<td class="alleft">EVAP (Purge) VSV control duty
+</td>
+<td class="alleft">Min.: 0%, Max.: 100%
+</td>
+<td class="alleft">0 to 100%: Idling
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is the command signal from the ECM.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is the purge VSV control duty ratio. When EVAP (Purge) VSV is any value except 0%, EVAP purge* is being performed.
+</p>
+<p>*: Gasoline vapor from the fuel tank is being introduced into the intake system via the purge VSV.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When the engine is cold or immediately after the engine is started, EVAP (Purge) VSV is 0%.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Evap Purge Flow
+</td>
+<td class="alleft">Purge flow
+</td>
+<td class="alleft">Min.: 0%, Max.: 102.3%
+</td>
+<td class="alleft">0 to 100%: Idling
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is the percentage of total engine airflow contributed by EVAP purge operation.
+</p>
+<p>(Evap Purge Flow = Purge flow / Engine airflow x 100 (%))
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>It is based on MAF and a stored value for airflow and controlled by adjusting the duty cycle for the purge VSV.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Purge Density Learn Value
+</td>
+<td class="alleft">Learning value of purge density
+</td>
+<td class="alleft">Min.: -50, Max.: 344.99
+</td>
+<td class="alleft">-35 to 1: Idling
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Purge Density Learn Value is the proportion of the decrease in injection volume (based on the change in the air fuel ratio feedback compensation value) related to a 1% purge flow rate.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When Purge Density Learn Value is a large negative value, the purge effect is large.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The purge density is determined from the change in the air fuel ratio feedback compensation value when purge flow is introduced.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Purge density learning is performed so that the feedback compensation value is 0 +/-2%.
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Usually, the value is approximately +/-1%.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>1%: The concentration of HC in the purge gas is relatively low.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>0%: The concentration of HC in the purge gas is approximately equal to the stoichiometric air fuel ratio.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Large negative values indicate that the concentration of HC in the purge gas is relatively high.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">EVAP Purge VSV
+</td>
+<td class="alleft">VSV status for EVAP control
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">This parameter displays ON when EVAP (Purge) VSV is approximately 30% or higher, and displays OFF when the VSV duty ratio is less than 30%.
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Normal Condition: If no idling conditions are specified, the shift lever should be in neutral, and the A/C switch and all accessory switches should be off.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">Air Fuel Ratio Control 1 (All Data)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+<th class="alcenter">Measurement Item
+</th>
+<th class="alcenter">Range
+</th>
+<th class="alcenter">Normal Condition
+</th>
+<th class="alcenter">Diagnostic Note
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Target Air-Fuel Ratio
+</td>
+<td class="alleft">Air fuel ratio
+</td>
+<td class="alleft">Min.: 0, Max.: 1.998
+</td>
+<td class="alleft">0.8 to 1.2: Idling
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is the target air fuel ratio used by the ECM.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>1.0 is the stoichiometric air fuel ratio. Values that are more than 1 indicate the system attempting to make the air fuel ratio leaner. Values that are less than 1 indicate the system attempting to make the air fuel ratio richer.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Target Air-Fuel Ratio and AF Lambda B1S1 are related.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Normal Condition: If no idling conditions are specified, the shift lever should be in neutral, and the A/C switch and all accessory switches should be off.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">Air Fuel Ratio Control 2 (Ptrl AF O2 Sensor)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+<th class="alcenter">Measurement Item
+</th>
+<th class="alcenter">Range
+</th>
+<th class="alcenter">Normal Condition
+</th>
+<th class="alcenter">Diagnostic Note
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">AF Lambda B1S1
+</td>
+<td class="alleft">Short-term fuel trim associated with bank 1 sensor 1
+</td>
+<td class="alleft">Min.: 0, Max.: 1.99
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Value less than 1 (0.000 to 0.999) = Rich
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Stoichiometric air fuel ratio = 1
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Value more than 1 (1.001 to 1.999) = Lean
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is the actual air fuel ratio calculated based on the air fuel ratio sensor output.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Performing the "Control the Injection Volume" or "Control the Injection Volume for A/F Sensor" function of the Active Test enables the technician to check the voltage output of the sensor.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">AF Lambda B2S1
+</td>
+<td class="alleft">Short-term fuel trim associated with bank 2 sensor 1
+</td>
+<td class="alleft">Min.: 0, Max.: 1.99
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Value less than 1 (0.000 to 0.999) = Rich
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Stoichiometric air fuel ratio = 1
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Value more than 1 (1.001 to 1.999) = Lean
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is the actual air fuel ratio calculated based on the air fuel ratio sensor output.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Performing the "Control the Injection Volume" or "Control the Injection Volume for A/F Sensor" function of the Active Test enables the technician to check the voltage output of the sensor.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">AFS Voltage B1S1
+</td>
+<td class="alleft">A/F sensor output voltage bank 1 sensor 1
+</td>
+<td class="alleft">Min.: 0 V, Max.: 7.99 V
+</td>
+<td class="alleft">2.8 to 3.8 V: Idling
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is the voltage output of the air fuel ratio sensor (the voltage cannot be measured at the terminals of the sensor). This value is calculated by the ECM based on the current output of the air fuel ratio sensor (refer to AFS Current below for the actual sensor output).
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Performing the Control the Injection Volume or Control the Injection Volume for A/F Sensor function of the Active Test enables the technician to check the output voltage of the sensor.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">AFS Voltage B2S1
+</td>
+<td class="alleft">A/F sensor output voltage bank 2 sensor 1
+</td>
+<td class="alleft">Min.: 0 V, Max.: 7.99 V
+</td>
+<td class="alleft">2.8 to 3.8 V: Idling
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is the voltage output of the air fuel ratio sensor (the voltage cannot be measured at the terminals of the sensor). This value is calculated by the ECM based on the current output of the air fuel ratio sensor (refer to AFS Current below for the actual sensor output).
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Performing the Control the Injection Volume or Control the Injection Volume for A/F Sensor function of the Active Test enables the technician to check the output voltage of the sensor.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">AFS Current B1S1
+</td>
+<td class="alleft">A/F sensor output current bank 1 sensor 1
+</td>
+<td class="alleft">Min.: -128 mA, Max.: 127.99 mA
+</td>
+<td class="alleft">-0.5 to 0.5 mA: Idling
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">AFS Current B2S1
+</td>
+<td class="alleft">A/F sensor output current bank 2 sensor 1
+</td>
+<td class="alleft">Min.: -128 mA, Max.: 127.99 mA
+</td>
+<td class="alleft">-0.5 to 0.5 mA: Idling
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">O2S B1S2
+</td>
+<td class="alleft">Heated oxygen sensor output voltage bank 1 sensor 2
+</td>
+<td class="alleft">Min.: 0 V, Max.: 1.27 V
+</td>
+<td class="alleft">0.1 to 0.9 V:
+<br>
+Driving at 70 km/h (44 mph)
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is the output voltage of the heated oxygen sensor.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Values close to 0 V indicate an air fuel ratio leaner than the stoichiometric ratio.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Values close to 1 V indicate an air fuel ratio richer than the stoichiometric ratio.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>During air fuel ratio feedback control, the value moves back and forth in the range of 0 to 1 V.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Performing the "Control the Injection Volume" or "Control the Injection Volume for A/F Sensor" function of the Active Test enables the technician to check voltage output of the sensor.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">O2S B2S2
+</td>
+<td class="alleft">Heated oxygen sensor output voltage bank 2 sensor 2
+</td>
+<td class="alleft">Min.: 0 V, Max.: 1.27 V
+</td>
+<td class="alleft">0.1 to 0.9 V:
+<br>
+Driving at 70 km/h (44 mph)
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is the output voltage of the heated oxygen sensor.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Values close to 0 V indicate an air fuel ratio leaner than the stoichiometric ratio.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Values close to 1 V indicate an air fuel ratio richer than the stoichiometric ratio.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>During air fuel ratio feedback control, the value moves back and forth in the range of 0 to 1 V.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Performing the "Control the Injection Volume" or "Control the Injection Volume for A/F Sensor" function of the Active Test enables the technician to check voltage output of the sensor.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Short FT #1
+</td>
+<td class="alleft">Short-term fuel trim of bank 1
+</td>
+<td class="alleft">Min.: -100%, Max.: 99.2%
+</td>
+<td class="alleft">-20 to 20%
+</td>
+<td class="alleft">This item is the "short-term fuel injection volume compensation ratio" used to maintain the air fuel ratio at the stoichiometric ratio using the air fuel ratio sensor for feedback.
+</td>
+</tr>
+<tr>
+<td class="alleft">Long FT #1
+</td>
+<td class="alleft">Long-term fuel trim of bank 1
+</td>
+<td class="alleft">Min.: -100%, Max.: 99.2%
+</td>
+<td class="alleft">-30 to 30%
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The ECM will learn the Long FT values based on Short FT. The goal is to keep Short FT at 0% to keep the air fuel ratio mixture at the stoichiometric ratio.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This value is used to determine whether the system related to air fuel ratio control is malfunctioning.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The condition of the system is determined based on the sum of Short FT and Long FT (excluding times when the system is in transition).
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>30% or higher: There may be a lean air fuel ratio.
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>-30 to 30%: The air fuel ratio can be determined to be normal.
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>-30% or less: There may be a rich air fuel ratio.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Short FT #2
+</td>
+<td class="alleft">Short-term fuel trim of bank 2
+</td>
+<td class="alleft">Min.: -100%, Max.: 99.2%
+</td>
+<td class="alleft">-20 to 20%
+</td>
+<td class="alleft">This item is the "short-term fuel injection volume compensation ratio" used to maintain the air fuel ratio at the stoichiometric ratio using the air fuel ratio sensor for feedback.
+</td>
+</tr>
+<tr>
+<td class="alleft">Long FT #2
+</td>
+<td class="alleft">Long-term fuel trim of bank 2
+</td>
+<td class="alleft">Min.: -100%, Max.: 99.2%
+</td>
+<td class="alleft">-30 to 30%
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The ECM will learn the Long FT values based on Short FT. The goal is to keep Short FT at 0% to keep the air fuel ratio mixture at the stoichiometric ratio.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This value is used to determine whether the system related to air fuel ratio control is malfunctioning.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The condition of the system is determined based on the sum of Short FT and Long FT (excluding times when the system is in transition).
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>30% or higher: There may be a lean air fuel ratio.
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>-30 to 30%: The air fuel ratio can be determined to be normal.
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>-30% or less: There may be a rich air fuel ratio.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Fuel System Status #1
+</td>
+<td class="alleft">Fuel system status (bank 1)
+</td>
+<td class="alleft">OL or CL or OLDrive or OLFault or CLFault
+</td>
+<td class="alleft">CL: Idling after warming up
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>OL (Open Loop): Has not yet satisfied the conditions to go to closed loop.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>CL (Closed Loop): Using the heated oxygen sensor as feedback for fuel control.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>OLDrive: Open loop due to driving conditions (fuel enrichment).
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>OLFault: Open loop due to a detected system fault.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>CLFault: Closed loop but the heated oxygen sensor, which is used for fuel control, is malfunctioning.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Fuel System Status #2
+</td>
+<td class="alleft">Fuel system status (bank 2)
+</td>
+<td class="alleft">OL or CL or OLDrive or OLFault or CLFault
+</td>
+<td class="alleft">CL: Idling after warming up
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>OL (Open Loop): Has not yet satisfied the conditions to go to closed loop.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>CL (Closed Loop): Using the heated oxygen sensor as feedback for fuel control.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>OLDrive: Open loop due to driving conditions (fuel enrichment).
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>OLFault: Open loop due to a detected system fault.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>CLFault: Closed loop but the heated oxygen sensor, which is used for fuel control, is malfunctioning.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Normal Condition: If no idling conditions are specified, the shift lever should be in neutral, and the A/C switch and all accessory switches should be off.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">Ignition System (Ignition)
+</span></p>
+<br>
+<dl class="gtsFreezeFrame hasAllTable">
+<dt class="gtsFreezeFrame">Powertrain &gt; Engine and ECT</dt>
+<dd class="gtsFreezeFrame">
+<table summary="freeze-frame">
+<colgroup>
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+<th class="alcenter">Measurement Item
+</th>
+<th class="alcenter">Range
+</th>
+<th class="alcenter">Normal Condition
+</th>
+<th class="alcenter">Diagnostic Note
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">IGN Advance
+</td>
+<td class="alleft">Ignition timing advance for No. 1 cylinder
+</td>
+<td class="alleft">Min.: -64 deg, Max.: 63.5 deg
+</td>
+<td class="alleft">BTDC 7 to 24 deg: Idling
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Knock Feedback Value
+</td>
+<td class="alleft">Feedback value of knocking
+</td>
+<td class="alleft">Min: -64 deg(CA), Max.: 1983.9 deg(CA)
+</td>
+<td class="alleft">-22 to 0 deg(CA):
+<br>
+Driving at 70 km/h (44 mph)
+</td>
+<td class="alleft">This is the ignition timing retard compensation amount determined by the presence or absence of knocking.
+<br>
+Ignition timing = Most retarded timing value*1 + Knock Correct Learn Value*2 + Knock Feedback Value*3 + each compensation amount
+<br>
+Example: 21 deg(CA) = 10 deg(CA) + 14 deg(CA) - 3 deg(CA)
+<br>
+*1: The most retarded timing value is a constant determined by the engine speed and engine load.
+<br>
+*2: The knock correction learned value is calculated as shown below in order to keep Knock Feedback Value as close to -3 deg(CA) as possible.
+<br>
+When Knock Feedback Value is less than -4 deg(CA), Knock Correct Learn Value is slowly decreased.
+<br>
+When Knock Feedback Value is higher than -2 deg(CA), Knock Correct Learn Value is slowly increased.
+<br>
+*3: The base value is -3 deg(CA) and is adjusted based on the presence or absence of knocking. When there is no knocking, the value is increased, and when knocking is present, the value is decreased.
+<br>
+-1 deg(CA): There is no knocking and ignition timing is advanced.
+<br>
+-6 deg(CA): Knocking is present and the ignition timing is being retarded.
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>If Knock Feedback Value does not change around the time when knocking occurs even though knocking continues (for example, stays at -3 deg(CA)), it can be determined that knocking is not being detected.
+</p>
+</dd>
+<dd class="atten4"><div class="list1">
+<div class="listTitle">Possible Causes:</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>There is a problem with the knock control sensor sensitivity.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The knock control sensor is improperly installed.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>There is a problem with a wire harness.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Knock Correct Learn Value
+</td>
+<td class="alleft">Correction learning value of knocking
+</td>
+<td class="alleft">Min: -64 deg(CA), Max.: 1983.9 deg(CA)
+</td>
+<td class="alleft">0 to 22 deg(CA):
+<br>
+Driving at 70 km/h (44 mph)
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Refer to "Knock Feedback Value".
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When there is knocking or a lack of power, compare the following values to another vehicle of the same model.
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Engine Speed
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Calculate Load
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>IGN Advance
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Knock Feedback Value
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Knock Correct Learn Value
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Knock Correct Learn Value is large: There is no knocking and the ignition timing is advanced.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Knock Correct Learn Value is small: Knocking is present and the ignition timing is being retarded.
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>When knocking continues even though Knock Correct Learn Value is less than that of the vehicle being used for comparison (in other words, the ignition timing is being retarded but the knocking is not stopping), there may be a buildup of deposits or other such problems due to deterioration over time (oil entering the cylinders, poor quality fuel, etc.).
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Normal Condition: If no idling conditions are specified, the shift lever should be in neutral, and the A/C switch and all accessory switches should be off.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">Intake Control (Ptrl Intake Control)
+</span></p>
+<br>
+<dl class="gtsFreezeFrame hasAllTable">
+<dt class="gtsFreezeFrame">Powertrain &gt; Engine and ECT</dt>
+<dd class="gtsFreezeFrame">
+<table summary="freeze-frame">
+<colgroup>
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+<th class="alcenter">Measurement Item
+</th>
+<th class="alcenter">Range
+</th>
+<th class="alcenter">Normal Condition
+</th>
+<th class="alcenter">Diagnostic Note
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">ACIS VSV
+</td>
+<td class="alleft">VSV status for ACIS control
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">Active Test support data.
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">VVT Control (Ptrl Valve Control)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+<th class="alcenter">Measurement Item
+</th>
+<th class="alcenter">Range
+</th>
+<th class="alcenter">Normal Condition
+</th>
+<th class="alcenter">Diagnostic Note
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">VVT Control Status #1
+</td>
+<td class="alleft">VVT control (bank 1) status
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ON: The ECM is sending commands to change the timing (even when the timing is advanced, when the timing is being maintained and not being retarded or advanced any further, the value changes to OFF).
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>OFF: The system is commanding the timing to change to the most retarded timing.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">VVT Control Status #2
+</td>
+<td class="alleft">VVT control (bank 2) status
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ON: The ECM is sending commands to change the timing (even when the timing is advanced, when the timing is being maintained and not being retarded or advanced any further, the value changes to OFF).
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>OFF: The system is commanding the timing to change to the most retarded timing.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">VVT Advance Fail
+</td>
+<td class="alleft">VVT control failure status
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">ON: There is an intake VVT timing advance malfunction.
+</td>
+</tr>
+<tr>
+<td class="alleft">VVT Aim Angle #1
+</td>
+<td class="alleft">VVT aim angle (bank 1)
+</td>
+<td class="alleft">Min.: 0%, Max.: 100%
+</td>
+<td class="alleft">0 to 100%: Idling
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This value represents the duty ratio necessary to operate the camshaft timing oil control valve assembly in order to block the camshaft timing oil control valve assembly path and maintain the advanced or retarded state of the VVT controller. This is only available during the Active Test.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">VVT Change Angle #1
+</td>
+<td class="alleft">VVT change angle (bank 1)
+</td>
+<td class="alleft">Min.: 0 degFR, Max.: 60 degFR
+</td>
+<td class="alleft">0 to 56 degFR: Idling
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is the VVT displacement angle during forced operation.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is only available during the Active Test.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>By checking VVT Change Angle during the Active Test, it is also possible to determine whether or not the VVT sensor signal is being output.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">VVT OCV Duty #1
+</td>
+<td class="alleft">VVT OCV operation duty (bank 1)
+</td>
+<td class="alleft">Min.: 0%, Max.: 100%
+</td>
+<td class="alleft">0 to 100%: Idling
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is the requested duty value for forced operation.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is only available during the Active Test.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">VVT Aim Angle #2
+</td>
+<td class="alleft">VVT aim angle (bank 2)
+</td>
+<td class="alleft">Min.: 0%, Max.: 100%
+</td>
+<td class="alleft">0 to 100%: Idling
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This value represents the duty ratio necessary to operate the camshaft timing oil control valve assembly in order to block the camshaft timing oil control valve assembly path and maintain the advanced or retarded state of the VVT controller. This is only available during the Active Test.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">VVT Change Angle #2
+</td>
+<td class="alleft">VVT change angle (bank 2)
+</td>
+<td class="alleft">Min.: 0 degFR, Max.: 60 degFR
+</td>
+<td class="alleft">0 to 56 degFR: Idling
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is the VVT displacement angle during forced operation.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is only available during the Active Test.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>By checking VVT Change Angle during the Active Test, it is also possible to determine whether or not the VVT sensor signal is being output.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">VVT OCV Duty #2
+</td>
+<td class="alleft">VVT OCV operation duty (bank 2)
+</td>
+<td class="alleft">Min.: 0%, Max.: 100%
+</td>
+<td class="alleft">0 to 100%: Idling
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is the requested duty value for forced operation.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is only available during the Active Test.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Normal Condition: If no idling conditions are specified, the shift lever should be in neutral, and the A/C switch and all accessory switches should be off.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">Catalyst (Ptrl CAT Converter)
+</span></p>
+<br>
+<dl class="gtsFreezeFrame hasAllTable">
+<dt class="gtsFreezeFrame">Powertrain &gt; Engine and ECT</dt>
+<dd class="gtsFreezeFrame">
+<table summary="freeze-frame">
+<colgroup>
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+<th class="alcenter">Measurement Item
+</th>
+<th class="alcenter">Range
+</th>
+<th class="alcenter">Normal Condition
+</th>
+<th class="alcenter">Diagnostic Note
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Catalyst Temp B1S1
+</td>
+<td class="alleft">Catalyst temperature (bank 1 sensor 1)
+</td>
+<td class="alleft">Min.: -40°C, Max.: 6513.5°C
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is the temperature of the front catalyst estimated by the ECM.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Catalyst Temp B2S1
+</td>
+<td class="alleft">Catalyst temperature (bank 2 sensor 1)
+</td>
+<td class="alleft">Min.: -40°C, Max.: 6513.5°C
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">This is the temperature of the rear catalyst estimated by the ECM.
+</td>
+</tr>
+<tr>
+<td class="alleft">Catalyst Temp B1S2
+</td>
+<td class="alleft">Catalyst temperature (bank 1 sensor 2)
+</td>
+<td class="alleft">Min.: -40°C, Max.: 6513.5°C
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is the temperature of the front catalyst estimated by the ECM.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Catalyst Temp B2S2
+</td>
+<td class="alleft">Catalyst temperature (bank 2 sensor 2)
+</td>
+<td class="alleft">Min.: -40°C, Max.: 6513.5°C
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">This is the temperature of the rear catalyst estimated by the ECM.
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">Various Vehicle Conditions 3 (All Data)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+<th class="alcenter">Measurement Item
+</th>
+<th class="alcenter">Range
+</th>
+<th class="alcenter">Normal Condition
+</th>
+<th class="alcenter">Diagnostic Note
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Starter Signal
+</td>
+<td class="alleft">Starter signal
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">ON: Cranking
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Power Steering Signal
+</td>
+<td class="alleft">Power steering switch
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">ON: Power steering operation
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Power Steer. Sig. Record
+</td>
+<td class="alleft">Power steering signal (history)
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">ON: When steering wheel first turned after battery terminals connected
+</td>
+<td class="alleft">This signal status is usually on until the cables are disconnected from the battery terminals.
+</td>
+</tr>
+<tr>
+<td class="alleft">Stop Light Switch
+</td>
+<td class="alleft">Stop light switch status
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">ON: Brake pedal depressed
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">A/C Signal
+</td>
+<td class="alleft">A/C switch status
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">ON: A/C ON
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Closed Throttle Position SW
+</td>
+<td class="alleft">Closed throttle position switch
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ON: Throttle valve fully closed
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>OFF: Throttle valve open
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Fuel Cut Condition
+</td>
+<td class="alleft">Fuel cut condition
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">ON: Fuel cut operating
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Immobiliser Communication
+</td>
+<td class="alleft">Immobiliser communication
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">ON: Normal
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Electrical Load Signal
+</td>
+<td class="alleft">Electrical load signal
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Normal Condition: If no idling conditions are specified, the shift lever should be in neutral, and the A/C switch and all accessory switches should be off.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">Check Mode (Check Mode)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+<th class="alcenter">Measurement Item
+</th>
+<th class="alcenter">Range
+</th>
+<th class="alcenter">Normal Condition
+</th>
+<th class="alcenter">Diagnostic Note
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Check Mode
+</td>
+<td class="alleft">Check mode
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">ON: Check mode on
+</td>
+<td class="alleft">*1
+</td>
+</tr>
+<tr>
+<td class="alleft">SPD Test Result
+</td>
+<td class="alleft">Check mode result for vehicle speed sensor
+</td>
+<td class="alleft">Compl or Incmpl
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">OXS1 Test Result
+</td>
+<td class="alleft">Check mode result for HO2 sensor (bank 1)
+</td>
+<td class="alleft">Compl or Incmpl
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">OXS2 Test Result
+</td>
+<td class="alleft">Check mode result for HO2 sensor (bank 2)
+</td>
+<td class="alleft">Compl or Incmpl
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">A/F Test Results #2
+</td>
+<td class="alleft">Check mode result for air fuel ratio sensor (bank 2):
+</td>
+<td class="alleft">Compl or Incmpl
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">A/F Test Results #1
+</td>
+<td class="alleft">Check mode result for air fuel ratio sensor (bank 1):
+</td>
+<td class="alleft">Compl or Incmpl
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<p>*1:Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;SFI SYSTEM&gt;CHECK MODE PROCEDURE<span class="invisible">201408,999999,_51,_029758,_0135343,RM100000000FJFH,</span></a>
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Normal Condition: If no idling conditions are specified, the shift lever should be in neutral, and the A/C switch and all accessory switches should be off.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">Test Result (Monitor Status)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+<th class="alcenter">Measurement Item
+</th>
+<th class="alcenter">Range
+</th>
+<th class="alcenter">Normal Condition
+</th>
+<th class="alcenter">Diagnostic Note
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Complete Parts Monitor
+</td>
+<td class="alleft">Comprehensive component monitor:
+</td>
+<td class="alleft">Not Avl or Avail
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Fuel System Monitor
+</td>
+<td class="alleft">Fuel system monitor:
+</td>
+<td class="alleft">Not Avl or Avail
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Misfire Monitor
+</td>
+<td class="alleft">Misfire monitor:
+</td>
+<td class="alleft">Not Avl or Avail
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">EGR/VVT Monitor
+</td>
+<td class="alleft">EGR/VVT monitor:
+</td>
+<td class="alleft">Not Avl or Avail
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">EGR/VVT Monitor
+</td>
+<td class="alleft">EGR/VVT monitor:
+</td>
+<td class="alleft">Compl or Incmpl
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">O2S(A/FS) Heater Monitor
+</td>
+<td class="alleft">O2S (A/FS) heater monitor
+</td>
+<td class="alleft">Not Avl or Avail
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">O2S(A/FS) Heater Monitor
+</td>
+<td class="alleft">O2S (A/FS) heater monitor
+</td>
+<td class="alleft">Compl or Incmpl
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">O2S(A/FS) Monitor
+</td>
+<td class="alleft">O2S (A/FS) monitor
+</td>
+<td class="alleft">Not Avl or Avail
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">O2S(A/FS) Monitor
+</td>
+<td class="alleft">O2S (A/FS) monitor
+</td>
+<td class="alleft">Compl or Incmpl
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">A/C Monitor
+</td>
+<td class="alleft">A/C monitor
+</td>
+<td class="alleft">Not Avl or Avail
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">A/C Monitor
+</td>
+<td class="alleft">A/C monitor
+</td>
+<td class="alleft">Compl or Incmpl
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">2nd Air Monitor
+</td>
+<td class="alleft">2nd Air monitor
+</td>
+<td class="alleft">Not Avl or Avail
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">2nd Air Monitor
+</td>
+<td class="alleft">2nd Air monitor
+</td>
+<td class="alleft">Compl or Incmpl
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">EVAP Monitor
+</td>
+<td class="alleft">EVAP monitor
+</td>
+<td class="alleft">Not Avl or Avail
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">EVAP Monitor
+</td>
+<td class="alleft">EVAP monitor
+</td>
+<td class="alleft">Compl or Incmpl
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Heated Catalyst Monitor
+</td>
+<td class="alleft">Heated catalyst monitor
+</td>
+<td class="alleft">Not Avl or Avail
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Heated Catalyst Monitor
+</td>
+<td class="alleft">Heated catalyst monitor
+</td>
+<td class="alleft">Compl or Incmpl
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Catalyst Monitor
+</td>
+<td class="alleft">Catalyst monitor
+</td>
+<td class="alleft">Not Avl or Avail
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Catalyst Monitor
+</td>
+<td class="alleft">Catalyst monitor
+</td>
+<td class="alleft">Compl or Incmpl
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">Various Vehicle Conditions 4 (All Data)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+<th class="alcenter">Measurement Item
+</th>
+<th class="alcenter">Range
+</th>
+<th class="alcenter">Normal Condition
+</th>
+<th class="alcenter">Diagnostic Note
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft"># Codes(Include History)
+</td>
+<td class="alleft">Number of emission related DTCs
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">0: No emission related DTC stored
+</td>
+<td class="alleft">This is the number of DTCs stored.
+</td>
+</tr>
+<tr>
+<td class="alleft">MIL
+</td>
+<td class="alleft">MIL status
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">ON: MIL on
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">MIL ON Run Distance
+</td>
+<td class="alleft">MIL on run distance
+</td>
+<td class="alleft">Min.: 0 km, Max.: 65535 km
+</td>
+<td class="alleft">Distance after DTC stored
+</td>
+<td class="alleft">This is the distance driven after a DTC is stored.
+</td>
+</tr>
+<tr>
+<td class="alleft">Running Time from MIL ON
+</td>
+<td class="alleft">Running time from MIL on
+</td>
+<td class="alleft">Min.: 0 min, Max.: 65535 min
+</td>
+<td class="alleft">Equivalent to running time after MIL on
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Time after DTC Cleared
+</td>
+<td class="alleft">Time after DTC cleared
+</td>
+<td class="alleft">Min.: 0 min, Max.: 65535 min
+</td>
+<td class="alleft">Equivalent to time after DTCs cleared
+</td>
+<td class="alleft">This is the time elapsed after DTCs were cleared (or after the vehicle left the factory). Time elapsed after the ignition switch is turned off is not counted.
+</td>
+</tr>
+<tr>
+<td class="alleft">Distance from DTC Cleared
+</td>
+<td class="alleft">Distance after DTC cleared
+</td>
+<td class="alleft">Min.: 0 km, Max.: 65535 km
+</td>
+<td class="alleft">Equivalent to drive distance after DTCs cleared
+</td>
+<td class="alleft">This is the distance driven after DTCs were cleared (or after the vehicle left the factory).
+</td>
+</tr>
+<tr>
+<td class="alleft">Warmup Cycle Cleared DTC
+</td>
+<td class="alleft">Warm-up cycle after DTC cleared
+</td>
+<td class="alleft">Min.: 0, Max.: 255
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is the number of warmup cycles after the DTCs were cleared.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is the number of times the engine was warmed up* after DTCs were cleared (or after the vehicle left the factory).
+</p>
+<p>*: An engine warmup is defined as the engine coolant temperature rising 20°C (36°F) or higher and reaching a temperature of 70°C (158°F) or higher after the engine is started.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">OBD Requirements
+</td>
+<td class="alleft">OBD requirement
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">E-OBD
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Number of Emission DTC
+</td>
+<td class="alleft">Emission related DTCs
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">The number of emission related DTCs.
+</td>
+</tr>
+<tr>
+<td class="alleft">TC and TE1
+</td>
+<td class="alleft">TC and CG (TE1) terminals of DLC3
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">Active Test support data.
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Normal Condition: If no idling conditions are specified, the shift lever should be in neutral, and the A/C switch and all accessory switches should be off.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">Various Vehicle Conditions 5 (All Data)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+<th class="alcenter">Measurement Item
+</th>
+<th class="alcenter">Range
+</th>
+<th class="alcenter">Normal Condition
+</th>
+<th class="alcenter">Diagnostic Note
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Previous Trip Coolant Temp
+</td>
+<td class="alleft">Engine coolant temperature during previous trip
+</td>
+<td class="alleft">Min.: -40°C (-40°F),
+<br>
+Max.: 215°C (419°F)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">Before 120 seconds elapse after starting the engine, this parameter indicates the engine coolant temperature at the end of the previous trip.
+<br>
+After 120 seconds elapse after starting the engine, this parameter indicates the engine coolant temperature during the current trip.
+</td>
+</tr>
+<tr>
+<td class="alleft">Previous Trip Intake Temp
+</td>
+<td class="alleft">Intake air temperature during previous trip
+</td>
+<td class="alleft">Min.: -40°C (-40°F),
+<br>
+Max.: 215°C (419°F)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">Before 120 seconds elapse after starting the engine, this parameter indicates the intake air temperature at the end of the previous trip.
+<br>
+After 120 seconds elapse after starting the engine, this parameter indicates the intake air temperature during the current trip.
+</td>
+</tr>
+<tr>
+<td class="alleft">Fuel Cut Elps Time
+</td>
+<td class="alleft">Time elapsed after engine runs at high speed
+</td>
+<td class="alleft">Min.: 0 sec, Max.: 68746 sec
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">The time elapsed after a fuel cut after high engine speed has occurred (more than the engine speed at which fuel cut occurs +500 rpm).
+</td>
+</tr>
+<tr>
+<td class="alleft">ACT VSV
+</td>
+<td class="alleft">A/C cut status for Active Test:
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">Active Test support data.
+</td>
+</tr>
+<tr>
+<td class="alleft">Idle Fuel Cut
+</td>
+<td class="alleft">Fuel cut idle
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">ON: Fuel cut operating
+</td>
+<td class="alleft">Idle Fuel Cut is "ON" when the throttle valve is fully closed and the engine speed is more than 2800 rpm.
+</td>
+</tr>
+<tr>
+<td class="alleft">FC TAU
+</td>
+<td class="alleft">Fuel cut TAU (Fuel cut during very light load):
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">ON: Fuel cut operating
+</td>
+<td class="alleft">Fuel cut is being performed under a very light load to prevent the engine combustion from becoming incomplete.
+</td>
+</tr>
+<tr>
+<td class="alleft">Immobiliser Fuel Cut
+</td>
+<td class="alleft">Status of immobiliser fuel cut
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">Various Vehicle Conditions 6 (Vehicle Information)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+<th class="alcenter">Measurement Item
+</th>
+<th class="alcenter">Range
+</th>
+<th class="alcenter">Normal Condition
+</th>
+<th class="alcenter">Diagnostic Note
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Model Code
+</td>
+<td class="alleft">Model code
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">The identifying model code:
+<br>
+GRJ7#
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Type
+</td>
+<td class="alleft">Engine type
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">The identifying engine type:
+<br>
+1GRFE
+</td>
+</tr>
+<tr>
+<td class="alleft">Cylinder Number
+</td>
+<td class="alleft">Cylinder number
+</td>
+<td class="alleft">Min.: 0, Max.: 255
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">The identifying cylinder number:
+<br>
+6
+</td>
+</tr>
+<tr>
+<td class="alleft">Transmission Type
+</td>
+<td class="alleft">Transmission type
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">The identifying transmission type:
+<br>
+M/T
+</td>
+</tr>
+<tr>
+<td class="alleft">Destination
+</td>
+<td class="alleft">Destination
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">Destination
+<br>
+W, V
+</td>
+</tr>
+<tr>
+<td class="alleft">Model Year
+</td>
+<td class="alleft">Model year
+</td>
+<td class="alcenter">Min.: 1900, Max.: 2155
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">The identifying model year:
+<br>
+20##
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">Compression (Compression)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+<th class="alcenter">Measurement Item
+</th>
+<th class="alcenter">Range
+</th>
+<th class="alcenter">Normal Condition
+</th>
+<th class="alcenter">Diagnostic Note
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Engine Speed of Cyl #1
+</td>
+<td class="alleft">Engine speed for cylinder 1
+</td>
+<td class="alleft">Min.: 0 rpm, Max.: 51199 rpm
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is output only when Check the Cylinder Compression is performed using the Active Test.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is the engine speed for each cylinder measured during the fuel-cut with the engine cranking.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When there is compression loss, the engine speed for that cylinder increases.
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>When multiple cylinders have compression loss, the engine speeds for multiple cylinders increase and it is not possible to determine which cylinders have compression loss. At this time, it is necessary to actually perform a compression measurement.
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Speed of Cyl #2
+</td>
+<td class="alleft">Engine speed for cylinder 2
+</td>
+<td class="alleft">Min.: 0 rpm, Max.: 51199 rpm
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is output only when Check the Cylinder Compression is performed using the Active Test.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is the engine speed for each cylinder measured during the fuel-cut with the engine cranking.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When there is compression loss, the engine speed for that cylinder increases.
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>When multiple cylinders have compression loss, the engine speeds for multiple cylinders increase and it is not possible to determine which cylinders have compression loss. At this time, it is necessary to actually perform a compression measurement.
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Speed of Cyl #3
+</td>
+<td class="alleft">Engine speed for cylinder 3
+</td>
+<td class="alleft">Min.: 0 rpm, Max.: 51199 rpm
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is output only when Check the Cylinder Compression is performed using the Active Test.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is the engine speed for each cylinder measured during the fuel-cut with the engine cranking.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When there is compression loss, the engine speed for that cylinder increases.
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>When multiple cylinders have compression loss, the engine speeds for multiple cylinders increase and it is not possible to determine which cylinders have compression loss. At this time, it is necessary to actually perform a compression measurement.
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Speed of Cyl #4
+</td>
+<td class="alleft">Engine speed for cylinder 4
+</td>
+<td class="alleft">Min.: 0 rpm, Max.: 51199 rpm
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is output only when Check the Cylinder Compression is performed using the Active Test.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is the engine speed for each cylinder measured during the fuel-cut with the engine cranking.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When there is compression loss, the engine speed for that cylinder increases.
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>When multiple cylinders have compression loss, the engine speeds for multiple cylinders increase and it is not possible to determine which cylinders have compression loss. At this time, it is necessary to actually perform a compression measurement.
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Speed of Cyl #5
+</td>
+<td class="alleft">Engine speed for cylinder 5
+</td>
+<td class="alleft">Min.: 0 rpm, Max.: 51199 rpm
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is output only when Check the Cylinder Compression is performed using the Active Test.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is the engine speed for each cylinder measured during the fuel-cut with the engine cranking.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When there is compression loss, the engine speed for that cylinder increases.
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>When multiple cylinders have compression loss, the engine speeds for multiple cylinders increase and it is not possible to determine which cylinders have compression loss. At this time, it is necessary to actually perform a compression measurement.
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Speed of Cyl #6
+</td>
+<td class="alleft">Engine speed for cylinder 6
+</td>
+<td class="alleft">Min.: 0 rpm, Max.: 51199 rpm
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is output only when Check the Cylinder Compression is performed using the Active Test.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This is the engine speed for each cylinder measured during the fuel-cut with the engine cranking.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When there is compression loss, the engine speed for that cylinder increases.
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>When multiple cylinders have compression loss, the engine speeds for multiple cylinders increase and it is not possible to determine which cylinders have compression loss. At this time, it is necessary to actually perform a compression measurement.
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Av Engine Speed of All Cyl
+</td>
+<td class="alleft">Engine speed for all cylinders
+</td>
+<td class="alleft">Min.: 0 rpm, Max.: 51199 rpm
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">This is output only when Check the Cylinder Compression is performed using the Active Test.
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">ACTIVE TEST
+</span></p>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>Using the GTS to perform the Active Tests allows relays, VSVs and actuators and other items to be operated without removing any parts. This non-intrusive functional inspection can be very useful because intermittent operation may be discovered before parts or wiring is disturbed. Performing Active Tests early in troubleshooting is one way to save diagnostic time. Data List information can be displayed while performing Active Tests.
+</p>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>Turn the ignition switch to ON.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>Turn the GTS on.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>Enter the following menus: Powertrain / Engine and ECT / Active Test.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>According to the display on the GTS, perform the "Active Test".
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<dl class="gtsActiveTestTable hasAllTable">
+<dt class="gtsActiveTestTable">Powertrain &gt; Engine and ECT &gt; Active Test</dt>
+<dd class="gtsActiveTestTable">
+<table summary="active-test-table">
+<colgroup>
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+<th class="alcenter">Measurement Item
+</th>
+<th class="alcenter">Control Range
+</th>
+<th class="alcenter">Diagnostic Note
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Control the Injection Volume
+</td>
+<td class="alleft">Change injection volume
+</td>
+<td class="alleft">-12.5 to 24.8%
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>All fuel injector assemblies are tested at the same time.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Perform the test at 3000 rpm or less.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Injection volume can be changed in fine gradations within the control range.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Control the Injection Volume enables the checking and graphing of the air fuel ratio sensor and heated oxygen sensor voltage outputs.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>To conduct the test, enter the following menus: Powertrain / Engine and ECT / Active Test / Control the Injection Volume / All Data / AFS Voltage B1S1 and O2S B1S2.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Control the Injection Volume for A/F Sensor
+</td>
+<td class="alleft">Change injection volume
+</td>
+<td class="alleft">-12.5%/0%/12.5%
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>All fuel injector assemblies are tested at the same time.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Perform the test at 3000 rpm or less.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Control the Injection Volume for A/F Sensor enables the checking and graphing of the air fuel ratio sensor and heated oxygen sensor voltage outputs.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>To conduct the test, enter the following menus: Powertrain / Engine and ECT / Active Test / Control the Injection Volume for A/F Sensor / All Data / AFS Voltage B1S1 and O2S B1S2.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Activate the Fuel Pump Speed Control
+</td>
+<td class="alleft">Fuel pump speed control
+</td>
+<td class="alleft">ON (low speed) /OFF (high speed)
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Activate the VSV for Intake Control
+</td>
+<td class="alleft">Activate VSV for intake control
+</td>
+<td class="alleft">ON/OFF
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Activate the VSV for Evap Control
+</td>
+<td class="alleft">Activate purge VSV control
+</td>
+<td class="alleft">ON/OFF
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Control the A/C Cut Signal
+</td>
+<td class="alleft">Control the A/C cut signal
+</td>
+<td class="alleft">ON/OFF
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Control the Fuel Pump / Speed
+</td>
+<td class="alleft">Activate fuel pump (C/OPN Relay)
+</td>
+<td class="alleft">ON/OFF
+</td>
+<td class="alleft">The test is possible when the following conditions are met:
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The ignition switch is ON.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The engine is stopped.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Connect the TC and TE1
+</td>
+<td class="alleft">Turn on and off TC and CG (TE1) connection
+</td>
+<td class="alleft">ON/OFF
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ON: TC and CG (TE1) are connected.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>OFF: TC and CG (TE1) are disconnected.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Perform this test when the following conditions are met:
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>ignition switch is ON.
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Engine is stopped.
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Shift lever in neutral.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Control the Idle Fuel Cut Prohibit
+</td>
+<td class="alleft">Prohibit idling fuel cut control
+</td>
+<td class="alleft">ON/OFF
+</td>
+<td class="alleft">Perform this test when the following conditions are met:
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ignition switch is on.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Engine is stopped.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Shift lever in neutral.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Prohibit the Catalyst OT Misfire prevent F/C
+</td>
+<td class="alleft">Prohibit catalyst overheat malfunction prevention fuel cut operation during misfire
+</td>
+<td class="alleft">ON: Fuel cut prohibited
+</td>
+<td class="alleft">Confirm that the vehicle is stopped and the engine speed is 3000 rpm or less.
+</td>
+</tr>
+<tr>
+<td class="alleft">Control the ETCS Open/Close Slow Speed
+</td>
+<td class="alleft">Throttle actuator
+</td>
+<td class="alleft">Close/Open
+</td>
+<td class="alleft">The test is possible when the following conditions are met:
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The ignition switch is ON.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The engine is stopped.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The accelerator pedal is fully depressed (APP: 58 degrees or more).
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Control the ETCS Open/Close Fast Speed
+</td>
+<td class="alleft">Throttle actuator
+</td>
+<td class="alleft">Close/Open
+</td>
+<td class="alleft">The test is possible when the following conditions are met:
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The ignition switch is ON.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The engine is stopped.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The accelerator pedal is fully depressed (APP: 58 degrees or more).
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Control the VVT Linear (Bank1)
+</td>
+<td class="alleft">Control VVT (bank 1)
+</td>
+<td class="alleft">Between -128 and 127%
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Engine stalls or idles roughly when the camshaft timing oil control valve assembly is operated by 100%.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Perform this test when the following conditions are met:
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Engine is idling.
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Shift lever in neutral.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTCs related to the VVT system may be stored due to Active Test operation, but this does not indicate a malfunction.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Control the VVT System (Bank1)
+</td>
+<td class="alleft">Turn on and off OCV
+<br>
+(Oil Control Valve)
+</td>
+<td class="alleft">ON/OFF
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Engine stalls or idles roughly when the camshaft timing oil control valve assembly is turned on.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Engine runs and idles normally when the camshaft timing oil control valve assembly is off.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Perform this test when the following conditions are met:
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Engine is idling.
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Shift lever in neutral.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTCs related to the VVT system may be stored due to Active Test operation, but this does not indicate a malfunction.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Control the VVT Linear (Bank2)
+</td>
+<td class="alleft">Control VVT (bank 2)
+</td>
+<td class="alleft">Between -128 and 127%
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The engine stalls or idles roughly when the VVT actuator is operated by 100%.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The test is possible during idle.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Control the VVT System (Bank2)
+</td>
+<td class="alleft">Turn on and off OCV
+<br>
+(Oil Control Valve)
+</td>
+<td class="alleft">ON/OFF
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The engine stalls or idles roughly when the OCV is turned on.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The engine runs or idles normally when the OCV is off.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Control the Select Cylinder Fuel Cut
+</td>
+<td class="alleft">Selected cylinder (cylinder #1 to#6) injector fuel cut
+</td>
+<td class="alleft">#1/#2/#3/#4/#5/#6
+<br>
+ON/OFF
+</td>
+<td class="alleft">Test is possible while the vehicle is stopped and the engine is idling.*1
+</td>
+</tr>
+<tr>
+<td class="alleft">Control the All Cylinders Fuel Cut
+</td>
+<td class="alleft">All cylinder fuel cut
+</td>
+<td class="alleft">ON/OFF
+</td>
+<td class="alleft">Perform this test when the following conditions are met:
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Vehicle is stopped.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Engine is idling.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Shift lever in neutral.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Check the Cylinder Compression
+</td>
+<td class="alleft">Check the cylinder compression pressure
+</td>
+<td class="alleft">ON/OFF
+</td>
+<td class="alleft">The fuel injection and ignition stop in all the cylinders.
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3">
+<p>*1:
+</p>
+</dd>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the display of the Data List item Catalyst OTMF F/C item is Not Avl, perform this Active Test with the vehicle stopped and the engine idling.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the display of the Data List item Catalyst OTMF F/C item is Avail, perform this Active Test as described below.
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">1.</div>
+<div class="list2Body"><p>Stop the engine, turn the ignition switch to ON.
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">2.</div>
+<div class="list2Body"><p>Enter the Control the Select Cylinder Fuel Cut.
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">3.</div>
+<div class="list2Body"><p>Select the cylinder for fuel cut (cylinder #1 to #6) and turn the Active Test ON (press the RIGHT or LEFT button).
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">4.</div>
+<div class="list2Body"><p>Start the engine.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>*: When cranking the engine, the Active Test measures the speed of each cylinder.
+</p>
+</dd>
+<dd class="atten4">
+<p>In this Active Test, the fuel of all cylinders is cut, and cranking occurs for approximately 10 seconds. At this time, the speed of each cylinder is measured. If the speed of one cylinder is higher than the other cylinders, the compression pressure of that cylinder is determined to be lower than the other cylinders.
+</p>
+</dd>
+</dl>
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Warm up the engine.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>Turn the ignition switch off.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">4.</div>
+<div class="list1Body"><p>Turn the ignition switch to ON and turn the GTS on.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">5.</div>
+<div class="list1Body"><p>Enter the following menus: Powertrain / Engine and ECT / Active Test / Check the Cylinder Compression.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>If the results are not displayed normally, select the display items from the Data List before performing the Active Test. Enter the following menus: Powertrain / Engine and ECT / Data List / Compression / Engine Speed of Cyl #1, Engine Speed of Cyl #2, Engine Speed of Cyl #3, Engine Speed of Cyl #4, Engine Speed of Cyl #5, Engine Speed of Cyl #6 and Av Engine Speed of All Cyl.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">6.</div>
+<div class="list1Body"><p>While the engine is not running, press the RIGHT or LEFT button to change the Check the Cylinder Compression to on.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>After performing the above procedure, Check the Cylinder Compression will start. Fuel injection for all cylinders is prohibited, and each cylinder engine speed measurement will enter standby mode.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">7.</div>
+<div class="list1Body"><p>Crank the engine for about 10 seconds.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">8.</div>
+<div class="list1Body"><p>Monitor the engine speed (Engine Speed of Cyl #1 to #6, Av Engine Speed of All Cyl) displayed on the GTS.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>At first, the GTS display will show each cylinder engine speed measurement to be extremely high. After approximately 10 seconds of engine cranking, each cylinder engine speed measurement will change to the actual engine speed.
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>After the Check the Cylinder Compression is turned on, it will automatically turn off after 255 seconds.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When the Check the Cylinder Compression test is off and the engine is cranked, the engine will start.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the Check the Cylinder Compression test needs to be performed after it is turned on and performed once, press EXIT to return to the Active Test menu screen. Then perform the Check the Cylinder Compression test again.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Use a fully-charged battery.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

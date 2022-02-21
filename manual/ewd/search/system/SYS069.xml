@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS069">
+    <part type="conn" code="Y3">
+      <text>G W-B E B</text>
+      <name>Center Stop Light Assembly</name>
+    </part>
+    <part type="conn" code="I47">
+      <name>Diode (Stop Light)</name>
+    </part>
+    <part type="conn" code="I108,I109">
+      <name>No. 13 Junction Connector</name>
+    </part>
+    <part type="conn" code="I96">
+      <name>No. 20 Junction Connector</name>
+    </part>
+    <part type="conn" code="I93">
+      <name>No. 5 Junction Connector</name>
+    </part>
+    <part type="conn" code="I95,I104">
+      <name>No. 6 Junction Connector , No. 18 Junction Connector</name>
+    </part>
+    <part type="conn" code="T5">
+      <text>STP E</text>
+      <name>Rear Combination Light Assembly LH</name>
+      <name type="inner">Stop</name>
+    </part>
+    <part type="conn" code="T7">
+      <text>B TE</text>
+      <name>Rear Combination Light Assembly LH</name>
+      <name type="inner">Stop</name>
+    </part>
+    <part type="conn" code="T17">
+      <text>STP E</text>
+      <name>Rear Combination Light Assembly LH</name>
+      <name type="inner">Stop</name>
+    </part>
+    <part type="conn" code="T1">
+      <text>STP E</text>
+      <name>Rear Combination Light Assembly RH</name>
+      <name type="inner">Stop</name>
+    </part>
+    <part type="conn" code="T6">
+      <text>B TE</text>
+      <name>Rear Combination Light Assembly RH</name>
+      <name type="inner">Stop</name>
+    </part>
+    <part type="conn" code="T14">
+      <text>STP E</text>
+      <name>Rear Combination Light Assembly RH</name>
+      <name type="inner">Stop</name>
+    </part>
+    <part type="conn" code="I19">
+      <name>Stop Light Switch Assembly</name>
+    </part>
+    <part type="fuse" code="FUSE26">
+      <text>STOP</text>
+    </part>
+    <part type="fuse" code="FUSE33">
+      <text>STOP</text>
+    </part>
+  </ttl>
+</EWDSearch>

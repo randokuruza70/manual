@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS031">
+    <part type="conn" code="L25,L26">
+      <text>IND B ES CPU</text>
+      <name>Combination Meter Assembly</name>
+      <name type="inner">Sub Tank</name>
+    </part>
+    <part type="conn" code="I45">
+      <name>Diode (Sub Tank Relay)</name>
+    </part>
+    <part type="conn" code="L8">
+      <name>Fuel Control Switch Assembly</name>
+    </part>
+    <part type="conn" code="W2">
+      <name>Fuel Tank Solenoid Main Valve Assembly</name>
+    </part>
+    <part type="conn" code="W1">
+      <name>Fuel Tank Solenoid Return Valve Assembly</name>
+    </part>
+    <part type="conn" code="A22">
+      <name>No. 1 Junction Connector</name>
+    </part>
+    <part type="conn" code="A23">
+      <name>No. 2 Junction Connector</name>
+    </part>
+    <part type="conn" code="L32,L36">
+      <name>No. 24 Junction Connector , No. 28 Junction Connector</name>
+    </part>
+    <part type="conn" code="I70,I106">
+      <name>No. 9 Junction Connector , No. 19 Junction Connector</name>
+    </part>
+    <part type="conn" code="I72,I106,I118">
+      <name>No. 9 Junction Connector , No. 36 Junction Connector , No. 21 Junction Connector</name>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>DOME NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE14">
+      <text>IGN</text>
+    </part>
+    <part type="fuse" code="FUSE16">
+      <text>MET</text>
+    </part>
+  </ttl>
+</EWDSearch>

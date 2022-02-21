@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS123">
+    <part type="conn" code="A35,A36,D9">
+      <name>Battery (Main)</name>
+    </part>
+    <part type="conn" code="L25,L26">
+      <text>ES B CHG- CPU</text>
+      <name>Combination Meter Assembly</name>
+      <name type="inner">Charge</name>
+    </part>
+    <part type="conn" code="C39">
+      <text>ECM ALT</text>
+    </part>
+    <part type="conn" code="C43,C44">
+      <text>IG S B M L</text>
+      <name>Generator Assembly</name>
+    </part>
+    <part type="conn" code="I105">
+      <name>No. 8 Junction Connector</name>
+    </part>
+    <part type="conn" code="I106,I118">
+      <name>No. 9 Junction Connector , No. 36 Junction Connector</name>
+    </part>
+    <part type="fuse" code="FUSE43">
+      <text>ALT</text>
+    </part>
+    <part type="fuse" code="FUSE44">
+      <text>ALT-S</text>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>DOME NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE20">
+      <text>ECU IG</text>
+    </part>
+    <part type="fuse" code="FUSE16">
+      <text>MET</text>
+    </part>
+  </ttl>
+</EWDSearch>

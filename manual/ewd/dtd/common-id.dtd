@@ -1,0 +1,37 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<!-- XML DTD for TOYOTA EWD -->
+<!--
+	EWD DTD for CommonXML ID List XML
+
+	Copyright (c) 2000-2012 SHINTEC HOZUMI Co.,LTD.
+	All Rights Reserved. 
+
+	ver 2.0		2011/12/06
+	ver 2.1		2012/07/10	no change in this file
+-->
+
+<!ELEMENT Common-ID (servcat)+>
+<!ATTLIST Common-ID
+	ver CDATA #IMPLIED
+	pubno CDATA #REQUIRED
+>
+<!ELEMENT servcat (section+)>
+<!ATTLIST servcat
+	id CDATA #REQUIRED
+>
+<!ELEMENT section (ttl+)>
+<!ATTLIST section
+	id CDATA #REQUIRED
+>
+<!ELEMENT ttl (para*)>
+<!ATTLIST ttl
+	id CDATA #REQUIRED
+>
+<!ELEMENT para (subpara*)>
+<!ATTLIST para
+	id CDATA #REQUIRED
+>
+<!ELEMENT subpara EMPTY>
+<!ATTLIST subpara
+	id CDATA #REQUIRED
+>

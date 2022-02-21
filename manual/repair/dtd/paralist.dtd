@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- #  DTD VERSION 1.6  UPDATE Mar. 04, 2014    -->
+<!ELEMENT tmc-service-paralist (paralist)>
+<!ELEMENT paralist (paraid*)>
+<!ELEMENT paraid (#PCDATA)>

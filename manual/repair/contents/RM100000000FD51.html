@@ -1,0 +1,625 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_58</span>
+<span class="globalServcatName">Vehicle Interior</span>
+<span class="globalSection">_029469</span>
+<span class="globalSectionName">HEATING / AIR CONDITIONING</span>
+<span class="globalTitle">_0133768</span>
+<span class="globalTitleName">AIR CONDITIONING SYSTEM</span>
+<span class="globalCategory">U</span>
+</div>
+<h1>HEATING / AIR CONDITIONING&nbsp;&nbsp;AIR CONDITIONING SYSTEM&nbsp;&nbsp;TERMINALS OF ECU&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000FD51_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">CHECK COOLER STABILIZER AMPLIFIER ASSEMBLY (for 1HZ)
+</span></p>
+<br>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/E140270N01.png" alt="E140270N01" title="E140270N01">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">3.469,0.323 3.896,0.552</span>
+<span class="rectangleSize">0.427,0.229</span>
+</span>
+<span class="caption">
+<span class="points">3.563,0.354 3.896,0.521</span>
+<span class="captionSize">0.333,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">I11</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>Measure the voltage according to the value(s) in the table below.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>Check from the rear of the connector while it is connected to the cooler stabilizer amplifier assembly.
+</p>
+</dd>
+</dl>
+<br>
+<table summary="">
+<colgroup>
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:19%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Terminal No. (Symbol)
+</th>
+<th class="alcenter">Wiring Color
+</th>
+<th class="alcenter">Terminal Description
+</th>
+<th class="alcenter">Condition
+</th>
+<th class="alcenter">Specified Condition
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2">I11-3 (PSW) - I11-16(GND)
+</td>
+<td class="alcenter" rowspan="2">R-B - W-B
+</td>
+<td rowspan="2">Pressure switch signal
+</td>
+<td>Ignition switch ON
+<br>
+Blower switch ON
+<br>
+Refrigerant pressure: Normal pressure (less than 3.14 MPa [32.0 kgf/cm2, 455 psi] and more than 0.196 MPa [2.0 kgf/cm2, 28 psi])
+</td>
+<td class="alcenter">11 to 14 V
+</td>
+</tr>
+<tr>
+<td>Ignition switch ON
+<br>
+Blower switch ON
+<br>
+Refrigerant pressure: Abnormal pressure (less than 0.196 MPa [2.0 kgf/cm2, 28 psi] or more than 3.14 MPa [32.0 kgf/cm2, 455 psi])
+</td>
+<td class="alcenter">Below 1 V
+</td>
+</tr>
+<tr>
+<td rowspan="2">I11-11 (B) - I11-16 (GND)
+</td>
+<td class="alcenter" rowspan="2">L-R - W-B
+</td>
+<td rowspan="2">Ignition power supply
+</td>
+<td>Ignition switch ON
+<br>
+Blower switch ON
+</td>
+<td class="alcenter">11 to 14 V
+</td>
+</tr>
+<tr>
+<td>Ignition switch off
+</td>
+<td class="alcenter">Below 1 V
+</td>
+</tr>
+<tr>
+<td>I11-16 (GND) - Body ground
+</td>
+<td class="alcenter">W-B - Body ground
+</td>
+<td>Ground for main power supply
+</td>
+<td>Always
+</td>
+<td class="alcenter">Below 1 V
+</td>
+</tr>
+<tr>
+<td rowspan="2">I11-20 (MGC) - I11-16 (GND)
+</td>
+<td class="alcenter" rowspan="2">L - W-B
+</td>
+<td rowspan="2">Magnet clutch assembly operation signal
+</td>
+<td>Ignition switch ON
+<br>
+Blower switch ON
+<br>
+A/C switch OFF
+<br>
+Magnet clutch relay is not engaged
+</td>
+<td class="alcenter">11 to 14 V
+</td>
+</tr>
+<tr>
+<td>Ignition switch ON
+<br>
+Blower switch ON
+<br>
+A/C switch ON
+<br>
+Magnet clutch relay is engaged
+</td>
+<td class="alcenter">Below 1 V
+</td>
+</tr>
+<tr>
+<td>I11-15 (SG) - Body ground
+</td>
+<td class="alcenter">B-L - Body ground
+</td>
+<td>Ground for No. 1 cooler thermistor (evaporator temperature sensor)
+</td>
+<td>Always
+</td>
+<td class="alcenter">Below 1 V
+</td>
+</tr>
+<tr>
+<td rowspan="2">I11-7 (TE) - I11-15 (SG)
+</td>
+<td class="alcenter" rowspan="2">Y-G - B-L
+</td>
+<td rowspan="2">No. 1 cooler thermistor (evaporator temperature sensor) signal
+</td>
+<td>Ignition switch ON
+<br>
+Blower switch ON
+<br>
+Evaporator temperature at 0°C (32°F)
+<br>
+Temperature control resistor MIN Cool
+</td>
+<td class="alcenter">1.8 to 2.2 V
+</td>
+</tr>
+<tr>
+<td>Ignition switch ON
+<br>
+Blower switch ON
+<br>
+Evaporator temperature at 15°C (59°F)
+<br>
+Temperature control resistor MIN Cool
+</td>
+<td class="alcenter">1.0 to 1.4 V
+</td>
+</tr>
+<tr>
+<td>I11-10 (ST) - I11-16 (GND)
+</td>
+<td class="alcenter">B-W - W-B
+</td>
+<td>Starter switch cut signal
+</td>
+<td>Engine start
+</td>
+<td class="alcenter">11 to 14 V
+</td>
+</tr>
+<tr>
+<td rowspan="3">I11-8 (B/V) - I11-7 (TE)
+</td>
+<td class="alcenter" rowspan="3">Y-B - Y-G
+</td>
+<td rowspan="3">Temperature control resistor signal
+</td>
+<td>Ignition switch ON
+<br>
+Blower switch ON
+<br>
+Terminals between TE and SG connected
+<br>
+Temperature control resistor OFF
+</td>
+<td class="alcenter">2.0 to 2.4 V
+</td>
+</tr>
+<tr>
+<td>Ignition switch ON
+<br>
+Blower switch ON
+<br>
+Terminals between TE and SG connected
+<br>
+Temperature control resistor MAX Cool
+</td>
+<td class="alcenter">Below 1 V
+</td>
+</tr>
+<tr>
+<td>Ignition switch ON
+<br>
+Blower switch ON
+<br>
+Terminals between TE and SG connected
+<br>
+Temperature control resistor MIN Cool
+</td>
+<td class="alcenter">1.0 to 1.4 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">CHECK COOLER STABILIZER AMPLIFIER ASSEMBLY (for 1VD-FTV and 1GR-FE)
+</span></p>
+<br>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/E140271N02.png" alt="E140271N02" title="E140271N02">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">3.469,0.354 3.885,0.573</span>
+<span class="rectangleSize">0.417,0.219</span>
+</span>
+<span class="caption">
+<span class="points">3.583,0.385 3.896,0.573</span>
+<span class="captionSize">0.313,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">I12</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>Measure the voltage according to the value(s) in the table below.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>Check from the rear of the connector while it is connected to the cooler stabilizer amplifier assembly.
+</p>
+</dd>
+</dl>
+<br>
+<table summary="">
+<colgroup>
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:19%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Terminal No. (Symbol)
+</th>
+<th class="alcenter">Wiring Color
+</th>
+<th class="alcenter">Terminal Description
+</th>
+<th class="alcenter">Condition
+</th>
+<th class="alcenter">Specified Condition
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2">I12-2 (PSW) - I12-5(GND)
+</td>
+<td class="alcenter" rowspan="2">R-B - W-B
+</td>
+<td rowspan="2">Pressure switch signal
+</td>
+<td>Ignition switch ON
+<br>
+Blower switch ON
+<br>
+Refrigerant pressure: Normal pressure (less than 3.14 MPa [32.0 kgf/cm2, 455 psi] and more than 0.196 MPa [2.0 kgf/cm2, 28 psi])
+</td>
+<td class="alcenter">11 to 14 V
+</td>
+</tr>
+<tr>
+<td>Ignition switch ON
+<br>
+Blower switch ON
+<br>
+Refrigerant pressure: Abnormal pressure (less than 0.196 MPa [2.0 kgf/cm2, 28 psi] or more than 3.14 MPa [32.0 kgf/cm2, 455 psi])
+</td>
+<td class="alcenter">Below 1 V
+</td>
+</tr>
+<tr>
+<td rowspan="2">I12-7 (B) - I12-5 (GND)
+</td>
+<td class="alcenter" rowspan="2">L-R - W-B
+</td>
+<td rowspan="2">Ignition power supply
+</td>
+<td>Ignition switch ON
+<br>
+Blower switch ON
+</td>
+<td class="alcenter">11 to 14 V
+</td>
+</tr>
+<tr>
+<td>Ignition switch off
+</td>
+<td class="alcenter">Below 1 V
+</td>
+</tr>
+<tr>
+<td>I12-5 (GND) - Body ground
+</td>
+<td class="alcenter">W-B - Body ground
+</td>
+<td>Ground for main power supply
+</td>
+<td>Always
+</td>
+<td class="alcenter">Below 1 V
+</td>
+</tr>
+<tr>
+<td rowspan="2">I12-11 (MGC) - I12-5 (GND)
+</td>
+<td class="alcenter" rowspan="2">L - W-B
+</td>
+<td rowspan="2">Magnet clutch assembly operation signal
+</td>
+<td>Ignition switch ON
+<br>
+Blower switch ON
+<br>
+A/C switch OFF
+<br>
+Magnet clutch relay is not engaged
+</td>
+<td class="alcenter">11 to 14 V
+</td>
+</tr>
+<tr>
+<td>Ignition switch ON
+<br>
+Blower switch ON
+<br>
+A/C switch ON
+<br>
+Magnet clutch relay is engaged
+</td>
+<td class="alcenter">Below 1 V
+</td>
+</tr>
+<tr>
+<td>I12-6 (ACT) - I12-5 (GND)
+</td>
+<td class="alcenter">L-B - W-B
+</td>
+<td>Cooler compressor assembly on permit signal
+</td>
+<td>Ignition switch ON
+<br>
+A/C switch ON
+<br>
+Blower switch ON
+<br>
+Engine is running
+<br>
+Magnet clutch relay is not engaged
+</td>
+<td class="alcenter">Below 1 V
+</td>
+</tr>
+<tr>
+<td>I12-12 (SG) - Body ground
+</td>
+<td class="alcenter">W-G - Body ground
+</td>
+<td>Ground for No. 1 cooler thermistor (evaporator temperature sensor)
+</td>
+<td>Always
+</td>
+<td class="alcenter">Below 1 V
+</td>
+</tr>
+<tr>
+<td rowspan="2">I12-3 (TE) - I12-12 (SG)
+</td>
+<td class="alcenter" rowspan="2">Y-G - W-G
+</td>
+<td rowspan="2">No. 1 cooler thermistor (evaporator temperature sensor) signal
+</td>
+<td>Ignition switch ON
+<br>
+Blower switch ON
+<br>
+Evaporator temperature at 0°C (32°F)
+<br>
+Temperature control resistor MIN Cool
+</td>
+<td class="alcenter">1.8 to 2.2 V
+</td>
+</tr>
+<tr>
+<td>Ignition switch ON
+<br>
+Blower switch ON
+<br>
+Evaporator temperature at 15°C (59°F)
+<br>
+Temperature control resistor MIN Cool
+</td>
+<td class="alcenter">1.0 to 1.4 V
+</td>
+</tr>
+<tr>
+<td rowspan="2">I12-1 (AC1) - I12-5 (GND)
+</td>
+<td class="alcenter" rowspan="2">B-W - W-B
+</td>
+<td rowspan="2">Idle-up request signal
+</td>
+<td>Ignition switch ON
+<br>
+Blower switch ON
+<br>
+Magnet clutch is not engaged
+<br>
+A/C switch OFF
+</td>
+<td class="alcenter">11 to 14 V
+</td>
+</tr>
+<tr>
+<td>Ignition switch ON
+<br>
+Blower switch ON
+<br>
+Magnet clutch is engaged
+<br>
+A/C switch ON
+</td>
+<td class="alcenter">Below 1 V
+</td>
+</tr>
+<tr>
+<td>I12-4 (IGN) - I12-5 (GND)
+</td>
+<td class="alcenter">B - W-B
+</td>
+<td>Engine speed signal
+</td>
+<td>Engine is running
+<br>
+Blower switch ON
+</td>
+<td class="alcenter">Pulse generation
+</td>
+</tr>
+<tr>
+<td>I12-10 (LOCK) - I12-12(SG)
+</td>
+<td class="alcenter">B-W - W-G
+</td>
+<td>Cooler compressor assembly lock sensor signal
+</td>
+<td>Engine is running
+<br>
+Blower switch ON
+<br>
+Magnet clutch is engaged
+</td>
+<td class="alcenter">Pulse generation
+</td>
+</tr>
+<tr>
+<td rowspan="3">I12-8 (B/V) - I12-3 (TE)
+</td>
+<td class="alcenter" rowspan="3">Y-B - Y-G
+</td>
+<td rowspan="3">Temperature control resistor signal
+</td>
+<td>Ignition switch ON
+<br>
+Blower switch ON
+<br>
+Terminals between TE and SG connected
+<br>
+Temperature control resistor OFF
+</td>
+<td class="alcenter">2.0 to 2.4 V
+</td>
+</tr>
+<tr>
+<td>Ignition switch ON
+<br>
+Blower switch ON
+<br>
+Terminals between TE and SG connected
+<br>
+Temperature control resistor MAX Cool
+</td>
+<td class="alcenter">Below 1 V
+</td>
+</tr>
+<tr>
+<td>Ignition switch ON
+<br>
+Blower switch ON
+<br>
+Terminals between TE and SG connected
+<br>
+Temperature control resistor MIN Cool
+</td>
+<td class="alcenter">1.0 to 1.4 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

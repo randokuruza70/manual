@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS058">
+    <part type="conn" code="O2,P2">
+      <text>M M</text>
+      <name>Front Power Window Regulator Motor Assembly RH , Front Power Window Regulator Motor Assembly LH</name>
+    </part>
+    <part type="conn" code="O10,O11,P11,P12">
+      <text>B SU SD U D</text>
+      <name>Front Power Window Regulator Switch Assembly RH , Front Power Window Regulator Switch Assembly LH</name>
+      <name type="inner">Up</name>
+      <name type="inner">Down</name>
+    </part>
+    <part type="conn" code="I71">
+      <name>No. 20 Junction Connector</name>
+    </part>
+    <part type="conn" code="I54">
+      <name>No. 5 Junction Connector</name>
+    </part>
+    <part type="conn" code="O8,O9,P9,P10">
+      <text>U D BW B E</text>
+      <name>Power Window Regulator Master Switch Assembly</name>
+    </part>
+    <part type="conn" code="Q3">
+      <text>M</text>
+      <name>Rear Power Window Regulator Motor Assembly LH</name>
+    </part>
+    <part type="conn" code="R3">
+      <text>M</text>
+      <name>Rear Power Window Regulator Motor Assembly RH</name>
+    </part>
+    <part type="conn" code="Q1">
+      <text>U SD D B SU</text>
+      <name>Rear Power Window Regulator Switch Assembly LH</name>
+      <name type="inner">Up</name>
+      <name type="inner">Down</name>
+    </part>
+    <part type="conn" code="R1">
+      <text>U SD D B SU</text>
+      <name>Rear Power Window Regulator Switch Assembly RH</name>
+      <name type="inner">Up</name>
+      <name type="inner">Down</name>
+    </part>
+    <part type="fuse" code="FUSE32">
+      <text>POWER</text>
+    </part>
+  </ttl>
+</EWDSearch>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS064">
+    <part type="conn" code="I65">
+      <name>No. 13 Junction Connector</name>
+    </part>
+    <part type="conn" code="L39">
+      <name>No. 31 Junction Connector</name>
+    </part>
+    <part type="conn" code="I54">
+      <name>No. 5 Junction Connector</name>
+    </part>
+    <part type="conn" code="S11">
+      <text>B L M</text>
+      <name>Rear Washer Motor Assembly</name>
+    </part>
+    <part type="conn" code="a1">
+      <text>M B E S +1</text>
+      <name>Rear Wiper Motor Assembly</name>
+    </part>
+    <part type="conn" code="S9">
+      <text>B LSW C1 +SM LM</text>
+      <name>Rear Wiper Relay Assembly</name>
+    </part>
+    <part type="conn" code="L22,L23">
+      <text>WR +1R C1R EW LO HI OFF</text>
+      <name>Windshield Wiper Switch Assembly</name>
+      <name type="inner">Washer</name>
+      <name type="inner">On+Washer</name>
+    </part>
+    <part type="fuse" code="FUSE29">
+      <text>WIP</text>
+    </part>
+  </ttl>
+</EWDSearch>

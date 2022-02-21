@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="WR024">
+    <part type="conn" code="A6">
+      <name>A/C Pressure Switch (Cooler Refrigerant Liquid Pipe B)</name>
+    </part>
+    <part type="conn" code="A10">
+      <name>Antenna with Holder Assembly</name>
+    </part>
+    <part type="conn" code="A35">
+      <name>Battery (Main)</name>
+    </part>
+    <part type="conn" code="A36">
+      <name>Battery (Main)</name>
+    </part>
+    <part type="conn" code="A37">
+      <name>Battery (Sub)</name>
+    </part>
+    <part type="conn" code="A20">
+      <name>Brake Actuator Assembly</name>
+    </part>
+    <part type="conn" code="A28">
+      <name>Brake Vacuum Check Valve Assembly</name>
+    </part>
+    <part type="conn" code="A26">
+      <name>Brake Vacuum Check Valve Assembly</name>
+    </part>
+    <part type="conn" code="A27">
+      <name>Brake Vacuum Check Valve Assembly</name>
+    </part>
+    <part type="conn" code="A25">
+      <name>Brake Vacuum Check Valve Assembly</name>
+    </part>
+    <part type="conn" code="A13">
+      <name>Front Airbag Sensor LH</name>
+    </part>
+    <part type="conn" code="B2">
+      <name>Front Differential Lock Position Switch</name>
+    </part>
+    <part type="conn" code="A21">
+      <name>Front Speed Sensor LH (Skid Control Sensor Wire LH)</name>
+    </part>
+    <part type="conn" code="A16">
+      <name>Fuel Heater</name>
+    </part>
+    <part type="conn" code="A9">
+      <name>Fuel Sediment Switch</name>
+    </part>
+    <part type="conn" code="A7">
+      <name>Headlight Assembly LH</name>
+    </part>
+    <part type="conn" code="A3">
+      <name>Headlight Assembly LH</name>
+    </part>
+    <part type="conn" code="A1">
+      <name>Headlight Assembly LH</name>
+    </part>
+    <part type="conn" code="A38">
+      <name>Headlight Assembly LH</name>
+    </part>
+    <part type="conn" code="A5">
+      <name>High Pitched Horn Assembly</name>
+    </part>
+    <part type="conn" code="A4">
+      <name>Low Pitched Horn Assembly</name>
+    </part>
+    <part type="conn" code="A22">
+      <name>No. 1 Junction Connector</name>
+    </part>
+    <part type="conn" code="A18">
+      <name>No. 1 Vacuum Switching Valve (A/C Idle-Up)</name>
+    </part>
+    <part type="conn" code="A41">
+      <name>No. 1 Vacuum Switching Valve (A/C Idle-Up)</name>
+    </part>
+    <part type="conn" code="B1">
+      <name>No. 2 Differential Lock Shift Actuator</name>
+    </part>
+    <part type="conn" code="A23">
+      <name>No. 2 Junction Connector</name>
+    </part>
+    <part type="conn" code="A11">
+      <name>Side Turn Signal Light Assembly LH</name>
+    </part>
+    <part type="conn" code="A2">
+      <name>Windshield Washer Motor and Pump Assembly</name>
+    </part>
+    <part type="conn" code="A39">
+      <name>Windshield Wiper Motor Assembly</name>
+    </part>
+    <part type="conn" code="A12">
+      <name>Windshield Wiper Motor Assembly</name>
+    </part>
+  </ttl>
+</EWDSearch>

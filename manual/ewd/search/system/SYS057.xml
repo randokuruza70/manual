@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS057">
+    <part type="conn" code="L25">
+      <text>I/F ILL+ B ES DOOR CPU</text>
+      <name>Combination Meter Assembly</name>
+      <name type="inner">Buzzer</name>
+    </part>
+    <part type="conn" code="S6">
+      <name>Front Door Courtesy Light Switch Assembly LH</name>
+    </part>
+    <part type="conn" code="U1">
+      <name>Front Door Courtesy Light Switch Assembly LH</name>
+    </part>
+    <part type="conn" code="S4">
+      <name>Front Door Courtesy Light Switch Assembly RH</name>
+    </part>
+    <part type="conn" code="L24">
+      <text>T EL H OFF</text>
+      <name>Headlight Dimmer Switch Assembly</name>
+      <name type="inner">Light Control Switch</name>
+      <name type="inner">Tail</name>
+      <name type="inner">Head</name>
+    </part>
+    <part type="conn" code="I61">
+      <name>No. 11 Junction Connector</name>
+    </part>
+    <part type="conn" code="I61,I72">
+      <name>No. 11 Junction Connector , No. 21 Junction Connector</name>
+    </part>
+    <part type="conn" code="I67">
+      <name>No. 16 Junction Connector</name>
+    </part>
+    <part type="conn" code="L35,L36">
+      <name>No. 27 Junction Connector , No. 28 Junction Connector</name>
+    </part>
+    <part type="conn" code="L52">
+      <name>No. 30 Junction Connector</name>
+    </part>
+    <part type="conn" code="L53">
+      <name>No. 31 Junction Connector</name>
+    </part>
+    <part type="conn" code="I110">
+      <name>No. 33 Junction Connector</name>
+    </part>
+    <part type="conn" code="I72,I106,I118">
+      <name>No. 9 Junction Connector , No. 36 Junction Connector , No. 21 Junction Connector</name>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>DOME NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE57">
+      <text>MAIN1</text>
+    </part>
+    <part type="fuse" code="FUSE16">
+      <text>MET</text>
+    </part>
+    <part type="fuse" code="FUSE17">
+      <text>PANEL</text>
+    </part>
+  </ttl>
+</EWDSearch>

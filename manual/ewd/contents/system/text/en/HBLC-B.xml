@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25T2E" style="font-size:6px;font-family:'Arial'" ver="2.1.2.9">
+	<text textID="1">DIM Relay</text>
+	<text textID="2">H-LP Relay</text>
+	<text textID="3">Head</text>
+	<text textID="4">Headlight Assembly LH</text>
+	<text textID="5">Headlight Assembly RH</text>
+	<text textID="6">Headlight Beam Level Control Actuator</text>
+	<text textID="7">Headlight Dimmer Switch Assembly</text>
+	<text textID="8">Headlight Leveling Switch</text>
+	<text textID="9">Light Control Switch</text>
+	<text textID="10">No. 22 Junction Connector</text>
+	<text textID="11">No. 26 Junction Connector</text>
+	<text textID="12">No. 31 Junction Connector</text>
+	<text textID="13">Tail</text>
+</texts>

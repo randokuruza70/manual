@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS002" code="L41" type="conn" figID="3">
+    <name>Front No. 1 Speaker Assembly LH</name>
+  </text>
+  <text ewd="SYS002" code="L44" type="conn" figID="2">
+    <name>Front No. 1 Speaker Assembly RH</name>
+  </text>
+  <text ewd="SYS002" code="I49" type="conn" figID="11">
+    <name>Motor Antenna Control Relay</name>
+  </text>
+  <text ewd="SYS002" code="I61,I72" type="conn" figID="6">
+    <name>No. 11 Junction Connector , No. 21 Junction Connector</name>
+  </text>
+  <text ewd="SYS002" code="L32,L55,L57" type="conn" figID="12">
+    <name>No. 24 Junction Connector , No. 29 Junction Connector , No. 37 Junction Connector</name>
+  </text>
+  <text ewd="SYS002" code="L51" type="conn" figID="14,15">
+    <name>No. 25 Junction Connector</name>
+  </text>
+  <text ewd="SYS002" code="L34,L35" type="conn" figID="1">
+    <name>No. 26 Junction Connector , No. 27 Junction Connector</name>
+  </text>
+  <text ewd="SYS002" code="L40" type="conn" figID="9">
+    <name>Option Connector (Auto Antenna)</name>
+  </text>
+  <text ewd="SYS002" code="L42,L43" type="conn" figID="16">
+    <name>Radio Receiver Assembly</name>
+  </text>
+  <text ewd="SYS002" code="b2" type="conn" figID="7">
+    <name>Rear Speaker Assembly LH</name>
+  </text>
+  <text ewd="SYS002" code="U4,U6" type="conn" figID="13">
+    <name>Rear Speaker Assembly LH</name>
+  </text>
+  <text ewd="SYS002" code="a2" type="conn" figID="10">
+    <name>Rear Speaker Assembly RH</name>
+  </text>
+  <text ewd="SYS002" code="S17" type="conn" figID="8">
+    <name>Rear Speaker Assembly RH</name>
+  </text>
+  <text ewd="SYS002" code="FUSE24" type="fuse" figID="48">
+    <name>15A RADIO</name>
+  </text>
+  <text ewd="SYS002" code="FUSE1" type="fuse" figID="47">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS002" code="LB" type="gp" figID="44">
+    <name />
+  </text>
+  <text ewd="SYS002" code="FUSE24" type="rb" figID="4">
+    <name>15A RADIO</name>
+  </text>
+  <text ewd="SYS002" code="FUSE1" type="rb" figID="5">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS002" code="SP86" type="sp" figID="45">
+    <name />
+  </text>
+  <text ewd="SYS002" code="SP87" type="sp" figID="46">
+    <name />
+  </text>
+  <text ewd="SYS002" code="IL1" type="w2w" figID="25,29,31,42">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS002" code="IL2" type="w2w" figID="21">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS002" code="IL5" type="w2w" figID="26,30,32,43">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS002" code="IL6" type="w2w" figID="20">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS002" code="LS2" type="w2w" figID="22,35,39,41">
+    <name>Instrument Panel Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS002" code="aS3" type="w2w" figID="38,40">
+    <name>No. 1 Back Door Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS002" code="bT3" type="w2w" figID="24,37">
+    <name>No. 2 Back Door Wire and No. 2 Floor Wire</name>
+  </text>
+  <text ewd="SYS002" code="TS1" type="w2w" figID="23,36">
+    <name>No. 2 Floor Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS002" code="UI4" type="w2w" figID="28,34">
+    <name>No. 3 Floor Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS002" code="UI5" type="w2w" figID="27,33">
+    <name>No. 3 Floor Wire and Cowl Wire</name>
+  </text>
+</EwdTree>

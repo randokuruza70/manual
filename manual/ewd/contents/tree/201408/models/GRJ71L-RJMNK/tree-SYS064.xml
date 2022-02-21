@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS064" code="I65" type="conn" figID="1">
+    <name>No. 13 Junction Connector</name>
+  </text>
+  <text ewd="SYS064" code="L39" type="conn" figID="8">
+    <name>No. 31 Junction Connector</name>
+  </text>
+  <text ewd="SYS064" code="I54" type="conn" figID="5">
+    <name>No. 5 Junction Connector</name>
+  </text>
+  <text ewd="SYS064" code="S11" type="conn" figID="6">
+    <name>Rear Washer Motor Assembly</name>
+  </text>
+  <text ewd="SYS064" code="a1" type="conn" figID="4">
+    <name>Rear Wiper Motor Assembly</name>
+  </text>
+  <text ewd="SYS064" code="S9" type="conn" figID="3">
+    <name>Rear Wiper Relay Assembly</name>
+  </text>
+  <text ewd="SYS064" code="L22,L23" type="conn" figID="7">
+    <name>Windshield Wiper Switch Assembly</name>
+  </text>
+  <text ewd="SYS064" code="FUSE29" type="fuse" figID="29">
+    <name>20A WIP</name>
+  </text>
+  <text ewd="SYS064" code="IA" type="gp" figID="22">
+    <name />
+  </text>
+  <text ewd="SYS064" code="LA" type="gp" figID="21">
+    <name />
+  </text>
+  <text ewd="SYS064" code="LB" type="gp" figID="20">
+    <name />
+  </text>
+  <text ewd="SYS064" code="TA" type="gp" figID="23">
+    <name />
+  </text>
+  <text ewd="SYS064" code="FUSE29" type="rb" figID="2">
+    <name>20A WIP</name>
+  </text>
+  <text ewd="SYS064" code="SP46" type="sp" figID="26">
+    <name />
+  </text>
+  <text ewd="SYS064" code="SP82" type="sp" figID="24">
+    <name />
+  </text>
+  <text ewd="SYS064" code="SP100" type="sp" figID="28">
+    <name />
+  </text>
+  <text ewd="SYS064" code="SP102" type="sp" figID="25">
+    <name />
+  </text>
+  <text ewd="SYS064" code="SP107" type="sp" figID="27">
+    <name />
+  </text>
+  <text ewd="SYS064" code="IS1" type="w2w" figID="14">
+    <name>Cowl Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS064" code="IS2" type="w2w" figID="11">
+    <name>Cowl Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS064" code="LS1" type="w2w" figID="10,12,13">
+    <name>Instrument Panel Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS064" code="aS1" type="w2w" figID="16,17,18,19">
+    <name>No. 1 Back Door Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS064" code="TS2" type="w2w" figID="15">
+    <name>No. 2 Floor Wire and Floor Wire</name>
+  </text>
+</EwdTree>

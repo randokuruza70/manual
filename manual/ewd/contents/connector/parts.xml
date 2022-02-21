@@ -1,0 +1,5796 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDItemList SYSTEM "../../dtd/ewditem.dtd">
+<EWDItemList ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <CodedItem code="FUSE1" type="rb">
+    <name code="">7.5A ACC</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE44" type="rb">
+    <name code="">7.5A ALT-S</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE2" type="rb">
+    <name code="">7.5A OBD2</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE3" type="rb">
+    <name code="">7.5A ST</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE4" type="rb">
+    <name code="">10A A/C</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE45" type="rb">
+    <name code="">10A A/F</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE58" type="rb">
+    <name code="">10A ACC</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE5" type="rb">
+    <name code="">10A DOME NO.1</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE6" type="rb">
+    <name code="">10A ECU-B</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE7" type="rb">
+    <name code="">10A EDU1</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE8" type="rb">
+    <name code="">10A EDU2</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE9" type="rb">
+    <name code="">10A EFI-NO.2</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE46" type="rb">
+    <name code="">10A ETCS</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE10" type="rb">
+    <name code="">10A H/LP HI LH</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE11" type="rb">
+    <name code="">10A H/LP HI RH</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE12" type="rb">
+    <name code="">10A H/LP LO LH</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE13" type="rb">
+    <name code="">10A H/LP LO RH</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE47" type="rb">
+    <name code="">10A HORN</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE59" type="rb">
+    <name code="">10A IG</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE14" type="rb">
+    <name code="">10A IGN</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE15" type="rb">
+    <name code="">10A INJ</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE16" type="rb">
+    <name code="">10A MET</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE17" type="rb">
+    <name code="">10A PANEL</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE18" type="rb">
+    <name code="">10A TAIL</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE48" type="rb">
+    <name code="">15A A/F</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE19" type="rb">
+    <name code="">15A CIG</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE20" type="rb">
+    <name code="">15A ECU IG</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE49" type="rb">
+    <name code="">15A EFI MAIN</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE50" type="rb">
+    <name code="">15A EFI MAIN2</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE21" type="rb">
+    <name code="">15A FR FOG</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE22" type="rb">
+    <name code="">15A FUEL HTR</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE23" type="rb">
+    <name code="">15A GAUGE</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE24" type="rb">
+    <name code="">15A RADIO</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE25" type="rb">
+    <name code="">15A RR FOG</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE26" type="rb">
+    <name code="">15A STOP</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE27" type="rb">
+    <name code="">15A TRAILER STOP</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE51" type="rb">
+    <name code="">15A TURN&amp;HAZ</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE60" type="rb">
+    <name code="">20A +B</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE28" type="rb">
+    <name code="">20A DEFOG</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE29" type="rb">
+    <name code="">20A WIP</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE52" type="rb">
+    <name code="">25A EFI</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE53" type="rb">
+    <name code="">30A ABS SOL</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE35" type="rb">
+    <name code="">30A AM1</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE30" type="rb">
+    <name code="">30A DIFF</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE31" type="rb">
+    <name code="">30A DOOR</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE32" type="rb">
+    <name code="">30A POWER</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE33" type="rb">
+    <name code="">30A STOP</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE34" type="rb">
+    <name code="">30A TRAILER</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE54" type="rb">
+    <name code="">50A ABS MTR</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE36" type="rb">
+    <name code="">50A ALT MAIN</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE37" type="rb">
+    <name code="">50A AM1 NO.2</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE38" type="rb">
+    <name code="">50A AM1 NO.3</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE55" type="rb">
+    <name code="">50A AM2</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE56" type="rb">
+    <name code="">50A HEAD</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE39" type="rb">
+    <name code="">50A HTR</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE57" type="rb">
+    <name code="">50A MAIN1</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE40" type="rb">
+    <name code="">80A GLOW1</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE41" type="rb">
+    <name code="">80A GLOW2</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE42" type="rb">
+    <name code="">100A ALT</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="FUSE43" type="rb">
+    <name code="">140A ALT</name>
+    <fig></fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A6" type="conn" wireCode="A">
+    <name code="">A/C Pressure Switch (Cooler Refrigerant Liquid Pipe B)</name>
+    <fig>90980-11149</fig>
+    <partNo repairInfo="Y">90980-11149</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I2" type="conn" wireCode="I">
+    <name code="">A/C Pressure Switch (Cooler Refrigerant Liquid Pipe B)</name>
+    <fig>90980-11149</fig>
+    <partNo repairInfo="Y">90980-11149</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I43" type="conn" wireCode="I">
+    <name code="">Accelerator Pedal Sensor Assembly</name>
+    <fig>90980-12303</fig>
+    <partNo repairInfo="Y">90980-12303</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C21" type="conn" wireCode="C">
+    <name code="">Air Fuel Ratio Sensor (Bank 1 Sensor 1)</name>
+    <fig>90980-10869</fig>
+    <partNo repairInfo="Y">90980-10869</partNo>
+    <color>Gray / Dark Gray</color>
+    <spec>Before Aug. 2016 Production / From Aug. 2016 Production</spec>
+  </CodedItem>
+  <CodedItem code="C114" type="conn" wireCode="C">
+    <name code="">Air Fuel Ratio Sensor (Bank 1 Sensor 1)</name>
+    <fig>90980-11930</fig>
+    <partNo repairInfo="Y">90980-11930</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I51" type="conn" wireCode="I">
+    <name code="">Airbag Sensor Assembly</name>
+    <fig>90980-12710</fig>
+    <partNo repairInfo="Y">90980-12710</partNo>
+    <color>Yellow</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="S21" type="conn" wireCode="S">
+    <name code="">Airbag Sensor Assembly</name>
+    <fig>90980-12450</fig>
+    <partNo repairInfo="Y">90980-12450</partNo>
+    <color>Yellow</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="S24" type="conn" wireCode="S">
+    <name code="">Airbag Sensor Assembly</name>
+    <fig>90980-12449</fig>
+    <partNo repairInfo="Y">90980-12449</partNo>
+    <color>Yellow</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L13" type="conn" wireCode="L">
+    <name code="">Antenna Switch Assembly</name>
+    <fig>90980-12690</fig>
+    <partNo repairInfo="Y">90980-12690</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L45" type="conn" wireCode="L">
+    <name code="">Antenna Switch Assembly</name>
+    <fig>90980-10996</fig>
+    <partNo repairInfo="Y">90980-10996</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A10" type="conn" wireCode="A">
+    <name code="">Antenna with Holder Assembly</name>
+    <fig>90980-10988</fig>
+    <partNo repairInfo="Y">90980-10988</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L10" type="conn" wireCode="L">
+    <name code="">Ashtray Receptacle Light</name>
+    <fig>90980-12063</fig>
+    <partNo repairInfo="Y">90980-12063</partNo>
+    <color>Black / White</color>
+    <spec>12V Battery Type / 24V Battery Type</spec>
+  </CodedItem>
+  <CodedItem code="T11" type="conn" wireCode="T">
+    <name code="">Back Buzzer Assembly</name>
+    <fig>90980-10887</fig>
+    <partNo repairInfo="Y">90980-10887</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="b3" type="conn" wireCode="b">
+    <name code="">Back Door Courtesy Light Switch Assembly</name>
+    <fig>90980-10444</fig>
+    <partNo repairInfo="Y">90980-10444</partNo>
+    <color>Blue</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="b1" type="conn" wireCode="b">
+    <name code="">Back Door Lock Assembly</name>
+    <fig>90980-11248</fig>
+    <partNo repairInfo="Y">90980-11248</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C32" type="conn" wireCode="C">
+    <name code="">Back-Up Light Switch Assembly</name>
+    <fig>90980-11051</fig>
+    <partNo repairInfo="Y">90980-11051</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C95" type="conn" wireCode="C">
+    <name code="">Back-Up Light Switch Assembly</name>
+    <fig>90980-11250</fig>
+    <partNo repairInfo="Y">90980-11250</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A35" type="conn" wireCode="A">
+    <name code="">Battery (Main)</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A36" type="conn" wireCode="A">
+    <name code="">Battery (Main)</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="D8" type="conn" wireCode="D">
+    <name code="">Battery (Main)</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="D9" type="conn" wireCode="D">
+    <name code="">Battery (Main)</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="E1" type="conn" wireCode="E">
+    <name code="">Battery (Main)</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="E4" type="conn" wireCode="E">
+    <name code="">Battery (Main)</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="F1" type="conn" wireCode="F">
+    <name code="">Battery (Main)</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="k2" type="conn" wireCode="k">
+    <name code="">Battery (Main)</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A37" type="conn" wireCode="A">
+    <name code="">Battery (Sub)</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="D10" type="conn" wireCode="D">
+    <name code="">Battery (Sub)</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="E2" type="conn" wireCode="E">
+    <name code="">Battery (Sub)</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="E3" type="conn" wireCode="E">
+    <name code="">Battery (Sub)</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="F2" type="conn" wireCode="F">
+    <name code="">Battery (Sub)</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I7" type="conn" wireCode="I">
+    <name code="">Blower Resistor</name>
+    <fig>90980-11136</fig>
+    <partNo repairInfo="Y">90980-11136</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A20" type="conn" wireCode="A">
+    <name code="">Brake Actuator Assembly</name>
+    <fig>90980-12687</fig>
+    <partNo repairInfo="Y">90980-12687</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A42" type="conn" wireCode="A">
+    <name code="">Brake Actuator Assembly</name>
+    <fig>90980-12B01</fig>
+    <partNo repairInfo="Y">90980-12B01</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A15" type="conn" wireCode="A">
+    <name code="">Brake Fluid Level Warning Switch (Brake Master Cylinder Reservoir Sub-Assembly)</name>
+    <fig>90980-11207</fig>
+    <partNo repairInfo="Y">90980-11207</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I85" type="conn" wireCode="I">
+    <name code="">Brake Fluid Level Warning Switch (Brake Master Cylinder Reservoir Sub-Assembly)</name>
+    <fig>90980-11207</fig>
+    <partNo repairInfo="Y">90980-11207</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A25" type="conn" wireCode="A">
+    <name code="">Brake Vacuum Check Valve Assembly</name>
+    <fig>90980-10945</fig>
+    <partNo repairInfo="Y">90980-10945</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A26" type="conn" wireCode="A">
+    <name code="">Brake Vacuum Check Valve Assembly</name>
+    <fig>90980-10946</fig>
+    <partNo repairInfo="Y">90980-10946</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A27" type="conn" wireCode="A">
+    <name code="">Brake Vacuum Check Valve Assembly</name>
+    <fig>90980-10927</fig>
+    <partNo repairInfo="Y">90980-10927</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A28" type="conn" wireCode="A">
+    <name code="">Brake Vacuum Check Valve Assembly</name>
+    <fig>90980-10928</fig>
+    <partNo repairInfo="Y">90980-10928</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C68" type="conn" wireCode="C">
+    <name code="">Cam Position Sensor</name>
+    <fig>90980-10947</fig>
+    <partNo repairInfo="Y">90980-10947</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C26" type="conn" wireCode="C">
+    <name code="">Cam Timing Oil Control Valve Assembly LH (Bank 2)</name>
+    <fig>90980-11162</fig>
+    <partNo repairInfo="Y">90980-11162</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C27" type="conn" wireCode="C">
+    <name code="">Cam Timing Oil Control Valve Assembly RH (Bank 1)</name>
+    <fig>90980-11162</fig>
+    <partNo repairInfo="Y">90980-11162</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C35" type="conn" wireCode="C">
+    <name code="">Center Differential Lock Indicator Switch (No. 1 Transfer Indicator Switch)</name>
+    <fig>90980-11250</fig>
+    <partNo repairInfo="Y">90980-11250</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C98" type="conn" wireCode="C">
+    <name code="">Center Differential Lock Indicator Switch (No. 1 Transfer Indicator Switch)</name>
+    <fig>90980-10243</fig>
+    <partNo repairInfo="Y">90980-10243</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L4" type="conn" wireCode="L">
+    <name code="">Center Differential Lock Switch</name>
+    <fig>90980-10631</fig>
+    <partNo repairInfo="Y">90980-10631</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="Y3" type="conn" wireCode="Y">
+    <name code="">Center Stop Light Assembly</name>
+    <fig>90980-11159</fig>
+    <partNo repairInfo="Y">90980-11159</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L11" type="conn" wireCode="L">
+    <name code="">Cigarette Lighter Assembly</name>
+    <fig>90980-10760</fig>
+    <partNo repairInfo="Y">90980-10760</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L12" type="conn" wireCode="L">
+    <name code="">Cigarette Lighter Assembly</name>
+    <fig>90980-12498</fig>
+    <partNo repairInfo="Y">90980-12498</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L19" type="conn" wireCode="L">
+    <name code="">Cigarette Lighter Illumination (Cigarette Lighter Bezel Stay)</name>
+    <fig>90980-10679</fig>
+    <partNo repairInfo="Y">90980-10679</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L9" type="conn" wireCode="L">
+    <name code="">Clock Assembly</name>
+    <fig>90980-12551</fig>
+    <partNo repairInfo="Y">90980-12551</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I50" type="conn" wireCode="I">
+    <name code="">Clutch Switch Assembly</name>
+    <fig>90980-10906</fig>
+    <partNo repairInfo="Y">90980-10906</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L25" type="conn" wireCode="L">
+    <name code="">Combination Meter Assembly</name>
+    <fig>90980-12555</fig>
+    <partNo repairInfo="Y">90980-12555</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L26" type="conn" wireCode="L">
+    <name code="">Combination Meter Assembly</name>
+    <fig>90980-12554</fig>
+    <partNo repairInfo="Y">90980-12554</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L50" type="conn" wireCode="L">
+    <name code="">Combination Meter Assembly</name>
+    <fig>90980-10797</fig>
+    <partNo repairInfo="Y">90980-10797</partNo>
+    <color>Blue</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I11" type="conn" wireCode="I">
+    <name code="">Cooler Stabilizer Amplifier Assembly</name>
+    <fig>90980-11971</fig>
+    <partNo repairInfo="Y">90980-11971</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I12" type="conn" wireCode="I">
+    <name code="">Cooler Stabilizer Amplifier Assembly</name>
+    <fig>90980-12477</fig>
+    <partNo repairInfo="Y">90980-12477</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I88" type="conn" wireCode="I">
+    <name code="">Cooler Stabilizer Amplifier Assembly</name>
+    <fig>90980-10803</fig>
+    <partNo repairInfo="Y">90980-10803</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="IA1" type="w2w" wireCode="I">
+    <name code="">Cowl Wire and Engine Room Main Wire</name>
+    <fig>9098012380_9098012379</fig>
+    <partNo repairInfo="Y">90980-12380/90980-12379</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="IA2" type="w2w" wireCode="I">
+    <name code="">Cowl Wire and Engine Room Main Wire</name>
+    <fig>9098012520_9098012519</fig>
+    <partNo repairInfo="Y">90980-12520/90980-12519</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="IA3" type="w2w" wireCode="I">
+    <name code="">Cowl Wire and Engine Room Main Wire</name>
+    <fig>9098012380_9098012379</fig>
+    <partNo repairInfo="Y">90980-12380/90980-12379</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="IA4" type="w2w" wireCode="I">
+    <name code="">Cowl Wire and Engine Room Main Wire</name>
+    <fig>9098012520_9098012519</fig>
+    <partNo repairInfo="Y">90980-12520/90980-12519</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="IC1" type="w2w" wireCode="I">
+    <name code="">Cowl Wire and Engine Wire</name>
+    <fig>9098010897_9098010896</fig>
+    <partNo repairInfo="Y">90980-10897/90980-10896</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="IC2" type="w2w" wireCode="I">
+    <name code="">Cowl Wire and Engine Wire</name>
+    <fig>9098011240_9098011239</fig>
+    <partNo repairInfo="Y">90980-11240/90980-11239</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="IC3" type="w2w" wireCode="I">
+    <name code="">Cowl Wire and Engine Wire</name>
+    <fig>9098010891_9098010890</fig>
+    <partNo repairInfo="Y">90980-10891/90980-10890</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="IS1" type="w2w" wireCode="I">
+    <name code="">Cowl Wire and Floor Wire</name>
+    <fig>9098010881_9098010880</fig>
+    <partNo repairInfo="Y">90980-10881/90980-10880</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="IS2" type="w2w" wireCode="I">
+    <name code="">Cowl Wire and Floor Wire</name>
+    <fig>9098010817_9098010816</fig>
+    <partNo repairInfo="Y">90980-10817/90980-10816</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="IS3" type="w2w" wireCode="I">
+    <name code="">Cowl Wire and Floor Wire</name>
+    <fig>9098010881_9098010880</fig>
+    <partNo repairInfo="Y">90980-10881/90980-10880</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="IL1" type="w2w" wireCode="I">
+    <name code="">Cowl Wire and Instrument Panel Wire</name>
+    <fig>9098012501_9098012514</fig>
+    <partNo repairInfo="Y">90980-12501/90980-12514</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="IL2" type="w2w" wireCode="I">
+    <name code="">Cowl Wire and Instrument Panel Wire</name>
+    <fig>9098012414_9098012413</fig>
+    <partNo repairInfo="Y">90980-12414/90980-12413</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="IL3" type="w2w" wireCode="I">
+    <name code="">Cowl Wire and Instrument Panel Wire</name>
+    <fig>9098010976_9098010975</fig>
+    <partNo repairInfo="Y">90980-10976/90980-10975</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="IL4" type="w2w" wireCode="I">
+    <name code="">Cowl Wire and Instrument Panel Wire</name>
+    <fig>9098011884_9098011992</fig>
+    <partNo repairInfo="Y">90980-11884/90980-11992</partNo>
+    <color>Yellow</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="IL5" type="w2w" wireCode="I">
+    <name code="">Cowl Wire and Instrument Panel Wire</name>
+    <fig>9098012774_9098012798</fig>
+    <partNo repairInfo="Y">90980-12774/90980-12798</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="IL6" type="w2w" wireCode="I">
+    <name code="">Cowl Wire and Instrument Panel Wire</name>
+    <fig>9098012745_9098012744</fig>
+    <partNo repairInfo="Y">90980-12745/90980-12744</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="IL7" type="w2w" wireCode="I">
+    <name code="">Cowl Wire and Instrument Panel Wire</name>
+    <fig>9098012490_9098011865</fig>
+    <partNo repairInfo="Y">90980-12490/90980-11865</partNo>
+    <color>Yellow</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="IB5" type="w2w" wireCode="I">
+    <name code="">Cowl Wire and No. 2 Engine Room Wire</name>
+    <fig>9098010988_9098010987</fig>
+    <partNo repairInfo="Y">90980-10988/90980-10987</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="IN1" type="w2w" wireCode="I">
+    <name code="">Cowl Wire and No. 3 Instrument Panel Wire</name>
+    <fig>9098011884_9098011883</fig>
+    <partNo repairInfo="Y">90980-11884/90980-11883</partNo>
+    <color>Yellow</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C2" type="conn" wireCode="C">
+    <name code="">Crank Position Sensor</name>
+    <fig>90980-12028</fig>
+    <partNo repairInfo="Y">90980-12028</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C42" type="conn" wireCode="C">
+    <name code="">Crank Position Sensor</name>
+    <fig>90980-11016</fig>
+    <partNo repairInfo="Y">90980-11016</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="z3" type="conn" wireCode="z">
+    <name code="">Cruise Control Switch Wire , Spiral Cable Sub-Assembly</name>
+    <fig>90980-12360</fig>
+    <partNo repairInfo="Y">90980-12360</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="S25" type="conn" wireCode="S">
+    <name code="">Curtain Shield Airbag Assembly LH</name>
+    <fig>90980-12219</fig>
+    <partNo repairInfo="Y">90980-12219</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="S22" type="conn" wireCode="S">
+    <name code="">Curtain Shield Airbag Assembly RH</name>
+    <fig>90980-12219</fig>
+    <partNo repairInfo="Y">90980-12219</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I17" type="conn" wireCode="I">
+    <name code="">DLC3</name>
+    <fig>90980-11665</fig>
+    <partNo repairInfo="Y">90980-11665</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L48" type="conn" wireCode="L">
+    <name code="">DPF Switch Assembly (DPR Switch Assembly)</name>
+    <fig>90980-10957</fig>
+    <partNo repairInfo="Y">90980-10957</partNo>
+    <color>Green</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C120" type="conn" wireCode="C">
+    <name code="">DPF Temperature Sensor (No. 3 Exhaust Gas Temperature Sensor)</name>
+    <fig>90980-11273</fig>
+    <partNo repairInfo="Y">90980-11273</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I9" type="conn" wireCode="I">
+    <name code="">Deceleration Sensor</name>
+    <fig>90980-10845</fig>
+    <partNo repairInfo="Y">90980-10845</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C69" type="conn" wireCode="C">
+    <name code="">Diesel Engine Coolant Temperature Sensor</name>
+    <fig>90980-11451</fig>
+    <partNo repairInfo="Y">90980-11451</partNo>
+    <color>Dark Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C116" type="conn" wireCode="C">
+    <name code="">Diesel Engine Coolant Temperature Sensor</name>
+    <fig>90980-10735</fig>
+    <partNo repairInfo="Y">90980-10735</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C50" type="conn" wireCode="C">
+    <name code="">Diesel Throttle Body Assembly (Bank 1)</name>
+    <fig>90980-11261</fig>
+    <partNo repairInfo="Y">90980-11261</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C58" type="conn" wireCode="C">
+    <name code="">Diesel Throttle Body Assembly (Bank 1)</name>
+    <fig>90980-11145</fig>
+    <partNo repairInfo="Y">90980-11145</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C61" type="conn" wireCode="C">
+    <name code="">Diesel Throttle Body Assembly (Bank 2)</name>
+    <fig>90980-11145</fig>
+    <partNo repairInfo="Y">90980-11145</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C65" type="conn" wireCode="C">
+    <name code="">Diesel Throttle Body Assembly (Bank 2)</name>
+    <fig>90980-11261</fig>
+    <partNo repairInfo="Y">90980-11261</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C59" type="conn" wireCode="C">
+    <name code="">Diesel Turbo Pressure Sensor</name>
+    <fig>90980-12636</fig>
+    <partNo repairInfo="Y">90980-12636</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C101" type="conn" wireCode="C">
+    <name code="">Diesel Turbo Pressure Sensor</name>
+    <fig>90980-10845</fig>
+    <partNo repairInfo="Y">90980-10845</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="V2" type="conn" wireCode="V">
+    <name code="">Differential Lock Shift Actuator</name>
+    <fig>90980-11290</fig>
+    <partNo repairInfo="Y">90980-11290</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C128" type="conn" wireCode="C">
+    <name code="">Differential Pressure Sensor</name>
+    <fig>90980-10845</fig>
+    <partNo repairInfo="Y">90980-10845</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I20" type="conn" wireCode="I">
+    <name code="">Diode (Door Courtesy)</name>
+    <fig>90980-10962</fig>
+    <partNo repairInfo="Y">90980-10962</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I21" type="conn" wireCode="I">
+    <name code="">Diode (Interior Light)</name>
+    <fig>90980-10962</fig>
+    <partNo repairInfo="Y">90980-10962</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I47" type="conn" wireCode="I">
+    <name code="">Diode (Stop Light)</name>
+    <fig>90980-11608</fig>
+    <partNo repairInfo="Y">90980-11608</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I45" type="conn" wireCode="I">
+    <name code="">Diode (Sub Tank Relay)</name>
+    <fig>90980-10962</fig>
+    <partNo repairInfo="Y">90980-10962</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I24" type="conn" wireCode="I">
+    <name code="">Diode (Transfer L4 Position Switch)</name>
+    <fig>90980-11608</fig>
+    <partNo repairInfo="Y">90980-11608</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I23" type="conn" wireCode="I">
+    <name code="">Diode (Turn Signal Light LH)</name>
+    <fig>90980-10962</fig>
+    <partNo repairInfo="Y">90980-10962</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I22" type="conn" wireCode="I">
+    <name code="">Diode (Turn Signal Light RH)</name>
+    <fig>90980-10962</fig>
+    <partNo repairInfo="Y">90980-10962</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I46" type="conn" wireCode="I">
+    <name code="">Diode (Wiper Relay)</name>
+    <fig>90980-10962</fig>
+    <partNo repairInfo="Y">90980-10962</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L31" type="conn" wireCode="L">
+    <name code="">Door Control ECU with Receiver Assembly</name>
+    <fig>90980-12038</fig>
+    <partNo repairInfo="Y">90980-12038</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="O6" type="conn" wireCode="O">
+    <name code="">Door Control Relay Assembly</name>
+    <fig>90980-12475</fig>
+    <partNo repairInfo="Y">90980-12475</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="O15" type="conn" wireCode="O">
+    <name code="">Door Control Relay Assembly</name>
+    <fig>90980-10799</fig>
+    <partNo repairInfo="Y">90980-10799</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="P7" type="conn" wireCode="P">
+    <name code="">Door Control Relay Assembly</name>
+    <fig>90980-12475</fig>
+    <partNo repairInfo="Y">90980-12475</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="O14" type="conn" wireCode="O">
+    <name code="">Door Control Switch</name>
+    <fig>90980-11016</fig>
+    <partNo repairInfo="Y">90980-11016</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="P6" type="conn" wireCode="P">
+    <name code="">Door Control Switch</name>
+    <fig>90980-11016</fig>
+    <partNo repairInfo="Y">90980-11016</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L18" type="conn" wireCode="L">
+    <name code="">Door Control Switch Assembly</name>
+    <fig>90980-12349</fig>
+    <partNo repairInfo="Y">90980-12349</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L46" type="conn" wireCode="L">
+    <name code="">Door Control Switch Assembly</name>
+    <fig>90980-10797</fig>
+    <partNo repairInfo="Y">90980-10797</partNo>
+    <color>Blue</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="S26" type="conn" wireCode="S">
+    <name code="">Door Side Airbag Sensor LH</name>
+    <fig>90980-12490</fig>
+    <partNo repairInfo="Y">90980-12490</partNo>
+    <color>Yellow</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="S23" type="conn" wireCode="S">
+    <name code="">Door Side Airbag Sensor RH</name>
+    <fig>90980-12490</fig>
+    <partNo repairInfo="Y">90980-12490</partNo>
+    <color>Yellow</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="z2" type="conn" wireCode="z">
+    <name code="">Driver Side Squib Circuit , Spiral Cable Sub-Assembly</name>
+    <fig>90980-12224</fig>
+    <partNo repairInfo="Y">90980-12224</partNo>
+    <color>Orange</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C1" type="conn" wireCode="C">
+    <name code="">E.F.I. Engine Coolant Temperature Sensor</name>
+    <fig>90980-11061</fig>
+    <partNo repairInfo="Y">90980-11061</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A29" type="conn" wireCode="A">
+    <name code="">ECM</name>
+    <fig>90980-12462</fig>
+    <partNo repairInfo="Y">90980-12462</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C39" type="conn" wireCode="C">
+    <name code="">ECM</name>
+    <fig>90980-12396</fig>
+    <partNo repairInfo="Y">90980-12396</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I84" type="conn" wireCode="I">
+    <name code="">ECM</name>
+    <fig>90980-12462</fig>
+    <partNo repairInfo="Y">90980-12462</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C47" type="conn" wireCode="C">
+    <name code="">EGR Valve Assembly (Bank 1)</name>
+    <fig>90980-11317</fig>
+    <partNo repairInfo="Y">90980-11317</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C106" type="conn" wireCode="C">
+    <name code="">EGR Valve Assembly (Bank 1)</name>
+    <fig>90980-11024</fig>
+    <partNo repairInfo="Y">90980-11024</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C91" type="conn" wireCode="C">
+    <name code="">Electric Vacuum Regulating Valve Assembly (EGR)</name>
+    <fig>90980-11162</fig>
+    <partNo repairInfo="Y">90980-11162</partNo>
+    <color>Brown / Black</color>
+    <spec>1HZ / 1VD-FTV</spec>
+  </CodedItem>
+  <CodedItem code="A30" type="conn" wireCode="A">
+    <name code="">Emission Control ECU</name>
+    <fig>90980-11390</fig>
+    <partNo repairInfo="Y">90980-11390</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A31" type="conn" wireCode="A">
+    <name code="">Emission Control ECU</name>
+    <fig>90980-11391</fig>
+    <partNo repairInfo="Y">90980-11391</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C86" type="conn" wireCode="C">
+    <name code="">Engine Coolant Temperature Sensor</name>
+    <fig>90980-10737</fig>
+    <partNo repairInfo="Y">90980-10737</partNo>
+    <color>Dark Gray / Green</color>
+    <spec>w/ Emission Control / w/o Emission Control</spec>
+  </CodedItem>
+  <CodedItem code="C71" type="conn" wireCode="C">
+    <name code="">Engine Oil Level Sensor</name>
+    <fig>90980-11235</fig>
+    <partNo repairInfo="Y">90980-11235</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C30" type="conn" wireCode="C">
+    <name code="">Engine Oil Pressure Switch Assembly</name>
+    <fig>90980-11363</fig>
+    <partNo repairInfo="Y">90980-11363</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C88" type="conn" wireCode="C">
+    <name code="">Engine Oil Pressure Switch Assembly</name>
+    <fig>90980-10703</fig>
+    <partNo repairInfo="Y">90980-10703</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="AI1" type="w2w" wireCode="A">
+    <name code="">Engine Room Main Wire and Cowl Wire</name>
+    <fig>9098010976_9098010975</fig>
+    <partNo repairInfo="Y">90980-10976/90980-10975</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="AI2" type="w2w" wireCode="A">
+    <name code="">Engine Room Main Wire and Cowl Wire</name>
+    <fig>9098011531_9098011530</fig>
+    <partNo repairInfo="Y">90980-11531/90980-11530</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="AI3" type="w2w" wireCode="A">
+    <name code="">Engine Room Main Wire and Cowl Wire</name>
+    <fig>9098012501_9098012514</fig>
+    <partNo repairInfo="Y">90980-12501/90980-12514</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="AI4" type="w2w" wireCode="A">
+    <name code="">Engine Room Main Wire and Cowl Wire</name>
+    <fig>9098010867_9098010866</fig>
+    <partNo repairInfo="Y">90980-10867/90980-10866</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="AI5" type="w2w" wireCode="A">
+    <name code="">Engine Room Main Wire and Cowl Wire</name>
+    <fig>9098011890_9098011889</fig>
+    <partNo repairInfo="Y">90980-11890/90980-11889</partNo>
+    <color>Yellow</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="AI6" type="w2w" wireCode="A">
+    <name code="">Engine Room Main Wire and Cowl Wire</name>
+    <fig>9098012479_9098012482</fig>
+    <partNo repairInfo="Y">90980-12479/90980-12482</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="AI7" type="w2w" wireCode="A">
+    <name code="">Engine Room Main Wire and Cowl Wire</name>
+    <fig>9098011542_9098011541</fig>
+    <partNo repairInfo="Y">90980-11542/90980-11541</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="AC1" type="w2w" wireCode="A">
+    <name code="">Engine Room Main Wire and Engine Wire</name>
+    <fig>9098011240_9098011239</fig>
+    <partNo repairInfo="Y">90980-11240/90980-11239</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="AC2" type="w2w" wireCode="A">
+    <name code="">Engine Room Main Wire and Engine Wire</name>
+    <fig>9098010897_9098010896</fig>
+    <partNo repairInfo="Y">90980-10897/90980-10896</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="AC3" type="w2w" wireCode="A">
+    <name code="">Engine Room Main Wire and Engine Wire</name>
+    <fig>9098011139_9098011138</fig>
+    <partNo repairInfo="Y">90980-11139/90980-11138</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="AC5" type="w2w" wireCode="A">
+    <name code="">Engine Room Main Wire and Engine Wire</name>
+    <fig>9098011240_9098011239</fig>
+    <partNo repairInfo="Y">90980-11240/90980-11239</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="AC7" type="w2w" wireCode="A">
+    <name code="">Engine Room Main Wire and Engine Wire</name>
+    <fig>9098010891_9098010890</fig>
+    <partNo repairInfo="Y">90980-10891/90980-10890</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="AC8" type="w2w" wireCode="A">
+    <name code="">Engine Room Main Wire and Engine Wire</name>
+    <fig>9098010897_9098010896</fig>
+    <partNo repairInfo="Y">90980-10897/90980-10896</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="AC9" type="w2w" wireCode="A">
+    <name code="">Engine Room Main Wire and Engine Wire</name>
+    <fig>9098010891_9098010890</fig>
+    <partNo repairInfo="Y">90980-10891/90980-10890</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="AC10" type="w2w" wireCode="A">
+    <name code="">Engine Room Main Wire and Engine Wire</name>
+    <fig>9098011139_9098011138</fig>
+    <partNo repairInfo="Y">90980-11139/90980-11138</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="AC11" type="w2w" wireCode="A">
+    <name code="">Engine Room Main Wire and Engine Wire</name>
+    <fig>9098011240_9098011239</fig>
+    <partNo repairInfo="Y">90980-11240/90980-11239</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="4A" type="jbc" wireCode="A">
+    <name code="">Engine Room Main Wire and Fuse Block Assembly</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="4B" type="jbc" wireCode="A">
+    <name code="">Engine Room Main Wire and Fuse Block Assembly</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="3B" type="jbc" wireCode="A">
+    <name code="">Engine Room Main Wire and Fusible Link Block Assembly</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="3C" type="jbc" wireCode="A">
+    <name code="">Engine Room Main Wire and Fusible Link Block Assembly</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="3D" type="jbc" wireCode="A">
+    <name code="">Engine Room Main Wire and Fusible Link Block Assembly</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="3E" type="jbc" wireCode="A">
+    <name code="">Engine Room Main Wire and Fusible Link Block Assembly</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="3F" type="jbc" wireCode="A">
+    <name code="">Engine Room Main Wire and Fusible Link Block Assembly</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="3G" type="jbc" wireCode="A">
+    <name code="">Engine Room Main Wire and Fusible Link Block Assembly</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="3H" type="jbc" wireCode="A">
+    <name code="">Engine Room Main Wire and Fusible Link Block Assembly</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="3I" type="jbc" wireCode="A">
+    <name code="">Engine Room Main Wire and Fusible Link Block Assembly</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="3A" type="jbc" wireCode="A">
+    <name code="">Engine Room Main Wire and Fusible Link Block Assembly [1HZ]</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="Cv1" type="w2w" wireCode="C">
+    <name code="">Engine Wire and Connecting Wire</name>
+    <fig>9098011162_9098011168</fig>
+    <partNo repairInfo="Y">90980-11162/90980-11168</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="CA1" type="w2w" wireCode="C">
+    <name code="">Engine Wire and Engine Room Main Wire</name>
+    <fig>9098010891_9098010890</fig>
+    <partNo repairInfo="Y">90980-10891/90980-10890</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="CA2" type="w2w" wireCode="C">
+    <name code="">Engine Wire and Engine Room Main Wire</name>
+    <fig>9098010897_9098010896</fig>
+    <partNo repairInfo="Y">90980-10897/90980-10896</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="CA3" type="w2w" wireCode="C">
+    <name code="">Engine Wire and Engine Room Main Wire</name>
+    <fig>9098011893_8282430270</fig>
+    <partNo repairInfo="Y">90980-11893/82824-30270</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="CA4" type="w2w" wireCode="C">
+    <name code="">Engine Wire and Engine Room Main Wire</name>
+    <fig>9098011601_9098011600</fig>
+    <partNo repairInfo="Y">90980-11601/90980-11600</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="3A" type="jbc" wireCode="C">
+    <name code="">Engine Wire and Fusible Link Block Assembly [1VD-FTV]</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="Cu1" type="w2w" wireCode="C">
+    <name code="">Engine Wire and Lead Injector Wire</name>
+    <fig>9098011162_9098011168</fig>
+    <partNo repairInfo="Y">90980-11162/90980-11168</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="CD1" type="w2w" wireCode="C">
+    <name code="">Engine Wire and No. 2 Engine Wire</name>
+    <fig>9098011184_9098011183</fig>
+    <partNo repairInfo="Y">90980-11184/90980-11183</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="Ch1" type="w2w" wireCode="C">
+    <name code="">Engine Wire and Sensor Wire</name>
+    <fig>9098010988_9098010987</fig>
+    <partNo repairInfo="Y">90980-10988/90980-10987</partNo>
+    <color>Black/Dark Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="u1" type="conn" wireCode="u">
+    <name code="">Exhaust Fuel Addition Injector Assembly</name>
+    <fig>90980-11284</fig>
+    <partNo repairInfo="Y">90980-11284</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="ST2" type="w2w" wireCode="S">
+    <name code="">Floor Wire and No. 2 Floor Wire</name>
+    <fig>9098011240_9098011239</fig>
+    <partNo repairInfo="Y">90980-11240/90980-11239</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="ST3" type="w2w" wireCode="S">
+    <name code="">Floor Wire and No. 2 Floor Wire</name>
+    <fig>9098011240_9098011239</fig>
+    <partNo repairInfo="Y">90980-11240/90980-11239</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="J2" type="conn" wireCode="J">
+    <name code="">Fog Light Assembly LH</name>
+    <fig>90980-11096</fig>
+    <partNo repairInfo="Y">90980-11096</partNo>
+    <color>Brown</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="J1" type="conn" wireCode="J">
+    <name code="">Fog Light Assembly RH</name>
+    <fig>90980-11096</fig>
+    <partNo repairInfo="Y">90980-11096</partNo>
+    <color>Brown</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I30" type="conn" wireCode="I">
+    <name code="">Four Wheel Drive Control Solenoid Assembly</name>
+    <fig>90980-12634</fig>
+    <partNo repairInfo="Y">90980-12634</partNo>
+    <color>Blue</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I31" type="conn" wireCode="I">
+    <name code="">Four Wheel Drive Control Solenoid Assembly</name>
+    <fig>90980-11149</fig>
+    <partNo repairInfo="Y">90980-11149</partNo>
+    <color>Brown</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I89" type="conn" wireCode="I">
+    <name code="">Four Wheel Drive Control Solenoid Assembly</name>
+    <fig>90980-11156</fig>
+    <partNo repairInfo="Y">90980-11156</partNo>
+    <color>Blue</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="VT1" type="w2w" wireCode="V">
+    <name code="">Frame Wire and No. 2 Floor Wire</name>
+    <fig>9098011240_9098011239</fig>
+    <partNo repairInfo="Y">90980-11240/90980-11239</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A13" type="conn" wireCode="A">
+    <name code="">Front Airbag Sensor LH</name>
+    <fig>90980-12490</fig>
+    <partNo repairInfo="Y">90980-12490</partNo>
+    <color>Yellow</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I52" type="conn" wireCode="I">
+    <name code="">Front Airbag Sensor RH</name>
+    <fig>90980-12490</fig>
+    <partNo repairInfo="Y">90980-12490</partNo>
+    <color>Yellow</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I5" type="conn" wireCode="I">
+    <name code="">Front Blower Motor (Heater Blower Case)</name>
+    <fig>90980-12488</fig>
+    <partNo repairInfo="Y">90980-12488</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I6" type="conn" wireCode="I">
+    <name code="">Front Blower Motor (Heater Blower Case)</name>
+    <fig>90980-10214</fig>
+    <partNo repairInfo="Y">90980-10214</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I87" type="conn" wireCode="I">
+    <name code="">Front Blower Motor (Heater Blower Case)</name>
+    <fig>90980-10916</fig>
+    <partNo repairInfo="Y">90980-10916</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="B2" type="conn" wireCode="B">
+    <name code="">Front Differential Lock Position Switch</name>
+    <fig>90980-11250</fig>
+    <partNo repairInfo="Y">90980-11250</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="S6" type="conn" wireCode="S">
+    <name code="">Front Door Courtesy Light Switch Assembly LH</name>
+    <fig>90980-10433</fig>
+    <partNo repairInfo="Y">90980-10433</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="S29" type="conn" wireCode="S">
+    <name code="">Front Door Courtesy Light Switch Assembly LH</name>
+    <fig>90980-11097</fig>
+    <partNo repairInfo="Y">90980-11097</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="U1" type="conn" wireCode="U">
+    <name code="">Front Door Courtesy Light Switch Assembly LH</name>
+    <fig>90980-10433</fig>
+    <partNo repairInfo="Y">90980-10433</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="S4" type="conn" wireCode="S">
+    <name code="">Front Door Courtesy Light Switch Assembly RH</name>
+    <fig>90980-10433</fig>
+    <partNo repairInfo="Y">90980-10433</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="S20" type="conn" wireCode="S">
+    <name code="">Front Door Courtesy Light Switch Assembly RH</name>
+    <fig>90980-11097</fig>
+    <partNo repairInfo="Y">90980-11097</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="P3" type="conn" wireCode="P">
+    <name code="">Front Door Lock Actuator Assembly LH</name>
+    <fig>90980-11248</fig>
+    <partNo repairInfo="Y">90980-11248</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="P4" type="conn" wireCode="P">
+    <name code="">Front Door Lock Actuator Assembly LH</name>
+    <fig>90980-11292</fig>
+    <partNo repairInfo="Y">90980-11292</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="P5" type="conn" wireCode="P">
+    <name code="">Front Door Lock Actuator Assembly LH</name>
+    <fig>90980-11599</fig>
+    <partNo repairInfo="Y">90980-11599</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="P8" type="conn" wireCode="P">
+    <name code="">Front Door Lock Actuator Assembly LH</name>
+    <fig>90980-10891</fig>
+    <partNo repairInfo="Y">90980-10891</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="O3" type="conn" wireCode="O">
+    <name code="">Front Door Lock Actuator Assembly RH</name>
+    <fig>90980-11248</fig>
+    <partNo repairInfo="Y">90980-11248</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="O4" type="conn" wireCode="O">
+    <name code="">Front Door Lock Actuator Assembly RH</name>
+    <fig>90980-11292</fig>
+    <partNo repairInfo="Y">90980-11292</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="O5" type="conn" wireCode="O">
+    <name code="">Front Door Lock Actuator Assembly RH</name>
+    <fig>90980-11599</fig>
+    <partNo repairInfo="Y">90980-11599</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="O7" type="conn" wireCode="O">
+    <name code="">Front Door Lock Actuator Assembly RH</name>
+    <fig>90980-10891</fig>
+    <partNo repairInfo="Y">90980-10891</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="PI2" type="w2w" wireCode="P">
+    <name code="">Front Door Wire LH and Cowl Wire</name>
+    <fig>9098012351_9098011530</fig>
+    <partNo repairInfo="Y">90980-12351/90980-11530</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="PI3" type="w2w" wireCode="P">
+    <name code="">Front Door Wire LH and Cowl Wire</name>
+    <fig>9098012351_9098011530</fig>
+    <partNo repairInfo="Y">90980-12351/90980-11530</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="PL1" type="w2w" wireCode="P">
+    <name code="">Front Door Wire LH and Instrument Panel Wire</name>
+    <fig>9098012349_9098010796</fig>
+    <partNo repairInfo="Y">90980-12349/90980-10796</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="Pi1" type="w2w" wireCode="P">
+    <name code="">Front Door Wire LH and Switch Wire LH</name>
+    <fig>9098012473_9098010907</fig>
+    <partNo repairInfo="Y">90980-12473/90980-10907</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="OI2" type="w2w" wireCode="O">
+    <name code="">Front Door Wire RH and Cowl Wire</name>
+    <fig>9098012351_9098011530</fig>
+    <partNo repairInfo="Y">90980-12351/90980-11530</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="OI3" type="w2w" wireCode="O">
+    <name code="">Front Door Wire RH and Cowl Wire</name>
+    <fig>9098012351_9098011530</fig>
+    <partNo repairInfo="Y">90980-12351/90980-11530</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="OI4" type="w2w" wireCode="O">
+    <name code="">Front Door Wire RH and Cowl Wire</name>
+    <fig>9098012351_9098011530</fig>
+    <partNo repairInfo="Y">90980-12351/90980-11530</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="OI5" type="w2w" wireCode="O">
+    <name code="">Front Door Wire RH and Cowl Wire</name>
+    <fig>9098011531_9098011530</fig>
+    <partNo repairInfo="Y">90980-11531/90980-11530</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="OL1" type="w2w" wireCode="O">
+    <name code="">Front Door Wire RH and Instrument Panel Wire</name>
+    <fig>9098012349_9098010796</fig>
+    <partNo repairInfo="Y">90980-12349/90980-10796</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="OL2" type="w2w" wireCode="O">
+    <name code="">Front Door Wire RH and Instrument Panel Wire</name>
+    <fig>9098011923_9098011922</fig>
+    <partNo repairInfo="Y">90980-11923/90980-11922</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="Oj1" type="w2w" wireCode="O">
+    <name code="">Front Door Wire RH and Switch Wire RH</name>
+    <fig>9098012473_9098010907</fig>
+    <partNo repairInfo="Y">90980-12473/90980-10907</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="Oj2" type="w2w" wireCode="O">
+    <name code="">Front Door Wire RH and Switch Wire RH</name>
+    <fig>9098010908_9098010907</fig>
+    <partNo repairInfo="Y">90980-10908/90980-10907</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L1" type="conn" wireCode="L">
+    <name code="">Front No. 1 Speaker Assembly LH</name>
+    <fig>90980-12347</fig>
+    <partNo repairInfo="Y">90980-12347</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L41" type="conn" wireCode="L">
+    <name code="">Front No. 1 Speaker Assembly LH</name>
+    <fig>90980-10935</fig>
+    <partNo repairInfo="Y">90980-10935</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L5" type="conn" wireCode="L">
+    <name code="">Front No. 1 Speaker Assembly RH</name>
+    <fig>90980-12347</fig>
+    <partNo repairInfo="Y">90980-12347</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L44" type="conn" wireCode="L">
+    <name code="">Front No. 1 Speaker Assembly RH</name>
+    <fig>90980-10935</fig>
+    <partNo repairInfo="Y">90980-10935</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="N1" type="conn" wireCode="N">
+    <name code="">Front Passenger Side Squib Circuit (Instrument Panel Passenger Airbag Assembly)</name>
+    <fig>90980-12224</fig>
+    <partNo repairInfo="Y">90980-12224</partNo>
+    <color>Orange</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="P2" type="conn" wireCode="P">
+    <name code="">Front Power Window Regulator Motor Assembly LH</name>
+    <fig>90980-10214</fig>
+    <partNo repairInfo="Y">90980-10214</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="O2" type="conn" wireCode="O">
+    <name code="">Front Power Window Regulator Motor Assembly RH</name>
+    <fig>90980-10214</fig>
+    <partNo repairInfo="Y">90980-10214</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="P11" type="conn" wireCode="P">
+    <name code="">Front Power Window Regulator Switch Assembly LH</name>
+    <fig>90980-10509</fig>
+    <partNo repairInfo="Y">90980-10509</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="P12" type="conn" wireCode="P">
+    <name code="">Front Power Window Regulator Switch Assembly LH</name>
+    <fig>90980-10789</fig>
+    <partNo repairInfo="Y">90980-10789</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="O10" type="conn" wireCode="O">
+    <name code="">Front Power Window Regulator Switch Assembly RH</name>
+    <fig>90980-10509</fig>
+    <partNo repairInfo="Y">90980-10509</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="O11" type="conn" wireCode="O">
+    <name code="">Front Power Window Regulator Switch Assembly RH</name>
+    <fig>90980-10789</fig>
+    <partNo repairInfo="Y">90980-10789</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="S2" type="conn" wireCode="S">
+    <name code="">Front Seat Inner Belt Assembly LH</name>
+    <fig>90980-10906</fig>
+    <partNo repairInfo="Y">90980-10906</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="S28" type="conn" wireCode="S">
+    <name code="">Front Seat Inner Belt Assembly LH</name>
+    <fig>90980-12366</fig>
+    <partNo repairInfo="Y">90980-12366</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="S12" type="conn" wireCode="S">
+    <name code="">Front Seat Inner Belt Assembly RH</name>
+    <fig>90980-10906</fig>
+    <partNo repairInfo="Y">90980-10906</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="S19" type="conn" wireCode="S">
+    <name code="">Front Seat Inner Belt Assembly RH</name>
+    <fig>90980-12366</fig>
+    <partNo repairInfo="Y">90980-12366</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="S27" type="conn" wireCode="S">
+    <name code="">Front Seat Outer Belt Assembly LH</name>
+    <fig>90980-12452</fig>
+    <partNo repairInfo="Y">90980-12452</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="S18" type="conn" wireCode="S">
+    <name code="">Front Seat Outer Belt Assembly RH</name>
+    <fig>90980-12452</fig>
+    <partNo repairInfo="Y">90980-12452</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A21" type="conn" wireCode="A">
+    <name code="">Front Speed Sensor LH (Skid Control Sensor Wire LH)</name>
+    <fig>90980-12353</fig>
+    <partNo repairInfo="Y">90980-12353</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="B3" type="conn" wireCode="B">
+    <name code="">Front Speed Sensor RH (Skid Control Sensor Wire RH)</name>
+    <fig>90980-12416</fig>
+    <partNo repairInfo="Y">90980-12416</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="B4" type="conn" wireCode="B">
+    <name code="">Front Speed Sensor RH (Skid Control Sensor Wire RH)</name>
+    <fig>90980-12353</fig>
+    <partNo repairInfo="Y">90980-12353</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I18" type="conn" wireCode="I">
+    <name code="">Front Speed Sensor RH (Skid Control Sensor Wire RH)</name>
+    <fig>90980-12416</fig>
+    <partNo repairInfo="Y">90980-12416</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L8" type="conn" wireCode="L">
+    <name code="">Fuel Control Switch Assembly</name>
+    <fig>90980-10933</fig>
+    <partNo repairInfo="Y">90980-10933</partNo>
+    <color>Black / Gray</color>
+    <spec>Before Aug. 2016 Production / From Aug. 2016 Production</spec>
+  </CodedItem>
+  <CodedItem code="A8" type="conn" wireCode="A">
+    <name code="">Fuel Filter Vacuum Sensor</name>
+    <fig>90980-12416</fig>
+    <partNo repairInfo="Y">90980-12416</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A16" type="conn" wireCode="A">
+    <name code="">Fuel Heater</name>
+    <fig>90980-10928</fig>
+    <partNo repairInfo="Y">90980-10928</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C8" type="conn" wireCode="C">
+    <name code="">Fuel Injector Assembly No. 1</name>
+    <fig>90980-11875</fig>
+    <partNo repairInfo="Y">90980-11875</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C20" type="conn" wireCode="C">
+    <name code="">Fuel Injector Assembly No. 2</name>
+    <fig>90980-11875</fig>
+    <partNo repairInfo="Y">90980-11875</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C9" type="conn" wireCode="C">
+    <name code="">Fuel Injector Assembly No. 3</name>
+    <fig>90980-11875</fig>
+    <partNo repairInfo="Y">90980-11875</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C25" type="conn" wireCode="C">
+    <name code="">Fuel Injector Assembly No. 4</name>
+    <fig>90980-11875</fig>
+    <partNo repairInfo="Y">90980-11875</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C11" type="conn" wireCode="C">
+    <name code="">Fuel Injector Assembly No. 5</name>
+    <fig>90980-11875</fig>
+    <partNo repairInfo="Y">90980-11875</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C16" type="conn" wireCode="C">
+    <name code="">Fuel Injector Assembly No. 6</name>
+    <fig>90980-11875</fig>
+    <partNo repairInfo="Y">90980-11875</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C56" type="conn" wireCode="C">
+    <name code="">Fuel Pressure Sensor</name>
+    <fig>90980-12636</fig>
+    <partNo repairInfo="Y">90980-12636</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C100" type="conn" wireCode="C">
+    <name code="">Fuel Pressure Sensor</name>
+    <fig>90980-10845</fig>
+    <partNo repairInfo="Y">90980-10845</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C31" type="conn" wireCode="C">
+    <name code="">Fuel Pump</name>
+    <fig>90980-11142</fig>
+    <partNo repairInfo="Y">90980-11142</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="T3" type="conn" wireCode="T">
+    <name code="">Fuel Pump</name>
+    <fig>90980-11142</fig>
+    <partNo repairInfo="Y">90980-11142</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="T8" type="conn" wireCode="T">
+    <name code="">Fuel Pump (Sub)</name>
+    <fig>90980-10988</fig>
+    <partNo repairInfo="Y">90980-10988</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="X2" type="conn" wireCode="X">
+    <name code="">Fuel Pump (Sub)</name>
+    <fig>90980-11142</fig>
+    <partNo repairInfo="Y">90980-11142</partNo>
+    <color>Dark Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="rC1" type="w2w" wireCode="r">
+    <name code="">Fuel Pump Motor Wire and Engine Wire</name>
+    <fig>9098010869_9098010868</fig>
+    <partNo repairInfo="Y">90980-10869/90980-10868</partNo>
+    <color>Dark Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="rC2" type="w2w" wireCode="r">
+    <name code="">Fuel Pump Motor Wire and Engine Wire</name>
+    <fig>9098010869_9098010868</fig>
+    <partNo repairInfo="Y">90980-10869/90980-10868</partNo>
+    <color>Dark Gray/Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A17" type="conn" wireCode="A">
+    <name code="">Fuel Pump Resistor Assembly</name>
+    <fig>90980-12634</fig>
+    <partNo repairInfo="Y">90980-12634</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A40" type="conn" wireCode="A">
+    <name code="">Fuel Pump Resistor Assembly</name>
+    <fig>90980-11156</fig>
+    <partNo repairInfo="Y">90980-11156</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A9" type="conn" wireCode="A">
+    <name code="">Fuel Sediment Switch</name>
+    <fig>90980-11003</fig>
+    <partNo repairInfo="Y">90980-11003</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C97" type="conn" wireCode="C">
+    <name code="">Fuel Sender Gage Assembly (Front)</name>
+    <fig>90980-11016</fig>
+    <partNo repairInfo="Y">90980-11016</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="T4" type="conn" wireCode="T">
+    <name code="">Fuel Sender Gage Assembly (Rear)</name>
+    <fig>90980-11293</fig>
+    <partNo repairInfo="Y">90980-11293</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="T9" type="conn" wireCode="T">
+    <name code="">Fuel Sender Gage Assembly (Rear)</name>
+    <fig>90980-10868</fig>
+    <partNo repairInfo="Y">90980-10868</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="T19" type="conn" wireCode="T">
+    <name code="">Fuel Sender Gage Assembly (Rear)</name>
+    <fig>90980-10868</fig>
+    <partNo repairInfo="Y">90980-10868</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="X1" type="conn" wireCode="X">
+    <name code="">Fuel Sender Gage Assembly (Rear)</name>
+    <fig>90980-11293</fig>
+    <partNo repairInfo="Y">90980-11293</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="W2" type="conn" wireCode="W">
+    <name code="">Fuel Tank Solenoid Main Valve Assembly</name>
+    <fig>90980-10901</fig>
+    <partNo repairInfo="Y">90980-10901</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="W1" type="conn" wireCode="W">
+    <name code="">Fuel Tank Solenoid Return Valve Assembly</name>
+    <fig>90980-10901</fig>
+    <partNo repairInfo="Y">90980-10901</partNo>
+    <color>Dark Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="r3" type="conn" wireCode="r">
+    <name code="">Fuel Temperature Sensor</name>
+    <fig>90980-10737</fig>
+    <partNo repairInfo="Y">90980-10737</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I76" type="conn" wireCode="I">
+    <name code="">Fuse Block Assembly</name>
+    <fig>90980-10989</fig>
+    <partNo repairInfo="Y">90980-10989</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C43" type="conn" wireCode="C">
+    <name code="">Generator Assembly</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C44" type="conn" wireCode="C">
+    <name code="">Generator Assembly</name>
+    <fig>90980-11964</fig>
+    <partNo repairInfo="Y">90980-11964</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="D1" type="conn" wireCode="D">
+    <name code="">Generator Assembly</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="D4" type="conn" wireCode="D">
+    <name code="">Generator Assembly</name>
+    <fig>90980-11964</fig>
+    <partNo repairInfo="Y">90980-11964</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I1" type="conn" wireCode="I">
+    <name code="">Generator Assembly</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I34" type="conn" wireCode="I">
+    <name code="">Generator Assembly</name>
+    <fig>90980-11349</fig>
+    <partNo repairInfo="Y">90980-11349</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C90" type="conn" wireCode="C">
+    <name code="">Glow Plug Assembly</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C45" type="conn" wireCode="C">
+    <name code="">Glow Plug Assembly No. 1</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C62" type="conn" wireCode="C">
+    <name code="">Glow Plug Assembly No. 2</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L14" type="conn" wireCode="L">
+    <name code="">Hazard Warning Signal Switch Assembly</name>
+    <fig>90980-10801</fig>
+    <partNo repairInfo="Y">90980-10801</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="M1" type="conn" wireCode="M">
+    <name code="">Hazard Warning Signal Switch Assembly</name>
+    <fig>90980-10801</fig>
+    <partNo repairInfo="Y">90980-10801</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A1" type="conn" wireCode="A">
+    <name code="">Headlight Assembly LH</name>
+    <fig>90980-11314</fig>
+    <partNo repairInfo="Y">90980-11314</partNo>
+    <color>Black</color>
+    <spec>High, Low</spec>
+  </CodedItem>
+  <CodedItem code="A3" type="conn" wireCode="A">
+    <name code="">Headlight Assembly LH</name>
+    <fig>90980-11019</fig>
+    <partNo repairInfo="Y">90980-11019</partNo>
+    <color>Gray</color>
+    <spec>Front Turn Signal Light</spec>
+  </CodedItem>
+  <CodedItem code="A7" type="conn" wireCode="A">
+    <name code="">Headlight Assembly LH</name>
+    <fig>90980-12634</fig>
+    <partNo repairInfo="Y">90980-12634</partNo>
+    <color>Black</color>
+    <spec>Front Clearance Light</spec>
+  </CodedItem>
+  <CodedItem code="A14" type="conn" wireCode="A">
+    <name code="">Headlight Assembly LH</name>
+    <fig>90980-11016</fig>
+    <partNo repairInfo="Y">90980-11016</partNo>
+    <color>Gray</color>
+    <spec>Headlight Beam Level Control Actuator</spec>
+  </CodedItem>
+  <CodedItem code="A38" type="conn" wireCode="A">
+    <name code="">Headlight Assembly LH</name>
+    <fig>90980-11156</fig>
+    <partNo repairInfo="Y">90980-11156</partNo>
+    <color>Black</color>
+    <spec>Clearance Light</spec>
+  </CodedItem>
+  <CodedItem code="I36" type="conn" wireCode="I">
+    <name code="">Headlight Assembly RH</name>
+    <fig>90980-11314</fig>
+    <partNo repairInfo="Y">90980-11314</partNo>
+    <color>Black</color>
+    <spec>High, Low</spec>
+  </CodedItem>
+  <CodedItem code="I38" type="conn" wireCode="I">
+    <name code="">Headlight Assembly RH</name>
+    <fig>90980-11019</fig>
+    <partNo repairInfo="Y">90980-11019</partNo>
+    <color>Gray</color>
+    <spec>Front Turn Signal Light</spec>
+  </CodedItem>
+  <CodedItem code="I40" type="conn" wireCode="I">
+    <name code="">Headlight Assembly RH</name>
+    <fig>90980-12634</fig>
+    <partNo repairInfo="Y">90980-12634</partNo>
+    <color>Black</color>
+    <spec>Front Clearance Light</spec>
+  </CodedItem>
+  <CodedItem code="I44" type="conn" wireCode="I">
+    <name code="">Headlight Assembly RH</name>
+    <fig>90980-11016</fig>
+    <partNo repairInfo="Y">90980-11016</partNo>
+    <color>Gray</color>
+    <spec>Headlight Beam Level Control Actuator</spec>
+  </CodedItem>
+  <CodedItem code="I91" type="conn" wireCode="I">
+    <name code="">Headlight Assembly RH</name>
+    <fig>90980-11156</fig>
+    <partNo repairInfo="Y">90980-11156</partNo>
+    <color>Black</color>
+    <spec>Clearance Light</spec>
+  </CodedItem>
+  <CodedItem code="L24" type="conn" wireCode="L">
+    <name code="">Headlight Dimmer Switch Assembly</name>
+    <fig>90980-12460</fig>
+    <partNo repairInfo="Y">90980-12460</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L15" type="conn" wireCode="L">
+    <name code="">Headlight Leveling Switch</name>
+    <fig>90980-12690</fig>
+    <partNo repairInfo="Y">90980-12690</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L54" type="conn" wireCode="L">
+    <name code="">Headlight Leveling Switch</name>
+    <fig>90980-10996</fig>
+    <partNo repairInfo="Y">90980-10996</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I15" type="conn" wireCode="I">
+    <name code="">Heater Blower Switch Assembly</name>
+    <fig>90980-10876</fig>
+    <partNo repairInfo="Y">90980-10876</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A5" type="conn" wireCode="A">
+    <name code="">High Pitched Horn Assembly</name>
+    <fig>90980-10619</fig>
+    <partNo repairInfo="Y">90980-10619</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="z1" type="conn" wireCode="z">
+    <name code="">Horn Button Wire Sub-Assembly , Spiral Cable Sub-Assembly</name>
+    <fig>90980-12361</fig>
+    <partNo repairInfo="Y">90980-12361</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L6" type="conn" wireCode="L">
+    <name code="">Idle Up Switch</name>
+    <fig>90980-10933</fig>
+    <partNo repairInfo="Y">90980-10933</partNo>
+    <color>Black / Gray</color>
+    <spec>Before Aug. 2016 Production / From Aug. 2016 Production</spec>
+  </CodedItem>
+  <CodedItem code="C5" type="conn" wireCode="C">
+    <name code="">Ignition Coil Assembly No. 1</name>
+    <fig>90980-11885</fig>
+    <partNo repairInfo="Y">90980-11885</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C14" type="conn" wireCode="C">
+    <name code="">Ignition Coil Assembly No. 2</name>
+    <fig>90980-11885</fig>
+    <partNo repairInfo="Y">90980-11885</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C6" type="conn" wireCode="C">
+    <name code="">Ignition Coil Assembly No. 3</name>
+    <fig>90980-11885</fig>
+    <partNo repairInfo="Y">90980-11885</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C13" type="conn" wireCode="C">
+    <name code="">Ignition Coil Assembly No. 4</name>
+    <fig>90980-11885</fig>
+    <partNo repairInfo="Y">90980-11885</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C7" type="conn" wireCode="C">
+    <name code="">Ignition Coil Assembly No. 5</name>
+    <fig>90980-11885</fig>
+    <partNo repairInfo="Y">90980-11885</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C12" type="conn" wireCode="C">
+    <name code="">Ignition Coil Assembly No. 6</name>
+    <fig>90980-11885</fig>
+    <partNo repairInfo="Y">90980-11885</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L21" type="conn" wireCode="L">
+    <name code="">Ignition or Starter Switch Assembly</name>
+    <fig>90980-11615</fig>
+    <partNo repairInfo="Y">90980-11615</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C83" type="conn" wireCode="C">
+    <name code="">Injection or Supply Pump Assembly</name>
+    <fig>90980-11157</fig>
+    <partNo repairInfo="Y">90980-11157</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C84" type="conn" wireCode="C">
+    <name code="">Injection or Supply Pump Assembly</name>
+    <fig>90980-11599</fig>
+    <partNo repairInfo="Y">90980-11599</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C48" type="conn" wireCode="C">
+    <name code="">Injector Assembly No. 1</name>
+    <fig>90980-11875</fig>
+    <partNo repairInfo="Y">90980-11875</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C107" type="conn" wireCode="C">
+    <name code="">Injector Assembly No. 1</name>
+    <fig>90980-12747</fig>
+    <partNo repairInfo="Y">90980-12747</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C67" type="conn" wireCode="C">
+    <name code="">Injector Assembly No. 2</name>
+    <fig>90980-11875</fig>
+    <partNo repairInfo="Y">90980-11875</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C115" type="conn" wireCode="C">
+    <name code="">Injector Assembly No. 2</name>
+    <fig>90980-12747</fig>
+    <partNo repairInfo="Y">90980-12747</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C49" type="conn" wireCode="C">
+    <name code="">Injector Assembly No. 3</name>
+    <fig>90980-11875</fig>
+    <partNo repairInfo="Y">90980-11875</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C108" type="conn" wireCode="C">
+    <name code="">Injector Assembly No. 3</name>
+    <fig>90980-12747</fig>
+    <partNo repairInfo="Y">90980-12747</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C72" type="conn" wireCode="C">
+    <name code="">Injector Assembly No. 4</name>
+    <fig>90980-11875</fig>
+    <partNo repairInfo="Y">90980-11875</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C117" type="conn" wireCode="C">
+    <name code="">Injector Assembly No. 4</name>
+    <fig>90980-12747</fig>
+    <partNo repairInfo="Y">90980-12747</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C51" type="conn" wireCode="C">
+    <name code="">Injector Assembly No. 5</name>
+    <fig>90980-11875</fig>
+    <partNo repairInfo="Y">90980-11875</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C109" type="conn" wireCode="C">
+    <name code="">Injector Assembly No. 5</name>
+    <fig>90980-12747</fig>
+    <partNo repairInfo="Y">90980-12747</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C64" type="conn" wireCode="C">
+    <name code="">Injector Assembly No. 6</name>
+    <fig>90980-11875</fig>
+    <partNo repairInfo="Y">90980-11875</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C113" type="conn" wireCode="C">
+    <name code="">Injector Assembly No. 6</name>
+    <fig>90980-12747</fig>
+    <partNo repairInfo="Y">90980-12747</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C57" type="conn" wireCode="C">
+    <name code="">Injector Assembly No. 7</name>
+    <fig>90980-11875</fig>
+    <partNo repairInfo="Y">90980-11875</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C110" type="conn" wireCode="C">
+    <name code="">Injector Assembly No. 7</name>
+    <fig>90980-12747</fig>
+    <partNo repairInfo="Y">90980-12747</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C63" type="conn" wireCode="C">
+    <name code="">Injector Assembly No. 8</name>
+    <fig>90980-11875</fig>
+    <partNo repairInfo="Y">90980-11875</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C112" type="conn" wireCode="C">
+    <name code="">Injector Assembly No. 8</name>
+    <fig>90980-12747</fig>
+    <partNo repairInfo="Y">90980-12747</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C54" type="conn" wireCode="C">
+    <name code="">Injector Driver (EDU) (No. 1)</name>
+    <fig>90980-11593</fig>
+    <partNo repairInfo="Y">90980-11593</partNo>
+    <color>Dark Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C55" type="conn" wireCode="C">
+    <name code="">Injector Driver (EDU) (No. 1)</name>
+    <fig>90980-11592</fig>
+    <partNo repairInfo="Y">90980-11592</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C121" type="conn" wireCode="C">
+    <name code="">Injector Driver (EDU) (No. 1)</name>
+    <fig>90980-11285</fig>
+    <partNo repairInfo="Y">90980-11285</partNo>
+    <color>Brawn</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C122" type="conn" wireCode="C">
+    <name code="">Injector Driver (EDU) (No. 1)</name>
+    <fig>90980-12520</fig>
+    <partNo repairInfo="Y">90980-12520</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C123" type="conn" wireCode="C">
+    <name code="">Injector Driver (EDU) (No. 1)</name>
+    <fig>90980-11194</fig>
+    <partNo repairInfo="Y">90980-11194</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C124" type="conn" wireCode="C">
+    <name code="">Injector Driver (EDU) (No. 1)</name>
+    <fig>90980-11028</fig>
+    <partNo repairInfo="Y">90980-11028</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C52" type="conn" wireCode="C">
+    <name code="">Injector Driver (EDU) (No. 2)</name>
+    <fig>90980-11593</fig>
+    <partNo repairInfo="Y">90980-11593</partNo>
+    <color>Dark Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C53" type="conn" wireCode="C">
+    <name code="">Injector Driver (EDU) (No. 2)</name>
+    <fig>90980-11592</fig>
+    <partNo repairInfo="Y">90980-11592</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C125" type="conn" wireCode="C">
+    <name code="">Injector Driver (EDU) (No. 2)</name>
+    <fig>90980-12520</fig>
+    <partNo repairInfo="Y">90980-12520</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C126" type="conn" wireCode="C">
+    <name code="">Injector Driver (EDU) (No. 2)</name>
+    <fig>90980-11194</fig>
+    <partNo repairInfo="Y">90980-11194</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C127" type="conn" wireCode="C">
+    <name code="">Injector Driver (EDU) (No. 2)</name>
+    <fig>90980-11028</fig>
+    <partNo repairInfo="Y">90980-11028</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="LI1" type="w2w" wireCode="L">
+    <name code="">Instrument Panel Wire and Cowl Wire</name>
+    <fig>9098012771_9098012770</fig>
+    <partNo repairInfo="Y">90980-12771/90980-12770</partNo>
+    <color>Blue</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="LS1" type="w2w" wireCode="L">
+    <name code="">Instrument Panel Wire and Floor Wire</name>
+    <fig>9098012479_9098012482</fig>
+    <partNo repairInfo="Y">90980-12479/90980-12482</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="LS2" type="w2w" wireCode="L">
+    <name code="">Instrument Panel Wire and Floor Wire</name>
+    <fig>9098012739_9098012738</fig>
+    <partNo repairInfo="Y">90980-12739/90980-12738</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="LM1" type="w2w" wireCode="L">
+    <name code="">Instrument Panel Wire and No. 2 Instrument Panel Wire</name>
+    <fig>9098010801_9098010800</fig>
+    <partNo repairInfo="Y">90980-10801/90980-10800</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C60" type="conn" wireCode="C">
+    <name code="">Intake Air Temperature Sensor</name>
+    <fig>90980-11025</fig>
+    <partNo repairInfo="Y">90980-11025</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C3" type="conn" wireCode="C">
+    <name code="">Intake Mass Air Flow Meter Sub-Assembly</name>
+    <fig>90980-11317</fig>
+    <partNo repairInfo="Y">90980-11317</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C41" type="conn" wireCode="C">
+    <name code="">Intake Mass Air Flow Meter Sub-Assembly</name>
+    <fig>90980-12292</fig>
+    <partNo repairInfo="Y">90980-12292</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="h2" type="conn" wireCode="h">
+    <name code="">Knock Control Sensor (Bank 1)</name>
+    <fig>90980-11875</fig>
+    <partNo repairInfo="Y">90980-11875</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="h1" type="conn" wireCode="h">
+    <name code="">Knock Control Sensor (Bank 2)</name>
+    <fig>90980-11875</fig>
+    <partNo repairInfo="Y">90980-11875</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="b4" type="conn" wireCode="b">
+    <name code="">License Plate Light Assembly</name>
+    <fig>90980-10905</fig>
+    <partNo repairInfo="Y">90980-10905</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="e1" type="conn" wireCode="e">
+    <name code="">License Plate Light Assembly</name>
+    <fig>90980-10354</fig>
+    <partNo repairInfo="Y">90980-10354</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="T15" type="conn" wireCode="T">
+    <name code="">License Plate Light Assembly LH</name>
+    <fig>90980-11142</fig>
+    <partNo repairInfo="Y">90980-11142</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="T16" type="conn" wireCode="T">
+    <name code="">License Plate Light Assembly LH</name>
+    <fig>90980-11142</fig>
+    <partNo repairInfo="Y">90980-11142</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="T12" type="conn" wireCode="T">
+    <name code="">License Plate Light Assembly RH</name>
+    <fig>90980-11142</fig>
+    <partNo repairInfo="Y">90980-11142</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="T13" type="conn" wireCode="T">
+    <name code="">License Plate Light Assembly RH</name>
+    <fig>90980-11142</fig>
+    <partNo repairInfo="Y">90980-11142</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A4" type="conn" wireCode="A">
+    <name code="">Low Pitched Horn Assembly</name>
+    <fig>90980-10619</fig>
+    <partNo repairInfo="Y">90980-10619</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I103" type="conn" wireCode="I">
+    <name code="">Lower No. 1 Instrument Panel Airbag Assembly</name>
+    <fig>90980-12452</fig>
+    <partNo repairInfo="Y">90980-12452</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C23" type="conn" wireCode="C">
+    <name code="">Magnet Clutch Assembly</name>
+    <fig>90980-11016</fig>
+    <partNo repairInfo="Y">90980-11016</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I33" type="conn" wireCode="I">
+    <name code="">Magnet Clutch Assembly</name>
+    <fig>90980-11271</fig>
+    <partNo repairInfo="Y">90980-11271</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="mA1" type="w2w" wireCode="m">
+    <name code="">Magnet Switch to Winch Cable and Engine Room Main Wire</name>
+    <fig>9098011156_9098011155</fig>
+    <partNo repairInfo="Y">90980-11156/90980-11155</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I49" type="conn" wireCode="I">
+    <name code="">Motor Antenna Control Relay</name>
+    <fig>90980-10819</fig>
+    <partNo repairInfo="Y">90980-10819</partNo>
+    <color>Dark Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="aS1" type="w2w" wireCode="a">
+    <name code="">No. 1 Back Door Wire and Floor Wire</name>
+    <fig>9098012474_9098010794</fig>
+    <partNo repairInfo="Y">90980-12474/90980-10794</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="aS2" type="w2w" wireCode="a">
+    <name code="">No. 1 Back Door Wire and Floor Wire</name>
+    <fig>9098012473_9098010907</fig>
+    <partNo repairInfo="Y">90980-12473/90980-10907</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="aS3" type="w2w" wireCode="a">
+    <name code="">No. 1 Back Door Wire and Floor Wire</name>
+    <fig>9098010906_9098010905</fig>
+    <partNo repairInfo="Y">90980-10906/90980-10905</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I77" type="conn" wireCode="I">
+    <name code="">No. 1 CAN Junction Connector</name>
+    <fig>90980-12355</fig>
+    <partNo repairInfo="Y">90980-12355</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I78" type="conn" wireCode="I">
+    <name code="">No. 1 CAN Junction Connector</name>
+    <fig>90980-12355</fig>
+    <partNo repairInfo="Y">90980-12355</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I79" type="conn" wireCode="I">
+    <name code="">No. 1 CAN Junction Connector</name>
+    <fig>90980-12470</fig>
+    <partNo repairInfo="Y">90980-12470</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I83" type="conn" wireCode="I">
+    <name code="">No. 1 CAN Junction Connector</name>
+    <fig>90980-12355</fig>
+    <partNo repairInfo="Y">90980-12355</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I100" type="conn" wireCode="I">
+    <name code="">No. 1 CAN Junction Connector</name>
+    <fig>90980-10871</fig>
+    <partNo repairInfo="Y">90980-10871</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I16" type="conn" wireCode="I">
+    <name code="">No. 1 Cooler Thermistor</name>
+    <fig>90980-11918</fig>
+    <partNo repairInfo="Y">90980-11918</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C118" type="conn" wireCode="C">
+    <name code="">No. 1 Exhaust Gas Temperature Sensor</name>
+    <fig>90980-11273</fig>
+    <partNo repairInfo="Y">90980-11273</partNo>
+    <color>Dark Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I13" type="conn" wireCode="I">
+    <name code="">No. 1 Heater Control Indicator Light Assembly</name>
+    <fig>90980-11159</fig>
+    <partNo repairInfo="Y">90980-11159</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A22" type="conn" wireCode="A">
+    <name code="">No. 1 Junction Connector</name>
+    <fig>82824-26010</fig>
+    <partNo repairInfo="Y">90980-10897</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="k1" type="conn" wireCode="k">
+    <name code="">No. 1 Magnet Switch Assembly</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="m3" type="conn" wireCode="m">
+    <name code="">No. 1 Magnet Switch Assembly</name>
+    <fig>90980-10887</fig>
+    <partNo repairInfo="Y">90980-10887</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="m4" type="conn" wireCode="m">
+    <name code="">No. 1 Magnet Switch Assembly</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="RS1" type="w2w" wireCode="R">
+    <name code="">No. 1 Rear Door Wire and Floor Wire</name>
+    <fig>9098010797_9098010796</fig>
+    <partNo repairInfo="Y">90980-10797/90980-10796</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="ca3" type="w2w" wireCode="c">
+    <name code="">No. 1 Rear Window Wire and No. 1 Back Door Wire</name>
+    <fig>9098012470_9098010870</fig>
+    <partNo repairInfo="Y">90980-12470/90980-10870</partNo>
+    <color>Blue</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="ca4" type="w2w" wireCode="c">
+    <name code="">No. 1 Rear Window Wire and No. 1 Back Door Wire</name>
+    <fig>9098012470_9098010870</fig>
+    <partNo repairInfo="Y">90980-12470/90980-10870</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="YI2" type="w2w" wireCode="Y">
+    <name code="">No. 1 Roof Wire and Cowl Wire</name>
+    <fig>9098012689_9098011012</fig>
+    <partNo repairInfo="Y">90980-12689/90980-11012</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="YI3" type="w2w" wireCode="Y">
+    <name code="">No. 1 Roof Wire and Cowl Wire</name>
+    <fig>9098010801_9098010800</fig>
+    <partNo repairInfo="Y">90980-10801/90980-10800</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="YS4" type="w2w" wireCode="Y">
+    <name code="">No. 1 Roof Wire and Floor Wire</name>
+    <fig>9098012689_9098011012</fig>
+    <partNo repairInfo="Y">90980-12689/90980-11012</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="Y5" type="conn" wireCode="Y">
+    <name code="">No. 1 Room Light Assembly</name>
+    <fig>90980-10121</fig>
+    <partNo repairInfo="Y">90980-10121</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="Y6" type="conn" wireCode="Y">
+    <name code="">No. 1 Room Light Assembly</name>
+    <fig>90980-10121</fig>
+    <partNo repairInfo="Y">90980-10121</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A18" type="conn" wireCode="A">
+    <name code="">No. 1 Vacuum Switching Valve (A/C Idle-Up)</name>
+    <fig>90980-12634</fig>
+    <partNo repairInfo="Y">90980-12634</partNo>
+    <color>Blue</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A41" type="conn" wireCode="A">
+    <name code="">No. 1 Vacuum Switching Valve (A/C Idle-Up)</name>
+    <fig>90980-11156</fig>
+    <partNo repairInfo="Y">90980-11156</partNo>
+    <color>Blue</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C37" type="conn" wireCode="C">
+    <name code="">No. 1 Vacuum Switching Valve (ACIS)</name>
+    <fig>90980-11149</fig>
+    <partNo repairInfo="Y">90980-11149</partNo>
+    <color>Brown</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C111" type="conn" wireCode="C">
+    <name code="">No. 1 Vacuum Switching Valve Assembly (for EGR Cooler Bypass Valve)</name>
+    <fig>90980-11156</fig>
+    <partNo repairInfo="Y">90980-11156</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C19" type="conn" wireCode="C">
+    <name code="">No. 2 Air Fuel Ratio Sensor (Bank 2 Sensor 1)</name>
+    <fig>90980-10869</fig>
+    <partNo repairInfo="Y">90980-10869</partNo>
+    <color>Gray / Dark Gray</color>
+    <spec>Before Aug. 2016 Production / From Aug. 2016 Production</spec>
+  </CodedItem>
+  <CodedItem code="bT1" type="w2w" wireCode="b">
+    <name code="">No. 2 Back Door Wire and No. 2 Floor Wire</name>
+    <fig>9098012474_9098010794</fig>
+    <partNo repairInfo="Y">90980-12474/90980-10794</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="bT2" type="w2w" wireCode="b">
+    <name code="">No. 2 Back Door Wire and No. 2 Floor Wire</name>
+    <fig>9098012473_9098010907</fig>
+    <partNo repairInfo="Y">90980-12473/90980-10907</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="bT3" type="w2w" wireCode="b">
+    <name code="">No. 2 Back Door Wire and No. 2 Floor Wire</name>
+    <fig>9098010906_9098010905</fig>
+    <partNo repairInfo="Y">90980-10906/90980-10905</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="bf1" type="w2w" wireCode="b">
+    <name code="">No. 2 Back Door Wire and No. 4 Back Door Wire</name>
+    <fig>9098012470_9098010870</fig>
+    <partNo repairInfo="Y">90980-12470/90980-10870</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I80" type="conn" wireCode="I">
+    <name code="">No. 2 CAN Junction Connector</name>
+    <fig>90980-12470</fig>
+    <partNo repairInfo="Y">90980-12470</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I81" type="conn" wireCode="I">
+    <name code="">No. 2 CAN Junction Connector</name>
+    <fig>90980-12355</fig>
+    <partNo repairInfo="Y">90980-12355</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I82" type="conn" wireCode="I">
+    <name code="">No. 2 CAN Junction Connector</name>
+    <fig>90980-12355</fig>
+    <partNo repairInfo="Y">90980-12355</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I101" type="conn" wireCode="I">
+    <name code="">No. 2 CAN Junction Connector</name>
+    <fig>90980-10871</fig>
+    <partNo repairInfo="Y">90980-10871</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="JK2" type="w2w" wireCode="J">
+    <name code="">No. 2 Cowl Wire and No. 3 Cowl Wire</name>
+    <fig>9098010891_9098010890</fig>
+    <partNo repairInfo="Y">90980-10891/90980-10890</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="B1" type="conn" wireCode="B">
+    <name code="">No. 2 Differential Lock Shift Actuator</name>
+    <fig>90980-12635</fig>
+    <partNo repairInfo="Y">90980-12635</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="B5" type="conn" wireCode="B">
+    <name code="">No. 2 Differential Lock Shift Actuator</name>
+    <fig>90980-11194</fig>
+    <partNo repairInfo="Y">90980-11194</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C66" type="conn" wireCode="C">
+    <name code="">No. 2 EGR Valve Assembly (Bank 2)</name>
+    <fig>90980-11317</fig>
+    <partNo repairInfo="Y">90980-11317</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="BI2" type="w2w" wireCode="B">
+    <name code="">No. 2 Engine Room Wire and Cowl Wire</name>
+    <fig>9098010891_9098010890</fig>
+    <partNo repairInfo="Y">90980-10891/90980-10890</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="DA1" type="w2w" wireCode="D">
+    <name code="">No. 2 Engine Wire and Engine Room Main Wire</name>
+    <fig>9098011461_9098011460</fig>
+    <partNo repairInfo="Y">90980-11461/90980-11460</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="3A" type="jbc" wireCode="D">
+    <name code="">No. 2 Engine Wire and Fusible Link Block Assembly [1GR-FE]</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C119" type="conn" wireCode="C">
+    <name code="">No. 2 Exhaust Gas Temperature Sensor</name>
+    <fig>90980-11273</fig>
+    <partNo repairInfo="Y">90980-11273</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="TS1" type="w2w" wireCode="T">
+    <name code="">No. 2 Floor Wire and Floor Wire</name>
+    <fig>9098010801_9098010800</fig>
+    <partNo repairInfo="Y">90980-10801/90980-10800</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="TS2" type="w2w" wireCode="T">
+    <name code="">No. 2 Floor Wire and Floor Wire</name>
+    <fig>9098010805_9098010804</fig>
+    <partNo repairInfo="Y">90980-10805/90980-10804</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="TS3" type="w2w" wireCode="T">
+    <name code="">No. 2 Floor Wire and Floor Wire</name>
+    <fig>9098012349_9098010796</fig>
+    <partNo repairInfo="Y">90980-12349/90980-10796</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="TS4" type="w2w" wireCode="T">
+    <name code="">No. 2 Floor Wire and Floor Wire</name>
+    <fig>9098010797_9098010796</fig>
+    <partNo repairInfo="Y">90980-10797/90980-10796</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="TV2" type="w2w" wireCode="T">
+    <name code="">No. 2 Floor Wire and Frame Wire</name>
+    <fig>9098011240_9098011239</fig>
+    <partNo repairInfo="Y">90980-11240/90980-11239</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="TX1" type="w2w" wireCode="T">
+    <name code="">No. 2 Floor Wire and No. 3 Frame Wire</name>
+    <fig>9098011142_9098011141</fig>
+    <partNo repairInfo="Y">90980-11142/90980-11141</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I8" type="conn" wireCode="I">
+    <name code="">No. 2 Four Wheel Drive Control ECU</name>
+    <fig>90980-10848</fig>
+    <partNo repairInfo="Y">90980-10848</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="WC2" type="w2w" wireCode="W">
+    <name code="">No. 2 Frame Wire and Engine Wire</name>
+    <fig>9098012634_9098011155</fig>
+    <partNo repairInfo="Y">90980-12634/90980-11155</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A23" type="conn" wireCode="A">
+    <name code="">No. 2 Junction Connector</name>
+    <fig>82824-26010</fig>
+    <partNo repairInfo="Y">90980-10897</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C17" type="conn" wireCode="C">
+    <name code="">No. 2 Oxygen Sensor (Bank 2 Sensor 2)</name>
+    <fig>90980-11028</fig>
+    <partNo repairInfo="Y">90980-11028</partNo>
+    <color>Gray / Dark Gray</color>
+    <spec>Before Aug. 2016 Production / From Aug. 2016 Production</spec>
+  </CodedItem>
+  <CodedItem code="QU1" type="w2w" wireCode="Q">
+    <name code="">No. 2 Rear Door Wire and No. 3 Floor Wire</name>
+    <fig>9098010797_9098010796</fig>
+    <partNo repairInfo="Y">90980-10797/90980-10796</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="db1" type="w2w" wireCode="d">
+    <name code="">No. 2 Rear Window Wire and No. 2 Back Door Wire</name>
+    <fig>9098012470_9098010870</fig>
+    <partNo repairInfo="Y">90980-12470/90980-10870</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="Y4" type="conn" wireCode="Y">
+    <name code="">No. 2 Room Light Assembly</name>
+    <fig>90980-10121</fig>
+    <partNo repairInfo="Y">90980-10121</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="eb2" type="w2w" wireCode="e">
+    <name code="">No. 3 Back Door Wire and No. 2 Back Door Wire</name>
+    <fig>9098010906_9098010905</fig>
+    <partNo repairInfo="Y">90980-10906/90980-10905</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A24" type="conn" wireCode="A">
+    <name code="">No. 3 CAN Junction Connector</name>
+    <fig>82824-26020</fig>
+    <partNo repairInfo="Y">90980-10891</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="KI2" type="w2w" wireCode="K">
+    <name code="">No. 3 Cowl Wire and Cowl Wire</name>
+    <fig>9098010891_9098010890</fig>
+    <partNo repairInfo="Y">90980-10891/90980-10890</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="UI3" type="w2w" wireCode="U">
+    <name code="">No. 3 Floor Wire and Cowl Wire</name>
+    <fig>9098012350_9098012481</fig>
+    <partNo repairInfo="Y">90980-12350/90980-12481</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="UI4" type="w2w" wireCode="U">
+    <name code="">No. 3 Floor Wire and Cowl Wire</name>
+    <fig>9098012350_9098011536</fig>
+    <partNo repairInfo="Y">90980-12350/90980-11536</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="UI5" type="w2w" wireCode="U">
+    <name code="">No. 3 Floor Wire and Cowl Wire</name>
+    <fig>9098010809_9098010808</fig>
+    <partNo repairInfo="Y">90980-10809/90980-10808</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="XT1" type="w2w" wireCode="X">
+    <name code="">No. 3 Frame Wire and No. 2 Floor Wire</name>
+    <fig>9098011294_9098011293</fig>
+    <partNo repairInfo="Y">90980-11294/90980-11293</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="S7" type="conn" wireCode="S">
+    <name code="">No. 3 Room Light Assembly</name>
+    <fig>90980-10183</fig>
+    <partNo repairInfo="Y">90980-10183</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="S8" type="conn" wireCode="S">
+    <name code="">No. 3 Room Light Assembly</name>
+    <fig>90980-10182</fig>
+    <partNo repairInfo="Y">90980-10182</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="Y1" type="conn" wireCode="Y">
+    <name code="">No. 3 Room Light Assembly</name>
+    <fig>90980-10182</fig>
+    <partNo repairInfo="Y">90980-10182</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="Y2" type="conn" wireCode="Y">
+    <name code="">No. 3 Room Light Assembly</name>
+    <fig>90980-10183</fig>
+    <partNo repairInfo="Y">90980-10183</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I112" type="conn" wireCode="I">
+    <name code="">No. 4 CAN Junction Connector</name>
+    <fig>90980-12355</fig>
+    <partNo repairInfo="Y">90980-12355</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I113" type="conn" wireCode="I">
+    <name code="">No. 4 CAN Junction Connector</name>
+    <fig>90980-12355</fig>
+    <partNo repairInfo="Y">90980-12355</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I114" type="conn" wireCode="I">
+    <name code="">No. 4 CAN Junction Connector</name>
+    <fig>90980-12355</fig>
+    <partNo repairInfo="Y">90980-12355</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I115" type="conn" wireCode="I">
+    <name code="">No. 4 CAN Junction Connector</name>
+    <fig>90980-12355</fig>
+    <partNo repairInfo="Y">90980-12355</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I116" type="conn" wireCode="I">
+    <name code="">No. 4 CAN Junction Connector</name>
+    <fig>90980-12355</fig>
+    <partNo repairInfo="Y">90980-12355</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C38" type="conn" wireCode="C">
+    <name code="">No. 4 Junction Connector</name>
+    <fig>82824-26010</fig>
+    <partNo repairInfo="Y">90980-10897</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I111" type="conn" wireCode="I">
+    <name code="">No. 5 CAN Junction Connector</name>
+    <fig>82824-75020</fig>
+    <partNo repairInfo="Y">90980-12737</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I54" type="conn" wireCode="I">
+    <name code="">No. 5 Junction Connector</name>
+    <fig>82824-50110</fig>
+    <partNo repairInfo="Y">90980-12479</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I93" type="conn" wireCode="I">
+    <name code="">No. 5 Junction Connector</name>
+    <fig>82824-50110</fig>
+    <partNo repairInfo="Y">90980-11542</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I119" type="conn" wireCode="I">
+    <name code="">No. 6 CAN Junction Connector</name>
+    <fig>90980-12827</fig>
+    <partNo repairInfo="Y">90980-12827</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I120" type="conn" wireCode="I">
+    <name code="">No. 6 CAN Junction Connector</name>
+    <fig>90980-12827</fig>
+    <partNo repairInfo="Y">90980-12827</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I121" type="conn" wireCode="I">
+    <name code="">No. 6 CAN Junction Connector</name>
+    <fig>90980-12827</fig>
+    <partNo repairInfo="Y">90980-12827</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I122" type="conn" wireCode="I">
+    <name code="">No. 6 CAN Junction Connector</name>
+    <fig>90980-12827</fig>
+    <partNo repairInfo="Y">90980-12827</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I123" type="conn" wireCode="I">
+    <name code="">No. 6 CAN Junction Connector</name>
+    <fig>90980-12827</fig>
+    <partNo repairInfo="Y">90980-12827</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I124" type="conn" wireCode="I">
+    <name code="">No. 6 CAN Junction Connector</name>
+    <fig>90980-12827</fig>
+    <partNo repairInfo="Y">90980-12827</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I55" type="conn" wireCode="I">
+    <name code="">No. 6 Junction Connector</name>
+    <fig>82824-22080</fig>
+    <partNo repairInfo="Y">90980-12479</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I104" type="conn" wireCode="I">
+    <name code="">No. 6 Junction Connector</name>
+    <fig>82824-22080</fig>
+    <partNo repairInfo="Y">90980-11542</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I56" type="conn" wireCode="I">
+    <name code="">No. 7 Junction Connector</name>
+    <fig>82824-20110</fig>
+    <partNo repairInfo="Y">90980-12479</partNo>
+    <color>Blue</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I94" type="conn" wireCode="I">
+    <name code="">No. 7 Junction Connector</name>
+    <fig>82824-20110</fig>
+    <partNo repairInfo="Y">90980-11542</partNo>
+    <color>Blue</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I57" type="conn" wireCode="I">
+    <name code="">No. 8 Junction Connector</name>
+    <fig>82824-22070</fig>
+    <partNo repairInfo="Y">90980-12479</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I105" type="conn" wireCode="I">
+    <name code="">No. 8 Junction Connector</name>
+    <fig>82824-22070</fig>
+    <partNo repairInfo="Y">90980-11542</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I58" type="conn" wireCode="I">
+    <name code="">No. 9 Junction Connector</name>
+    <fig>82824-22080</fig>
+    <partNo repairInfo="Y">90980-12479</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I106" type="conn" wireCode="I">
+    <name code="">No. 9 Junction Connector</name>
+    <fig>82824-22080</fig>
+    <partNo repairInfo="Y">90980-11542</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I59" type="conn" wireCode="I">
+    <name code="">No. 10 Junction Connector</name>
+    <fig>82824-52080</fig>
+    <partNo repairInfo="Y">90980-11915</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I61" type="conn" wireCode="I">
+    <name code="">No. 11 Junction Connector</name>
+    <fig>82824-52080</fig>
+    <partNo repairInfo="Y">90980-11915</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I62" type="conn" wireCode="I">
+    <name code="">No. 12 Junction Connector</name>
+    <fig>82824-20110</fig>
+    <partNo repairInfo="Y">90980-12479</partNo>
+    <color>Blue</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I107" type="conn" wireCode="I">
+    <name code="">No. 12 Junction Connector</name>
+    <fig>82824-20110</fig>
+    <partNo repairInfo="Y">90980-11542</partNo>
+    <color>Blue</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I63" type="conn" wireCode="I">
+    <name code="">No. 13 Junction Connector</name>
+    <fig>82824-12220</fig>
+    <partNo repairInfo="Y">90980-12478</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I65" type="conn" wireCode="I">
+    <name code="">No. 13 Junction Connector</name>
+    <fig>82824-12220</fig>
+    <partNo repairInfo="Y">90980-12478</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I108" type="conn" wireCode="I">
+    <name code="">No. 13 Junction Connector</name>
+    <fig>82824-12220</fig>
+    <partNo repairInfo="Y">90980-11661</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I109" type="conn" wireCode="I">
+    <name code="">No. 13 Junction Connector</name>
+    <fig>82824-12220</fig>
+    <partNo repairInfo="Y">90980-11661</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I66" type="conn" wireCode="I">
+    <name code="">No. 15 Junction Connector</name>
+    <fig>82824-52280</fig>
+    <partNo repairInfo="Y">90980-11915</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I67" type="conn" wireCode="I">
+    <name code="">No. 16 Junction Connector</name>
+    <fig>82824-52080</fig>
+    <partNo repairInfo="Y">90980-11915</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I68" type="conn" wireCode="I">
+    <name code="">No. 17 Junction Connector</name>
+    <fig>82824-44010</fig>
+    <partNo repairInfo="Y">90980-12478</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I75" type="conn" wireCode="I">
+    <name code="">No. 17 Junction Connector</name>
+    <fig>82824-44010</fig>
+    <partNo repairInfo="Y">90980-12478</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I98" type="conn" wireCode="I">
+    <name code="">No. 17 Junction Connector</name>
+    <fig>82824-44010</fig>
+    <partNo repairInfo="Y">90980-11661</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I99" type="conn" wireCode="I">
+    <name code="">No. 17 Junction Connector</name>
+    <fig>82824-44010</fig>
+    <partNo repairInfo="Y">90980-11661</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I69" type="conn" wireCode="I">
+    <name code="">No. 18 Junction Connector</name>
+    <fig>82824-20110</fig>
+    <partNo repairInfo="Y">90980-12479</partNo>
+    <color>Blue</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I95" type="conn" wireCode="I">
+    <name code="">No. 18 Junction Connector</name>
+    <fig>82824-20110</fig>
+    <partNo repairInfo="Y">90980-11542</partNo>
+    <color>Blue</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I70" type="conn" wireCode="I">
+    <name code="">No. 19 Junction Connector</name>
+    <fig>82824-52080</fig>
+    <partNo repairInfo="Y">90980-11915</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I71" type="conn" wireCode="I">
+    <name code="">No. 20 Junction Connector</name>
+    <fig>82824-22080</fig>
+    <partNo repairInfo="Y">90980-12479</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I96" type="conn" wireCode="I">
+    <name code="">No. 20 Junction Connector</name>
+    <fig>82824-22080</fig>
+    <partNo repairInfo="Y">90980-11542</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I72" type="conn" wireCode="I">
+    <name code="">No. 21 Junction Connector</name>
+    <fig>82824-52080</fig>
+    <partNo repairInfo="Y">90980-11915</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I73" type="conn" wireCode="I">
+    <name code="">No. 22 Junction Connector</name>
+    <fig>82824-50110</fig>
+    <partNo repairInfo="Y">90980-12479</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L32" type="conn" wireCode="L">
+    <name code="">No. 24 Junction Connector</name>
+    <fig>82824-52080</fig>
+    <partNo repairInfo="Y">90980-11915</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L33" type="conn" wireCode="L">
+    <name code="">No. 25 Junction Connector</name>
+    <fig>82824-20110</fig>
+    <partNo repairInfo="Y">90980-12479</partNo>
+    <color>Blue</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L51" type="conn" wireCode="L">
+    <name code="">No. 25 Junction Connector</name>
+    <fig>82824-20110</fig>
+    <partNo repairInfo="Y">90980-11542</partNo>
+    <color>Blue</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L34" type="conn" wireCode="L">
+    <name code="">No. 26 Junction Connector</name>
+    <fig>82824-20110</fig>
+    <partNo repairInfo="Y">90980-12372</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L35" type="conn" wireCode="L">
+    <name code="">No. 27 Junction Connector</name>
+    <fig>82824-50360</fig>
+    <partNo repairInfo="Y">90980-12372</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L36" type="conn" wireCode="L">
+    <name code="">No. 28 Junction Connector</name>
+    <fig>82824-52080</fig>
+    <partNo repairInfo="Y">90980-11915</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L37" type="conn" wireCode="L">
+    <name code="">No. 29 Junction Connector</name>
+    <fig>82824-20110</fig>
+    <partNo repairInfo="Y">90980-12479</partNo>
+    <color>Blue</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L55" type="conn" wireCode="L">
+    <name code="">No. 29 Junction Connector</name>
+    <fig>82824-20110</fig>
+    <partNo repairInfo="Y">90980-11542</partNo>
+    <color>Blue</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L38" type="conn" wireCode="L">
+    <name code="">No. 30 Junction Connector</name>
+    <fig>82824-50110</fig>
+    <partNo repairInfo="Y">90980-12479</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L52" type="conn" wireCode="L">
+    <name code="">No. 30 Junction Connector</name>
+    <fig>82824-50110</fig>
+    <partNo repairInfo="Y">90980-11542</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L39" type="conn" wireCode="L">
+    <name code="">No. 31 Junction Connector</name>
+    <fig>82824-50110</fig>
+    <partNo repairInfo="Y">90980-12479</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L53" type="conn" wireCode="L">
+    <name code="">No. 31 Junction Connector</name>
+    <fig>82824-50110</fig>
+    <partNo repairInfo="Y">90980-11542</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I97" type="conn" wireCode="I">
+    <name code="">No. 32 Junction Connector</name>
+    <fig>82824-22070</fig>
+    <partNo repairInfo="Y">90980-11542</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I110" type="conn" wireCode="I">
+    <name code="">No. 33 Junction Connector</name>
+    <fig>82824-22070</fig>
+    <partNo repairInfo="Y">90980-11542</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A43" type="conn" wireCode="A">
+    <name code="">No. 34 Junction Connector</name>
+    <fig>82824-26020</fig>
+    <partNo repairInfo="Y">90980-10891</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I117" type="conn" wireCode="I">
+    <name code="">No. 35 Junction Connector</name>
+    <fig>82824-20110</fig>
+    <partNo repairInfo="Y">90980-11542</partNo>
+    <color>Blue</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I118" type="conn" wireCode="I">
+    <name code="">No. 36 Junction Connector</name>
+    <fig>82824-50360</fig>
+    <partNo repairInfo="Y">90980-12372</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L57" type="conn" wireCode="L">
+    <name code="">No. 37 Junction Connector</name>
+    <fig>82824-52270</fig>
+    <partNo repairInfo="Y">90980-12372</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L58" type="conn" wireCode="L">
+    <name code="">No. 38 Junction Connector</name>
+    <fig>82824-30130</fig>
+    <partNo repairInfo="Y">90980-11398</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C29" type="conn" wireCode="C">
+    <name code="">Oil Pressure Sender Gage Assembly</name>
+    <fig>90980-12636</fig>
+    <partNo repairInfo="Y">90980-12636</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C74" type="conn" wireCode="C">
+    <name code="">Oil Pressure Sender Gage Assembly</name>
+    <fig>90980-11363</fig>
+    <partNo repairInfo="Y">90980-11363</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C87" type="conn" wireCode="C">
+    <name code="">Oil Pressure Sender Gage Assembly</name>
+    <fig>90980-10703</fig>
+    <partNo repairInfo="Y">90980-10703</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C105" type="conn" wireCode="C">
+    <name code="">Oil Pressure Sender Gage Assembly</name>
+    <fig>90980-10845</fig>
+    <partNo repairInfo="Y">90980-10845</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L40" type="conn" wireCode="L">
+    <name code="">Option Connector (Auto Antenna)</name>
+    <fig>90980-10871</fig>
+    <partNo repairInfo="Y">90980-10871</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I10" type="conn" wireCode="I">
+    <name code="">Option Connector (Power Outlet Socket)</name>
+    <fig>90980-10980</fig>
+    <partNo repairInfo="Y">90980-10980</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L16" type="conn" wireCode="L">
+    <name code="">Outer Mirror Switch Assembly</name>
+    <fig>90980-11657</fig>
+    <partNo repairInfo="Y">90980-11657</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="i1" type="conn" wireCode="i">
+    <name code="">Outer Rear View Mirror Assembly LH</name>
+    <fig>90980-10395</fig>
+    <partNo repairInfo="Y">90980-10395</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="j1" type="conn" wireCode="j">
+    <name code="">Outer Rear View Mirror Assembly RH</name>
+    <fig>90980-10395</fig>
+    <partNo repairInfo="Y">90980-10395</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C18" type="conn" wireCode="C">
+    <name code="">Oxygen Sensor (Bank 1 Sensor 2)</name>
+    <fig>90980-11028</fig>
+    <partNo repairInfo="Y">90980-11028</partNo>
+    <color>Gray / Dark Gray</color>
+    <spec>Before Aug. 2016 Production / From Aug. 2016 Production</spec>
+  </CodedItem>
+  <CodedItem code="S3" type="conn" wireCode="S">
+    <name code="">Parking Brake Switch Assembly</name>
+    <fig>90980-12470</fig>
+    <partNo repairInfo="Y">90980-12470</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="S15" type="conn" wireCode="S">
+    <name code="">Parking Brake Switch Assembly</name>
+    <fig>90980-10871</fig>
+    <partNo repairInfo="Y">90980-10871</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C28" type="conn" wireCode="C">
+    <name code="">Power Steering Oil Pressure Switch</name>
+    <fig>90980-11428</fig>
+    <partNo repairInfo="Y">90980-11428</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="O8" type="conn" wireCode="O">
+    <name code="">Power Window Regulator Master Switch Assembly</name>
+    <fig>90980-11805</fig>
+    <partNo repairInfo="Y">90980-11805</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="O9" type="conn" wireCode="O">
+    <name code="">Power Window Regulator Master Switch Assembly</name>
+    <fig>90980-10801</fig>
+    <partNo repairInfo="Y">90980-10801</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="P9" type="conn" wireCode="P">
+    <name code="">Power Window Regulator Master Switch Assembly</name>
+    <fig>90980-11805</fig>
+    <partNo repairInfo="Y">90980-11805</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="P10" type="conn" wireCode="P">
+    <name code="">Power Window Regulator Master Switch Assembly</name>
+    <fig>90980-10801</fig>
+    <partNo repairInfo="Y">90980-10801</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I42" type="conn" wireCode="I">
+    <name code="">Preheating Timer Assembly</name>
+    <fig>90980-12477</fig>
+    <partNo repairInfo="Y">90980-12477</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I92" type="conn" wireCode="I">
+    <name code="">Preheating Timer Assembly</name>
+    <fig>90980-10803</fig>
+    <partNo repairInfo="Y">90980-10803</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="v1" type="conn" wireCode="v">
+    <name code="">Pressure Discharge Valve Assembly (Common Rail Assembly)</name>
+    <fig>90980-12747</fig>
+    <partNo repairInfo="Y">90980-12747</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C15" type="conn" wireCode="C">
+    <name code="">Purge VSV</name>
+    <fig>90980-12634</fig>
+    <partNo repairInfo="Y">90980-12634</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C104" type="conn" wireCode="C">
+    <name code="">Purge VSV</name>
+    <fig>90980-11156</fig>
+    <partNo repairInfo="Y">90980-11156</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L2" type="conn" wireCode="L">
+    <name code="">Radio Receiver Assembly</name>
+    <fig>90980-12691</fig>
+    <partNo repairInfo="Y">90980-12691</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L3" type="conn" wireCode="L">
+    <name code="">Radio Receiver Assembly</name>
+    <fig>90980-12690</fig>
+    <partNo repairInfo="Y">90980-12690</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L42" type="conn" wireCode="L">
+    <name code="">Radio Receiver Assembly</name>
+    <fig>90980-10997</fig>
+    <partNo repairInfo="Y">90980-10997</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L43" type="conn" wireCode="L">
+    <name code="">Radio Receiver Assembly</name>
+    <fig>90980-10996</fig>
+    <partNo repairInfo="Y">90980-10996</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C10" type="conn" wireCode="C">
+    <name code="">Radio Setting Condenser (Ignition)</name>
+    <fig>90980-10843</fig>
+    <partNo repairInfo="Y">90980-10843</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="T5" type="conn" wireCode="T">
+    <name code="">Rear Combination Light Assembly LH</name>
+    <fig>90980-11001</fig>
+    <partNo repairInfo="Y">90980-11001</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="T7" type="conn" wireCode="T">
+    <name code="">Rear Combination Light Assembly LH</name>
+    <fig>90980-10942</fig>
+    <partNo repairInfo="Y">90980-10942</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="T17" type="conn" wireCode="T">
+    <name code="">Rear Combination Light Assembly LH</name>
+    <fig>90980-10988</fig>
+    <partNo repairInfo="Y">90980-10988</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="T1" type="conn" wireCode="T">
+    <name code="">Rear Combination Light Assembly RH</name>
+    <fig>90980-11001</fig>
+    <partNo repairInfo="Y">90980-11001</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="T6" type="conn" wireCode="T">
+    <name code="">Rear Combination Light Assembly RH</name>
+    <fig>90980-10942</fig>
+    <partNo repairInfo="Y">90980-10942</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="T14" type="conn" wireCode="T">
+    <name code="">Rear Combination Light Assembly RH</name>
+    <fig>90980-10988</fig>
+    <partNo repairInfo="Y">90980-10988</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="V1" type="conn" wireCode="V">
+    <name code="">Rear Differential Lock Position Switch</name>
+    <fig>90980-11250</fig>
+    <partNo repairInfo="Y">90980-11250</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="U2" type="conn" wireCode="U">
+    <name code="">Rear Door Courtesy Light Switch Assembly LH</name>
+    <fig>90980-10433</fig>
+    <partNo repairInfo="Y">90980-10433</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="U3" type="conn" wireCode="U">
+    <name code="">Rear Door Courtesy Light Switch Assembly LH</name>
+    <fig>90980-10433</fig>
+    <partNo repairInfo="Y">90980-10433</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="S13" type="conn" wireCode="S">
+    <name code="">Rear Door Courtesy Light Switch Assembly RH</name>
+    <fig>90980-10433</fig>
+    <partNo repairInfo="Y">90980-10433</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="S16" type="conn" wireCode="S">
+    <name code="">Rear Door Courtesy Light Switch Assembly RH</name>
+    <fig>90980-10434</fig>
+    <partNo repairInfo="Y">90980-10434</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="Q2" type="conn" wireCode="Q">
+    <name code="">Rear Door Lock Actuator Assembly LH</name>
+    <fig>90980-11248</fig>
+    <partNo repairInfo="Y">90980-11248</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="R2" type="conn" wireCode="R">
+    <name code="">Rear Door Lock Actuator Assembly RH</name>
+    <fig>90980-11248</fig>
+    <partNo repairInfo="Y">90980-11248</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="T18" type="conn" wireCode="T">
+    <name code="">Rear Fog Light Socket &amp; Wire</name>
+    <fig>90980-11168</fig>
+    <partNo repairInfo="Y">90980-11168</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="S5" type="conn" wireCode="S">
+    <name code="">Rear Heater Blower Resistor</name>
+    <fig>90980-10216</fig>
+    <partNo repairInfo="Y">90980-10216</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I14" type="conn" wireCode="I">
+    <name code="">Rear Heater Blower Switch</name>
+    <fig>90980-10794</fig>
+    <partNo repairInfo="Y">90980-10794</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="S10" type="conn" wireCode="S">
+    <name code="">Rear Heater Blower Switch</name>
+    <fig>90980-10794</fig>
+    <partNo repairInfo="Y">90980-10794</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="Q3" type="conn" wireCode="Q">
+    <name code="">Rear Power Window Regulator Motor Assembly LH</name>
+    <fig>90980-11248</fig>
+    <partNo repairInfo="Y">90980-11248</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="R3" type="conn" wireCode="R">
+    <name code="">Rear Power Window Regulator Motor Assembly RH</name>
+    <fig>90980-11248</fig>
+    <partNo repairInfo="Y">90980-11248</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="Q1" type="conn" wireCode="Q">
+    <name code="">Rear Power Window Regulator Switch Assembly LH</name>
+    <fig>90980-10509</fig>
+    <partNo repairInfo="Y">90980-10509</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="R1" type="conn" wireCode="R">
+    <name code="">Rear Power Window Regulator Switch Assembly RH</name>
+    <fig>90980-10509</fig>
+    <partNo repairInfo="Y">90980-10509</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="U4" type="conn" wireCode="U">
+    <name code="">Rear Speaker Assembly LH</name>
+    <fig>90980-12347</fig>
+    <partNo repairInfo="Y">90980-12347</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="U6" type="conn" wireCode="U">
+    <name code="">Rear Speaker Assembly LH</name>
+    <fig>90980-10935</fig>
+    <partNo repairInfo="Y">90980-10935</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="b2" type="conn" wireCode="b">
+    <name code="">Rear Speaker Assembly LH</name>
+    <fig>90980-12347</fig>
+    <partNo repairInfo="Y">90980-12347</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="S14" type="conn" wireCode="S">
+    <name code="">Rear Speaker Assembly RH</name>
+    <fig>90980-12347</fig>
+    <partNo repairInfo="Y">90980-12347</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="S17" type="conn" wireCode="S">
+    <name code="">Rear Speaker Assembly RH</name>
+    <fig>90980-10935</fig>
+    <partNo repairInfo="Y">90980-10935</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="a2" type="conn" wireCode="a">
+    <name code="">Rear Speaker Assembly RH</name>
+    <fig>90980-12347</fig>
+    <partNo repairInfo="Y">90980-12347</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="V3" type="conn" wireCode="V">
+    <name code="">Rear Speed Sensor (Skid Control Sensor Wire)</name>
+    <fig>90980-11929</fig>
+    <partNo repairInfo="Y">90980-11929</partNo>
+    <color>Black / Gray</color>
+    <spec>Before Aug. 2016 Production / From Aug. 2016 Production</spec>
+  </CodedItem>
+  <CodedItem code="S11" type="conn" wireCode="S">
+    <name code="">Rear Washer Motor Assembly</name>
+    <fig>90980-10214</fig>
+    <partNo repairInfo="Y">90980-10214</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="d1" type="conn" wireCode="d">
+    <name code="">Rear Window Defogger (Back Door Glass LH)</name>
+    <fig>99146-12011</fig>
+    <partNo>-</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="f1" type="conn" wireCode="f">
+    <name code="">Rear Window Defogger (Back Door Glass LH)</name>
+    <fig>99146-12011</fig>
+    <partNo>-</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="c1" type="conn" wireCode="c">
+    <name code="">Rear Window Defogger (Back Door Glass RH)</name>
+    <fig>99146-12011</fig>
+    <partNo>-</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="c2" type="conn" wireCode="c">
+    <name code="">Rear Window Defogger (Back Door Glass RH)</name>
+    <fig>99146-12011</fig>
+    <partNo>-</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L7" type="conn" wireCode="L">
+    <name code="">Rear Window Defogger Switch Assembly</name>
+    <fig>90980-10789</fig>
+    <partNo repairInfo="Y">90980-10789</partNo>
+    <color>Black / Green</color>
+    <spec>Before Aug. 2016 Production / From Aug. 2016 Production</spec>
+  </CodedItem>
+  <CodedItem code="a1" type="conn" wireCode="a">
+    <name code="">Rear Wiper Motor Assembly</name>
+    <fig>90980-12474</fig>
+    <partNo repairInfo="Y">90980-12474</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="S9" type="conn" wireCode="S">
+    <name code="">Rear Wiper Relay Assembly</name>
+    <fig>90980-10173</fig>
+    <partNo repairInfo="Y">90980-10173</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C78" type="conn" wireCode="C">
+    <name code="">Shift Position Switch</name>
+    <fig>90980-10923</fig>
+    <partNo repairInfo="Y">90980-10923</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C81" type="conn" wireCode="C">
+    <name code="">Short Connector</name>
+    <fig>90980-10897</fig>
+    <partNo repairInfo="Y">90980-10897</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C82" type="conn" wireCode="C">
+    <name code="">Short Connector</name>
+    <fig>90980-10896</fig>
+    <partNo repairInfo="Y">90980-10896</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C102" type="conn" wireCode="C">
+    <name code="">Short Connector</name>
+    <fig>90980-11178</fig>
+    <partNo repairInfo="Y">90980-11178</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C103" type="conn" wireCode="C">
+    <name code="">Short Connector</name>
+    <fig>90980-11177</fig>
+    <partNo repairInfo="Y">90980-11177</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A11" type="conn" wireCode="A">
+    <name code="">Side Turn Signal Light Assembly LH</name>
+    <fig>90980-11162</fig>
+    <partNo repairInfo="Y">90980-11162</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I25" type="conn" wireCode="I">
+    <name code="">Side Turn Signal Light Assembly RH</name>
+    <fig>90980-11162</fig>
+    <partNo repairInfo="Y">90980-11162</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C96" type="conn" wireCode="C">
+    <name code="">Speedometer Sensor</name>
+    <fig>90980-11143</fig>
+    <partNo repairInfo="Y">90980-11143</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L27" type="conn" wireCode="L">
+    <name code="">Spiral Cable Sub-Assembly</name>
+    <fig>90980-12552</fig>
+    <partNo repairInfo="Y">90980-12552</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L29" type="conn" wireCode="L">
+    <name code="">Spiral Cable Sub-Assembly</name>
+    <fig>90980-12160</fig>
+    <partNo repairInfo="Y">90980-12160</partNo>
+    <color>Yellow</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C89" type="conn" wireCode="C">
+    <name code="">Starter Assembly</name>
+    <fig>90980-11184</fig>
+    <partNo repairInfo="Y">90980-11184</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="D2" type="conn" wireCode="D">
+    <name code="">Starter Assembly</name>
+    <fig>90980-11400</fig>
+    <partNo repairInfo="Y">90980-11400</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="D3" type="conn" wireCode="D">
+    <name code="">Starter Assembly</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="D5" type="conn" wireCode="D">
+    <name code="">Starter Assembly</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="D6" type="conn" wireCode="D">
+    <name code="">Starter Assembly</name>
+    <fig>90980-11184</fig>
+    <partNo repairInfo="Y">90980-11184</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="D7" type="conn" wireCode="D">
+    <name code="">Starter Assembly</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L47" type="conn" wireCode="L">
+    <name code="">Steering Sensor (Spiral Cable with Sensor Sub-Assembly)</name>
+    <fig>90980-11986</fig>
+    <partNo repairInfo="Y">90980-11986</partNo>
+    <color>Blue</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I19" type="conn" wireCode="I">
+    <name code="">Stop Light Switch Assembly</name>
+    <fig>90980-11118</fig>
+    <partNo repairInfo="Y">90980-11118</partNo>
+    <color>Blue / Brown / White</color>
+    <spec>Before Aug. 2016 Production 1GR-FE, From Aug. 2016 Production 1GR-FE w/o ABS, Before Aug. 2016 Production 1VD-FTV / Before Aug. 2016 Production 1HZ, From Aug. 2016 Production 1HZ w/o ABS / From Aug. 2016 Production w/ ABS, From Aug. 2016 Production 1VD-FTV</spec>
+  </CodedItem>
+  <CodedItem code="r2" type="conn" wireCode="r">
+    <name code="">Suction Control Valve</name>
+    <fig>90980-11285</fig>
+    <partNo repairInfo="Y">90980-11285</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I48" type="conn" wireCode="I">
+    <name code="">Thermistor Assembly</name>
+    <fig>90980-11070</fig>
+    <partNo repairInfo="Y">90980-11070</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C4" type="conn" wireCode="C">
+    <name code="">Throttle Body with Motor Assembly</name>
+    <fig>90980-11858</fig>
+    <partNo repairInfo="Y">90980-11858</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="S30" type="conn" wireCode="S">
+    <name code="">Tire Pressure Warning ECU and Receiver</name>
+    <fig>90980-12552</fig>
+    <partNo repairInfo="Y">90980-12552</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="U5" type="conn" wireCode="U">
+    <name code="">Tire Pressure Warning ECU and Receiver</name>
+    <fig>90980-12552</fig>
+    <partNo repairInfo="Y">90980-12552</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="Y7" type="conn" wireCode="Y">
+    <name code="">Tire Pressure Warning ECU and Receiver</name>
+    <fig>90980-12552</fig>
+    <partNo repairInfo="Y">90980-12552</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L56" type="conn" wireCode="L">
+    <name code="">Tire Pressure Warning Reset Switch</name>
+    <fig>90980-10906</fig>
+    <partNo repairInfo="Y">90980-10906</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="T10" type="conn" wireCode="T">
+    <name code="">Trailer Socket</name>
+    <fig>90980-10891</fig>
+    <partNo repairInfo="Y">90980-10891</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C36" type="conn" wireCode="C">
+    <name code="">Transfer L4 Position Switch (No. 1 Transfer Indicator Switch)</name>
+    <fig>90980-11156</fig>
+    <partNo repairInfo="Y">90980-11156</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C99" type="conn" wireCode="C">
+    <name code="">Transfer L4 Position Switch (No. 1 Transfer Indicator Switch)</name>
+    <fig>90980-10157</fig>
+    <partNo repairInfo="Y">90980-10157</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L17" type="conn" wireCode="L">
+    <name code="">Transmission Control Switch</name>
+    <fig>90980-11090</fig>
+    <partNo repairInfo="Y">90980-11090</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L28" type="conn" wireCode="L">
+    <name code="">Transponder Key Amplifier</name>
+    <fig>90980-12092</fig>
+    <partNo repairInfo="Y">90980-12092</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L30" type="conn" wireCode="L">
+    <name code="">Transponder Key ECU Assembly</name>
+    <fig>90980-12423</fig>
+    <partNo repairInfo="Y">90980-12423</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I28" type="conn" wireCode="I">
+    <name code="">Turn Signal Flasher Assembly</name>
+    <fig>90980-12475</fig>
+    <partNo repairInfo="Y">90980-12475</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I29" type="conn" wireCode="I">
+    <name code="">Turn Signal Flasher Assembly</name>
+    <fig>90980-10173</fig>
+    <partNo repairInfo="Y">90980-10173</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L20" type="conn" wireCode="L">
+    <name code="">Un-Lock Warning Switch Assembly</name>
+    <fig>90980-12063</fig>
+    <partNo repairInfo="Y">90980-12063</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L49" type="conn" wireCode="L">
+    <name code="">VSC Off Switch</name>
+    <fig>90980-10957</fig>
+    <partNo repairInfo="Y">90980-10957</partNo>
+    <color>Blue</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C24" type="conn" wireCode="C">
+    <name code="">VVT Sensor (Bank 1)</name>
+    <fig>90980-12353</fig>
+    <partNo repairInfo="Y">90980-12353</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C22" type="conn" wireCode="C">
+    <name code="">VVT Sensor (Bank 2)</name>
+    <fig>90980-12353</fig>
+    <partNo repairInfo="Y">90980-12353</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C93" type="conn" wireCode="C">
+    <name code="">Vacuum Sensor</name>
+    <fig>90980-12636</fig>
+    <partNo repairInfo="Y">90980-12636</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C94" type="conn" wireCode="C">
+    <name code="">Vacuum Switching Valve Assembly (BACS)</name>
+    <fig>90980-12634</fig>
+    <partNo repairInfo="Y">90980-12634</partNo>
+    <color>Blue</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C92" type="conn" wireCode="C">
+    <name code="">Vacuum Switching Valve Assembly (EGR Cut)</name>
+    <fig>90980-12634</fig>
+    <partNo repairInfo="Y">90980-12634</partNo>
+    <color>Blue</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I32" type="conn" wireCode="I">
+    <name code="">Vacuum Warning Switch Assembly</name>
+    <fig>90980-11252</fig>
+    <partNo repairInfo="Y">90980-11252</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="C85" type="conn" wireCode="C">
+    <name code="">Water Temperature Sender Gage Assembly</name>
+    <fig>90980-11428</fig>
+    <partNo repairInfo="Y">90980-11428</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="s1" type="conn" wireCode="s">
+    <name code="">Winch Assembly</name>
+    <fig>90980-10987</fig>
+    <partNo repairInfo="Y">90980-10987</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="m1" type="conn" wireCode="m">
+    <name code="">Winch Motor with Magnet Switch Assembly</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="m2" type="conn" wireCode="m">
+    <name code="">Winch Motor with Magnet Switch Assembly</name>
+    <fig>90980-10887</fig>
+    <partNo repairInfo="Y">90980-10887</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="s2" type="conn" wireCode="s">
+    <name code="">Winch Motor with Magnet Switch Assembly</name>
+    <fig>90980-10988</fig>
+    <partNo repairInfo="Y">90980-10988</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="t1" type="conn" wireCode="t">
+    <name code="">Winch Motor with Magnet Switch Assembly</name>
+    <fig>hsb00000</fig>
+    <partNo>-</partNo>
+    <color>
+    </color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A2" type="conn" wireCode="A">
+    <name code="">Windshield Washer Motor and Pump Assembly</name>
+    <fig>90980-11019</fig>
+    <partNo repairInfo="Y">90980-11019</partNo>
+    <color>Black</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I35" type="conn" wireCode="I">
+    <name code="">Windshield Washer Motor and Pump Assembly</name>
+    <fig>90980-10214</fig>
+    <partNo repairInfo="Y">90980-10214</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A12" type="conn" wireCode="A">
+    <name code="">Windshield Wiper Motor Assembly</name>
+    <fig>90980-12635</fig>
+    <partNo repairInfo="Y">90980-12635</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="A39" type="conn" wireCode="A">
+    <name code="">Windshield Wiper Motor Assembly</name>
+    <fig>90980-11194</fig>
+    <partNo repairInfo="Y">90980-11194</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I4" type="conn" wireCode="I">
+    <name code="">Windshield Wiper Motor Assembly</name>
+    <fig>90980-12635</fig>
+    <partNo repairInfo="Y">90980-12635</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I86" type="conn" wireCode="I">
+    <name code="">Windshield Wiper Motor Assembly</name>
+    <fig>90980-11194</fig>
+    <partNo repairInfo="Y">90980-11194</partNo>
+    <color>Gray</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L22" type="conn" wireCode="L">
+    <name code="">Windshield Wiper Switch Assembly</name>
+    <fig>90980-12358</fig>
+    <partNo repairInfo="Y">90980-12358</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="L23" type="conn" wireCode="L">
+    <name code="">Windshield Wiper Switch Assembly</name>
+    <fig>90980-12359</fig>
+    <partNo repairInfo="Y">90980-12359</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="I26" type="conn" wireCode="I">
+    <name code="">Wiper Lock Switch (Limit Switch Assembly)</name>
+    <fig>90980-10870</fig>
+    <partNo repairInfo="Y">90980-10870</partNo>
+    <color>White</color>
+    <spec>
+    </spec>
+  </CodedItem>
+  <CodedItem code="1" type="jb">
+    <name>Engine Room R/B Assembly</name>
+  </CodedItem>
+  <CodedItem code="2" type="jb">
+    <name>Cowl Side R/B Assembly</name>
+  </CodedItem>
+  <CodedItem code="3" type="jb">
+    <name>Fusible Link Block Assembly</name>
+  </CodedItem>
+  <CodedItem code="4" type="jb">
+    <name>Fuse Block Assembly</name>
+  </CodedItem>
+  <CodedItem code="JC-CANNO.1" type="jb">
+    <name>No. 1 CAN Junction Connector</name>
+  </CodedItem>
+  <CodedItem code="JC-CANNO.2" type="jb">
+    <name>No. 2 CAN Junction Connector</name>
+  </CodedItem>
+  <CodedItem code="JC-CANNO.4" type="jb">
+    <name>No. 4 CAN Junction Connector</name>
+  </CodedItem>
+  <CodedItem code="JC-CANNo.6" type="jb">
+    <name>No. 6 CAN Junction Connector</name>
+  </CodedItem>
+  <CodedItem code="AA" type="gp" wireCode="A">
+    <name>Ground Point</name>
+  </CodedItem>
+  <CodedItem code="AC" type="gp" wireCode="A">
+    <name>Ground Point</name>
+  </CodedItem>
+  <CodedItem code="AD" type="gp" wireCode="A">
+    <name>Ground Point</name>
+  </CodedItem>
+  <CodedItem code="CA" type="gp" wireCode="C">
+    <name>Ground Point</name>
+  </CodedItem>
+  <CodedItem code="CB" type="gp" wireCode="C">
+    <name>Ground Point</name>
+  </CodedItem>
+  <CodedItem code="CC" type="gp" wireCode="C">
+    <name>Ground Point</name>
+  </CodedItem>
+  <CodedItem code="CD" type="gp" wireCode="C">
+    <name>Ground Point</name>
+  </CodedItem>
+  <CodedItem code="CE" type="gp" wireCode="C">
+    <name>Ground Point</name>
+  </CodedItem>
+  <CodedItem code="DA" type="gp" wireCode="D">
+    <name>Ground Point</name>
+  </CodedItem>
+  <CodedItem code="FA" type="gp" wireCode="F">
+    <name>Ground Point</name>
+  </CodedItem>
+  <CodedItem code="FB" type="gp" wireCode="F">
+    <name>Ground Point</name>
+  </CodedItem>
+  <CodedItem code="FC" type="gp" wireCode="F">
+    <name>Ground Point</name>
+  </CodedItem>
+  <CodedItem code="HA" type="gp" wireCode="H">
+    <name>Ground Point</name>
+  </CodedItem>
+  <CodedItem code="HB" type="gp" wireCode="H">
+    <name>Ground Point</name>
+  </CodedItem>
+  <CodedItem code="IA" type="gp" wireCode="I">
+    <name>Ground Point</name>
+  </CodedItem>
+  <CodedItem code="IC" type="gp" wireCode="I">
+    <name>Ground Point</name>
+  </CodedItem>
+  <CodedItem code="IE" type="gp" wireCode="I">
+    <name>Ground Point</name>
+  </CodedItem>
+  <CodedItem code="IG" type="gp" wireCode="I">
+    <name>Ground Point</name>
+  </CodedItem>
+  <CodedItem code="LA" type="gp" wireCode="L">
+    <name>Ground Point</name>
+  </CodedItem>
+  <CodedItem code="LB" type="gp" wireCode="L">
+    <name>Ground Point</name>
+  </CodedItem>
+  <CodedItem code="tA" type="gp" wireCode="t">
+    <name>Ground Point</name>
+  </CodedItem>
+  <CodedItem code="TA" type="gp" wireCode="T">
+    <name>Ground Point</name>
+  </CodedItem>
+  <CodedItem code="TB" type="gp" wireCode="T">
+    <name>Ground Point</name>
+  </CodedItem>
+  <CodedItem code="TC" type="gp" wireCode="T">
+    <name>Ground Point</name>
+  </CodedItem>
+  <CodedItem code="SP1" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP2" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP3" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP4" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP5" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP6" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP7" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP8" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP9" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP10" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP11" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP12" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP13" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP14" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP15" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP16" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP17" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP18" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP19" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP20" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP21" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP22" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP23" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP24" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP25" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP26" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP27" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP28" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP29" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP30" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP31" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP32" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP33" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP34" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP35" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP36" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP37" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP38" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP39" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP40" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP41" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP42" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP43" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP44" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP45" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP46" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP47" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP48" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP49" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP50" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP51" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP52" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP53" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP54" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP55" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP56" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP57" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP58" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP59" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP60" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP61" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP62" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP63" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP64" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP65" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP66" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP67" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP68" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP69" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP70" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP71" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP72" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP73" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP74" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP75" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP76" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP77" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP78" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP79" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP80" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP81" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP82" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP83" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP84" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP85" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP86" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP87" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP88" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP89" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP90" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP91" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP92" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP93" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP100" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP101" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP102" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP103" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP104" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP105" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP106" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP107" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP108" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP109" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP110" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP111" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP112" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP113" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP114" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP115" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP116" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP117" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP118" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP119" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP120" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP121" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP122" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP123" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP124" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP125" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP126" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP127" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP128" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP129" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP130" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP131" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP132" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP133" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP134" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP135" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP136" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP137" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP138" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP139" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP140" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP141" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP142" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP143" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP144" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP145" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP147" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP148" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP150" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP151" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP152" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+  <CodedItem code="SP153" type="sp">
+    <name>Splice Point</name>
+  </CodedItem>
+</EWDItemList>

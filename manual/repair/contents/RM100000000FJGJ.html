@@ -1,0 +1,1025 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">Engine / Hybrid System</span>
+<span class="globalSection">_029758</span>
+<span class="globalSectionName">1GR-FE ENGINE CONTROL</span>
+<span class="globalTitle">_0135343</span>
+<span class="globalTitleName">SFI SYSTEM</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>1GR-FE ENGINE CONTROL&nbsp;&nbsp;SFI SYSTEM&nbsp;&nbsp;P2121&nbsp;&nbsp;Throttle / Pedal Position Sensor / Switch "D" Circuit Range / Performance&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000FJGJ_01" class="category no03">
+<h2>DESCRIPTION</h2>
+<div class="content5">
+<p>Refer to DTC P2120.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;SFI SYSTEM&gt;P2120<span class="invisible">201408,999999,_51,_029758,_0135343,RM100000000FJGI_01,P2120</span></a>
+</p>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:15%">
+<col style="width:26%">
+<col style="width:26%">
+<col style="width:10%">
+<col style="width:10%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC No.
+</th>
+<th class="alcenter">Detection Item
+</th>
+<th class="alcenter">DTC Detection Condition
+</th>
+<th class="alcenter">Trouble Area
+</th>
+<th class="alcenter">MIL
+</th>
+<th class="alcenter">Memory
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">P2121
+</td>
+<td class="alleft">Throttle / Pedal Position Sensor / Switch "D" Circuit Range / Performance
+</td>
+<td class="alleft">Either of the following conditions is met for 0.5 seconds (1 trip detection logic):
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Difference between VPA and VPA2 is less than 0.4 V, or higher than 1.2 V. (learned value of accelerator off position)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>Difference between VPA and VPA2 is greater than or equal to the specified value.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Accelerator Pedal sensor Assembly
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">Comes on
+</td>
+<td class="alleft">DTC stored
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM100000000FJGJ_02" class="category no03">
+<h2>MONITOR DESCRIPTION</h2>
+<div class="content5">
+<p>The accelerator pedal position sensor is mounted on the accelerator pedal bracket. The accelerator pedal position sensor has 2 sensor elements and 2 signal outputs: VPA and VPA2. VPA is used to detect the actual accelerator pedal angle (used for engine control) and VPA2 is used to detect malfunctions in VPA. When the difference between the output voltages of VPA and VPA2 deviates from the standard, the ECM determines that the accelerator pedal position sensor is malfunctioning. The ECM turns on the MIL and the DTC is stored.
+</p>
+</div>
+</div>
+<div id="RM100000000FJGJ_12" class="category no03">
+<h2>CONFIRMATION DRIVING PATTERN</h2>
+<div class="content5">
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A256657E12.png" alt="A256657E12" title="A256657E12">
+<div class="indicateinfo">
+<span class="line">
+<span class="points">3.635,2.01 2.771,1.302</span>
+<span class="points">2.771,1.302 2.927,1.302</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">4.729,2.448 5.115,1.802</span>
+<span class="points">5.115,1.802 5.26,1.802</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">2.208,2.448 2.438,2.104</span>
+<span class="points">2.438,2.104 2.542,2.104</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.125,0.083 1.75,0.323</span>
+<span class="captionSize">1.625,0.24</span>
+<span class="fontsize">10</span>
+<span class="captionText">Accelerator Pedal State</span>
+</span>
+<span class="caption">
+<span class="points">0.896,0.458 1.698,0.708</span>
+<span class="captionSize">0.802,0.25</span>
+<span class="fontsize">10</span>
+<span class="captionText">Depressed</span>
+</span>
+<span class="caption">
+<span class="points">0.99,0.906 1.708,1.146</span>
+<span class="captionSize">0.719,0.24</span>
+<span class="fontsize">10</span>
+<span class="captionText">Released</span>
+</span>
+<span class="caption">
+<span class="points">0.427,2.406 1.667,2.667</span>
+<span class="captionSize">1.24,0.26</span>
+<span class="fontsize">10</span>
+<span class="captionText">Ignition Switch ON</span>
+</span>
+<span class="caption">
+<span class="points">2.115,2.49 2.333,2.75</span>
+<span class="captionSize">0.219,0.26</span>
+<span class="fontsize">10</span>
+<span class="captionText">[A]</span>
+</span>
+<span class="caption">
+<span class="points">4.396,3.406 4.646,3.635</span>
+<span class="captionSize">0.25,0.229</span>
+<span class="fontsize">10</span>
+<span class="captionText">[C]</span>
+</span>
+<span class="caption">
+<span class="points">5.313,1.729 6.063,1.979</span>
+<span class="captionSize">0.75,0.25</span>
+<span class="fontsize">10</span>
+<span class="captionText">Released</span>
+</span>
+<span class="caption">
+<span class="points">2.375,3.052 3.167,3.333</span>
+<span class="captionSize">0.792,0.281</span>
+<span class="fontsize">10</span>
+<span class="captionText">5 seconds</span>
+</span>
+<span class="caption">
+<span class="points">2.99,1.219 3.823,1.469</span>
+<span class="captionSize">0.833,0.25</span>
+<span class="fontsize">10</span>
+<span class="captionText">Depressed</span>
+</span>
+<span class="caption">
+<span class="points">3.865,3.042 4.125,3.26</span>
+<span class="captionSize">0.26,0.219</span>
+<span class="fontsize">10</span>
+<span class="captionText">[B]</span>
+</span>
+<span class="caption">
+<span class="points">2.594,2.031 3.25,2.25</span>
+<span class="captionSize">0.656,0.219</span>
+<span class="fontsize">10</span>
+<span class="captionText">Released</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>Turn the ignition switch to ON and turn the GTS on.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>Clear the DTCs (even if no DTCs are stored, perform the clear DTC procedure).
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">4.</div>
+<div class="list1Body"><p>Turn the ignition switch off and wait for at least 30 seconds.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">5.</div>
+<div class="list1Body"><p>Turn the ignition switch to ON and turn the GTS on [A].
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">6.</div>
+<div class="list1Body"><p>Wait for 5 seconds after turning the ignition switch ON.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">7.</div>
+<div class="list1Body"><p>Operate the accelerator pedal in accordance with the following procedure [B].
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">1.</div>
+<div class="list2Body"><p>Enter the following menus: Powertrain / Engine / Data List / All Data / Accel Sens. No. 1 Volt %, and Accel Sens. No. 2 Volt %.
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">2.</div>
+<div class="list2Body"><p>Slowly depress the accelerator pedal until Accel Sens. No. 1 Volt % is approximately 30% and Accel Sens. No. 2 Volt % is approximately 46%, then slowly release the accelerator pedal.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list1Item">
+<div class="list1Head">8.</div>
+<div class="list1Body"><p>Enter the following menus: Powertrain / Engine and ECT / Trouble Codes [C].
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">9.</div>
+<div class="list1Body"><p>Read the pending DTCs.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If a pending DTC is output, the system is malfunctioning.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If a pending DTC is not output, perform the following procedure.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">10.</div>
+<div class="list1Body"><p>Enter the following menus: Powertrain / Engine and ECT / Utility / All Readiness.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">11.</div>
+<div class="list1Body"><p>Input the DTC: P2121.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">12.</div>
+<div class="list1Body"><p>Check the DTC judgment result.
+</p>
+<table summary="">
+<colgroup>
+<col style="width:29%">
+<col style="width:70%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">GTS Display
+</th>
+<th class="alcenter">Description
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NORMAL
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC judgment completed
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>System normal
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">ABNORMAL
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC judgment completed
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>System abnormal
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">INCOMPLETE
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC judgment not completed
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Perform driving pattern after confirming DTC enabling conditions
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">N/A
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Unable to perform DTC judgment
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Number of DTCs which do not fulfill DTC preconditions has reached ECU memory limit
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the judgment result shows NORMAL, the system is normal.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the judgment result shows ABNORMAL, the system has a malfunction.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the judgment result shows INCOMPLETE or N/A, perform steps [B] and [C] again.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000FJGJ_06" class="category no03">
+<h2>FAIL-SAFE</h2>
+<div class="content5">
+<p>The accelerator pedal position sensor has 2 (main and sub) sensor circuits. The ECM detects the abnormal signal voltage difference between the 2 sensor circuits and switches to fail-safe mode. If the either of the 2 sensor circuits malfunctions, the ECM limits the engine output. If both of the circuits malfunction, the ECM regards the accelerator pedal as being released. In this case, the throttle valve remains closed as ifthe engine is idling.
+</p>
+<p>If a pass condition is detected and then the ignition switch is turned off, the fail-safe operation stops and the system returns to a normal condition.
+</p>
+</div>
+</div>
+<div id="RM100000000FJGJ_07" class="category no03">
+<h2>WIRING DIAGRAM</h2>
+<div class="content5">
+<p>Refer to DTC P2120.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;SFI SYSTEM&gt;P2120<span class="invisible">201408,999999,_51,_029758,_0135343,RM100000000FJGI_08,P2120</span></a>
+</p>
+</div>
+</div>
+<div id="RM100000000FJGJ_08" class="category no10">
+<h2>CAUTION / NOTICE / HINT</h2>
+<div class="content5">
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>Read freeze frame data using the GTS. Freeze frame data records the engine condition when malfunctions are detected. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, if the air fuel ratio was lean or rich, and other data from the time the malfunction occurred.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000FJGJ_11" class="category no01">
+<h2>PROCEDURE</h2>
+<div class="testgrp" id="RM100000000FJGJ_11_0009">
+<div class="testtitle"><span class="titleText">1.CHECK ANY OTHER DTCS OUTPUT (IN ADDITION TO DTC P2121)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Turn the ignition switch to ON.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Turn the GTS on.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Enter the following menus: Powertrain / Engine and ECT / Trouble Codes.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>Read the DTCs.
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Powertrain &gt; Engine &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJGJ_11_0009_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Result
+</th>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">DTC P2121 is output
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">DTC P2121 and other DTCs are output
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>If any DTCs other than P2121 are output, troubleshoot those DTCs first.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">2.READ VALUE USING GTS (ACCEL SENSOR OUT)</span></div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">GO TO DTC CHART</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;SFI SYSTEM&gt;DIAGNOSTIC TROUBLE CODE CHART<span class="invisible">201408,201608,_51,_029758,_0135343,RM100000000FJFO,</span><span class="invisible">201608,999999,_51,_029758,_0135343,RM1000000011O8H,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJGJ_11_0001">
+<div class="testtitle"><span class="titleText">2.READ VALUE USING GTS (ACCEL SENSOR OUT)</span></div>
+<div class="content6">
+<div class="contentPartition"></div>
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/A208621C04.png" alt="A208621C04" title="A208621C04">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.67,1.751 0.875,1.926</span>
+<span class="captionSize">0.205,0.175</span>
+<span class="fontsize">10</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">2.612,1.751 2.803,1.926</span>
+<span class="captionSize">0.191,0.175</span>
+<span class="fontsize">10</span>
+<span class="captionText">*b</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td class="alleft">Fully Depressed
+</td>
+</tr>
+<tr>
+<td class="alcenter">*b
+</td>
+<td class="alleft">Fully Released
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Turn the ignition switch to ON and turn the GTS on.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Enter the following menus: Powertrain / Engine and ECT / Data List / All Data / Accel Sensor Out No.1 and Accel Sensor Out No.2.
+</p>
+<dl class="gtsDataList">
+<dt class="gtsDataList">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataList">
+<table summary="data-list" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Accel Sensor Out No.1
+</td>
+</tr>
+<tr>
+<td class="alleft">Accel Sensor Out No.2
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsDataList gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50003</span>
+<span class="gtsEcu">234</span>
+<span class="gtsPid">280,281</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Read the value displayed on the GTS.
+</p>
+<dl class="spec">
+<dt class="spec">Standard Voltage:</dt>
+<dd class="spec"><table summary="">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:32%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Accelerator Pedal Operation
+</th>
+<th class="alcenter">Accel Sensor Out No.1
+</th>
+<th class="alcenter">Accel Sensor Out No.2
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">Fully Released
+</td>
+<td class="alcenter">0.5 to 1.1 V
+</td>
+<td class="alcenter">1.2 to 2.0 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">Fully Depressed
+</td>
+<td class="alcenter">2.6 to 4.5 V
+</td>
+<td class="alcenter">3.4 to 4.75 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJGJ_11_0001_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>OK
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">CHECK FOR INTERMITTENT PROBLEMS</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;SFI SYSTEM&gt;CHECK FOR INTERMITTENT PROBLEMS<span class="invisible">201408,999999,_51,_029758,_0135343,RM100000000FJGQ,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueNext"><p>NG
+</p></div>
+<div class="nextAction"><span class="titleText">3.REPLACE ACCELERATOR PEDAL SENSOR ASSEMBLY</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJGJ_11_0004">
+<div class="testtitle"><span class="titleText">3.REPLACE ACCELERATOR PEDAL SENSOR ASSEMBLY</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Replace the accelerator pedal sensor assembly.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;ACCELERATOR PEDAL&gt;REMOVAL<span class="invisible">201408,999999,_51,_029758,_0135333,RM100000000FJEG,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJGJ_11_0004_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NEXT
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>NEXT
+</p></div>
+<div class="nextAction"><span class="titleText">4.CHECK WHETHER DTC OUTPUT RECURS (DTC P2121)</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJGJ_11_0006">
+<div class="testtitle"><span class="titleText">4.CHECK WHETHER DTC OUTPUT RECURS (DTC P2121)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Turn the ignition switch to ON and turn the GTS on.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Clear the DTCs.
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Powertrain &gt; Engine and ECT &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Turn the engine switch off and wait for at least 30 seconds.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>Turn the ignition switch ON and turn the GTS on.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>Drive the vehicle in accordance with the driving pattern described in Confirmation Driving Pattern.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">g.</div>
+<div class="test1Body">
+<p>Enter the following menus: Powertrain / Engine and ECT / Trouble Codes.
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Powertrain &gt; Engine and ECT &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">h.</div>
+<div class="test1Body">
+<p>Read the DTCs.
+</p>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJGJ_11_0006_1" summary="">
+<colgroup>
+<col style="width:50%">
+<col style="width:50%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Result
+</th>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">DTC P2121 is output
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">DTC is not output
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>A
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPLACE ECM</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;ECM&gt;REMOVAL<span class="invisible">201408,999999,_51,_029758,_0135332,RM100000000FJEC,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">END</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

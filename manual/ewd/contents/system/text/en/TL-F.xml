@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25T2E" style="font-size:6px;font-family:'Arial'" ver="2.1.2.9">
+	<text textID="1">* 1 :Pick-Up Body Type</text>
+	<text textID="2">* 2 :Except Pick-Up Body Type</text>
+	<text textID="3">* 3 :Algeria, Australia</text>
+	<text textID="4">* 4 :Except *3</text>
+	<text textID="5">* 7 :1GR-FE, RHD 1HZ 24V Battery Type</text>
+	<text textID="6">* 8 :1VD-FTV, RHD 1HZ 12V Battery Type</text>
+	<text textID="7">*10 :RHD 1HZ 24V Battery Type</text>
+	<text textID="8">*11 :RHD 1HZ 12V Battery Type</text>
+	<text textID="9">*14 :Back Door w/ Fuel Tank</text>
+	<text textID="10">*15 :Back Door w/o Fuel Tank</text>
+	<text textID="11">*16 :LHD 4-Door Pick-Up Body Type</text>
+	<text textID="12">*17 :Middle East</text>
+	<text textID="13">*18 :Except *16 *17</text>
+	<text textID="14">Clearance</text>
+	<text textID="15">Head</text>
+	<text textID="16">Headlight Assembly LH</text>
+	<text textID="17">Headlight Assembly RH</text>
+	<text textID="18">Headlight Dimmer Switch Assembly</text>
+	<text textID="19">License Plate Light Assembly</text>
+	<text textID="20">License Plate Light Assembly LH</text>
+	<text textID="21">License Plate Light Assembly RH</text>
+	<text textID="22">Light Control Switch</text>
+	<text textID="23">No. 1 Junction Connector</text>
+	<text textID="24">No. 6 Junction Connector</text>
+	<text textID="25">No. 9 Junction Connector</text>
+	<text textID="26">No. 31 Junction Connector</text>
+	<text textID="27">Rear Combination Light Assembly LH</text>
+	<text textID="28">Rear Combination Light Assembly RH</text>
+	<text textID="29">TAIL Relay</text>
+	<text textID="30">Tail</text>
+</texts>

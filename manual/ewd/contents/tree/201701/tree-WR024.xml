@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="WR024" code="A6" type="conn">
+    <name>A/C Pressure Switch (Cooler Refrigerant Liquid Pipe B)</name>
+  </text>
+  <text ewd="WR024" code="A10" type="conn">
+    <name>Antenna with Holder Assembly</name>
+  </text>
+  <text ewd="WR024" code="A35" type="conn">
+    <name>Battery (Main)</name>
+  </text>
+  <text ewd="WR024" code="A36" type="conn">
+    <name>Battery (Main)</name>
+  </text>
+  <text ewd="WR024" code="A37" type="conn">
+    <name>Battery (Sub)</name>
+  </text>
+  <text ewd="WR024" code="A20" type="conn">
+    <name>Brake Actuator Assembly</name>
+  </text>
+  <text ewd="WR024" code="A25" type="conn">
+    <name>Brake Vacuum Check Valve Assembly</name>
+  </text>
+  <text ewd="WR024" code="A26" type="conn">
+    <name>Brake Vacuum Check Valve Assembly</name>
+  </text>
+  <text ewd="WR024" code="A27" type="conn">
+    <name>Brake Vacuum Check Valve Assembly</name>
+  </text>
+  <text ewd="WR024" code="A28" type="conn">
+    <name>Brake Vacuum Check Valve Assembly</name>
+  </text>
+  <text ewd="WR024" code="A13" type="conn">
+    <name>Front Airbag Sensor LH</name>
+  </text>
+  <text ewd="WR024" code="B2" type="conn">
+    <name>Front Differential Lock Position Switch</name>
+  </text>
+  <text ewd="WR024" code="A21" type="conn">
+    <name>Front Speed Sensor LH (Skid Control Sensor Wire LH)</name>
+  </text>
+  <text ewd="WR024" code="A16" type="conn">
+    <name>Fuel Heater</name>
+  </text>
+  <text ewd="WR024" code="A9" type="conn">
+    <name>Fuel Sediment Switch</name>
+  </text>
+  <text ewd="WR024" code="A1" type="conn">
+    <name>Headlight Assembly LH</name>
+  </text>
+  <text ewd="WR024" code="A3" type="conn">
+    <name>Headlight Assembly LH</name>
+  </text>
+  <text ewd="WR024" code="A7" type="conn">
+    <name>Headlight Assembly LH</name>
+  </text>
+  <text ewd="WR024" code="A38" type="conn">
+    <name>Headlight Assembly LH</name>
+  </text>
+  <text ewd="WR024" code="A5" type="conn">
+    <name>High Pitched Horn Assembly</name>
+  </text>
+  <text ewd="WR024" code="A4" type="conn">
+    <name>Low Pitched Horn Assembly</name>
+  </text>
+  <text ewd="WR024" code="A22" type="conn">
+    <name>No. 1 Junction Connector</name>
+  </text>
+  <text ewd="WR024" code="A18" type="conn">
+    <name>No. 1 Vacuum Switching Valve (A/C Idle-Up)</name>
+  </text>
+  <text ewd="WR024" code="A41" type="conn">
+    <name>No. 1 Vacuum Switching Valve (A/C Idle-Up)</name>
+  </text>
+  <text ewd="WR024" code="B1" type="conn">
+    <name>No. 2 Differential Lock Shift Actuator</name>
+  </text>
+  <text ewd="WR024" code="A23" type="conn">
+    <name>No. 2 Junction Connector</name>
+  </text>
+  <text ewd="WR024" code="A11" type="conn">
+    <name>Side Turn Signal Light Assembly LH</name>
+  </text>
+  <text ewd="WR024" code="A2" type="conn">
+    <name>Windshield Washer Motor and Pump Assembly</name>
+  </text>
+  <text ewd="WR024" code="A12" type="conn">
+    <name>Windshield Wiper Motor Assembly</name>
+  </text>
+  <text ewd="WR024" code="A39" type="conn">
+    <name>Windshield Wiper Motor Assembly</name>
+  </text>
+  <text ewd="WR025" code="C95" type="conn">
+    <name>Back-Up Light Switch Assembly</name>
+  </text>
+  <text ewd="WR025" code="C98" type="conn">
+    <name>Center Differential Lock Indicator Switch (No. 1 Transfer Indicator Switch)</name>
+  </text>
+  <text ewd="WR025" code="C91" type="conn">
+    <name>Electric Vacuum Regulating Valve Assembly (EGR)</name>
+  </text>
+  <text ewd="WR025" code="C86" type="conn">
+    <name>Engine Coolant Temperature Sensor</name>
+  </text>
+  <text ewd="WR025" code="C88" type="conn">
+    <name>Engine Oil Pressure Switch Assembly</name>
+  </text>
+  <text ewd="WR025" code="C97" type="conn">
+    <name>Fuel Sender Gage Assembly (Front)</name>
+  </text>
+  <text ewd="WR025" code="C90" type="conn">
+    <name>Glow Plug Assembly</name>
+  </text>
+  <text ewd="WR025" code="C83" type="conn">
+    <name>Injection or Supply Pump Assembly</name>
+  </text>
+  <text ewd="WR025" code="C84" type="conn">
+    <name>Injection or Supply Pump Assembly</name>
+  </text>
+  <text ewd="WR025" code="C87" type="conn">
+    <name>Oil Pressure Sender Gage Assembly</name>
+  </text>
+  <text ewd="WR025" code="C96" type="conn">
+    <name>Speedometer Sensor</name>
+  </text>
+  <text ewd="WR025" code="C89" type="conn">
+    <name>Starter Assembly</name>
+  </text>
+  <text ewd="WR025" code="C99" type="conn">
+    <name>Transfer L4 Position Switch (No. 1 Transfer Indicator Switch)</name>
+  </text>
+  <text ewd="WR025" code="C93" type="conn">
+    <name>Vacuum Sensor</name>
+  </text>
+  <text ewd="WR025" code="C94" type="conn">
+    <name>Vacuum Switching Valve Assembly (BACS)</name>
+  </text>
+  <text ewd="WR025" code="C92" type="conn">
+    <name>Vacuum Switching Valve Assembly (EGR Cut)</name>
+  </text>
+  <text ewd="WR025" code="C85" type="conn">
+    <name>Water Temperature Sender Gage Assembly</name>
+  </text>
+  <text ewd="WR026" code="D8" type="conn">
+    <name>Battery (Main)</name>
+  </text>
+  <text ewd="WR026" code="E4" type="conn">
+    <name>Battery (Main)</name>
+  </text>
+  <text ewd="WR026" code="F1" type="conn">
+    <name>Battery (Main)</name>
+  </text>
+  <text ewd="WR026" code="k2" type="conn">
+    <name>Battery (Main)</name>
+  </text>
+  <text ewd="WR026" code="D10" type="conn">
+    <name>Battery (Sub)</name>
+  </text>
+  <text ewd="WR026" code="E3" type="conn">
+    <name>Battery (Sub)</name>
+  </text>
+  <text ewd="WR026" code="I85" type="conn">
+    <name>Brake Fluid Level Warning Switch (Brake Master Cylinder Reservoir Sub-Assembly)</name>
+  </text>
+  <text ewd="WR026" code="J2" type="conn">
+    <name>Fog Light Assembly LH</name>
+  </text>
+  <text ewd="WR026" code="J1" type="conn">
+    <name>Fog Light Assembly RH</name>
+  </text>
+  <text ewd="WR026" code="I30" type="conn">
+    <name>Four Wheel Drive Control Solenoid Assembly</name>
+  </text>
+  <text ewd="WR026" code="I31" type="conn">
+    <name>Four Wheel Drive Control Solenoid Assembly</name>
+  </text>
+  <text ewd="WR026" code="I89" type="conn">
+    <name>Four Wheel Drive Control Solenoid Assembly</name>
+  </text>
+  <text ewd="WR026" code="I52" type="conn">
+    <name>Front Airbag Sensor RH</name>
+  </text>
+  <text ewd="WR026" code="I18" type="conn">
+    <name>Front Speed Sensor RH (Skid Control Sensor Wire RH)</name>
+  </text>
+  <text ewd="WR026" code="I76" type="conn">
+    <name>Fuse Block Assembly</name>
+  </text>
+  <text ewd="WR026" code="I1" type="conn">
+    <name>Generator Assembly</name>
+  </text>
+  <text ewd="WR026" code="I34" type="conn">
+    <name>Generator Assembly</name>
+  </text>
+  <text ewd="WR026" code="I36" type="conn">
+    <name>Headlight Assembly RH</name>
+  </text>
+  <text ewd="WR026" code="I38" type="conn">
+    <name>Headlight Assembly RH</name>
+  </text>
+  <text ewd="WR026" code="I40" type="conn">
+    <name>Headlight Assembly RH</name>
+  </text>
+  <text ewd="WR026" code="I91" type="conn">
+    <name>Headlight Assembly RH</name>
+  </text>
+  <text ewd="WR026" code="I33" type="conn">
+    <name>Magnet Clutch Assembly</name>
+  </text>
+  <text ewd="WR026" code="k1" type="conn">
+    <name>No. 1 Magnet Switch Assembly</name>
+  </text>
+  <text ewd="WR026" code="m3" type="conn">
+    <name>No. 1 Magnet Switch Assembly</name>
+  </text>
+  <text ewd="WR026" code="m4" type="conn">
+    <name>No. 1 Magnet Switch Assembly</name>
+  </text>
+  <text ewd="WR026" code="I25" type="conn">
+    <name>Side Turn Signal Light Assembly RH</name>
+  </text>
+  <text ewd="WR026" code="D5" type="conn">
+    <name>Starter Assembly</name>
+  </text>
+  <text ewd="WR026" code="I32" type="conn">
+    <name>Vacuum Warning Switch Assembly</name>
+  </text>
+  <text ewd="WR026" code="s1" type="conn">
+    <name>Winch Assembly</name>
+  </text>
+  <text ewd="WR026" code="m1" type="conn">
+    <name>Winch Motor with Magnet Switch Assembly</name>
+  </text>
+  <text ewd="WR026" code="m2" type="conn">
+    <name>Winch Motor with Magnet Switch Assembly</name>
+  </text>
+  <text ewd="WR026" code="s2" type="conn">
+    <name>Winch Motor with Magnet Switch Assembly</name>
+  </text>
+  <text ewd="WR026" code="t1" type="conn">
+    <name>Winch Motor with Magnet Switch Assembly</name>
+  </text>
+  <text ewd="WR026" code="I35" type="conn">
+    <name>Windshield Washer Motor and Pump Assembly</name>
+  </text>
+</EwdTree>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25T2E" style="font-size:6px;font-family:'Arial'" ver="2.1.2.9">
+	<text textID="1">* 1 :Front Switch Type</text>
+	<text textID="2">* 2 :Rear Switch Type</text>
+	<text textID="3">* 3 :Pick-Up Body Type</text>
+	<text textID="4">* 4 :Except Pick-Up Body Type</text>
+	<text textID="5">No. 8 Junction Connector</text>
+	<text textID="6">No. 13 Junction Connector</text>
+	<text textID="7">No. 18 Junction Connector</text>
+	<text textID="8">No. 22 Junction Connector</text>
+	<text textID="9">RR HTR Relay</text>
+	<text textID="10">Rear Heater Blower Resistor</text>
+	<text textID="11">Rear Heater Blower Switch</text>
+</texts>

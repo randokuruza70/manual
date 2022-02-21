@@ -1,0 +1,92 @@
+
+div#ewd_tree {
+	width: auto;
+}
+
+
+div#ewd_tree a:hover {
+	color: #b30000;
+	text-decoration: underline;
+}
+
+div#ewd_tree a.selected {
+	background: #cccccc;
+}
+
+div#ewd_tree a#title_sel {
+	background: #95B4DA;
+}
+
+div#ewd_tree ul {
+	margin: 0px;
+	padding: 0px;
+	white-space: nowrap;
+}
+
+div#ewd_tree ul li {
+	margin-left: 15px;
+	list-style-type: none;
+	list-style-position: outside;
+}
+
+div#ewd_tree ul li p {
+	height: 21px;
+	line-height: 21px;
+	padding-left: 18px;
+	background: url(../../icon/page.gif) no-repeat center left;
+}
+
+div#ewd_tree ul li p.selected {
+	height: 21px;
+	line-height: 21px;
+	padding-left: 18px;
+	background: url(../../icon/page.gif) no-repeat center left #cccccc;
+}
+
+div#ewd_tree div.file_item{
+	height: 21px;
+	line-height: 21px;
+	padding-left: 18px;
+	background: url(../../icon/page.gif) no-repeat center left;
+}
+
+div#ewd_tree ul li div {
+	display: -moz-inline-block;
+	display: inline-block;
+	_display: inline;
+	_zoom: 1;
+	cursor: pointer;
+}
+
+div#ewd_tree ul li div.lines_open {
+	width: 13px;
+	height: 13px;
+	background: url(../../icon/nolines_minus.gif) no-repeat center left;
+}
+
+div#ewd_tree ul li div.lines_close {
+	width: 13px;
+	height: 13px;
+	background: url(../../icon/nolines_plus.gif) no-repeat center left;
+}
+
+div#ewd_tree ul li div.folder_open {
+	padding-left: 20px;
+	background: url(../../icon/folderopen.gif) no-repeat center left;
+}
+
+div#ewd_tree ul li div.folder_close {
+	padding-left: 20px;
+	background: url(../../icon/folder.gif) no-repeat center left;
+}
+
+div#ewd_tree ul li p a, 
+div#ewd_tree ul li div a {
+	height: 21px;
+	line-height: 21px;
+	color: #000000;
+}
+
+div#ewd_tree ul li.disp_none {
+  display: none;
+}

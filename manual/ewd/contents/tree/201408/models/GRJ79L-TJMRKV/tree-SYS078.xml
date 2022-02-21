@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS078" code="A36,D9,E1,F1,k2" type="conn" figID="6">
+    <name>Battery (Main)</name>
+  </text>
+  <text ewd="SYS078" code="E2,F2" type="conn" figID="9">
+    <name>Battery (Sub)</name>
+  </text>
+  <text ewd="SYS078" code="k1,m3,m4" type="conn" figID="7">
+    <name>No. 1 Magnet Switch Assembly</name>
+  </text>
+  <text ewd="SYS078" code="I62" type="conn" figID="5">
+    <name>No. 12 Junction Connector</name>
+  </text>
+  <text ewd="SYS078" code="A23" type="conn" figID="8">
+    <name>No. 2 Junction Connector</name>
+  </text>
+  <text ewd="SYS078" code="I57" type="conn" figID="3">
+    <name>No. 8 Junction Connector</name>
+  </text>
+  <text ewd="SYS078" code="s1" type="conn" figID="2">
+    <name>Winch Assembly</name>
+  </text>
+  <text ewd="SYS078" code="m1,m2,s2,t1" type="conn" figID="1">
+    <name>Winch Motor with Magnet Switch Assembly</name>
+  </text>
+  <text ewd="SYS078" code="FUSE23" type="fuse" figID="24">
+    <name>15A GAUGE</name>
+  </text>
+  <text ewd="SYS078" code="AA" type="gp" figID="20">
+    <name />
+  </text>
+  <text ewd="SYS078" code="AC" type="gp" figID="19">
+    <name />
+  </text>
+  <text ewd="SYS078" code="DA" type="gp" figID="17">
+    <name />
+  </text>
+  <text ewd="SYS078" code="FA" type="gp" figID="18">
+    <name />
+  </text>
+  <text ewd="SYS078" code="FB" type="gp" figID="16">
+    <name />
+  </text>
+  <text ewd="SYS078" code="FC" type="gp" figID="15">
+    <name />
+  </text>
+  <text ewd="SYS078" code="tA" type="gp" figID="21">
+    <name />
+  </text>
+  <text ewd="SYS078" code="FUSE23" type="rb" figID="4">
+    <name>15A GAUGE</name>
+  </text>
+  <text ewd="SYS078" code="SP7" type="sp" figID="22">
+    <name />
+  </text>
+  <text ewd="SYS078" code="SP69" type="sp" figID="23">
+    <name />
+  </text>
+  <text ewd="SYS078" code="AI3" type="w2w" figID="13,14">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS078" code="mA1" type="w2w" figID="11,12">
+    <name>Magnet Switch to Winch Cable and Engine Room Main Wire</name>
+  </text>
+</EwdTree>

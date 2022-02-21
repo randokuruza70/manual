@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS066" code="I61,I72" type="conn" figID="2">
+    <name>No. 11 Junction Connector , No. 21 Junction Connector</name>
+  </text>
+  <text ewd="SYS066" code="L32,L37" type="conn" figID="3">
+    <name>No. 24 Junction Connector , No. 29 Junction Connector</name>
+  </text>
+  <text ewd="SYS066" code="L34" type="conn" figID="5">
+    <name>No. 26 Junction Connector</name>
+  </text>
+  <text ewd="SYS066" code="L35" type="conn" figID="4">
+    <name>No. 27 Junction Connector</name>
+  </text>
+  <text ewd="SYS066" code="L39" type="conn" figID="8">
+    <name>No. 31 Junction Connector</name>
+  </text>
+  <text ewd="SYS066" code="L16" type="conn" figID="9">
+    <name>Outer Mirror Switch Assembly</name>
+  </text>
+  <text ewd="SYS066" code="i1" type="conn" figID="6">
+    <name>Outer Rear View Mirror Assembly LH</name>
+  </text>
+  <text ewd="SYS066" code="j1" type="conn" figID="7">
+    <name>Outer Rear View Mirror Assembly RH</name>
+  </text>
+  <text ewd="SYS066" code="FUSE1" type="fuse" figID="26">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS066" code="LA" type="gp" figID="25">
+    <name />
+  </text>
+  <text ewd="SYS066" code="LB" type="gp" figID="24">
+    <name />
+  </text>
+  <text ewd="SYS066" code="FUSE1" type="rb" figID="1">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS066" code="IL1" type="w2w" figID="11">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS066" code="PL1" type="w2w" figID="13,15,17">
+    <name>Front Door Wire LH and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS066" code="Pi1" type="w2w" figID="12,14,16">
+    <name>Front Door Wire LH and Switch Wire LH</name>
+  </text>
+  <text ewd="SYS066" code="OL1" type="w2w" figID="19,21,23">
+    <name>Front Door Wire RH and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS066" code="Oj1" type="w2w" figID="18,20,22">
+    <name>Front Door Wire RH and Switch Wire RH</name>
+  </text>
+</EwdTree>

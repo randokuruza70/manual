@@ -1,0 +1,405 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_V1</span>
+<span class="globalServcatName">General</span>
+<span class="globalSection">_030611</span>
+<span class="globalSectionName">INTRODUCTION</span>
+<span class="globalTitle">_0140190</span>
+<span class="globalTitleName">HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS</span>
+<span class="globalCategory">F</span>
+</div>
+<h1>INTRODUCTION&nbsp;&nbsp;HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS&nbsp;&nbsp;GENERAL INFORMATION&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000G4HQ_z0" class="category no00">
+<div class="content5">
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>A large number of ECU controlled systems are used in this vehicle. In general, ECU controlled systems are considered to be very intricate, requiring a high level of technical knowledge to troubleshoot. However, most problem checking procedures only involve inspecting the ECU controlled system circuits one by one. An adequate understanding of the system and a basic knowledge of electricity is enough to perform effective troubleshooting, accurate diagnosis and necessary repairs.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>FOR USING GTS
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Before using the GTS, read the operator's manual thoroughly.
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>If the GTS cannot communicate with the ECU controlled systems when connected to the DLC3 with the ignition switch ON and the GTS on, there is a problem on the vehicle side or the GTS side.
+</p>
+</div>
+</div>
+<div class="list3">
+<div class="list3Item">
+<div class="list3Head">1.</div>
+<div class="list3Body"><p>If communication is possible when the GTS is connected to another vehicle, inspect the diagnosis data link line (bus (+) line), CANH and CANL lines, and the power circuits for the vehicle ECUs.
+</p>
+</div>
+</div>
+<div class="list3Item">
+<div class="list3Head">2.</div>
+<div class="list3Body"><p>If communication is still not possible when the GTS is connected to another vehicle, the problem is probably in the GTS itself. Perform the Self Test procedure outlined in the GTS operator's manual.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">TROUBLESHOOTING PROCEDURES
+</span></p>
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The troubleshooting procedures consist of diagnosis procedures for when a DTC is stored and diagnosis procedures for when no DTC is stored. The basic idea is explained in the following table.
+</p>
+<table summary="">
+<colgroup>
+<col style="width:20%">
+<col style="width:39%">
+<col style="width:39%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Procedure Type
+</th>
+<th class="alcenter">Details
+</th>
+<th class="alcenter">Troubleshooting Method
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">DTC Based Diagnosis
+</td>
+<td class="alleft">The diagnosis procedure is based on the DTC that is stored.
+</td>
+<td class="alleft">The malfunctioning part is identified based on the DTC detection conditions using a process of elimination.
+<br>
+The possible trouble areas are eliminated one-by-one using the GTS and inspection of related parts.
+</td>
+</tr>
+<tr>
+<td class="alleft">Symptom Based Diagnosis
+<br>
+(No DTCs stored)
+</td>
+<td class="alleft">The diagnosis procedure is based on problem symptoms.
+</td>
+<td class="alleft">The malfunctioning part is identified based on the problem symptoms using a process of elimination.
+<br>
+The possible trouble areas are eliminated one-by-one using the GTS and inspection of related parts.
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Vehicle systems are complex and use many ECUs that are difficult to inspect independently. Therefore, a process of elimination is used, where components that can be inspected individually are inspected, and if no problems are found in these components, the related ECU is identified as the problem and replaced.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>It is extremely important to ask the customer about the environment and the conditions present when the problem occurred (Customer Problem Analysis). This makes it possible to simulate the conditions and confirm the symptom. If the symptom cannot be confirmed or the DTC does not recur, the malfunctioning part may not be identified using the troubleshooting procedure, and the ECU for the related system may be replaced even though it is not defective. If this happens, the original problem will not be solved.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>In order to prevent endless expansion of troubleshooting procedures, the troubleshooting procedures are written with the assumption that multiple malfunctions do not occur simultaneously for a single problem symptom.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>To identify the malfunctioning part, troubleshooting procedures narrow down the target by separating components, ECUs and wire harnesses during the inspection. If the wire harness is identified as the cause of the problem, it is necessary to inspect not only the connections to components and ECUs but also all of the wire harness connectors between the component and the ECU.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">DESCRIPTION
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>The data of each system and Diagnostic Trouble Codes (DTCs) can be read from the Data Link Connector 3 (DLC3) of the vehicle. When the system seems to be malfunctioning, use the GTS to check for malfunctions and perform repairs.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">CHECK DLC3
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/D103440N01.png" alt="D103440N01" title="D103440N01">
+<div class="indicateinfo">
+<span class="line">
+<span class="points">1.979,1.448 1.813,1.781</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">1.573,1.042 0.604,1.448</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">2.344,1.438 2.427,1.792</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">2.167,1.042 2.781,1.417</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">2.427,0.354 1.969,0.865</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">1.115,0.344 1.781,0.865</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.375,1.385 0.688,1.552</span>
+<span class="captionSize">0.313,0.167</span>
+<span class="fontsize">10</span>
+<span class="captionText">CG</span>
+</span>
+<span class="caption">
+<span class="points">0.854,0.24 1.219,0.438</span>
+<span class="captionSize">0.365,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">SG</span>
+</span>
+<span class="caption">
+<span class="points">2.479,0.219 3.01,0.406</span>
+<span class="captionSize">0.531,0.188</span>
+<span class="fontsize">10</span>
+<span class="captionText">CANH</span>
+</span>
+<span class="caption">
+<span class="points">2.823,1.375 3.177,1.573</span>
+<span class="captionSize">0.354,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">SIL</span>
+</span>
+<span class="caption">
+<span class="points">1.521,1.802 2.063,2.01</span>
+<span class="captionSize">0.542,0.208</span>
+<span class="fontsize">10</span>
+<span class="captionText">CANL</span>
+</span>
+<span class="caption">
+<span class="points">2.313,1.802 2.719,1.99</span>
+<span class="captionSize">0.406,0.188</span>
+<span class="fontsize">10</span>
+<span class="captionText">BAT</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+<p>The vehicle ECUs use ISO 15765-4 communication protocol. The terminal arrangement of the DLC3 complies with ISO 15031-3 and matches the ISO 15765-4 format.
+</p>
+<table summary="">
+<colgroup>
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th>Terminal No. (Symbol)
+</th>
+<th>Terminal Description
+</th>
+<th>Condition
+</th>
+<th>Specified Condition
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7 (SIL) - 5 (SG)
+</td>
+<td>Bus "+" line
+</td>
+<td>During transmission
+</td>
+<td>Pulse generation
+</td>
+</tr>
+<tr>
+<td>4 (CG) - Body ground
+</td>
+<td>Chassis ground
+</td>
+<td>Always
+</td>
+<td>Below 1 Ω
+</td>
+</tr>
+<tr>
+<td>5 (SG) - Body ground
+</td>
+<td>Signal ground
+</td>
+<td>Always
+</td>
+<td>Below 1 Ω
+</td>
+</tr>
+<tr>
+<td>16 (BAT) - Body ground
+</td>
+<td>Battery positive
+</td>
+<td>Always
+</td>
+<td>for 12 V battery: 11 to 14 V
+<br>
+for 24 V battery: 20 to 24 V
+</td>
+</tr>
+<tr>
+<td>6 (CANH) - 14 (CANL)
+</td>
+<td>CAN bus line
+</td>
+<td>Ignition switch off*
+</td>
+<td>54 to 69 Ω
+</td>
+</tr>
+<tr>
+<td>6 (CANH) - 4 (CG)
+</td>
+<td>HIGH-level CAN bus line
+</td>
+<td>Ignition switch off*
+</td>
+<td>200 Ω or higher
+</td>
+</tr>
+<tr>
+<td>14 (CANL) - 4 (CG)
+</td>
+<td>LOW-level CAN bus line
+</td>
+<td>Ignition switch off*
+</td>
+<td>200 Ω or higher
+</td>
+</tr>
+<tr>
+<td>6 (CANH) - 16 (BAT)
+</td>
+<td>HIGH-level CAN bus line
+</td>
+<td>Ignition switch off*
+</td>
+<td>6 kΩ or higher
+</td>
+</tr>
+<tr>
+<td>14 (CANL) - 16 (BAT)
+</td>
+<td>LOW-level CAN bus line
+</td>
+<td>Ignition switch off*
+</td>
+<td>6 kΩ or higher
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3">
+<p>*: Before measuring the resistance, leave the vehicle as is for at least 1 minute and do not operate the ignition switch, any other switches or the doors.
+</p>
+</dd>
+</dl>
+<br>
+<p>If the result is not as specified, the DLC3 may have a malfunction. Repair or replace the harness or connector.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

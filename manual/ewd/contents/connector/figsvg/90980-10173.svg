@@ -1,0 +1,77 @@
+﻿<?xml version="1.0"?>
+<!-- Generator: Adobe Illustrator 10.0, SVG Export Plug-In . SVG Version: 3.0.0 Build 77)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st1 "fill:none;stroke:#000000;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st2 "font-size:6px;">
+	<!ENTITY st3 "font-family:'Arial';">
+	<!ATTLIST svg
+		ewd:ver CDATA #IMPLIED
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/">
+	<!ATTLIST g
+		ewd:pinNo CDATA #IMPLIED>
+]>
+<svg width="55.221" height="34.683" viewBox="0 0 55.221 34.683" style="overflow:visible;enable-background:new 0 0 55.221 34.683" xml:space="preserve" onload="call_execInitLoadProc_svg('connector')" ewd:ver="2.1.2.9" xmlns="&ns_svg;" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:xlink="&ns_xlink;">
+<script type="text/javascript" xlink:href="../../../../../system/js/ewd/fig/svgfig.js"/>
+<g id="レイヤー_1">
+	<path style="&st1;" d="M19.197,9.877v20.566"/>
+	<path style="&st1;" d="M2.37,20.16h50.481"/>
+	<path style="&st1;" d="M36.024,9.877v20.566"/>
+	<path style="&st1;" d="M17.327,5.174h20.566"/>
+	<path style="&st1;" d="M33.219,3.05v2.125"/>
+	<path style="&st1;" d="M22.001,5.174V3.05"/>
+	<path style="&st1;" d="M1.916,8.007h12.578"/>
+	<path style="&st0;" d="M0.5,32.767V7.554"/>
+	<path style="&st1;" d="M53.304,32.313H1.916"/>
+	<path style="&st0;" d="M54.721,7.554v25.213"/>
+	<path style="&st0;" d="M53.304,34.183H1.916"/>
+	<path style="&st0;" d="M1.916,6.138h11.162"/>
+	<path style="&st0;" d="M42.143,6.138h11.161"/>
+	<path style="&st1;" d="M40.727,8.007h12.578"/>
+	<path style="&st1;" d="M37.894,8.007H17.327"/>
+	<path style="&st1;" d="M1.916,8.007C1.134,8.007,0.5,8.641,0.5,9.424"/>
+	<path style="&st1;" d="M54.721,9.424c0-0.783-0.634-1.417-1.417-1.417"/>
+	<path style="&st1;" d="M0.5,30.897c0,0.782,0.634,1.417,1.416,1.417"/>
+	<path style="&st1;" d="M53.304,32.313c0.783,0,1.417-0.634,1.417-1.417"/>
+	<path style="&st1;" d="M1.916,9.877c-0.782,0-1.416,0.634-1.416,1.417"/>
+	<path style="&st1;" d="M54.721,11.293c0-0.782-0.634-1.417-1.417-1.417"/>
+	<path style="&st1;" d="M50.472,9.424c0-0.783-0.634-1.417-1.417-1.417"/>
+	<path style="&st1;" d="M6.166,8.007c-0.782,0-1.417,0.634-1.417,1.417"/>
+	<path style="&st0;" d="M14.494,7.554c0-0.782-0.634-1.416-1.417-1.416"/>
+	<path style="&st0;" d="M42.143,6.138c-0.782,0-1.417,0.634-1.417,1.416"/>
+	<path style="&st0;" d="M54.721,7.554c0-0.782-0.634-1.416-1.417-1.416"/>
+	<path style="&st0;" d="M1.916,6.138C1.134,6.138,0.5,6.771,0.5,7.554"/>
+	<path style="&st0;" d="M0.5,32.767c0,0.782,0.634,1.417,1.416,1.417"/>
+	<path style="&st0;" d="M53.304,34.183c0.783,0,1.417-0.634,1.417-1.417"/>
+	<path style="&st0;" d="M37.894,4.466c0-0.783-0.634-1.417-1.417-1.417"/>
+	<path style="&st0;" d="M18.744,3.05c-0.782,0-1.417,0.634-1.417,1.417"/>
+	<path style="&st0;" d="M36.477,3.05h-3.258V0.5H22.001v2.55h-3.258"/>
+	<path style="&st0;" d="M17.327,4.466v3.541h-2.833V7.554"/>
+	<path style="&st0;" d="M40.727,7.554v0.454h-2.833V4.466"/>
+	<path style="&st1;" d="M6.619,9.877h41.983v1.87h4.249v18.697H2.37V11.747h4.25V9.877"/>
+	<path style="&st1;" d="M1.916,9.877h2.833V9.424"/>
+	<path style="&st1;" d="M50.472,9.424v0.453h2.833"/>
+	<g ewd:pinNo="1">
+		<text transform="matrix(1 0 0 1 8.8135 17.3047)"><tspan x="0" y="0" style="&st3; &st2;">1</tspan></text>
+	</g>
+	<g ewd:pinNo="2">
+		<text transform="matrix(1 0 0 1 25.6406 17.3047)"><tspan x="0" y="0" style="&st3; &st2;">2</tspan></text>
+	</g>
+	<g ewd:pinNo="3">
+		<text transform="matrix(1 0 0 1 42.4678 17.3047)"><tspan x="0" y="0" style="&st3; &st2;">3</tspan></text>
+	</g>
+	<g ewd:pinNo="4">
+		<text transform="matrix(1 0 0 1 8.8135 27.5879)"><tspan x="0" y="0" style="&st3; &st2;">4</tspan></text>
+	</g>
+	<g ewd:pinNo="5">
+		<text transform="matrix(1 0 0 1 25.6406 27.5879)"><tspan x="0" y="0" style="&st3; &st2;">5</tspan></text>
+	</g>
+	<g ewd:pinNo="6">
+		<text transform="matrix(1 0 0 1 42.4678 27.5879)"><tspan x="0" y="0" style="&st3; &st2;">6</tspan></text>
+	</g>
+</g>
+</svg>

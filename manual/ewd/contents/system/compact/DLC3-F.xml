@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE compact-defs SYSTEM "../../../dtd/compact.dtd">
+<compact-defs pubno="EM25T2E" ver="2.1.2.9">
+    <part code="2" figID="1" type="rb">
+        <path d="M 46.74, 27.71 L 91.93, 27.71 L 91.93, 103.77 L 46.74, 103.77 L 46.74, 27.71 "/>
+    </part>
+    <part code="I93" figID="2" type="conn">
+        <path d="M 93.48, 409.15 L 110.48, 409.15 L 110.48, 444.28 L 93.48, 444.28 L 93.48, 409.15 "/>
+    </part>
+    <part code="I59,I70" figID="3" type="conn">
+        <path d="M 1725.21, 255.61 L 1755.58, 255.61 L 1755.58, 308.87 L 1725.21, 308.87 L 1725.21, 255.61 "/>
+    </part>
+    <part code="A24" figID="4" type="conn">
+        <path d="M 2923.51, 189.25 L 3076.49, 189.25 L 3076.49, 231.01 L 2923.51, 231.01 L 2923.51, 189.25 "/>
+    </part>
+    <part code="L30" figID="5" type="conn">
+        <path d="M 594.90, 503.70 L 628.89, 503.70 L 628.89, 547.69 L 594.90, 547.69 L 594.90, 503.70 "/>
+    </part>
+    <part code="I61,I72" figID="6" type="conn">
+        <path d="M 600.28, 298.10 L 693.26, 298.10 L 693.26, 351.36 L 600.28, 351.36 L 600.28, 298.10 "/>
+    </part>
+    <part code="I51" figID="7" split="h" type="conn">
+        <path d="M 849.86, 467.21 L 926.35, 467.21 L 926.35, 505.20 L 849.86, 505.20 L 849.86, 467.21 "/>
+        <conn lineID="38,42">
+            <path d="M 858.22, 495.13 L 872.02, 495.13 L 872.02, 511.46 L 858.22, 511.46 L 858.22, 495.13 "/>
+        </conn>
+        <conn lineID="43">
+            <path d="M 858.22, 461.21 L 871.13, 461.21 L 871.13, 476.91 L 858.22, 476.91 L 858.22, 461.21 "/>
+        </conn>
+        <conn lineID="44">
+            <path d="M 900.71, 461.21 L 912.75, 461.21 L 912.75, 476.91 L 900.71, 476.91 L 900.71, 461.21 "/>
+        </conn>
+    </part>
+    <part code="I98,I99" figID="8" type="conn">
+        <path d="M 770.72, 451.08 L 803.74, 451.08 L 803.74, 504.33 L 770.72, 504.33 L 770.72, 451.08 "/>
+    </part>
+    <part code="I59,I95" figID="9" type="conn">
+        <path d="M 1246.64, 246.54 L 1414.64, 246.54 L 1414.64, 317.93 L 1246.64, 317.93 L 1246.64, 246.54 "/>
+    </part>
+    <part code="I111" figID="10" type="conn">
+        <path d="M 1793.20, 393.22 L 1920.68, 393.22 L 1920.68, 434.99 L 1793.20, 434.99 L 1793.20, 393.22 "/>
+    </part>
+    <part code="A25,A26" figID="11" type="conn">
+        <path d="M 2685.55, 179.69 L 2787.53, 179.69 L 2787.53, 214.82 L 2685.55, 214.82 L 2685.55, 179.69 "/>
+    </part>
+    <part code="I81,I82" figID="12" type="conn">
+        <path d="M 2685.54, 400.65 L 2787.53, 400.65 L 2787.53, 435.78 L 2685.54, 435.78 L 2685.54, 400.65 "/>
+    </part>
+    <part code="I59" figID="13" type="conn">
+        <path d="M 702.73, 358.16 L 790.37, 358.16 L 790.37, 393.29 L 702.73, 393.29 L 702.73, 358.16 "/>
+    </part>
+    <part code="I118" figID="14" type="conn">
+        <path d="M 345.79, 630.11 L 433.43, 630.11 L 433.43, 665.24 L 345.79, 665.24 L 345.79, 630.11 "/>
+    </part>
+    <part code="S30,U5,Y7" figID="15" split="h" type="conn">
+        <path d="M 373.94, 450.21 L 407.93, 450.21 L 407.93, 488.20 L 373.94, 488.20 L 373.94, 450.21 "/>
+        <conn lineID="18,22,26">
+            <path d="M 382.49, 478.14 L 408.82, 478.14 L 408.82, 513.40 L 382.49, 513.40 L 382.49, 478.14 "/>
+        </conn>
+        <conn lineID="19,23,27">
+            <path d="M 379.79, 425.01 L 408.82, 425.01 L 408.82, 459.91 L 379.79, 459.91 L 379.79, 425.01 "/>
+        </conn>
+    </part>
+    <part code="I118" figID="16" type="conn">
+        <path d="M 345.79, 247.68 L 467.42, 247.68 L 467.42, 282.80 L 345.79, 282.80 L 345.79, 247.68 "/>
+    </part>
+    <part code="I17" figID="17" type="conn">
+        <path d="M 42.49, 155.26 L 1963.17, 155.26 L 1963.17, 214.02 L 42.49, 214.02 L 42.49, 155.26 "/>
+    </part>
+    <part code="I98,I99" figID="18" type="conn">
+        <path d="M 855.71, 349.09 L 1002.83, 349.09 L 1002.83, 402.35 L 855.71, 402.35 L 855.71, 349.09 "/>
+    </part>
+    <part code="I72" figID="19" type="conn">
+        <path d="M 1144.19, 324.16 L 1198.30, 324.16 L 1198.30, 359.29 L 1144.19, 359.29 L 1144.19, 324.16 "/>
+    </part>
+    <part code="A31" figID="20" type="conn">
+        <path d="M 1461.76, 271.74 L 1495.75, 271.74 L 1495.75, 316.80 L 1461.76, 316.80 L 1461.76, 271.74 "/>
+    </part>
+    <part code="A29,I84" figID="21" split="h" type="conn">
+        <path d="M 1376.77, 441.71 L 1750.71, 441.71 L 1750.71, 479.71 L 1376.77, 479.71 L 1376.77, 441.71 "/>
+        <conn lineID="106,62,67,79,89">
+            <path d="M 1721.99, 469.64 L 1741.45, 469.64 L 1741.45, 495.84 L 1721.99, 495.84 L 1721.99, 469.64 "/>
+            <commref figID="107"/>
+            <commref figID="108"/>
+        </conn>
+        <conn lineID="109,57,64,80,82">
+            <path d="M 1620.01, 469.64 L 1639.16, 469.64 L 1639.16, 495.84 L 1620.01, 495.84 L 1620.01, 469.64 "/>
+            <commref figID="107">
+                <lineref lineID="106,62,67,79,89"/>
+            </commref>
+            <commref figID="108">
+                <lineref lineID="106,62,67,79,89"/>
+            </commref>
+        </conn>
+        <conn lineID="34">
+            <path d="M 1416.62, 469.64 L 1432.29, 469.64 L 1432.29, 495.84 L 1416.62, 495.84 L 1416.62, 469.64 "/>
+            <commref figID="113"/>
+        </conn>
+        <conn lineID="51">
+            <path d="M 1382.15, 469.64 L 1402.54, 469.64 L 1402.54, 495.84 L 1382.15, 495.84 L 1382.15, 469.64 "/>
+            <commref figID="113">
+                <lineref lineID="34"/>
+            </commref>
+        </conn>
+        <conn lineID="52,53,54">
+            <path d="M 1382.15, 425.58 L 1415.64, 425.58 L 1415.64, 451.42 L 1382.15, 451.42 L 1382.15, 425.58 "/>
+        </conn>
+        <conn lineID="58,59">
+            <path d="M 1722.56, 425.58 L 1755.58, 425.58 L 1755.58, 451.42 L 1722.56, 451.42 L 1722.56, 425.58 "/>
+        </conn>
+    </part>
+    <part code="A20,A42" figID="22" split="h" type="conn">
+        <path d="M 2184.14, 25.28 L 2796.03, 25.28 L 2796.03, 63.28 L 2184.14, 63.28 L 2184.14, 25.28 "/>
+        <conn lineID="103,88">
+            <path d="M 2682.90, 53.21 L 2701.49, 53.21 L 2701.49, 79.41 L 2682.90, 79.41 L 2682.90, 53.21 "/>
+            <commref figID="111">
+                <lineref lineID="105,97,98"/>
+            </commref>
+            <commref figID="112">
+                <lineref lineID="105,97,98"/>
+            </commref>
+        </conn>
+        <conn lineID="105,97,98">
+            <path d="M 2767.42, 53.21 L 2786.78, 53.21 L 2786.78, 79.41 L 2767.42, 79.41 L 2767.42, 53.21 "/>
+            <commref figID="111"/>
+            <commref figID="112"/>
+        </conn>
+        <conn lineID="77">
+            <path d="M 2189.52, 53.21 L 2219.02, 53.21 L 2219.02, 79.41 L 2189.52, 79.41 L 2189.52, 53.21 "/>
+            <commref figID="127">
+                <lineref lineID="78"/>
+            </commref>
+        </conn>
+        <conn lineID="78">
+            <path d="M 2249.08, 53.21 L 2265.15, 53.21 L 2265.15, 70.34 L 2249.08, 70.34 L 2249.08, 53.21 "/>
+            <commref figID="127"/>
+        </conn>
+    </part>
+    <part code="I113,I115,I120,I122,I124" figID="23" type="conn">
+        <path d="M 1869.69, 281.10 L 2037.22, 281.10 L 2037.22, 342.86 L 1869.69, 342.86 L 1869.69, 281.10 "/>
+    </part>
+    <part code="I77,I78,I83" figID="24" type="conn">
+        <path d="M 2396.60, 579.12 L 2915.01, 579.12 L 2915.01, 615.68 L 2396.60, 615.68 L 2396.60, 579.12 "/>
+    </part>
+    <part code="AC5" figID="26" type="w2w">
+        <path d="M 191.58, 441.71 L 222.45, 441.71 L 222.45, 461.27 L 191.58, 461.27 L 191.58, 441.71 "/>
+    </part>
+    <part code="IC2" figID="27" type="w2w">
+        <path d="M 191.58, 433.21 L 222.45, 433.21 L 222.45, 445.71 L 191.58, 445.71 L 191.58, 433.21 "/>
+    </part>
+    <part code="AI3" figID="28" type="w2w">
+        <path d="M 188.48, 324.16 L 212.46, 324.16 L 212.46, 343.73 L 188.48, 343.73 L 188.48, 324.16 "/>
+    </part>
+    <part code="AC1" figID="29" type="w2w">
+        <path d="M 242.98, 433.21 L 263.46, 433.21 L 263.46, 452.78 L 242.98, 452.78 L 242.98, 433.21 "/>
+    </part>
+    <part code="AI3" figID="30" type="w2w">
+        <path d="M 239.47, 331.23 L 288.11, 331.23 L 288.11, 343.73 L 239.47, 343.73 L 239.47, 331.23 "/>
+    </part>
+    <part code="AI3" figID="31" type="w2w">
+        <path d="M 239.87, 322.73 L 287.11, 322.73 L 287.11, 335.23 L 239.87, 335.23 L 239.87, 322.73 "/>
+    </part>
+    <part code="AI3" figID="32" type="w2w">
+        <path d="M 239.40, 314.23 L 273.44, 314.23 L 273.44, 326.73 L 239.40, 326.73 L 239.40, 314.23 "/>
+    </part>
+    <part code="AI3" figID="33" type="w2w">
+        <path d="M 239.30, 298.67 L 273.44, 298.67 L 273.44, 318.23 L 239.30, 318.23 L 239.30, 298.67 "/>
+    </part>
+    <part code="CA4" figID="34" type="w2w">
+        <path d="M 290.87, 426.15 L 314.45, 426.15 L 314.45, 445.71 L 290.87, 445.71 L 290.87, 426.15 "/>
+    </part>
+    <part code="IS2" figID="35" type="w2w">
+        <path d="M 344.39, 570.62 L 365.44, 570.62 L 365.44, 590.19 L 344.39, 590.19 L 344.39, 570.62 "/>
+    </part>
+    <part code="IS2" figID="36" type="w2w">
+        <path d="M 341.39, 348.23 L 365.44, 348.23 L 365.44, 367.79 L 341.39, 367.79 L 341.39, 348.23 "/>
+    </part>
+    <part code="UI5" figID="37" type="w2w">
+        <path d="M 375.85, 577.69 L 399.43, 577.69 L 399.43, 597.25 L 375.85, 597.25 L 375.85, 577.69 "/>
+    </part>
+    <part code="UI5" figID="38" type="w2w">
+        <path d="M 375.85, 341.16 L 399.43, 341.16 L 399.43, 360.73 L 375.85, 360.73 L 375.85, 341.16 "/>
+    </part>
+    <part code="YI3" figID="39" type="w2w">
+        <path d="M 412.53, 577.69 L 433.43, 577.69 L 433.43, 597.25 L 412.53, 597.25 L 412.53, 577.69 "/>
+    </part>
+    <part code="YI3" figID="40" type="w2w">
+        <path d="M 412.48, 341.16 L 433.43, 341.16 L 433.43, 360.73 L 412.48, 360.73 L 412.48, 341.16 "/>
+    </part>
+    <part code="LI1" figID="41" type="w2w">
+        <path d="M 596.81, 426.15 L 620.40, 426.15 L 620.40, 445.71 L 596.81, 445.71 L 596.81, 426.15 "/>
+    </part>
+    <part code="AI3" figID="42" type="w2w">
+        <path d="M 655.83, 426.15 L 679.89, 426.15 L 679.89, 445.71 L 655.83, 445.71 L 655.83, 426.15 "/>
+    </part>
+    <part code="AI3" figID="43" type="w2w">
+        <path d="M 698.80, 426.15 L 722.38, 426.15 L 722.38, 445.71 L 698.80, 445.71 L 698.80, 426.15 "/>
+    </part>
+    <part code="AI3" figID="44" type="w2w">
+        <path d="M 1420.78, 373.72 L 1454.74, 373.72 L 1454.74, 386.22 L 1420.78, 386.22 L 1420.78, 373.72 "/>
+    </part>
+    <part code="AI3" figID="45" type="w2w">
+        <path d="M 1420.78, 358.16 L 1454.74, 358.16 L 1454.74, 377.72 L 1420.78, 377.72 L 1420.78, 358.16 "/>
+    </part>
+    <part code="AI3" figID="46" type="w2w">
+        <path d="M 1718.06, 358.16 L 1742.21, 358.16 L 1742.21, 377.72 L 1718.06, 377.72 L 1718.06, 358.16 "/>
+    </part>
+    <part code="AI3" figID="47" type="w2w">
+        <path d="M 1789.31, 477.14 L 1810.20, 477.14 L 1810.20, 496.70 L 1789.31, 496.70 L 1789.31, 477.14 "/>
+    </part>
+    <part code="AI3" figID="48" type="w2w">
+        <path d="M 1820.14, 477.14 L 1844.19, 477.14 L 1844.19, 496.70 L 1820.14, 496.70 L 1820.14, 477.14 "/>
+    </part>
+    <part code="AI3" figID="49" type="w2w">
+        <path d="M 1956.19, 390.72 L 1980.17, 390.72 L 1980.17, 403.22 L 1956.19, 403.22 L 1956.19, 390.72 "/>
+        <commref figID="169">
+            <partref dir="h" figID="51"/>
+        </commref>
+    </part>
+    <part code="AI3" figID="50" type="w2w">
+        <path d="M 1956.19, 375.16 L 1980.17, 375.16 L 1980.17, 394.72 L 1956.19, 394.72 L 1956.19, 375.16 "/>
+        <commref figID="170">
+            <partref dir="h" figID="52"/>
+        </commref>
+    </part>
+    <part code="AI3" figID="51" type="w2w">
+        <path d="M 1990.18, 390.72 L 2014.16, 390.72 L 2014.16, 403.22 L 1990.18, 403.22 L 1990.18, 390.72 "/>
+        <commref figID="169">
+            <partref dir="h"/>
+        </commref>
+    </part>
+    <part code="AI3" figID="52" type="w2w">
+        <path d="M 1990.18, 375.16 L 2014.16, 375.16 L 2014.16, 394.72 L 1990.18, 394.72 L 1990.18, 375.16 "/>
+        <commref figID="170">
+            <partref dir="h"/>
+        </commref>
+    </part>
+    <part code="IA4" figID="53" type="w2w">
+        <path d="M 2189.15, 144.26 L 2209.63, 144.26 L 2209.63, 156.76 L 2189.15, 156.76 L 2189.15, 144.26 "/>
+        <commref figID="109">
+            <partref dir="h" figID="55"/>
+        </commref>
+    </part>
+    <part code="IA2" figID="54" type="w2w">
+        <path d="M 2189.15, 128.70 L 2209.63, 128.70 L 2209.63, 148.26 L 2189.15, 148.26 L 2189.15, 128.70 "/>
+        <commref figID="110">
+            <partref dir="h" figID="56"/>
+        </commref>
+    </part>
+    <part code="IA4" figID="55" type="w2w">
+        <path d="M 2248.24, 144.26 L 2269.12, 144.26 L 2269.12, 156.76 L 2248.24, 156.76 L 2248.24, 144.26 "/>
+        <commref figID="109">
+            <partref dir="h"/>
+        </commref>
+    </part>
+    <part code="IA2" figID="56" type="w2w">
+        <path d="M 2248.24, 128.70 L 2269.12, 128.70 L 2269.12, 148.26 L 2248.24, 148.26 L 2248.24, 128.70 "/>
+        <commref figID="110">
+            <partref dir="h"/>
+        </commref>
+    </part>
+    <part code="AI3" figID="57" type="w2w">
+        <path d="M 2304.63, 519.63 L 2328.61, 519.63 L 2328.61, 539.20 L 2304.63, 539.20 L 2304.63, 519.63 "/>
+    </part>
+    <part code="AI3" figID="58" type="w2w">
+        <path d="M 2347.12, 519.63 L 2371.10, 519.63 L 2371.10, 539.20 L 2347.12, 539.20 L 2347.12, 519.63 "/>
+    </part>
+    <part code="IA4" figID="59" type="w2w">
+        <path d="M 2681.65, 322.73 L 2702.55, 322.73 L 2702.55, 335.23 L 2681.65, 335.23 L 2681.65, 322.73 "/>
+        <commref figID="104">
+            <partref dir="h" figID="61"/>
+        </commref>
+    </part>
+    <part code="IA2" figID="60" type="w2w">
+        <path d="M 2681.65, 307.17 L 2702.55, 307.17 L 2702.55, 326.73 L 2681.65, 326.73 L 2681.65, 307.17 "/>
+        <commref figID="103">
+            <partref dir="h" figID="62"/>
+        </commref>
+    </part>
+    <part code="IA4" figID="61" type="w2w">
+        <path d="M 2766.58, 322.73 L 2787.53, 322.73 L 2787.53, 335.23 L 2766.58, 335.23 L 2766.58, 322.73 "/>
+        <commref figID="104">
+            <partref dir="h"/>
+        </commref>
+    </part>
+    <part code="IA2" figID="62" type="w2w">
+        <path d="M 2766.58, 307.17 L 2787.53, 307.17 L 2787.53, 326.73 L 2766.58, 326.73 L 2766.58, 307.17 "/>
+        <commref figID="103">
+            <partref dir="h"/>
+        </commref>
+    </part>
+    <part code="AI3" figID="63" type="w2w">
+        <path d="M 2916.53, 288.74 L 2940.51, 288.74 L 2940.51, 308.30 L 2916.53, 308.30 L 2916.53, 288.74 "/>
+        <commref figID="106">
+            <partref dir="h" figID="65"/>
+        </commref>
+    </part>
+    <part code="AI3" figID="64" type="w2w">
+        <path d="M 2916.53, 280.24 L 2940.51, 280.24 L 2940.51, 292.74 L 2916.53, 292.74 L 2916.53, 280.24 "/>
+        <commref figID="105">
+            <partref dir="h" figID="66"/>
+        </commref>
+    </part>
+    <part code="AI3" figID="65" type="w2w">
+        <path d="M 2959.02, 288.74 L 2983.00, 288.74 L 2983.00, 308.30 L 2959.02, 308.30 L 2959.02, 288.74 "/>
+        <commref figID="106">
+            <partref dir="h"/>
+        </commref>
+    </part>
+    <part code="AI3" figID="66" type="w2w">
+        <path d="M 2959.02, 280.24 L 2983.00, 280.24 L 2983.00, 292.74 L 2959.02, 292.74 L 2959.02, 280.24 "/>
+        <commref figID="105">
+            <partref dir="h"/>
+        </commref>
+    </part>
+    <part code="AI3" figID="67" type="w2w">
+        <path d="M 3010.01, 280.24 L 3033.99, 280.24 L 3033.99, 299.80 L 3010.01, 299.80 L 3010.01, 280.24 "/>
+    </part>
+    <part code="AI3" figID="68" type="w2w">
+        <path d="M 3052.50, 280.24 L 3076.49, 280.24 L 3076.49, 299.80 L 3052.50, 299.80 L 3052.50, 280.24 "/>
+    </part>
+    <part code="IA" figID="69" type="gp">
+        <path d="M 48.87, 679.67 L 70.11, 679.67 L 70.11, 710.00 L 48.87, 710.00 L 48.87, 679.67 "/>
+    </part>
+    <part code="CA" figID="70" type="gp">
+        <path d="M 193.34, 679.67 L 214.59, 679.67 L 214.59, 710.00 L 193.34, 710.00 L 193.34, 679.67 "/>
+    </part>
+    <part code="CC" figID="71" type="gp">
+        <path d="M 244.33, 679.67 L 265.58, 679.67 L 265.58, 710.00 L 244.33, 710.00 L 244.33, 679.67 "/>
+    </part>
+    <part code="CE" figID="72" type="gp">
+        <path d="M 295.33, 679.67 L 316.57, 679.67 L 316.57, 710.00 L 295.33, 710.00 L 295.33, 679.67 "/>
+    </part>
+    <part code="" dir="h" figID="190" type="cs">
+        <path d="M 806.82, 543.69 L 840.92, 543.69 L 840.92, 550.96 L 806.82, 550.96 L 806.82, 543.69 "/>
+        <line lineID="38"/>
+    </part>
+    <part code="" dir="h" figID="191" type="cs">
+        <path d="M 806.79, 518.20 L 841.88, 518.20 L 841.88, 525.46 L 806.79, 525.46 L 806.79, 518.20 "/>
+        <line lineID="42"/>
+    </part>
+    <part code="" dir="h" figID="192" type="cs">
+        <path d="M 466.88, 220.75 L 500.98, 220.75 L 500.98, 228.01 L 466.88, 228.01 L 466.88, 220.75 "/>
+        <line lineID="32"/>
+    </part>
+    <part code="" dir="h" figID="193" type="cs">
+        <path d="M 2599.68, 476.14 L 2635.36, 476.14 L 2635.36, 488.20 L 2599.68, 488.20 L 2599.68, 476.14 "/>
+        <line lineID="90"/>
+    </part>
+    <part code="" dir="h" figID="194" type="cs">
+        <path d="M 2077.58, 509.70 L 2119.02, 509.70 L 2119.02, 516.96 L 2077.58, 516.96 L 2077.58, 509.70 "/>
+        <line lineID="89"/>
+    </part>
+    <part code="" dir="h" figID="195" type="cs">
+        <path d="M 2595.99, 501.20 L 2637.43, 501.20 L 2637.43, 508.47 L 2595.99, 508.47 L 2595.99, 501.20 "/>
+        <line lineID="89"/>
+    </part>
+    <part code="" dir="h" figID="196" type="cs">
+        <path d="M 2081.26, 586.62 L 2116.94, 586.62 L 2116.94, 598.69 L 2081.26, 598.69 L 2081.26, 586.62 "/>
+        <line lineID="79"/>
+    </part>
+    <part code="" dir="h" figID="197" type="cs">
+        <path d="M 2595.99, 560.69 L 2637.43, 560.69 L 2637.43, 567.96 L 2595.99, 567.96 L 2595.99, 560.69 "/>
+        <line lineID="82"/>
+    </part>
+    <part code="" dir="h" figID="198" type="cs">
+        <path d="M 2547.54, 535.63 L 2585.25, 535.63 L 2585.25, 547.69 L 2547.54, 547.69 L 2547.54, 535.63 "/>
+        <line lineID="83"/>
+    </part>
+    <part code="" dir="h" figID="199" type="cs">
+        <path d="M 2080.12, 603.62 L 2117.83, 603.62 L 2117.83, 615.68 L 2080.12, 615.68 L 2080.12, 603.62 "/>
+        <line lineID="80"/>
+    </part>
+    <part code="" dir="h" figID="200" type="cs">
+        <path d="M 2546.03, 306.17 L 2586.08, 306.17 L 2586.08, 318.23 L 2546.03, 318.23 L 2546.03, 306.17 "/>
+        <line lineID="86"/>
+    </part>
+    <part code="" dir="h" figID="201" type="cs">
+        <path d="M 2027.62, 433.64 L 2067.67, 433.64 L 2067.67, 445.71 L 2027.62, 445.71 L 2027.62, 433.64 "/>
+        <line lineID="86"/>
+    </part>
+    <part code="" dir="h" figID="202" type="cs">
+        <path d="M 2082.85, 221.18 L 2114.54, 221.18 L 2114.54, 233.25 L 2082.85, 233.25 L 2082.85, 221.18 "/>
+        <line lineID="73"/>
+    </part>
+    <part code="" dir="h" figID="203" type="cs">
+        <path d="M 2598.17, 323.16 L 2636.19, 323.16 L 2636.19, 335.23 L 2598.17, 335.23 L 2598.17, 323.16 "/>
+        <line lineID="74"/>
+    </part>
+    <part code="" dir="h" figID="204" type="cs">
+        <path d="M 2079.75, 450.64 L 2117.77, 450.64 L 2117.77, 462.71 L 2079.75, 462.71 L 2079.75, 450.64 "/>
+        <line lineID="74"/>
+    </part>
+    <part code="" dir="h" figID="205" type="cs">
+        <path d="M 2719.00, 246.24 L 2753.10, 246.24 L 2753.10, 253.51 L 2719.00, 253.51 L 2719.00, 246.24 "/>
+        <line lineID="74"/>
+    </part>
+    <part code="" dir="h" figID="206" type="cs">
+        <path d="M 1758.63, 526.70 L 1793.72, 526.70 L 1793.72, 533.96 L 1758.63, 533.96 L 1758.63, 526.70 "/>
+        <line lineID="62"/>
+    </part>
+</compact-defs>

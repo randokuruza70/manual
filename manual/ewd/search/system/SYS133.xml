@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS133">
+    <part type="conn" code="A25,A26">
+      <name>Brake Vacuum Check Valve Assembly</name>
+    </part>
+    <part type="conn" code="A27,A28">
+      <name>Brake Vacuum Check Valve Assembly</name>
+    </part>
+    <part type="conn" code="A22">
+      <name>No. 1 Junction Connector</name>
+    </part>
+    <part type="conn" code="I68,I75">
+      <name>No. 17 Junction Connector</name>
+    </part>
+    <part type="conn" code="A23">
+      <name>No. 2 Junction Connector</name>
+    </part>
+    <part type="conn" code="I73">
+      <name>No. 22 Junction Connector</name>
+    </part>
+    <part type="conn" code="L39">
+      <name>No. 31 Junction Connector</name>
+    </part>
+    <part type="conn" code="C38">
+      <name>No. 4 Junction Connector</name>
+    </part>
+    <part type="conn" code="I54">
+      <name>No. 5 Junction Connector</name>
+    </part>
+  </ttl>
+</EWDSearch>

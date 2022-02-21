@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'ArialMT';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'ArialMT';">
+	<!ENTITY st11 "font-size:9px;font-family:'Svg Symbol';">
+	<!ENTITY st12 "font-size:6px;font-family:'Svg Symbol';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'Arial';">
+	<!ENTITY st19 "font-size:9px;font-family:'Arial';">
+	<!ENTITY st20 "font-size:6px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 7245.579 710.000" viewBox="0 0 7245.579 710.000" height="710.000" width="7245.579" xml:space="preserve" ewd:ver="2.1.2.9" xmlns="&ns_svg;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:xlink="&ns_xlink;">
+<path style="stroke-width:1.42 ;&st7;  " d=" M  5116.15,   392.72  L  5107.65,   392.72  " /><text style="&st18;" transform="matrix(&st17;  5282.42  380.82 )">R-Y</text><text style="&st18;" transform="matrix(&st17;  5350.41  380.71 )">R-L</text><text style="&st18;" transform="matrix(&st17;  5214.43  380.78 )">B-L</text><text style="&st18;" transform="matrix(&st16;  5410.18  110.24 )">L25(A),L26(B)</text><text style="&st18;" transform="matrix(&st17;  5103.95  364.6 )">R-W</text><text style="&st18;" transform="matrix(&st17;  5103.95  424.09 )">R-W</text><text style="&st18;" transform="matrix(&st16;  5202.87  26.42 )">(*13)</text><text style="&st18;" transform="matrix(&st16;  5203.95  15.09 )">B-Y</text><text style="&st18;" transform="matrix(&st16;  5151.87  26.42 )">(*13)</text><text style="&st18;" transform="matrix(&st16;  5152.96  15.09 )">B-Y</text><text style="&st18;" transform="matrix(&st17;  5435.4  380.82 )">B-R</text><text style="&st18;" transform="matrix(&st16;  5410.19  117.07 )" ewd:textID="40">Combination Meter Assembly</text><g ewd:figtype="conn" ewd:figID="16" ewd:code="S3"><path style="stroke-width:0.85 ;&st7;  " d=" M  5107.65,   477.71  L  5107.65,   473.46  " /><path style="stroke-width:0.85 ;&st7;  " d=" M  5107.65,   447.96  L  5107.65,   443.71  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  5107.65,   470.62  L  5113.31,   447.96  " /><path style="stroke-width:0.85 ;&st7;   " d=" M  5109.06,   472.04  C  5109.06    471.26   5108.43    470.62   5107.65    470.62  " /><path style="stroke-width:0.85 ;&st7;   " d=" M  5107.65,   470.62  C  5106.86    470.62   5106.23    471.26   5106.23    472.04  " /><path style="stroke-width:0.85 ;&st7;   " d=" M  5106.23,   472.04  C  5106.23    472.82   5106.86    473.46   5107.65    473.46  " /><path style="stroke-width:0.85 ;&st7;   " d=" M  5107.65,   473.46  C  5108.43    473.46   5109.06    472.82   5109.06    472.04  " /><path style="stroke-width:0.85 ;&st7;   " d=" M  5109.06,   449.38  C  5109.06    448.59   5108.43    447.96   5107.65    447.96  " /><path style="stroke-width:0.85 ;&st7;   " d=" M  5107.65,   447.96  C  5106.86    447.96   5106.23    448.59   5106.23    449.38  " /><path style="stroke-width:0.85 ;&st7;   " d=" M  5106.23,   449.38  C  5106.23    450.16   5106.86    450.79   5107.65    450.79  " /><path style="stroke-width:0.85 ;&st7;   " d=" M  5107.65,   450.79  C  5108.43    450.79   5109.06    450.16   5109.06    449.38  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  5116.14,   443.71  L  5116.14,   477.71  L  5099.15,   477.71  L  5099.15,   443.71  L  5116.14,   443.71  " /><text style="&st18;" transform="matrix(&st16;  5101.46  440.02 )">1</text><g ewd:figtype="title"><text style="&st18;" transform="matrix(&st17;  5124.04  480.6 )">S3</text><text style="&st18;" transform="matrix(&st17;  5130.86  480.61 )" ewd:textID="104">Parking Brake Switch Assembly</text></g></g><g ewd:figtype="w2w" ewd:figID="154" ewd:code="LS1"><path style="stroke-width:1.42 ;&st7;  " d=" M  5111.89,   401.78  L  5107.64,   397.54  L  5103.40,   401.78  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  5111.89,   398.39  L  5107.64,   394.14  L  5103.40,   398.39  " /><text style="&st18;" transform="matrix(&st16;  5095.01  390.44 )">2</text></g><g ewd:figtype="annex" ewd:figID="46" ewd:code=" "><path style="stroke-width:1.42 ;&st7;  " d=" M  5439.09,   409.72  L  5444.15,   398.35  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  5439.09,   409.72  L  5434.03,   398.35  " /><text style="&st18;" transform="matrix(&st17;  5438.24  454.32 )" ewd:textID="62">Fuel Control <tspan x="0 " dy="6.0">Switch Assembly</tspan></text></g><g ewd:figtype="annex" ewd:figID="47" ewd:code=" "><path style="stroke-width:1.42 ;&st7;  " d=" M  5218.13,   409.72  L  5213.07,   398.35  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  5218.13,   409.72  L  5223.19,   398.35  " /><text style="&st18;" transform="matrix(&st17;  5211.63  467.43 )" ewd:textID="36">Center Differential <tspan x="0 " dy="6.0">Lock Indicator Switch </tspan><tspan x="0 " dy="6.0">(No.1 Transfer </tspan><tspan x="0 " dy="6.0"> Indicator Switch)</tspan></text></g><g ewd:figtype="annex" ewd:figID="53" ewd:code=" "><path style="stroke-width:1.42 ;&st7;  " d=" M  5354.11,   409.72  L  5359.16,   398.35  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  5354.11,   409.72  L  5349.05,   398.35  " /><text style="&st18;" transform="matrix(&st17;  5353.26  465.25 )" ewd:textID="108">Rear Differential <tspan x="0 " dy="6.0">Lock Position Switch</tspan></text></g><g ewd:figtype="annex" ewd:figID="54" ewd:code=" "><path style="stroke-width:1.42 ;&st7;  " d=" M  5286.12,   409.72  L  5281.06,   398.35  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  5286.12,   409.72  L  5291.18,   398.35  " /><text style="&st18;" transform="matrix(&st17;  5285.27  465.25 )" ewd:textID="53">Front Differential <tspan x="0 " dy="6.0">Lock Position Switch</tspan></text></g><g ewd:figtype="annex" ewd:figID="202" ewd:code=" "><path style="stroke-width: 0.85 ;&st7;  " d=" M  5106.23,   494.70  L  5109.06,   494.70  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  5099.15,   486.20  L  5116.14,   486.20  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  5104.81,   491.87  L  5110.48,   491.87  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  5107.64,   477.71  L  5107.64,   486.20  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  5103.40,   489.04  L  5111.89,   489.04  " /></g></svg>

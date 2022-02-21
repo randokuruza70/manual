@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS046">
+    <part type="conn" code="I63,I65">
+      <name>No. 13 Junction Connector</name>
+    </part>
+    <part type="conn" code="A23">
+      <name>No. 2 Junction Connector</name>
+    </part>
+    <part type="conn" code="L39">
+      <name>No. 31 Junction Connector</name>
+    </part>
+    <part type="conn" code="I57">
+      <name>No. 8 Junction Connector</name>
+    </part>
+    <part type="conn" code="A2">
+      <text>M</text>
+      <name>Windshield Washer Motor and Pump Assembly</name>
+    </part>
+    <part type="conn" code="A12">
+      <text>+1 +2 M E +S B</text>
+      <name>Windshield Wiper Motor Assembly</name>
+    </part>
+    <part type="conn" code="L22,L23">
+      <text>WF EW LO +1 +2 HI OFF MIST +B +S (*8) (*7) HI INT OFF MIST B1 INT2 INT1 +S +1 +2 +B LO WF EW</text>
+      <name>Windshield Wiper Switch Assembly</name>
+      <name type="inner">On</name>
+      <name type="inner">Front Wiper Switch</name>
+      <name type="inner">Front Washer Switch</name>
+      <name type="inner">Off</name>
+      <name type="inner">Front Wiper Switch</name>
+      <name type="inner">Front Washer Switch</name>
+      <name type="inner">Wiper Relay</name>
+      <name type="inner">Off</name>
+      <name type="inner">On</name>
+    </part>
+    <part type="conn" code="I26">
+      <name>Wiper Lock Switch (Limit Switch Assembly)</name>
+    </part>
+    <part type="fuse" code="FUSE20">
+      <text>ECU IG</text>
+    </part>
+    <part type="fuse" code="FUSE29">
+      <text>WIP</text>
+    </part>
+  </ttl>
+</EWDSearch>

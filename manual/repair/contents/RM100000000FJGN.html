@@ -1,0 +1,2544 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">Engine / Hybrid System</span>
+<span class="globalSection">_029758</span>
+<span class="globalSectionName">1GR-FE ENGINE CONTROL</span>
+<span class="globalTitle">_0135343</span>
+<span class="globalTitleName">SFI SYSTEM</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>1GR-FE ENGINE CONTROL&nbsp;&nbsp;SFI SYSTEM&nbsp;&nbsp;P0137&nbsp;&nbsp;Oxygen Sensor Circuit Low Voltage (Bank 1 Sensor 2)&nbsp;&nbsp;P0157&nbsp;&nbsp;Oxygen Sensor Circuit Low Voltage (Bank 2 Sensor 2)&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000FJGN_01" class="category no03">
+<h2>DESCRIPTION</h2>
+<div class="content5">
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>Sensor 2 refers to the sensor mounted behind the three-way catalytic converter and located far from the engine assembly.
+</p>
+</dd>
+</dl>
+<br>
+<p>A three-way catalyst converter is used in order to convert the carbon monoxide, hydrocarbons, and nitrogen oxide, into less harmful substances. To allow the three-way catalytic converter to function effectively, it is necessary to keep the air fuel ratio of the engine near the stoichiometric air fuel ratio. For the purpose of helping the ECM to deliver accurate air fuel ratio control, a heated oxygen sensor is used.
+</p>
+<p>The heated oxygen sensor is located behind the three-way catalytic converter, and detects the oxygen concentration in the exhaust gas. Since the sensor is integrated with the heater that heats the sensing portion, it is possible to detect the oxygen concentration even when the intake air volume is low (the exhaust gas temperature is low).
+</p>
+<p>When the air fuel ratio becomes lean, the oxygen concentration in the exhaust gas is rich. The heated oxygen sensor informs the ECM that the post-three way catalytic converter air fuel ratio is lean (low voltage, i.e. below 0.45 V).
+</p>
+<p>Conversely, when the air fuel ratio is richer than the stoichiometric air fuel level, the oxygen concentration in the exhaust gas becomes lean. The heated oxygen sensor informs the ECM that the post-three way catalytic converter air fuel ratio is rich (high voltage, i.e. higher than 0.45 V). The heated oxygen sensor has the property of changing its output voltage drastically when the air fuel ratio is close to the stoichiometric level.
+</p>
+<p>The ECM uses the supplementary information from the heated oxygen sensor to determine whether the air fuel ratio after the three-way catalytic converter is rich or lean, and adjusts the fuel injection time accordingly. Thus, if the heated oxygen sensor is working improperly due to internal malfunctions, the ECM is unable to compensate for deviations in the primary air fuel ratio control.
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A115539E03.png" alt="A115539E03" title="A115539E03">
+<div class="indicateinfo">
+<span class="line">
+<span class="points">2.981,1.232 3.287,0.841</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">2.687,1.79 3.304,1.79</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">2.596,2.418 3.255,2.383</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">2.677,2.697 3.258,2.832</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">1.093,2.916 1.331,2.916</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">1.452,0.775 2.460,0.977</span>
+<span class="captionSize">1.009,0.202</span>
+<span class="fontsize">10</span>
+<span class="captionText">Atmospheric Air</span>
+</span>
+<span class="caption">
+<span class="points">3.308,0.74 4.048,0.942</span>
+<span class="captionSize">0.739,0.202</span>
+<span class="fontsize">10</span>
+<span class="captionText">Housing</span>
+</span>
+<span class="caption">
+<span class="points">3.32,1.186 4.848,1.388</span>
+<span class="captionSize">1.528,0.202</span>
+<span class="fontsize">10</span>
+<span class="captionText">Platinum Electrode</span>
+</span>
+<span class="caption">
+<span class="points">3.955,0.89 4.920,1.092</span>
+<span class="captionSize">0.964,0.202</span>
+<span class="fontsize">10</span>
+<span class="captionText">Output Voltage</span>
+</span>
+<span class="caption">
+<span class="points">5.006,0.932 6.392,1.134</span>
+<span class="captionSize">1.386,0.202</span>
+<span class="fontsize">10</span>
+<span class="captionText">Ideal Air-fuel Mixture</span>
+</span>
+<span class="caption">
+<span class="points">2.007,3.13 2.907,3.332</span>
+<span class="captionSize">0.899,0.202</span>
+<span class="fontsize">10</span>
+<span class="captionText">Exhaust Gas</span>
+</span>
+<span class="caption">
+<span class="points">3.34,1.698 4.802,2.066</span>
+<span class="captionSize">1.461,0.368</span>
+<span class="fontsize">10</span>
+<span class="captionText">Solid Electrolyte (Zirconia Element)</span>
+</span>
+<span class="caption">
+<span class="points">3.294,2.757 4.497,2.959</span>
+<span class="captionSize">1.203,0.202</span>
+<span class="fontsize">10</span>
+<span class="captionText">Coating (Ceramic)</span>
+</span>
+<span class="caption">
+<span class="points">3.32,2.284 3.803,2.486</span>
+<span class="captionSize">0.483,0.202</span>
+<span class="fontsize">10</span>
+<span class="captionText">Heater</span>
+</span>
+<span class="caption">
+<span class="points">1.367,2.82 1.805,3.032</span>
+<span class="captionSize">0.438,0.211</span>
+<span class="fontsize">10</span>
+<span class="captionText">Cover</span>
+</span>
+<span class="caption">
+<span class="points">4.787,2.849 7.090,3.050</span>
+<span class="captionSize">2.304,0.202</span>
+<span class="fontsize">10</span>
+<span class="captionText">Richer - Air-fuel Ratio - Leaner</span>
+</span>
+<span class="line">
+<span class="points">2.668,1.455 2.667,1.53</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">2.725,1.641 3.306,1.271</span>
+<span class="points">3.306,1.271 2.667,1.494</span>
+<span class="whiteedge">false</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:15%">
+<col style="width:26%">
+<col style="width:26%">
+<col style="width:10%">
+<col style="width:10%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC No.
+</th>
+<th class="alcenter">Detection Item
+</th>
+<th class="alcenter">DTC Detection Condition
+</th>
+<th class="alcenter">Trouble Area
+</th>
+<th class="alcenter">MIL
+</th>
+<th class="alcenter">Memory
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">P0137
+</td>
+<td class="alleft">Oxygen Sensor Circuit Low Voltage (Bank 1 Sensor 2)
+</td>
+<td class="alleft">During active air fuel ratio control, the following conditions (a) and (b) are met for a certain period of time (2 trip detection logic):
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>(a) The heated oxygen sensor voltage output is below 0.21 V.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>(b) The target air fuel ratio is rich.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Heated oxygen sensor (bank 1 sensor 2) circuit
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Heated oxygen sensor (bank 1 sensor 2)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Air fuel ratio sensor (bank 1 sensor 1)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Gas leak from exhaust system
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">Comes on
+</td>
+<td class="alleft">DTC stored
+</td>
+</tr>
+<tr>
+<td class="alleft">P0157
+</td>
+<td class="alleft">Oxygen Sensor Circuit Low Voltage (Bank 2 Sensor 2)
+</td>
+<td class="alleft">During active air fuel ratio control, the following conditions (a) and (b) are met for a certain period of time (2 trip detection logic):
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>(a) The heated oxygen sensor voltage output is below 0.21 V.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>(b) The target air fuel ratio is rich.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Heated oxygen sensor (bank 2 sensor 2) circuit
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Heated oxygen sensor (bank 2 sensor 2)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Air fuel ratio sensor (bank 2 sensor 1)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Gas leak from exhaust system
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">Comes on
+</td>
+<td class="alleft">DTC stored
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM100000000FJGN_02" class="category no03">
+<h2>MONITOR DESCRIPTION</h2>
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">Active Air Fuel Ratio Control
+</span></p>
+<br>
+<p>The ECM usually performs air fuel ratio feedback control so that the Air Fuel Ratio (A/F) sensor output indicates a near stoichiometric air fuel level. This vehicle includes active air fuel ratio control in addition to regular air fuel ratio control. The ECM performs active air fuel ratio control to detect Heated Oxygen (HO2) sensor malfunctions.
+</p>
+<p>Active air fuel ratio control is performed for approximately 15 to 20 seconds while driving with a warm engine. During active air fuel ratio control, the air fuel ratio is forcibly regulated to become lean or rich by the ECM. If the ECM detects a malfunction, either of the following DTCs is stored: DTC P0137 or P0157 (open circuit).
+</p>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">Open in Heated Oxygen (HO2) Sensor Circuit
+</span></p>
+<br>
+<p>During active air fuel ratio control, the ECM calculates the Oxygen Storage Capacity (OSC)<sup>*</sup> of the Three-Way Catalytic Converter (TWC) by forcibly regulating the air fuel ratio to become rich or lean.
+</p>
+<p>If the HO2 sensor has an open or short, or the voltage output of the sensor noticeably decreases, the OSC indicates an extraordinarily high value. Even if the ECM attempts to continue regulating the air fuel ratio to become rich or lean, the HO2 sensor output does not change.
+</p>
+<p>While performing active air fuel ratio control, when the target air fuel ratio is rich and the HO2 sensor voltage output is 0.21 V or less (lean), the ECM interprets this as an abnormally low sensor output voltage and stores DTC P0137 or P0157.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p><sup>*</sup>: The TWC has the capability to store oxygen. When active air fuel ratio control is performed, the ECM deliberately sets the air fuel ratio to lean or rich levels. If the rich-lean cycle of the HO2 sensor is long, the OSC becomes greater. There is a direct correlation between the OSCs of the HO2 sensor and the TWC.
+</p>
+</dd>
+</dl>
+<br>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A172862E01.png" alt="A172862E01" title="A172862E01">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.111,0.07 4.501,0.28</span>
+<span class="captionSize">4.39,0.209</span>
+<span class="fontsize">10</span>
+<span class="captionText">HO2 SENSOR CIRCUIT LOW VOLTAGE (P0137 and P0157: OPEN)</span>
+</span>
+<span class="caption">
+<span class="points">0.79,1.561 1.682,1.9</span>
+<span class="captionSize">0.893,0.339</span>
+<span class="fontsize">10</span>
+<span class="captionText">Active air fuel ratio control</span>
+</span>
+<span class="caption">
+<span class="points">0.79,2.913 1.578,3.273</span>
+<span class="captionSize">0.788,0.36</span>
+<span class="fontsize">10</span>
+<span class="captionText">HO2 sensor voltage</span>
+</span>
+<span class="caption">
+<span class="points">0.79,2.206 2.06,2.408</span>
+<span class="captionSize">1.27,0.202</span>
+<span class="fontsize">10</span>
+<span class="captionText">Target air fuel ratio</span>
+</span>
+<span class="caption">
+<span class="points">2.481,2.031 3.434,2.399</span>
+<span class="captionSize">0.953,0.368</span>
+<span class="fontsize">10</span>
+<span class="captionText">Stoichiometric Air Fuel Level</span>
+</span>
+<span class="caption">
+<span class="points">3.184,1.684 3.441,1.887</span>
+<span class="captionSize">0.257,0.202</span>
+<span class="fontsize">10</span>
+<span class="captionText">Off</span>
+</span>
+<span class="caption">
+<span class="points">2.952,3.198 3.439,3.4</span>
+<span class="captionSize">0.487,0.202</span>
+<span class="fontsize">10</span>
+<span class="captionText">0.21 V</span>
+</span>
+<span class="caption">
+<span class="points">4.633,0.739 5.786,0.942</span>
+<span class="captionSize">1.153,0.202</span>
+<span class="fontsize">10</span>
+<span class="captionText">15 to 20 seconds</span>
+</span>
+<span class="caption">
+<span class="points">4.811,1.256 5.575,1.458</span>
+<span class="captionSize">0.765,0.202</span>
+<span class="fontsize">10</span>
+<span class="captionText">Operation</span>
+</span>
+<span class="caption">
+<span class="points">3.847,1.778 4.412,1.981</span>
+<span class="captionSize">0.565,0.202</span>
+<span class="fontsize">10</span>
+<span class="captionText">Normal</span>
+</span>
+<span class="caption">
+<span class="points">5.252,1.644 5.898,1.846</span>
+<span class="captionSize">0.646,0.202</span>
+<span class="fontsize">10</span>
+<span class="captionText">Abnormal</span>
+</span>
+<span class="caption">
+<span class="points">5.966,3.658 6.703,3.86</span>
+<span class="captionSize">0.737,0.202</span>
+<span class="fontsize">10</span>
+<span class="captionText">Abnormal</span>
+</span>
+<span class="caption">
+<span class="points">6.047,2.252 6.613,2.455</span>
+<span class="captionSize">0.565,0.202</span>
+<span class="fontsize">10</span>
+<span class="captionText">Normal</span>
+</span>
+<span class="caption">
+<span class="points">4.562,2.383 4.928,2.585</span>
+<span class="captionSize">0.366,0.202</span>
+<span class="fontsize">10</span>
+<span class="captionText">Rich</span>
+</span>
+<span class="line">
+<span class="points">4.626,2.016 4.327,1.892</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">5.151,2.366 5.221,1.762</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">6.047,2.378 5.988,2.681</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">5.985,3.459 6.184,3.658</span>
+<span class="whiteedge">false</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000FJGN_09" class="category no03">
+<h2>CONFIRMATION DRIVING PATTERN</h2>
+<div class="content5">
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This confirmation driving pattern is used in the "Perform Confirmation Driving Pattern" procedure of the following diagnostic troubleshooting procedure.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Performing this confirmation driving pattern will activate the heated oxygen sensor monitor (The catalyst monitor is performed simultaneously). This is very useful for verifying the completion of a repair.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A199376E80.png" alt="A199376E80" title="A199376E80">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">1.988,2.392 2.229,2.573</span>
+<span class="captionSize">0.241,0.182</span>
+<span class="fontsize">10</span>
+<span class="captionText">[A]</span>
+</span>
+<span class="caption">
+<span class="points">2.597,2.086 2.808,2.275</span>
+<span class="captionSize">0.211,0.188</span>
+<span class="fontsize">10</span>
+<span class="captionText">[B]</span>
+</span>
+<span class="caption">
+<span class="points">3.942,0.642 4.158,0.830</span>
+<span class="captionSize">0.216,0.188</span>
+<span class="fontsize">10</span>
+<span class="captionText">[C]</span>
+</span>
+<span class="caption">
+<span class="points">4.996,3.303 5.219,3.496</span>
+<span class="captionSize">0.223,0.193</span>
+<span class="fontsize">10</span>
+<span class="captionText">[D]</span>
+</span>
+<span class="caption">
+<span class="points">0.379,0.436 1.595,0.620</span>
+<span class="captionSize">1.216,0.184</span>
+<span class="fontsize">10</span>
+<span class="captionText">100 km/h (63 mph)</span>
+</span>
+<span class="caption">
+<span class="points">0.434,1.305 1.562,1.489</span>
+<span class="captionSize">1.128,0.184</span>
+<span class="fontsize">10</span>
+<span class="captionText">60 km/h (37 mph)</span>
+</span>
+<span class="caption">
+<span class="points">1.186,2.123 1.585,2.288</span>
+<span class="captionSize">0.399,0.165</span>
+<span class="fontsize">10</span>
+<span class="captionText">Idling</span>
+</span>
+<span class="caption">
+<span class="points">0.366,2.372 1.535,2.531</span>
+<span class="captionSize">1.170,0.160</span>
+<span class="fontsize">10</span>
+<span class="captionText">Ignition Switch ON</span>
+</span>
+<span class="caption">
+<span class="points">2.312,2.859 3.120,3.043</span>
+<span class="captionSize">0.809,0.184</span>
+<span class="fontsize">10</span>
+<span class="captionText">Warming up</span>
+</span>
+<span class="caption">
+<span class="points">3.442,2.877 4.681,3.014</span>
+<span class="captionSize">1.239,0.137</span>
+<span class="fontsize">10</span>
+<span class="captionText">10 minutes or more</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>Turn the ignition switch to ON and turn the GTS on.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>Clear the DTCs (even if no DTCs are stored, perform the clear DTC procedure).
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">4.</div>
+<div class="list1Body"><p>Turn the ignition switch off and wait for at least 30 seconds.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">5.</div>
+<div class="list1Body"><p>Turn the ignition switch to ON and turn the GTS on [A].
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">6.</div>
+<div class="list1Body"><p>Start the engine and warm it up until the engine coolant temperature reaches 75°C (167°F) or higher [B].
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">7.</div>
+<div class="list1Body"><p>With the shift lever in D, drive the vehicle at 60 to 120 km/h (37 to 75 mph) for 10 minutes or more [C].
+</p>
+<dl class="atten2">
+<dt class="atten2">CAUTION:</dt>
+<dd class="atten2">
+<p>When performing the confirmation driving pattern, obey all speed limits and traffic laws.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">8.</div>
+<div class="list1Body"><p>Enter the following menus: Powertrain / Engine and ECT / Trouble Codes [D].
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">9.</div>
+<div class="list1Body"><p>Read the pending DTCs.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If a pending DTC is output, the system is malfunctioning.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If a pending DTC is not output, perform the following procedure.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">10.</div>
+<div class="list1Body"><p>Enter the following menus: Powertrain / Engine and ECT / Utility / All Readiness.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">11.</div>
+<div class="list1Body"><p>Input the DTC: P0137 or P0157.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">12.</div>
+<div class="list1Body"><p>Check the DTC judgment result.
+</p>
+<table summary="">
+<colgroup>
+<col style="width:29%">
+<col style="width:70%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">GTS Display
+</th>
+<th class="alcenter">Description
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NORMAL
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC judgment completed
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>System normal
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">ABNORMAL
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC judgment completed
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>System abnormal
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">INCOMPLETE
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC judgment not completed
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Perform driving pattern after confirming DTC enabling conditions
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">N/A
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Unable to perform DTC judgment
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Number of DTCs which do not fulfill DTC preconditions has reached ECU memory limit
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the judgment result shows NORMAL, the system is normal.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the judgment result shows ABNORMAL, the system has a malfunction.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the judgment result shows INCOMPLETE or N/A, perform steps [C] and [D] again.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000FJGN_08" class="category no03">
+<h2>WIRING DIAGRAM</h2>
+<div class="content5">
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A331583E01.png" alt="A331583E01" title="A331583E01">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">5.24,1.01 5.698,1.208</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">I84</span>
+</span>
+<span class="caption">
+<span class="points">5.563,1 6.021,1.198</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A29</span>
+</span>
+<span class="caption">
+<span class="points">5.854,0.906 6.469,1.104</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">MREL</span>
+</span>
+<span class="caption">
+<span class="points">5.104,0.844 5.417,1.042</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">44*2</span>
+</span>
+<span class="caption">
+<span class="points">5.469,0.844 5.781,1.042</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">44*3</span>
+</span>
+<span class="caption">
+<span class="points">2.271,1.281 2.729,1.479</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">C18</span>
+</span>
+<span class="caption">
+<span class="points">2.281,1.448 5.052,1.802</span>
+<span class="captionSize">2.771,0.354</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Heated Oxygen Sensor (Bank 1 Sensor 2)</span>
+</span>
+<span class="caption">
+<span class="points">5.563,1.865 6.021,2.063</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">C39</span>
+</span>
+<span class="caption">
+<span class="points">5.563,2.292 6.021,2.49</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">C39</span>
+</span>
+<span class="caption">
+<span class="points">5.563,2.823 6.021,3.021</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">C39</span>
+</span>
+<span class="caption">
+<span class="points">5.563,4.125 6.021,4.323</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">C39</span>
+</span>
+<span class="caption">
+<span class="points">5.552,4.552 6.01,4.75</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">C39</span>
+</span>
+<span class="caption">
+<span class="points">5.563,5.094 6.021,5.292</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">C39</span>
+</span>
+<span class="caption">
+<span class="points">5.604,1.688 5.917,1.885</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">48</span>
+</span>
+<span class="caption">
+<span class="points">5.594,2.125 5.906,2.323</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">88</span>
+</span>
+<span class="caption">
+<span class="points">5.604,2.656 5.917,2.854</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">65</span>
+</span>
+<span class="caption">
+<span class="points">5.594,3.948 5.906,4.146</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">47</span>
+</span>
+<span class="caption">
+<span class="points">5.594,4.385 5.906,4.583</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">87</span>
+</span>
+<span class="caption">
+<span class="points">5.594,4.906 5.906,5.104</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">64</span>
+</span>
+<span class="caption">
+<span class="points">5.865,1.719 6.479,1.917</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">HT1B</span>
+</span>
+<span class="caption">
+<span class="points">5.875,2.281 6.49,2.479</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OX1B</span>
+</span>
+<span class="caption">
+<span class="points">5.885,2.802 6.5,3</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">EX1B</span>
+</span>
+<span class="caption">
+<span class="points">5.885,4 6.5,4.198</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">HT2B</span>
+</span>
+<span class="caption">
+<span class="points">5.875,4.542 6.49,4.74</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OX2B</span>
+</span>
+<span class="caption">
+<span class="points">5.885,5.083 6.5,5.281</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">EX2B</span>
+</span>
+<span class="caption">
+<span class="points">2.677,3.406 3.135,3.604</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">C17</span>
+</span>
+<span class="caption">
+<span class="points">2.833,3.583 4.323,3.969</span>
+<span class="captionSize">1.49,0.385</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Heated Oxygen Sensor (Bank 2 Sensor 2)</span>
+</span>
+<span class="caption">
+<span class="points">4.667,2.667 4.979,2.865</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">(*1)</span>
+</span>
+<span class="caption">
+<span class="points">4.844,4.917 5.458,5.115</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">(*1)</span>
+</span>
+<span class="caption">
+<span class="points">3.865,1.75 4.021,1.948</span>
+<span class="captionSize">0.156,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">3.865,2.156 4.021,2.354</span>
+<span class="captionSize">0.156,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3</span>
+</span>
+<span class="caption">
+<span class="points">2.99,1.75 3.146,1.948</span>
+<span class="captionSize">0.156,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2</span>
+</span>
+<span class="caption">
+<span class="points">2.969,2.177 3.125,2.375</span>
+<span class="captionSize">0.156,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">4</span>
+</span>
+<span class="caption">
+<span class="points">3.458,1.75 3.948,1.958</span>
+<span class="captionSize">0.49,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">HT1B</span>
+</span>
+<span class="caption">
+<span class="points">3.146,1.75 3.458,1.948</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">+B</span>
+</span>
+<span class="caption">
+<span class="points">3.146,2.177 3.458,2.375</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E2</span>
+</span>
+<span class="caption">
+<span class="points">3.448,2.135 4.063,2.333</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OX1B</span>
+</span>
+<span class="caption">
+<span class="points">3.865,4.021 4.021,4.219</span>
+<span class="captionSize">0.156,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">2.99,4.031 3.188,4.229</span>
+<span class="captionSize">0.198,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2</span>
+</span>
+<span class="caption">
+<span class="points">3.865,4.406 4.021,4.604</span>
+<span class="captionSize">0.156,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3</span>
+</span>
+<span class="caption">
+<span class="points">2.99,4.427 3.146,4.625</span>
+<span class="captionSize">0.156,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">4</span>
+</span>
+<span class="caption">
+<span class="points">3.448,4.01 4.063,4.208</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">HT2B</span>
+</span>
+<span class="caption">
+<span class="points">3.146,4.01 3.458,4.208</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">+B</span>
+</span>
+<span class="caption">
+<span class="points">3.448,4.375 4.063,4.573</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OX2B</span>
+</span>
+<span class="caption">
+<span class="points">3.146,4.365 3.458,4.563</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E2</span>
+</span>
+<span class="caption">
+<span class="points">0.802,2.417 1.083,2.646</span>
+<span class="captionSize">0.281,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">EFI</span>
+</span>
+<span class="caption">
+<span class="points">0.802,2.594 1.417,2.792</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">NO.2</span>
+</span>
+<span class="caption">
+<span class="points">1.333,3.021 1.49,3.219</span>
+<span class="captionSize">0.156,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">0.781,3.021 0.938,3.219</span>
+<span class="captionSize">0.156,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3</span>
+</span>
+<span class="caption">
+<span class="points">0.781,3.844 0.938,4.042</span>
+<span class="captionSize">0.156,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">5</span>
+</span>
+<span class="caption">
+<span class="points">1.333,3.865 1.49,4.063</span>
+<span class="captionSize">0.156,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2</span>
+</span>
+<span class="caption">
+<span class="points">1.521,3.313 1.979,3.51</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">EFI</span>
+</span>
+<span class="caption">
+<span class="points">1.531,3.49 2.146,3.688</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">MAIN</span>
+</span>
+<span class="caption">
+<span class="points">0.802,4.354 1.26,4.552</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">EFI</span>
+</span>
+<span class="caption">
+<span class="points">0.823,5.021 1.135,5.219</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">FL</span>
+</span>
+<span class="caption">
+<span class="points">0.823,5.177 1.438,5.375</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">MAIN</span>
+</span>
+<span class="caption">
+<span class="points">0.99,5.927 2.063,6.125</span>
+<span class="captionSize">1.073,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Battery</span>
+</span>
+<span class="caption">
+<span class="points">4.885,5.906 6.719,6.104</span>
+<span class="captionSize">1.833,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*1: Shielded</span>
+</span>
+<span class="caption">
+<span class="points">4.896,6.115 5.813,6.313</span>
+<span class="captionSize">0.917,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*2: for LHD</span>
+</span>
+<span class="caption">
+<span class="points">4.896,6.323 5.813,6.521</span>
+<span class="captionSize">0.917,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*3: for RHD</span>
+</span>
+<span class="caption">
+<span class="points">6.073,0.26 6.531,0.458</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ECM</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000FJGN_10" class="category no10">
+<h2>CAUTION / NOTICE / HINT</h2>
+<div class="content5">
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>Malfunctioning areas can be identified by performing the Control the Injection Volume for A/F sensor function provided in the Active Test. The Control the Injection Volume for A/F sensor function can help to determine whether the Air Fuel Ratio (A/F) sensor, Heated Oxygen (HO2) sensor and other potential trouble areas are malfunctioning.
+</p>
+</dd>
+<dd class="atten4">
+<p>The following instructions describe how to conduct the Control the Injection Volume for A/F sensor function using the GTS.
+</p>
+</dd>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>Start the engine and turn the GTS on.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>Warm up the engine at an engine speed of 2500 rpm for approximately 90 seconds.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">4.</div>
+<div class="list1Body"><p>Enter the following menus: Powertrain / Engine and ECT / Active Test / Control the Injection Volume for A/F sensor.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">5.</div>
+<div class="list1Body"><p>Perform the Active Test operation with the engine idling (press the RIGHT or LEFT button to change the fuel injection volume.)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">6.</div>
+<div class="list1Body"><p>Monitor the output voltages of the A/F and HO2 sensors (AFS Voltage B1S1 and O2S B1S2, or AFS Voltage B2S1 and O2S B2S2) displayed on the GTS.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The Control the Injection Volume for A/F sensor operation lowers the fuel injection volume by 12.5% or increases the injection volume by 25%.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Each sensor reacts in accordance with increases and decreases in the fuel injection volume.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<table summary="">
+<colgroup>
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">GTS Display (Sensor)
+</th>
+<th class="alcenter">Injection Volume
+</th>
+<th class="alcenter">Status
+</th>
+<th class="alcenter">Voltage
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">AFS Voltage B1S1 or AFS Voltage B2S1
+<br>
+(A/F)
+</td>
+<td class="alcenter">+25%
+</td>
+<td class="alcenter">Rich
+</td>
+<td class="alcenter">Less than 3.1 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">AFS Voltage B1S1 or AFS Voltage B2S1
+<br>
+(A/F)
+</td>
+<td class="alcenter">-12.5%
+</td>
+<td class="alcenter">Lean
+</td>
+<td class="alcenter">More than 3.4 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">O2S B1S2 or O2S B2S2
+<br>
+(HO2)
+</td>
+<td class="alcenter">+25%
+</td>
+<td class="alcenter">Rich
+</td>
+<td class="alcenter">More than 0.55 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">O2S B1S2 or O2S B2S2
+<br>
+(HO2)
+</td>
+<td class="alcenter">-12.5%
+</td>
+<td class="alcenter">Lean
+</td>
+<td class="alcenter">Less than 0.4 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3">
+<p>The air fuel ratio sensor has an output delay of a few seconds and the heated oxygen sensor has a maximum output delay of approximately 20 seconds.
+</p>
+</dd>
+</dl>
+<br>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A283583E07.png" alt="A283583E07" title="A283583E07">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">5.792,3.781 7.115,4.052</span>
+<span class="captionSize">1.323,0.271</span>
+<span class="fontsize">10</span>
+<span class="captionText">- Air fuel ratio sensor</span>
+</span>
+<span class="caption">
+<span class="points">3.823,4.927 4.531,5.104</span>
+<span class="captionSize">0.708,0.177</span>
+<span class="fontsize">8</span>
+<span class="captionText">Below 0.4 V</span>
+</span>
+<span class="caption">
+<span class="points">3.208,4.396 4.333,4.615</span>
+<span class="captionSize">1.125,0.219</span>
+<span class="fontsize">10</span>
+<span class="captionText">Output Voltage</span>
+</span>
+<span class="caption">
+<span class="points">3.25,3.365 4.542,3.615</span>
+<span class="captionSize">1.292,0.25</span>
+<span class="fontsize">10</span>
+<span class="captionText">Injection Volume</span>
+</span>
+<span class="caption">
+<span class="points">3.229,1.292 4.521,1.542</span>
+<span class="captionSize">1.292,0.25</span>
+<span class="fontsize">10</span>
+<span class="captionText">Injection Volume</span>
+</span>
+<span class="caption">
+<span class="points">3.24,2.313 4.333,2.521</span>
+<span class="captionSize">1.094,0.208</span>
+<span class="fontsize">10</span>
+<span class="captionText">Output Voltage</span>
+</span>
+<span class="caption">
+<span class="points">0.625,1.292 1.917,1.542</span>
+<span class="captionSize">1.292,0.25</span>
+<span class="fontsize">10</span>
+<span class="captionText">Injection Volume</span>
+</span>
+<span class="caption">
+<span class="points">0.625,3.365 1.917,3.615</span>
+<span class="captionSize">1.292,0.25</span>
+<span class="fontsize">10</span>
+<span class="captionText">Injection Volume</span>
+</span>
+<span class="caption">
+<span class="points">0.594,5.438 1.885,5.688</span>
+<span class="captionSize">1.292,0.25</span>
+<span class="fontsize">10</span>
+<span class="captionText">Injection Volume</span>
+</span>
+<span class="caption">
+<span class="points">0.604,7.49 1.896,7.74</span>
+<span class="captionSize">1.292,0.25</span>
+<span class="fontsize">10</span>
+<span class="captionText">Injection Volume</span>
+</span>
+<span class="caption">
+<span class="points">3.25,7.49 4.542,7.74</span>
+<span class="captionSize">1.292,0.25</span>
+<span class="fontsize">10</span>
+<span class="captionText">Injection Volume</span>
+</span>
+<span class="caption">
+<span class="points">3.25,5.438 4.542,5.688</span>
+<span class="captionSize">1.292,0.25</span>
+<span class="fontsize">10</span>
+<span class="captionText">Injection Volume</span>
+</span>
+<span class="caption">
+<span class="points">0.635,2.302 1.823,2.51</span>
+<span class="captionSize">1.188,0.208</span>
+<span class="fontsize">10</span>
+<span class="captionText">Output Voltage</span>
+</span>
+<span class="caption">
+<span class="points">0.625,4.396 1.792,4.646</span>
+<span class="captionSize">1.167,0.25</span>
+<span class="fontsize">10</span>
+<span class="captionText">Output Voltage</span>
+</span>
+<span class="caption">
+<span class="points">0.552,6.479 1.719,6.729</span>
+<span class="captionSize">1.167,0.25</span>
+<span class="fontsize">10</span>
+<span class="captionText">Output Voltage</span>
+</span>
+<span class="caption">
+<span class="points">0.573,8.563 1.74,8.813</span>
+<span class="captionSize">1.167,0.25</span>
+<span class="fontsize">10</span>
+<span class="captionText">Output Voltage</span>
+</span>
+<span class="caption">
+<span class="points">3.24,8.563 4.406,8.813</span>
+<span class="captionSize">1.167,0.25</span>
+<span class="fontsize">10</span>
+<span class="captionText">Output Voltage</span>
+</span>
+<span class="caption">
+<span class="points">3.25,6.479 4.417,6.729</span>
+<span class="captionSize">1.167,0.25</span>
+<span class="fontsize">10</span>
+<span class="captionText">Output Voltage</span>
+</span>
+<span class="caption">
+<span class="points">3.51,4.698 4.542,4.885</span>
+<span class="captionSize">1.031,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">Higher than 0.55 V</span>
+</span>
+<span class="caption">
+<span class="points">0.927,2.646 1.958,2.833</span>
+<span class="captionSize">1.031,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">Higher than 3.4 V</span>
+</span>
+<span class="caption">
+<span class="points">1.177,2.885 1.927,3.073</span>
+<span class="captionSize">0.75,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">Below 3.1 V</span>
+</span>
+<span class="caption">
+<span class="points">1.531,1.594 1.979,1.781</span>
+<span class="captionSize">0.448,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">12.5%</span>
+</span>
+<span class="caption">
+<span class="points">1.479,1.833 1.927,2.021</span>
+<span class="captionSize">0.448,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">-12.5%</span>
+</span>
+<span class="caption">
+<span class="points">3.5,2.604 4.531,2.792</span>
+<span class="captionSize">1.031,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">Higher than 0.55 V</span>
+</span>
+<span class="caption">
+<span class="points">3.813,2.844 4.521,3.021</span>
+<span class="captionSize">0.708,0.177</span>
+<span class="fontsize">8</span>
+<span class="captionText">Below 0.4 V</span>
+</span>
+<span class="caption">
+<span class="points">4.156,1.594 4.604,1.781</span>
+<span class="captionSize">0.448,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">12.5%</span>
+</span>
+<span class="caption">
+<span class="points">4.115,1.833 4.563,2.021</span>
+<span class="captionSize">0.448,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">-12.5%</span>
+</span>
+<span class="caption">
+<span class="points">4.146,3.729 4.594,3.917</span>
+<span class="captionSize">0.448,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">12.5%</span>
+</span>
+<span class="caption">
+<span class="points">4.104,3.917 4.552,4.104</span>
+<span class="captionSize">0.448,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">-12.5%</span>
+</span>
+<span class="caption">
+<span class="points">4.104,5.958 4.552,6.146</span>
+<span class="captionSize">0.448,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">-12.5%</span>
+</span>
+<span class="caption">
+<span class="points">4.104,8.021 4.552,8.208</span>
+<span class="captionSize">0.448,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">-12.5%</span>
+</span>
+<span class="caption">
+<span class="points">4.156,5.74 4.604,5.927</span>
+<span class="captionSize">0.448,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">12.5%</span>
+</span>
+<span class="caption">
+<span class="points">4.156,7.813 4.604,8</span>
+<span class="captionSize">0.448,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">12.5%</span>
+</span>
+<span class="caption">
+<span class="points">1.49,7.813 1.938,8</span>
+<span class="captionSize">0.448,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">12.5%</span>
+</span>
+<span class="caption">
+<span class="points">1.49,5.75 1.938,5.938</span>
+<span class="captionSize">0.448,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">12.5%</span>
+</span>
+<span class="caption">
+<span class="points">1.5,3.677 1.948,3.865</span>
+<span class="captionSize">0.448,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">12.5%</span>
+</span>
+<span class="caption">
+<span class="points">1.448,3.896 1.896,4.083</span>
+<span class="captionSize">0.448,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">-12.5%</span>
+</span>
+<span class="caption">
+<span class="points">1.448,5.948 1.896,6.135</span>
+<span class="captionSize">0.448,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">-12.5%</span>
+</span>
+<span class="caption">
+<span class="points">1.438,8.021 1.885,8.208</span>
+<span class="captionSize">0.448,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">-12.5%</span>
+</span>
+<span class="caption">
+<span class="points">0.844,4.802 2.042,5.052</span>
+<span class="captionSize">1.198,0.25</span>
+<span class="fontsize">8</span>
+<span class="captionText">Almost no reaction</span>
+</span>
+<span class="caption">
+<span class="points">0.854,8.938 2.052,9.188</span>
+<span class="captionSize">1.198,0.25</span>
+<span class="fontsize">8</span>
+<span class="captionText">Almost no reaction</span>
+</span>
+<span class="caption">
+<span class="points">3.5,8.938 4.698,9.188</span>
+<span class="captionSize">1.198,0.25</span>
+<span class="fontsize">8</span>
+<span class="captionText">Almost no reaction</span>
+</span>
+<span class="caption">
+<span class="points">3.49,6.865 4.688,7.115</span>
+<span class="captionSize">1.198,0.25</span>
+<span class="fontsize">8</span>
+<span class="captionText">Almost no reaction</span>
+</span>
+<span class="caption">
+<span class="points">0.917,6.771 1.948,6.958</span>
+<span class="captionSize">1.031,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">Higher than 3.4 V</span>
+</span>
+<span class="caption">
+<span class="points">1.167,7.021 1.917,7.208</span>
+<span class="captionSize">0.75,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">Below 3.1 V</span>
+</span>
+<span class="caption">
+<span class="points">0.24,2.083 0.396,2.281</span>
+<span class="captionSize">0.156,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">0.24,4.25 0.396,4.448</span>
+<span class="captionSize">0.156,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">2</span>
+</span>
+<span class="caption">
+<span class="points">0.25,6.333 0.406,6.531</span>
+<span class="captionSize">0.156,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">3</span>
+</span>
+<span class="caption">
+<span class="points">0.24,8.417 0.396,8.615</span>
+<span class="captionSize">0.156,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">4</span>
+</span>
+<span class="caption">
+<span class="points">0.125,0.688 0.573,0.938</span>
+<span class="captionSize">0.448,0.25</span>
+<span class="fontsize">10</span>
+<span class="captionText">Case</span>
+</span>
+<span class="caption">
+<span class="points">0.792,0.583 2.802,0.969</span>
+<span class="captionSize">2.01,0.385</span>
+<span class="fontsize">10</span>
+<span class="captionText">Air Fuel Ratio Sensor (Sensor 1) Output Voltage</span>
+</span>
+<span class="caption">
+<span class="points">3.5,0.583 5.594,1.031</span>
+<span class="captionSize">2.094,0.448</span>
+<span class="fontsize">10</span>
+<span class="captionText">Heated Oxygen Sensor (Sensor 2) Output Voltage</span>
+</span>
+<span class="caption">
+<span class="points">5.969,0.583 7.01,1</span>
+<span class="captionSize">1.042,0.417</span>
+<span class="fontsize">10</span>
+<span class="captionText">Main Suspected Trouble Area</span>
+</span>
+<span class="caption">
+<span class="points">6.396,2.115 6.552,2.313</span>
+<span class="captionSize">0.156,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">-</span>
+</span>
+<span class="caption">
+<span class="points">5.802,4.031 7.125,4.469</span>
+<span class="captionSize">1.323,0.438</span>
+<span class="fontsize">10</span>
+<span class="captionText">- Air fuel ratio sensor heater</span>
+</span>
+<span class="caption">
+<span class="points">5.802,4.448 7.125,4.885</span>
+<span class="captionSize">1.323,0.438</span>
+<span class="fontsize">10</span>
+<span class="captionText">- Air fuel ratio sensor circuit</span>
+</span>
+<span class="caption">
+<span class="points">5.917,5.792 6.969,6.167</span>
+<span class="captionSize">1.052,0.375</span>
+<span class="fontsize">10</span>
+<span class="captionText">- Heated oxygen sensor</span>
+</span>
+<span class="caption">
+<span class="points">5.927,6.198 6.969,6.625</span>
+<span class="captionSize">1.042,0.427</span>
+<span class="fontsize">10</span>
+<span class="captionText">- Heated oxygen sensor heater</span>
+</span>
+<span class="caption">
+<span class="points">5.927,6.615 6.969,7.052</span>
+<span class="captionSize">1.042,0.438</span>
+<span class="fontsize">10</span>
+<span class="captionText">- Heated oxygen sensor circuit</span>
+</span>
+<span class="caption">
+<span class="points">5.927,7.698 6.813,8.104</span>
+<span class="captionSize">0.885,0.406</span>
+<span class="fontsize">10</span>
+<span class="captionText">- Fuel injector assembly</span>
+</span>
+<span class="caption">
+<span class="points">5.917,8.115 7.073,8.448</span>
+<span class="captionSize">1.156,0.333</span>
+<span class="fontsize">10</span>
+<span class="captionText">- Fuel pressure</span>
+</span>
+<span class="caption">
+<span class="points">5.917,8.365 6.969,9.375</span>
+<span class="captionSize">1.052,1.01</span>
+<span class="fontsize">10</span>
+<span class="captionText">- Gas leak from exhaust system (air fuel ratio extremely rich or lean)</span>
+</span>
+<span class="caption">
+<span class="points">2.552,2.75 3,2.938</span>
+<span class="captionSize">0.448,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">OK</span>
+</span>
+<span class="caption">
+<span class="points">2.5,4.719 2.948,4.906</span>
+<span class="captionSize">0.448,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">NG</span>
+</span>
+<span class="caption">
+<span class="points">2.552,6.865 3,7.052</span>
+<span class="captionSize">0.448,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">OK</span>
+</span>
+<span class="caption">
+<span class="points">2.5,8.844 2.948,9.031</span>
+<span class="captionSize">0.448,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">NG</span>
+</span>
+<span class="caption">
+<span class="points">5.167,2.708 5.615,2.896</span>
+<span class="captionSize">0.448,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">OK</span>
+</span>
+<span class="caption">
+<span class="points">5.167,4.813 5.615,5</span>
+<span class="captionSize">0.448,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">OK</span>
+</span>
+<span class="caption">
+<span class="points">5.135,8.854 5.583,9.042</span>
+<span class="captionSize">0.448,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">NG</span>
+</span>
+<span class="caption">
+<span class="points">5.135,6.771 5.583,6.958</span>
+<span class="captionSize">0.448,0.188</span>
+<span class="fontsize">8</span>
+<span class="captionText">NG</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Following the Control the Injection Volume for A/F sensor procedure enables technicians to check and graph the voltage outputs of both the A/F and HO2 sensors.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>To display the graph, enter the following menus: Powertrain / Engine and ECT / Active Test / Control the Injection Volume for A/F Sensor / A/F Control System / AFS Voltage B1S1 and O2S B1S2 or AFS Voltage B2S1 and O2S B2S2.
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Bank 1 refers to the bank that includes the No. 1 cylinder*.
+</p>
+<p>*: The No. 1 cylinder is the cylinder which is farthest from the transmission.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Bank 2 refers to the bank that does not include the No. 1 cylinder.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Sensor 1 refers to the sensor closest to the engine assembly.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Sensor 2 refers to the sensor farthest away from the engine assembly.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Read freeze frame data using an GTS. Freeze frame data records the engine condition when malfunctions are detected. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, if the air fuel ratio was lean or rich, and other data from the time the malfunction occurred.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000FJGN_15" class="category no01">
+<h2>PROCEDURE</h2>
+<div class="testgrp" id="RM100000000FJGN_15_0001">
+<div class="testtitle"><span class="titleText">1.READ OUTPUT DTC (DTC P0137 OR P0157)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Connect an GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Turn the ignition switch to ON and turn the GTS on.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Enter the following menus: Powertrain / Engine and ECT / Trouble Codes.
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Powertrain &gt; Engine and ECT &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Read the DTCs.
+</p>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJGN_15_0001_1" summary="">
+<colgroup>
+<col style="width:60%">
+<col style="width:39%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Result
+</th>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">DTC P0137 or P0157 is output
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">DTC P0137 or P0157 and other DTCs are output
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>If any DTCs other than P0137 and P0157 are output, troubleshoot those DTCs first.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">2.CHECK FOR EXHAUST GAS LEAK</span></div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">GO TO DTC CHART</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;SFI SYSTEM&gt;DIAGNOSTIC TROUBLE CODE CHART<span class="invisible">201408,201608,_51,_029758,_0135343,RM100000000FJFO,</span><span class="invisible">201608,999999,_51,_029758,_0135343,RM1000000011O8H,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJGN_15_0035">
+<div class="testtitle"><span class="titleText">2.CHECK FOR EXHAUST GAS LEAK</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Check for exhaust gas leaks.
+</p>
+<dl class="spec">
+<dt class="spec">OK:</dt>
+<dd class="spec"><p>No gas leaks.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJGN_15_0035_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">3.INSPECT HEATED OXYGEN SENSOR (HEATER RESISTANCE)</span></div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPAIR OR REPLACE EXHAUST GAS LEAK POINT</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJGN_15_0003">
+<div class="testtitle"><span class="titleText">3.INSPECT HEATED OXYGEN SENSOR (HEATER RESISTANCE)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Inspect the heated oxygen sensor.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;HEATED OXYGEN SENSOR&gt;INSPECTION<span class="invisible">201408,999999,_51,_029758,_0135342,RM100000000FJF9_01_0001,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJGN_15_0003_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">4.CHECK HARNESS AND CONNECTOR (HEATED OXYGEN SENSOR - ECM)</span></div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPLACE HEATED OXYGEN SENSOR</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;HEATED OXYGEN SENSOR&gt;REMOVAL<span class="invisible">201408,999999,_51,_029758,_0135342,RM100000000FJF8,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJGN_15_0037">
+<div class="testtitle"><span class="titleText">4.CHECK HARNESS AND CONNECTOR (HEATED OXYGEN SENSOR - ECM)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Disconnect the heated oxygen sensor (for bank 1 sensor 2) connector.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Disconnect the heated oxygen sensor (for bank 2 sensor 2) connector.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Disconnect the ECM connector.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Measure the resistance according to the value(s) in the table below.
+</p>
+<dl class="spec">
+<dt class="spec">Standard Resistance:</dt>
+<dd class="spec"><table summary="">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Connection
+</th>
+<th class="alcenter">Condition
+</th>
+<th class="alcenter">Specified Condition
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">C18-1 (HT1B) - C39-48 (HT1B)
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">C18-3 (OX1B) - C39-88 (OX1B)
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">C18-4 (E2) - C39-65 (EX1B)
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">C17-1 (HT2B) - C39-47 (HT2B)
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">C17-3 (OX2B) - C39-87 (OX2B)
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">C17-4 (E2) - C39-64 (EX2B)
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">C18-1 (HT1B) or C39-48 (HT1B) - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+<tr>
+<td class="alcenter">C18-3 (OX1B) or C39-88 (OX1B) - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+<tr>
+<td class="alcenter">C18-4 (E2) or C39-65 (EX1B) - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+<tr>
+<td class="alcenter">C17-1 (HT2B) or C39-47 (HT2B) - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+<tr>
+<td class="alcenter">C17-3 (OX2B) or C39-87 (OX2B) - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+<tr>
+<td class="alcenter">C17-4 (E2) or C39-64 (EX2B) - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJGN_15_0037_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">5.REPLACE HEATED OXYGEN SENSOR</span></div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPAIR OR REPLACE HARNESS OR CONNECTOR</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJGN_15_0039">
+<div class="testtitle"><span class="titleText">5.REPLACE HEATED OXYGEN SENSOR</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Replace the heated oxygen sensor.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;HEATED OXYGEN SENSOR&gt;REMOVAL<span class="invisible">201408,999999,_51,_029758,_0135342,RM100000000FJF8,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJGN_15_0039_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NEXT
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>NEXT
+</p></div>
+<div class="nextAction"><span class="titleText">6.PERFORM CONFIRMATION DRIVING PATTERN</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJGN_15_0040">
+<div class="testtitle"><span class="titleText">6.PERFORM CONFIRMATION DRIVING PATTERN</span></div>
+<div class="content6">
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>Refer to the CONFIRMATION DRIVING PATTERN.
+</p>
+</dd>
+</dl>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJGN_15_0040_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NEXT
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>NEXT
+</p></div>
+<div class="nextAction"><span class="titleText">7.CHECK WHETHER DTC OUTPUT RECURS (DTC P0136, P0137, P0138, P0156, P0157 OR P0158)</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJGN_15_0041">
+<div class="testtitle"><span class="titleText">7.CHECK WHETHER DTC OUTPUT RECURS (DTC P0136, P0137, P0138, P0156, P0157 OR P0158)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Connect an GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Turn the ignition switch to ON.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Turn the GTS on.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Enter the following menus: Powertrain / Engine and ECT / Utility / All Readiness.
+</p>
+<dl class="gtsUtilityNormal">
+<dt class="gtsUtilityNormal">Powertrain &gt; Engine and ECT &gt; Utility</dt>
+<dd class="gtsUtilityNormal">
+<table summary="utility" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">All Readiness
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsUtilityNormal gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50005</span>
+<span class="gtsEcu">234</span>
+<span class="gtsUtil">20</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>Input DTCs: P0137 and P0157.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>Check the DTC MONITOR is "NORMAL." If DTC Monitoris "INCOMPLETE," perform the drive pattern adding thevehicle speed and using second gear to decelerate thevehicle.
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJGN_15_0041_1" summary="">
+<colgroup>
+<col style="width:69%">
+<col style="width:30%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Display (DTC Output)
+</th>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NORMAL
+<br>
+(No DTC output)
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">ABNORMAL
+<br>
+(P0137 or P0157 detected)
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>A
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">END</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPLACE AIR FUEL RATIO SENSOR</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;AIR FUEL RATIO SENSOR&gt;REMOVAL<span class="invisible">201408,999999,_51,_029758,_0135341,RM100000000FJF4,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

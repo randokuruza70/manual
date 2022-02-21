@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="WR035">
+    <part type="conn" code="O6">
+      <name>Door Control Relay Assembly</name>
+    </part>
+    <part type="conn" code="O15">
+      <name>Door Control Relay Assembly</name>
+    </part>
+    <part type="conn" code="S4">
+      <name>Front Door Courtesy Light Switch Assembly RH</name>
+    </part>
+    <part type="conn" code="P3">
+      <name>Front Door Lock Actuator Assembly LH</name>
+    </part>
+    <part type="conn" code="O7">
+      <name>Front Door Lock Actuator Assembly RH</name>
+    </part>
+    <part type="conn" code="O5">
+      <name>Front Door Lock Actuator Assembly RH</name>
+    </part>
+    <part type="conn" code="P2">
+      <name>Front Power Window Regulator Motor Assembly LH</name>
+    </part>
+    <part type="conn" code="O2">
+      <name>Front Power Window Regulator Motor Assembly RH</name>
+    </part>
+    <part type="conn" code="P11">
+      <name>Front Power Window Regulator Switch Assembly LH</name>
+    </part>
+    <part type="conn" code="S12">
+      <name>Front Seat Inner Belt Assembly RH</name>
+    </part>
+    <part type="conn" code="S3">
+      <name>Parking Brake Switch Assembly</name>
+    </part>
+    <part type="conn" code="S15">
+      <name>Parking Brake Switch Assembly</name>
+    </part>
+    <part type="conn" code="O8">
+      <name>Power Window Regulator Master Switch Assembly</name>
+    </part>
+    <part type="conn" code="S13">
+      <name>Rear Door Courtesy Light Switch Assembly RH</name>
+    </part>
+    <part type="conn" code="Q2">
+      <name>Rear Door Lock Actuator Assembly LH</name>
+    </part>
+    <part type="conn" code="R2">
+      <name>Rear Door Lock Actuator Assembly RH</name>
+    </part>
+    <part type="conn" code="S5">
+      <name>Rear Heater Blower Resistor</name>
+    </part>
+    <part type="conn" code="S10">
+      <name>Rear Heater Blower Switch</name>
+    </part>
+    <part type="conn" code="Q3">
+      <name>Rear Power Window Regulator Motor Assembly LH</name>
+    </part>
+    <part type="conn" code="R3">
+      <name>Rear Power Window Regulator Motor Assembly RH</name>
+    </part>
+    <part type="conn" code="Q1">
+      <name>Rear Power Window Regulator Switch Assembly LH</name>
+    </part>
+    <part type="conn" code="R1">
+      <name>Rear Power Window Regulator Switch Assembly RH</name>
+    </part>
+    <part type="conn" code="S14">
+      <name>Rear Speaker Assembly RH</name>
+    </part>
+    <part type="conn" code="S17">
+      <name>Rear Speaker Assembly RH</name>
+    </part>
+    <part type="conn" code="S11">
+      <name>Rear Washer Motor Assembly</name>
+    </part>
+    <part type="conn" code="S9">
+      <name>Rear Wiper Relay Assembly</name>
+    </part>
+  </ttl>
+</EWDSearch>

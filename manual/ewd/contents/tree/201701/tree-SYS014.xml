@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS014" code="A20" type="conn" figID="13">
+    <name>Brake Actuator Assembly</name>
+  </text>
+  <text ewd="SYS014" code="A42" type="conn" figID="2">
+    <name>Brake Actuator Assembly</name>
+  </text>
+  <text ewd="SYS014" code="C35,C98" type="conn" figID="4">
+    <name>Center Differential Lock Indicator Switch (No. 1 Transfer Indicator Switch)</name>
+  </text>
+  <text ewd="SYS014" code="L25" type="conn" figID="15">
+    <name>Combination Meter Assembly</name>
+  </text>
+  <text ewd="SYS014" code="I24" type="conn" figID="12">
+    <name>Diode (Transfer L4 Position Switch)</name>
+  </text>
+  <text ewd="SYS014" code="I31,I89" type="conn" figID="8">
+    <name>Four Wheel Drive Control Solenoid Assembly</name>
+  </text>
+  <text ewd="SYS014" code="A22" type="conn" figID="1,9">
+    <name>No. 1 Junction Connector</name>
+  </text>
+  <text ewd="SYS014" code="I61,I70" type="conn" figID="5">
+    <name>No. 11 Junction Connector , No. 19 Junction Connector</name>
+  </text>
+  <text ewd="SYS014" code="I8" type="conn" figID="6">
+    <name>No. 2 Four Wheel Drive Control ECU</name>
+  </text>
+  <text ewd="SYS014" code="A23" type="conn" figID="10,20">
+    <name>No. 2 Junction Connector</name>
+  </text>
+  <text ewd="SYS014" code="A43" type="conn" figID="19">
+    <name>No. 34 Junction Connector</name>
+  </text>
+  <text ewd="SYS014" code="I105" type="conn" figID="7">
+    <name>No. 8 Junction Connector</name>
+  </text>
+  <text ewd="SYS014" code="I72,I106,I118" type="conn" figID="21">
+    <name>No. 9 Junction Connector , No. 36 Junction Connector , No. 21 Junction Connector</name>
+  </text>
+  <text ewd="SYS014" code="C36,C99" type="conn" figID="11">
+    <name>Transfer L4 Position Switch (No. 1 Transfer Indicator Switch)</name>
+  </text>
+  <text ewd="SYS014" code="L17" type="conn" figID="3">
+    <name>Transmission Control Switch</name>
+  </text>
+  <text ewd="SYS014" code="FUSE5" type="fuse" figID="100">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS014" code="FUSE16" type="fuse" figID="99">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS014" code="FUSE20" type="fuse" figID="98">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS014" code="AA" type="gp" figID="78,81">
+    <name />
+  </text>
+  <text ewd="SYS014" code="CA" type="gp" figID="79,85">
+    <name />
+  </text>
+  <text ewd="SYS014" code="CC" type="gp" figID="82,84">
+    <name />
+  </text>
+  <text ewd="SYS014" code="CE" type="gp" figID="77,83">
+    <name />
+  </text>
+  <text ewd="SYS014" code="IE" type="gp" figID="74,80">
+    <name />
+  </text>
+  <text ewd="SYS014" code="IG" type="gp" figID="75">
+    <name />
+  </text>
+  <text ewd="SYS014" code="LA" type="gp" figID="76">
+    <name />
+  </text>
+  <text ewd="SYS014" code="1" type="rb" figID="17">
+    <name />
+  </text>
+  <text ewd="SYS014" code="FUSE5" type="rb" figID="18">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS014" code="FUSE16" type="rb" figID="16">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS014" code="FUSE20" type="rb" figID="14">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS014" code="SP6" type="sp" figID="87">
+    <name />
+  </text>
+  <text ewd="SYS014" code="SP14" type="sp" figID="91">
+    <name />
+  </text>
+  <text ewd="SYS014" code="SP19" type="sp" figID="94,95">
+    <name />
+  </text>
+  <text ewd="SYS014" code="SP44" type="sp" figID="88">
+    <name />
+  </text>
+  <text ewd="SYS014" code="SP51" type="sp" figID="97">
+    <name />
+  </text>
+  <text ewd="SYS014" code="SP54" type="sp" figID="86">
+    <name />
+  </text>
+  <text ewd="SYS014" code="SP60" type="sp" figID="96">
+    <name />
+  </text>
+  <text ewd="SYS014" code="SP76" type="sp" figID="92">
+    <name />
+  </text>
+  <text ewd="SYS014" code="SP81" type="sp" figID="89">
+    <name />
+  </text>
+  <text ewd="SYS014" code="SP139" type="sp" figID="93">
+    <name />
+  </text>
+  <text ewd="SYS014" code="SP147" type="sp" figID="90">
+    <name />
+  </text>
+  <text ewd="SYS014" code="IA2" type="w2w" figID="40">
+    <name>Cowl Wire and Engine Room Main Wire</name>
+  </text>
+  <text ewd="SYS014" code="IA4" type="w2w" figID="39">
+    <name>Cowl Wire and Engine Room Main Wire</name>
+  </text>
+  <text ewd="SYS014" code="IC1" type="w2w" figID="46,48">
+    <name>Cowl Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS014" code="IC2" type="w2w" figID="70">
+    <name>Cowl Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS014" code="IC3" type="w2w" figID="36">
+    <name>Cowl Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS014" code="IL2" type="w2w" figID="31,59,61,68,73">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS014" code="IL6" type="w2w" figID="58,67,72">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS014" code="AI2" type="w2w" figID="28,42,44">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS014" code="AI3" type="w2w" figID="26,27,32,38,41,52,53,55,56,63,64,65,66,71">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS014" code="AI7" type="w2w" figID="29,43,45">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS014" code="AC1" type="w2w" figID="33,34,50,62">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS014" code="AC5" type="w2w" figID="35,69">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS014" code="AC8" type="w2w" figID="47,51">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS014" code="CA3" type="w2w" figID="37,49,54">
+    <name>Engine Wire and Engine Room Main Wire</name>
+  </text>
+  <text ewd="SYS014" code="CA4" type="w2w" figID="60">
+    <name>Engine Wire and Engine Room Main Wire</name>
+  </text>
+  <text ewd="SYS014" code="LI1" type="w2w" figID="30,57">
+    <name>Instrument Panel Wire and Cowl Wire</name>
+  </text>
+</EwdTree>

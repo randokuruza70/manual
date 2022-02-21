@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS068" code="Y3" type="conn" figID="12">
+    <name>Center Stop Light Assembly</name>
+  </text>
+  <text ewd="SYS068" code="I47" type="conn" figID="4">
+    <name>Diode (Stop Light)</name>
+  </text>
+  <text ewd="SYS068" code="I63,I65" type="conn" figID="6">
+    <name>No. 13 Junction Connector</name>
+  </text>
+  <text ewd="SYS068" code="I71" type="conn" figID="5">
+    <name>No. 20 Junction Connector</name>
+  </text>
+  <text ewd="SYS068" code="I54" type="conn" figID="13">
+    <name>No. 5 Junction Connector</name>
+  </text>
+  <text ewd="SYS068" code="I55,I69" type="conn" figID="7">
+    <name>No. 6 Junction Connector , No. 18 Junction Connector</name>
+  </text>
+  <text ewd="SYS068" code="T5,T7" type="conn" figID="11">
+    <name>Rear Combination Light Assembly LH</name>
+  </text>
+  <text ewd="SYS068" code="T17" type="conn" figID="9">
+    <name>Rear Combination Light Assembly LH</name>
+  </text>
+  <text ewd="SYS068" code="T1,T6" type="conn" figID="10">
+    <name>Rear Combination Light Assembly RH</name>
+  </text>
+  <text ewd="SYS068" code="T14" type="conn" figID="8">
+    <name>Rear Combination Light Assembly RH</name>
+  </text>
+  <text ewd="SYS068" code="I19" type="conn" figID="3">
+    <name>Stop Light Switch Assembly</name>
+  </text>
+  <text ewd="SYS068" code="FUSE26" type="fuse" figID="35">
+    <name>15A STOP</name>
+  </text>
+  <text ewd="SYS068" code="FUSE33" type="fuse" figID="34">
+    <name>30A STOP</name>
+  </text>
+  <text ewd="SYS068" code="IA" type="gp" figID="25">
+    <name />
+  </text>
+  <text ewd="SYS068" code="IC" type="gp" figID="24">
+    <name />
+  </text>
+  <text ewd="SYS068" code="IE" type="gp" figID="26">
+    <name />
+  </text>
+  <text ewd="SYS068" code="TA" type="gp" figID="23">
+    <name />
+  </text>
+  <text ewd="SYS068" code="TB" type="gp" figID="21">
+    <name />
+  </text>
+  <text ewd="SYS068" code="TC" type="gp" figID="22">
+    <name />
+  </text>
+  <text ewd="SYS068" code="FUSE26" type="rb" figID="2">
+    <name>15A STOP</name>
+  </text>
+  <text ewd="SYS068" code="FUSE33" type="rb" figID="1">
+    <name>30A STOP</name>
+  </text>
+  <text ewd="SYS068" code="SP54" type="sp" figID="33">
+    <name />
+  </text>
+  <text ewd="SYS068" code="SP66" type="sp" figID="32">
+    <name />
+  </text>
+  <text ewd="SYS068" code="SP106" type="sp" figID="27,31">
+    <name />
+  </text>
+  <text ewd="SYS068" code="SP107" type="sp" figID="29">
+    <name />
+  </text>
+  <text ewd="SYS068" code="SP108" type="sp" figID="28,30">
+    <name />
+  </text>
+  <text ewd="SYS068" code="IS1" type="w2w" figID="17">
+    <name>Cowl Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS068" code="ST2" type="w2w" figID="16">
+    <name>Floor Wire and No. 2 Floor Wire</name>
+  </text>
+  <text ewd="SYS068" code="YI2" type="w2w" figID="19,20">
+    <name>No. 1 Roof Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS068" code="TS2" type="w2w" figID="18">
+    <name>No. 2 Floor Wire and Floor Wire</name>
+  </text>
+</EwdTree>

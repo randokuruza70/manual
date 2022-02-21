@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="WR033">
+    <part type="conn" code="L13">
+      <name>Antenna Switch Assembly</name>
+    </part>
+    <part type="conn" code="L45">
+      <name>Antenna Switch Assembly</name>
+    </part>
+    <part type="conn" code="L10">
+      <name>Ashtray Receptacle Light</name>
+    </part>
+    <part type="conn" code="L4">
+      <name>Center Differential Lock Switch</name>
+    </part>
+    <part type="conn" code="L11">
+      <name>Cigarette Lighter Assembly</name>
+    </part>
+    <part type="conn" code="L12">
+      <name>Cigarette Lighter Assembly</name>
+    </part>
+    <part type="conn" code="L19">
+      <name>Cigarette Lighter Illumination (Cigarette Lighter Bezel Stay)</name>
+    </part>
+    <part type="conn" code="L9">
+      <name>Clock Assembly</name>
+    </part>
+    <part type="conn" code="L46">
+      <name>Door Control Switch Assembly</name>
+    </part>
+    <part type="conn" code="L18">
+      <name>Door Control Switch Assembly</name>
+    </part>
+    <part type="conn" code="L41">
+      <name>Front No. 1 Speaker Assembly LH</name>
+    </part>
+    <part type="conn" code="L1">
+      <name>Front No. 1 Speaker Assembly LH</name>
+    </part>
+    <part type="conn" code="L44">
+      <name>Front No. 1 Speaker Assembly RH</name>
+    </part>
+    <part type="conn" code="L5">
+      <name>Front No. 1 Speaker Assembly RH</name>
+    </part>
+    <part type="conn" code="L8">
+      <name>Fuel Control Switch Assembly</name>
+    </part>
+    <part type="conn" code="L14">
+      <name>Hazard Warning Signal Switch Assembly</name>
+    </part>
+    <part type="conn" code="L6">
+      <name>Idle Up Switch</name>
+    </part>
+    <part type="conn" code="L16">
+      <name>Outer Mirror Switch Assembly</name>
+    </part>
+    <part type="conn" code="L3">
+      <name>Radio Receiver Assembly</name>
+    </part>
+    <part type="conn" code="L42">
+      <name>Radio Receiver Assembly</name>
+    </part>
+    <part type="conn" code="L43">
+      <name>Radio Receiver Assembly</name>
+    </part>
+    <part type="conn" code="L2">
+      <name>Radio Receiver Assembly</name>
+    </part>
+    <part type="conn" code="L7">
+      <name>Rear Window Defogger Switch Assembly</name>
+    </part>
+    <part type="conn" code="L17">
+      <name>Transmission Control Switch</name>
+    </part>
+    <part type="conn" code="L20">
+      <name>Un-Lock Warning Switch Assembly</name>
+    </part>
+  </ttl>
+</EWDSearch>

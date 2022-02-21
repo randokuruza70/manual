@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- #  DTD VERSION 1.5  UPDATE May. 22, 2013    -->
+<!ELEMENT tmc-service-filter (pub)>
+<!ELEMENT pub (filter-list)>
+<!ATTLIST pub
+	id ID #REQUIRED
+>
+<!ELEMENT filter-list (filter+)>
+<!ELEMENT filter (full-model-code, servcat+)>
+<!ELEMENT full-model-code (name, engine-code?, transmission?, body-type1?, body-type2?, body-type3?, drive?, stearing?, destination?, suspension1?, suspension2?, vinno-vds*)>
+<!ELEMENT engine-code (#PCDATA)>
+<!ELEMENT transmission (#PCDATA)>
+<!ELEMENT body-type1 (#PCDATA)>
+<!ELEMENT body-type2 (#PCDATA)>
+<!ELEMENT body-type3 (#PCDATA)>
+<!ELEMENT drive (#PCDATA)>
+<!ELEMENT stearing (#PCDATA)>
+<!ELEMENT destination (#PCDATA)>
+<!ELEMENT suspension1 (#PCDATA)>
+<!ELEMENT suspension2 (#PCDATA)>
+<!ELEMENT vinno-vds (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT servcat (section+)>
+<!ATTLIST servcat
+	id CDATA #REQUIRED
+>
+<!ELEMENT section (ttl+)>
+<!ATTLIST section
+	id CDATA #REQUIRED
+	visible CDATA #REQUIRED
+>
+<!ELEMENT ttl EMPTY>
+<!ATTLIST ttl
+	id CDATA #REQUIRED
+	visible CDATA #REQUIRED
+>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS122" code="A35,A36,D9" type="conn" figID="1">
+    <name>Battery (Main)</name>
+  </text>
+  <text ewd="SYS122" code="L25,L26" type="conn" figID="2">
+    <name>Combination Meter Assembly</name>
+  </text>
+  <text ewd="SYS122" code="C39" type="conn" figID="9">
+    <name>ECM</name>
+  </text>
+  <text ewd="SYS122" code="C43,C44" type="conn" figID="10">
+    <name>Generator Assembly</name>
+  </text>
+  <text ewd="SYS122" code="I57" type="conn" figID="4">
+    <name>No. 8 Junction Connector</name>
+  </text>
+  <text ewd="SYS122" code="I58" type="conn" figID="7">
+    <name>No. 9 Junction Connector</name>
+  </text>
+  <text ewd="SYS122" code="FUSE5" type="fuse" figID="39">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS122" code="FUSE16" type="fuse" figID="38">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS122" code="FUSE43" type="fuse" figID="35">
+    <name>140A ALT</name>
+  </text>
+  <text ewd="SYS122" code="FUSE20" type="fuse" figID="37">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS122" code="FUSE44" type="fuse" figID="36">
+    <name>7.5A ALT-S</name>
+  </text>
+  <text ewd="SYS122" code="AC" type="gp" figID="31">
+    <name />
+  </text>
+  <text ewd="SYS122" code="CE" type="gp" figID="32">
+    <name />
+  </text>
+  <text ewd="SYS122" code="DA" type="gp" figID="30">
+    <name />
+  </text>
+  <text ewd="SYS122" code="3" type="jb" figID="18">
+    <name />
+  </text>
+  <text ewd="SYS122" code="4" type="jb" figID="16,17">
+    <name />
+  </text>
+  <text ewd="SYS122" code="FUSE5" type="rb" figID="6">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS122" code="FUSE16" type="rb" figID="5">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS122" code="FUSE20" type="rb" figID="3">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS122" code="FUSE44" type="rb" figID="8">
+    <name>7.5A ALT-S</name>
+  </text>
+  <text ewd="SYS122" code="SP51" type="sp" figID="34">
+    <name />
+  </text>
+  <text ewd="SYS122" code="SP60" type="sp" figID="33">
+    <name />
+  </text>
+  <text ewd="SYS122" code="IL1" type="w2w" figID="25,28,29">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS122" code="IL2" type="w2w" figID="24">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS122" code="AI2" type="w2w" figID="21">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS122" code="AI3" type="w2w" figID="23,27">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS122" code="AC10" type="w2w" figID="19,20">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS122" code="CA1" type="w2w" figID="22">
+    <name>Engine Wire and Engine Room Main Wire</name>
+  </text>
+  <text ewd="SYS122" code="CA2" type="w2w" figID="26">
+    <name>Engine Wire and Engine Room Main Wire</name>
+  </text>
+</EwdTree>

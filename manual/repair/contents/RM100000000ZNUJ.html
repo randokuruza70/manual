@@ -1,0 +1,1193 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_54</span>
+<span class="globalServcatName">Brake</span>
+<span class="globalSection">_029873</span>
+<span class="globalSectionName">BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS</span>
+<span class="globalTitle">_0287798</span>
+<span class="globalTitleName">VEHICLE STABILITY CONTROL SYSTEM</span>
+<span class="globalCategory">D</span>
+</div>
+<h1>BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&nbsp;&nbsp;VEHICLE STABILITY CONTROL SYSTEM&nbsp;&nbsp;FREEZE FRAME DATA&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000ZNUJ_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">FREEZE FRAME DATA
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>Using the GTS, check the vehicle condition (ECU, sensor) when the brake system operates or a DTC is output.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">CHECK FREEZE FRAME DATA WHEN BRAKE SYSTEM OPERATES
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>Freeze frame data is stored when the brake system operates. The freeze frame data is updated each time the system operates.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>Once freeze frame data is stored when the system operates, it is not cleared until the DTC is cleared.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>The number of times (maximum: 31) the ignition switch has been turned from off to ON since the last time the system was activated can be stored and displayed.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When the vehicle is stopped (vehicle speed below 7 km/h (4.3 mph)), turning the ignition switch from off to ON does not cause the value to increase.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The value "31" is displayed when the ignition switch was turned to ON more than 31 times.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>Check freeze frame data when the system operates
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>Turn the ignition switch off.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>Connect the GTS to the DLC3 and turn the ignition switch to ON.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iii.</div>
+<div class="step3Body">
+<p>Enter the following menus: Chassis / ABS/VSC/TRC / Utility.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iv.</div>
+<div class="step3Body">
+<p>Select "ABS History".
+</p>
+<dl class="gtsUtilityNormal">
+<dt class="gtsUtilityNormal">Chassis &gt; ABS/VSC/TRC &gt; Utility</dt>
+<dd class="gtsUtilityNormal">
+<table summary="utility" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">ABS History
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsUtilityNormal gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50005</span>
+<span class="gtsEcu">105</span>
+<span class="gtsUtil">8</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">v.</div>
+<div class="step3Body">
+<p>Check the freeze frame data when the system operates.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">CHECK FREEZE FRAME DATA WHEN DTC WAS STORED
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>Freeze frame data is stored when a DTC is output.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>Once freeze frame data is stored when a DTC is output, it is not updated or cleared until the DTC is cleared.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>The number of times (maximum: 31) the ignition switch has been turned from off to ON since a DTC was output can be stored and displayed.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>The value "31" is displayed when the ignition switch was turned to ON more than 31 times.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>Check freeze frame data when DTC is output
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>Turn the ignition switch off.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>Connect the GTS to the DLC3 and turn the ignition switch to ON.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iii.</div>
+<div class="step3Body">
+<p>Enter the following menus: Chassis / ABS/VSC/TRC / Trouble Codes.
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iv.</div>
+<div class="step3Body">
+<p>Select a DTC to display the freeze frame data.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">v.</div>
+<div class="step3Body">
+<p>Check the freeze frame data for the output DTC.
+</p>
+<dl class="gtsFreezeFrame hasAllTable">
+<dt class="gtsFreezeFrame">Chassis &gt; ABS/VSC/TRC</dt>
+<dd class="gtsFreezeFrame">
+<table summary="freeze-frame">
+<colgroup>
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:19%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+<th class="alcenter">Measurement Item
+</th>
+<th class="alcenter">Range
+</th>
+<th class="alcenter">Normal Condition
+</th>
+<th class="alcenter">Diagnostic Note
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">FR Speed Open
+</td>
+<td class="alleft">Front speed sensor RH open detection
+</td>
+<td class="alleft">Error or Normal
+</td>
+<td class="alleft">Normal
+</td>
+<td class="alleft">Error: Momentary interruption
+</td>
+</tr>
+<tr>
+<td class="alleft">FL Speed Open
+</td>
+<td class="alleft">Front speed sensor LH open detection
+</td>
+<td class="alleft">Error or Normal
+</td>
+<td class="alleft">Normal
+</td>
+<td class="alleft">Error: Momentary interruption
+</td>
+</tr>
+<tr>
+<td class="alleft">RR Speed Open
+</td>
+<td class="alleft">Rear speed sensor RH open detection
+</td>
+<td class="alleft">Error or Normal
+</td>
+<td class="alleft">Normal
+</td>
+<td class="alleft">Error: Momentary interruption
+</td>
+</tr>
+<tr>
+<td class="alleft">RL Speed Open
+</td>
+<td class="alleft">Rear speed sensor LH open detection
+</td>
+<td class="alleft">Error or Normal
+</td>
+<td class="alleft">Normal
+</td>
+<td class="alleft">Error: Momentary interruption
+</td>
+</tr>
+<tr>
+<td class="alleft">EFI Communication Open
+</td>
+<td class="alleft">ECM communication open detection
+</td>
+<td class="alleft">Error or Normal
+</td>
+<td class="alleft">Normal
+</td>
+<td class="alleft">Error: Momentary interruption
+</td>
+</tr>
+<tr>
+<td class="alleft">Yaw Rate Open
+</td>
+<td class="alleft">Yaw rate sensor open detection
+</td>
+<td class="alleft">Error or Normal
+</td>
+<td class="alleft">Normal
+</td>
+<td class="alleft">Error: Momentary interruption
+</td>
+</tr>
+<tr>
+<td class="alleft">Deceleration Open
+</td>
+<td class="alleft">Acceleration sensor open detection
+</td>
+<td class="alleft">Error or Normal
+</td>
+<td class="alleft">Normal
+</td>
+<td class="alleft">Error: Momentary interruption
+</td>
+</tr>
+<tr>
+<td class="alleft">Steering Open
+</td>
+<td class="alleft">Steering angle sensor open detection
+</td>
+<td class="alleft">Error or Normal
+</td>
+<td class="alleft">Normal
+</td>
+<td class="alleft">Error: Momentary interruption
+</td>
+</tr>
+<tr>
+<td class="alleft">Master Cylinder Open
+</td>
+<td class="alleft">Master cylinder pressure sensor open detection
+</td>
+<td class="alleft">Error or Normal
+</td>
+<td class="alleft">Normal
+</td>
+<td class="alleft">Error: Momentary interruption
+</td>
+</tr>
+<tr>
+<td class="alleft">FR Speed Sensor Voltage Open
+</td>
+<td class="alleft">Front speed sensor RH voltage open detection
+</td>
+<td class="alleft">Error or Normal
+</td>
+<td class="alleft">Normal
+</td>
+<td class="alleft">Error: Momentary interruption
+</td>
+</tr>
+<tr>
+<td class="alleft">FL Speed Sensor Voltage Open
+</td>
+<td class="alleft">Front speed sensor LH voltage open detection
+</td>
+<td class="alleft">Error or Normal
+</td>
+<td class="alleft">Normal
+</td>
+<td class="alleft">Error: Momentary interruption
+</td>
+</tr>
+<tr>
+<td class="alleft">RR Speed Sensor Voltage Open
+</td>
+<td class="alleft">Rear speed sensor RH voltage open detection
+</td>
+<td class="alleft">Error or Normal
+</td>
+<td class="alleft">Normal
+</td>
+<td class="alleft">Error: Momentary interruption
+</td>
+</tr>
+<tr>
+<td class="alleft">RL Speed Sensor Voltage Open
+</td>
+<td class="alleft">Rear speed sensor LH voltage open detection
+</td>
+<td class="alleft">Error or Normal
+</td>
+<td class="alleft">Normal
+</td>
+<td class="alleft">Error: Momentary interruption
+</td>
+</tr>
+<tr>
+<td class="alleft">M/C Pressure Sensor Noise
+</td>
+<td class="alleft">Master cylinder pressure sensor noise detection
+</td>
+<td class="alleft">Error or Normal
+</td>
+<td class="alleft">Normal
+</td>
+<td class="alleft">Error: Momentary interruption
+</td>
+</tr>
+<tr>
+<td class="alleft">Yaw Rate Sensor Voltage Open
+</td>
+<td class="alleft">Yaw rate sensor voltage open detection
+</td>
+<td class="alleft">Error or Normal
+</td>
+<td class="alleft">Normal
+</td>
+<td class="alleft">Error: Momentary interruption
+</td>
+</tr>
+<tr>
+<td class="alleft">EFI Communication Invalid
+</td>
+<td class="alleft">ECM communication invalid detection
+</td>
+<td class="alleft">Error or Normal
+</td>
+<td class="alleft">Normal
+</td>
+<td class="alleft">Error: Invalid
+</td>
+</tr>
+<tr>
+<td class="alleft">Number of IG ON
+</td>
+<td class="alleft">Number of operations of ignition switch being turned to ON after storing Freeze Frame Data
+</td>
+<td class="alleft">0 to 31
+</td>
+<td class="alleft">-
+</td>
+<td class="alleft">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Elapsed Time
+</td>
+<td class="alleft">Time elapsed after ignition switch turned to ON
+</td>
+<td class="alleft">Min.: 0 sec
+<br>
+Max.: 100661.76 sec
+</td>
+<td class="alleft">-
+</td>
+<td class="alleft">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Stop Light SW
+</td>
+<td class="alleft">Stop light switch assembly
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">ON: Brake pedal depressed
+<br>
+OFF: Brake pedal released
+</td>
+<td class="alleft">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Parking Brake SW
+</td>
+<td class="alleft">Parking brake switch
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">ON: Parking brake applied
+<br>
+OFF: Parking brake released
+</td>
+<td class="alleft">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Operated System
+</td>
+<td class="alleft">Operated system status
+</td>
+<td class="alleft">Non, ABS, VSC, TRC, BA, HAB, Fail, PBA, PB, HA-CTRL, TSC or Sys
+</td>
+<td class="alleft">Actual operated system
+</td>
+<td class="alleft">Non: No operation activated
+<br>
+ABS: ABS activated
+<br>
+VSC: VSC activated
+<br>
+TRC: TRC activated
+<br>
+BA: BA activated
+<br>
+Fail: Fail safe mode activated
+<br>
+HA-CTRL: Hill-start assist control activated
+<br>
+Sys: System prohibit activated
+</td>
+</tr>
+<tr>
+<td class="alleft">M/C Sensor Grade
+</td>
+<td class="alleft">Master cylinder pressure sensor change
+</td>
+<td class="alleft">Min.: -30 MPa/s
+<br>
+Max.: 225 MPa/s
+</td>
+<td class="alleft">0 MPa/s: When brake pedal is released or pedal is held at constant position
+</td>
+<td class="alleft">When brake pedal is being operated: Changes in proportion with pedal movement speed
+</td>
+</tr>
+<tr>
+<td class="alleft">Yaw Rate Sensor
+</td>
+<td class="alleft">Yaw rate sensor
+</td>
+<td class="alleft">Min.: -128°/s
+<br>
+Max.: 127°/s
+</td>
+<td class="alleft">0°/s: Vehicle stopped
+<br>
+-128 to 0°/s: Turning right
+<br>
+0 to 127°/s: Turning left
+</td>
+<td class="alleft">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Lateral G
+</td>
+<td class="alleft">Lateral G
+</td>
+<td class="alleft">Min.: -25.10 m/s<sup>2</sup>
+<br>
+Max.: 24.90 m/s<sup>2</sup>
+</td>
+<td class="alleft">-
+</td>
+<td class="alleft">During turning: Changes in proportion with acceleration
+</td>
+</tr>
+<tr>
+<td class="alleft">Forward and Rearward G
+</td>
+<td class="alleft">Forward and backward G
+</td>
+<td class="alleft">Min.: -25.10 m/s<sup>2</sup>
+<br>
+Max.: 24.90 m/s<sup>2</sup>
+</td>
+<td class="alleft">-
+</td>
+<td class="alleft">During acceleration/deceleration: Changes in proportion with acceleration
+</td>
+</tr>
+<tr>
+<td class="alleft">FR Wheel Speed
+</td>
+<td class="alleft">FR wheel speed sensor reading
+</td>
+<td class="alleft">Min.: 0 km/h (0 mph)
+<br>
+Max.: 326.4 km/h (202 mph)
+</td>
+<td class="alleft">Vehicle stopped: 0 km/h (0 mph)
+</td>
+<td class="alleft">When driving at constant speed: No large fluctuations
+</td>
+</tr>
+<tr>
+<td class="alleft">FL Wheel Speed
+</td>
+<td class="alleft">FL wheel speed sensor reading
+</td>
+<td class="alleft">Min.: 0 km/h (0 mph)
+<br>
+Max.: 326.4 km/h (202 mph)
+</td>
+<td class="alleft">Vehicle stopped: 0 km/h (0 mph)
+</td>
+<td class="alleft">When driving at constant speed: No large fluctuations
+</td>
+</tr>
+<tr>
+<td class="alleft">RR Wheel Speed
+</td>
+<td class="alleft">RR wheel speed sensor reading
+</td>
+<td class="alleft">Min.: 0 km/h (0 mph)
+<br>
+Max.: 326.4 km/h (202 mph)
+</td>
+<td class="alleft">Vehicle stopped: 0 km/h (0 mph)
+</td>
+<td class="alleft">When driving at constant speed: No large fluctuations
+</td>
+</tr>
+<tr>
+<td class="alleft">RL Wheel Speed
+</td>
+<td class="alleft">RL wheel speed sensor reading
+</td>
+<td class="alleft">Min.: 0 km/h (0 mph)
+<br>
+Max.: 326.4 km/h (202 mph)
+</td>
+<td class="alleft">Vehicle stopped: 0 km/h (0 mph)
+</td>
+<td class="alleft">When driving at constant speed: No large fluctuations
+</td>
+</tr>
+<tr>
+<td class="alleft">Vehicle Speed
+</td>
+<td class="alleft">Maximum wheel speed sensor reading
+</td>
+<td class="alleft">Min.: 0 km/h (0 mph)
+<br>
+Max.: 326.4 km/h (202 mph)
+</td>
+<td class="alleft">Vehicle stopped: 0 km/h (0 mph)
+</td>
+<td class="alleft">When driving at constant speed: No large fluctuations
+</td>
+</tr>
+<tr>
+<td class="alleft">Vehicle Speed Grade
+</td>
+<td class="alleft">Vehicle acceleration
+</td>
+<td class="alleft">Min.: -25.10 m/s<sup>2</sup>
+<br>
+Max.: 24.90 m/s<sup>2</sup>
+</td>
+<td class="alleft">Vehicle stopped: 0 m/s<sup>2</sup>
+</td>
+<td class="alleft">During driving: Changes in proportion with vehicle acceleration/deceleration
+</td>
+</tr>
+<tr>
+<td class="alleft">Real Engine Torque
+</td>
+<td class="alleft">Real engine torque
+</td>
+<td class="alleft">Min.: -1024 Nm
+<br>
+Max.: 1023 Nm
+</td>
+<td class="alleft">-
+</td>
+<td class="alleft">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Accelerator Opening Angle %
+</td>
+<td class="alleft">Percentage of accelerator pedal opening angle
+</td>
+<td class="alleft">Min.: 0%
+<br>
+Max.: 127%
+</td>
+<td class="alleft">Accelerator pedal released: 0%
+</td>
+<td class="alleft">During accelerator pedal operation: Changes in proportion with the pedal movement
+</td>
+</tr>
+<tr>
+<td class="alleft">BS1 Voltage Value
+</td>
+<td class="alleft">+BS voltage value
+</td>
+<td class="alleft">Min.: 0 V
+<br>
+Max.: 20 V
+</td>
+<td class="alleft">Ignition switch ON: 11 to 14 V
+</td>
+<td class="alleft">Changes in proportion to battery voltage
+</td>
+</tr>
+<tr>
+<td class="alleft">FR Target Oil Pressure
+</td>
+<td class="alleft">Front wheel RH target oil pressure
+</td>
+<td class="alleft">Min.: 0 MPa
+<br>
+Max.: 20 MPa
+</td>
+<td class="alleft">Different according to target oil pressure of each wheel
+</td>
+<td class="alleft">-
+</td>
+</tr>
+<tr>
+<td class="alleft">FL Target Oil Pressure
+</td>
+<td class="alleft">Front wheel LH target oil pressure
+</td>
+<td class="alleft">Min.: 0 MPa
+<br>
+Max.: 20 MPa
+</td>
+<td class="alleft">Different according to target oil pressure of each wheel
+</td>
+<td class="alleft">-
+</td>
+</tr>
+<tr>
+<td class="alleft">RR Target Oil Pressure
+</td>
+<td class="alleft">Rear wheel RH target oil pressure
+</td>
+<td class="alleft">Min.: 0 MPa
+<br>
+Max.: 20 MPa
+</td>
+<td class="alleft">Different according to target oil pressure of each wheel
+</td>
+<td class="alleft">-
+</td>
+</tr>
+<tr>
+<td class="alleft">RL Target Oil Pressure
+</td>
+<td class="alleft">Rear wheel LH target oil pressure
+</td>
+<td class="alleft">Min.: 0 MPa
+<br>
+Max.: 20 MPa
+</td>
+<td class="alleft">Different according to target oil pressure of each wheel
+</td>
+<td class="alleft">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Inspection Mode
+</td>
+<td class="alleft">Inspection mode
+</td>
+<td class="alleft">Other or Inspect
+</td>
+<td class="alleft">Other: Normal mode
+<br>
+Inspect: Inspection mode
+</td>
+<td class="alleft">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Steering Angle Sensor
+</td>
+<td class="alleft">Steering angle sensor
+</td>
+<td class="alleft">Min.: -3276.8°
+<br>
+Max.: 3276.7°
+</td>
+<td class="alleft">Turning left: Positive value increases
+<br>
+Turning right: Negative value decreases
+</td>
+<td class="alleft">-
+</td>
+</tr>
+<tr>
+<td class="alleft">TRC/VSC Off Mode
+</td>
+<td class="alleft">TRC/VSC off mode
+</td>
+<td class="alleft">Normal, TRC OFF or VSC OFF
+</td>
+<td class="alleft">Normal: Normal mode
+<br>
+TRC OFF: TRC off mode
+<br>
+VSC OFF: VSC off mode
+</td>
+<td class="alleft">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Master Cylinder Pressure
+</td>
+<td class="alleft">Master cylinder pressure sensor pressure
+</td>
+<td class="alleft">Min.: 0.00 MPa
+<br>
+Max.: 23.28 MPa
+</td>
+<td class="alleft">Proportional to pedal force: Pedal operated
+<br>
+0.00 MPa: Pedal released
+</td>
+<td class="alleft">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Master Cylinder Sensor Temperature
+</td>
+<td class="alleft">Master cylinder pressure sensor temperature
+</td>
+<td class="alleft">Min.: -80°C (-112°F)
+<br>
+Max.: 175°C (347°F)
+</td>
+<td class="alleft">-
+</td>
+<td class="alleft">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Vehicle Stop Time from IG ON
+</td>
+<td class="alleft">Time vehicle stopped after ignition switch turned to ON
+</td>
+<td class="alleft">Min.: 0 s
+<br>
+Max.: 1275 s
+</td>
+<td class="alleft">-
+</td>
+<td class="alleft">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Travel Distance from IG ON
+</td>
+<td class="alleft">Driving time after ignition switch turned to ON
+</td>
+<td class="alleft">Min.: 0 s
+<br>
+Max.: 1275 s
+</td>
+<td class="alleft">-
+</td>
+<td class="alleft">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Revolutions
+</td>
+<td class="alleft">Engine speed
+</td>
+<td class="alleft">Min.: 0 rpm
+<br>
+Max.: 25500 rpm
+</td>
+<td class="alleft">-
+</td>
+<td class="alleft">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Motor Power Supply Voltage
+</td>
+<td class="alleft">Motor power supply voltage
+</td>
+<td class="alleft">Min.: 0 V
+<br>
+Max.: 20 V
+</td>
+<td class="alleft">Ignition switch ON: 11 to 14 V
+</td>
+<td class="alleft">Changes in proportion to battery voltage
+</td>
+</tr>
+<tr>
+<td class="alleft">Solenoid Power Supply Voltage
+</td>
+<td class="alleft">Solenoid power supply voltage
+</td>
+<td class="alleft">Min.: 0 V
+<br>
+Max.: 20 V
+</td>
+<td class="alleft">Ignition switch ON: 11 to 14 V
+</td>
+<td class="alleft">Changes in proportion to battery voltage
+</td>
+</tr>
+<tr>
+<td class="alleft">MT Voltage Value
+</td>
+<td class="alleft">Motor voltage value
+</td>
+<td class="alleft">Min.: 0 V
+<br>
+Max.: 20 V
+</td>
+<td class="alleft">-
+</td>
+<td class="alleft">Changes in proportion to battery voltage
+</td>
+</tr>
+<tr>
+<td class="alleft">Solenoid State for ECU Control
+</td>
+<td class="alleft">Solenoid (for ECU control) status
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">ON: Solenoid relay operating
+<br>
+OFF: Solenoid relay not operating
+</td>
+<td class="alleft">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Motor State for ECU Control
+</td>
+<td class="alleft">Motor (for ECU control) status
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">ON: Motor relay operating
+<br>
+OFF: Motor relay not operating
+</td>
+<td class="alleft">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Operation History of IG OFF while Vehicle is moving
+</td>
+<td class="alleft">History of ignition switch turned off when vehicle is in motion
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">ON: History of ignition switch turned off with vehicle speed 3 km/h (2 mph) or higher
+<br>
+OFF: No history
+</td>
+<td class="alleft">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Master Cylinder Pressure Sensor Power Supply Open
+</td>
+<td class="alleft">Master cylinder pressure sensor power supply voltage status
+</td>
+<td class="alleft">Error or Normal
+</td>
+<td class="alleft">Normal
+</td>
+<td class="alleft">Error: Momentary interruption
+</td>
+</tr>
+<tr>
+<td class="alleft">Solenoid Power Supply Open
+</td>
+<td class="alleft">Solenoid power supply voltage status
+</td>
+<td class="alleft">Error or Normal
+</td>
+<td class="alleft">Normal
+</td>
+<td class="alleft">Error: Momentary interruption
+</td>
+</tr>
+<tr>
+<td class="alleft">Motor Power Supply Open
+</td>
+<td class="alleft">Motor power supply voltage status
+</td>
+<td class="alleft">Error or Normal
+</td>
+<td class="alleft">Normal
+</td>
+<td class="alleft">Error: Momentary interruption
+</td>
+</tr>
+<tr>
+<td class="alleft">Stop Switch Open
+</td>
+<td class="alleft">Momentary interruption (open circuit) status in the wire harness between the skid control ECU (brake actuator assembly) and the stop light switch assembly
+</td>
+<td class="alleft">Error or Normal
+</td>
+<td class="alleft">Normal
+</td>
+<td class="alleft">Error: Momentary interruption
+</td>
+</tr>
+<tr>
+<td class="alleft">IG Switch
+</td>
+<td class="alleft">Ignition switch status
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">-
+</td>
+<td class="alleft">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Elapsed Time after Freeze Trigger
+</td>
+<td class="alleft">Elapsed time after storing freeze frame data
+</td>
+<td class="alleft">Min.: 0 msec
+<br>
+Max.: 1020 msec
+</td>
+<td class="alleft">-
+</td>
+<td class="alleft">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">CLEAR FREEZE FRAME DATA
+</span></p>
+<br>
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3">
+<p>Clearing the DTC will also clear the Freeze Frame Data.
+</p>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>Turn the ignition switch to ON.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>Clear the DTC and Freeze Frame Data.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;VEHICLE STABILITY CONTROL SYSTEM&gt;DTC CHECK / CLEAR<span class="invisible">201608,999999,_54,_029873,_0287798,RM100000000ZNUI,</span></a>
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Chassis &gt; ABS/VSC/TRC &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

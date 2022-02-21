@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25T2E" style="font-size:6px;font-family:'Arial'" ver="2.1.2.9">
+	<text textID="1">* 1 :Pick-Up Body Type</text>
+	<text textID="2">* 2 :Except Pick-Up Body Type</text>
+	<text textID="3">* 3 :w/ Rear Fog Light</text>
+	<text textID="4">* 8 :12V Battery Type</text>
+	<text textID="5">* 9 :24V Battery Type</text>
+	<text textID="6">*13 :RHD 1GR-FE, 1HZ 12V Battery Type w/o Emission Control</text>
+	<text textID="7">*14 :1HZ 12V Battery Type w/ Emission Control, 1HZ 24V Battery Type</text>
+	<text textID="8">*16 :Except Soft Top Body Type</text>
+	<text textID="9">*17 :Soft Top Body Type</text>
+	<text textID="10">Back-Up Light Switch Assembly</text>
+	<text textID="11">Diode (Turn Signal Light LH)</text>
+	<text textID="12">Diode (Turn Signal Light RH)</text>
+	<text textID="13">FLSH2 Relay</text>
+	<text textID="14">FLSH Relay</text>
+	<text textID="15">Hazard Warning Signal Switch Assembly</text>
+	<text textID="16">Headlight Dimmer Switch Assembly</text>
+	<text textID="17">No. 6 Junction Connector</text>
+	<text textID="18">No. 8 Junction Connector</text>
+	<text textID="19">No. 9 Junction Connector</text>
+	<text textID="20">No. 12 Junction Connector</text>
+	<text textID="21">No. 13 Junction Connector</text>
+	<text textID="22">No. 24 Junction Connector</text>
+	<text textID="23">No. 24 Junction Connector , No. 26 Junction Connector</text>
+	<text textID="24">No. 26 Junction Connector</text>
+	<text textID="25">No. 31 Junction Connector</text>
+	<text textID="26">RR FOG Relay</text>
+	<text textID="27">Stop Light Switch Assembly</text>
+	<text textID="28">TAIL Relay</text>
+	<text textID="29">Trailer Socket</text>
+	<text textID="30">Turn Signal Flasher Assembly</text>
+	<text textID="31">Turn Switch</text>
+</texts>

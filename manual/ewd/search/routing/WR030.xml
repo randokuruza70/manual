@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="WR030">
+    <part type="conn" code="D9">
+      <name>Battery (Main)</name>
+    </part>
+    <part type="conn" code="D8">
+      <name>Battery (Main)</name>
+    </part>
+    <part type="conn" code="I85">
+      <name>Brake Fluid Level Warning Switch (Brake Master Cylinder Reservoir Sub-Assembly)</name>
+    </part>
+    <part type="conn" code="u1">
+      <name>Exhaust Fuel Addition Injector Assembly</name>
+    </part>
+    <part type="conn" code="J2">
+      <name>Fog Light Assembly LH</name>
+    </part>
+    <part type="conn" code="J1">
+      <name>Fog Light Assembly RH</name>
+    </part>
+    <part type="conn" code="I52">
+      <name>Front Airbag Sensor RH</name>
+    </part>
+    <part type="conn" code="I6">
+      <name>Front Blower Motor (Heater Blower Case)</name>
+    </part>
+    <part type="conn" code="r3">
+      <name>Fuel Temperature Sensor</name>
+    </part>
+    <part type="conn" code="I76">
+      <name>Fuse Block Assembly</name>
+    </part>
+    <part type="conn" code="I36">
+      <name>Headlight Assembly RH</name>
+    </part>
+    <part type="conn" code="I38">
+      <name>Headlight Assembly RH</name>
+    </part>
+    <part type="conn" code="I40">
+      <name>Headlight Assembly RH</name>
+    </part>
+    <part type="conn" code="I91">
+      <name>Headlight Assembly RH</name>
+    </part>
+    <part type="conn" code="v1">
+      <name>Pressure Discharge Valve Assembly (Common Rail Assembly)</name>
+    </part>
+    <part type="conn" code="I25">
+      <name>Side Turn Signal Light Assembly RH</name>
+    </part>
+    <part type="conn" code="D6">
+      <name>Starter Assembly</name>
+    </part>
+    <part type="conn" code="D7">
+      <name>Starter Assembly</name>
+    </part>
+    <part type="conn" code="r2">
+      <name>Suction Control Valve</name>
+    </part>
+    <part type="conn" code="I48">
+      <name>Thermistor Assembly</name>
+    </part>
+    <part type="conn" code="I32">
+      <name>Vacuum Warning Switch Assembly</name>
+    </part>
+  </ttl>
+</EWDSearch>

@@ -1,0 +1,1454 @@
+/*! All Rights Reserved. Copyright 2012 (C) TOYOTA  MOTOR  CORPORATION.
+Last Update: 2015/04/02
+Manual Contents Style Sheets:English */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait) {
+  div.wrapper_iPad {
+    height: 1138px !important;
+  }
+  div.wrapper_iPad_def {
+    width: 757px !important;
+    overflow-x : hidden !important;
+  }
+  div.wrapper_iPad_half {
+    width: 597px !important;
+    overflow-x : hidden !important;
+  }
+  div.wrapper_iPad_all {
+    width: 100% !important;
+    overflow-x : hidden !important;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:landscape) {
+  div.wrapper_iPad {
+    height: 597px !important;
+  }
+  div.wrapper_iPad_def {
+    width: 757px !important;
+    overflow-x : hidden !important;
+  }
+  div.wrapper_iPad_half {
+    width: 597px !important;
+    overflow-x : hidden !important;
+  }
+  div.wrapper_iPad_all {
+    width: 100% !important;
+    overflow-x : hidden !important;
+  }
+}
+
+@media print {
+  html {
+    height: auto;
+    overflow: visible !important;
+    overflow-x: visible !important;
+  }
+
+  html.noscrollbar {
+    overflow: visible !important;
+  }
+
+  body {
+    _zoom: 80%;
+  }
+
+  div.modeless_body {
+    overflow: visible !important;
+    overflow-x: visible !important;
+    overflow-y: visible !important;
+    height: auto;
+  }
+
+  div.modeless_wrapper_print {
+    height: auto !important;
+  }
+}
+
+div#fbx_flow_alert_body div,
+div#fbx_flow_alert_body span,
+div#fbx_flow_alert_body h1,
+div#fbx_flow_alert_body h2,
+div#fbx_flow_alert_body h3,
+div#fbx_flow_alert_body h4,
+div#fbx_flow_alert_body h5,
+div#fbx_flow_alert_body h6,
+div#fbx_flow_alert_body label,
+div#fbx_flow_alert_body p,
+div#fbx_flow_alert_body ul,
+div#fbx_flow_alert_body ol,
+div#fbx_flow_alert_body li,
+div#fbx_flow_alert_body dl,
+div#fbx_flow_alert_body dt,
+div#fbx_flow_alert_body dd,
+div#fbx_flow_alert_body table,
+div#fbx_flow_alert_body caption,
+div#fbx_flow_alert_body th,
+div#fbx_flow_alert_body td,
+div#fbx_flow_alert_body img,
+div#fbx_flow_alert_body fieldset,
+div#fbx_flow_alert_body legend,
+div#fbx_flow_alert_body input,
+div#fbx_flow_alert_body textarea,
+div#fbx_flow_alert_body select,
+div#fbx_flow_alert_body option,
+div#fbx_flow_alert_body a {
+  font-size: 11px;
+  font-family: "Verdana",sans-serif;
+  line-height: 13px;
+}
+
+div#fbx_flow_alert_body input.button_style {
+  font-size: 11px;
+  line-height: 13px;
+}
+
+div#fbx_flow_alert_body span.smaller,
+div#fbx_flow_alert_body label.smaller,
+div#fbx_flow_alert_body p.smaller,
+div#fbx_flow_alert_body li.smaller,
+div#fbx_flow_alert_body dt.smaller,
+div#fbx_flow_alert_body dd.smaller,
+div#fbx_flow_alert_body a.smaller {
+  font-size: 8px;
+  line-height: 10px;
+}
+
+div#fbx_flow_alert_body td {
+  vertical-align: middle;
+}
+
+div.wrapper {
+  height: 100%;
+}
+
+div.modeless_wrapper {
+  margin: 0px 15px 0px 15px;
+  height: 588px;
+}
+
+div#body {
+  width: 100%;
+  height: 100%;
+}
+
+div.modeless_body {
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+div#contents {
+  width: 100%;
+}
+
+div#contentsBody {
+  position: relative;
+  height: 100%;
+  margin: 0px 15px 0px 15px;
+  _margin: 0px 20px 0px 15px;
+}
+
+div#contentsBody div.figure div.swfPattern input.playswf,
+div#contentsBody div.figure div.pdfPattern input.showpdf,
+div#contentsBody div.figure div.gifPattern input.playgif,
+div#contentsBody dd.gtsExec input.gtsBtn,
+div#fbx_flow_alert_body div.figure div.swfPattern input.playswf,
+div#fbx_flow_alert_body div.figure div.pdfPattern input.showpdf,
+div#fbx_flow_alert_body div.figure div.gifPattern input.playgif,
+div#fbx_flow_alert_body dd.gtsExec input.gtsBtn {
+  width: 80px;
+  height: 25px;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #333333;
+}
+
+div#contentsBody h1,
+div#fbx_flow_alert_body h1 {
+  clear: both;
+  margin: 10px 0px 0px 0px;
+  width: 100%;
+  line-height: 16px;
+  text-indent: 9px;
+  border: 1px solid #676767;
+  border-width: 0px 1px 0px 1px;
+  background-color: #676767;
+  color: #FFFFFF;
+}
+
+div#contentsBody h2,
+div#fbx_flow_alert_body h2 {
+  clear: both;
+  margin: 0px 0px 25px 0px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+div#contentsBody dl.atten2,
+div#fbx_flow_alert_body dl.atten2 {
+  padding: 3px 0px 0px 0px;
+  color: #FF0000;
+}
+
+div#contentsBody dt.atten2,
+div#fbx_flow_alert_body dt.atten2 {
+  font-weight: bold;
+}
+
+div#contentsBody dd.atten2,
+div#fbx_flow_alert_body dd.atten2 {
+  margin: 0px 0px 0px 10px;
+}
+
+div#contentsBody dl.atten3,
+div#fbx_flow_alert_body dl.atten3 {
+  padding: 3px 0px 0px 0px;
+  color: #E88517;
+}
+
+div#contentsBody dt.atten3,
+div#fbx_flow_alert_body dt.atten3 {
+  font-weight: bold;
+}
+
+div#contentsBody dd.atten3,
+div#fbx_flow_alert_body dd.atten3 {
+  margin: 0px 0px 0px 10px;
+}
+
+div#contentsBody dl.atten4,
+div#fbx_flow_alert_body dl.atten4 {
+  padding: 3px 0px 0px 0px;
+  color: #008000;
+}
+
+div#contentsBody dt.atten4,
+div#fbx_flow_alert_body dt.atten4 {
+  font-weight: bold;
+}
+
+div#contentsBody dd.atten4,
+div#fbx_flow_alert_body dd.atten4 {
+  margin: 0px 0px 0px 10px;
+}
+
+div#contentsBody dl.torque,
+div#fbx_flow_alert_body dl.torque {
+  padding: 3px 0px 0px 0px;
+  color: #1B6384;
+}
+
+div#contentsBody dt.torque,
+div#fbx_flow_alert_body dt.torque {
+  font-weight: bold;
+}
+
+div#contentsBody dd.torque,
+div#fbx_flow_alert_body dd.torque {
+  margin: 0px 0px 0px 15px;
+  font-weight: bold;
+}
+
+div#contentsBody dl.spec,
+div#fbx_flow_alert_body dl.spec {
+  padding: 3px 0px 0px 0px;
+  color: #1B6384;
+}
+
+div#contentsBody dt.spec,
+div#fbx_flow_alert_body dt.spec {
+  font-weight: bold;
+}
+
+div#contentsBody dd.spec,
+div#fbx_flow_alert_body dd.spec {
+  margin: 0px 0px 0px 5px;
+  font-weight: bold;
+}
+
+div#contentsBody dl.sst,
+div#fbx_flow_alert_body dl.sst {
+  padding: 3px 0px 0px 0px;
+  color: #FC9B87;
+}
+
+div#contentsBody dt.sst,
+div#fbx_flow_alert_body dt.sst {
+  font-style: italic;
+  font-weight: bold;
+}
+
+div#contentsBody dd.sst,
+div#fbx_flow_alert_body dd.sst {
+  margin: 0px 0px 0px 15px;
+  font-weight: bold;
+}
+
+div#contentsBody dl.topic,
+div#fbx_flow_alert_body dl.topic {
+  padding: 3px 0px 0px 0px;
+}
+
+div#contentsBody dt.topic,
+div#fbx_flow_alert_body dt.topic {
+  margin: 0px 0px 0px 20px;
+  font-weight: normal;
+  color: #666666;
+}
+
+div#contentsBody dd.topic,
+div#fbx_flow_alert_body dd.topic {
+  margin: 0px 0px 0px 20px;
+  font-weight: normal;
+}
+
+div#contentsBody div.list1,
+div#fbx_flow_alert_body div.list1 {
+  padding: 5px 0px 0px 0px;
+}
+
+div#contentsBody div.listTitle,
+div#fbx_flow_alert_body div.listTitle {
+  font-weight: bold;
+}
+
+div#contentsBody div.list1Item,
+div#fbx_flow_alert_body div.list1Item {
+  position: relative;
+}
+
+div#contentsBody div.list1Head,
+div#fbx_flow_alert_body div.list1Head {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 28px;
+  text-align: right;
+}
+
+div#contentsBody div.list1Body,
+div#fbx_flow_alert_body div.list1Body {
+  padding: 0px 0px 0px 42px;
+}
+
+div#contentsBody div.list2,
+div#fbx_flow_alert_body div.list2 {
+  margin: 0px 0px 0px 20px;
+  padding: 5px 0px 0px 0px;
+}
+
+div#contentsBody div.list2Item,
+div#fbx_flow_alert_body div.list2Item {
+  position: relative;
+}
+
+div#contentsBody div.list2Head,
+div#fbx_flow_alert_body div.list2Head {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 28px;
+  text-align: right;
+}
+
+div#contentsBody div.list2Body,
+div#fbx_flow_alert_body div.list2Body {
+  padding: 0px 0px 0px 42px;
+}
+
+div#contentsBody div.list3,
+div#fbx_flow_alert_body div.list3 {
+  padding: 5px 0px 0px 0px;
+  margin: 0px 0px 0px 20px;
+}
+
+div#contentsBody div.list3Item,
+div#fbx_flow_alert_body div.list3Item {
+  position: relative;
+}
+
+div#contentsBody div.list3Head,
+div#fbx_flow_alert_body div.list3Head {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 28px;
+  text-align: right;
+}
+
+div#contentsBody div.list3Body,
+div#fbx_flow_alert_body div.list3Body {
+  padding: 0px 0px 0px 42px;
+}
+
+div#contentsBody div.s2,
+div#fbx_flow_alert_body div.s2 {
+  padding: 5px 0px 0px 0px;
+}
+
+div#contentsBody div.s2Item,
+div#fbx_flow_alert_body div.s2Item {
+  position: relative;
+}
+
+div#contentsBody div.s2Head,
+div#fbx_flow_alert_body div.s2Head {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  text-align: right;
+  font-weight: bold;
+  color: #5B80A4;
+}
+
+div#contentsBody div.s2Body,
+div#fbx_flow_alert_body div.s2Body {
+  padding: 0px 0px 0px 38px;
+}
+
+div#contentsBody div.s3,
+div#fbx_flow_alert_body div.s3 {
+  margin: 0px 0px 0px -21px;
+}
+
+div#contentsBody div.s3Item,
+div#fbx_flow_alert_body div.s3Item {
+  position: relative;
+}
+
+div#contentsBody div.s3Head,
+div#fbx_flow_alert_body div.s3Head {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 28px;
+  text-align: right;
+  font-weight: bold;
+  color: #5B80A4;
+}
+
+div#contentsBody div.s3Body,
+div#fbx_flow_alert_body div.s3Body {
+  padding: 0px 0px 0px 42px;
+}
+
+div#contentsBody div.step1,
+div#fbx_flow_alert_body div.step1 {
+  clear: both;
+  padding: 10px 0px 0px 0px;
+}
+
+div#contentsBody p.step1,
+div#fbx_flow_alert_body p.step1 {
+  clear: both;
+  width: 100%;
+  border: 1px solid;
+  border-color: #FFFFFF #666666 #666666 #FFFFFF;
+  background-color: #DFEDF0;
+  font-weight: bold;
+  color: #666666;
+}
+
+div#contentsBody p.step1 span.titleText,
+div#fbx_flow_alert_body p.step1 span.titleText {
+  display: block;
+  padding: 1px 0px 1px 18px;
+}
+
+div#contentsBody div.step2,
+div#fbx_flow_alert_body div.step2 {
+  padding: 5px 0px 0px 0px;
+}
+
+div#contentsBody div.step2Item,
+div#fbx_flow_alert_body div.step2Item {
+  position: relative;
+}
+
+div#contentsBody div.step2Head,
+div#fbx_flow_alert_body div.step2Head {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  text-align: right;
+  font-weight: bold;
+  color: #5B80A4;
+}
+
+div#contentsBody div.step2Body,
+div#fbx_flow_alert_body div.step2Body {
+  padding: 0px 0px 0px 38px;
+}
+
+div#contentsBody div.step3,
+div#fbx_flow_alert_body div.step3 {
+  margin: 0px 0px 0px -21px;
+}
+
+div#contentsBody div.step3Item,
+div#fbx_flow_alert_body div.step3Item {
+  position: relative;
+}
+
+div#contentsBody div.step3Head,
+div#fbx_flow_alert_body div.step3Head {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 28px;
+  text-align: right;
+  font-weight: bold;
+  color: #5B80A4;
+}
+
+div#contentsBody div.step3Body,
+div#fbx_flow_alert_body div.step3Body {
+  padding: 0px 0px 0px 42px;
+}
+
+div#contentsBody div.test1,
+div#fbx_flow_alert_body div.test1 {
+  padding: 5px 0px 0px 0px;
+}
+
+div#contentsBody div.test1Item,
+div#fbx_flow_alert_body div.test1Item {
+  position: relative;
+}
+
+div#contentsBody div.test1Head,
+div#fbx_flow_alert_body div.test1Head {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  text-align: right;
+  font-weight: bold;
+  color: #5B80A4;
+}
+
+div#contentsBody div.test1Body,
+div#fbx_flow_alert_body div.test1Body {
+  padding: 0px 0px 0px 38px;
+}
+
+div#contentsBody div.test2,
+div#fbx_flow_alert_body div.test2 {
+  margin: 0px 0px 0px -21px;
+}
+
+div#contentsBody div.test2Item,
+div#fbx_flow_alert_body div.test2Item {
+  position: relative;
+}
+
+div#contentsBody div.test2Head,
+div#fbx_flow_alert_body div.test2Head {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 28px;
+  text-align: right;
+  font-weight: bold;
+  color: #5B80A4;
+}
+
+div#contentsBody div.test2Body,
+div#fbx_flow_alert_body div.test2Body {
+  padding: 0px 0px 0px 42px;
+}
+
+div#contentsBody table,
+div#fbx_flow_alert_body table {
+  clear: both;
+  position: relative;
+  width: 95%;
+  height: auto;
+}
+
+div#contentsBody table.half,
+div#fbx_flow_alert_body table.half {
+  clear: none;
+  width: 46%;
+}
+
+div#contentsBody table caption,
+div#fbx_flow_alert_body table caption {
+  padding: 6px 3px 3px 3px;
+  text-align: left;
+  font-weight: bold;
+  color: #5B80A4;
+}
+
+div#contentsBody thead th,
+div#fbx_flow_alert_body thead th,
+div#fbx_flow_alert_body tbody th {
+  padding: 2px 2px 2px 2px;
+  border: 1px solid #666666;
+  text-align: left;
+  font-weight: bold;
+}
+
+div#contentsBody tbody td,
+div#fbx_flow_alert_body tbody td {
+  padding: 2px 2px 2px 2px;
+  border: 1px solid #666666;
+  text-align: left;
+  font-weight: normal;
+}
+
+div#contentsBody tfoot td,
+div#fbx_flow_alert_body tfoot td {
+  border: none;
+  font-weight: normal;
+}
+
+div#contentsBody thead th.alleft, 
+div#contentsBody tbody td.alleft,
+div#fbx_flow_alert_body thead th.alleft, 
+div#fbx_flow_alert_body tbody th.alleft, 
+div#fbx_flow_alert_body tbody td.alleft {
+  text-align: left;
+}
+
+div#contentsBody thead th.alcenter, 
+div#contentsBody tbody td.alcenter,
+div#fbx_flow_alert_body thead th.alcenter, 
+div#fbx_flow_alert_body tbody th.alcenter, 
+div#fbx_flow_alert_body tbody td.alcenter {
+  text-align: center;
+}
+
+div#contentsBody thead th.alright, 
+div#contentsBody tbody td.alright,
+div#fbx_flow_alert_body thead th.alright, 
+div#fbx_flow_alert_body tbody th.alright, 
+div#fbx_flow_alert_body tbody td.alright {
+  text-align: right;
+}
+
+div#contentsBody div.figure div.cPattern,
+div#fbx_flow_alert_body div.figure div.cPattern {
+  position: relative;
+  clear: both;
+  width: 688px;
+}
+
+div#contentsBody div.figure div.aPattern,
+div#fbx_flow_alert_body div.figure div.aPattern {
+  position: relative;
+  width: 330px;
+}
+
+div#contentsBody div.figure div.sPattern,
+div#contentsBody div.figure div.sstPattern,
+div#fbx_flow_alert_body div.figure div.sPattern,
+div#fbx_flow_alert_body div.figure div.sstPattern {
+  position: relative;
+  width: 214px;
+}
+
+div#contentsBody div.figure div.zPattern,
+div#fbx_flow_alert_body div.figure div.zPattern {
+  position: relative;
+  width: 57px;
+}
+
+div#contentsBody div.figureAPatternGroup,
+div#fbx_flow_alert_body div.figureAPatternGroup {
+  position: relative;
+  clear: both;
+  float: right;
+  width: 332px;
+  padding: 0px 0px 0px 10px;
+}
+
+div#contentsBody div.figure div.figureTitle,
+div#fbx_flow_alert_body div.figure div.figureTitle {
+  text-align: left;
+  font-weight: bold;
+}
+
+div#contentsBody div.graphic,
+div#fbx_flow_alert_body div.graphic {
+  position: relative;
+  margin: 0px 0px 5px 0px;
+  width: 100%;
+  border: 1px solid #666666;
+}
+
+div#contentsBody div.graphic img,
+div#fbx_flow_alert_body div.graphic img {
+  display: block;
+}
+
+div#contentsBody div.figure table,
+div#fbx_flow_alert_body div.figure table {
+  width: 100%;
+}
+
+div#contentsBody div.indicateinfo,
+div#fbx_flow_alert_body div.indicateinfo {
+  display: none;
+}
+
+div#contentsBody div.graphic img.indiline,
+div#fbx_flow_alert_body div.graphic img.indiline {
+  position: absolute;
+  z-index: 100;
+  border: none;
+}
+
+div#contentsBody div.graphic div.indirect,
+div#fbx_flow_alert_body div.graphic div.indirect {
+  position: absolute;
+  z-index: 100;
+  border: 1px solid #333333;
+}
+
+div#contentsBody div.graphic div.indicapt,
+div#fbx_flow_alert_body div.graphic div.indicapt {
+  position: absolute;
+  z-index: 150;
+  text-align: left;
+  color: #333333;
+  font-family: "Arial",sans-serif;
+}
+
+div#contentsBody a.hiddenCallout,
+div#fbx_flow_alert_body a.hiddenCallout {
+  display: none;
+}
+
+div#contentsBody table div.sstPattern,
+div#fbx_flow_alert_body table div.sstPattern {
+  margin: 2px 0px 2px 0px;
+  width: 100%;
+  height: 100%;
+}
+
+div#contentsBody div.figure table div.sstPattern,
+div#fbx_flow_alert_body div.figure table div.sstPattern {
+  width: 100%;
+}
+
+div#contentsBody table div.sstPattern img,
+div#fbx_flow_alert_body table div.sstPattern img {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #666666;
+}
+
+div#contentsBody table.tableHasfigure div.figure,
+div#fbx_flow_alert_body table.tableHasfigure div.figure {
+  margin: 2px 0px 2px 0px;
+  width: 100%;
+}
+
+div#contentsBody table.tableHasfigure div.figure div.cPattern,
+div#contentsBody table.tableHasfigure div.figure div.aPattern,
+div#contentsBody table.tableHasfigure div.figure div.sPattern,
+div#contentsBody table.tableHasfigure div.figure div.zPattern,
+div#fbx_flow_alert_body table.tableHasfigure div.figure div.cPattern,
+div#fbx_flow_alert_body table.tableHasfigure div.figure div.aPattern,
+div#fbx_flow_alert_body table.tableHasfigure div.figure div.sPattern,
+div#fbx_flow_alert_body table.tableHasfigure div.figure div.zPattern {
+  margin: 0 auto;
+}
+
+div#contentsBody table.tableHasfigure div.graphic,
+div#fbx_flow_alert_body table.tableHasfigure div.graphic {
+  margin: 0px 0px 0px 0px;
+}
+
+div#contentsBody div.figure div.swfPattern,
+div#fbx_flow_alert_body div.figure div.swfPattern {
+  clear: both;
+  margin: 0 auto;
+  width: 332px;
+}
+
+div#contentsBody div.figure div.swfPattern embed,
+div#fbx_flow_alert_body div.figure div.swfPattern embed {
+  margin: 0px 0px 10px 0px;
+  width: 330px;
+  border: 1px solid #666666;
+}
+
+div#contentsBody div.figure div.pdfPattern,
+div#fbx_flow_alert_body div.figure div.pdfPattern {
+  clear: both;
+}
+
+div#contentsBody div.figure div.pdfPattern img,
+div#fbx_flow_alert_body div.figure div.pdfPattern img {
+  display: block;
+  margin: 0px 0px 10px 0px;
+  border: 1px solid #666666;
+}
+
+div#contentsBody div.figure div.gifPattern,
+div#fbx_flow_alert_body div.figure div.gifPattern {
+  clear: both;
+  margin: 0 auto;
+  width: 332px;
+}
+
+div#contentsBody div.figure div.gifPattern img,
+div#fbx_flow_alert_body div.figure div.gifPattern img {
+  margin: 0px 0px 10px 0px;
+  width: 330px;
+  border: 1px solid #666666;
+}
+
+div#contentsBody div.footNote,
+div#fbx_flow_alert_body div.footNote {
+  text-align: left;
+}
+
+div#contentsBody dl.gtsDtcRead,
+div#contentsBody dl.gtsDtcDelete,
+div#contentsBody dl.gtsFreezeFrame,
+div#contentsBody dl.gtsDataList,
+div#contentsBody dl.gtsDataListTable,
+div#contentsBody dl.gtsActiveTest,
+div#contentsBody dl.gtsActiveTestDataList,
+div#contentsBody dl.gtsActiveTestMultiDataList,
+div#contentsBody dl.gtsActiveTestTable,
+div#contentsBody dl.gtsUtilityNormal,
+div#contentsBody dl.gtsUtilityTable,
+div#contentsBody dl.gtsCustomize,
+div#contentsBody dl.gtsCanbusConnect,
+div#contentsBody dl.gtsMonitor,
+div#fbx_flow_alert_body dl.gtsDtcRead,
+div#fbx_flow_alert_body dl.gtsDtcDelete,
+div#fbx_flow_alert_body dl.gtsFreezeFrame,
+div#fbx_flow_alert_body dl.gtsDataList,
+div#fbx_flow_alert_body dl.gtsDataListTable,
+div#fbx_flow_alert_body dl.gtsActiveTest,
+div#fbx_flow_alert_body dl.gtsActiveTestDataList,
+div#fbx_flow_alert_body dl.gtsActiveTestMultiDataList,
+div#fbx_flow_alert_body dl.gtsActiveTestTable,
+div#fbx_flow_alert_body dl.gtsUtilityNormal,
+div#fbx_flow_alert_body dl.gtsUtilityTable,
+div#fbx_flow_alert_body dl.gtsCustomize,
+div#fbx_flow_alert_body dl.gtsCanbusConnect,
+div#fbx_flow_alert_body dl.gtsMonitor {
+  margin: 0px 0px 16px 0px;
+  padding: 3px 0px 0px 0px;
+}
+
+div#contentsBody dt.gtsDtcRead,
+div#contentsBody dt.gtsDtcDelete,
+div#contentsBody dt.gtsFreezeFrame,
+div#contentsBody dt.gtsDataList,
+div#contentsBody dt.gtsDataListTable,
+div#contentsBody dt.gtsActiveTest,
+div#contentsBody dt.gtsActiveTestDataList,
+div#contentsBody dt.gtsActiveTestMultiDataList,
+div#contentsBody dt.gtsActiveTestTable,
+div#contentsBody dt.gtsUtilityNormal,
+div#contentsBody dt.gtsUtilityTable,
+div#contentsBody dt.gtsCustomize,
+div#contentsBody dt.gtsCanbusConnect,
+div#contentsBody dt.gtsMonitor,
+div#fbx_flow_alert_body dt.gtsDtcRead,
+div#fbx_flow_alert_body dt.gtsDtcDelete,
+div#fbx_flow_alert_body dt.gtsFreezeFrame,
+div#fbx_flow_alert_body dt.gtsDataList,
+div#fbx_flow_alert_body dt.gtsDataListTable,
+div#fbx_flow_alert_body dt.gtsActiveTest,
+div#fbx_flow_alert_body dt.gtsActiveTestDataList,
+div#fbx_flow_alert_body dt.gtsActiveTestMultiDataList,
+div#fbx_flow_alert_body dt.gtsActiveTestTable,
+div#fbx_flow_alert_body dt.gtsUtilityNormal,
+div#fbx_flow_alert_body dt.gtsUtilityTable,
+div#fbx_flow_alert_body dt.gtsCustomize,
+div#fbx_flow_alert_body dt.gtsCanbusConnect,
+div#fbx_flow_alert_body dt.gtsMonitor {
+  font-weight: bold;
+  color: #1B6384;
+}
+
+div#contentsBody dd.gtsDtcRead,
+div#contentsBody dd.gtsDtcDelete,
+div#contentsBody dd.gtsFreezeFrame,
+div#contentsBody dd.gtsDataList,
+div#contentsBody dd.gtsDataListTable,
+div#contentsBody dd.gtsActiveTest,
+div#contentsBody dd.gtsActiveTestDataList,
+div#contentsBody dd.gtsActiveTestMultiDataList,
+div#contentsBody dd.gtsActiveTestTable,
+div#contentsBody dd.gtsUtilityNormal,
+div#contentsBody dd.gtsUtilityTable,
+div#contentsBody dd.gtsCustomize,
+div#contentsBody dd.gtsCanbusConnect,
+div#contentsBody dd.gtsMonitor,
+div#fbx_flow_alert_body dd.gtsDtcRead,
+div#fbx_flow_alert_body dd.gtsDtcDelete,
+div#fbx_flow_alert_body dd.gtsFreezeFrame,
+div#fbx_flow_alert_body dd.gtsDataList,
+div#fbx_flow_alert_body dd.gtsDataListTable,
+div#fbx_flow_alert_body dd.gtsActiveTest,
+div#fbx_flow_alert_body dd.gtsActiveTestDataList,
+div#fbx_flow_alert_body dd.gtsActiveTestMultiDataList,
+div#fbx_flow_alert_body dd.gtsActiveTestTable,
+div#fbx_flow_alert_body dd.gtsUtilityNormal,
+div#fbx_flow_alert_body dd.gtsUtilityTable,
+div#fbx_flow_alert_body dd.gtsCustomize,
+div#fbx_flow_alert_body dd.gtsCanbusConnect,
+div#fbx_flow_alert_body dd.gtsMonitor {
+  margin: 0px 0px 0px 20px;
+}
+
+div#contentsBody dd.gtsExec,
+div#fbx_flow_alert_body dd.gtsExec {
+  margin: 10px 0px 0px 20px;
+}
+
+div#contentsBody dd.gtsExec span,
+div#fbx_flow_alert_body dd.gtsExec span {
+  display: none;
+}
+
+div#contentsBody div.judgeValueNext,
+div#fbx_flow_alert_body div.judgeValueNext {
+  clear: both;
+  float: right;
+  margin: 0px 0px 10px 0px;
+  width: 90%;
+  font-weight: bold;
+  line-height: 25px;
+  text-indent: 10px;
+  border: 1px solid #339966;
+  color: #666666;
+  background-color: #CAFF33;
+}
+
+div#contentsBody div.judgeValueEnd,
+div#fbx_flow_alert_body div.judgeValueEnd {
+  clear: both;
+  float: right;
+  margin: 0px 0px 10px 0px;
+  width: 90%;
+  font-weight: bold;
+  line-height: 25px;
+  text-indent: 10px;
+  border: 1px solid #FF0000;
+  color: #666666;
+  background-color: #FFC673;
+}
+
+div#contentsBody div.nextAction,
+div#fbx_flow_alert_body div.nextAction {
+  clear: both;
+  float: right;
+  margin: 0px 0px 10px 0px;
+  width: 85%;
+  font-weight: bold;
+  border: 1px solid;
+  border-color: #FFFFFF #666666 #666666 #FFFFFF;
+  color: #666666;
+  background-color: #DFEDF0;
+}
+
+div#contentsBody div.nextAction span.titleText,
+div#fbx_flow_alert_body div.nextAction span.titleText {
+  display: block;
+  padding: 6px 0px 5px 18px;
+}
+
+div#contentsBody div.endActBox,
+div#fbx_flow_alert_body div.endActBox {
+  clear: both;
+  width: 100%;
+}
+
+div#contentsBody div.endAction,
+div#fbx_flow_alert_body div.endAction {
+  clear: both;
+  float: right;
+  margin: 0px 0px 10px 0px;
+  width: 85%;
+  font-weight: bold;
+  border: 1px solid;
+  border-color: #FFFFFF #666666 #666666 #FFFFFF;
+  color: #666666;
+  background-color: #DFEDF0;
+}
+
+div#contentsBody div.endAction span.titleText,
+div#fbx_flow_alert_body div.endAction span.titleText {
+  display: block;
+  padding: 6px 0px 5px 18px;
+}
+
+div#contentsBody div.endActBox div.content6,
+div#fbx_flow_alert_body div.endActBox div.content6 {
+  clear: both;
+  float: right;
+  width: 85%;
+}
+
+div#contentsBody div.s1,
+div#fbx_flow_alert_body div.s1 {
+  clear: both;
+}
+
+div#contentsBody div.s1 p.s1,
+div#fbx_flow_alert_body div.s1 p.s1 {
+  position: relative;
+  margin: 0px 0px 10px 0px;
+  width: 100%;
+  font-weight: bold;
+  color: #666666;
+  border: 1px solid;
+  border-color: #FFFFFF #666666 #666666 #FFFFFF;
+  background-color: #DFEDF0;
+}
+
+div#contentsBody div.s1 p.s1 img,
+div#fbx_flow_alert_body div.s1 p.s1 img {
+  position: absolute;
+  display: block;
+  top: 0px;
+  left: 15px;
+  padding: 4px 4px 4px 4px;
+  width: 19px;
+  height: 19px;
+  cursor: pointer;
+}
+
+div#contentsBody div.s1 p.s1 img.invisible,
+div#fbx_flow_alert_body div.s1 p.s1 img.invisible {
+  display: none;
+}
+
+div#contentsBody div.s1 p.s1 img.print,
+div#fbx_flow_alert_body div.s1 p.s1 img.print {
+  cursor: default;
+}
+
+div#contentsBody div.s1 p.s1 span.titleText,
+div#fbx_flow_alert_body div.s1 p.s1 span.titleText {
+  display: block;
+  padding: 7px 0px 6px 47px;
+}
+
+div#contentsBody div.s1 p.s1 span.partsCode,
+div#fbx_flow_alert_body div.s1 p.s1 span.partsCode {
+  display: block;
+  position: absolute;
+  top: 6px;
+  right: 0px;
+  width: 80px;
+}
+
+div#contentsBody div.content1,
+div#fbx_flow_alert_body div.content1 {
+  clear: both;
+  padding: 0px 0px 10px 0px;
+}
+
+div#contentsBody div.content2,
+div#fbx_flow_alert_body div.content2 {
+  clear: both;
+  padding: 0px 0px 10px 0px;
+}
+
+div#contentsBody div.content3,
+div#fbx_flow_alert_body div.content3 {
+  clear: both;
+  padding: 0px 0px 10px 0px;
+}
+
+div#contentsBody div.content4,
+div#fbx_flow_alert_body div.content4 {
+  clear: both;
+  padding: 0px 0px 10px 0px;
+}
+
+div#contentsBody div.content4 div.title,
+div#fbx_flow_alert_body div.content4 div.title {
+  clear: both;
+  text-align : center;
+}
+
+div#contentsBody div.content5,
+div#fbx_flow_alert_body div.content5 {
+  clear: both;
+  padding: 0px 0px 10px 0px;
+}
+
+div#contentsBody div.content5 div.title,
+div#fbx_flow_alert_body div.content5 div.title {
+  clear: both;
+  padding: 5px 0px 5px 0px;
+  width: 100%;
+  font-weight: bold;
+  text-indent: 9px;
+  color: #FFFFFF;
+  border: 1px solid #B4BCC5;
+  border-width: 0px 1px 0px 1px;
+  background-color: #B4BCC5;
+}
+
+div#contentsBody div.testgrp,
+div#fbx_flow_alert_body div.testgrp {
+  clear: both;
+}
+
+div#contentsBody div.testtitle,
+div#fbx_flow_alert_body div.testtitle {
+  clear: both;
+  margin: 0px 0px 10px 0px;
+  width: 100%;
+  font-weight: bold;
+  border: 1px solid;
+  border-color: #FFFFFF #666666 #666666 #FFFFFF;
+  color: #666666;
+  background-color: #DFEDF0;
+}
+
+div#contentsBody div.testtitle span.titleText,
+div#fbx_flow_alert_body div.testtitle span.titleText {
+  display: block;
+  padding: 6px 0px 5px 18px;
+}
+
+div#contentsBody div.content6,
+div#fbx_flow_alert_body div.content6 {
+  clear: both;
+  padding: 0px 0px 10px 0px;
+}
+
+div#contentsBody div.list1HasFigure,
+div#contentsBody div.list2HasFigure,
+div#contentsBody div.list3HasFigure,
+div#contentsBody div.s2HasFigure,
+div#contentsBody div.s3HasFigure,
+div#contentsBody div.step2HasFigure,
+div#contentsBody div.step3HasFigure,
+div#contentsBody div.test1HasFigure,
+div#contentsBody div.test2HasFigure,
+div#contentsBody dl.atten2HasFigure,
+div#contentsBody dl.atten3HasFigure,
+div#contentsBody dl.atten4HasFigure,
+div#contentsBody dl.topicHasFigure,
+div#fbx_flow_alert_body div.list1HasFigure,
+div#fbx_flow_alert_body div.list2HasFigure,
+div#fbx_flow_alert_body div.list3HasFigure,
+div#fbx_flow_alert_body div.s2HasFigure,
+div#fbx_flow_alert_body div.s3HasFigure,
+div#fbx_flow_alert_body div.step2HasFigure,
+div#fbx_flow_alert_body div.step3HasFigure,
+div#fbx_flow_alert_body div.test1HasFigure,
+div#fbx_flow_alert_body div.test2HasFigure,
+div#fbx_flow_alert_body dl.atten2HasFigure,
+div#fbx_flow_alert_body dl.atten3HasFigure,
+div#fbx_flow_alert_body dl.atten4HasFigure,
+div#fbx_flow_alert_body dl.topicHasFigure {
+  clear: both;
+}
+
+div#contentsBody div.contentPartition,
+div#fbx_flow_alert_body div.contentPartition {
+  clear: both;
+}
+
+div#contentsBody dl.hasAllTable,
+div#fbx_flow_alert_body dl.hasAllTable {
+  clear: both;
+}
+
+div#contentsBody div.floatClear,
+div#fbx_flow_alert_body div.floatClear {
+  clear: both;
+}
+
+div#contentsBody div.category,
+div#fbx_flow_alert_body div.category {
+  display: none;
+}
+
+div#contentsBody dl.spec table,
+div#fbx_flow_alert_body dl.spec table {
+  color: #333333;
+}
+
+div#contentsBody dl.spec a,
+div#fbx_flow_alert_body dl.spec a {
+  color: #1B6384;
+}
+
+div#contentsBody dl.spec a:hover {
+  color: #B30000;
+}
+
+div#contentsBody dl.atten2 table,
+div#contentsBody dl.atten2 table caption,
+div#fbx_flow_alert_body dl.atten2 table,
+div#fbx_flow_alert_body dl.atten2 table caption {
+  color: #FF0000;
+}
+
+div#contentsBody dl.atten2 a,
+div#fbx_flow_alert_body dl.atten2 a {
+  color: #FF0000;
+}
+
+div#contentsBody dl.atten2 a:hover {
+  color: #B30000;
+}
+
+div#contentsBody dl.atten3 table,
+div#contentsBody dl.atten3 table caption,
+div#fbx_flow_alert_body dl.atten3 table,
+div#fbx_flow_alert_body dl.atten3 table caption {
+  color: #E88517;
+}
+
+div#contentsBody dl.atten3 a,
+div#fbx_flow_alert_body dl.atten3 a {
+  color: #E88517;
+}
+
+div#contentsBody dl.atten3 a:hover {
+  color: #B30000;
+}
+
+div#contentsBody dl.atten4 table,
+div#contentsBody dl.atten4 table caption,
+div#fbx_flow_alert_body dl.atten4 table,
+div#fbx_flow_alert_body dl.atten4 table caption {
+  color: #008000;
+}
+
+div#contentsBody dl.atten4 a,
+div#fbx_flow_alert_body dl.atten4 a {
+  color: #008000;
+}
+
+div#contentsBody dl.atten4 a:hover {
+  color: #B30000;
+}
+
+div#contentsBody dl.torque a,
+div#fbx_flow_alert_body dl.torque a {
+  color: #1B6384;
+}
+
+div#contentsBody dl.torque a:hover {
+  color: #B30000;
+}
+
+div#contentsBody dl.sst a,
+div#fbx_flow_alert_body dl.sst a {
+  color: #FC9B87;
+}
+
+div#contentsBody dl.sst a:hover {
+  color: #B30000;
+}
+
+div.modeless_body div#contentsBody div.figureAPatternGroup {
+  float: none;
+  padding: 0px 0px 0px 0px;
+}
+
+div#flow_frame {
+  position: relative;
+  overflow: hidden;
+  word-break: break-all;
+}
+
+div#flow_body {
+  position: absolute;
+}
+
+div#flow_body div.hFlowLine {
+  position: absolute;
+  height: 1px;
+  background-color: #A0A0A0;
+  overflow: hidden;
+}
+
+div#flow_body div.vFlowLine {
+  position: absolute;
+  width: 1px;
+  background-color: #A0A0A0;
+  overflow: hidden;
+}
+
+div#flow_navi div.hNaviLine {
+  position: absolute;
+  height: 1px;
+  background-color: #A0A0A0;
+  overflow: hidden;
+}
+
+div#flow_navi div.vNaviLine {
+  position: absolute;
+  width: 1px;
+  background: #A0A0A0;
+  overflow: hidden;
+}
+
+div#flow_body div.flowItem,
+div#flow_body div.flowTerm {
+  position: absolute;
+  padding: 6px 4px 6px 4px;
+  width: 136px;
+  border: 1px solid #A0A0A0;
+  font-size: 9px;
+  line-height: 11px;
+  font-weight: bold;
+  color: #676767;
+  background-color: #DFEDF0;
+}
+
+div#flow_body div.btnProc,
+div#flow_body div.btnJudge {
+  position: absolute;
+  width: 76px;
+  height: 18px;
+  border: 2px solid #333333;
+  text-align: center;
+  background-color: #F1F0DE;
+}
+
+div#flow_body div.btnProc a,
+div#flow_body div.btnJudge a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+div#flow_body div.btnProc a:hover,
+div#flow_body div.btnJudge a:hover {
+  color: #333333;
+}
+
+div#flow_body span.btnProcName,
+div#flow_body span.btnJudgeName {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 9px;
+  line-height: 18px;
+  cursor: pointer;
+}
+
+div#flow_body div.flowTerm a {
+  font-size: 9px;
+  line-height: 11px;
+}
+
+div#flow_body div.judgeNext {
+  position: absolute;
+  width: 100px;
+  border: 1px solid #008000;
+  font-size: 9px;
+  line-height: 11px;
+  text-align: center;
+  font-weight: bold;
+  color: #333333;
+  background-color: #CAFF33;
+}
+
+div#flow_body div.judgeJump,
+div#flow_body div.judgeEnd {
+  position: absolute;
+  width: 100px;
+  border: 1px solid #FF0000;
+  font-size: 9px;
+  line-height: 11px;
+  text-align: center;
+  font-weight: bold;
+  color: #333333;
+  background-color: #FFC673;
+}
+
+div#flow_body div.warning {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: url(../../../system/img/png/warning_mark.png) no-repeat center center;
+}
+
+div#flow_body div.caution {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: url(../../../system/img/png/caution_mark.png) no-repeat center center;
+}
+
+div#flow_navi_title {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 196px;
+  height: 18px;
+  padding: 0px 3px 0px 3px;
+  background-color: #95B4DA;
+}
+
+div#flow_navi_title div a {
+  font-size: 10px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+div#flow_navi_title div a:hover {
+  color: #B30000;
+}
+
+div#navi_title {
+  float: left;
+}
+
+div#navi_expand {
+  float: right;
+}
+
+div#flow_navi {
+  position: absolute;
+  top: 18px;
+  right: 0px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #A0A0A0;
+  background-color: #DFEDF0;
+}
+
+div#view {
+  position: relative;
+  z-index: 1500;
+  top: 0px;
+  left: 0px;
+  border: 1px solid #D30000;
+  background-color: #FFDDDD;
+  opacity: 0.5;
+  _filter: Alpha(opacity=50);
+  -ms-filter: "Alpha(opacity=50)";
+  _font-size: 0;
+}
+
+div#navi_cover {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 200px;
+  height: 200px;
+  z-index: 2000;
+  background-color: #FFDDDD;
+  opacity: 0;
+  _filter: Alpha(opacity=0);
+  -ms-filter: "Alpha(opacity=0)";
+}

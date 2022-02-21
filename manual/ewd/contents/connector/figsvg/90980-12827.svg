@@ -1,0 +1,41 @@
+﻿<?xml version="1.0"?>
+<!-- Generator: Adobe Illustrator 10.0, SVG Export Plug-In . SVG Version: 3.0.0 Build 77)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st1 "fill:none;stroke:#000000;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st2 "font-size:6px;">
+	<!ENTITY st3 "font-family:'Arial';">
+	<!ATTLIST svg
+		ewd:ver CDATA #IMPLIED
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/">
+	<!ATTLIST g
+		ewd:pinNo CDATA #IMPLIED>
+]>
+<svg width="23.663" height="51.992" viewBox="0 0 23.663 51.992" style="overflow:visible;enable-background:new 0 0 23.663 51.992" xml:space="preserve" onload="call_execInitLoadProc_svg('connector')" ewd:ver="2.1.2.9" xmlns="&ns_svg;" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:xlink="&ns_xlink;">
+<script type="text/javascript" xlink:href="../../../../../system/js/ewd/fig/svgfig.js"/>
+<g id="レイヤー_1">
+	<path style="&st1;" d="M6.166,0.5v5.666h11.332V0.5"/>
+	<path style="&st0;" d="M20.33,0.5l2.833,2.833"/>
+	<path style="&st0;" d="M0.5,3.333L3.333,0.5"/>
+	<path style="&st1;" d="M17.497,45.826v2.833h5.666"/>
+	<path style="&st1;" d="M3.333,45.826v5.666"/>
+	<path style="&st1;" d="M6.166,45.826v5.666"/>
+	<path style="&st0;" d="M0.5,45.826v2.833l2.833,2.833H20.33l2.833-2.833v-2.833"/>
+	<path style="&st0;" d="M3.333,0.5H20.33"/>
+	<path style="&st0;" d="M23.163,3.333v42.493"/>
+	<path style="&st1;" d="M0.5,45.826h22.663"/>
+	<path style="&st0;" d="M0.5,3.333v42.493"/>
+	<path style="&st1;" d="M6.166,28.829h11.332"/>
+	<path style="&st1;" d="M6.166,17.498V40.16h11.332V17.498H6.166"/>
+	<g ewd:pinNo="2">
+		<text transform="matrix(1 0 0 1 10.21 36.6172)"><tspan x="0" y="0" style="&st3; &st2;">2</tspan></text>
+	</g>
+	<g ewd:pinNo="1">
+		<text transform="matrix(1 0 0 1 10.21 25.2856)"><tspan x="0" y="0" style="&st3; &st2;">1</tspan></text>
+	</g>
+</g>
+</svg>

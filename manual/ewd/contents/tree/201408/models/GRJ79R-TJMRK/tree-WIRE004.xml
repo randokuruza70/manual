@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <note ewd="WIRE004" code="D8" type="conn">
+    <name>Battery (Main)</name>
+  </note>
+  <note ewd="WIRE004" code="D9" type="conn">
+    <name>Battery (Main)</name>
+  </note>
+  <note ewd="WIRE004" code="D10" type="conn">
+    <name>Battery (Sub)</name>
+  </note>
+  <note ewd="WIRE004" code="D1" type="conn">
+    <name>Generator Assembly</name>
+  </note>
+  <note ewd="WIRE004" code="D4" type="conn">
+    <name>Generator Assembly</name>
+  </note>
+  <note ewd="WIRE004" code="D2" type="conn">
+    <name>Starter Assembly</name>
+  </note>
+  <note ewd="WIRE004" code="D3" type="conn">
+    <name>Starter Assembly</name>
+  </note>
+  <note ewd="WIRE004" code="D5" type="conn">
+    <name>Starter Assembly</name>
+  </note>
+  <note ewd="WIRE004" code="D6" type="conn">
+    <name>Starter Assembly</name>
+  </note>
+  <note ewd="WIRE004" code="D7" type="conn">
+    <name>Starter Assembly</name>
+  </note>
+  <note ewd="WIRE004" code="3A" type="jbc">
+    <name>No. 2 Engine Wire and Fusible Link Block Assembly [1GR-FE]</name>
+  </note>
+  <note ewd="WIRE004" code="DA1" type="w2w">
+    <name>No. 2 Engine Wire and Engine Room Main Wire</name>
+  </note>
+</EwdTree>

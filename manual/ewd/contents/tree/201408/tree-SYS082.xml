@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS082" code="A6,I2" type="conn" figID="18">
+    <name>A/C Pressure Switch (Cooler Refrigerant Liquid Pipe B)</name>
+  </text>
+  <text ewd="SYS082" code="I7" type="conn" figID="5">
+    <name>Blower Resistor</name>
+  </text>
+  <text ewd="SYS082" code="I11" type="conn" figID="24">
+    <name>Cooler Stabilizer Amplifier Assembly</name>
+  </text>
+  <text ewd="SYS082" code="A31" type="conn" figID="23">
+    <name>Emission Control ECU</name>
+  </text>
+  <text ewd="SYS082" code="I5,I6" type="conn" figID="6">
+    <name>Front Blower Motor (Heater Blower Case)</name>
+  </text>
+  <text ewd="SYS082" code="I15" type="conn" figID="3,11">
+    <name>Heater Blower Switch Assembly</name>
+  </text>
+  <text ewd="SYS082" code="I33" type="conn" figID="14">
+    <name>Magnet Clutch Assembly</name>
+  </text>
+  <text ewd="SYS082" code="I16" type="conn" figID="10">
+    <name>No. 1 Cooler Thermistor</name>
+  </text>
+  <text ewd="SYS082" code="A22" type="conn" figID="15">
+    <name>No. 1 Junction Connector</name>
+  </text>
+  <text ewd="SYS082" code="A18" type="conn" figID="13">
+    <name>No. 1 Vacuum Switching Valve (A/C Idle-Up)</name>
+  </text>
+  <text ewd="SYS082" code="I59,I67" type="conn" figID="9">
+    <name>No. 10 Junction Connector , No. 16 Junction Connector</name>
+  </text>
+  <text ewd="SYS082" code="I59,I70" type="conn" figID="19,21">
+    <name>No. 10 Junction Connector , No. 19 Junction Connector</name>
+  </text>
+  <text ewd="SYS082" code="I63,I65" type="conn" figID="1">
+    <name>No. 13 Junction Connector</name>
+  </text>
+  <text ewd="SYS082" code="I66" type="conn" figID="16">
+    <name>No. 15 Junction Connector</name>
+  </text>
+  <text ewd="SYS082" code="I73" type="conn" figID="17">
+    <name>No. 22 Junction Connector</name>
+  </text>
+  <text ewd="SYS082" code="I56" type="conn" figID="8">
+    <name>No. 7 Junction Connector</name>
+  </text>
+  <text ewd="SYS082" code="I57" type="conn" figID="22">
+    <name>No. 8 Junction Connector</name>
+  </text>
+  <text ewd="SYS082" code="FUSE4" type="fuse" figID="50">
+    <name>10A A/C</name>
+  </text>
+  <text ewd="SYS082" code="FUSE23" type="fuse" figID="48">
+    <name>15A GAUGE</name>
+  </text>
+  <text ewd="SYS082" code="FUSE39" type="fuse" figID="49">
+    <name>50A HTR</name>
+  </text>
+  <text ewd="SYS082" code="FUSE3" type="fuse" figID="51">
+    <name>7.5A ST</name>
+  </text>
+  <text ewd="SYS082" code="AA" type="gp" figID="39">
+    <name />
+  </text>
+  <text ewd="SYS082" code="IA" type="gp" figID="38,40">
+    <name />
+  </text>
+  <text ewd="SYS082" code="IC" type="gp" figID="37,41">
+    <name />
+  </text>
+  <text ewd="SYS082" code="3" type="jb" figID="30">
+    <name />
+  </text>
+  <text ewd="SYS082" code="1" type="rb" figID="12">
+    <name />
+  </text>
+  <text ewd="SYS082" code="2" type="rb" figID="4">
+    <name />
+  </text>
+  <text ewd="SYS082" code="FUSE4" type="rb" figID="7">
+    <name>10A A/C</name>
+  </text>
+  <text ewd="SYS082" code="FUSE23" type="rb" figID="2">
+    <name>15A GAUGE</name>
+  </text>
+  <text ewd="SYS082" code="FUSE3" type="rb" figID="20">
+    <name>7.5A ST</name>
+  </text>
+  <text ewd="SYS082" code="SP5" type="sp" figID="46">
+    <name />
+  </text>
+  <text ewd="SYS082" code="SP56" type="sp" figID="45">
+    <name />
+  </text>
+  <text ewd="SYS082" code="SP65" type="sp" figID="44">
+    <name />
+  </text>
+  <text ewd="SYS082" code="SP66" type="sp" figID="43,47">
+    <name />
+  </text>
+  <text ewd="SYS082" code="SP69" type="sp" figID="42">
+    <name />
+  </text>
+  <text ewd="SYS082" code="AI1" type="w2w" figID="31">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS082" code="AI3" type="w2w" figID="32,33,34,35,36">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+</EwdTree>

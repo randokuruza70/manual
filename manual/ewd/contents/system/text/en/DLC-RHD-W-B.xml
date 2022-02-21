@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25T2E" style="font-size:6px;font-family:'Arial'" ver="2.1.2.9">
+	<text textID="1">* 1 :4-Door</text>
+	<text textID="2">* 2 :2-Door</text>
+	<text textID="3">* 3 :w/ Power Window</text>
+	<text textID="4">* 4 :w/o Power Window</text>
+	<text textID="5">* 5 :4-Door Pick-Up Body Type</text>
+	<text textID="6">* 6 :4-Door Except Pick-Up Body Type</text>
+	<text textID="7">* 7 :2-Door Except Pick-Up Body Type</text>
+	<text textID="8">* 8 :Except Pick-Up Body Type</text>
+	<text textID="9">* 9 :Except 2-Door Pick-Up Body Type</text>
+	<text textID="10">*13 :Pick-Up Body Type</text>
+	<text textID="11">*14 :2-Door Pick-Up Body Type</text>
+	<text textID="12">*15 :4-Door Pick-Up Body Type,Except Pick-Up Body Type</text>
+	<text textID="13">Back Door Courtesy Light Switch Assembly</text>
+	<text textID="14">Back Door Lock Assembly</text>
+	<text textID="15">Diode (Door Courtesy)</text>
+	<text textID="16">Door Control ECU with Receiver Assembly</text>
+	<text textID="17">Door Control Switch</text>
+	<text textID="18">Door Control Switch Assembly</text>
+	<text textID="19">Door Lock Control Switch</text>
+	<text textID="20">Front Door Courtesy Light Switch Assembly LH</text>
+	<text textID="21">Front Door Courtesy Light Switch Assembly RH</text>
+	<text textID="22">Front Door Lock Actuator Assembly LH</text>
+	<text textID="23">Front Door Lock Actuator Assembly RH</text>
+	<text textID="24">Key Lock</text>
+	<text textID="25">Key Unlock</text>
+	<text textID="26">Lock</text>
+	<text textID="27">No. 5 Junction Connector</text>
+	<text textID="28">No. 6 Junction Connector</text>
+	<text textID="29">No. 8 Junction Connector</text>
+	<text textID="30">No. 11 Junction Connector</text>
+	<text textID="31">No. 13 Junction Connector</text>
+	<text textID="32">No. 24 Junction Connector</text>
+	<text textID="33">No. 31 Junction Connector</text>
+	<text textID="34">Power Window Regulator Master Switch Assembly</text>
+	<text textID="35">Rear Door Courtesy Light Switch Assembly LH</text>
+	<text textID="36">Rear Door Courtesy Light Switch Assembly RH</text>
+	<text textID="37">Rear Door Lock Actuator Assembly LH</text>
+	<text textID="38">Rear Door Lock Actuator Assembly RH</text>
+	<text textID="39">Turn Signal Flasher Assembly</text>
+	<text textID="40">Unlock</text>
+	<text textID="41">Unlock Detection</text>
+</texts>

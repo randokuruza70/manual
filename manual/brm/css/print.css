@@ -1,0 +1,53 @@
+/*! All Rights Reserved. Copyright 2012 (C) TOYOTA  MOTOR  CORPORATION.
+Last Update: 2015/04/02
+Print Style Sheets */
+
+div#contentsBody a {
+  color: #333333;
+  text-decoration: none;
+  cursor: default;
+}
+
+div#contentsBody a:hover {
+  color: #333333;
+  text-decoration: none;
+  cursor: default;
+}
+
+div#contentsBody dl.spec a,
+div#contentsBody dl.spec a:hover {
+  color: #1B6384;
+}
+
+div#contentsBody dl.atten2 a,
+div#contentsBody dl.atten2 a:hover {
+  color: #FF0000;
+}
+
+div#contentsBody dl.atten3 a,
+div#contentsBody dl.atten3 a:hover {
+  color: #E88517;
+}
+
+div#contentsBody dl.atten4 a,
+div#contentsBody dl.atten4 a:hover {
+  color: #008000;
+}
+
+div#contentsBody dl.torque a,
+div#contentsBody dl.torque a:hover {
+  color: #1B6384;
+}
+
+div#contentsBody dl.sst a,
+div#contentsBody dl.sst a:hover {
+  color: #FC9B87;
+}
+
+div#contentsBody div.figure div.swfPattern input.playswf,
+div#contentsBody div.figure div.pdfPattern input.showpdf,
+div#contentsBody div.figure div.gifPattern input.playgif,
+div#contentsBody dd.gtsExec input.gtsBtn {
+  color: #ACA899;
+  cursor: default;
+}

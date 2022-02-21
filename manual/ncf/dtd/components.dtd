@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- #  DTD VERSION 1.5  UPDATE May. 22, 2013    -->
+<!ELEMENT tmc-service-components (pub)>
+<!ELEMENT pub (servcat*)>
+<!ATTLIST pub
+	id ID #REQUIRED
+>
+<!ELEMENT servcat (section+)>
+<!ATTLIST servcat
+	id ID #REQUIRED
+>
+<!ELEMENT section (ttl+)>
+<!ATTLIST section
+	id ID #REQUIRED
+>
+<!ELEMENT ttl (para+)>
+<!ATTLIST ttl
+	id ID #REQUIRED
+>
+<!ELEMENT para (subpara+)>
+<!ATTLIST para
+	category CDATA #REQUIRED
+	id ID #REQUIRED
+	term-id-from CDATA #REQUIRED
+	term-id-to CDATA #IMPLIED
+>
+<!ELEMENT subpara (graphic+)>
+<!ATTLIST subpara
+	id ID #REQUIRED
+>
+<!ELEMENT graphic (parts*)>
+<!ATTLIST graphic
+	graphicname CDATA #REQUIRED
+>
+<!ELEMENT parts EMPTY>
+<!ATTLIST parts
+	parts-id CDATA #REQUIRED
+>

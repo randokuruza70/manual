@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmc-service-difference SYSTEM "../dtd/difference.dtd">
+<tmc-service-difference><pub id="NM25T0E"><release send-date="20161226"><term term-id-from="001" alt-pub-id="NM25T0E" date="201408"><changed-file type="U" filename="NM100000000GANN.xml">ncf/contents/NM100000000GANN.xml</changed-file><changed-file type="U" filename="NM100000000FT9K.xml">ncf/contents/NM100000000FT9K.xml</changed-file></term></release></pub></tmc-service-difference>

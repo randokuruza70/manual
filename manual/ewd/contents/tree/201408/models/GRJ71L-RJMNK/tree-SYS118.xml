@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS118" code="A35,A36,D9" type="conn" figID="6">
+    <name>Battery (Main)</name>
+  </text>
+  <text ewd="SYS118" code="L25,L26" type="conn" figID="1">
+    <name>Combination Meter Assembly</name>
+  </text>
+  <text ewd="SYS118" code="D1,D4" type="conn" figID="7">
+    <name>Generator Assembly</name>
+  </text>
+  <text ewd="SYS118" code="I55" type="conn" figID="2">
+    <name>No. 6 Junction Connector</name>
+  </text>
+  <text ewd="SYS118" code="I57" type="conn" figID="3">
+    <name>No. 8 Junction Connector</name>
+  </text>
+  <text ewd="SYS118" code="I58,I72" type="conn" figID="8">
+    <name>No. 9 Junction Connector , No. 21 Junction Connector</name>
+  </text>
+  <text ewd="SYS118" code="FUSE5" type="fuse" figID="43">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS118" code="FUSE16" type="fuse" figID="42">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS118" code="FUSE43" type="fuse" figID="39">
+    <name>140A ALT</name>
+  </text>
+  <text ewd="SYS118" code="FUSE20" type="fuse" figID="41">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS118" code="FUSE44" type="fuse" figID="40">
+    <name>7.5A ALT-S</name>
+  </text>
+  <text ewd="SYS118" code="AC" type="gp" figID="33">
+    <name />
+  </text>
+  <text ewd="SYS118" code="CA" type="gp" figID="34">
+    <name />
+  </text>
+  <text ewd="SYS118" code="DA" type="gp" figID="32">
+    <name />
+  </text>
+  <text ewd="SYS118" code="3" type="jb" figID="18">
+    <name />
+  </text>
+  <text ewd="SYS118" code="4" type="jb" figID="16,17">
+    <name />
+  </text>
+  <text ewd="SYS118" code="FUSE5" type="rb" figID="10">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS118" code="FUSE16" type="rb" figID="9">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS118" code="FUSE20" type="rb" figID="4">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS118" code="FUSE44" type="rb" figID="5">
+    <name>7.5A ALT-S</name>
+  </text>
+  <text ewd="SYS118" code="SP19" type="sp" figID="36">
+    <name />
+  </text>
+  <text ewd="SYS118" code="SP44" type="sp" figID="35">
+    <name />
+  </text>
+  <text ewd="SYS118" code="SP51" type="sp" figID="38">
+    <name />
+  </text>
+  <text ewd="SYS118" code="SP60" type="sp" figID="37">
+    <name />
+  </text>
+  <text ewd="SYS118" code="IC2" type="w2w" figID="29">
+    <name>Cowl Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS118" code="IL1" type="w2w" figID="26,27,31">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS118" code="IL2" type="w2w" figID="25">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS118" code="AI3" type="w2w" figID="21,24,30">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS118" code="AI6" type="w2w" figID="22">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS118" code="AC5" type="w2w" figID="28">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS118" code="DA1" type="w2w" figID="19,20,23">
+    <name>No. 2 Engine Wire and Engine Room Main Wire</name>
+  </text>
+</EwdTree>

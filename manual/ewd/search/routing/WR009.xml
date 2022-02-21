@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="WR009">
+    <part type="conn" code="C101">
+      <name>Diesel Turbo Pressure Sensor</name>
+    </part>
+    <part type="conn" code="C91">
+      <name>Electric Vacuum Regulating Valve Assembly (EGR)</name>
+    </part>
+    <part type="conn" code="C71">
+      <name>Engine Oil Level Sensor</name>
+    </part>
+    <part type="conn" code="C100">
+      <name>Fuel Pressure Sensor</name>
+    </part>
+    <part type="conn" code="C97">
+      <name>Fuel Sender Gage Assembly (Front)</name>
+    </part>
+    <part type="conn" code="C72">
+      <name>Injector Assembly No. 4</name>
+    </part>
+    <part type="conn" code="C78">
+      <name>Shift Position Switch</name>
+    </part>
+    <part type="conn" code="C102">
+      <name>Short Connector</name>
+    </part>
+    <part type="conn" code="C103">
+      <name>Short Connector</name>
+    </part>
+  </ttl>
+</EWDSearch>

@@ -1,0 +1,2310 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">Engine / Hybrid System</span>
+<span class="globalSection">_029758</span>
+<span class="globalSectionName">1GR-FE ENGINE CONTROL</span>
+<span class="globalTitle">_0135343</span>
+<span class="globalTitleName">SFI SYSTEM</span>
+<span class="globalCategory">J</span>
+</div>
+<h1>1GR-FE ENGINE CONTROL&nbsp;&nbsp;SFI SYSTEM&nbsp;&nbsp;Fuel Pump Control Circuit&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000FJFS_01" class="category no03">
+<h2>DESCRIPTION</h2>
+<div class="content5">
+<p>When the engine is cranked, an STA signal is sent to the ECM from ignition switch terminal ST1. When the STA and NE signals are received by the ECM, Tr1 inside the ECM turns on and current flows through the coil of the circuit opening relay. As a result, the relay switches on and the fuel pump operates with power from the fuel pump relay. While the NE signal is being sent (while the engine is running), the fuel pump continues to operate since Tr1 in the ECM continues to stay on (the circuit opening relay is on). The speed of the fuel pump is regulated at two speeds (high and low) according to the state of the engine (cranking, light load or heavy load). When Tr2 inside the ECM is off, the fuel pump operates at high speed. When Tr2 turns on during idling or light loads, current flows to the fuel pump through the fuel pump resistor and the fuel pump operates at low speed.
+</p>
+<p>In the case that the vehicle is equipped with a sub fuel tank, when the STA signal and NE signal are input to the ECM, Tr1 turns on and current flows through the coil of the circuit opening relay. As a result, the relay switches on, power is supplied to the fuel pump via the fuel pump relay and pump select relay, and the fuel pump operates.
+</p>
+<p>When the fuel tank select switch is off, the contact inside the pump select relay connects the power supply to the main fuel pump and the main fuel pump operates.
+</p>
+<p>When the fuel tank select switch is on, the contact inside the pump select relay connects the power supply to the sub fuel pump and the sub fuel pump operates.
+</p>
+</div>
+</div>
+<div id="RM100000000FJFS_02" class="category no03">
+<h2>WIRING DIAGRAM</h2>
+<div class="content5">
+<p>Refer to DTC P0230.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;SFI SYSTEM&gt;P0230<span class="invisible">201408,999999,_51,_029758,_0135343,RM100000000FJG9_02,P0230</span></a>
+</p>
+</div>
+</div>
+<div id="RM100000000FJFS_03" class="category no10">
+<h2>CAUTION / NOTICE / HINT</h2>
+<div class="content5">
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3">
+<p>Inspect the fuses for circuits related to this system before performing the following inspection procedure.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000FJFS_08" class="category no01">
+<h2>PROCEDURE</h2>
+<div class="testgrp" id="RM100000000FJFS_08_0001">
+<div class="testtitle"><span class="titleText">1.PERFORM ACTIVE TEST USING GTS (OPERATE CIRCUIT OPENING RELAY)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Turn the ignition switch to ON.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Turn the GTS on.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Enter the following menus: Powertrain / Engine and ECT / Active Test / Control the Fuel Pump / Speed.
+</p>
+<dl class="gtsActiveTest">
+<dt class="gtsActiveTest">Powertrain &gt; Engine and ECT &gt; Active Test</dt>
+<dd class="gtsActiveTest">
+<table summary="active-test" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Control the Fuel Pump / Speed
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsActiveTest gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50004</span>
+<span class="gtsEcu">234</span>
+<span class="gtsDid">5</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>Check the relay operation while operating it using the GTS.
+</p>
+<dl class="spec">
+<dt class="spec">Standard:</dt>
+<dd class="spec"><p>Operating noise can be heard from the relay.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJFS_08_0001_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">2.INSPECT RELAY (FUEL PMP)</span></div>
+<div class="judgeValueNext"><p>NG
+</p></div>
+<div class="nextAction"><span class="titleText">7.CHECK ECM POWER SOURCE CIRCUIT</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJFS_08_0002">
+<div class="testtitle"><span class="titleText">2.INSPECT RELAY (FUEL PMP)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Inspect the FUEL PMP relay.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;RELAY&gt;ON-VEHICLE INSPECTION<span class="invisible">201408,999999,_51,_029758,_0135344,RM100000000FJGX,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJFS_08_0002_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">3.INSPECT TERMINAL VOLTAGE (FUEL PMP RELAY TERMINAL)</span></div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPLACE RELAY (FUEL PMP)</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;RELAY&gt;ON-VEHICLE INSPECTION<span class="invisible">201408,999999,_51,_029758,_0135344,RM100000000FJGX_01_0027,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJFS_08_0004">
+<div class="testtitle"><span class="titleText">3.INSPECT TERMINAL VOLTAGE (FUEL PMP RELAY TERMINAL)</span></div>
+<div class="content6">
+<div class="contentPartition"></div>
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/A288659C01.png" alt="A288659C01" title="A288659C01">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">1.438,0.469 1.729,0.646</span>
+<span class="captionSize">0.292,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*1</span>
+</span>
+<span class="caption">
+<span class="points">0.531,1.323 0.823,1.5</span>
+<span class="captionSize">0.292,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*2</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*1
+</td>
+<td>Engine Room R/B Assembly
+</td>
+</tr>
+<tr>
+<td class="alcenter">*2
+</td>
+<td>FUEL PMP
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Remove the FUEL PMP relay from the Engine Room Relay Block Assembly.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Measure the voltage according to the value(s) in the table below.
+</p>
+<dl class="spec">
+<dt class="spec">Standard Voltage:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Connection
+</th>
+<th class="alcenter">Condition
+</th>
+<th class="alcenter">Specified Condition
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">FUEL PMP relay terminal 1 - Body ground
+</td>
+<td class="alcenter">Cranking
+</td>
+<td class="alcenter">11 to 14 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">FUEL PMP relay terminal 3 - Body ground
+</td>
+<td class="alcenter">Cranking
+</td>
+<td class="alcenter">11 to 14 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJFS_08_0004_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">4.INSPECT FUEL PUMP RESISTOR</span></div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPAIR OR REPLACE HARNESS OR CONNECTOR (C/OPN RELAY - FUEL PMP RELAY, EFI MAIN RELAY)</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJFS_08_0006">
+<div class="testtitle"><span class="titleText">4.INSPECT FUEL PUMP RESISTOR</span></div>
+<div class="content6">
+<p>Inspect fuel pump resistor.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE FUEL&gt;FUEL PUMP RESISTOR&gt;INSPECTION<span class="invisible">201408,999999,_51,_029892,_0135861,RM100000000FLPQ,</span></a>
+</p>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJFS_08_0006_1" summary="" class="half">
+<colgroup>
+<col style="width:49%">
+<col style="width:50%">
+</colgroup>
+<thead>
+<tr>
+<th>Result
+</th>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OK (w/o Fuel Sub Tank)
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td>OK (w/ Fuel Sub Tank)
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+<tr>
+<td>NG
+</td>
+<td class="alcenter">C
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">5.INSPECT FUEL PUMP</span></div>
+<div class="judgeValueNext"><p>B
+</p></div>
+<div class="nextAction"><span class="titleText">10.INSPECT FUEL PUMP (MAIN AND SUB)</span></div>
+<div class="judgeValueEnd"><p>C
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPLACE FUEL PUMP RESISTOR</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE FUEL&gt;FUEL PUMP RESISTOR&gt;REMOVAL<span class="invisible">201408,999999,_51,_029892,_0135861,RM100000000FLPS,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJFS_08_0007">
+<div class="testtitle"><span class="titleText">5.INSPECT FUEL PUMP</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Remove the fuel pump.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE FUEL&gt;FUEL PUMP&gt;REASSEMBLY<span class="invisible">201408,999999,_51,_029892,_0135860,RM100000000FLSM,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Inspect the fuel pump.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE FUEL&gt;FUEL PUMP&gt;INSPECTION<span class="invisible">201408,999999,_51,_029892,_0135860,RM100000000FLPM,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJFS_08_0007_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">6.CHECK HARNESS AND CONNECTOR (FUEL PMP RELAY - FUEL PUMP RESISTOR - FUEL PUMP)</span></div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPLACE FUEL PUMP</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE FUEL&gt;FUEL PUMP&gt;REMOVAL<span class="invisible">201408,999999,_51,_029892,_0135860,RM100000000FLPO,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJFS_08_0009">
+<div class="testtitle"><span class="titleText">6.CHECK HARNESS AND CONNECTOR (FUEL PMP RELAY - FUEL PUMP RESISTOR - FUEL PUMP)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Remove the FUEL PMP relay from the Engine Room Relay Block Assembly.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Disconnect the fuel pump resistor connector.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Disconnect the fuel pump connector.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Measure the resistance according to the value(s) in the table below.
+</p>
+<dl class="spec">
+<dt class="spec">Standard Resistance:</dt>
+<dd class="spec"><table summary="">
+<caption>for 90L Tank</caption>
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Connection
+</th>
+<th class="alcenter">Condition
+</th>
+<th class="alcenter">Specified Condition
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">FUEL PMP relay terminal 5 - A17-1
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">A17-2 - T3-1
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">FUEL PMP relay terminal 4 - T3-1
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">T3-2 - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">FUEL PMP relay terminal 5 or A17-1 - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+<tr>
+<td class="alcenter">A17-2 or T3-1 - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+<tr>
+<td class="alcenter">FUEL PMP relay terminal 4 or T3-1 - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<table summary="">
+<caption>for 130 L Tank</caption>
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Connection
+</th>
+<th class="alcenter">Condition
+</th>
+<th class="alcenter">Specified Condition
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">FUEL PMP relay terminal 5 - A17-1
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">A17-2 - T8-1
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">FUEL PMP relay terminal 4 - T8-1
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">T8-6 - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">FUEL PMP relay terminal 5 or A17-1 - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+<tr>
+<td class="alcenter">A17-2 or T8-1 - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+<tr>
+<td class="alcenter">FUEL PMP relay terminal 4 or T8-1 - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJFS_08_0009_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>OK
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">CHECK CHECK FOR INTERMITTENT PROBLEMS</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;SFI SYSTEM&gt;CHECK FOR INTERMITTENT PROBLEMS<span class="invisible">201408,999999,_51,_029758,_0135343,RM100000000FJGQ,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPAIR OR REPLACE HARNESS OR CONNECTOR</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJFS_08_0012">
+<div class="testtitle"><span class="titleText">7.CHECK ECM POWER SOURCE CIRCUIT</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Inspect the ECM power source circuit.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;SFI SYSTEM&gt;ECM Power Source Circuit<span class="invisible">201408,999999,_51,_029758,_0135343,RM100000000FJFT,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJFS_08_0012_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">8.INSPECT RELAY (C/OPN)</span></div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPAIR OR REPLACE ECM POWER SOURCE CIRCUIT</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJFS_08_0014">
+<div class="testtitle"><span class="titleText">8.INSPECT RELAY (C/OPN)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Inspect the C/OPN relay.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;RELAY&gt;ON-VEHICLE INSPECTION<span class="invisible">201408,999999,_51,_029758,_0135344,RM100000000FJGX,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJFS_08_0014_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">9.CHECK HARNESS AND CONNECTOR (C/OPN RELAY - IGNITION SWITCH ASSEMBLY, ECM)</span></div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPLACE RELAY (C/OPN)</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJFS_08_0016">
+<div class="testtitle"><span class="titleText">9.CHECK HARNESS AND CONNECTOR (C/OPN RELAY - IGNITION SWITCH ASSEMBLY, ECM)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Disconnect the ECM connector.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Remove the C/OPN relay from the Engine Room Relay Block Assembly.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Disconnect the ignition switch assembly connector.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Measure the resistance according to the value(s) in the table below.
+</p>
+<dl class="spec">
+<dt class="spec">Standard Resistance:</dt>
+<dd class="spec"><table summary="">
+<caption>for LHD</caption>
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Connection
+</th>
+<th class="alcenter">Condition
+</th>
+<th class="alcenter">Specified Condition
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">L21-6 (IG2) - C/OPN relay terminal 1
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">C/OPN relay terminal 2 - I84-7 (FC)
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">L21-6 (IG2) or C/OPN relay terminal 1 - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+<tr>
+<td class="alcenter">C/OPN relay terminal 2 or I84-7 (FC) - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+<dd class="spec"><table summary="">
+<caption>for RHD</caption>
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Connection
+</th>
+<th class="alcenter">Condition
+</th>
+<th class="alcenter">Specified Condition
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">L21-6 (IG2) - C/OPN relay terminal 1
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">C/OPN relay terminal 2 - A29-7 (FC)
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">L21-6 (IG2) or C/OPN relay terminal 1 - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+<tr>
+<td class="alcenter">C/OPN relay terminal 2 or A29-7 (FC) - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJFS_08_0016_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>OK
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPLACE ECM</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;ECM&gt;REMOVAL<span class="invisible">201408,999999,_51,_029758,_0135332,RM100000000FJEC,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPAIR OR REPLACE HARNESS OR CONNECTOR</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJFS_08_0019">
+<div class="testtitle"><span class="titleText">10.INSPECT FUEL PUMP (MAIN AND SUB)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Remove the sub fuel pump and main fuel pump.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE FUEL&gt;FUEL PUMP&gt;REMOVAL<span class="invisible">201408,999999,_51,_029892,_0135860,RM100000000FLPO,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Inspect the sub fuel pump and main fuel pump.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE FUEL&gt;FUEL PUMP&gt;INSPECTION<span class="invisible">201408,999999,_51,_029892,_0135860,RM100000000FLPM,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJFS_08_0019_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">11.CHECK HARNESS AND CONNECTOR (FUEL PMP RELAY - FUEL PUMP RESISTOR - PMP SELECT RELAY)</span></div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPLACE FUEL PUMP</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE FUEL&gt;FUEL PUMP&gt;REMOVAL<span class="invisible">201408,999999,_51,_029892,_0135860,RM100000000FLPO,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJFS_08_0020">
+<div class="testtitle"><span class="titleText">11.CHECK HARNESS AND CONNECTOR (FUEL PMP RELAY - FUEL PUMP RESISTOR - PMP SELECT RELAY)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Remove the FUEL PMP relay from the Engine Room Relay Block Assembly.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Disconnect the fuel pump resistor connector.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Remove the PMP SELECT relay from the Engine Room Relay Block Assembly.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Measure the resistance according to the value(s) in the table below.
+</p>
+<dl class="spec">
+<dt class="spec">Standard Resistance:</dt>
+<dd class="spec"><table summary="">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Connection
+</th>
+<th class="alcenter">Condition
+</th>
+<th class="alcenter">Specified Condition
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">FUEL PMP relay terminal 5 - A17-1
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">A17-2 - PMP SELECT relay terminal 3
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">FUEL PMP relay terminal 4 - PMP SELECT relay terminal 3
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">FUEL PMP relay terminal 5 or A17-1 - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+<tr>
+<td class="alcenter">A17-2 or PMP SELECT relay terminal 3 - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+<tr>
+<td class="alcenter">FUEL PMP relay terminal 4 or PMP SELECT relay terminal 3 - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJFS_08_0020_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">12.INSPECT RELAY (PMP SELECT)</span></div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPAIR OR REPLACE HARNESS OR CONNECTOR</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJFS_08_0023">
+<div class="testtitle"><span class="titleText">12.INSPECT RELAY (PMP SELECT)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Inspect the PMP SELECT relay.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;RELAY&gt;ON-VEHICLE INSPECTION<span class="invisible">201408,999999,_51,_029758,_0135344,RM100000000FJGX,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJFS_08_0023_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">13.CHECK PMP SELECT RELAY OPERATION</span></div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPLACE RELAY (PMP SELECT)</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJFS_08_0025">
+<div class="testtitle"><span class="titleText">13.CHECK PMP SELECT RELAY OPERATION</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Turn the ignition switch to ON.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Check whether operating sounds can be heard when the fuel tank select switch is pressed.
+</p>
+<dl class="spec">
+<dt class="spec">OK:</dt>
+<dd class="spec"><p>Operating sounds can be heard from relay.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJFS_08_0025_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">14.CHECK HARNESS AND CONNECTOR (PMP SELECT RELAY - FUEL PUMP)</span></div>
+<div class="judgeValueNext"><p>NG
+</p></div>
+<div class="nextAction"><span class="titleText">19.INSPECT FUEL TANK SELECT SWITCH</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJFS_08_0026">
+<div class="testtitle"><span class="titleText">14.CHECK HARNESS AND CONNECTOR (PMP SELECT RELAY - FUEL PUMP)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Remove the PMP SELECT relay from the Engine Room Relay Block Assembly.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Disconnect the sub fuel pump and main fuel pump connectors.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Disconnect the fuel tank solenoid return valve connector.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Measure the resistance according to the value(s) in the table below.
+</p>
+<dl class="spec">
+<dt class="spec">Standard Resistance:</dt>
+<dd class="spec"><table summary="">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Connection
+</th>
+<th class="alcenter">Condition
+</th>
+<th class="alcenter">Specified Condition
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">PMP SELECT relay terminal 4 - C31-1
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">PMP SELECT relay terminal 5 - X2-1
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">C31-2 - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">X2-2 - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">PMP SELECT relay terminal 4 or C31-1 - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+<tr>
+<td class="alcenter">PMP SELECT relay terminal 5 or X2-1 - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJFS_08_0026_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">15.INSPECT FUEL TANK SOLENOID RETURN VALVE</span></div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPAIR OR REPLACE HARNESS OR CONNECTOR</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJFS_08_0028">
+<div class="testtitle"><span class="titleText">15.INSPECT FUEL TANK SOLENOID RETURN VALVE</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Inspect the fuel tank solenoid return valve.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE FUEL&gt;FUEL TANK SELECT VALVE(for Fuel Sub Tank)&gt;INSPECTION<span class="invisible">201408,999999,_51,_029892,_0135866,RM100000000FLQ6,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJFS_08_0028_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">16.CHECK HARNESS AND CONNECTOR (PMP SELECT RELAY - FUEL TANK SOLENOID RETURN VALVE)</span></div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPLACE FUEL TANK SOLENOID RETURN VALVE</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE FUEL&gt;FUEL TANK SELECT VALVE(for Fuel Sub Tank)&gt;REMOVAL<span class="invisible">201408,999999,_51,_029892,_0135866,RM100000000FLQ8,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJFS_08_0030">
+<div class="testtitle"><span class="titleText">16.CHECK HARNESS AND CONNECTOR (PMP SELECT RELAY - FUEL TANK SOLENOID RETURN VALVE)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Disconnect the fuel tank solenoid return valve connector.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Remove the PMP SELECT relay from the Engine Room Relay Block Assembly.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Disconnect the sub fuel pump connectors.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Measure the resistance according to the value(s) in the table below.
+</p>
+<dl class="spec">
+<dt class="spec">Standard Resistance:</dt>
+<dd class="spec"><table summary="">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Connection
+</th>
+<th class="alcenter">Condition
+</th>
+<th class="alcenter">Specified Condition
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">PMP SELECT relay terminal 5 - W11-1
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">W11-2 - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">PMP SELECT relay terminal 5 or W11-1 - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJFS_08_0030_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">17.INSPECT RELAY (SUB PMP)</span></div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPAIR OR REPLACE HARNESS OR CONNECTOR</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJFS_08_0032">
+<div class="testtitle"><span class="titleText">17.INSPECT RELAY (SUB PMP)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Inspect the SUB PMP relay.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;RELAY&gt;ON-VEHICLE INSPECTION<span class="invisible">201408,999999,_51,_029758,_0135344,RM100000000FJGX_01_0025,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJFS_08_0032_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">18.CHECK HARNESS AND CONNECTOR (SUB PMP RELAY - IGNITION SWITCH ASSEMBLY, FUEL PUMP (SUB), EFI MAIN RELAY)</span></div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPLACE RELAY (SUB PMP)</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;RELAY&gt;ON-VEHICLE INSPECTION<span class="invisible">201408,999999,_51,_029758,_0135344,RM100000000FJGX_01_0025,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJFS_08_0034">
+<div class="testtitle"><span class="titleText">18.CHECK HARNESS AND CONNECTOR (SUB PMP RELAY - IGNITION SWITCH ASSEMBLY, FUEL PUMP (SUB), EFI MAIN RELAY)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Remove the SUB PMP relay from the Engine Room Relay Block Assembly.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Disconnect the ignition switch assembly connector.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Disconnect the sub fuel pump connector.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Remove the EFI MAIN relay from the Engine Room Relay Block Assembly.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>Measure the resistance according to the value(s) in the table below.
+</p>
+<dl class="spec">
+<dt class="spec">Standard Resistance:</dt>
+<dd class="spec"><table summary="">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Connection
+</th>
+<th class="alcenter">Condition
+</th>
+<th class="alcenter">Specified Condition
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">SUB PMP relay terminal 1 - L21-3 (ST1)
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">SUB PMP relay terminal 5 - X2-1
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">SUB PMP relay terminal 3 - EFI MAIN relay terminal 3
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">SUB PMP relay terminal 2 - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">SUB PMP relay terminal 1 or L21-3 (ST1) - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+<tr>
+<td class="alcenter">SUB PMP relay terminal 5 or X2-1 - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+<tr>
+<td class="alcenter">SUB PMP relay terminal 3 or EFI MAIN relay terminal 3 - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJFS_08_0034_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>OK
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">CHECK FOR INTERMITTENT PROBLEMS</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;SFI SYSTEM&gt;CHECK FOR INTERMITTENT PROBLEMS<span class="invisible">201408,999999,_51,_029758,_0135343,RM100000000FJGQ,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPAIR OR REPLACE HARNESS OR CONNECTOR</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJFS_08_0038">
+<div class="testtitle"><span class="titleText">19.INSPECT FUEL TANK SELECT SWITCH</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Inspect the fuel tank select switch.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE FUEL&gt;FUEL TANK SELECT SWITCH(for Fuel Sub Tank)&gt;INSPECTION<span class="invisible">201408,999999,_51,_029892,_0135867,RM100000000FLQA,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJFS_08_0038_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">20.CHECK HARNESS AND CONNECTOR (PMP SELECT RELAY - FUEL TANK SELECT SWITCH ASSEMBLY, IGNITION SWITCH)</span></div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPLACE FUEL TANK SELECT SWITCH</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE FUEL&gt;FUEL PUMP&gt;REMOVAL<span class="invisible">201408,999999,_51,_029892,_0135860,RM100000000FLPO,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJFS_08_0040">
+<div class="testtitle"><span class="titleText">20.CHECK HARNESS AND CONNECTOR (PMP SELECT RELAY - FUEL TANK SELECT SWITCH ASSEMBLY, IGNITION SWITCH)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Remove the PMP SELECT relay from the Engine Room Relay Block Assembly.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Disconnect the fuel tank select switch connector.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Disconnect the ignition switch assembly connector.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Measure the resistance according to the value(s) in the table below.
+</p>
+<dl class="spec">
+<dt class="spec">Standard Resistance:</dt>
+<dd class="spec"><table summary="">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Connection
+</th>
+<th class="alcenter">Condition
+</th>
+<th class="alcenter">Specified Condition
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">PMP SELECT relay 1 - L21-6 (IG2)
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">PMP SELECT relay 2 - L8-3
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">L8-4 - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">PMP SELECT relay 1 or L21-6 (IG2) - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+<tr>
+<td class="alcenter">PMP SELECT relay 2 or L8-3 - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJFS_08_0040_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>OK
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">CHECK FOR INTERMITTENT PROBLEMS</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;SFI SYSTEM&gt;CHECK FOR INTERMITTENT PROBLEMS<span class="invisible">201408,999999,_51,_029758,_0135343,RM100000000FJGQ,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPAIR OR REPLACE HARNESS OR CONNECTOR</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

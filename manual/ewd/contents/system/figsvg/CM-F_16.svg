@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'ArialMT';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'ArialMT';">
+	<!ENTITY st11 "font-size:9px;font-family:'Svg Symbol';">
+	<!ENTITY st12 "font-size:6px;font-family:'Svg Symbol';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'Arial';">
+	<!ENTITY st19 "font-size:9px;font-family:'Arial';">
+	<!ENTITY st20 "font-size:6px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 10206.470 710.000" viewBox="0 0 10206.470 710.000" height="710.000" width="10206.470" xml:space="preserve" ewd:ver="2.1.2.9" xmlns="&ns_svg;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:xlink="&ns_xlink;">
+<text style="&st18;" transform="matrix(&st17;  7509.05  372.33 )">B-R</text><text style="&st18;" transform="matrix(&st17;  7577.04  373.1 )">R-W</text><text style="&st18;" transform="matrix(&st17;  7645.03  373.1 )">R-W</text><text style="&st18;" transform="matrix(&st17;  7713.01  368.91 )">Y</text><text style="&st18;" transform="matrix(&st17;  7857.49  105.36 )">L-W</text><text style="&st18;" transform="matrix(&st17;  7908.48  104.97 )">G-B</text><text style="&st18;" transform="matrix(&st17;  7959.47  104.97 )">G-Y</text><text style="&st18;" transform="matrix(&st17;  7656.36  373.49 )">(*46)</text><text style="&st18;" transform="matrix(&st17;  7588.37  373.49 )">(*46)</text><g ewd:figtype="annex" ewd:figID="59" ewd:code=" "><path style="stroke-width:1.42 ;&st7;  " d=" M  7963.17,    78.27  L  7968.23,    66.91  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7861.19,    78.27  L  7866.25,    66.91  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7912.18,    78.27  L  7917.24,    66.91  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7912.18,    78.27  L  7907.12,    66.91  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  8065.15,    78.27  L  8070.21,    66.91  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7963.17,    78.27  L  7958.11,    66.91  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  8065.15,    78.27  L  8060.09,    66.91  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7861.19,    78.27  L  7856.13,    66.91  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  8014.16,    78.27  L  8009.10,    66.91  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  8116.14,    78.27  L  8121.20,    66.91  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  8014.16,    78.27  L  8019.22,    66.91  " /><path style="stroke-width:0.85 ;&st7;  " d=" M  7967.42,    57.03  L  7963.17,    52.78  L  7939.80,    52.78  L  7937.67,    48.53  L  7935.55,    52.78  L  7912.17,    52.78  L  7907.93,    57.03  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  8116.14,    78.27  L  8111.08,    66.91  " /><text style="&st18;" transform="matrix(&st16;  7915.05  38.9 )" ewd:textID="157">Turn Signal <tspan x="0 " dy="6.0">Flasher Assembly</tspan></text><text style="&st18;" transform="matrix(&st17;  8112.46  58.52 )" ewd:textID="154">Transponder <tspan x="0 " dy="6.0">Key ECU </tspan><tspan x="0 " dy="6.0">Assembly</tspan></text><text style="&st18;" transform="matrix(&st17;  8064.3  58.52 )" ewd:textID="135">RR FOG <tspan x="0 " dy="6.0">Relay</tspan></text><text style="&st18;" transform="matrix(&st17;  8013.31  58.52 )" ewd:textID="70">FR FOG <tspan x="0 " dy="6.0">Relay</tspan></text><text style="&st18;" transform="matrix(&st17;  7860.33  58.52 )" ewd:textID="94">H-LP HI LH <tspan x="0 " dy="6.0">Fuse</tspan></text></g><g ewd:code="3" ewd:figID="340" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  7908.77  462.68 )">* 3 :1VD-FTV</text></g><g ewd:code="32" ewd:figID="416" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  7908.77  496.67 )" ewd:textID="30">*32 :Except Australia</text></g><g ewd:code="46" ewd:figID="543" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  7908.77  513.67 )" ewd:textID="42">*46 :w/o VSC</text></g><g ewd:code="1" ewd:figID="412" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  7908.77  454.18 )">* 1 :1GR-FE</text></g><g ewd:code="5" ewd:figID="415" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  7908.77  479.67 )" ewd:textID="7">* 5 :1HZ w/o Emission Control</text></g><g ewd:code="43" ewd:figID="413" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  7908.77  505.17 )" ewd:textID="40">*43 :Diesel</text></g><g ewd:code="7" ewd:figID="359" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  7908.77  488.17 )" ewd:textID="9">* 7 :1HZ 24V Battery Type</text></g><g ewd:code="4" ewd:figID="414" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  7908.77  471.18 )" ewd:textID="6">* 4 :1HZ w/ Emission Control</text></g></svg>

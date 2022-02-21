@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <book id="L-EG">
+    <name>Engine Compartment</name>
+    <note id="WR007" icon="P" file="T">
+      <name>Position of Parts (LHD 1VD-FTV)</name>
+    </note>
+    <note id="WR047" icon="P" file="T">
+      <name>Wire and Wire (LHD 1VD-FTV)</name>
+    </note>
+    <note id="WR048" icon="P" file="T">
+      <name>Ground Points (LHD 1VD-FTV)</name>
+    </note>
+    <book id="RELAY_RL001" file="T">
+      <name>Relay Location</name>
+    </book>
+  </book>
+  <book id="L-INPA">
+    <name>Instrument Panel</name>
+    <note id="WR011" icon="P" file="T">
+      <name>Position of Parts (LHD)</name>
+    </note>
+    <note id="WR049" icon="P" file="T">
+      <name>Wire and Wire (LHD)</name>
+    </note>
+    <note id="WR050" icon="P" file="T">
+      <name>Ground Points (LHD)</name>
+    </note>
+    <book id="RELAY_RL002" file="T">
+      <name>Relay Location(LHD)</name>
+    </book>
+    <book id="RELAY_RL003" file="T">
+      <name>Relay Location(RHD)</name>
+    </book>
+  </book>
+  <book id="L-BODY">
+    <name>Body</name>
+    <note id="WR013" icon="P" file="T">
+      <name>Position of Parts (LHD 4-Door Except Pick-Up)</name>
+    </note>
+    <note id="WR015" icon="P" file="T">
+      <name>Position of Parts (LHD 2-Door Except Pick-Up)</name>
+    </note>
+    <note id="WR017" icon="P" file="T">
+      <name>Position of Parts (LHD 4-Door Pick-Up)</name>
+    </note>
+    <note id="WR019" icon="P" file="T">
+      <name>Position of Parts (LHD 2-Door Pick-Up)</name>
+    </note>
+    <note id="WR051" icon="P" file="T">
+      <name>Wire and Wire (LHD 4-Door Except Pick-Up)</name>
+    </note>
+    <note id="WR052" icon="P" file="T">
+      <name>Ground Points (LHD 4-Door Except Pick-Up)</name>
+    </note>
+    <note id="WR053" icon="P" file="T">
+      <name>Wire and Wire (LHD 2-Door Except Pick-Up)</name>
+    </note>
+    <note id="WR054" icon="P" file="T">
+      <name>Ground Points (LHD 2-Door Except Pick-Up)</name>
+    </note>
+    <note id="WR055" icon="P" file="T">
+      <name>Wire and Wire (LHD 4-Door Pick-Up)</name>
+    </note>
+    <note id="WR056" icon="P" file="T">
+      <name>Ground Points (LHD 4-Door Pick-Up)</name>
+    </note>
+    <note id="WR057" icon="P" file="T">
+      <name>Wire and Wire (LHD 2-Door Pick-Up)</name>
+    </note>
+    <note id="WR058" icon="P" file="T">
+      <name>Ground Points (LHD 2-Door Pick-Up)</name>
+    </note>
+    <book id="RELAY_RL004" file="T">
+      <name>Relay Location(4-Door Except Pick-Up)</name>
+    </book>
+    <book id="RELAY_RL005" file="T">
+      <name>Relay Location(2-Door Except Pick-Up)</name>
+    </book>
+    <book id="RELAY_RL006" file="T">
+      <name>Relay Location(4-Door Pick-Up)</name>
+    </book>
+    <book id="RELAY_RL007" file="T">
+      <name>Relay Location(2-Door Pick-Up)</name>
+    </book>
+  </book>
+  <book id="L-ANTE">
+    <name>Antenna</name>
+    <note id="WR075" file="T">
+      <name>Antenna (4-Door Except Pick-Up)</name>
+    </note>
+    <note id="WR076" file="T">
+      <name>Antenna (2-Door Except Pick-Up)</name>
+    </note>
+    <note id="WR077" file="T">
+      <name>Antenna (4-Door Pick-Up)</name>
+    </note>
+    <note id="WR078" file="T">
+      <name>Antenna (2-Door Pick-Up)</name>
+    </note>
+  </book>
+</EwdTree>

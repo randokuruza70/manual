@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS089" code="A20,A42" type="conn" figID="9">
+    <name>Brake Actuator Assembly</name>
+  </text>
+  <text ewd="SYS089" code="A15,I85" type="conn" figID="44">
+    <name>Brake Fluid Level Warning Switch (Brake Master Cylinder Reservoir Sub-Assembly)</name>
+  </text>
+  <text ewd="SYS089" code="L25,L26,L50" type="conn" figID="45">
+    <name>Combination Meter Assembly</name>
+  </text>
+  <text ewd="SYS089" code="C2" type="conn" figID="2">
+    <name>Crank Position Sensor</name>
+  </text>
+  <text ewd="SYS089" code="C42" type="conn" figID="3">
+    <name>Crank Position Sensor</name>
+  </text>
+  <text ewd="SYS089" code="C69,C85" type="conn" figID="17">
+    <name>Diesel Engine Coolant Temperature Sensor , Water Temperature Sender Gage Assembly</name>
+  </text>
+  <text ewd="SYS089" code="C1" type="conn" figID="7">
+    <name>E.F.I. Engine Coolant Temperature Sensor</name>
+  </text>
+  <text ewd="SYS089" code="A29,C39,I84" type="conn" figID="42">
+    <name>ECM</name>
+  </text>
+  <text ewd="SYS089" code="A30,A31" type="conn" figID="5">
+    <name>Emission Control ECU</name>
+  </text>
+  <text ewd="SYS089" code="C71" type="conn" figID="23">
+    <name>Engine Oil Level Sensor</name>
+  </text>
+  <text ewd="SYS089" code="C30" type="conn" figID="30">
+    <name>Engine Oil Pressure Switch Assembly</name>
+  </text>
+  <text ewd="SYS089" code="C30,C74,C87,C88" type="conn" figID="31">
+    <name>Engine Oil Pressure Switch Assembly , Oil Pressure Sender Gage Assembly</name>
+  </text>
+  <text ewd="SYS089" code="A8" type="conn" figID="19">
+    <name>Fuel Filter Vacuum Sensor</name>
+  </text>
+  <text ewd="SYS089" code="A9" type="conn" figID="24">
+    <name>Fuel Sediment Switch</name>
+  </text>
+  <text ewd="SYS089" code="C97" type="conn" figID="34">
+    <name>Fuel Sender Gage Assembly (Front)</name>
+  </text>
+  <text ewd="SYS089" code="T4,T19,X1" type="conn" figID="33">
+    <name>Fuel Sender Gage Assembly (Rear)</name>
+  </text>
+  <text ewd="SYS089" code="C83" type="conn" figID="6,47">
+    <name>Injection or Supply Pump Assembly</name>
+  </text>
+  <text ewd="SYS089" code="I59,I70" type="conn" figID="4,15">
+    <name>No. 10 Junction Connector , No. 19 Junction Connector</name>
+  </text>
+  <text ewd="SYS089" code="I61,I67" type="conn" figID="21">
+    <name>No. 11 Junction Connector , No. 16 Junction Connector</name>
+  </text>
+  <text ewd="SYS089" code="I66" type="conn" figID="36,38,40,46">
+    <name>No. 15 Junction Connector</name>
+  </text>
+  <text ewd="SYS089" code="I95" type="conn" figID="39">
+    <name>No. 18 Junction Connector</name>
+  </text>
+  <text ewd="SYS089" code="I70" type="conn" figID="37">
+    <name>No. 19 Junction Connector</name>
+  </text>
+  <text ewd="SYS089" code="A23" type="conn" figID="18,26,28">
+    <name>No. 2 Junction Connector</name>
+  </text>
+  <text ewd="SYS089" code="I72,I95" type="conn" figID="35">
+    <name>No. 21 Junction Connector , No. 18 Junction Connector</name>
+  </text>
+  <text ewd="SYS089" code="L35,L36" type="conn" figID="29">
+    <name>No. 27 Junction Connector , No. 28 Junction Connector</name>
+  </text>
+  <text ewd="SYS089" code="L36,L51" type="conn" figID="20">
+    <name>No. 28 Junction Connector , No. 25 Junction Connector</name>
+  </text>
+  <text ewd="SYS089" code="A43" type="conn" figID="43">
+    <name>No. 34 Junction Connector</name>
+  </text>
+  <text ewd="SYS089" code="I112,I115,I119,I122" type="conn" figID="14">
+    <name>No. 4 CAN Junction Connector , No. 6 CAN Junction Connector</name>
+  </text>
+  <text ewd="SYS089" code="C38" type="conn" figID="1">
+    <name>No. 4 Junction Connector</name>
+  </text>
+  <text ewd="SYS089" code="I111" type="conn" figID="13">
+    <name>No. 5 CAN Junction Connector</name>
+  </text>
+  <text ewd="SYS089" code="I105" type="conn" figID="10">
+    <name>No. 8 Junction Connector</name>
+  </text>
+  <text ewd="SYS089" code="I72,I106,I118" type="conn" figID="41">
+    <name>No. 9 Junction Connector , No. 36 Junction Connector , No. 21 Junction Connector</name>
+  </text>
+  <text ewd="SYS089" code="C105" type="conn" figID="25">
+    <name>Oil Pressure Sender Gage Assembly</name>
+  </text>
+  <text ewd="SYS089" code="S15" type="conn" figID="27">
+    <name>Parking Brake Switch Assembly</name>
+  </text>
+  <text ewd="SYS089" code="C96" type="conn" figID="22">
+    <name>Speedometer Sensor</name>
+  </text>
+  <text ewd="SYS089" code="I32" type="conn" figID="16">
+    <name>Vacuum Warning Switch Assembly</name>
+  </text>
+  <text ewd="SYS089" code="FUSE5" type="fuse" figID="262">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS089" code="FUSE16" type="fuse" figID="264">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS089" code="FUSE20" type="fuse" figID="261">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS089" code="FUSE51" type="fuse" figID="263">
+    <name>15A TURN&amp;HAZ</name>
+  </text>
+  <text ewd="SYS089" code="AA" type="gp" figID="236,242,245">
+    <name />
+  </text>
+  <text ewd="SYS089" code="CA" type="gp" figID="237,241">
+    <name />
+  </text>
+  <text ewd="SYS089" code="CB" type="gp" figID="234">
+    <name />
+  </text>
+  <text ewd="SYS089" code="CC" type="gp" figID="232,238,240">
+    <name />
+  </text>
+  <text ewd="SYS089" code="CE" type="gp" figID="233,235,239,243">
+    <name />
+  </text>
+  <text ewd="SYS089" code="IE" type="gp" figID="244">
+    <name />
+  </text>
+  <text ewd="SYS089" code="FUSE5" type="rb" figID="32">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS089" code="FUSE16" type="rb" figID="12">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS089" code="FUSE20" type="rb" figID="11">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS089" code="FUSE51" type="rb" figID="8">
+    <name>15A TURN&amp;HAZ</name>
+  </text>
+  <text ewd="SYS089" code="SP6" type="sp" figID="247">
+    <name />
+  </text>
+  <text ewd="SYS089" code="SP19" type="sp" figID="246,255,256,257">
+    <name />
+  </text>
+  <text ewd="SYS089" code="SP39" type="sp" figID="259">
+    <name />
+  </text>
+  <text ewd="SYS089" code="SP40" type="sp" figID="252,254">
+    <name />
+  </text>
+  <text ewd="SYS089" code="SP44" type="sp" figID="248">
+    <name />
+  </text>
+  <text ewd="SYS089" code="SP51" type="sp" figID="249">
+    <name />
+  </text>
+  <text ewd="SYS089" code="SP54" type="sp" figID="260">
+    <name />
+  </text>
+  <text ewd="SYS089" code="SP60" type="sp" figID="258">
+    <name />
+  </text>
+  <text ewd="SYS089" code="SP120" type="sp" figID="253">
+    <name />
+  </text>
+  <text ewd="SYS089" code="SP132" type="sp" figID="250">
+    <name />
+  </text>
+  <text ewd="SYS089" code="SP134" type="sp" figID="251">
+    <name />
+  </text>
+  <text ewd="SYS089" code="IC1" type="w2w" figID="108,210,221">
+    <name>Cowl Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS089" code="IC2" type="w2w" figID="136,171,231">
+    <name>Cowl Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS089" code="IC3" type="w2w" figID="114,139,144,149">
+    <name>Cowl Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS089" code="IS3" type="w2w" figID="186,191,196">
+    <name>Cowl Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS089" code="IL1" type="w2w" figID="69,82,84,91,105,113,125,142,147,152,155,160,169,173,182,199,213,224">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS089" code="IL2" type="w2w" figID="67,73,118,134,178">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS089" code="IL5" type="w2w" figID="68,81,83,90,104,112,124,141,146,151,154,159,168,172,177,181,198,212,223">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS089" code="IL6" type="w2w" figID="66,106,117,133">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS089" code="AI1" type="w2w" figID="72">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS089" code="AI2" type="w2w" figID="64,71,95,110,167,179,200">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS089" code="AI3" type="w2w" figID="70,76,77,85,86,87,89,93,94,96,99,100,102,103,116,119,120,121,122,123,126,129,130,131,132,137,140,145,150,153,157,158,164,165,166,174,175,176,201,202,204,205,206,214,215,216,217,218,225,226,227,228">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS089" code="AI7" type="w2w" figID="65,111,180">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS089" code="AC1" type="w2w" figID="75,78,79,98,128,163">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS089" code="AC2" type="w2w" figID="63,109,115,208,219,229">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS089" code="AC5" type="w2w" figID="135,170">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS089" code="AC7" type="w2w" figID="209,230">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS089" code="AC8" type="w2w" figID="138,143,148,220">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS089" code="AC9" type="w2w" figID="207">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS089" code="CA3" type="w2w" figID="88,92,101,162,211,222">
+    <name>Engine Wire and Engine Room Main Wire</name>
+  </text>
+  <text ewd="SYS089" code="CA4" type="w2w" figID="127,156,203">
+    <name>Engine Wire and Engine Room Main Wire</name>
+  </text>
+  <text ewd="SYS089" code="ST2" type="w2w" figID="184,189">
+    <name>Floor Wire and No. 2 Floor Wire</name>
+  </text>
+  <text ewd="SYS089" code="ST3" type="w2w" figID="194">
+    <name>Floor Wire and No. 2 Floor Wire</name>
+  </text>
+  <text ewd="SYS089" code="LI1" type="w2w" figID="74,80,97,107">
+    <name>Instrument Panel Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS089" code="LS2" type="w2w" figID="161,183,188,193">
+    <name>Instrument Panel Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS089" code="TS2" type="w2w" figID="187,192">
+    <name>No. 2 Floor Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS089" code="TS4" type="w2w" figID="197">
+    <name>No. 2 Floor Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS089" code="XT1" type="w2w" figID="185,190,195">
+    <name>No. 3 Frame Wire and No. 2 Floor Wire</name>
+  </text>
+</EwdTree>

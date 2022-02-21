@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- #  DTD VERSION 1.5  UPDATE May. 22, 2013    -->
+<!ELEMENT tmc-service-illust (indicateinfo)>
+<!ELEMENT indicateinfo (line | caption | rectangle)*>
+<!ELEMENT line EMPTY>
+<!ATTLIST line
+	points CDATA #REQUIRED
+	strokedash CDATA #REQUIRED
+	whiteedge CDATA #REQUIRED
+>
+<!ELEMENT caption (ptxt)>
+<!ATTLIST caption
+	fontsize CDATA #REQUIRED
+	height CDATA #REQUIRED
+	width CDATA #REQUIRED
+	x1 CDATA #REQUIRED
+	x2 CDATA #REQUIRED
+	y1 CDATA #REQUIRED
+	y2 CDATA #REQUIRED
+	filled CDATA #IMPLIED
+>
+<!ELEMENT rectangle EMPTY>
+<!ATTLIST rectangle
+	height CDATA #REQUIRED
+	strokedash CDATA #REQUIRED
+	width CDATA #REQUIRED
+	x1 CDATA #REQUIRED
+	x2 CDATA #REQUIRED
+	y1 CDATA #REQUIRED
+	y2 CDATA #REQUIRED
+>
+<!ELEMENT ptxt (#PCDATA)>

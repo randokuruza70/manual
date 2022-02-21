@@ -1,0 +1,407 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">NM25T0E</span>
+<span class="globalServcat">_52</span>
+<span class="globalServcatName">Drivetrain</span>
+<span class="globalSection">_031390</span>
+<span class="globalSectionName">AXLE AND DIFFERENTIAL</span>
+<span class="globalTitle">_0141541</span>
+<span class="globalTitleName">DIFFERENTIAL SYSTEM</span>
+<span class="globalSubTitle">CO</span>
+<span class="globalSubTitleName">CONTROL</span>
+<span class="globalCategory">F</span>
+</div>
+<h1>AXLE AND DIFFERENTIAL&nbsp;&nbsp;DIFFERENTIAL SYSTEM&nbsp;&nbsp;CONTROL&nbsp;&nbsp;DIFFERENTIAL LOCK CONTROL&nbsp;&nbsp;</h1>
+<br>
+<div id="NM100000000GANK_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">FUNCTION OF MAIN COMPONENTS
+</span></p>
+<br>
+<table summary="">
+<colgroup>
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:59%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter" colspan="2">Component
+</th>
+<th class="alcenter">Function
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2">No. 2 Differential Lock Shift Actuator
+</td>
+<td>Front Differential Lock Shift Motor
+</td>
+<td>Changes the front differential position (lock or free).
+</td>
+</tr>
+<tr>
+<td>Front Differential Lock Limit Switch
+</td>
+<td>Detects the front differential lock shift motor operating condition.
+</td>
+</tr>
+<tr>
+<td rowspan="2">Differential Lock Shift Actuator
+</td>
+<td>Rear Differential Lock Shift Motor
+</td>
+<td>Changes the rear differential position (lock or free).
+</td>
+</tr>
+<tr>
+<td>Rear Differential Lock Limit Switch
+</td>
+<td>Detects the rear differential lock shift motor operating condition.
+</td>
+</tr>
+<tr>
+<td colspan="2">Front Differential Lock Position Switch (No. 4 Transfer Indicator Switch)
+</td>
+<td>Detects the front differential position (lock or free).
+</td>
+</tr>
+<tr>
+<td colspan="2">Rear Differential Lock Position Switch (No. 4 Transfer Indicator Switch)
+</td>
+<td>Detects the rear differential position (lock or free).
+</td>
+</tr>
+<tr>
+<td colspan="2">4WD Detection Switch (No. 1 Transfer Indicator Switch)
+</td>
+<td>Detects the transfer shift position.
+</td>
+</tr>
+<tr>
+<td colspan="2">Differential Lock Control Switch (Center Differential Lock Switch)
+</td>
+<td>Selects the front differential and rear differential position (lock or free).
+</td>
+</tr>
+<tr>
+<td colspan="2">No. 2 4WD Control ECU
+</td>
+<td>Controls the differential lock shift motor in the differential lock shift actuator based on the signals from each switch and the vehicle speed signal from the speedometer.
+</td>
+</tr>
+<tr>
+<td rowspan="3">Combination Meter Assembly
+</td>
+<td>Speedometer
+</td>
+<td>Sends the vehicle speed signal to the No. 2 4WD control ECU.
+</td>
+</tr>
+<tr>
+<td>Front Differential Lock Indicator Light
+</td>
+<td>Illuminates or flashes to inform the driver of the front differential position (lock or free).
+</td>
+</tr>
+<tr>
+<td>Rear Differential Lock Indicator Light
+</td>
+<td>Illuminates or flashes to inform the driver of the rear differential position (lock or free).
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">SYSTEM CONTROL
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>The No. 2 4WD control ECU operates the differential lock shift actuators and differential lock indicator lights in accordance with the conditions of the differential lock control switch (center differential lock switch) and other switches. If the vehicle speed goes above 8 km/h (5 mph), the No. 2 4WD control ECU prohibits shifting of the differential lock shift actuator from the FREE mode to the LOCK mode. The operation of the No. 2 4WD control ECU is as follows:
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>Shifting from FREE Mode to LOCK Mode
+</p>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When all the following conditions are satisfied, the No. 2 4WD control ECU drives the differential lock shift motor and restricts operation of the differential:
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>The differential lock control switch (center differential lock switch) is in the RR or FR/RR position.
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>The 4WD detection switch (No. 1 transfer indicator switch) is on.
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>The vehicle speed is 8 km/h (5 mph) or lower.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When the differential lock control switch (center differential lock switch) is turned to the RR position, only the rear differential is shifted to the LOCK mode.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When the differential lock control switch (center differential lock switch) is turned to the FR/RR position, both the front and rear differentials are shifted to the LOCK mode.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>Shifting from LOCK Mode to FREE Mode
+</p>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When one of the following conditions is satisfied, the No. 2 4WD control ECU drives the differential lock shift motor and releases the restriction on operation of the differential.
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>The differential lock control switch (center differential lock switch) is turned to the OFF position.
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>The differential lock control switch (center differential lock switch) is turned from the FR/RR position to the RR position.*
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>The 4WD detection switch (No. 1 transfer indicator switch) is turned off.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>*: When this occurs, only the front differential is shifted to FREE mode.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iii.</div>
+<div class="step3Body">
+<p>Control of Differential Lock Indicator Light
+</p>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The No. 2 4WD control ECU turns off, blinks or turns on the differential lock indicator lights in accordance with the conditions of the differential lock control switch (center differential lock switch) and differential lock position switches (No. 4 transfer indicator switches) as shown in the following table.
+</p>
+<table summary="">
+<colgroup>
+<col style="width:20%">
+<col style="width:10%">
+<col style="width:20%">
+<col style="width:10%">
+<col style="width:10%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter" rowspan="2" colspan="2">Indicator Light
+</th>
+<th class="alcenter" rowspan="2">Differential Lock Control Switch
+</th>
+<th class="alcenter" colspan="2">Differential Lock Position Switch
+</th>
+<th class="alcenter" rowspan="2">Differential Condition
+</th>
+</tr>
+<tr>
+<th class="alcenter">Front
+</th>
+<th class="alcenter">Rear
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="3">Front Differential Lock Indicator Light
+</td>
+<td>Off
+</td>
+<td>OFF or RR Position
+</td>
+<td class="alcenter">Off
+</td>
+<td class="alcenter">-
+</td>
+<td>Shifted into FREE mode
+</td>
+</tr>
+<tr>
+<td>Blinks*
+</td>
+<td>FR/RR Position
+</td>
+<td class="alcenter">Off
+</td>
+<td class="alcenter">-
+</td>
+<td>During shifting into LOCK mode
+</td>
+</tr>
+<tr>
+<td>On
+</td>
+<td>FR/RR Position
+</td>
+<td class="alcenter">On
+</td>
+<td class="alcenter">-
+</td>
+<td>Shifted into LOCK mode
+</td>
+</tr>
+<tr>
+<td rowspan="3">Rear Differential Lock Indicator Light
+</td>
+<td>Off
+</td>
+<td>OFF Position
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">Off
+</td>
+<td>Shifted into FREE mode
+</td>
+</tr>
+<tr>
+<td>Blinks*
+</td>
+<td>RR or FR/RR Position
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">Off
+</td>
+<td>During shifting into LOCK mode
+</td>
+</tr>
+<tr>
+<td>On
+</td>
+<td>RR or FR/RR Position
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">On
+</td>
+<td>Shifted into LOCK mode
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>*: When the No. 2 4WD control ECU prohibits shifting into LOCK mode because the vehicle speed is above 8 km/h (5 mph), the differential lock indicator light will blink.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When the 4WD detection switch (No. 1 transfer indicator switch) is turned off with the differential lock control switch (center differential lock switch) in the RR or FR/RR position, the differential lock indicator light flashes to prevent forgotten operation of the differential lock control switch (center differential lock switch).
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

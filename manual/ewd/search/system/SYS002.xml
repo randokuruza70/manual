@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS002">
+    <part type="conn" code="L41">
+      <name>Front No. 1 Speaker Assembly LH</name>
+    </part>
+    <part type="conn" code="L44">
+      <name>Front No. 1 Speaker Assembly RH</name>
+    </part>
+    <part type="conn" code="I49">
+      <text>ANT</text>
+      <name>Motor Antenna Control Relay</name>
+    </part>
+    <part type="conn" code="I61,I72">
+      <name>No. 11 Junction Connector , No. 21 Junction Connector</name>
+    </part>
+    <part type="conn" code="L32,L55,L57">
+      <name>No. 24 Junction Connector , No. 29 Junction Connector , No. 37 Junction Connector</name>
+    </part>
+    <part type="conn" code="L51">
+      <name>No. 25 Junction Connector</name>
+    </part>
+    <part type="conn" code="L34,L35">
+      <name>No. 26 Junction Connector , No. 27 Junction Connector</name>
+    </part>
+    <part type="conn" code="L40">
+      <text>ANT+</text>
+      <name>Option Connector (Auto Antenna)</name>
+    </part>
+    <part type="conn" code="L42,L43">
+      <text>FL+ ACC RL+ FL- B RR+ FR+ FR- RL- E ANT RR-</text>
+      <name>Radio Receiver Assembly</name>
+      <name type="inner">Input Jack</name>
+    </part>
+    <part type="conn" code="U4,U6">
+      <name>Rear Speaker Assembly LH</name>
+    </part>
+    <part type="conn" code="b2">
+      <name>Rear Speaker Assembly LH</name>
+    </part>
+    <part type="conn" code="S17">
+      <name>Rear Speaker Assembly RH</name>
+    </part>
+    <part type="conn" code="a2">
+      <name>Rear Speaker Assembly RH</name>
+    </part>
+    <part type="fuse" code="FUSE1">
+      <text>ACC</text>
+    </part>
+    <part type="fuse" code="FUSE24">
+      <text>RADIO</text>
+    </part>
+  </ttl>
+</EWDSearch>

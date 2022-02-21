@@ -1,0 +1,1466 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">Engine / Hybrid System</span>
+<span class="globalSection">_029758</span>
+<span class="globalSectionName">1GR-FE ENGINE CONTROL</span>
+<span class="globalTitle">_0135343</span>
+<span class="globalTitleName">SFI SYSTEM</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>1GR-FE ENGINE CONTROL&nbsp;&nbsp;SFI SYSTEM&nbsp;&nbsp;P0335&nbsp;&nbsp;Crankshaft Position Sensor "A" Circuit&nbsp;&nbsp;P0339&nbsp;&nbsp;Crankshaft Position Sensor "A" Circuit Intermittent&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000FJG1_01" class="category no03">
+<h2>DESCRIPTION</h2>
+<div class="content5">
+<p>The crankshaft position sensor system consists of a crank angle sensor plate and a pickup coil.
+</p>
+<p>The sensor plate has 34 teeth and is installed on the crankshaft. The pickup coil is made of wound copper wire, an iron core and magnet. The sensor plate rotates and, as each tooth passes by the pickup coil, a pulse signal is created. The pickup coil generates 34 signals per revolution. Based on these signals, the ECM calculates the crankshaft position and engine speed. Using these calculations, the fuel injection time and ignition timing are controlled.
+</p>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:15%">
+<col style="width:26%">
+<col style="width:26%">
+<col style="width:10%">
+<col style="width:10%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC No.
+</th>
+<th class="alcenter">Detection Item
+</th>
+<th class="alcenter">DTC Detection Condition
+</th>
+<th class="alcenter">Trouble Area
+</th>
+<th class="alcenter">MIL
+</th>
+<th class="alcenter">Memory
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">P0335
+</td>
+<td class="alleft">Crankshaft Position Sensor "A" Circuit
+</td>
+<td class="alleft">One of the following conditions is met when VVT sensor circuit fail is not detected (1 trip detection logic):
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>No crankshaft position sensor signal is sent to the ECM while cranking
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>No crankshaft position sensor signal is sent to the ECM at an engine speed of 600 rpm or more
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Missing crankshaft position sensor signal despite VVT sensor signal inputs normal after engine cranked
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Open or short in crankshaft position sensor circuit
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Crankshaft position sensor
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Crankshaft (crank angle sensor plate)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">Comes on
+</td>
+<td class="alleft">DTC stored
+</td>
+</tr>
+<tr>
+<td class="alleft">P0339
+</td>
+<td class="alleft">Crankshaft Position Sensor "A" Circuit Intermittent
+</td>
+<td class="alleft">Under conditions (a), (b) and (c), no crankshaft position sensor signal is sent to the ECM for 0.05 seconds or more (1 trip detection logic):
+<br>
+(a) The engine speed is 1000 rpm or more.
+<br>
+(b) The starter signal is off.
+<br>
+(c) 3 seconds or more have elapsed since the starter signal switched from on to off.
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Open or short in crankshaft position sensor circuit
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Crankshaft position sensor
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Crankshaft (crank angle sensor plate)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">DTC stored
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<div class="list1">
+<div class="list1Item list1HasFigure">
+<div class="list1Head"></div>
+<div class="list1Body"><div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/A122767E19.png" alt="A122767E19" title="A122767E19">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.198,0.646 0.427,0.813</span>
+<span class="captionSize">0.229,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">NE</span>
+</span>
+<span class="caption">
+<span class="points">0.125,1.125 0.427,1.281</span>
+<span class="captionSize">0.302,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">VV1</span>
+</span>
+<span class="caption">
+<span class="points">0.125,1.51 0.427,1.656</span>
+<span class="captionSize">0.302,0.146</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">VV2</span>
+</span>
+<span class="caption">
+<span class="points">2.896,0.635 3.229,0.781</span>
+<span class="captionSize">0.333,0.146</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">GND</span>
+</span>
+<span class="caption">
+<span class="points">2.896,1.583 3.229,1.729</span>
+<span class="captionSize">0.333,0.146</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">GND</span>
+</span>
+<span class="caption">
+<span class="points">2.896,1.208 3.229,1.354</span>
+<span class="captionSize">0.333,0.146</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">GND</span>
+</span>
+<span class="caption">
+<span class="points">1.823,1.885 2.792,2.042</span>
+<span class="captionSize">0.969,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">20 msec./DIV</span>
+</span>
+<span class="caption">
+<span class="points">2.75,0.344 3.26,0.5</span>
+<span class="captionSize">0.51,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">5 V/DIV</span>
+</span>
+<span class="caption">
+<span class="points">0.042,0.021 2.365,0.208</span>
+<span class="captionSize">2.323,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">VV1, VV2 and NE Signal Waveforms</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+<p>Reference: Inspection using an oscilloscope.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The correct waveform is as shown.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>VV1 and VV2 stand for the VVT sensor signal, and NE stands for the crankshaft position sensor signal.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Grounding failure of the shielded wire may cause noise in the waveforms.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<table summary="" class="half">
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Item
+</th>
+<th class="alcenter">Content
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">Terminal
+</td>
+<td class="alcenter">NE+ - NE-
+<br>
+VV1+ - VV1-
+<br>
+VV2+ - VV2-
+</td>
+</tr>
+<tr>
+<td class="alcenter">Equipment Setting
+</td>
+<td class="alcenter">5 V/DIV.,
+<br>
+20 msec./DIV.
+</td>
+</tr>
+<tr>
+<td class="alcenter">Condition
+</td>
+<td class="alcenter">Idling
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000FJG1_02" class="category no03">
+<h2>MONITOR DESCRIPTION</h2>
+<div class="content5">
+<p>If there is no signal from the crankshaft position sensor despite the engine running, the ECM interprets this as a malfunction of the sensor.
+</p>
+<p>If the malfunction is not repaired successfully, a DTC is stored 20 seconds after the engine is next started.
+</p>
+</div>
+</div>
+<div id="RM100000000FJG1_12" class="category no03">
+<h2>CONFIRMATION DRIVING PATTERN</h2>
+<div class="content5">
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>Turn the ignition switch to ON and turn the GTS on.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>Clear the DTCs (even if no DTCs are stored, perform the clear DTC procedure).
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">4.</div>
+<div class="list1Body"><p>Turn the ignition switch off and wait for at least 30 seconds.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">5.</div>
+<div class="list1Body"><p>Turn the ignition switch to ON and turn the GTS on.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">6.</div>
+<div class="list1Body"><p>Start the engine.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">7.</div>
+<div class="list1Body"><p>Idle the engine for 20 seconds or more [A].
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">8.</div>
+<div class="list1Body"><p>Enter the following menus: Powertrain / Engine and ECT / Trouble Codes [B].
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">9.</div>
+<div class="list1Body"><p>Read the pending DTCs.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If a pending DTC is output, the system is malfunctioning.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If a pending DTC is not output, perform the following procedure.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">10.</div>
+<div class="list1Body"><p>Enter the following menus: Powertrain / Engine and ECT / Utility / All Readiness.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">11.</div>
+<div class="list1Body"><p>Input the DTC: P0335 or P0339.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">12.</div>
+<div class="list1Body"><p>Check the DTC judgment result.
+</p>
+<table summary="">
+<colgroup>
+<col style="width:29%">
+<col style="width:70%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">GTS Display
+</th>
+<th class="alcenter">Description
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NORMAL
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC judgment completed
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>System normal
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">ABNORMAL
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC judgment completed
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>System abnormal
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">INCOMPLETE
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC judgment not completed
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Perform driving pattern after confirming DTC enabling conditions
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">N/A
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Unable to perform DTC judgment
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Number of DTCs which do not fulfill DTC preconditions has reached ECU memory limit
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the judgment result shows NORMAL, the system is normal.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the judgment result shows ABNORMAL, the system has a malfunction.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the judgment result shows INCOMPLETE or N/A, perform steps [A] and [B] again.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000FJG1_07" class="category no03">
+<h2>WIRING DIAGRAM</h2>
+<div class="content5">
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A160378E09.png" alt="A160378E09" title="A160378E09">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.708,1.615 1.031,1.771</span>
+<span class="captionSize">0.323,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">C2</span>
+</span>
+<span class="caption">
+<span class="points">0.698,1.771 2.448,1.927</span>
+<span class="captionSize">1.75,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Crankshaft Position Sensor</span>
+</span>
+<span class="caption">
+<span class="points">2.104,0.802 2.24,0.979</span>
+<span class="captionSize">0.135,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">2.104,1.292 2.24,1.469</span>
+<span class="captionSize">0.135,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2</span>
+</span>
+<span class="caption">
+<span class="points">3.271,1.771 3.865,1.917</span>
+<span class="captionSize">0.594,0.146</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Shielded</span>
+</span>
+<span class="caption">
+<span class="points">5.021,0.802 5.292,0.99</span>
+<span class="captionSize">0.271,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">110</span>
+</span>
+<span class="caption">
+<span class="points">5.385,0.802 5.708,0.99</span>
+<span class="captionSize">0.323,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">NE+</span>
+</span>
+<span class="caption">
+<span class="points">5.021,1.271 5.292,1.458</span>
+<span class="captionSize">0.271,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">111</span>
+</span>
+<span class="caption">
+<span class="points">5.385,1.271 5.708,1.458</span>
+<span class="captionSize">0.323,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">NE-</span>
+</span>
+<span class="caption">
+<span class="points">5.552,2.021 5.865,2.188</span>
+<span class="captionSize">0.313,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">C39</span>
+</span>
+<span class="caption">
+<span class="points">5.552,2.167 5.938,2.333</span>
+<span class="captionSize">0.385,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ECM</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000FJG1_08" class="category no10">
+<h2>CAUTION / NOTICE / HINT</h2>
+<div class="content5">
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>After performing the inspection procedure for the crankshaft position sensor, if DTC P0335 is output again, check the following items related to the VVT sensor.
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">1.</div>
+<div class="list2Body"><p>Installation condition of the VVT sensor.
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">2.</div>
+<div class="list2Body"><p>Installation condition of the camshaft.
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">3.</div>
+<div class="list2Body"><p>Connection of the VVT sensor connector.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</dd>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If no problem is found through by this diagnostic troubleshooting procedure, troubleshoot the engine mechanical system.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Check the engine speed. The engine speed can be checked by using the GTS. To check, follow the operation below:
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">1.</div>
+<div class="list2Body"><p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">2.</div>
+<div class="list2Body"><p>Start the engine.
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">3.</div>
+<div class="list2Body"><p>Turn the GTS on.
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">4.</div>
+<div class="list2Body"><p>Enter the following menus: Powertrain / Engine and ECT / Data List / All Data / Engine Speed.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head"></div>
+<div class="list2Body"><p>The engine speed may be indicated as zero despite the engine running normally. This is caused by a lack of NE signals from the Crankshaft Position (CKP) sensor. Alternatively, the engine speed may be indicated as lower than the actual engine speed if the CKP sensor output voltage is insufficient.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Read freeze frame data using the GTS. Freeze frame data records the engine condition when malfunctions are detected. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, if the air fuel ratio was lean or rich, and other data from the time the malfunction occurred.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000FJG1_11" class="category no01">
+<h2>PROCEDURE</h2>
+<div class="testgrp" id="RM100000000FJG1_11_0001">
+<div class="testtitle"><span class="titleText">1.READ VALUE USING GTS (ENGINE SPEED)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Turn the ignition switch to ON.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Turn the GTS on.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Enter the following menus: Powertrain / Engine and ECT / Data List / Primary / Engine Speed.
+</p>
+<dl class="gtsDataList">
+<dt class="gtsDataList">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataList">
+<table summary="data-list" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Engine Speed
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsDataList gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50003</span>
+<span class="gtsEcu">234</span>
+<span class="gtsPid">9</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>Start the engine.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>Read the values displayed on the GTS while the engineis running.
+</p>
+<dl class="spec">
+<dt class="spec">OK:</dt>
+<dd class="spec"><p>Correct values are displayed.
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>To check the engine speed change, display the graph on the GTS.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the engine does not start, check the engine speed while cranking.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the engine speed indicated on the GTS remains zero (0), there may be an open or short in the crankshaft position sensor circuit.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJG1_11_0001_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>OK
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">CHECK FOR INTERMITTENT PROBLEMS</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;SFI SYSTEM&gt;CHECK FOR INTERMITTENT PROBLEMS<span class="invisible">201408,999999,_51,_029758,_0135343,RM100000000FJGQ,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueNext"><p>NG
+</p></div>
+<div class="nextAction"><span class="titleText">2.INSPECT CRANKSHAFT POSITION SENSOR</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJG1_11_0003">
+<div class="testtitle"><span class="titleText">2.INSPECT CRANKSHAFT POSITION SENSOR</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Inspect the crankshaft position sensor.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;CRANKSHAFT POSITION SENSOR&gt;INSPECTION<span class="invisible">201408,999999,_51,_029758,_0135336,RM100000000FJEP,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJG1_11_0003_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">3.CHECK HARNESS AND CONNECTOR (CRANKSHAFT POSITION SENSOR - ECM)</span></div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPLACE CRANKSHAFT POSITION SENSOR</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;CRANKSHAFT POSITION SENSOR&gt;REMOVAL<span class="invisible">201408,999999,_51,_029758,_0135336,RM100000000FJEO,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJG1_11_0004">
+<div class="testtitle"><span class="titleText">3.CHECK HARNESS AND CONNECTOR (CRANKSHAFT POSITION SENSOR - ECM)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Disconnect the crankshaft position sensor connector.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Disconnect the ECM connector.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Measure the resistance according to the value(s) in the table below.
+</p>
+<dl class="spec">
+<dt class="spec">Standard Resistance:</dt>
+<dd class="spec"><table summary="">
+<colgroup>
+<col style="width:32%">
+<col style="width:32%">
+<col style="width:34%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Connection
+</th>
+<th class="alcenter">Condition
+</th>
+<th class="alcenter">Specified Condition
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">C2-1 - C39-110 (NE+)
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">C2-2 - C39-111 (NE-)
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">C2-1 or C39-110 (NE+) - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+<tr>
+<td class="alcenter">C2-2 or C39-111 (NE-) - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJG1_11_0004_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">4.CHECK SENSOR INSTALLATION (CRANKSHAFT POSITION SENSOR)</span></div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPAIR OR REPLACE HARNESS OR CONNECTOR</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJG1_11_0005">
+<div class="testtitle"><span class="titleText">4.CHECK SENSOR INSTALLATION (CRANKSHAFT POSITION SENSOR)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item test1HasFigure">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/A295942E01.png" alt="A295942E01" title="A295942E01">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.417,1.885 0.729,2.083</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">OK</span>
+</span>
+<span class="caption">
+<span class="points">2.667,1.885 2.979,2.083</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">NG</span>
+</span>
+<span class="caption">
+<span class="points">1.688,1.573 2.396,1.771</span>
+<span class="captionSize">0.708,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">Clearance</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+<p>Check the crankshaft position sensor installation condition.
+</p>
+<dl class="spec">
+<dt class="spec">OK:</dt>
+<dd class="spec"><p>Crankshaft position sensor is installed correctly.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJG1_11_0005_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">5.INSPECT CRANKSHAFT (TEETH OF CRANK ANGLE SENSOR PLATE)</span></div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">SECURELY REINSTALL CRANKSHAFT POSITION SENSOR</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;CRANKSHAFT POSITION SENSOR&gt;INSTALLATION<span class="invisible">201408,999999,_51,_029758,_0135336,RM100000000FJEQ,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJG1_11_0006">
+<div class="testtitle"><span class="titleText">5.INSPECT CRANKSHAFT (TEETH OF CRANK ANGLE SENSOR PLATE)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Check the teeth of the crank angle sensor plate.
+</p>
+<dl class="spec">
+<dt class="spec">OK:</dt>
+<dd class="spec"><p>Crank angle sensor plate does not have any cracks or deformation.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJG1_11_0006_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">6.CHECK WHETHER DTC OUTPUT RECURS</span></div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPLACE CRANKSHAFT</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1HZ ENGINE MECHANICAL&gt;CYLINDER BLOCK&gt;DISASSEMBLY<span class="invisible">201408,999999,_51,_029355,_0133481,RM100000000FBHX,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJG1_11_0013">
+<div class="testtitle"><span class="titleText">6.CHECK WHETHER DTC OUTPUT RECURS</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Turn the ignition switch to ON.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Turn the GTS on.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Clear the DTCs.
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Powertrain &gt; Engine and ECT &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>Turn the ignition switch off and wait for at least 30 seconds.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>Turn the ignition switch to ON and turn the GTS on.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">g.</div>
+<div class="test1Body">
+<p>Drive the vehicle in accordance with the driving pattern described in Confirmation Driving Pattern.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">h.</div>
+<div class="test1Body">
+<p>Enter the following menus: Powertrain / Engine and ECT / Trouble Codes.
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Powertrain &gt; Engine and ECT &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">i.</div>
+<div class="test1Body">
+<p>Read the DTCs.
+</p>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJG1_11_0013_1" summary="">
+<colgroup>
+<col style="width:50%">
+<col style="width:50%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Result
+</th>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">No output
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">P0335 or P0339
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>If the engine does not start, replace the ECM.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>A
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">END</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPLACE ECM</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;ECM&gt;REMOVAL<span class="invisible">201408,999999,_51,_029758,_0135332,RM100000000FJEC,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

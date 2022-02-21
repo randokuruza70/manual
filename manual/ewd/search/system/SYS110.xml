@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS110">
+    <part type="conn" code="L25">
+      <text>ES B SW I/F IG2</text>
+      <name>Combination Meter Assembly</name>
+      <name type="inner">Meter Micro Computer</name>
+      <name type="inner">Seat Belt</name>
+      <name type="inner">Buzzer</name>
+    </part>
+    <part type="conn" code="S2">
+      <name>Front Seat Inner Belt Assembly LH</name>
+    </part>
+    <part type="conn" code="S12">
+      <name>Front Seat Inner Belt Assembly RH</name>
+    </part>
+    <part type="conn" code="I54">
+      <name>No. 5 Junction Connector</name>
+    </part>
+    <part type="conn" code="I58,I72">
+      <name>No. 9 Junction Connector , No. 21 Junction Connector</name>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>DOME NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE16">
+      <text>MET</text>
+    </part>
+  </ttl>
+</EWDSearch>

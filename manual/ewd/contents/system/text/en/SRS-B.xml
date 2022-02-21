@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25T2E" style="font-size:6px;font-family:'Arial'" ver="2.1.2.9">
+	<text textID="1">(The SRS is equipped with a back-up power source so that if work is started within 90 seconds from disconnecting the negative (-) terminal cable of the battery, the SRS may deploy.)</text>
+	<text textID="2">* 3 :w/ Front Passenger Side Airbag</text>
+	<text textID="3">* 4 :RHD Except 1HZ</text>
+	<text textID="4">* Center airbag sensor assembly</text>
+	<text textID="5">* Front airbag sensor assembly</text>
+	<text textID="6">* Front passenger airbag assembly</text>
+	<text textID="7">* Steering wheel pad</text>
+	<text textID="8">After work on the SRS is completed, check the SRS warning light.</text>
+	<text textID="9">Airbag Sensor Assembly</text>
+	<text textID="10">Before repair, remove the airbag sensor if shocks are likely to be applied to the sensor during repair.</text>
+	<text textID="11">Combination Meter Assembly</text>
+	<text textID="12">Do not expose the following parts directly to hot air or flame;</text>
+	<text textID="13">Driver Side Squib Circuit</text>
+	<text textID="14">Even in cases of a minor collision where the SRS does not deploy, the following parts should be inspected;</text>
+	<text textID="15">For the purpose of reuse, never disassemble and repair the following parts.</text>
+	<text textID="16">Front Airbag Sensor LH</text>
+	<text textID="17">Front Airbag Sensor RH</text>
+	<text textID="18">Front Passenger Side Squib Circuit (Instrument Panel Passenger Airbag Assembly)</text>
+	<text textID="19">However, it is not possible to make a record of these memory contents. So when the work is finished, it will be necessary to explain it to your customer, and ask the customer to adjust the features and reset the memory.</text>
+	<text textID="20">If the following parts have been dropped, or have cracks, dents and other defects in their case, bracket, and connector, replace with new one.</text>
+	<text textID="21">If the vehicle is equipped with a mobile communication system, refer to the precaution in the IN section of the Repair Manual.</text>
+	<text textID="22">Information labels are attached to the periphery of the SRS components. Follow the instructions of the notice.</text>
+	<text textID="23">Malfunction symptoms of the SRS are difficult to confirm, so the DTCs become the most important source of information when troubleshooting. When troubleshooting the SRS, always inspect the DTCs before disconnecting the battery.</text>
+	<text textID="24">Meter Micro Computer</text>
+	<text textID="25">NOTICE  : When inspecting or repairing the SRS, perform service in accordance with the following precautionary instructions and the procedure, and precautions in the Repair Manual applicable for the model year.</text>
+	<text textID="26">Never use SRS parts from another vehicle. When replacing parts, replace with new parts.</text>
+	<text textID="27">No. 9 Junction Connector</text>
+	<text textID="28">No. 9 Junction Connector , No. 21 Junction Connector</text>
+	<text textID="29">No. 10 Junction Connector</text>
+	<text textID="30">No. 10 Junction Connector , No. 18 Junction Connector</text>
+	<text textID="31">No. 11 Junction Connector</text>
+	<text textID="32">No. 11 Junction Connector , No. 21 Junction Connector</text>
+	<text textID="33">No. 17 Junction Connector</text>
+	<text textID="34">No. 18 Junction Connector</text>
+	<text textID="35">No. 21 Junction Connector</text>
+	<text textID="36">Spiral Cable Sub-Assembly</text>
+	<text textID="37">Spiral Cable Sub-Assembly , Driver Side Squib Circuit</text>
+	<text textID="38">To avoid erasing the memory in each system, never use a back-up power supply from outside the vehicle.</text>
+	<text textID="39">Use a volt/ohmmeter with high impedance (10 kΩ/V minimum) for troubleshooting electrical circuits of the system.</text>
+	<text textID="40">When the negative (-) terminal cable is disconnected from the battery, the memory of the clock and audio system will be cleared. So before starting work, make a record of the contents in the audio memory system.</text>
+	<text textID="41">When work is finished, reset the audio systems as they were before and adjust the clock. Some vehicles have power tilt steering, power telescopic steering, power seat and power outside rear view mirror which are all equipped with memory function.</text>
+	<text textID="42">Work must be started more than 90 seconds after the ignition or starter switch assembly is turned to the "LOCK" position and the negative (-) terminal cable is disconnected from the battery.</text>
+</texts>

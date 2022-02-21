@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25T2E" style="font-size:6px;font-family:'Arial'" ver="2.1.2.9">
+	<text textID="1">Battery (Main)</text>
+	<text textID="2">DIM Relay</text>
+	<text textID="3">EFI MAIN Relay</text>
+	<text textID="4">H-LP Relay</text>
+	<text textID="5">HTR Relay</text>
+	<text textID="6">IG1 1 Relay</text>
+	<text textID="7">IG1 2 Relay</text>
+	<text textID="8">Ignition or Starter Switch Assembly</text>
+	<text textID="9">Stop Light Switch Assembly</text>
+	<text textID="10">TAIL Relay</text>
+</texts>

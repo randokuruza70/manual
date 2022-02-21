@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE AreaList SYSTEM "../dtd/area.dtd">
+<AreaList xml:lang="en" ver="2.1.2.9">
+	<Area no="10" code="EG">Engine Compartment</Area>
+	<Area no="20" code="INPANE">Instrument Panel</Area>
+	<Area no="30" code="BODY">Body</Area>
+	<Area no="40" code="SEAT">Seat</Area>
+	<Area no="50" code="LUGGAGE">Luggage Room</Area>
+	<Area no="60" code="HVB">Hybrid Vehicle Battery</Area>
+	<Area no="70" code="ANTENNA">Antenna</Area>
+</AreaList>

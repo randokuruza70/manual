@@ -1,0 +1,417 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">Engine / Hybrid System</span>
+<span class="globalSection">_029760</span>
+<span class="globalSectionName">1VD-FTV ENGINE CONTROL</span>
+<span class="globalTitle">_0309414</span>
+<span class="globalTitleName">ECD SYSTEM(w/o EGR System)</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>1VD-FTV ENGINE CONTROL&nbsp;&nbsp;ECD SYSTEM(w/o EGR System)&nbsp;&nbsp;P0116&nbsp;&nbsp;Engine Coolant Temperature Circuit Range / Performance Problem&nbsp;&nbsp;</h1>
+<br>
+<div id="RM10000000136KN_01" class="category no03">
+<h2>DESCRIPTION</h2>
+<div class="content5">
+<p>A thermistor is built into the Engine Coolant Temperature (ECT) sensor and it changes its resistance value according to the engine coolant temperature.
+</p>
+<p>The structure of the sensor and connection to the ECM is the same as the intake air temperature sensor.
+</p>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:20%">
+<col style="width:29%">
+<col style="width:20%">
+<col style="width:10%">
+<col style="width:9%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC No.
+</th>
+<th class="alcenter">Detection Item
+</th>
+<th class="alcenter">DTC Detection Condition
+</th>
+<th class="alcenter">Trouble Area
+</th>
+<th class="alcenter">MIL
+</th>
+<th class="alcenter">Memory
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">P0116
+</td>
+<td class="alleft">Engine Coolant Temperature Circuit Range / Performance Problem
+</td>
+<td class="alleft">When one of the following conditions is met:
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the engine coolant temperature was between -40°C (-40°F) and 60°C (140°F) at engine start, and condition (a) and (b) are met:
+</p>
+<p>(2 trip detection logic)
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">1.</div>
+<div class="list2Body"><p>Vehicle is driven at varying speeds (accelerating and decelerating)
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">2.</div>
+<div class="list2Body"><p>Engine coolant temperature remains within 3°C (5.4°F) of the engine starting temperature
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the engine coolant temperature was more than 60°C (140°F) at engine start, and conditions (a) and (b) are met:
+</p>
+<p>(6 trip detection logic)
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">1.</div>
+<div class="list2Body"><p>Vehicle is driven at varying speeds (accelerating and decelerating)
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">2.</div>
+<div class="list2Body"><p>Engine coolant temperature remains within 1°C (1.8°F) of the engine starting temperature, and this is successively recorded 6 times
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Thermostat
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Engine coolant temperature sensor
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">Comes on
+</td>
+<td class="alleft">DTC stored
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM10000000136KN_02" class="category no03">
+<h2>MONITOR DESCRIPTION</h2>
+<div class="content5">
+<p>The engine coolant temperature sensor is used to monitor the engine coolant temperature. The engine coolant temperature sensor has a thermistor that varies its resistance depending on the temperature of the engine coolant. When the coolant temperature is low, the resistance of the thermistor increases. When the temperature is high, the resistance drops. The variations in resistance are reflected in the voltage output from the sensor. The ECM monitors the sensor voltage and uses this value to calculate the engine coolant temperature. When the sensor's voltage output varies slightly, the ECM interprets this as a fault in the engine coolant temperature sensor and sets a DTC.
+</p>
+<p>Examples:
+</p>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Upon starting the engine, the engine coolant temperature was between -40°C (-40°F) and 60°C (140°F). If after driving for a few minutes, the engine coolant temperature still remains within 3°C (5.4°F) of the starting temperature, a DTC will be set (2 trip detection logic).
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>Upon starting the engine, the engine coolant temperature was over 60°C (140°F). If after driving for a few minutes, the engine coolant temperature still remains within 1°C (1.8°F) of the starting temperature, a DTC will be set (6 trip detection logic).
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM10000000136KN_03" class="category no10">
+<h2>CAUTION / NOTICE / HINT</h2>
+<div class="content5">
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If DTCs P0115, P0117 and P0118 are output simultaneously, the engine coolant temperature sensor circuit may have an open or short. Perform troubleshooting for these DTCs first.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Read freeze frame data using the GTS. Freeze frame data records the engine condition when malfunctions are detected. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, and other data from the time the malfunction occurred.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM10000000136KN_05" class="category no01">
+<h2>PROCEDURE</h2>
+<div class="testgrp" id="RM10000000136KN_05_0001">
+<div class="testtitle"><span class="titleText">1.CHECK ANY OTHER DTCS OUTPUT (IN ADDITION TO DTC P0116)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Turn the ignition switch ON and turn the GTS ON.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Enter the following menus: Powertrain / Engine and ECT / Trouble Codes.
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Powertrain &gt; Engine and ECT &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">61</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Read DTCs.
+</p>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM10000000136KN_05_0001_1" summary="">
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Display (DTC Output)
+</th>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">P0116 is output
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">P0116 and other DTCs are output
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">2.INSPECT THERMOSTAT</span></div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">GO TO DTC CHART</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV ENGINE CONTROL&gt;ECD SYSTEM(w/o EGR System)&gt;DIAGNOSTIC TROUBLE CODE CHART<span class="invisible">201701,999999,_51,_029760,_0309414,RM10000000136KI,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM10000000136KN_05_0002">
+<div class="testtitle"><span class="titleText">2.INSPECT THERMOSTAT</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Remove the thermostat.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV COOLING&gt;THERMOSTAT&gt;REMOVAL<span class="invisible">201408,999999,_51,_029897,_0136550,RM100000000FNX0,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Check the valve opening temperature of the thermostat.
+</p>
+<dl class="spec">
+<dt class="spec">Standard valve opening temperature:</dt>
+<dd class="spec"><p>80 to 84°C (176 to 183°F)
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>In addition to the above check, confirm that the valve is completely closed when the temperature is below the standard.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Reinstall the thermostat.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV COOLING&gt;THERMOSTAT&gt;INSTALLATION<span class="invisible">201408,999999,_51,_029897,_0136550,RM100000000FNWY,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM10000000136KN_05_0002_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">Proceed to
+</td>
+</tr>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>OK
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPLACE ENGINE COOLANT TEMPERATURE SENSOR</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV ENGINE CONTROL&gt;ENGINE COOLANT TEMPERATURE SENSOR&gt;REMOVAL<span class="invisible">201408,999999,_51,_029760,_0135356,RM100000000FJIF,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPLACE THERMOSTAT</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV COOLING&gt;THERMOSTAT&gt;REMOVAL<span class="invisible">201408,999999,_51,_029897,_0136550,RM100000000FNX0,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

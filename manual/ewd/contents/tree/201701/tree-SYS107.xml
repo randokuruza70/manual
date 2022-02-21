@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS107" code="I76" type="conn" figID="5">
+    <name>Fuse Block Assembly</name>
+  </text>
+  <text ewd="SYS107" code="L21" type="conn" figID="4">
+    <name>Ignition or Starter Switch Assembly</name>
+  </text>
+  <text ewd="SYS107" code="I61" type="conn" figID="2">
+    <name>No. 11 Junction Connector</name>
+  </text>
+  <text ewd="SYS107" code="I93" type="conn" figID="6">
+    <name>No. 5 Junction Connector</name>
+  </text>
+  <text ewd="SYS107" code="I10" type="conn" figID="3">
+    <name>Option Connector (Power Outlet Socket)</name>
+  </text>
+  <text ewd="SYS107" code="FUSE58,FUSE60,FUSE59" type="fuse" figID="33">
+    <name>10A ACC,20A +B,10A IG</name>
+  </text>
+  <text ewd="SYS107" code="FUSE35" type="fuse" figID="32">
+    <name>30A AM1</name>
+  </text>
+  <text ewd="SYS107" code="FUSE36" type="fuse" figID="31">
+    <name>50A ALT MAIN</name>
+  </text>
+  <text ewd="SYS107" code="FUSE37" type="fuse" figID="30">
+    <name>50A AM1 NO.2</name>
+  </text>
+  <text ewd="SYS107" code="FUSE1" type="fuse" figID="29">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS107" code="IA" type="gp" figID="20">
+    <name />
+  </text>
+  <text ewd="SYS107" code="IE" type="gp" figID="22">
+    <name />
+  </text>
+  <text ewd="SYS107" code="IG" type="gp" figID="21">
+    <name />
+  </text>
+  <text ewd="SYS107" code="3" type="jb" figID="8">
+    <name />
+  </text>
+  <text ewd="SYS107" code="FUSE1" type="rb" figID="1">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS107" code="SP54" type="sp" figID="27">
+    <name />
+  </text>
+  <text ewd="SYS107" code="SP55" type="sp" figID="25">
+    <name />
+  </text>
+  <text ewd="SYS107" code="SP57" type="sp" figID="26">
+    <name />
+  </text>
+  <text ewd="SYS107" code="SP72" type="sp" figID="24">
+    <name />
+  </text>
+  <text ewd="SYS107" code="SP76" type="sp" figID="28">
+    <name />
+  </text>
+  <text ewd="SYS107" code="SP79" type="sp" figID="23">
+    <name />
+  </text>
+  <text ewd="SYS107" code="IL3" type="w2w" figID="12,18,19">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS107" code="AI1" type="w2w" figID="10,11">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS107" code="AI2" type="w2w" figID="15,16">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS107" code="AI3" type="w2w" figID="13,14">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS107" code="AI4" type="w2w" figID="9">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS107" code="AI7" type="w2w" figID="17">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+</EwdTree>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <connector type="gp" code="LA" figID="5">
+    <pin>
+      <line id="1" color="W-B">
+        <connector type="sp" code="SP81" figID="6">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP81" figID="6">
+    <pin>
+      <line id="2" color="W-B">
+        <connector type="conn" code="L11" figID="1">
+          <pin no="1" spec="24V Battery Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP81" figID="6">
+    <pin>
+      <line id="2" color="W-B">
+        <connector type="conn" code="L12" figID="1">
+          <pin no="2" spec="12V Battery Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL1" sex="male" figID="4">
+    <pin no="4">
+      <line id="3" color="Y-B">
+        <connector type="conn" code="L11" figID="1">
+          <pin no="2" spec="24V Battery Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL1" sex="male" figID="4">
+    <pin no="4">
+      <line id="3" color="Y-B">
+        <connector type="conn" code="L12" figID="1">
+          <pin no="1" spec="12V Battery Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL1" sex="female" figID="4">
+    <pin no="4">
+      <line id="4" color="Y-B">
+        <connector type="rb" code="FUSE19" figID="2">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+</connectionList>

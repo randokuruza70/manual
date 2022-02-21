@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS077" code="L25,L26" type="conn" figID="9">
+    <name>Combination Meter Assembly</name>
+  </text>
+  <text ewd="SYS077" code="I23" type="conn" figID="17">
+    <name>Diode (Turn Signal Light LH)</name>
+  </text>
+  <text ewd="SYS077" code="I22" type="conn" figID="18">
+    <name>Diode (Turn Signal Light RH)</name>
+  </text>
+  <text ewd="SYS077" code="L14" type="conn" figID="3">
+    <name>Hazard Warning Signal Switch Assembly</name>
+  </text>
+  <text ewd="SYS077" code="A3" type="conn" figID="10">
+    <name>Headlight Assembly LH</name>
+  </text>
+  <text ewd="SYS077" code="I38" type="conn" figID="6">
+    <name>Headlight Assembly RH</name>
+  </text>
+  <text ewd="SYS077" code="L24" type="conn" figID="19">
+    <name>Headlight Dimmer Switch Assembly</name>
+  </text>
+  <text ewd="SYS077" code="A22" type="conn" figID="8">
+    <name>No. 1 Junction Connector</name>
+  </text>
+  <text ewd="SYS077" code="I59" type="conn" figID="16">
+    <name>No. 10 Junction Connector</name>
+  </text>
+  <text ewd="SYS077" code="I108,I109" type="conn" figID="1">
+    <name>No. 13 Junction Connector</name>
+  </text>
+  <text ewd="SYS077" code="L53" type="conn" figID="20">
+    <name>No. 31 Junction Connector</name>
+  </text>
+  <text ewd="SYS077" code="I105" type="conn" figID="4">
+    <name>No. 8 Junction Connector</name>
+  </text>
+  <text ewd="SYS077" code="T5" type="conn" figID="2">
+    <name>Rear Combination Light Assembly LH</name>
+  </text>
+  <text ewd="SYS077" code="T17" type="conn" figID="5">
+    <name>Rear Combination Light Assembly LH</name>
+  </text>
+  <text ewd="SYS077" code="T1" type="conn" figID="11">
+    <name>Rear Combination Light Assembly RH</name>
+  </text>
+  <text ewd="SYS077" code="T14" type="conn" figID="12">
+    <name>Rear Combination Light Assembly RH</name>
+  </text>
+  <text ewd="SYS077" code="I29" type="conn" figID="21">
+    <name>Turn Signal Flasher Assembly</name>
+  </text>
+  <text ewd="SYS077" code="FUSE23" type="fuse" figID="69">
+    <name>15A GAUGE</name>
+  </text>
+  <text ewd="SYS077" code="FUSE51" type="fuse" figID="68">
+    <name>15A TURN&amp;HAZ</name>
+  </text>
+  <text ewd="SYS077" code="AA" type="gp" figID="43">
+    <name />
+  </text>
+  <text ewd="SYS077" code="CC" type="gp" figID="44">
+    <name />
+  </text>
+  <text ewd="SYS077" code="IC" type="gp" figID="50">
+    <name />
+  </text>
+  <text ewd="SYS077" code="IE" type="gp" figID="45">
+    <name />
+  </text>
+  <text ewd="SYS077" code="LA" type="gp" figID="52">
+    <name />
+  </text>
+  <text ewd="SYS077" code="LB" type="gp" figID="49,51">
+    <name />
+  </text>
+  <text ewd="SYS077" code="TA" type="gp" figID="48">
+    <name />
+  </text>
+  <text ewd="SYS077" code="TB" type="gp" figID="46">
+    <name />
+  </text>
+  <text ewd="SYS077" code="TC" type="gp" figID="47">
+    <name />
+  </text>
+  <text ewd="SYS077" code="2" type="rb" figID="14,15">
+    <name />
+  </text>
+  <text ewd="SYS077" code="FUSE23" type="rb" figID="13">
+    <name>15A GAUGE</name>
+  </text>
+  <text ewd="SYS077" code="FUSE51" type="rb" figID="7">
+    <name>15A TURN&amp;HAZ</name>
+  </text>
+  <text ewd="SYS077" code="SP19" type="sp" figID="54">
+    <name />
+  </text>
+  <text ewd="SYS077" code="SP48" type="sp" figID="53">
+    <name />
+  </text>
+  <text ewd="SYS077" code="SP53" type="sp" figID="56">
+    <name />
+  </text>
+  <text ewd="SYS077" code="SP62" type="sp" figID="65">
+    <name />
+  </text>
+  <text ewd="SYS077" code="SP63" type="sp" figID="64">
+    <name />
+  </text>
+  <text ewd="SYS077" code="SP64" type="sp" figID="55">
+    <name />
+  </text>
+  <text ewd="SYS077" code="SP66" type="sp" figID="66">
+    <name />
+  </text>
+  <text ewd="SYS077" code="SP82" type="sp" figID="67">
+    <name />
+  </text>
+  <text ewd="SYS077" code="SP106" type="sp" figID="57,62">
+    <name />
+  </text>
+  <text ewd="SYS077" code="SP107" type="sp" figID="60">
+    <name />
+  </text>
+  <text ewd="SYS077" code="SP111" type="sp" figID="59,63">
+    <name />
+  </text>
+  <text ewd="SYS077" code="SP112" type="sp" figID="58,61">
+    <name />
+  </text>
+  <text ewd="SYS077" code="IS3" type="w2w" figID="34,36">
+    <name>Cowl Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS077" code="IL1" type="w2w" figID="42">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS077" code="IL6" type="w2w" figID="31">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS077" code="AI3" type="w2w" figID="26,27,30">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS077" code="AC1" type="w2w" figID="29">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS077" code="ST2" type="w2w" figID="33,35">
+    <name>Floor Wire and No. 2 Floor Wire</name>
+  </text>
+  <text ewd="SYS077" code="LI1" type="w2w" figID="28,32,39,40,41">
+    <name>Instrument Panel Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS077" code="TS2" type="w2w" figID="37,38">
+    <name>No. 2 Floor Wire and Floor Wire</name>
+  </text>
+</EwdTree>

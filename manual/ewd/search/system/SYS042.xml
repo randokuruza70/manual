@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS042">
+    <part type="conn" code="L25">
+      <text>FOG ES</text>
+      <name>Combination Meter Assembly</name>
+      <name type="inner">Front Fog</name>
+    </part>
+    <part type="conn" code="J2">
+      <name>Fog Light Assembly LH</name>
+    </part>
+    <part type="conn" code="J1">
+      <name>Fog Light Assembly RH</name>
+    </part>
+    <part type="conn" code="L24">
+      <text>T EL BFG B LFG OFF H</text>
+      <name>Headlight Dimmer Switch Assembly</name>
+      <name type="inner">Rear</name>
+      <name type="inner">Front</name>
+      <name type="inner">Fog Light Switch</name>
+      <name type="inner">Head</name>
+      <name type="inner">Tail</name>
+      <name type="inner">Light Control Switch</name>
+    </part>
+    <part type="conn" code="L39">
+      <name>No. 31 Junction Connector</name>
+    </part>
+    <part type="conn" code="I58">
+      <name>No. 9 Junction Connector</name>
+    </part>
+    <part type="fuse" code="FUSE21">
+      <text>FR FOG</text>
+    </part>
+    <part type="fuse" code="FUSE57">
+      <text>MAIN1</text>
+    </part>
+    <part type="fuse" code="FUSE18">
+      <text>TAIL</text>
+    </part>
+  </ttl>
+</EWDSearch>

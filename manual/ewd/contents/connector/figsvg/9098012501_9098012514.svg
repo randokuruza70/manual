@@ -1,0 +1,596 @@
+﻿<?xml version="1.0"?>
+<!-- Generator: Adobe Illustrator 10.0, SVG Export Plug-In . SVG Version: 3.0.0 Build 77)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "fill:none;">
+	<!ENTITY st1 "stroke:#000000;">
+	<!ENTITY st2 "stroke-linecap:round;">
+	<!ENTITY st3 "stroke-linejoin:round;">
+	<!ENTITY st4 "stroke-width:0.6;">
+	<!ENTITY st5 "font-size:6px;">
+	<!ENTITY st6 "font-family:'Arial';">
+	<!ENTITY st7 "stroke-width:1.4;">
+	<!ATTLIST svg
+		ewd:ver CDATA #IMPLIED
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/">
+	<!ATTLIST g
+		ewd:pinNo CDATA #IMPLIED>
+]>
+<svg width="566.762" height="111.53" viewBox="0 0 566.762 111.53" style="overflow:visible;enable-background:new 0 0 275.08 74.694" xml:space="preserve" onload="call_execInitLoadProc_svg('connector')" ewd:ver="2.1.2.9" xmlns="&ns_svg;" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:xlink="&ns_xlink;">
+<script type="text/javascript" xlink:href="../../../../../system/js/ewd/fig/svgfig.js"/>
+<g id="レイヤー_1" transform="translate(0,17.008)">
+	<path style="&st0;&st1;&st2;&st3;" d="M247.219,74.194c1.863,0,3.453-0.742,4.65-2.168"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M215.103,0.5c-0.838,0-1.554,0.297-2.146,0.891"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M251.868,2.667c-1.196-1.425-2.787-2.166-4.648-2.166"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M212.956,73.305c0.593,0.593,1.309,0.89,2.147,0.89"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M0.5,68.908c0,0.838,0.68,1.519,1.519,1.519"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M2.019,5.027C1.18,5.027,0.5,5.707,0.5,6.545"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M12.489,6.545c0-0.838-0.68-1.518-1.519-1.518"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M268.508,58.599c0-0.91-0.353-1.686-1.038-2.285"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M189.046,65.112v-7.586h57.003v9.711"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M215.103,0.5h32.116"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M204.769,9.58h37.535"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M204.769,65.112h41.28"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M215.103,74.194h32.116"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M204.769,9.58l8.187-8.19"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M153.373,62.987v-3.034H92.871v3.034H153.373"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M147.101,15.65v-3.034H92.871v3.034H147.101"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M151.35,9.58H90.038"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M83.967,23.789v-2.428"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M37.984,9.58V2.144h13.66V9.58"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M83.967,23.789v24.283h6.071v17.04"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M83.967,15.65H81.54V9.58"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M90.038,9.58v6.071h-6.071"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M204.769,65.112l8.187,8.192"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M251.868,2.667l7.049,8.403"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M251.868,72.024l7.049-8.399"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M51.645,65.112h-13.66"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M258.917,62.685h-9.228v4.552h-3.64"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M247.749,57.829v2.428h17.117v-2.428H247.749"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M251.106,34.109v6.476h14.975v-6.476H251.106"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M244.004,16.866v-2.428h20.861v2.428H244.004"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M251.106,19.293v12.388h10.119V19.293H251.106"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M37.984,65.112v7.436h13.66v-7.436"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M158.633,12.616v3.034h28.431v-3.034H158.633"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M81.54,9.58h-9.105"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M189.046,9.58v7.589h53.258V7.455"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M167.335,62.987v-6.878h19.728v6.878H167.335"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M156.205,9.58v6.071h-4.855"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M253.939,55.401V43.013h7.286v12.388H253.939"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M72.435,9.58h-20.79"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M37.984,65.112H15.525"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M151.35,15.65V9.58"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M151.35,15.65v32.422h4.855v17.04"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M15.525,65.112v-6.374"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M258.917,12.01h-12.97V7.455h-3.643"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M3.534,49.234v21.19"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M77.29,51.712V21.361H11.729v30.351H77.29"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M77.29,36.537H11.729"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M22.656,21.361v30.351"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M61.961,62.987v-3.034H18.56v3.034H61.961"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M83.967,15.65v5.711"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M9.604,70.424H2.019"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M9.604,58.738v11.686"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M37.984,9.58H12.489"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M64.999,65.112h7.436"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M81.54,9.58h8.499"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M90.038,58.738h-25.04"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M77.896,15.65v-3.034H6.571v3.034H77.896"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M3.534,26.673V5.027"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M10.97,5.027H2.019"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M12.489,9.58V6.545"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M9.604,9.58V5.027"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M15.525,58.738H9.604"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M12.489,9.58H9.604"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M64.999,65.112H51.645"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M72.435,9.58V6.545h6.071L81.54,9.58"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M64.999,65.112v-6.374"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M51.645,9.58h-13.66"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M72.435,65.112v3.037h6.071l3.034-3.037"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M81.54,65.112h8.499"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M72.435,65.112h9.105"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M151.35,9.58h53.419"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M156.205,65.112h48.564"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M33.585,21.361v30.351"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M44.511,21.361v30.351"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M55.438,51.712V21.361"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M66.364,51.712V21.361"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M6.571,34.262H3.534v7.385h3.037"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M0.5,68.908V49.234h6.071v-7.586"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M6.571,34.262v-7.589H0.5V6.545"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M265.474,12.01V0.5h-6.558v11.51"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M263.653,30.77v-9.048l4.855-4.25V12.01"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M265.474,12.01h9.105v20.277h-6.071"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M271.545,32.288V12.01"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M268.508,62.685v11.51h-9.592v-11.51"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M268.508,62.685h6.071V42.407h-6.071"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M271.545,42.407v20.278"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M263.653,30.77h4.855v1.518"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M268.508,32.288v10.119"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M268.508,42.407v1.516h-4.855"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M145.582,65.112v7.563h10.623v-7.563"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M90.038,65.112h55.544"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M263.653,43.922v9.051l3.819,3.34"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M268.508,58.599v4.085"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M94.59,30.619h50.992"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M137.083,51.866v-31.87"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M128.585,51.866v-31.87"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M120.086,51.866v-31.87"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M111.588,51.866v-31.87"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M103.089,51.866v-31.87"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M94.59,19.996v31.87h50.992v-31.87H94.59"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M94.59,41.242h50.992"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M187.063,51.866v-31.87"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M161.568,19.996v31.87h84.985v-31.87H161.568"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M204.061,51.866v-31.87"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M195.562,51.866v-31.87"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M161.568,30.619h84.985"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M178.565,51.866v-31.87"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M170.066,51.866v-31.87"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M161.568,41.242h84.985"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M212.559,51.866v-31.87"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M221.058,51.866v-31.87"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M229.557,51.866v-31.87"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M238.055,51.866v-31.87"/>
+	<g ewd:pinNo="47">
+		<text transform="matrix(1 0 0 1 112.52 48.6992)"><tspan x="0" y="0" style="&st6; &st5;">47</tspan></text>
+	</g>
+	<g ewd:pinNo="9">
+		<text transform="matrix(1 0 0 1 114.2554 27.4526)"><tspan x="0" y="0" style="&st6; &st5;">9</tspan></text>
+	</g>
+	<g ewd:pinNo="8">
+		<text transform="matrix(1 0 0 1 105.7568 27.4526)"><tspan x="0" y="0" style="&st6; &st5;">8</tspan></text>
+	</g>
+	<g ewd:pinNo="46">
+		<text transform="matrix(1 0 0 1 104.0215 48.6992)"><tspan x="0" y="0" style="&st6; &st5;">46</tspan></text>
+	</g>
+	<g ewd:pinNo="7">
+		<text transform="matrix(1 0 0 1 97.2583 27.4526)"><tspan x="0" y="0" style="&st6; &st5;">7</tspan></text>
+	</g>
+	<g ewd:pinNo="45">
+		<text transform="matrix(1 0 0 1 95.5229 48.6992)"><tspan x="0" y="0" style="&st6; &st5;">45</tspan></text>
+	</g>
+	<g ewd:pinNo="42">
+		<text transform="matrix(1 0 0 1 46.6563 46.2715)"><tspan x="0" y="0" style="&st6; &st5;">42</tspan></text>
+	</g>
+	<g ewd:pinNo="41">
+		<text transform="matrix(1 0 0 1 35.4268 46.2715)"><tspan x="0" y="0" style="&st6; &st5;">41</tspan></text>
+	</g>
+	<g ewd:pinNo="40">
+		<text transform="matrix(1 0 0 1 24.5005 46.2715)"><tspan x="0" y="0" style="&st6; &st5;">40</tspan></text>
+	</g>
+	<g ewd:pinNo="1">
+		<text transform="matrix(1 0 0 1 15.3091 31.0957)"><tspan x="0" y="0" style="&st6; &st5;">1</tspan></text>
+	</g>
+	<g ewd:pinNo="39">
+		<text transform="matrix(1 0 0 1 13.5742 46.2715)"><tspan x="0" y="0" style="&st6; &st5;">39</tspan></text>
+	</g>
+	<g ewd:pinNo="4">
+		<text transform="matrix(1 0 0 1 48.3911 31.0957)"><tspan x="0" y="0" style="&st6; &st5;">4</tspan></text>
+	</g>
+	<g ewd:pinNo="3">
+		<text transform="matrix(1 0 0 1 37.1616 31.0957)"><tspan x="0" y="0" style="&st6; &st5;">3</tspan></text>
+	</g>
+	<g ewd:pinNo="2">
+		<text transform="matrix(1 0 0 1 26.2354 31.0957)"><tspan x="0" y="0" style="&st6; &st5;">2</tspan></text>
+	</g>
+	<g ewd:pinNo="43">
+		<text transform="matrix(1 0 0 1 57.5825 46.2715)"><tspan x="0" y="0" style="&st6; &st5;">43</tspan></text>
+	</g>
+	<g ewd:pinNo="5">
+		<text transform="matrix(1 0 0 1 59.3174 31.0957)"><tspan x="0" y="0" style="&st6; &st5;">5</tspan></text>
+	</g>
+	<g ewd:pinNo="44">
+		<text transform="matrix(1 0 0 1 68.5117 46.2715)"><tspan x="0" y="0" style="&st6; &st5;">44</tspan></text>
+	</g>
+	<g ewd:pinNo="6">
+		<text transform="matrix(1 0 0 1 70.2466 31.0957)"><tspan x="0" y="0" style="&st6; &st5;">6</tspan></text>
+	</g>
+	<g ewd:pinNo="48">
+		<text transform="matrix(1 0 0 1 121.0186 48.6992)"><tspan x="0" y="0" style="&st6; &st5;">48</tspan></text>
+	</g>
+	<g ewd:pinNo="10">
+		<text transform="matrix(1 0 0 1 120.6816 27.4526)"><tspan x="0" y="0" style="&st6; &st5;">10</tspan></text>
+	</g>
+	<g ewd:pinNo="11">
+		<text transform="matrix(1 0 0 1 129.4033 27.4526)"><tspan x="0" y="0" style="&st6; &st5;">11</tspan></text>
+	</g>
+	<g ewd:pinNo="49">
+		<text transform="matrix(1 0 0 1 129.5176 48.6992)"><tspan x="0" y="0" style="&st6; &st5;">49</tspan></text>
+	</g>
+	<g ewd:pinNo="12">
+		<text transform="matrix(1 0 0 1 137.6792 27.4526)"><tspan x="0" y="0" style="&st6; &st5;">12</tspan></text>
+	</g>
+	<g ewd:pinNo="50">
+		<text transform="matrix(1 0 0 1 138.0161 48.6992)"><tspan x="0" y="0" style="&st6; &st5;">50</tspan></text>
+	</g>
+	<g ewd:pinNo="25">
+		<text transform="matrix(1 0 0 1 112.52 38.0757)"><tspan x="0" y="0" style="&st6; &st5;">25</tspan></text>
+	</g>
+	<g ewd:pinNo="24">
+		<text transform="matrix(1 0 0 1 104.0215 38.0757)"><tspan x="0" y="0" style="&st6; &st5;">24</tspan></text>
+	</g>
+	<g ewd:pinNo="23">
+		<text transform="matrix(1 0 0 1 95.5229 38.0757)"><tspan x="0" y="0" style="&st6; &st5;">23</tspan></text>
+	</g>
+	<g ewd:pinNo="26">
+		<text transform="matrix(1 0 0 1 121.0186 38.0757)"><tspan x="0" y="0" style="&st6; &st5;">26</tspan></text>
+	</g>
+	<g ewd:pinNo="27">
+		<text transform="matrix(1 0 0 1 129.5176 38.0757)"><tspan x="0" y="0" style="&st6; &st5;">27</tspan></text>
+	</g>
+	<g ewd:pinNo="28">
+		<text transform="matrix(1 0 0 1 138.0161 38.0757)"><tspan x="0" y="0" style="&st6; &st5;">28</tspan></text>
+	</g>
+	<g ewd:pinNo="53">
+		<text transform="matrix(1 0 0 1 179.4976 48.6992)"><tspan x="0" y="0" style="&st6; &st5;">53</tspan></text>
+	</g>
+	<g ewd:pinNo="15">
+		<text transform="matrix(1 0 0 1 179.1606 27.4526)"><tspan x="0" y="0" style="&st6; &st5;">15</tspan></text>
+	</g>
+	<g ewd:pinNo="14">
+		<text transform="matrix(1 0 0 1 170.6621 27.4526)"><tspan x="0" y="0" style="&st6; &st5;">14</tspan></text>
+	</g>
+	<g ewd:pinNo="52">
+		<text transform="matrix(1 0 0 1 170.999 48.6992)"><tspan x="0" y="0" style="&st6; &st5;">52</tspan></text>
+	</g>
+	<g ewd:pinNo="13">
+		<text transform="matrix(1 0 0 1 162.1636 27.4526)"><tspan x="0" y="0" style="&st6; &st5;">13</tspan></text>
+	</g>
+	<g ewd:pinNo="51">
+		<text transform="matrix(1 0 0 1 162.5005 48.6992)"><tspan x="0" y="0" style="&st6; &st5;">51</tspan></text>
+	</g>
+	<g ewd:pinNo="16">
+		<text transform="matrix(1 0 0 1 187.6592 27.4526)"><tspan x="0" y="0" style="&st6; &st5;">16</tspan></text>
+	</g>
+	<g ewd:pinNo="17">
+		<text transform="matrix(1 0 0 1 196.1577 27.4526)"><tspan x="0" y="0" style="&st6; &st5;">17</tspan></text>
+	</g>
+	<g ewd:pinNo="54">
+		<text transform="matrix(1 0 0 1 187.9961 48.6992)"><tspan x="0" y="0" style="&st6; &st5;">54</tspan></text>
+	</g>
+	<g ewd:pinNo="55">
+		<text transform="matrix(1 0 0 1 196.4946 48.6992)"><tspan x="0" y="0" style="&st6; &st5;">55</tspan></text>
+	</g>
+	<g ewd:pinNo="18">
+		<text transform="matrix(1 0 0 1 204.6563 27.4526)"><tspan x="0" y="0" style="&st6; &st5;">18</tspan></text>
+	</g>
+	<g ewd:pinNo="56">
+		<text transform="matrix(1 0 0 1 204.9932 48.6992)"><tspan x="0" y="0" style="&st6; &st5;">56</tspan></text>
+	</g>
+	<g ewd:pinNo="31">
+		<text transform="matrix(1 0 0 1 179.4976 38.0757)"><tspan x="0" y="0" style="&st6; &st5;">31</tspan></text>
+	</g>
+	<g ewd:pinNo="30">
+		<text transform="matrix(1 0 0 1 170.999 38.0757)"><tspan x="0" y="0" style="&st6; &st5;">30</tspan></text>
+	</g>
+	<g ewd:pinNo="29">
+		<text transform="matrix(1 0 0 1 162.5005 38.0757)"><tspan x="0" y="0" style="&st6; &st5;">29</tspan></text>
+	</g>
+	<g ewd:pinNo="32">
+		<text transform="matrix(1 0 0 1 187.9961 38.0757)"><tspan x="0" y="0" style="&st6; &st5;">32</tspan></text>
+	</g>
+	<g ewd:pinNo="33">
+		<text transform="matrix(1 0 0 1 196.4946 38.0757)"><tspan x="0" y="0" style="&st6; &st5;">33</tspan></text>
+	</g>
+	<g ewd:pinNo="34">
+		<text transform="matrix(1 0 0 1 204.9932 38.0757)"><tspan x="0" y="0" style="&st6; &st5;">34</tspan></text>
+	</g>
+	<g ewd:pinNo="57">
+		<text transform="matrix(1 0 0 1 213.4917 48.6992)"><tspan x="0" y="0" style="&st6; &st5;">57</tspan></text>
+	</g>
+	<g ewd:pinNo="19">
+		<text transform="matrix(1 0 0 1 213.1548 27.4526)"><tspan x="0" y="0" style="&st6; &st5;">19</tspan></text>
+	</g>
+	<g ewd:pinNo="35">
+		<text transform="matrix(1 0 0 1 213.4917 38.0757)"><tspan x="0" y="0" style="&st6; &st5;">35</tspan></text>
+	</g>
+	<g ewd:pinNo="58">
+		<text transform="matrix(1 0 0 1 221.9902 48.6992)"><tspan x="0" y="0" style="&st6; &st5;">58</tspan></text>
+	</g>
+	<g ewd:pinNo="20">
+		<text transform="matrix(1 0 0 1 221.9902 27.4526)"><tspan x="0" y="0" style="&st6; &st5;">20</tspan></text>
+	</g>
+	<g ewd:pinNo="36">
+		<text transform="matrix(1 0 0 1 221.9902 38.0757)"><tspan x="0" y="0" style="&st6; &st5;">36</tspan></text>
+	</g>
+	<g ewd:pinNo="59">
+		<text transform="matrix(1 0 0 1 230.4888 48.6992)"><tspan x="0" y="0" style="&st6; &st5;">59</tspan></text>
+	</g>
+	<g ewd:pinNo="21">
+		<text transform="matrix(1 0 0 1 230.4888 27.4526)"><tspan x="0" y="0" style="&st6; &st5;">21</tspan></text>
+	</g>
+	<g ewd:pinNo="37">
+		<text transform="matrix(1 0 0 1 230.4888 38.0757)"><tspan x="0" y="0" style="&st6; &st5;">37</tspan></text>
+	</g>
+	<g ewd:pinNo="60">
+		<text transform="matrix(1 0 0 1 238.9878 48.6992)"><tspan x="0" y="0" style="&st6; &st5;">60</tspan></text>
+	</g>
+	<g ewd:pinNo="22">
+		<text transform="matrix(1 0 0 1 238.9878 27.4526)"><tspan x="0" y="0" style="&st6; &st5;">22</tspan></text>
+	</g>
+	<g ewd:pinNo="38">
+		<text transform="matrix(1 0 0 1 238.9878 38.0757)"><tspan x="0" y="0" style="&st6; &st5;">38</tspan></text>
+	</g>
+</g>
+<g id="レイヤー_1" transform="translate(294.921,17.008)">
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M53.219,16.97c-0.592-0.593-1.309-0.89-2.147-0.89"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M51.072,89.775c0.838,0,1.554-0.296,2.147-0.889"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M264.157,86.004c0.837,0,1.516-0.678,1.516-1.516"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M265.675,22.126c0-0.839-0.68-1.519-1.519-1.519"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M255.206,20.608c-0.839,0-1.519,0.68-1.519,1.519"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M271.341,17.498c0-3.129-2.536-5.666-5.666-5.666"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M265.675,94.024c3.13,0,5.666-2.537,5.666-5.666"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M0.5,88.358c0,3.129,2.537,5.666,5.666,5.666"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M6.166,11.832c-3.129,0-5.666,2.537-5.666,5.666"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M51.072,16.081H15.758"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M61.406,25.16H15.758"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M61.406,80.693H15.758"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M51.072,89.775H15.758"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M61.406,25.16l-8.187-8.19"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M114.826,25.16h61.312"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M182.208,39.37v-2.428"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M228.191,25.16v-7.436h-13.657v7.436"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M182.208,39.37v24.283h-6.071v17.04"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M182.208,31.231h2.428V25.16"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M176.137,25.16v6.071h6.071"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M61.406,80.693l-8.187,8.192"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M214.534,80.693h13.657"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M11.021,59.503v9.051"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M228.191,80.693v7.436h-13.657v-7.436"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M184.636,25.16h25.649"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M109.97,25.16v6.071h4.855"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M210.285,25.16h4.249"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M228.191,80.693h22.462"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M114.826,31.231V25.16"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M114.826,31.231v32.422h-4.855v17.04"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M250.653,80.693v-6.374"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M262.642,64.814v21.19"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M188.885,67.293V36.942h65.561v30.351H188.885"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M188.885,52.118h65.561"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M243.52,36.942v30.351"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M182.208,31.231v5.711"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M256.571,86.004h7.586"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M256.571,74.319v11.686"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M228.191,25.16h25.496"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M184.636,25.16h-8.499"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M262.642,42.254V20.608"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M255.206,20.608h8.951"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M253.687,25.16v-3.034"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M256.571,25.16v-4.552"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M250.653,74.319h5.918"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M253.687,25.16h2.884"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M210.285,80.693h4.249"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M214.534,25.16h13.657"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M184.636,80.693h-8.499"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M210.285,80.693h-25.649"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M114.826,25.16H61.406"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M109.97,80.693H61.406"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M232.593,36.942v30.351"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M221.664,36.942v30.351"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M210.738,67.293V36.942"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M199.812,67.293V36.942"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M259.605,49.843h3.037v7.385h-3.037"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M265.675,84.489V64.814h-6.07v-7.586"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M259.605,49.843v-7.589h6.07V22.126"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M120.593,80.693H109.97"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M176.137,80.693h-55.544"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M171.585,46.2h-50.992"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M129.092,67.446v-31.87"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M137.59,67.446v-31.87"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M146.089,67.446v-31.87"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M154.588,67.446v-31.87"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M163.086,67.446v-31.87"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M171.585,35.577v31.87h-50.992v-31.87H171.585"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M171.585,56.823h-50.992"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M79.112,67.446v-31.87"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M104.607,35.577v31.87H19.622v-31.87H104.607"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M62.115,67.446v-31.87"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M70.613,67.446v-31.87"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M104.607,46.2H19.622"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M87.61,67.446v-31.87"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M96.109,67.446v-31.87"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M104.607,56.823H19.622"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M53.616,67.446v-31.87"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M45.117,67.446v-31.87"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M36.619,67.446v-31.87"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M28.12,67.446v-31.87"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M15.758,80.693v10.499H6.166v-9.694h4.855V59.503H6.166V46.35h4.855V24.358H6.166v-9.694h9.592V25.16"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M184.636,80.693v3.037h25.649v-3.037"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M184.636,25.16v-3.034h25.649v3.034"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M0.5,17.498v70.861"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M271.341,17.498v70.861"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M6.166,94.024h259.51"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M96.109,11.832V0.5h86.099v11.332"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M113.106,0.5v7.083h52.105V0.5"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M133.491,11.832V7.583"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M144.823,11.832V7.583"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M6.166,11.832h89.943"/>
+	<path style="&st0;&st1;&st4;&st2;&st3;" d="M96.109,11.832h86.099"/>
+	<path style="&st0;&st1;&st2;&st3;" d="M182.208,11.832h83.467"/>
+	<g ewd:pinNo="47">
+		<text transform="matrix(1 0 0 1 147.0137 64.2681)"><tspan x="0" y="0" style="&st6; &st5;">47</tspan></text>
+	</g>
+	<g ewd:pinNo="9">
+		<text transform="matrix(1 0 0 1 148.6982 43.0215)"><tspan x="0" y="0" style="&st6; &st5;">9</tspan></text>
+	</g>
+	<g ewd:pinNo="8">
+		<text transform="matrix(1 0 0 1 157.1968 43.0215)"><tspan x="0" y="0" style="&st6; &st5;">8</tspan></text>
+	</g>
+	<g ewd:pinNo="46">
+		<text transform="matrix(1 0 0 1 155.5122 64.2681)"><tspan x="0" y="0" style="&st6; &st5;">46</tspan></text>
+	</g>
+	<g ewd:pinNo="7">
+		<text transform="matrix(1 0 0 1 165.6953 43.0215)"><tspan x="0" y="0" style="&st6; &st5;">7</tspan></text>
+	</g>
+	<g ewd:pinNo="45">
+		<text transform="matrix(1 0 0 1 164.0107 64.2681)"><tspan x="0" y="0" style="&st6; &st5;">45</tspan></text>
+	</g>
+	<g ewd:pinNo="42">
+		<text transform="matrix(1 0 0 1 212.8779 61.8403)"><tspan x="0" y="0" style="&st6; &st5;">42</tspan></text>
+	</g>
+	<g ewd:pinNo="41">
+		<text transform="matrix(1 0 0 1 224.1074 61.8403)"><tspan x="0" y="0" style="&st6; &st5;">41</tspan></text>
+	</g>
+	<g ewd:pinNo="40">
+		<text transform="matrix(1 0 0 1 235.0337 61.8403)"><tspan x="0" y="0" style="&st6; &st5;">40</tspan></text>
+	</g>
+	<g ewd:pinNo="1">
+		<text transform="matrix(1 0 0 1 247.6431 46.6646)"><tspan x="0" y="0" style="&st6; &st5;">1</tspan></text>
+	</g>
+	<g ewd:pinNo="39">
+		<text transform="matrix(1 0 0 1 245.9604 61.8403)"><tspan x="0" y="0" style="&st6; &st5;">39</tspan></text>
+	</g>
+	<g ewd:pinNo="4">
+		<text transform="matrix(1 0 0 1 214.562 46.6646)"><tspan x="0" y="0" style="&st6; &st5;">4</tspan></text>
+	</g>
+	<g ewd:pinNo="3">
+		<text transform="matrix(1 0 0 1 225.7915 46.6646)"><tspan x="0" y="0" style="&st6; &st5;">3</tspan></text>
+	</g>
+	<g ewd:pinNo="2">
+		<text transform="matrix(1 0 0 1 236.7173 46.6646)"><tspan x="0" y="0" style="&st6; &st5;">2</tspan></text>
+	</g>
+	<g ewd:pinNo="43">
+		<text transform="matrix(1 0 0 1 201.9517 61.8403)"><tspan x="0" y="0" style="&st6; &st5;">43</tspan></text>
+	</g>
+	<g ewd:pinNo="5">
+		<text transform="matrix(1 0 0 1 203.6357 46.6646)"><tspan x="0" y="0" style="&st6; &st5;">5</tspan></text>
+	</g>
+	<g ewd:pinNo="44">
+		<text transform="matrix(1 0 0 1 191.0249 61.8403)"><tspan x="0" y="0" style="&st6; &st5;">44</tspan></text>
+	</g>
+	<g ewd:pinNo="6">
+		<text transform="matrix(1 0 0 1 192.7095 46.6646)"><tspan x="0" y="0" style="&st6; &st5;">6</tspan></text>
+	</g>
+	<g ewd:pinNo="48">
+		<text transform="matrix(1 0 0 1 138.5151 64.2681)"><tspan x="0" y="0" style="&st6; &st5;">48</tspan></text>
+	</g>
+	<g ewd:pinNo="10">
+		<text transform="matrix(1 0 0 1 138.2251 43.0215)"><tspan x="0" y="0" style="&st6; &st5;">10</tspan></text>
+	</g>
+	<g ewd:pinNo="11">
+		<text transform="matrix(1 0 0 1 129.9492 43.0215)"><tspan x="0" y="0" style="&st6; &st5;">11</tspan></text>
+	</g>
+	<g ewd:pinNo="49">
+		<text transform="matrix(1 0 0 1 130.0166 64.2681)"><tspan x="0" y="0" style="&st6; &st5;">49</tspan></text>
+	</g>
+	<g ewd:pinNo="12">
+		<text transform="matrix(1 0 0 1 121.228 43.0215)"><tspan x="0" y="0" style="&st6; &st5;">12</tspan></text>
+	</g>
+	<g ewd:pinNo="50">
+		<text transform="matrix(1 0 0 1 121.5181 64.2681)"><tspan x="0" y="0" style="&st6; &st5;">50</tspan></text>
+	</g>
+	<g ewd:pinNo="25">
+		<text transform="matrix(1 0 0 1 147.0137 53.6445)"><tspan x="0" y="0" style="&st6; &st5;">25</tspan></text>
+	</g>
+	<g ewd:pinNo="24">
+		<text transform="matrix(1 0 0 1 155.5122 53.6445)"><tspan x="0" y="0" style="&st6; &st5;">24</tspan></text>
+	</g>
+	<g ewd:pinNo="23">
+		<text transform="matrix(1 0 0 1 164.0107 53.6445)"><tspan x="0" y="0" style="&st6; &st5;">23</tspan></text>
+	</g>
+	<g ewd:pinNo="26">
+		<text transform="matrix(1 0 0 1 138.5151 53.6445)"><tspan x="0" y="0" style="&st6; &st5;">26</tspan></text>
+	</g>
+	<g ewd:pinNo="27">
+		<text transform="matrix(1 0 0 1 130.0166 53.6445)"><tspan x="0" y="0" style="&st6; &st5;">27</tspan></text>
+	</g>
+	<g ewd:pinNo="28">
+		<text transform="matrix(1 0 0 1 121.5181 53.6445)"><tspan x="0" y="0" style="&st6; &st5;">28</tspan></text>
+	</g>
+	<g ewd:pinNo="53">
+		<text transform="matrix(1 0 0 1 80.0366 64.2681)"><tspan x="0" y="0" style="&st6; &st5;">53</tspan></text>
+	</g>
+	<g ewd:pinNo="15">
+		<text transform="matrix(1 0 0 1 79.7466 43.0215)"><tspan x="0" y="0" style="&st6; &st5;">15</tspan></text>
+	</g>
+	<g ewd:pinNo="14">
+		<text transform="matrix(1 0 0 1 88.2451 43.0215)"><tspan x="0" y="0" style="&st6; &st5;">14</tspan></text>
+	</g>
+	<g ewd:pinNo="52">
+		<text transform="matrix(1 0 0 1 88.5352 64.2681)"><tspan x="0" y="0" style="&st6; &st5;">52</tspan></text>
+	</g>
+	<g ewd:pinNo="13">
+		<text transform="matrix(1 0 0 1 96.7437 43.0215)"><tspan x="0" y="0" style="&st6; &st5;">13</tspan></text>
+	</g>
+	<g ewd:pinNo="51">
+		<text transform="matrix(1 0 0 1 97.0337 64.2681)"><tspan x="0" y="0" style="&st6; &st5;">51</tspan></text>
+	</g>
+	<g ewd:pinNo="16">
+		<text transform="matrix(1 0 0 1 71.248 43.0215)"><tspan x="0" y="0" style="&st6; &st5;">16</tspan></text>
+	</g>
+	<g ewd:pinNo="17">
+		<text transform="matrix(1 0 0 1 62.7495 43.0215)"><tspan x="0" y="0" style="&st6; &st5;">17</tspan></text>
+	</g>
+	<g ewd:pinNo="54">
+		<text transform="matrix(1 0 0 1 71.5381 64.2681)"><tspan x="0" y="0" style="&st6; &st5;">54</tspan></text>
+	</g>
+	<g ewd:pinNo="55">
+		<text transform="matrix(1 0 0 1 63.0396 64.2681)"><tspan x="0" y="0" style="&st6; &st5;">55</tspan></text>
+	</g>
+	<g ewd:pinNo="18">
+		<text transform="matrix(1 0 0 1 54.251 43.0215)"><tspan x="0" y="0" style="&st6; &st5;">18</tspan></text>
+	</g>
+	<g ewd:pinNo="56">
+		<text transform="matrix(1 0 0 1 54.541 64.2681)"><tspan x="0" y="0" style="&st6; &st5;">56</tspan></text>
+	</g>
+	<g ewd:pinNo="31">
+		<text transform="matrix(1 0 0 1 80.0366 53.6445)"><tspan x="0" y="0" style="&st6; &st5;">31</tspan></text>
+	</g>
+	<g ewd:pinNo="30">
+		<text transform="matrix(1 0 0 1 88.5352 53.6445)"><tspan x="0" y="0" style="&st6; &st5;">30</tspan></text>
+	</g>
+	<g ewd:pinNo="29">
+		<text transform="matrix(1 0 0 1 97.0337 53.6445)"><tspan x="0" y="0" style="&st6; &st5;">29</tspan></text>
+	</g>
+	<g ewd:pinNo="32">
+		<text transform="matrix(1 0 0 1 71.5381 53.6445)"><tspan x="0" y="0" style="&st6; &st5;">32</tspan></text>
+	</g>
+	<g ewd:pinNo="33">
+		<text transform="matrix(1 0 0 1 63.0396 53.6445)"><tspan x="0" y="0" style="&st6; &st5;">33</tspan></text>
+	</g>
+	<g ewd:pinNo="34">
+		<text transform="matrix(1 0 0 1 54.541 53.6445)"><tspan x="0" y="0" style="&st6; &st5;">34</tspan></text>
+	</g>
+	<g ewd:pinNo="57">
+		<text transform="matrix(1 0 0 1 46.042 64.2681)"><tspan x="0" y="0" style="&st6; &st5;">57</tspan></text>
+	</g>
+	<g ewd:pinNo="19">
+		<text transform="matrix(1 0 0 1 45.752 43.0215)"><tspan x="0" y="0" style="&st6; &st5;">19</tspan></text>
+	</g>
+	<g ewd:pinNo="35">
+		<text transform="matrix(1 0 0 1 46.042 53.6445)"><tspan x="0" y="0" style="&st6; &st5;">35</tspan></text>
+	</g>
+	<g ewd:pinNo="58">
+		<text transform="matrix(1 0 0 1 37.5435 64.2681)"><tspan x="0" y="0" style="&st6; &st5;">58</tspan></text>
+	</g>
+	<g ewd:pinNo="20">
+		<text transform="matrix(1 0 0 1 37.5435 43.0215)"><tspan x="0" y="0" style="&st6; &st5;">20</tspan></text>
+	</g>
+	<g ewd:pinNo="36">
+		<text transform="matrix(1 0 0 1 37.5435 53.6445)"><tspan x="0" y="0" style="&st6; &st5;">36</tspan></text>
+	</g>
+	<g ewd:pinNo="59">
+		<text transform="matrix(1 0 0 1 29.0449 64.2681)"><tspan x="0" y="0" style="&st6; &st5;">59</tspan></text>
+	</g>
+	<g ewd:pinNo="21">
+		<text transform="matrix(1 0 0 1 29.0449 43.0215)"><tspan x="0" y="0" style="&st6; &st5;">21</tspan></text>
+	</g>
+	<g ewd:pinNo="37">
+		<text transform="matrix(1 0 0 1 29.0449 53.6445)"><tspan x="0" y="0" style="&st6; &st5;">37</tspan></text>
+	</g>
+	<g ewd:pinNo="60">
+		<text transform="matrix(1 0 0 1 20.5464 64.2681)"><tspan x="0" y="0" style="&st6; &st5;">60</tspan></text>
+	</g>
+	<g ewd:pinNo="22">
+		<text transform="matrix(1 0 0 1 20.5464 43.0215)"><tspan x="0" y="0" style="&st6; &st5;">22</tspan></text>
+	</g>
+	<g ewd:pinNo="38">
+		<text transform="matrix(1 0 0 1 20.5464 53.6445)"><tspan x="0" y="0" style="&st6; &st5;">38</tspan></text>
+	</g>
+</g>
+<path d="M137.54,9.069v-8.504h293.3015v8.504" style="&st0;&st1;&st7;&st2;&st3;"/>
+</svg>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'ArialMT';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'ArialMT';">
+	<!ENTITY st11 "font-size:9px;font-family:'Svg Symbol';">
+	<!ENTITY st12 "font-size:6px;font-family:'Svg Symbol';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'Arial';">
+	<!ENTITY st19 "font-size:9px;font-family:'Arial';">
+	<!ENTITY st20 "font-size:6px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 2057.925 710.000" viewBox="0 0 2057.925 710.000" height="710.000" width="2057.925" xml:space="preserve" ewd:ver="2.1.2.9" xmlns="&ns_svg;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:xlink="&ns_xlink;">
+<path style="stroke-width:0.85 ;&st7;  " d=" M   110.48,   375.72  L   110.48,   418.22  L   297.45,   418.22  L   297.45,   375.72  L   110.48,   375.72  " /><text style="&st18;" transform="matrix(&st16;  115.57  411.69 )" ewd:textID="5">* Front airbag sensor assembly</text><text style="&st18;" transform="matrix(&st16;  115.57  403.19 )" ewd:textID="4">* Center airbag sensor assembly</text><text style="&st18;" transform="matrix(&st16;  115.57  394.69 )" ewd:textID="6">* Front passenger airbag assembly</text><text style="&st18;" transform="matrix(&st16;  115.57  386.19 )" ewd:textID="7">* Steering wheel pad</text><text style="&st18;" transform="matrix(&st16;  81.58  21.96 )" ewd:textID="25">NOTICE  : When inspecting or repairing the SRS, perform service in accordance with the following precautionary <tspan x="0 " dy="6.0">instructions and the procedure, and precautions in the Repair Manual applicable for the model year.</tspan></text><text style="&st18;" transform="matrix(&st16;  81.58  46.25 )">*</text><text style="&st18;" transform="matrix(&st16;  88.95  47.46 )" ewd:textID="23">Malfunction symptoms of the SRS are difficult to confirm, so the DTCs become the most important source of information <tspan x="0 " dy="6.0">when troubleshooting. When troubleshooting the SRS, always inspect the DTCs before disconnecting the battery.</tspan></text><text style="&st18;" transform="matrix(&st16;  81.58  71.74 )">*</text><text style="&st18;" transform="matrix(&st16;  88.94  72.93 )" ewd:textID="42">Work must be started more than 90 seconds after the ignition or starter switch assembly is turned to the "LOCK"<tspan x="0 " dy="6.0">position and the negative (-) terminal cable is disconnected from the battery.</tspan></text><text style="&st18;" transform="matrix(&st16;  88.94  89.93 )" ewd:textID="1">(The SRS is equipped with a back-up power source so that if work is started within 90 seconds from disconnecting the <tspan x="0 " dy="6.0">negative (-) terminal cable of the battery, the SRS may deploy.)</tspan></text><text style="&st18;" transform="matrix(&st16;  81.58  114.24 )">*</text><text style="&st18;" transform="matrix(&st16;  88.95  115.45 )" ewd:textID="40">When the negative (-) terminal cable is disconnected from the battery, the memory of the clock and audio system <tspan x="0 " dy="6.0">will be cleared. So before starting work, make a record of the contents in the audio memory system.</tspan></text><text style="&st18;" transform="matrix(&st16;  88.95  132.44 )" ewd:textID="41">When work is finished, reset the audio systems as they were before and adjust the clock. Some vehicles have power tilt <tspan x="0 " dy="6.0">steering, power telescopic steering, power seat and power outside rear view mirror which are all equipped with memory function.</tspan></text><text style="&st18;" transform="matrix(&st16;  88.95  149.44 )" ewd:textID="19">However, it is not possible to make a record of these memory contents. So when the work is finished, it will be necessary <tspan x="0 " dy="6.0">to explain it to your customer, and ask the customer to adjust the features and reset the memory.</tspan></text><text style="&st18;" transform="matrix(&st16;  88.95  166.44 )" ewd:textID="38">To avoid erasing the memory in each system, never use a back-up power supply from outside the vehicle.</text><text style="&st18;" transform="matrix(&st16;  88.95  183.44 )" ewd:textID="10">Before repair, remove the airbag sensor if shocks are likely to be applied to the sensor during repair.</text><text style="&st18;" transform="matrix(&st16;  81.58  183.44 )">*</text><text style="&st18;" transform="matrix(&st16;  81.58  200.43 )">*</text><text style="&st18;" transform="matrix(&st16;  88.95  200.43 )" ewd:textID="12">Do not expose the following parts directly to hot air or flame;</text><text style="&st18;" transform="matrix(&st16;  81.58  234.43 )">*</text><text style="&st18;" transform="matrix(&st16;  88.95  234.43 )" ewd:textID="26">Never use SRS parts from another vehicle. When replacing parts, replace with new parts.</text><text style="&st18;" transform="matrix(&st16;  88.95  217.43 )" ewd:textID="14">Even in cases of a minor collision where the SRS does not deploy, the following parts should be inspected;</text><text style="&st18;" transform="matrix(&st16;  81.58  217.43 )">*</text><text style="&st18;" transform="matrix(&st16;  88.95  251.42 )" ewd:textID="15">For the purpose of reuse, never disassemble and repair the following parts.</text><text style="&st18;" transform="matrix(&st16;  81.58  251.42 )">*</text><text style="&st18;" transform="matrix(&st16;  88.95  268.42 )" ewd:textID="20">If the following parts have been dropped, or have cracks, dents and other defects in their case, bracket, and connector, <tspan x="0 " dy="6.0">replace with new one.</tspan></text><text style="&st18;" transform="matrix(&st16;  81.58  268.42 )">*</text><text style="&st18;" transform="matrix(&st16;  88.95  293.92 )" ewd:textID="39">Use a volt/ohmmeter with high impedance (10 kΩ/V minimum) for troubleshooting electrical circuits of the system.</text><text style="&st18;" transform="matrix(&st16;  81.58  293.92 )">*</text><text style="&st18;" transform="matrix(&st16;  81.58  310.91 )">*</text><text style="&st18;" transform="matrix(&st16;  88.95  310.91 )" ewd:textID="22">Information labels are attached to the periphery of the SRS components. Follow the instructions of the notice.</text><text style="&st18;" transform="matrix(&st16;  81.58  327.91 )">*</text><text style="&st18;" transform="matrix(&st16;  88.95  327.91 )" ewd:textID="8">After work on the SRS is completed, check the SRS warning light.</text><text style="&st18;" transform="matrix(&st16;  81.58  344.91 )">*</text><text style="&st18;" transform="matrix(&st16;  88.95  344.91 )" ewd:textID="21">If the vehicle is equipped with a mobile communication system, refer to the precaution in the IN section of the <tspan x="0 " dy="6.0">Repair Manual.</tspan></text></svg>

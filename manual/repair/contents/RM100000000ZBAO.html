@@ -1,0 +1,899 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_57</span>
+<span class="globalServcatName">Power Source / Network</span>
+<span class="globalSection">_057931</span>
+<span class="globalSectionName">NETWORKING</span>
+<span class="globalTitle">_0285332</span>
+<span class="globalTitleName">CAN COMMUNICATION SYSTEM(w/ VSC)</span>
+<span class="globalCategory">U</span>
+</div>
+<h1>NETWORKING&nbsp;&nbsp;CAN COMMUNICATION SYSTEM(w/ VSC)&nbsp;&nbsp;FAIL-SAFE CHART&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000ZBAO_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">FAIL-SAFE FUNCTION
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>When communication fails in any of the CAN bus wires (communication wires), a fail-safe function(s) operates. The fail-safe function that is specified for each system operates to prevent those systems from malfunctioning.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>Effects on each system when communication is impossible (for further details, see the pages for each system).
+</p>
+<table summary="">
+<colgroup>
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:19%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Function
+</th>
+<th class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Control Master
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>System Related
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>Control Actuator
+</p>
+</div>
+</div>
+</div>
+<br>
+</th>
+<th class="alcenter">Fail-safe Function System Behavior
+</th>
+<th class="alcenter">Indicator and Buzzer Behavior or User Notification
+</th>
+<th class="alcenter">DTC Detection
+<br>
+(ECU that stored DTC)
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TC DTC Output Service
+<br>
+(While TC = ON is being received, a DTC is output in response to a request from the combination meter assembly.)
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Combination meter assembly
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>Airbag sensor assembly
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>When reception of the TC signal is lost during the TC service (TC = ON), this is regarded as TC = OFF and the TC service ends.
+</td>
+<td class="alcenter">Nothing
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>Collision Detection Signal
+<br>
+(Reports a collision in order to perform a fuel cut, etc. during a collision.)
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>Airbag sensor assembly
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>-
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alcenter">Nothing
+</td>
+<td class="alcenter">Nothing
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>Airbag Warning Light Control
+<br>
+(Sends airbag warning light illumination information.)
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Combination meter assembly
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>Airbag sensor assembly
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>-
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alcenter">Nothing
+</td>
+<td class="alcenter">Nothing
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>Trigger Signal/Autonomous Transmission
+<br>
+(Outputs the yaw rate and acceleration sensor signal.)
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Airbag sensor assembly
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>Brake actuator assembly (skid control ECU)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>Brake actuator assembly (skid control ECU)
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>Sends yaw rate sensor data information.
+</td>
+<td class="alcenter">Nothing
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>Event Data Recorder (EDR)
+<br>
+(Records conditions such as the vehicle speed, the amount the accelerator is depressed, and the shift lever position when the event data recorder recording conditions are met.)
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Airbag sensor assembly
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>ECM, Brake actuator assembly (skid control ECU), Combination meter assembly, Spiral with sensor cable sub-assembly (steering angle sensor)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>-
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When there is a communication error, a failure notification is received from the other device, or an invalid value is recorded in the EDR when the communication failure occurs.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When there is a periodic problem, the previous value is maintained.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alcenter">Nothing
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>Steering Sensor
+<br>
+(Detects steering wheel angle)
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Spiral with sensor cable sub-assembly (steering angle sensor)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>Brake actuator assembly (skid control ECU)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>-
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>Sends steering sensor data information every 0.012 seconds.
+</td>
+<td class="alcenter">Nothing
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>Speedometer
+<br>
+(Operates the speedometer according to the vehicle speed signals from the skid control ECU.)
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Combination meter assembly
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>Brake actuator assembly (skid control ECU)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>-
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>Signal is considered to be "0".
+</td>
+<td>Displays 0 km/h (0 mph) in the speedometer.
+</td>
+<td>U0129
+<br>
+(Combination meter assembly)
+</td>
+</tr>
+<tr>
+<td>Tachometer
+<br>
+(Displays the tachometer.)
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Combination meter assembly
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>-
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>Signal is considered to be "0".
+</td>
+<td>Displays 0 rpm in the tachometer.
+</td>
+<td>U0100
+<br>
+(Combination meter assembly)
+</td>
+</tr>
+<tr>
+<td>Fuel Gauge
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Displays the fuel gauge fuel level.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Turns the remaining fuel amount warning on and off.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Combination meter assembly
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>Brake actuator assembly (skid control ECU)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>-
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>Signal is considered to be "0".
+</td>
+<td>Calculation continues using a provisional value.
+</td>
+<td>U0129
+<br>
+(Combination meter assembly)
+</td>
+</tr>
+<tr>
+<td>Sub Fuel Gauge
+<br>
+(Displays the fuel gauge fuel level.)
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Combination meter assembly
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>Brake actuator assembly (skid control ECU)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>-
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>Signal is considered to be "0".
+</td>
+<td>Calculation continues using a provisional value.
+</td>
+<td>U0129
+<br>
+(Combination meter assembly)
+</td>
+</tr>
+<tr>
+<td>Engine Coolant Temperature Gauge
+<br>
+(Display operates the engine coolant temperature gauge.)
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Combination meter assembly
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>-
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>Signal is considered to be "0".
+</td>
+<td>The needle of the engine coolant temperature gauge is at the C mark or below.
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>ODO/TRIP Meter
+<br>
+(Displays the ODO/TRIP meter.)
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Combination meter assembly
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>Brake actuator assembly (skid control ECU)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>-
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>Signal is considered to be "0".
+</td>
+<td>The last displayed value remains.
+</td>
+<td>U0129
+<br>
+(Combination meter assembly)
+</td>
+</tr>
+<tr>
+<td>SRS Warning Light
+<br>
+(Displays SRS warning light.)
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Combination meter assembly
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>Airbag sensor assembly
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>-
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>Signal is considered to be "Active".
+</td>
+<td>The SRS warning light illuminates.
+</td>
+<td>U0151
+<br>
+(Combination meter assembly)
+</td>
+</tr>
+<tr>
+<td>ABS Warning Light
+<br>
+(Displays ABS warning light.)
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Combination meter assembly
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>Brake actuator assembly (skid control ECU)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>-
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>Signal is considered to be "Active".
+</td>
+<td>The ABS warning light illuminates.
+</td>
+<td>U0129
+<br>
+(Combination meter assembly)
+</td>
+</tr>
+<tr>
+<td>Brake Warning Light
+<br>
+(Displays brake warning light.)
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Combination meter assembly
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>Brake actuator assembly (skid control ECU)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>-
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>Signal is considered to be "Active".
+</td>
+<td>The brake warning light illuminates.
+</td>
+<td>U0129
+<br>
+(Combination meter assembly)
+</td>
+</tr>
+<tr>
+<td>SLIP Indicator Light
+<br>
+(Displays SLIP indicator light.)
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Combination meter assembly
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>Brake actuator assembly (skid control ECU)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>-
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>Signal is considered to be "Active".
+</td>
+<td>The SLIP indicator light illuminates.
+</td>
+<td>U0129
+<br>
+(Combination meter assembly)
+</td>
+</tr>
+<tr>
+<td>Cruise Control
+<br>
+(Adjusts the engine throttle valve opening amount automatically to control the vehicle.)
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>Brake actuator assembly (skid control ECU), Combination meter assembly
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">Cruise control does not operate.
+</td>
+<td>The cruise indicator light illuminates in yellow.
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>Anti-lock Brake System Control
+<br>
+(Prevents the wheels from locking during sudden stops.)
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Brake actuator assembly (skid control ECU)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>Airbag sensor assembly
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>Brake actuator assembly (skid control ECU)
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>During control: After ending backup control (which stabilizes the vehicle), the system changes to normal braking and prohibits this control.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Not during control: Control cannot begin.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The ABS warning light illuminates.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The SLIP indicator illuminates.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>U0073
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>U0124
+</p>
+</div>
+</div>
+</div>
+<br>
+(Brake actuator assembly [skid control ECU])
+</td>
+</tr>
+<tr>
+<td>Vehicle Stability Control/Traction Control/Vehicle Dynamics Integrated Management Control
+<br>
+(Suppresses vehicle instability, such as drift when cornering and wheel slippage when accelerating. During vehicle dynamics integrated management control, vehicle integrated control which includes electronic steering control is performed.)
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Brake actuator assembly (skid control ECU)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>ECM, Airbag sensor assembly, Spiral with sensor cable sub-assembly (steering angle sensor)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>Brake actuator assembly (skid control ECU)
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>During control: After ending backup control (which stabilizes the vehicle), the system changes to normal braking and prohibits this control.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Not during control: Control cannot begin.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The ABS warning light illuminates.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The SLIP indicator illuminates.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>U0073
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>U0124
+</p>
+</div>
+</div>
+</div>
+<br>
+(Brake actuator assembly [skid control ECU])
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

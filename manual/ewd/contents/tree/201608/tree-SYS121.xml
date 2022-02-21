@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS121" code="A35,A36,E1,E4,F1" type="conn" figID="11">
+    <name>Battery (Main)</name>
+  </text>
+  <text ewd="SYS121" code="A37,E3" type="conn" figID="12">
+    <name>Battery (Sub)</name>
+  </text>
+  <text ewd="SYS121" code="E2,F2" type="conn" figID="13">
+    <name>Battery (Sub)</name>
+  </text>
+  <text ewd="SYS121" code="L25,L26" type="conn" figID="6">
+    <name>Combination Meter Assembly</name>
+  </text>
+  <text ewd="SYS121" code="I1,I34" type="conn" figID="10">
+    <name>Generator Assembly</name>
+  </text>
+  <text ewd="SYS121" code="I67,I107" type="conn" figID="8">
+    <name>No. 12 Junction Connector , No. 16 Junction Connector</name>
+  </text>
+  <text ewd="SYS121" code="I110" type="conn" figID="5">
+    <name>No. 33 Junction Connector</name>
+  </text>
+  <text ewd="SYS121" code="I105" type="conn" figID="9">
+    <name>No. 8 Junction Connector</name>
+  </text>
+  <text ewd="SYS121" code="I72,I106" type="conn" figID="7">
+    <name>No. 9 Junction Connector , No. 21 Junction Connector</name>
+  </text>
+  <text ewd="SYS121" code="FUSE42" type="fuse" figID="46">
+    <name>100A ALT</name>
+  </text>
+  <text ewd="SYS121" code="FUSE5" type="fuse" figID="50">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS121" code="FUSE16" type="fuse" figID="49">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS121" code="FUSE20" type="fuse" figID="48">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS121" code="FUSE44" type="fuse" figID="47">
+    <name>7.5A ALT-S</name>
+  </text>
+  <text ewd="SYS121" code="AC" type="gp" figID="39">
+    <name />
+  </text>
+  <text ewd="SYS121" code="CC" type="gp" figID="41">
+    <name />
+  </text>
+  <text ewd="SYS121" code="FA" type="gp" figID="40">
+    <name />
+  </text>
+  <text ewd="SYS121" code="FB" type="gp" figID="38">
+    <name />
+  </text>
+  <text ewd="SYS121" code="FC" type="gp" figID="37">
+    <name />
+  </text>
+  <text ewd="SYS121" code="3" type="jb" figID="22">
+    <name />
+  </text>
+  <text ewd="SYS121" code="4" type="jb" figID="20,21">
+    <name />
+  </text>
+  <text ewd="SYS121" code="FUSE5" type="rb" figID="1">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS121" code="FUSE16" type="rb" figID="2">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS121" code="FUSE20" type="rb" figID="3">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS121" code="FUSE44" type="rb" figID="4">
+    <name>7.5A ALT-S</name>
+  </text>
+  <text ewd="SYS121" code="SP19" type="sp" figID="43">
+    <name />
+  </text>
+  <text ewd="SYS121" code="SP44" type="sp" figID="42">
+    <name />
+  </text>
+  <text ewd="SYS121" code="SP51" type="sp" figID="45">
+    <name />
+  </text>
+  <text ewd="SYS121" code="SP60" type="sp" figID="44">
+    <name />
+  </text>
+  <text ewd="SYS121" code="IL1" type="w2w" figID="27">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS121" code="IL2" type="w2w" figID="29,34,36">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS121" code="IL5" type="w2w" figID="26">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS121" code="IL6" type="w2w" figID="33,35">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS121" code="AI2" type="w2w" figID="23">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS121" code="AI3" type="w2w" figID="31,32">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS121" code="AI4" type="w2w" figID="25">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS121" code="AI7" type="w2w" figID="24">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS121" code="AC1" type="w2w" figID="30">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS121" code="LI1" type="w2w" figID="28">
+    <name>Instrument Panel Wire and Cowl Wire</name>
+  </text>
+</EwdTree>

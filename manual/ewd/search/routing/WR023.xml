@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="WR023">
+    <part type="conn" code="D9">
+      <name>Battery (Main)</name>
+    </part>
+    <part type="conn" code="D8">
+      <name>Battery (Main)</name>
+    </part>
+    <part type="conn" code="k2">
+      <name>Battery (Main)</name>
+    </part>
+    <part type="conn" code="I85">
+      <name>Brake Fluid Level Warning Switch (Brake Master Cylinder Reservoir Sub-Assembly)</name>
+    </part>
+    <part type="conn" code="J2">
+      <name>Fog Light Assembly LH</name>
+    </part>
+    <part type="conn" code="J1">
+      <name>Fog Light Assembly RH</name>
+    </part>
+    <part type="conn" code="I52">
+      <name>Front Airbag Sensor RH</name>
+    </part>
+    <part type="conn" code="I6">
+      <name>Front Blower Motor (Heater Blower Case)</name>
+    </part>
+    <part type="conn" code="I76">
+      <name>Fuse Block Assembly</name>
+    </part>
+    <part type="conn" code="D1">
+      <name>Generator Assembly</name>
+    </part>
+    <part type="conn" code="D4">
+      <name>Generator Assembly</name>
+    </part>
+    <part type="conn" code="I40">
+      <name>Headlight Assembly RH</name>
+    </part>
+    <part type="conn" code="I36">
+      <name>Headlight Assembly RH</name>
+    </part>
+    <part type="conn" code="I38">
+      <name>Headlight Assembly RH</name>
+    </part>
+    <part type="conn" code="I91">
+      <name>Headlight Assembly RH</name>
+    </part>
+    <part type="conn" code="h2">
+      <name>Knock Control Sensor (Bank 1)</name>
+    </part>
+    <part type="conn" code="h1">
+      <name>Knock Control Sensor (Bank 2)</name>
+    </part>
+    <part type="conn" code="k1">
+      <name>No. 1 Magnet Switch Assembly</name>
+    </part>
+    <part type="conn" code="m4">
+      <name>No. 1 Magnet Switch Assembly</name>
+    </part>
+    <part type="conn" code="m3">
+      <name>No. 1 Magnet Switch Assembly</name>
+    </part>
+    <part type="conn" code="I25">
+      <name>Side Turn Signal Light Assembly RH</name>
+    </part>
+    <part type="conn" code="D3">
+      <name>Starter Assembly</name>
+    </part>
+    <part type="conn" code="D2">
+      <name>Starter Assembly</name>
+    </part>
+    <part type="conn" code="s1">
+      <name>Winch Assembly</name>
+    </part>
+    <part type="conn" code="s2">
+      <name>Winch Motor with Magnet Switch Assembly</name>
+    </part>
+    <part type="conn" code="m2">
+      <name>Winch Motor with Magnet Switch Assembly</name>
+    </part>
+    <part type="conn" code="m1">
+      <name>Winch Motor with Magnet Switch Assembly</name>
+    </part>
+    <part type="conn" code="t1">
+      <name>Winch Motor with Magnet Switch Assembly</name>
+    </part>
+  </ttl>
+</EWDSearch>

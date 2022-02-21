@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <note ewd="WIRE008" code="I2" type="conn">
+    <name>A/C Pressure Switch (Cooler Refrigerant Liquid Pipe B)</name>
+  </note>
+  <note ewd="WIRE008" code="I85" type="conn">
+    <name>Brake Fluid Level Warning Switch (Brake Master Cylinder Reservoir Sub-Assembly)</name>
+  </note>
+  <note ewd="WIRE008" code="I84" type="conn">
+    <name>ECM</name>
+  </note>
+  <note ewd="WIRE008" code="I30" type="conn">
+    <name>Four Wheel Drive Control Solenoid Assembly</name>
+  </note>
+  <note ewd="WIRE008" code="I31" type="conn">
+    <name>Four Wheel Drive Control Solenoid Assembly</name>
+  </note>
+  <note ewd="WIRE008" code="I89" type="conn">
+    <name>Four Wheel Drive Control Solenoid Assembly</name>
+  </note>
+  <note ewd="WIRE008" code="I52" type="conn">
+    <name>Front Airbag Sensor RH</name>
+  </note>
+  <note ewd="WIRE008" code="I6" type="conn">
+    <name>Front Blower Motor (Heater Blower Case)</name>
+  </note>
+  <note ewd="WIRE008" code="I18" type="conn">
+    <name>Front Speed Sensor RH (Skid Control Sensor Wire RH)</name>
+  </note>
+  <note ewd="WIRE008" code="I76" type="conn">
+    <name>Fuse Block Assembly</name>
+  </note>
+  <note ewd="WIRE008" code="I1" type="conn">
+    <name>Generator Assembly</name>
+  </note>
+  <note ewd="WIRE008" code="I34" type="conn">
+    <name>Generator Assembly</name>
+  </note>
+  <note ewd="WIRE008" code="I36" type="conn">
+    <name>Headlight Assembly RH</name>
+  </note>
+  <note ewd="WIRE008" code="I38" type="conn">
+    <name>Headlight Assembly RH</name>
+  </note>
+  <note ewd="WIRE008" code="I40" type="conn">
+    <name>Headlight Assembly RH</name>
+  </note>
+  <note ewd="WIRE008" code="I44" type="conn">
+    <name>Headlight Assembly RH</name>
+  </note>
+  <note ewd="WIRE008" code="I91" type="conn">
+    <name>Headlight Assembly RH</name>
+  </note>
+  <note ewd="WIRE008" code="I33" type="conn">
+    <name>Magnet Clutch Assembly</name>
+  </note>
+  <note ewd="WIRE008" code="I25" type="conn">
+    <name>Side Turn Signal Light Assembly RH</name>
+  </note>
+  <note ewd="WIRE008" code="I48" type="conn">
+    <name>Thermistor Assembly</name>
+  </note>
+  <note ewd="WIRE008" code="I32" type="conn">
+    <name>Vacuum Warning Switch Assembly</name>
+  </note>
+  <note ewd="WIRE008" code="I35" type="conn">
+    <name>Windshield Washer Motor and Pump Assembly</name>
+  </note>
+  <note ewd="WIRE008" code="I4" type="conn">
+    <name>Windshield Wiper Motor Assembly</name>
+  </note>
+  <note ewd="WIRE008" code="I86" type="conn">
+    <name>Windshield Wiper Motor Assembly</name>
+  </note>
+  <note ewd="WIRE008" code="IA1" type="w2w">
+    <name>Cowl Wire and Engine Room Main Wire</name>
+  </note>
+  <note ewd="WIRE008" code="IA2" type="w2w">
+    <name>Cowl Wire and Engine Room Main Wire</name>
+  </note>
+  <note ewd="WIRE008" code="IA3" type="w2w">
+    <name>Cowl Wire and Engine Room Main Wire</name>
+  </note>
+  <note ewd="WIRE008" code="IA4" type="w2w">
+    <name>Cowl Wire and Engine Room Main Wire</name>
+  </note>
+  <note ewd="WIRE008" code="IC1" type="w2w">
+    <name>Cowl Wire and Engine Wire</name>
+  </note>
+  <note ewd="WIRE008" code="IC2" type="w2w">
+    <name>Cowl Wire and Engine Wire</name>
+  </note>
+  <note ewd="WIRE008" code="IC3" type="w2w">
+    <name>Cowl Wire and Engine Wire</name>
+  </note>
+  <note ewd="WIRE008" code="IB5" type="w2w">
+    <name>Cowl Wire and No. 2 Engine Room Wire</name>
+  </note>
+</EwdTree>

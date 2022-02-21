@@ -1,0 +1,86 @@
+﻿<?xml version="1.0"?>
+<!-- Generator: Adobe Illustrator 10.0, SVG Export Plug-In . SVG Version: 3.0.0 Build 77)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st1 "fill:none;stroke:#000000;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st2 "font-size:6px;">
+	<!ENTITY st3 "font-family:'Arial';">
+	<!ATTLIST svg
+		ewd:ver CDATA #IMPLIED
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/">
+	<!ATTLIST g
+		ewd:pinNo CDATA #IMPLIED>
+]>
+<svg width="71.153" height="33.991" viewBox="0 0 71.153 33.991" style="overflow:visible;enable-background:new 0 0 71.153 33.991" xml:space="preserve" onload="call_execInitLoadProc_svg('connector')" ewd:ver="2.1.2.9" xmlns="&ns_svg;" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:xlink="&ns_xlink;">
+<script type="text/javascript" xlink:href="../../../../../system/js/ewd/fig/svgfig.js"/>
+<g id="レイヤー_1">
+	<path style="&st1;" d="M39.557,17.185v9.162"/>
+	<path style="&st1;" d="M66.052,17.185H5.101"/>
+	<path style="&st0;" d="M49.171,0.502h1.671"/>
+	<path style="&st0;" d="M28.925,0.502h1.671"/>
+	<path style="&st0;" d="M57.033,33.491H14.12"/>
+	<path style="&st1;" d="M57.438,8.023v18.323"/>
+	<path style="&st1;" d="M13.715,26.347V8.023"/>
+	<path style="&st1;" d="M22.327,26.347V8.023"/>
+	<path style="&st1;" d="M2.483,28.964H68.67"/>
+	<path style="&st1;" d="M2.483,10.315v13.739"/>
+	<path style="&st1;" d="M42.392,3.335h-5.02"/>
+	<path style="&st1;" d="M68.67,24.055V10.315"/>
+	<path style="&st0;" d="M34.823,2.626c0,0.392,0.317,0.708,0.708,0.708"/>
+	<path style="&st0;" d="M44.233,3.335c0.391,0,0.708-0.317,0.708-0.708"/>
+	<path style="&st0;" d="M28.925,0.502c-0.7,0-1.283,0.494-1.397,1.185"/>
+	<path style="&st0;" d="M31.288,1.052c-0.075-0.327-0.356-0.55-0.691-0.55"/>
+	<path style="&st0;" d="M49.171,0.502c-0.335,0-0.615,0.224-0.69,0.55"/>
+	<path style="&st0;" d="M52.242,1.687C52.127,0.994,51.544,0.5,50.843,0.5"/>
+	<path style="&st0;" d="M7.038,31.593c2.258,1.304,4.475,1.897,7.082,1.897"/>
+	<path style="&st0;" d="M57.033,33.491c2.607,0,4.824-0.594,7.082-1.897"/>
+	<path style="&st0;" d="M7.036,31.593l-4.553-2.629v-4.909H0.5V10.315h1.983V6.06l1.309-1.309h23.224l0.51-3.065"/>
+	<path style="&st0;" d="M64.115,31.593l4.555-2.629v-4.909h1.983V10.315H68.67V6.06l-1.317-1.309H52.752l-0.51-3.065"/>
+	<path style="&st0;" d="M31.288,1.052l1.292,5.663v5.89h4.793v-9.27h-1.841"/>
+	<path style="&st0;" d="M44.233,3.335h-1.841v9.27h4.796v-5.89l1.292-5.663"/>
+	<path style="&st1;" d="M30.942,26.347V8.023H5.101v18.323h60.952V8.023H48.826v18.323"/>
+	<path style="&st1;" d="M27.016,4.751h4.252l1.309,1.963"/>
+	<path style="&st1;" d="M52.752,4.751h-3.601l-1.963,1.963"/>
+	<path style="&st0;" d="M34.823,2.626V0.502h10.119v2.125"/>
+	<g ewd:pinNo="5">
+		<text transform="matrix(1 0 0 1 60.0918 14.7866)"><tspan x="0" y="0" style="&st3; &st2;">5</tspan></text>
+	</g>
+	<g ewd:pinNo="4">
+		<text transform="matrix(1 0 0 1 51.48 14.7866)"><tspan x="0" y="0" style="&st3; &st2;">4</tspan></text>
+	</g>
+	<g ewd:pinNo="3">
+		<text transform="matrix(1 0 0 1 24.9814 14.7866)"><tspan x="0" y="0" style="&st3; &st2;">3</tspan></text>
+	</g>
+	<g ewd:pinNo="2">
+		<text transform="matrix(1 0 0 1 16.3696 14.7866)"><tspan x="0" y="0" style="&st3; &st2;">2</tspan></text>
+	</g>
+	<g ewd:pinNo="1">
+		<text transform="matrix(1 0 0 1 7.7549 14.7866)"><tspan x="0" y="0" style="&st3; &st2;">1</tspan></text>
+	</g>
+	<g ewd:pinNo="6">
+		<text transform="matrix(1 0 0 1 7.7549 23.9482)"><tspan x="0" y="0" style="&st3; &st2;">6</tspan></text>
+	</g>
+	<g ewd:pinNo="7">
+		<text transform="matrix(1 0 0 1 16.3696 23.9482)"><tspan x="0" y="0" style="&st3; &st2;">7</tspan></text>
+	</g>
+	<g ewd:pinNo="8">
+		<text transform="matrix(1 0 0 1 24.9814 23.9482)"><tspan x="0" y="0" style="&st3; &st2;">8</tspan></text>
+	</g>
+	<g ewd:pinNo="9">
+		<text transform="matrix(1 0 0 1 33.5962 23.9482)"><tspan x="0" y="0" style="&st3; &st2;">9</tspan></text>
+	</g>
+	<g ewd:pinNo="10">
+		<text transform="matrix(1 0 0 1 40.5874 23.9482)"><tspan x="0" y="0" style="&st3; &st2;">10</tspan></text>
+	</g>
+	<g ewd:pinNo="11">
+		<text transform="matrix(1 0 0 1 49.7505 23.9482)"><tspan x="0" y="0" style="&st3; &st2;">11</tspan></text>
+	</g>
+	<g ewd:pinNo="12">
+		<text transform="matrix(1 0 0 1 58.1396 23.9482)"><tspan x="0" y="0" style="&st3; &st2;">12</tspan></text>
+	</g>
+</g>
+</svg>

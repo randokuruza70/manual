@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS018">
+    <part type="conn" code="A20">
+      <text>SP1</text>
+      <name>Brake Actuator Assembly</name>
+    </part>
+    <part type="conn" code="L25,L26">
+      <text>ES B GLW- 12V +S IG+ SI IG2</text>
+      <name>Combination Meter Assembly</name>
+      <name type="inner">Glow</name>
+      <name type="inner">Meter Micro Computer</name>
+    </part>
+    <part type="conn" code="I17">
+      <text>DLC3 TC</text>
+    </part>
+    <part type="conn" code="C91">
+      <text>B EGR</text>
+      <name>Electric Vacuum Regulating Valve Assembly (EGR)</name>
+    </part>
+    <part type="conn" code="A30,A31">
+      <text>VBAC SREL +B VEGR EGR NE+ NE- TCV2 BATT VA VC STA PIM E2 TAC THW TC E1 GIND A/C SP1</text>
+      <name>Emission Control ECU</name>
+    </part>
+    <part type="conn" code="C86">
+      <text>E2 THW</text>
+      <name>Engine Coolant Temperature Sensor</name>
+    </part>
+    <part type="conn" code="C90">
+      <text>B</text>
+      <name>Glow Plug Assembly</name>
+    </part>
+    <part type="conn" code="C83,C84">
+      <text>B NE- FCV NE TCV E2 VTA VC</text>
+      <name>Injection or Supply Pump Assembly</name>
+      <name type="inner">Timing Control Valve</name>
+      <name type="inner">Fuel Cut Solenoid</name>
+      <name type="inner">Crank Position Sensor</name>
+      <name type="inner">Throttle Position Sensor</name>
+    </part>
+    <part type="conn" code="A22">
+      <name>No. 1 Junction Connector</name>
+    </part>
+    <part type="conn" code="I59">
+      <name>No. 10 Junction Connector</name>
+    </part>
+    <part type="conn" code="I61">
+      <name>No. 11 Junction Connector</name>
+    </part>
+    <part type="conn" code="I63,I65">
+      <name>No. 13 Junction Connector</name>
+    </part>
+    <part type="conn" code="L33">
+      <name>No. 25 Junction Connector</name>
+    </part>
+    <part type="conn" code="I57">
+      <name>No. 8 Junction Connector</name>
+    </part>
+    <part type="conn" code="I58">
+      <name>No. 9 Junction Connector</name>
+    </part>
+    <part type="conn" code="C96">
+      <text>SI IG+ SE</text>
+      <name>Speedometer Sensor</name>
+    </part>
+    <part type="conn" code="C93">
+      <text>VC E2 PIM</text>
+      <name>Vacuum Sensor</name>
+    </part>
+    <part type="conn" code="C94">
+      <text>+B VBAC</text>
+      <name>Vacuum Switching Valve Assembly (BACS)</name>
+    </part>
+    <part type="conn" code="C92">
+      <text>IG VEGR</text>
+      <name>Vacuum Switching Valve Assembly (EGR Cut)</name>
+    </part>
+    <part type="fuse" code="FUSE4">
+      <text>A/C</text>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>DOME NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE20">
+      <text>ECU IG</text>
+    </part>
+    <part type="fuse" code="FUSE6">
+      <text>ECU-B</text>
+    </part>
+    <part type="fuse" code="FUSE40">
+      <text>GLOW1</text>
+    </part>
+    <part type="fuse" code="FUSE39">
+      <text>HTR</text>
+    </part>
+    <part type="fuse" code="FUSE16">
+      <text>MET</text>
+    </part>
+    <part type="fuse" code="FUSE3">
+      <text>ST</text>
+    </part>
+  </ttl>
+</EWDSearch>

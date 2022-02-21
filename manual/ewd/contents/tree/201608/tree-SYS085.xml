@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS085" code="L11,L12" type="conn" figID="1">
+    <name>Cigarette Lighter Assembly</name>
+  </text>
+  <text ewd="SYS085" code="FUSE19" type="fuse" figID="8">
+    <name>15A CIG</name>
+  </text>
+  <text ewd="SYS085" code="LA" type="gp" figID="6">
+    <name />
+  </text>
+  <text ewd="SYS085" code="FUSE19" type="rb" figID="2">
+    <name>15A CIG</name>
+  </text>
+  <text ewd="SYS085" code="SP81" type="sp" figID="7">
+    <name />
+  </text>
+  <text ewd="SYS085" code="IL1" type="w2w" figID="5">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS085" code="IL5" type="w2w" figID="4">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+</EwdTree>

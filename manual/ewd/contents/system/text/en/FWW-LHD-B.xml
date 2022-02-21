@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25T2E" style="font-size:6px;font-family:'Arial'" ver="2.1.2.9">
+	<text textID="1">* 1 :w/ Wiper Lock Switch</text>
+	<text textID="2">* 2 :w/o Wiper Lock Switch</text>
+	<text textID="3">* 3 :w/ Intermittent</text>
+	<text textID="4">* 4 :w/o Intermittent</text>
+	<text textID="5">Front Washer Switch</text>
+	<text textID="6">Front Wiper Switch</text>
+	<text textID="7">No. 31 Junction Connector</text>
+	<text textID="8">OUT WIP1 Relay</text>
+	<text textID="9">OUT WIP2 Relay</text>
+	<text textID="10">Off</text>
+	<text textID="11">On</text>
+	<text textID="12">Windshield Washer Motor and Pump Assembly</text>
+	<text textID="13">Windshield Wiper Motor Assembly</text>
+	<text textID="14">Windshield Wiper Switch Assembly</text>
+	<text textID="15">Wiper Lock Switch (Limit Switch Assembly)</text>
+	<text textID="16">Wiper Relay</text>
+</texts>

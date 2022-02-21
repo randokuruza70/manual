@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25T2E" style="font-size:6px;font-family:'Arial'" ver="2.1.2.9">
+	<text textID="1">* 1 :Pick-Up Body Type</text>
+	<text textID="2">* 2 :Except Pick-Up Body Type</text>
+	<text textID="3">* 3 :w/ Trailer Socket</text>
+	<text textID="4">* 6 :w/o Trailer Socket</text>
+	<text textID="5">Combination Meter Assembly</text>
+	<text textID="6">Diode (Turn Signal Light LH)</text>
+	<text textID="7">Diode (Turn Signal Light RH)</text>
+	<text textID="8">FLSH2 Relay</text>
+	<text textID="9">FLSH Relay</text>
+	<text textID="10">Hazard Warning Signal Switch Assembly</text>
+	<text textID="11">Headlight Assembly LH</text>
+	<text textID="12">Headlight Assembly RH</text>
+	<text textID="13">Headlight Dimmer Switch Assembly</text>
+	<text textID="14">No. 1 Junction Connector</text>
+	<text textID="15">No. 8 Junction Connector</text>
+	<text textID="16">No. 13 Junction Connector</text>
+	<text textID="17">No. 31 Junction Connector</text>
+	<text textID="18">Rear Combination Light Assembly LH</text>
+	<text textID="19">Rear Combination Light Assembly RH</text>
+	<text textID="20">Turn</text>
+	<text textID="21">Turn LH</text>
+	<text textID="22">Turn RH</text>
+	<text textID="23">Turn Signal Flasher Assembly</text>
+	<text textID="24">Turn Switch</text>
+</texts>

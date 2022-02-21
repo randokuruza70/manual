@@ -1,0 +1,701 @@
+/*! All Rights Reserved. Copyright 2012 (C) TOYOTA  MOTOR  CORPORATION.
+Last Update: 2011/12/16
+Global Style Sheets:English */
+
+html {
+  overflow: auto;
+}
+
+html.noscrollbar {
+  overflow: hidden;
+}
+
+html,
+body,
+form {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+  height: 100%;
+}
+
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+caption,
+th,
+td,
+img,
+fieldset,
+legend,
+input,
+textarea,
+select,
+option,
+a {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  font-size: 14px;
+  font-family: "MS PGOTHIC",sans-serif;
+}
+
+sub,
+sup {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  line-height: 1;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -2px;
+}
+
+sup {
+  top: -4px;
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
+  list-style-position: outside;
+}
+
+table {
+  line-height: 13px;
+  border-collapse : collapse;
+}
+
+td {
+  vertical-align: top;
+}
+
+img {
+  border: none;
+}
+
+a {
+  color: #333333;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #333333;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #B30000;
+  text-decoration: underline;
+}
+
+input.button_style {
+  width: 115px;
+  height: 22px;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #333333;
+}
+
+input.button_style_disable {
+  color: #ACA899;
+  cursor: default;
+}
+
+input.deftxt {
+  color: #A0A0A0;
+}
+
+span.small,
+label.small,
+p.small,
+li.small,
+dt.small,
+dd.small,
+a.small {
+  font-size: 11px;
+  line-height: 13px;
+}
+
+span.smaller,
+label.smaller,
+p.smaller,
+li.smaller,
+dt.smaller,
+dd.smaller,
+a.smaller {
+  font-size: 10px;
+  line-height: 12px;
+}
+
+div.invisible,
+span.invisible,
+ul.invisible,
+li.invisible,
+tr.invisible,
+img.invisible,
+a.invisible {
+  display: none;
+}
+
+span.required {
+  color: #B30000;
+}
+
+tr.color_row_set1,
+div.color_row_set1 {
+  background-color: #FFFFFF;
+}
+
+tr.color_row_set2,
+div.color_row_set2 {
+  background-color: #DDDDDD;
+}
+
+td.number {
+  text-align: right;
+  color: #B30000;
+}
+
+td.date {
+  text-align: center;
+  color: #B30000;
+}
+
+input.input_error,
+textarea.input_error,
+select.input_error {
+  background-color: #FFDDDD;
+}
+
+div#wrapper {
+  position: relative;
+  margin: 0px 15px 0px 15px;
+  width: auto;
+  height: 100%;
+  color: #333333;
+}
+
+div#header {
+  width: 100%;
+}
+
+div#body {
+  clear: both;
+  width: 100%;
+}
+
+div#footer {
+  clear: both;
+  width: 100%;
+}
+
+div#header_head {
+  height: 30px;
+  border: 1px solid #A0A0A0;
+  border-width: 0px 0px 2px 0px;
+}
+
+div#banner {
+  float: left;
+}
+
+div#navigation {
+  float: right;
+  padding: 0px 0px 2px 0px;
+  height: 28px;
+  background: url(../img/png/navi_bg.png) no-repeat;
+}
+
+div#navigation p {
+  margin: 0px 0px 0px 15px;
+  padding: 0px 10px 0px 17px;
+  _padding: 8px 10px 0px 17px;
+  height: 28px;
+  _height: 20px;
+  line-height: 28px;
+  _line-height: 1;
+  background: url(../img/png/mtrx_bg.png) repeat-x;
+  color: #FFFFFF;
+}
+
+div#navigation a {
+  color: #FFFFFF;
+}
+
+div#navigation a:hover {
+  color: #B30000;
+}
+
+div#footer_message {
+  height: 20px;
+  line-height: 20px;
+  text-indent: 14px;
+  background: url(../img/png/cp_bg.png) repeat-x bottom left;
+  color: #FFFFFF;
+}
+
+h2.title {
+  width: 100%;
+  height: 26px;
+  line-height: 26px;
+  text-indent: 14px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  background: url(../img/png/mtrx_bg.png) repeat-x;
+  color: #FFFFFF;
+}
+
+div.list_head {
+  width: auto;
+  height: 26px;
+  background: url(../img/png/mtrx_bg.png) repeat-x;
+  color: #FFFFFF;
+}
+
+div.list_title {
+  float: left;
+  height: 26px;
+  line-height: 26px;
+  text-indent: 14px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+div.list_pager {
+  float: right;
+  padding: 2px 3px 0px 14px;
+  height: 22px;
+}
+
+ul.list_pager li {
+  float: left;
+}
+
+ul.list_pager li a {
+  display: block;
+}
+
+div.list_count {
+  float: right;
+  height: 26px;
+  line-height: 26px;
+}
+
+div#facebox {
+  color: #333333;
+}
+
+table#facebox_table {
+  position: relative;
+}
+
+input.dummy_focus {
+  position: absolute;
+  top: -999px;
+}
+
+div#fbx_system_error {
+  width: 870px;
+  height: 480px;
+  border: 1px solid #A0A0A0;
+  background-color: #F8F8F8;
+}
+
+div#fbx_system_error h2 {
+  text-align: center;
+  font-weight: normal;
+}
+
+div#fbx_system_error_text {
+  text-align: center;
+}
+
+div#fbx_system_error_stack {
+  margin: 0 auto;
+  width: 670px;
+  text-align: left;
+}
+
+div#fbx_index_search_contents {
+  width: 870px;
+  height: 480px;
+  border: 1px solid #A0A0A0;
+  background-color: #F8F8F8;
+}
+
+div#fbx_index_search_body {
+  margin: 10px 15px 0px 15px;
+  width: 840px;
+  height: 428px;
+}
+
+div#fbx_initial {
+  float: left;
+  width: 224px;
+  height: 428px;
+}
+
+ul#fbx_shift_initial li {
+  float: left;
+}
+
+ul#fbx_shift_initial li a {
+  display: block;
+  width: 112px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  text-decoration: none;
+  background: url(../img/png/index_tabs_default.png) no-repeat;
+  cursor: pointer;
+}
+
+ul#fbx_shift_initial li a:hover {
+  background: url(../img/png/index_tabs_selected.png) no-repeat;
+  color: #FFFFFF;
+}
+
+ul#fbx_shift_initial li a.selected {
+  background: url(../img/png/index_tabs_selected.png) no-repeat;
+  color: #FFFFFF;
+}
+
+ul#fbx_shift_initial li a.invisible {
+  display: none;
+}
+
+div#fbx_initial div.initial_list {
+  clear: left;
+  width: 222px;
+  height: 401px;
+  border: 1px solid #808080;
+  font-weight: bold;
+}
+
+div#fbx_initial div.alphabet,
+div#fbx_initial div.number,
+div#fbx_initial div.kana,
+div#fbx_initial div.deutsch {
+  margin: 9px 0px 0px 16px;
+}
+
+div#fbx_initial div.kanji {
+  margin: 18px 0px 0px 14px;
+}
+
+div#fbx_initial a.initial {
+  display: inline-block;
+  margin: 0px 4px 7px 4px;
+  width: 30px;
+  height: 15px;
+  line-height: 15px;
+  text-align: center;
+}
+
+div#fbx_initial div.kanji a.initial {
+  width: 48px;
+}
+
+div#fbx_initial a.selected {
+  background-color: #DDDDDD;
+}
+
+div#fbx_index_area {
+  float: left;
+  margin: 0px 0px 0px 15px;
+  width: 601px;
+  height: 428px;
+}
+
+div#fbx_index_area div.list_head {
+  height: 25px;
+}
+
+div#fbx_index_area div.list_title {
+  height: 25px;
+  line-height: 25px;
+  font-weight: normal;
+  letter-spacing: normal;
+}
+
+div#fbx_index_area div.list_count {
+  height: 25px;
+  line-height: 25px;
+}
+
+div#fbx_index_list {
+  clear: both;
+  width: 599px;
+  height: 401px;
+  border: 1px solid #808080;
+  background-color: #FFFFFF;
+  overflow: auto;
+  overflow-x: hidden;
+  cursor: default;
+}
+
+div#fbx_index_list div.article {
+  clear: both;
+  height: auto;
+  width: 100%;
+  float: left;
+  _float: none;
+}
+
+div#fbx_index_list div.semiarticle {
+  float: left;
+  width: 100%;
+}
+
+div#fbx_index_list div.selected {
+  background-color: #95B4DA;
+}
+
+div#fbx_index_list div.paragraph {
+  float: left;
+  padding: 4px 2px 3px 2px;
+  width: 442px;
+  word-break: break-all;
+}
+
+div#fbx_index_list div.articlecode {
+  float: left;
+  padding: 4px 2px 3px 2px;
+  width: 112px;
+  word-break: break-all;
+}
+
+div#fbx_index_search_foot {
+  clear: left;
+  margin: 10px 0px 0px 0px;
+  width: 855px;
+  height: 22px;
+  text-align: right;
+}
+
+div#fbx_index_search_foot input.button_style {
+  margin: 0px 0px 0px 10px;
+}
+
+div.gts_facebox {
+  position: absolute !important;
+  top: 55px !important;
+  left: 210px !important;
+}
+
+div#fbx_gts {
+  width: 398px;
+  height: 60px;
+  border: 1px solid #A0A0A0;
+  background-color: #F8F8F8;
+}
+
+div#fbx_gts div {
+  height: 20px;
+  line-height: 20px;
+  text-indent: 14px;
+}
+
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+caption,
+th,
+td,
+img,
+hr,
+fieldset,
+legend,
+input,
+textarea,
+select,
+option,
+a {
+  font-size: 11px;
+  font-family: "Verdana",sans-serif;
+}
+
+input.button_style {
+  font-size: 11px;
+  line-height: 13px;
+}
+
+span.small,
+label.small,
+p.small,
+li.small,
+dt.small,
+dd.small,
+a.small {
+  font-size: 11px;
+  line-height: 13px;
+}
+
+span.smaller,
+label.smaller,
+p.smaller,
+li.smaller,
+dt.smaller,
+dd.smaller,
+a.smaller {
+  font-size: 8px;
+  line-height: 10px;
+}
+
+div#footer_message {
+  text-indent: 8px;
+}
+
+h2.title {
+  text-indent: 11px;
+  letter-spacing: 1px;
+}
+
+div.list_title {
+  text-indent: 11px;
+  letter-spacing: 1px;
+}
+
+div#navigation p {
+  margin: 0px 0px 0px 13px;
+  padding: 0px 10px 0px 13px;
+  _padding: 8px 10px 0px 13px;
+}
+
+table#facebox_table td#facebox_name {
+  letter-spacing: 2px;
+}
+
+div#fbx_search_option {
+  width: 512px;
+  height: 518px;
+  border: 1px solid #A0A0A0;
+  background-color: #F8F8F8;
+}
+
+div#fbx_search_option_body {
+  padding: 15px 15px 0px 15px;
+  width: 482px;
+  height: 461px;
+}
+
+div#fbx_search_option_foot {
+  margin: 10px 0px 0px 0px;
+  padding: 0px 15px 0px 15px;
+  width: 482px;
+  height: 22px;
+}
+
+div#fbx_manRmOpt,
+div#fbx_manNcfOpt,
+div#fbx_manEwdOpt,
+div#fbx_manBrmOpt,
+div#fbx_manOmOpt,
+div#fbx_manWelOpt,
+div#fbx_manResOpt,
+div#fbx_manErgOpt,
+div#fbx_manDmOpt {
+  margin: 0px 0px 0px 11px;
+}
+
+input#fbx_manRmChk,
+input#fbx_manRmNoCatChk,
+input#fbx_manNcfChk,
+input#fbx_manEwdChk,
+input#fbx_manBrmChk,
+input#fbx_manOmChk,
+input#fbx_manWelChk,
+input#fbx_manResChk,
+input#fbx_manErgChk,
+input#fbx_manDmChk {
+  margin: 4px 3px 3px 4px;
+  _margin: 0px 0px 0px 0px;
+}
+
+div#fbx_search_option_body fieldset {
+  margin: 0px 0px 15px 0px;
+  padding: 0px 0px 10px 0px;
+  border: 1px solid #A0A0A0;
+}
+
+div#fbx_search_option_body fieldset legend {
+  margin: 0px 0px 0px 5px;
+  _margin: 0px 0px 0px 0px;
+  padding: 0px 5px 0px 5px;
+  _padding: 0px 5px 0px 3px;
+  color: #333333;
+}
+
+div#fbx_search_option_body fieldset div {
+  margin: 0px 0px 0px 39px;
+}
+
+div#fbx_search_option_body div.chkBoxRoot {
+  margin: 0px 0px 0px 0px;
+}
+
+div#fbx_search_option_body div.chkBoxRoot span {
+  position: relative;
+  top: -2px;
+  _top: -1px;
+}
+
+div#fbx_search_option_body fieldset div#fbx_allOpt {
+  padding: 1px 0px 0px 0px;
+  margin: 0px 0px 0px 25px;
+}
+
+div#fbx_search_option_body fieldset input {
+  margin: 4px 3px 3px 4px;
+  _margin: 0px 0px 0px 0px;
+}
+
+input#fbx_resetBtn {
+  float: left;
+}
+
+div#fbx_search_option_foot div {
+  float: right;
+  text-align: right;
+}
+
+div#fbx_search_option_foot div input {
+  margin: 0px 0px 0px 10px;
+}
+
+ul.list_pager img{
+ display: block;
+}

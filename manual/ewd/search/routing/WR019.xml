@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="WR019">
+    <part type="conn" code="P7">
+      <name>Door Control Relay Assembly</name>
+    </part>
+    <part type="conn" code="P6">
+      <name>Door Control Switch</name>
+    </part>
+    <part type="conn" code="P4">
+      <name>Front Door Lock Actuator Assembly LH</name>
+    </part>
+    <part type="conn" code="P3">
+      <name>Front Door Lock Actuator Assembly LH</name>
+    </part>
+    <part type="conn" code="O3">
+      <name>Front Door Lock Actuator Assembly RH</name>
+    </part>
+    <part type="conn" code="P2">
+      <name>Front Power Window Regulator Motor Assembly LH</name>
+    </part>
+    <part type="conn" code="O2">
+      <name>Front Power Window Regulator Motor Assembly RH</name>
+    </part>
+    <part type="conn" code="O10">
+      <name>Front Power Window Regulator Switch Assembly RH</name>
+    </part>
+    <part type="conn" code="P10">
+      <name>Power Window Regulator Master Switch Assembly</name>
+    </part>
+  </ttl>
+</EWDSearch>

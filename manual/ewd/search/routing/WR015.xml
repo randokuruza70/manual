@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="WR015">
+    <part type="conn" code="P7">
+      <name>Door Control Relay Assembly</name>
+    </part>
+    <part type="conn" code="P6">
+      <name>Door Control Switch</name>
+    </part>
+    <part type="conn" code="S4">
+      <name>Front Door Courtesy Light Switch Assembly RH</name>
+    </part>
+    <part type="conn" code="P3">
+      <name>Front Door Lock Actuator Assembly LH</name>
+    </part>
+    <part type="conn" code="P4">
+      <name>Front Door Lock Actuator Assembly LH</name>
+    </part>
+    <part type="conn" code="O3">
+      <name>Front Door Lock Actuator Assembly RH</name>
+    </part>
+    <part type="conn" code="P2">
+      <name>Front Power Window Regulator Motor Assembly LH</name>
+    </part>
+    <part type="conn" code="O2">
+      <name>Front Power Window Regulator Motor Assembly RH</name>
+    </part>
+    <part type="conn" code="O10">
+      <name>Front Power Window Regulator Switch Assembly RH</name>
+    </part>
+    <part type="conn" code="O11">
+      <name>Front Power Window Regulator Switch Assembly RH</name>
+    </part>
+    <part type="conn" code="S2">
+      <name>Front Seat Inner Belt Assembly LH</name>
+    </part>
+    <part type="conn" code="T3">
+      <name>Fuel Pump</name>
+    </part>
+    <part type="conn" code="T4">
+      <name>Fuel Sender Gage Assembly (Rear)</name>
+    </part>
+    <part type="conn" code="S15">
+      <name>Parking Brake Switch Assembly</name>
+    </part>
+    <part type="conn" code="S3">
+      <name>Parking Brake Switch Assembly</name>
+    </part>
+    <part type="conn" code="P10">
+      <name>Power Window Regulator Master Switch Assembly</name>
+    </part>
+    <part type="conn" code="T7">
+      <name>Rear Combination Light Assembly LH</name>
+    </part>
+    <part type="conn" code="T5">
+      <name>Rear Combination Light Assembly LH</name>
+    </part>
+    <part type="conn" code="T1">
+      <name>Rear Combination Light Assembly RH</name>
+    </part>
+    <part type="conn" code="T6">
+      <name>Rear Combination Light Assembly RH</name>
+    </part>
+    <part type="conn" code="S5">
+      <name>Rear Heater Blower Resistor</name>
+    </part>
+    <part type="conn" code="S11">
+      <name>Rear Washer Motor Assembly</name>
+    </part>
+    <part type="conn" code="S9">
+      <name>Rear Wiper Relay Assembly</name>
+    </part>
+    <part type="conn" code="T10">
+      <name>Trailer Socket</name>
+    </part>
+  </ttl>
+</EWDSearch>

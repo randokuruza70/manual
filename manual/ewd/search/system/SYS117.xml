@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS117">
+    <part type="conn" code="b3">
+      <name>Back Door Courtesy Light Switch Assembly</name>
+    </part>
+    <part type="conn" code="b1">
+      <text>M</text>
+      <name>Back Door Lock Assembly</name>
+    </part>
+    <part type="conn" code="L50">
+      <text>I/F LL LR B HZSW</text>
+      <name>Combination Meter Assembly</name>
+      <name type="inner">Flasher Circuit</name>
+      <name type="inner">Turn LH</name>
+      <name type="inner">Turn RH</name>
+    </part>
+    <part type="conn" code="I20">
+      <name>Diode (Door Courtesy)</name>
+    </part>
+    <part type="conn" code="L31">
+      <text>ALTB B ACT- IG DCTY HAZ E UL1 L1 LSWD ACT+</text>
+      <name>Door Control ECU with Receiver Assembly</name>
+    </part>
+    <part type="conn" code="O14">
+      <text>UL L E</text>
+      <name>Door Control Switch</name>
+      <name type="inner">Key Unlock</name>
+      <name type="inner">Key Lock</name>
+    </part>
+    <part type="conn" code="L46">
+      <text>E L UL</text>
+      <name>Door Control Switch Assembly</name>
+      <name type="inner">Unlock</name>
+      <name type="inner">Lock</name>
+    </part>
+    <part type="conn" code="S6,S29">
+      <name>Front Door Courtesy Light Switch Assembly LH</name>
+    </part>
+    <part type="conn" code="U1">
+      <name>Front Door Courtesy Light Switch Assembly LH</name>
+    </part>
+    <part type="conn" code="S4,S20">
+      <name>Front Door Courtesy Light Switch Assembly RH</name>
+    </part>
+    <part type="conn" code="P3">
+      <text>M</text>
+      <name>Front Door Lock Actuator Assembly LH</name>
+    </part>
+    <part type="conn" code="O7">
+      <text>E L UL M LSSR</text>
+      <name>Front Door Lock Actuator Assembly RH</name>
+      <name type="inner">Key Unlock</name>
+      <name type="inner">Key Lock</name>
+      <name type="inner">Unlock Detection</name>
+    </part>
+    <part type="conn" code="O4">
+      <text>M E UL L LSSR</text>
+      <name>Front Door Lock Actuator Assembly RH</name>
+      <name type="inner">Unlock Detection</name>
+    </part>
+    <part type="conn" code="I61">
+      <name>No. 11 Junction Connector</name>
+    </part>
+    <part type="conn" code="I108">
+      <name>No. 13 Junction Connector</name>
+    </part>
+    <part type="conn" code="L32">
+      <name>No. 24 Junction Connector</name>
+    </part>
+    <part type="conn" code="L53">
+      <name>No. 31 Junction Connector</name>
+    </part>
+    <part type="conn" code="I110">
+      <name>No. 33 Junction Connector</name>
+    </part>
+    <part type="conn" code="I93">
+      <name>No. 5 Junction Connector</name>
+    </part>
+    <part type="conn" code="I105">
+      <name>No. 8 Junction Connector</name>
+    </part>
+    <part type="conn" code="O8">
+      <text>UL L E</text>
+      <name>Power Window Regulator Master Switch Assembly</name>
+      <name type="inner">Door Lock Control Switch</name>
+      <name type="inner">Unlock</name>
+      <name type="inner">Lock</name>
+    </part>
+    <part type="conn" code="O9">
+      <text>UL L E</text>
+      <name>Power Window Regulator Master Switch Assembly</name>
+      <name type="inner">Door Lock Control Switch</name>
+      <name type="inner">Unlock</name>
+      <name type="inner">Lock</name>
+    </part>
+    <part type="conn" code="U2,U3">
+      <name>Rear Door Courtesy Light Switch Assembly LH</name>
+    </part>
+    <part type="conn" code="S13,S16">
+      <name>Rear Door Courtesy Light Switch Assembly RH</name>
+    </part>
+    <part type="conn" code="Q2">
+      <text>M</text>
+      <name>Rear Door Lock Actuator Assembly LH</name>
+    </part>
+    <part type="conn" code="R2">
+      <text>M</text>
+      <name>Rear Door Lock Actuator Assembly RH</name>
+    </part>
+    <part type="fuse" code="FUSE31">
+      <text>DOOR</text>
+    </part>
+    <part type="fuse" code="FUSE20">
+      <text>ECU IG</text>
+    </part>
+    <part type="fuse" code="FUSE6">
+      <text>ECU-B</text>
+    </part>
+    <part type="fuse" code="FUSE51">
+      <text>TURN&amp;HAZ</text>
+    </part>
+  </ttl>
+</EWDSearch>

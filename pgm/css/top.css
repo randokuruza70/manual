@@ -1,0 +1,294 @@
+/*! All Rights Reserved. Copyright 2012 (C) TOYOTA  MOTOR  CORPORATION.
+Last Update: 2011/12/16 */
+
+html {
+  overflow-x: hidden;
+}
+
+div#header {
+  height: 32px;
+}
+
+div#banner img {
+  margin: 3px 0px 1px 0px;
+}
+
+div#navigation p {
+  width: 190px;
+}
+
+div#contents {
+  margin: 10px 0px 0px 0px;
+  width: 100%;
+  height: auto;
+}
+
+div#left_contents {
+  float: left;
+  padding: 0px 0px 10px 0px;
+  width: 325px;
+  height: auto;
+}
+
+div#right_contents {
+  float: right;
+  margin: 0px 0px 0px -325px;
+  padding: 0px 0px 10px 0px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+div#car_info {
+  width: 308px;
+  height: auto;
+  border: 1px solid #A0A0A0;
+}
+
+div#car_info div.car_info_body {
+  padding: 10px 10px 5px 10px;
+}
+
+div#car_info div.car_info_line {
+  clear: both;
+  width: 100%;
+  height: 20px;
+  padding: 5px 0px 0px 0px;
+}
+
+div#car_info label.car_info_title {
+  display: block;
+  float: left;
+  width: 95px;
+  height: 20px;
+  text-indent: 15px;
+  line-height: 20px;
+}
+
+div#car_info div.car_info_value {
+  float: left;
+  width: 193px;
+  line-height: 20px;
+  word-break: break-all;
+}
+
+div#car_info div#car_name_list {
+  width: 191px;
+  height: 40px;
+  border: 1px solid #A0A0A0;
+  overflow: auto;
+  overflow-x: hidden;
+  word-break: break-all;
+}
+
+div#car_info div#model_type_list {
+  width: 191px;
+  height: 60px;
+  border: 1px solid #A0A0A0;
+  overflow: auto;
+  overflow-x: hidden;
+  word-break: break-all;
+}
+
+div#car_info select.car_info_value {
+  float: left;
+  width: 193px;
+  height: 20px;
+  border: 1px solid #7F9DB9;
+}
+
+div#car_info div.car_info_button {
+  clear: both;
+  padding: 5px 0px 0px 0px;
+  text-align: right;
+}
+
+div#car_info div.car_info_button input.button_style {
+  width: 195px;
+}
+
+div#car_info div.search_area_title {
+  margin: -25px 0px 0px 5px;
+  padding: 0px 14px 0px 14px;
+  width: 28px;
+  height: 25px;
+  border: 1px solid #A0A0A0;
+  border-width: 1px 1px 0px 1px;
+  line-height: 25px;
+  background: url(../img/png/mtrx_bg.png) repeat-x;
+  color: #FFFFFF;
+}
+
+div#car_info div.search_area_body {
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #A0A0A0;
+  border-width: 1px 0px 0px 0px;
+}
+
+div#car_info div.search_input {
+  float: left;
+  width: 286px;
+  height: 18px;
+  border: 1px solid #585858;
+}
+
+div#car_info div.index_search_btn {
+  float: left;
+  padding: 1px 1px 1px 1px;
+  width: 16px;
+  height: 16px;
+}
+
+div#car_info div.index_search_btn a {
+  display: block;
+}
+
+div#car_info div.index_search_btn a img {
+  display: block;
+}
+
+input#keyword {
+  float: left;
+  width: 268px;
+  height: 18px;
+  border-width: 0px 0px 0px 0px;
+  line-height: 18px;
+}
+
+div#car_info div.search_buttons {
+  clear: both;
+  padding: 10px 0px 0px 0px;
+  text-align: right;
+}
+
+div#car_info div.search_buttons input.button_style {
+  width: 195px;
+}
+
+div#image_contents {
+  margin: 0px 0px 3px 325px;
+  width: auto;
+  height: 315px;
+  background-color: #F7F9F9;
+}
+
+div#manual_info {
+  margin: 0px 0px 0px 325px;
+  width: auto;
+  height: 166px;
+  border: 1px solid #A0A0A0;
+}
+
+div#release_date {
+  float: right;
+  padding: 0px 14px 0px 0px;
+  height: 26px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+table#manual_info_table {
+  width: 100%;
+  height: auto;
+}
+
+table#manual_info_table col.manual_name {
+  width: 100%;
+}
+
+table#manual_info_table tbody td {
+  word-break: break-all;
+}
+
+table#manual_info_table tbody td.manual_name {
+  padding: 4px 15px 3px 15px;
+}
+
+div#fbx_readme {
+  width: 870px;
+  height: 480px;
+  border: 1px solid #A0A0A0;
+  background-color: #F8F8F8;
+}
+
+div#fbx_readme_body {
+  margin: 10px 28px 10px 28px;
+}
+
+div#fbx_readme_body h2 {
+  margin: 0px 0px 10px 0px;
+  font-weight: normal;
+}
+
+div#fbx_readme_body div.readme_text {
+  margin: 0px 0px 10px 0px;
+  width: auto;
+  height: 400px;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+div#fbx_readme_body div.readme_text ol {
+  margin: 0px 0px 0px 28px;
+}
+
+div#fbx_readme_body div.readme_text ol li {
+  list-style-type: decimal;
+}
+
+div#fbx_readme_body div.readme_text ul {
+  margin: 0px 0px 0px 14px;
+}
+
+div#fbx_readme_body div.readme_text ul li {
+  list-style-type: disc;
+}
+
+div#fbx_readme_foot {
+  text-align: center;
+}
+
+div#fbx_readme_foot input.button_style {
+  margin: 0px 10px 0px 0px;
+}
+
+div#navigation p {
+  width: 118px;
+}
+
+div#car_info div.car_info_line{
+  clear: both;
+  width: 100%;
+  height: 0px;
+  _margin: 5px 0px 0px 0px;
+  _padding: 0px 0px 0px 0px;
+}
+
+div#car_info label.car_info_title {
+  width: 135px;
+  text-indent: 12px;
+  line-height: 13px;
+}
+
+div#car_info div.car_info_value {
+  width: 153px;
+  line-height: 13px;
+}
+
+div#car_info div#car_name_list {
+  width: 151px;
+  height: 28px;
+}
+
+div#car_info div#model_type_list {
+  width: 151px;
+  height: 42px;
+}
+
+div#car_info select.car_info_value {
+  width: 153px;
+}
+
+div#car_info div.search_area_title {
+  width: 40px;
+}

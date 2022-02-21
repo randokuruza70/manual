@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- #  DTD VERSION 1.5  UPDATE May. 22, 2013    -->
+<!ELEMENT tmc-service-tool-wn-comment (message+)>
+<!ELEMENT message (start-date, end-date, message-ja, message-en, message-de, message-fr, message-es)>
+<!ELEMENT start-date (#PCDATA)>
+<!ELEMENT end-date (#PCDATA)>
+<!ELEMENT message-ja (#PCDATA)>
+<!ELEMENT message-en (#PCDATA)>
+<!ELEMENT message-de (#PCDATA)>
+<!ELEMENT message-fr (#PCDATA)>
+<!ELEMENT message-es (#PCDATA)>

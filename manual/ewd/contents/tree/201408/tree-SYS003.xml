@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS003" code="L13" type="conn" figID="10">
+    <name>Antenna Switch Assembly</name>
+  </text>
+  <text ewd="SYS003" code="A10" type="conn" figID="11">
+    <name>Antenna with Holder Assembly</name>
+  </text>
+  <text ewd="SYS003" code="I49" type="conn" figID="7">
+    <name>Motor Antenna Control Relay</name>
+  </text>
+  <text ewd="SYS003" code="I61,I72" type="conn" figID="6">
+    <name>No. 11 Junction Connector , No. 21 Junction Connector</name>
+  </text>
+  <text ewd="SYS003" code="I63,I65" type="conn" figID="4">
+    <name>No. 13 Junction Connector</name>
+  </text>
+  <text ewd="SYS003" code="I69" type="conn" figID="5">
+    <name>No. 18 Junction Connector</name>
+  </text>
+  <text ewd="SYS003" code="L34,L35" type="conn" figID="13">
+    <name>No. 26 Junction Connector , No. 27 Junction Connector</name>
+  </text>
+  <text ewd="SYS003" code="I54" type="conn" figID="12">
+    <name>No. 5 Junction Connector</name>
+  </text>
+  <text ewd="SYS003" code="I55" type="conn" figID="8">
+    <name>No. 6 Junction Connector</name>
+  </text>
+  <text ewd="SYS003" code="I57" type="conn" figID="9">
+    <name>No. 8 Junction Connector</name>
+  </text>
+  <text ewd="SYS003" code="L2" type="conn" figID="14">
+    <name>Radio Receiver Assembly</name>
+  </text>
+  <text ewd="SYS003" code="FUSE6" type="fuse" figID="50">
+    <name>10A ECU-B</name>
+  </text>
+  <text ewd="SYS003" code="FUSE20" type="fuse" figID="51">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS003" code="FUSE1" type="fuse" figID="49">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS003" code="IA" type="gp" figID="41">
+    <name />
+  </text>
+  <text ewd="SYS003" code="IE" type="gp" figID="39">
+    <name />
+  </text>
+  <text ewd="SYS003" code="IG" type="gp" figID="40">
+    <name />
+  </text>
+  <text ewd="SYS003" code="LA" type="gp" figID="42">
+    <name />
+  </text>
+  <text ewd="SYS003" code="FUSE6" type="rb" figID="2">
+    <name>10A ECU-B</name>
+  </text>
+  <text ewd="SYS003" code="FUSE20" type="rb" figID="3">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS003" code="FUSE1" type="rb" figID="1">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS003" code="SP44" type="sp" figID="47">
+    <name />
+  </text>
+  <text ewd="SYS003" code="SP54" type="sp" figID="44">
+    <name />
+  </text>
+  <text ewd="SYS003" code="SP76" type="sp" figID="43">
+    <name />
+  </text>
+  <text ewd="SYS003" code="SP81" type="sp" figID="48">
+    <name />
+  </text>
+  <text ewd="SYS003" code="SP126" type="sp" figID="45">
+    <name />
+  </text>
+  <text ewd="SYS003" code="SP127" type="sp" figID="46">
+    <name />
+  </text>
+  <text ewd="SYS003" code="IL1" type="w2w" figID="33,37,38">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS003" code="AI3" type="w2w" figID="18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,34,35,36">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+</EwdTree>

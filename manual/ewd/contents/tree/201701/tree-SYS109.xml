@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS109" code="I108,I109" type="conn" figID="6">
+    <name>No. 13 Junction Connector</name>
+  </text>
+  <text ewd="SYS109" code="I95" type="conn" figID="5">
+    <name>No. 18 Junction Connector</name>
+  </text>
+  <text ewd="SYS109" code="I97" type="conn" figID="10">
+    <name>No. 32 Junction Connector</name>
+  </text>
+  <text ewd="SYS109" code="I105" type="conn" figID="4">
+    <name>No. 8 Junction Connector</name>
+  </text>
+  <text ewd="SYS109" code="S5" type="conn" figID="9">
+    <name>Rear Heater Blower Resistor</name>
+  </text>
+  <text ewd="SYS109" code="I14" type="conn" figID="3">
+    <name>Rear Heater Blower Switch</name>
+  </text>
+  <text ewd="SYS109" code="S10" type="conn" figID="8">
+    <name>Rear Heater Blower Switch</name>
+  </text>
+  <text ewd="SYS109" code="FUSE6" type="fuse" figID="27">
+    <name>10A ECU-B</name>
+  </text>
+  <text ewd="SYS109" code="FUSE23" type="fuse" figID="28">
+    <name>15A GAUGE</name>
+  </text>
+  <text ewd="SYS109" code="IA" type="gp" figID="22">
+    <name />
+  </text>
+  <text ewd="SYS109" code="TA" type="gp" figID="20">
+    <name />
+  </text>
+  <text ewd="SYS109" code="TB" type="gp" figID="21">
+    <name />
+  </text>
+  <text ewd="SYS109" code="2" type="rb" figID="7">
+    <name />
+  </text>
+  <text ewd="SYS109" code="FUSE6" type="rb" figID="2">
+    <name>10A ECU-B</name>
+  </text>
+  <text ewd="SYS109" code="FUSE23" type="rb" figID="1">
+    <name>15A GAUGE</name>
+  </text>
+  <text ewd="SYS109" code="SP65" type="sp" figID="26">
+    <name />
+  </text>
+  <text ewd="SYS109" code="SP69" type="sp" figID="23">
+    <name />
+  </text>
+  <text ewd="SYS109" code="SP100" type="sp" figID="24">
+    <name />
+  </text>
+  <text ewd="SYS109" code="SP107" type="sp" figID="25">
+    <name />
+  </text>
+  <text ewd="SYS109" code="IS2" type="w2w" figID="14,18,19">
+    <name>Cowl Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS109" code="IS3" type="w2w" figID="15">
+    <name>Cowl Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS109" code="TS2" type="w2w" figID="16,17">
+    <name>No. 2 Floor Wire and Floor Wire</name>
+  </text>
+</EwdTree>

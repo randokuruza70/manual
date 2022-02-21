@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="WR008">
+    <part type="conn" code="C32">
+      <name>Back-Up Light Switch Assembly</name>
+    </part>
+    <part type="conn" code="C68">
+      <name>Cam Position Sensor</name>
+    </part>
+    <part type="conn" code="C35">
+      <name>Center Differential Lock Indicator Switch (No. 1 Transfer Indicator Switch)</name>
+    </part>
+    <part type="conn" code="C42">
+      <name>Crank Position Sensor</name>
+    </part>
+    <part type="conn" code="C69">
+      <name>Diesel Engine Coolant Temperature Sensor</name>
+    </part>
+    <part type="conn" code="C58">
+      <name>Diesel Throttle Body Assembly (Bank 1)</name>
+    </part>
+    <part type="conn" code="C50">
+      <name>Diesel Throttle Body Assembly (Bank 1)</name>
+    </part>
+    <part type="conn" code="C65">
+      <name>Diesel Throttle Body Assembly (Bank 2)</name>
+    </part>
+    <part type="conn" code="C61">
+      <name>Diesel Throttle Body Assembly (Bank 2)</name>
+    </part>
+    <part type="conn" code="C39">
+      <text>ECM</text>
+    </part>
+    <part type="conn" code="C30">
+      <name>Engine Oil Pressure Switch Assembly</name>
+    </part>
+    <part type="conn" code="C43">
+      <name>Generator Assembly</name>
+    </part>
+    <part type="conn" code="C44">
+      <name>Generator Assembly</name>
+    </part>
+    <part type="conn" code="C45">
+      <name>Glow Plug Assembly No. 1</name>
+    </part>
+    <part type="conn" code="C62">
+      <name>Glow Plug Assembly No. 2</name>
+    </part>
+    <part type="conn" code="C48">
+      <name>Injector Assembly No. 1</name>
+    </part>
+    <part type="conn" code="C67">
+      <name>Injector Assembly No. 2</name>
+    </part>
+    <part type="conn" code="C49">
+      <name>Injector Assembly No. 3</name>
+    </part>
+    <part type="conn" code="C51">
+      <name>Injector Assembly No. 5</name>
+    </part>
+    <part type="conn" code="C64">
+      <name>Injector Assembly No. 6</name>
+    </part>
+    <part type="conn" code="C57">
+      <name>Injector Assembly No. 7</name>
+    </part>
+    <part type="conn" code="C63">
+      <name>Injector Assembly No. 8</name>
+    </part>
+    <part type="conn" code="C55">
+      <name>Injector Driver (EDU) (No. 1)</name>
+    </part>
+    <part type="conn" code="C54">
+      <name>Injector Driver (EDU) (No. 1)</name>
+    </part>
+    <part type="conn" code="C52">
+      <name>Injector Driver (EDU) (No. 2)</name>
+    </part>
+    <part type="conn" code="C53">
+      <name>Injector Driver (EDU) (No. 2)</name>
+    </part>
+    <part type="conn" code="C60">
+      <name>Intake Air Temperature Sensor</name>
+    </part>
+    <part type="conn" code="C41">
+      <name>Intake Mass Air Flow Meter Sub-Assembly</name>
+    </part>
+    <part type="conn" code="C23">
+      <name>Magnet Clutch Assembly</name>
+    </part>
+    <part type="conn" code="C74">
+      <name>Oil Pressure Sender Gage Assembly</name>
+    </part>
+    <part type="conn" code="C28">
+      <name>Power Steering Oil Pressure Switch</name>
+    </part>
+    <part type="conn" code="C36">
+      <name>Transfer L4 Position Switch (No. 1 Transfer Indicator Switch)</name>
+    </part>
+  </ttl>
+</EWDSearch>

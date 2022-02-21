@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS070" code="A7" type="conn" figID="1">
+    <name>Headlight Assembly LH</name>
+  </text>
+  <text ewd="SYS070" code="I40" type="conn" figID="2">
+    <name>Headlight Assembly RH</name>
+  </text>
+  <text ewd="SYS070" code="L24" type="conn" figID="22">
+    <name>Headlight Dimmer Switch Assembly</name>
+  </text>
+  <text ewd="SYS070" code="b4" type="conn" figID="15">
+    <name>License Plate Light Assembly</name>
+  </text>
+  <text ewd="SYS070" code="e1" type="conn" figID="16">
+    <name>License Plate Light Assembly</name>
+  </text>
+  <text ewd="SYS070" code="T15" type="conn" figID="11">
+    <name>License Plate Light Assembly LH</name>
+  </text>
+  <text ewd="SYS070" code="T16" type="conn" figID="6">
+    <name>License Plate Light Assembly LH</name>
+  </text>
+  <text ewd="SYS070" code="T12" type="conn" figID="12">
+    <name>License Plate Light Assembly RH</name>
+  </text>
+  <text ewd="SYS070" code="T13" type="conn" figID="14">
+    <name>License Plate Light Assembly RH</name>
+  </text>
+  <text ewd="SYS070" code="A22" type="conn" figID="17">
+    <name>No. 1 Junction Connector</name>
+  </text>
+  <text ewd="SYS070" code="L39" type="conn" figID="13">
+    <name>No. 31 Junction Connector</name>
+  </text>
+  <text ewd="SYS070" code="I55" type="conn" figID="3">
+    <name>No. 6 Junction Connector</name>
+  </text>
+  <text ewd="SYS070" code="I58" type="conn" figID="4">
+    <name>No. 9 Junction Connector</name>
+  </text>
+  <text ewd="SYS070" code="T5" type="conn" figID="18">
+    <name>Rear Combination Light Assembly LH</name>
+  </text>
+  <text ewd="SYS070" code="T7" type="conn" figID="20">
+    <name>Rear Combination Light Assembly LH</name>
+  </text>
+  <text ewd="SYS070" code="T17" type="conn" figID="9">
+    <name>Rear Combination Light Assembly LH</name>
+  </text>
+  <text ewd="SYS070" code="T1" type="conn" figID="19">
+    <name>Rear Combination Light Assembly RH</name>
+  </text>
+  <text ewd="SYS070" code="T6" type="conn" figID="21">
+    <name>Rear Combination Light Assembly RH</name>
+  </text>
+  <text ewd="SYS070" code="T14" type="conn" figID="10">
+    <name>Rear Combination Light Assembly RH</name>
+  </text>
+  <text ewd="SYS070" code="FUSE18" type="fuse" figID="67">
+    <name>10A TAIL</name>
+  </text>
+  <text ewd="SYS070" code="FUSE57" type="fuse" figID="66">
+    <name>50A MAIN1</name>
+  </text>
+  <text ewd="SYS070" code="AA" type="gp" figID="40">
+    <name />
+  </text>
+  <text ewd="SYS070" code="IE" type="gp" figID="38">
+    <name />
+  </text>
+  <text ewd="SYS070" code="IG" type="gp" figID="39">
+    <name />
+  </text>
+  <text ewd="SYS070" code="LA" type="gp" figID="37">
+    <name />
+  </text>
+  <text ewd="SYS070" code="LB" type="gp" figID="36">
+    <name />
+  </text>
+  <text ewd="SYS070" code="TA" type="gp" figID="43">
+    <name />
+  </text>
+  <text ewd="SYS070" code="TB" type="gp" figID="42">
+    <name />
+  </text>
+  <text ewd="SYS070" code="TC" type="gp" figID="41">
+    <name />
+  </text>
+  <text ewd="SYS070" code="2" type="rb" figID="8">
+    <name />
+  </text>
+  <text ewd="SYS070" code="FUSE18" type="rb" figID="7">
+    <name>10A TAIL</name>
+  </text>
+  <text ewd="SYS070" code="FUSE57" type="rb" figID="5">
+    <name>50A MAIN1</name>
+  </text>
+  <text ewd="SYS070" code="SP45" type="sp" figID="48,49">
+    <name />
+  </text>
+  <text ewd="SYS070" code="SP64" type="sp" figID="47">
+    <name />
+  </text>
+  <text ewd="SYS070" code="SP71" type="sp" figID="44">
+    <name />
+  </text>
+  <text ewd="SYS070" code="SP75" type="sp" figID="46">
+    <name />
+  </text>
+  <text ewd="SYS070" code="SP82" type="sp" figID="45">
+    <name />
+  </text>
+  <text ewd="SYS070" code="SP106" type="sp" figID="51,53,55,57,61">
+    <name />
+  </text>
+  <text ewd="SYS070" code="SP107" type="sp" figID="63">
+    <name />
+  </text>
+  <text ewd="SYS070" code="SP110" type="sp" figID="50,52,54,56,58,60,62,64,65">
+    <name />
+  </text>
+  <text ewd="SYS070" code="SP119" type="sp" figID="59">
+    <name />
+  </text>
+  <text ewd="SYS070" code="IS1" type="w2w" figID="29">
+    <name>Cowl Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS070" code="IL2" type="w2w" figID="27">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS070" code="AI1" type="w2w" figID="26">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS070" code="AI3" type="w2w" figID="28">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS070" code="ST2" type="w2w" figID="30">
+    <name>Floor Wire and No. 2 Floor Wire</name>
+  </text>
+  <text ewd="SYS070" code="bT1" type="w2w" figID="32,35">
+    <name>No. 2 Back Door Wire and No. 2 Floor Wire</name>
+  </text>
+  <text ewd="SYS070" code="TS2" type="w2w" figID="31">
+    <name>No. 2 Floor Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS070" code="eb2" type="w2w" figID="33,34">
+    <name>No. 3 Back Door Wire and No. 2 Back Door Wire</name>
+  </text>
+</EwdTree>

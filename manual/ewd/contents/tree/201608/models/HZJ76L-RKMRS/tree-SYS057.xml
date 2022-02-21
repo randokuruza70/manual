@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS057" code="L25" type="conn" figID="7">
+    <name>Combination Meter Assembly</name>
+  </text>
+  <text ewd="SYS057" code="S6" type="conn" figID="4">
+    <name>Front Door Courtesy Light Switch Assembly LH</name>
+  </text>
+  <text ewd="SYS057" code="U1" type="conn" figID="5">
+    <name>Front Door Courtesy Light Switch Assembly LH</name>
+  </text>
+  <text ewd="SYS057" code="S4" type="conn" figID="6">
+    <name>Front Door Courtesy Light Switch Assembly RH</name>
+  </text>
+  <text ewd="SYS057" code="L24" type="conn" figID="16">
+    <name>Headlight Dimmer Switch Assembly</name>
+  </text>
+  <text ewd="SYS057" code="I61" type="conn" figID="3">
+    <name>No. 11 Junction Connector</name>
+  </text>
+  <text ewd="SYS057" code="I61,I72" type="conn" figID="13">
+    <name>No. 11 Junction Connector , No. 21 Junction Connector</name>
+  </text>
+  <text ewd="SYS057" code="I67" type="conn" figID="2">
+    <name>No. 16 Junction Connector</name>
+  </text>
+  <text ewd="SYS057" code="L35,L36" type="conn" figID="1">
+    <name>No. 27 Junction Connector , No. 28 Junction Connector</name>
+  </text>
+  <text ewd="SYS057" code="L52" type="conn" figID="8">
+    <name>No. 30 Junction Connector</name>
+  </text>
+  <text ewd="SYS057" code="L53" type="conn" figID="17">
+    <name>No. 31 Junction Connector</name>
+  </text>
+  <text ewd="SYS057" code="I110" type="conn" figID="9">
+    <name>No. 33 Junction Connector</name>
+  </text>
+  <text ewd="SYS057" code="I72,I106,I118" type="conn" figID="18">
+    <name>No. 9 Junction Connector , No. 36 Junction Connector , No. 21 Junction Connector</name>
+  </text>
+  <text ewd="SYS057" code="FUSE5" type="fuse" figID="64">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS057" code="FUSE16" type="fuse" figID="63">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS057" code="FUSE17" type="fuse" figID="62">
+    <name>10A PANEL</name>
+  </text>
+  <text ewd="SYS057" code="FUSE57" type="fuse" figID="61">
+    <name>50A MAIN1</name>
+  </text>
+  <text ewd="SYS057" code="CA" type="gp" figID="53">
+    <name />
+  </text>
+  <text ewd="SYS057" code="CC" type="gp" figID="52">
+    <name />
+  </text>
+  <text ewd="SYS057" code="CE" type="gp" figID="51">
+    <name />
+  </text>
+  <text ewd="SYS057" code="LA" type="gp" figID="50">
+    <name />
+  </text>
+  <text ewd="SYS057" code="LB" type="gp" figID="49">
+    <name />
+  </text>
+  <text ewd="SYS057" code="2" type="rb" figID="12">
+    <name />
+  </text>
+  <text ewd="SYS057" code="FUSE5" type="rb" figID="15">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS057" code="FUSE16" type="rb" figID="14">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS057" code="FUSE17" type="rb" figID="11">
+    <name>10A PANEL</name>
+  </text>
+  <text ewd="SYS057" code="FUSE57" type="rb" figID="10">
+    <name>50A MAIN1</name>
+  </text>
+  <text ewd="SYS057" code="SP19" type="sp" figID="57,58">
+    <name />
+  </text>
+  <text ewd="SYS057" code="SP51" type="sp" figID="60">
+    <name />
+  </text>
+  <text ewd="SYS057" code="SP60" type="sp" figID="59">
+    <name />
+  </text>
+  <text ewd="SYS057" code="SP71" type="sp" figID="54">
+    <name />
+  </text>
+  <text ewd="SYS057" code="SP82" type="sp" figID="55">
+    <name />
+  </text>
+  <text ewd="SYS057" code="SP83" type="sp" figID="56">
+    <name />
+  </text>
+  <text ewd="SYS057" code="IC2" type="w2w" figID="40">
+    <name>Cowl Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS057" code="IS3" type="w2w" figID="44,48">
+    <name>Cowl Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS057" code="IL2" type="w2w" figID="26,28,36,38,43">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS057" code="IL6" type="w2w" figID="25,35,42">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS057" code="AI1" type="w2w" figID="24">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS057" code="AI3" type="w2w" figID="31,32,33,34,41">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS057" code="AC1" type="w2w" figID="30">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS057" code="AC5" type="w2w" figID="39">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS057" code="CA4" type="w2w" figID="29">
+    <name>Engine Wire and Engine Room Main Wire</name>
+  </text>
+  <text ewd="SYS057" code="LI1" type="w2w" figID="27,37,47">
+    <name>Instrument Panel Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS057" code="UI4" type="w2w" figID="46">
+    <name>No. 3 Floor Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS057" code="UI5" type="w2w" figID="45">
+    <name>No. 3 Floor Wire and Cowl Wire</name>
+  </text>
+</EwdTree>

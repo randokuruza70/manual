@@ -1,0 +1,720 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_54</span>
+<span class="globalServcatName">Brake</span>
+<span class="globalSection">_029873</span>
+<span class="globalSectionName">BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS</span>
+<span class="globalTitle">_0135612</span>
+<span class="globalTitleName">ANTI-LOCK BRAKE SYSTEM</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&nbsp;&nbsp;ANTI-LOCK BRAKE SYSTEM&nbsp;&nbsp;C146E&nbsp;&nbsp;Open in ABS Solenoid Relay Circuit&nbsp;&nbsp;C146F&nbsp;&nbsp;Short in ABS Solenoid Relay Circuit&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000FKQP_01" class="category no03">
+<h2>DESCRIPTION</h2>
+<div class="content5">
+<p>The ABS solenoid relay supplies power to the ABS solenoid.
+</p>
+<p>The solenoid relay is turned on 1.5 seconds after the ignition switch is turned to ON, and is turned off if an open or short in the solenoid is detected by the self diagnosis performed when the engine starts running.
+</p>
+<p>The ABS solenoid relay is housed in the brake actuator assembly (skid control ECU) in the actuator assembly.
+</p>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:25%">
+<col style="width:35%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC No.
+</th>
+<th class="alcenter">Detection Item
+</th>
+<th class="alcenter">DTC Detection Condition
+</th>
+<th class="alcenter">Trouble Area
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">C146E
+</td>
+<td class="alleft">Open in ABS Solenoid Relay Circuit
+</td>
+<td class="alleft">When either of the following is detected:
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Both of the following conditions continue for 0.22 seconds or more.
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>The IG1 terminal voltage is 9.5 V or more.
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>The solenoid relay contact is open when the relay is ON.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>Both of the following conditions continue for 0.22 seconds or more.
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>The IG1 terminal voltage becomes lower than 9.5 V or less when the relay is turned on.
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>The relay contact remains open.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ABS SOL fuse
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ABS solenoid relay circuit
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Brake actuator assembly (ABS solenoid relay)
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">C146F
+</td>
+<td class="alleft">Short in ABS Solenoid Relay Circuit
+</td>
+<td class="alleft">Immediately after the ignition switch is turned to ON, the solenoid relay contact is closed for 4 seconds when the relay is turned off.
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ABS solenoid relay circuit
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Brake actuator assembly (ABS solenoid relay)
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM100000000FKQP_02" class="category no03">
+<h2>WIRING DIAGRAM</h2>
+<div class="content5">
+<p>Refer to DTCs C1468, C1469 and C146A.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;ANTI-LOCK BRAKE SYSTEM&gt;C1468<span class="invisible">201408,999999,_54,_029873,_0135612,RM100000000FKQN_02,C1468</span></a>
+</p>
+</div>
+</div>
+<div id="RM100000000FKQP_03" class="category no10">
+<h2>CAUTION / NOTICE / HINT</h2>
+<div class="content5">
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Inspect the fuses for circuits related to this system before performing the following inspection procedure.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Before disconnecting the connector, make sure that there are no problems with the connection.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>After disconnecting the connector, make sure that the connector case and terminals are not deformed or corroded.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>When C1241 is output together with C146E and/or C146F, inspect and repair the trouble areas indicated by C1241 first.
+</p>
+</dd>
+<dd class="atten4">
+<p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;ANTI-LOCK BRAKE SYSTEM&gt;C1241<span class="invisible">201408,999999,_54,_029873,_0135612,RM100000000FKQ8,C1241</span></a>
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000FKQP_05" class="category no01">
+<h2>PROCEDURE</h2>
+<div class="testgrp" id="RM100000000FKQP_05_0001">
+<div class="testtitle"><span class="titleText">1.CHECK HARNESS AND CONNECTOR (+BS TERMINAL)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item test1HasFigure">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/C260095C25.png" alt="C260095C25" title="C260095C25">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">0.208,0.948 0.531,1.271</span>
+<span class="rectangleSize">0.323,0.323</span>
+</span>
+<span class="line">
+<span class="points">2.49,0.823 2.677,0.271</span>
+<span class="whiteedge">true</span>
+</span>
+<span class="caption">
+<span class="points">0.063,0.042 0.375,0.198</span>
+<span class="captionSize">0.313,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">0.26,1.031 0.573,1.229</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A20</span>
+</span>
+<span class="caption">
+<span class="points">2.708,0.146 3.167,0.344</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">+BS</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td>Front view of wire harness connector
+<br>
+(to Brake Actuator Assembly [Skid Control ECU])
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<p>Disconnect the A20 brake actuator assembly (skid control ECU) connector.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Measure the voltage according to the value(s) in the table below.
+</p>
+<dl class="spec">
+<dt class="spec">Standard Voltage:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Connection
+</th>
+<th class="alcenter">Condition
+</th>
+<th class="alcenter">Specified Condition
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">A20-12 (+BS) - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">11 to 14 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FKQP_05_0001_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">2.CHECK HARNESS AND CONNECTOR (GND1 TERMINAL)</span></div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPAIR OR REPLACE HARNESS OR CONNECTOR (+BS CIRCUIT)</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FKQP_05_0003">
+<div class="testtitle"><span class="titleText">2.CHECK HARNESS AND CONNECTOR (GND1 TERMINAL)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item test1HasFigure">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/C260095C20.png" alt="C260095C20" title="C260095C20">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">0.219,0.927 0.563,1.156</span>
+<span class="rectangleSize">0.344,0.229</span>
+</span>
+<span class="line">
+<span class="points">1.115,0.833 1.26,0.146</span>
+<span class="whiteedge">true</span>
+</span>
+<span class="caption">
+<span class="points">0.052,0.042 0.365,0.198</span>
+<span class="captionSize">0.313,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">0.281,0.958 0.594,1.156</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A20</span>
+</span>
+<span class="caption">
+<span class="points">1.292,0.063 1.906,0.26</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">GND1</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td>Front view of wire harness connector
+<br>
+(to Brake Actuator Assembly [Skid Control ECU])
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<p>Measure the resistance according to the value(s) in the table below.
+</p>
+<dl class="spec">
+<dt class="spec">Standard Resistance:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Connection
+</th>
+<th class="alcenter">Condition
+</th>
+<th class="alcenter">Specified Condition
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">A20-1 (GND1) - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FKQP_05_0003_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">3.RECONFIRM DTC</span></div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPAIR OR REPLACE HARNESS OR CONNECTOR (GND1 CIRCUIT)</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FKQP_05_0005">
+<div class="testtitle"><span class="titleText">3.RECONFIRM DTC</span></div>
+<div class="content6">
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>This code is detected when a problem is identified in the brake actuator assembly.
+</p>
+</dd>
+<dd class="atten4">
+<p>The solenoid circuit is in the brake actuator assembly.
+</p>
+</dd>
+<dd class="atten4">
+<p>Therefore, solenoid circuit inspection and solenoid unit inspection cannot be performed. Be sure to check if the DTC is output before replacing the brake actuator assembly.
+</p>
+</dd>
+</dl>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Connect the brake actuator assembly (skid control ECU) connector.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Clear the DTC.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;ANTI-LOCK BRAKE SYSTEM&gt;DTC CHECK / CLEAR<span class="invisible">201408,999999,_54,_029873,_0135612,RM100000000FKQ3,</span></a>
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Chassis &gt; ABS/VSC/TRC &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Turn the ignition switch off.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Start the engine.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>Drive the vehicle at a speed of 20 km/h (12 mph) or more for 30 seconds or more.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>Check if the same DTC is recorded.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;ANTI-LOCK BRAKE SYSTEM&gt;DTC CHECK / CLEAR<span class="invisible">201408,999999,_54,_029873,_0135612,RM100000000FKQ3,</span></a>
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FKQP_05_0005_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">DTC is not output
+</td>
+</tr>
+<tr>
+<td class="alcenter">DTC is output
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If a speed signal of 6 km/h (4 mph) or more is input to the brake actuator assembly (skid control ECU), with the ignition switch ON and the stop light switch off, the ECU performs self diagnosis of the motor and solenoid circuits.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the normal system code is output (the trouble code is not output), slightly jiggle the connectors, wire harnesses, and fuses of the brake actuator assembly. Make sure that no DTCs are output.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If any DTCs are output while jiggling a connector or wire harness of the brake actuator assembly (skid control ECU), inspect and repair the connector or wire harness.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The DTCs were probably output due to a bad connection of the connector terminal.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>DTC is not output
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">USE SIMULATION METHOD TO CHECK</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">General&gt;INTRODUCTION&gt;HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS&gt;HOW TO PROCEED WITH TROUBLESHOOTING<span class="invisible">201408,201608,_V1,_030611,_0140190,RM100000000G4HR,</span><span class="invisible">201608,201701,_V1,_030611,_0140190,RM1000000010V0Q,</span><span class="invisible">201701,999999,_V1,_030611,_0140190,RM10000000136PZ,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>DTC is output
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPLACE BRAKE ACTUATOR ASSEMBLY</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;BRAKE ACTUATOR(w/ ABS)&gt;REMOVAL<span class="invisible">201408,201608,_54,_029873,_0138476,RM100000000FWYV,</span><span class="invisible">201608,999999,_54,_029873,_0282729,RM100000000YZ6Q,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

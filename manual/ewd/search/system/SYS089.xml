@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS089">
+    <part type="conn" code="A20,A42">
+      <text>SP1</text>
+      <name>Brake Actuator Assembly</name>
+    </part>
+    <part type="conn" code="A15,I85">
+      <text>E +</text>
+      <name>Brake Fluid Level Warning Switch (Brake Master Cylinder Reservoir Sub-Assembly)</name>
+    </part>
+    <part type="conn" code="L25,L26,L50">
+      <text>CPU (*1 *46) +S FE (*2,*49) P/SB S FR FV ILL+ B IG+ SI ES LP E SW OIL1 PKBI FRSW RRSW IND CHK DOOR GLW- CHG- + FOG I/F LCD (*2,*3) (*3) OIL (*32 *3) FFTR (*24) SET TRC OFF VSC OFF DPF T-BELT BLP ABS 4WD HZSW BRL SRS A/B (*7) (*21) (*17) (*31) (*45) (*20) (*25) CANL CANH LR LL (*47) TIRE (*46) (*48)</text>
+      <name>Combination Meter Assembly</name>
+      <name type="inner">High Beam</name>
+      <name type="inner">Illumination</name>
+      <name type="inner">Speedometer</name>
+      <name type="inner">Tachometer</name>
+      <name type="inner">Temperature</name>
+      <name type="inner">Fuel</name>
+      <name type="inner">Sub Fuel</name>
+      <name type="inner">Volt</name>
+      <name type="inner">Oil Pressure</name>
+      <name type="inner">Buzzer</name>
+      <name type="inner">120km/h</name>
+      <name type="inner">Cruise</name>
+      <name type="inner">Slip</name>
+      <name type="inner">Maintenance</name>
+      <name type="inner">Fuel Sediment</name>
+      <name type="inner">Oil Level</name>
+      <name type="inner">Fuel Filter</name>
+      <name type="inner">Seat Belt</name>
+      <name type="inner">Parking</name>
+      <name type="inner">Charge</name>
+      <name type="inner">Glow</name>
+      <name type="inner">Check Engine (*1 *46,*3 *32 *46)</name>
+      <name type="inner">Sub Tank</name>
+      <name type="inner">Rear Diff Lock</name>
+      <name type="inner">Front Diff Lock</name>
+      <name type="inner">Turn RH</name>
+      <name type="inner">Turn LH</name>
+      <name type="inner">Flasher Circuit</name>
+      <name type="inner">Door</name>
+      <name type="inner">Front Fog</name>
+      <name type="inner">Rear Fog</name>
+      <name type="inner">Security</name>
+      <name type="inner">Brake</name>
+      <name type="inner">Check Engine</name>
+      <name type="inner">Glow</name>
+      <name type="inner">Tire Pressure</name>
+    </part>
+    <part type="conn" code="C42">
+      <text>NE+ GND NE-</text>
+      <name>Crank Position Sensor</name>
+    </part>
+    <part type="conn" code="C2">
+      <text>NE NE-</text>
+      <name>Crank Position Sensor</name>
+    </part>
+    <part type="conn" code="C69,C85">
+      <name>Diesel Engine Coolant Temperature Sensor , Water Temperature Sender Gage Assembly</name>
+    </part>
+    <part type="conn" code="C1">
+      <name>E.F.I. Engine Coolant Temperature Sensor</name>
+    </part>
+    <part type="conn" code="A29,C39,I84">
+      <text>ECM CANH CANL TACH NE+ NE- ETHW THW FPSW THWO</text>
+    </part>
+    <part type="conn" code="A30,A31">
+      <text>TAC NE+ NE-</text>
+      <name>Emission Control ECU</name>
+    </part>
+    <part type="conn" code="C71">
+      <text>E LVL</text>
+      <name>Engine Oil Level Sensor</name>
+    </part>
+    <part type="conn" code="C30">
+      <text>S</text>
+      <name>Engine Oil Pressure Switch Assembly</name>
+    </part>
+    <part type="conn" code="C30,C74,C87,C88">
+      <text>S</text>
+      <name>Engine Oil Pressure Switch Assembly , Oil Pressure Sender Gage Assembly</name>
+    </part>
+    <part type="conn" code="A8">
+      <text>E FCHK</text>
+      <name>Fuel Filter Vacuum Sensor</name>
+    </part>
+    <part type="conn" code="A9">
+      <name>Fuel Sediment Switch</name>
+    </part>
+    <part type="conn" code="C97">
+      <text>FV FE FR</text>
+      <name>Fuel Sender Gage Assembly (Front)</name>
+    </part>
+    <part type="conn" code="T4,T19,X1">
+      <text>(*36,*39) FE2 FV2 (*9,*35) FV FE FR FR2</text>
+      <name>Fuel Sender Gage Assembly (Rear)</name>
+    </part>
+    <part type="conn" code="C83">
+      <text>NE NE- NE NE- FCV</text>
+      <name>Injection or Supply Pump Assembly</name>
+      <name type="inner">Crank Position Sensor</name>
+      <name type="inner">Fuel Cut Solenoid</name>
+      <name type="inner">Crank Position Sensor</name>
+    </part>
+    <part type="conn" code="I59,I70">
+      <name>No. 10 Junction Connector , No. 19 Junction Connector</name>
+    </part>
+    <part type="conn" code="I61,I67">
+      <name>No. 11 Junction Connector , No. 16 Junction Connector</name>
+    </part>
+    <part type="conn" code="I66">
+      <name>No. 15 Junction Connector</name>
+    </part>
+    <part type="conn" code="I95">
+      <name>No. 18 Junction Connector</name>
+    </part>
+    <part type="conn" code="I70">
+      <name>No. 19 Junction Connector</name>
+    </part>
+    <part type="conn" code="A23">
+      <name>No. 2 Junction Connector</name>
+    </part>
+    <part type="conn" code="I72,I95">
+      <name>No. 21 Junction Connector , No. 18 Junction Connector</name>
+    </part>
+    <part type="conn" code="L35,L36">
+      <name>No. 27 Junction Connector , No. 28 Junction Connector</name>
+    </part>
+    <part type="conn" code="L36,L51">
+      <name>No. 28 Junction Connector , No. 25 Junction Connector</name>
+    </part>
+    <part type="conn" code="A43">
+      <name>No. 34 Junction Connector</name>
+    </part>
+    <part type="conn" code="I112,I115,I119,I122">
+      <name>No. 4 CAN Junction Connector , No. 6 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="C38">
+      <name>No. 4 Junction Connector</name>
+    </part>
+    <part type="conn" code="I111">
+      <name>No. 5 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I105">
+      <name>No. 8 Junction Connector</name>
+    </part>
+    <part type="conn" code="I72,I106,I118">
+      <name>No. 9 Junction Connector , No. 36 Junction Connector , No. 21 Junction Connector</name>
+    </part>
+    <part type="conn" code="C105">
+      <text>VOUT VC GND</text>
+      <name>Oil Pressure Sender Gage Assembly</name>
+    </part>
+    <part type="conn" code="S15">
+      <name>Parking Brake Switch Assembly</name>
+    </part>
+    <part type="conn" code="C96">
+      <text>SE IG+ SI</text>
+      <name>Speedometer Sensor</name>
+    </part>
+    <part type="conn" code="I32">
+      <name>Vacuum Warning Switch Assembly</name>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>DOME NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE20">
+      <text>ECU IG</text>
+    </part>
+    <part type="fuse" code="FUSE16">
+      <text>MET</text>
+    </part>
+    <part type="fuse" code="FUSE51">
+      <text>TURN&amp;HAZ</text>
+    </part>
+  </ttl>
+</EWDSearch>

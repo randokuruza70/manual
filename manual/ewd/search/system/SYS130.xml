@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS130">
+    <part type="conn" code="A35,A36,D9">
+      <name>Battery (Main)</name>
+    </part>
+    <part type="conn" code="L21">
+      <text>AM2 AM1 ACC IG1 ST1 IG2 ST2</text>
+      <name>Ignition or Starter Switch Assembly</name>
+    </part>
+    <part type="conn" code="I19">
+      <name>Stop Light Switch Assembly</name>
+    </part>
+    <part type="fuse" code="FUSE4">
+      <text>A/C</text>
+    </part>
+    <part type="fuse" code="FUSE45">
+      <text>A/F</text>
+    </part>
+    <part type="fuse" code="FUSE54">
+      <text>ABS MTR</text>
+    </part>
+    <part type="fuse" code="FUSE53">
+      <text>ABS SOL</text>
+    </part>
+    <part type="fuse" code="FUSE1">
+      <text>ACC</text>
+    </part>
+    <part type="fuse" code="FUSE43">
+      <text>ALT</text>
+    </part>
+    <part type="fuse" code="FUSE36">
+      <text>ALT MAIN</text>
+    </part>
+    <part type="fuse" code="FUSE44">
+      <text>ALT-S</text>
+    </part>
+    <part type="fuse" code="FUSE35">
+      <text>AM1</text>
+    </part>
+    <part type="fuse" code="FUSE37">
+      <text>AM1 NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE38">
+      <text>AM1 NO.3</text>
+    </part>
+    <part type="fuse" code="FUSE55">
+      <text>AM2</text>
+    </part>
+    <part type="fuse" code="FUSE19">
+      <text>CIG</text>
+    </part>
+    <part type="fuse" code="FUSE28">
+      <text>DEFOG</text>
+    </part>
+    <part type="fuse" code="FUSE30">
+      <text>DIFF</text>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>DOME NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE31">
+      <text>DOOR</text>
+    </part>
+    <part type="fuse" code="FUSE20">
+      <text>ECU IG</text>
+    </part>
+    <part type="fuse" code="FUSE6">
+      <text>ECU-B</text>
+    </part>
+    <part type="fuse" code="FUSE52">
+      <text>EFI</text>
+    </part>
+    <part type="fuse" code="FUSE9">
+      <text>EFI-NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE46">
+      <text>ETCS</text>
+    </part>
+    <part type="fuse" code="FUSE21">
+      <text>FR FOG</text>
+    </part>
+    <part type="fuse" code="FUSE22">
+      <text>FUEL HTR</text>
+    </part>
+    <part type="fuse" code="FUSE23">
+      <text>GAUGE</text>
+    </part>
+    <part type="fuse" code="FUSE10">
+      <text>H/LP HI LH</text>
+    </part>
+    <part type="fuse" code="FUSE11">
+      <text>H/LP HI RH</text>
+    </part>
+    <part type="fuse" code="FUSE12">
+      <text>H/LP LO LH</text>
+    </part>
+    <part type="fuse" code="FUSE13">
+      <text>H/LP LO RH</text>
+    </part>
+    <part type="fuse" code="FUSE56">
+      <text>HEAD</text>
+    </part>
+    <part type="fuse" code="FUSE47">
+      <text>HORN</text>
+    </part>
+    <part type="fuse" code="FUSE39">
+      <text>HTR</text>
+    </part>
+    <part type="fuse" code="FUSE14">
+      <text>IGN</text>
+    </part>
+    <part type="fuse" code="FUSE15">
+      <text>INJ</text>
+    </part>
+    <part type="fuse" code="FUSE57">
+      <text>MAIN1</text>
+    </part>
+    <part type="fuse" code="FUSE16">
+      <text>MET</text>
+    </part>
+    <part type="fuse" code="FUSE2">
+      <text>OBD2</text>
+    </part>
+    <part type="fuse" code="FUSE17">
+      <text>PANEL</text>
+    </part>
+    <part type="fuse" code="FUSE32">
+      <text>POWER</text>
+    </part>
+    <part type="fuse" code="FUSE24">
+      <text>RADIO</text>
+    </part>
+    <part type="fuse" code="FUSE25">
+      <text>RR FOG</text>
+    </part>
+    <part type="fuse" code="FUSE3">
+      <text>ST</text>
+    </part>
+    <part type="fuse" code="FUSE33">
+      <text>STOP</text>
+    </part>
+    <part type="fuse" code="FUSE26">
+      <text>STOP</text>
+    </part>
+    <part type="fuse" code="FUSE18">
+      <text>TAIL</text>
+    </part>
+    <part type="fuse" code="FUSE34">
+      <text>TRAILER</text>
+    </part>
+    <part type="fuse" code="FUSE27">
+      <text>TRAILER STOP</text>
+    </part>
+    <part type="fuse" code="FUSE51">
+      <text>TURN&amp;HAZ</text>
+    </part>
+    <part type="fuse" code="FUSE29">
+      <text>WIP</text>
+    </part>
+  </ttl>
+</EWDSearch>

@@ -1,0 +1,210 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">Engine / Hybrid System</span>
+<span class="globalSection">_029758</span>
+<span class="globalSectionName">1GR-FE ENGINE CONTROL</span>
+<span class="globalTitle">_0135343</span>
+<span class="globalTitleName">SFI SYSTEM</span>
+<span class="globalCategory">U</span>
+</div>
+<h1>1GR-FE ENGINE CONTROL&nbsp;&nbsp;SFI SYSTEM&nbsp;&nbsp;FAIL-SAFE CHART&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000FJFK_z0" class="category no00">
+<div class="content5">
+<p>If any of the following DTCs are stored, the ECM enters fail-safe mode to allow the vehicle to be driven temporarily.
+</p>
+<table summary="">
+<colgroup>
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTCs
+</th>
+<th class="alcenter">Component
+</th>
+<th class="alcenter">Fail-Safe Operation
+</th>
+<th class="alcenter">Fail-Safe Deactivation Condition
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>P0031, P0032, P0051 and P0052
+</td>
+<td>Air fuel ratio sensor heater
+</td>
+<td>The ECM turns off the A/F sensor heater.
+</td>
+<td>Ignition switch off
+</td>
+</tr>
+<tr>
+<td>P0037, P0038, P0057 and P0058
+</td>
+<td>Heated oxygen sensor heater
+</td>
+<td>The ECM turns off the heated oxygen sensor heater.
+</td>
+<td>Ignition switch off
+</td>
+</tr>
+<tr>
+<td>P0102, P0103
+</td>
+<td>Mass air flow meter
+</td>
+<td>The ECM calculates the ignition timing according to the engine speed and throttle valve position.
+</td>
+<td>Pass condition detected
+</td>
+</tr>
+<tr>
+<td>P0112, P0113
+</td>
+<td>Intake air temperature sensor
+</td>
+<td>The ECM estimates the intake air temperature to be 20°C (68°F).
+</td>
+<td>Pass condition detected
+</td>
+</tr>
+<tr>
+<td>P0115, P0117 and P0118
+</td>
+<td>Engine coolant temperature sensor
+</td>
+<td>The ECM estimates the engine coolant temperature to be 80°C (176°F).
+</td>
+<td>Pass condition detected
+</td>
+</tr>
+<tr>
+<td>P0120, P0121, P0122, P0123, P0220, P0222, P0223, P0604, P0606, P060A, P060D, P060E, P0657, P2102, P2103, P2111, P2112, P2118, P2119 and P2135
+</td>
+<td>Electronic Throttle Control System (ETCS)
+</td>
+<td>The ECM cuts off the throttle actuator current and the throttle valve returns to 6° throttle position by the return spring.
+<br>
+The ECM then adjusts the engine output by controlling the fuel injection (intermittent fuel-cut) and ignition timing in accordance with the accelerator pedal opening angle, to allow the vehicle to continue at minimal speed.*
+</td>
+<td>Pass condition detected and then ignition switch turned off
+</td>
+</tr>
+<tr>
+<td>P0327, P0328, P0332 and P0333
+</td>
+<td>Knock Sensor
+</td>
+<td>The ECM sets the ignition timing to maximum retard.
+</td>
+<td>Ignition switch off
+</td>
+</tr>
+<tr>
+<td>P0351 to P0356
+</td>
+<td>Ignition coil assembly
+</td>
+<td>The ECM cuts the fuel.
+</td>
+<td>Pass condition detected
+</td>
+</tr>
+<tr>
+<td>P0504
+</td>
+<td class="alleft">Stop light switch assembly
+</td>
+<td>The accelerator pedal opening angleis fixed when there is a acceleratorpedal malfunction or history of a malfunction
+</td>
+<td class="alleft">Pass condition detected
+</td>
+</tr>
+<tr>
+<td>P2120, P2121, P2122, P2123, P2125, P2127, P2128 and P2138
+</td>
+<td>Accelerator pedal position sensor
+</td>
+<td>The accelerator pedal position sensor has 2 sensor circuits: Main and Sub.
+<br>
+If either circuit malfunctions, the ECM limits the engine output.
+<br>
+If both of the circuits malfunction, the ECM regards the accelerator pedal as being released. As a result, the throttle valve is closed and the engine idles.
+</td>
+<td>Pass condition detected and then ignition switch turned off
+</td>
+</tr>
+<tr>
+<td>P2237, P2238, P2239, P2240, P2241, P2242, P2243, P2252, P2253, P2255  and P2256
+</td>
+<td>Air fuel ratio sensor
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Air fuel ratio feedback controlis stopped.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Current to the air fuel ratio sensor heater is cut.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>Pass condition detected and then ignition switch turned off
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>*: The vehicle can be driven slowly when the accelerator pedal is depressed firmly and slowly. If the accelerator pedal is depressed quickly, the vehicle may speed up and slow down erratically.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

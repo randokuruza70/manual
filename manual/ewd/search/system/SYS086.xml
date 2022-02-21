@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS086">
+    <part type="conn" code="A20">
+      <text>SP1</text>
+      <name>Brake Actuator Assembly</name>
+    </part>
+    <part type="conn" code="L9">
+      <text>GND IG ACC TES+ TES- SPD B</text>
+      <name>Clock Assembly</name>
+    </part>
+    <part type="conn" code="L25">
+      <text>12V B ES IG+ +S SI IG2</text>
+      <name>Combination Meter Assembly</name>
+      <name type="inner">Meter Micro Computer</name>
+    </part>
+    <part type="conn" code="I61,I72">
+      <name>No. 11 Junction Connector , No. 21 Junction Connector</name>
+    </part>
+    <part type="conn" code="I62">
+      <name>No. 12 Junction Connector</name>
+    </part>
+    <part type="conn" code="I63">
+      <name>No. 13 Junction Connector</name>
+    </part>
+    <part type="conn" code="I69">
+      <name>No. 18 Junction Connector</name>
+    </part>
+    <part type="conn" code="L32,L36">
+      <name>No. 24 Junction Connector , No. 28 Junction Connector</name>
+    </part>
+    <part type="conn" code="L32,L37">
+      <name>No. 24 Junction Connector , No. 29 Junction Connector</name>
+    </part>
+    <part type="conn" code="L33,L36">
+      <name>No. 25 Junction Connector , No. 28 Junction Connector</name>
+    </part>
+    <part type="conn" code="L33,L37">
+      <name>No. 25 Junction Connector , No. 29 Junction Connector</name>
+    </part>
+    <part type="conn" code="I57">
+      <name>No. 8 Junction Connector</name>
+    </part>
+    <part type="conn" code="I58,I72">
+      <name>No. 9 Junction Connector , No. 21 Junction Connector</name>
+    </part>
+    <part type="conn" code="C96">
+      <text>SE IG+ SI</text>
+      <name>Speedometer Sensor</name>
+    </part>
+    <part type="conn" code="I48">
+      <text>OT+ OT-</text>
+      <name>Thermistor Assembly</name>
+    </part>
+    <part type="fuse" code="FUSE1">
+      <text>ACC</text>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>DOME NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE6">
+      <text>ECU-B</text>
+    </part>
+    <part type="fuse" code="FUSE23">
+      <text>GAUGE</text>
+    </part>
+    <part type="fuse" code="FUSE16">
+      <text>MET</text>
+    </part>
+  </ttl>
+</EWDSearch>

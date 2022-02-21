@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE compact-defs SYSTEM "../../../dtd/compact.dtd">
+<compact-defs pubno="EM25T2E" ver="2.1.2.9">
+    <part code="A5" figID="1" type="conn">
+        <path d="M 161.47, 376.22 L 186.98, 376.22 L 186.98, 403.23 L 161.47, 403.23 L 161.47, 376.22 "/>
+    </part>
+    <part code="4" figID="2" type="rb">
+        <path d="M 225.21, 27.71 L 271.55, 27.71 L 271.55, 103.77 L 225.21, 103.77 L 225.21, 27.71 "/>
+    </part>
+    <part code="L27,z1" figID="3" type="conn">
+        <path d="M 297.45, 511.13 L 331.44, 511.13 L 331.44, 546.26 L 297.45, 546.26 L 297.45, 511.13 "/>
+    </part>
+    <part code="z1" figID="4" type="conn">
+        <path d="M 297.45, 544.26 L 331.44, 544.26 L 331.44, 615.68 L 297.45, 615.68 L 297.45, 544.26 "/>
+    </part>
+    <part code="A4" figID="5" type="conn">
+        <path d="M 229.46, 376.22 L 254.97, 376.22 L 254.97, 403.23 L 229.46, 403.23 L 229.46, 376.22 "/>
+    </part>
+    <part code="1" figID="6" type="rb">
+        <path d="M 254.96, 188.75 L 306.35, 188.75 L 306.35, 273.74 L 254.96, 273.74 L 254.96, 188.75 "/>
+    </part>
+    <part code="IL1" figID="9" type="w2w">
+        <path d="M 298.96, 433.21 L 322.95, 433.21 L 322.95, 452.78 L 298.96, 452.78 L 298.96, 433.21 "/>
+    </part>
+    <part code="AI3" figID="10" type="w2w">
+        <path d="M 298.96, 356.73 L 332.93, 356.73 L 332.93, 376.29 L 298.96, 376.29 L 298.96, 356.73 "/>
+    </part>
+    <part code="AI3" figID="11" type="w2w">
+        <path d="M 298.79, 348.23 L 332.93, 348.23 L 332.93, 360.73 L 298.79, 360.73 L 298.79, 348.23 "/>
+    </part>
+    <part code="AI3" figID="12" type="w2w">
+        <path d="M 298.89, 339.73 L 332.93, 339.73 L 332.93, 352.23 L 298.89, 352.23 L 298.89, 339.73 "/>
+    </part>
+    <part code="AI3" figID="13" type="w2w">
+        <path d="M 298.89, 331.23 L 332.93, 331.23 L 332.93, 343.73 L 298.89, 343.73 L 298.89, 331.23 "/>
+    </part>
+    <part code=" " figID="15" type="annex">
+        <path d="M 305.95, 611.68 L 322.95, 611.68 L 322.95, 632.68 L 305.95, 632.68 L 305.95, 611.68 "/>
+    </part>
+    <part code=" " figID="16" type="annex">
+        <path d="M 169.97, 399.22 L 186.97, 399.22 L 186.97, 420.22 L 169.97, 420.22 L 169.97, 399.22 "/>
+    </part>
+    <part code=" " figID="17" type="annex">
+        <path d="M 237.96, 399.22 L 254.96, 399.22 L 254.96, 420.22 L 237.96, 420.22 L 237.96, 399.22 "/>
+    </part>
+</compact-defs>

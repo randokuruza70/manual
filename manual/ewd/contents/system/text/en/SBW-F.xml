@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25T2E" style="font-size:6px;font-family:'Arial'" ver="2.1.2.9">
+	<text textID="1">(w/ VSC)</text>
+	<text textID="2">* 5 :LHD Short Wheel Base</text>
+	<text textID="3">* 6 :LHD Except Short Wheel Base</text>
+	<text textID="4">* 8 :Pick-Up Body Type</text>
+	<text textID="5">* 9 :Except Pick-Up Body Type</text>
+	<text textID="6">*12 :*8 Australia</text>
+	<text textID="7">*13 :RHD Except *12</text>
+	<text textID="8">*20 :w/ ABS (w/o VSC)</text>
+	<text textID="9">*22 :LHD 1GR-FE w/o ABS</text>
+	<text textID="10">*23 :1HZ w/o ABS</text>
+	<text textID="11">*24 :w/ VSC</text>
+	<text textID="12">*25 :w/o VSC</text>
+	<text textID="13">*26 :w/ Passenger's Seat Belt Warning</text>
+	<text textID="14">Brake Actuator Assembly</text>
+	<text textID="15">Buckle Switch</text>
+	<text textID="16">Buzzer</text>
+	<text textID="17">Combination Meter Assembly</text>
+	<text textID="18">Front Seat Inner Belt Assembly LH</text>
+	<text textID="19">Front Seat Inner Belt Assembly RH</text>
+	<text textID="20">No. 5 Junction Connector</text>
+	<text textID="21">No. 9 Junction Connector</text>
+	<text textID="22">No. 9 Junction Connector , No. 36 Junction Connector , No. 21 Junction Connector</text>
+	<text textID="23">No. 21 Junction Connector</text>
+	<text textID="24">No. 36 Junction Connector</text>
+	<text textID="25">Occupant Detection Sensor</text>
+	<text textID="26">Seat Belt</text>
+	<text textID="27">Speedometer Sensor</text>
+</texts>

@@ -1,0 +1,21 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<!-- XML DTD for TOYOTA EWD -->
+<!--
+	EWD DTD for Index List XML
+
+	Copyright (c) 2000-2012 SHINTEC HOZUMI Co.,LTD.
+	All Rights Reserved. 
+
+	ver 2.0		2011/12/06
+	ver 2.1		2012/07/10	no change in this file
+-->
+
+<!ELEMENT IndexList (Index)+>
+<!ELEMENT Index (#PCDATA)>
+<!ATTLIST IndexList
+	ver CDATA #IMPLIED
+	xml:lang CDATA #REQUIRED
+>
+<!ATTLIST Index
+	id CDATA #REQUIRED
+>

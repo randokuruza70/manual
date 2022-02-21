@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS111">
+    <part type="conn" code="A20">
+      <text>SP1</text>
+      <name>Brake Actuator Assembly</name>
+    </part>
+    <part type="conn" code="A42">
+      <text>SP1</text>
+      <name>Brake Actuator Assembly</name>
+    </part>
+    <part type="conn" code="L25">
+      <text>CPU SW B ES SI I/F P/SB</text>
+      <name>Combination Meter Assembly</name>
+      <name type="inner">Buzzer</name>
+      <name type="inner">Seat Belt</name>
+    </part>
+    <part type="conn" code="S28">
+      <text>E +</text>
+      <name>Front Seat Inner Belt Assembly LH</name>
+      <name type="inner">Buckle Switch</name>
+      <name type="inner">Occupant Detection Sensor</name>
+    </part>
+    <part type="conn" code="S2">
+      <name>Front Seat Inner Belt Assembly LH</name>
+    </part>
+    <part type="conn" code="S12">
+      <name>Front Seat Inner Belt Assembly RH</name>
+    </part>
+    <part type="conn" code="S19">
+      <name>Front Seat Inner Belt Assembly RH</name>
+    </part>
+    <part type="conn" code="I93">
+      <name>No. 5 Junction Connector</name>
+    </part>
+    <part type="conn" code="I72,I106,I118">
+      <name>No. 9 Junction Connector , No. 36 Junction Connector , No. 21 Junction Connector</name>
+    </part>
+    <part type="conn" code="C96">
+      <text>SI</text>
+      <name>Speedometer Sensor</name>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>DOME NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE16">
+      <text>MET</text>
+    </part>
+  </ttl>
+</EWDSearch>

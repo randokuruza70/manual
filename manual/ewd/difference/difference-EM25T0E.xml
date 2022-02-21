@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE tmc-service-difference SYSTEM "../dtd/difference.dtd">
+<tmc-service-difference>
+  <pub id="EM25T0E">
+    <release send-date=" ">
+      <term alt-pub-id="EM25T0E" date="201408" term-id-from="001">
+        <changed-file filename="pub.xml" type="A">ewd/control/pub.xml</changed-file>
+      </term>
+    </release>
+  </pub>
+</tmc-service-difference>

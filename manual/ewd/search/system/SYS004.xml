@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS004">
+    <part type="conn" code="L45">
+      <text>D E U</text>
+      <name>Antenna Switch Assembly</name>
+    </part>
+    <part type="conn" code="A10">
+      <text>SHD GND VCC SIG D U</text>
+      <name>Antenna with Holder Assembly</name>
+    </part>
+    <part type="conn" code="I49">
+      <text>B SGND VCC IG SIG DOWN ANT UP SDWN SUP E ACC</text>
+      <name>Motor Antenna Control Relay</name>
+    </part>
+    <part type="conn" code="I61,I72">
+      <name>No. 11 Junction Connector , No. 21 Junction Connector</name>
+    </part>
+    <part type="conn" code="I108,I109">
+      <name>No. 13 Junction Connector</name>
+    </part>
+    <part type="conn" code="I95">
+      <name>No. 18 Junction Connector</name>
+    </part>
+    <part type="conn" code="I72">
+      <name>No. 21 Junction Connector</name>
+    </part>
+    <part type="conn" code="L34,L35">
+      <name>No. 26 Junction Connector , No. 27 Junction Connector</name>
+    </part>
+    <part type="conn" code="I110">
+      <name>No. 33 Junction Connector</name>
+    </part>
+    <part type="conn" code="I117">
+      <name>No. 35 Junction Connector</name>
+    </part>
+    <part type="conn" code="I93">
+      <name>No. 5 Junction Connector</name>
+    </part>
+    <part type="conn" code="I105">
+      <name>No. 8 Junction Connector</name>
+    </part>
+    <part type="conn" code="L42">
+      <text>ANT</text>
+      <name>Radio Receiver Assembly</name>
+    </part>
+    <part type="fuse" code="FUSE1">
+      <text>ACC</text>
+    </part>
+    <part type="fuse" code="FUSE20">
+      <text>ECU IG</text>
+    </part>
+    <part type="fuse" code="FUSE6">
+      <text>ECU-B</text>
+    </part>
+  </ttl>
+</EWDSearch>

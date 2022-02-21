@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="WR063">
+    <part type="w2w" code="IA2">
+      <name>Cowl Wire and Engine Room Main Wire</name>
+    </part>
+    <part type="w2w" code="IA1">
+      <name>Cowl Wire and Engine Room Main Wire</name>
+    </part>
+    <part type="w2w" code="AC11">
+      <name>Engine Room Main Wire and Engine Wire</name>
+    </part>
+    <part type="w2w" code="AC10">
+      <name>Engine Room Main Wire and Engine Wire</name>
+    </part>
+    <part type="w2w" code="Cv1">
+      <name>Engine Wire and Connecting Wire</name>
+    </part>
+    <part type="w2w" code="CA4">
+      <name>Engine Wire and Engine Room Main Wire</name>
+    </part>
+    <part type="w2w" code="CA3">
+      <name>Engine Wire and Engine Room Main Wire</name>
+    </part>
+    <part type="w2w" code="CA1">
+      <name>Engine Wire and Engine Room Main Wire</name>
+    </part>
+    <part type="w2w" code="CA2">
+      <name>Engine Wire and Engine Room Main Wire</name>
+    </part>
+    <part type="w2w" code="Cu1">
+      <name>Engine Wire and Lead Injector Wire</name>
+    </part>
+    <part type="w2w" code="CD1">
+      <name>Engine Wire and No. 2 Engine Wire</name>
+    </part>
+    <part type="w2w" code="rC2">
+      <name>Fuel Pump Motor Wire and Engine Wire</name>
+    </part>
+    <part type="w2w" code="rC1">
+      <name>Fuel Pump Motor Wire and Engine Wire</name>
+    </part>
+    <part type="w2w" code="JK2">
+      <name>No. 2 Cowl Wire and No. 3 Cowl Wire</name>
+    </part>
+    <part type="w2w" code="BI2">
+      <name>No. 2 Engine Room Wire and Cowl Wire</name>
+    </part>
+    <part type="w2w" code="KI2">
+      <name>No. 3 Cowl Wire and Cowl Wire</name>
+    </part>
+  </ttl>
+</EWDSearch>

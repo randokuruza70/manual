@@ -1,0 +1,76 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<!-- XML DTD for TOYOTA EWD -->
+<!--
+	EWD DTD for Connector List XML
+
+	Copyright (c) 2002-2012 SHINTEC HOZUMI Co.,LTD.
+	All Rights Reserved.
+
+	ver 2.0		2011/12/06	change attribute ver value
+	ver 2.1		2012/07/10	no change in this file
+-->
+
+<!ENTITY % Number "NMTOKEN">
+<!ENTITY % Sex "(M | F | U)"> <!-- Male | Female | Unknown -->
+<!ENTITY % YesNo "(Y | N | U)">  <!-- Yes | No | Unknown -->
+<!ELEMENT connector_list (connector)*>
+<!ATTLIST connector_list
+	ver CDATA #IMPLIED
+	pubno CDATA #REQUIRED
+>
+<!ELEMENT connector (terminal)*>
+<!ATTLIST connector
+	partNo %Number; #REQUIRED
+	sex %Sex; #IMPLIED
+	sealing-ability %YesNo; #IMPLIED
+>
+<!ELEMENT terminal (wire*,sealing,sleeve*,housing_list)>
+<!ATTLIST terminal
+	type CDATA #REQUIRED
+	repair_id CDATA #REQUIRED
+	fig CDATA #REQUIRED
+	alumi CDATA #IMPLIED
+>
+<!ELEMENT wire (repair_wire)*>
+<!ATTLIST wire
+	length %Number; #REQUIRED
+>
+<!ELEMENT repair_wire EMPTY>
+<!ATTLIST repair_wire
+	partNo %Number; #REQUIRED
+	surface-treatment CDATA "Sn"
+>
+<!-- [surface-treatment] plating material; Sn | Au -->
+<!ELEMENT sealing (packing*, plug*)>
+<!ATTLIST sealing
+	ability %YesNo; #REQUIRED
+>
+<!ELEMENT packing EMPTY>
+<!ATTLIST packing
+	partNo CDATA #REQUIRED
+	fig CDATA #REQUIRED
+>
+<!ELEMENT plug EMPTY>
+<!ATTLIST plug
+	partNo CDATA #REQUIRED
+	fig CDATA #REQUIRED
+>
+<!ELEMENT sleeve EMPTY>
+<!ATTLIST sleeve
+	size CDATA #REQUIRED
+	color CDATA #REQUIRED
+	partNo CDATA #REQUIRED
+	fig CDATA #REQUIRED
+>
+<!-- [size] S: Small | M: Medium | L: Large -->
+<!-- [color] R: Red | L: Blue | Y: Yellow -->
+<!ELEMENT housing_list (housing)*>
+<!ELEMENT housing EMPTY>
+<!ATTLIST housing
+	cross-section_id CDATA #REQUIRED
+	fig CDATA #REQUIRED
+	lanceType CDATA #REQUIRED
+	lockType CDATA "S"
+>
+<!-- [lanceType] H: Housing lance | T: Terminal lance  -->
+<!-- [lockType] D: Double Lock Type -->

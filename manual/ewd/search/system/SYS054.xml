@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS054">
+    <part type="conn" code="A5">
+      <name>High Pitched Horn Assembly</name>
+    </part>
+    <part type="conn" code="A4">
+      <name>Low Pitched Horn Assembly</name>
+    </part>
+    <part type="conn" code="z1">
+      <name>Spiral Cable Sub-Assembly , Horn Button Wire Sub-Assembly</name>
+      <name type="inner">Horn Switch</name>
+    </part>
+    <part type="conn" code="L27,z1">
+      <text>HO</text>
+      <name>Spiral Cable Sub-Assembly , Horn Button Wire Sub-Assembly</name>
+    </part>
+    <part type="fuse" code="FUSE47">
+      <text>HORN</text>
+    </part>
+  </ttl>
+</EWDSearch>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- #  DTD VERSION 1.5  UPDATE May. 22, 2013    -->
+<!ELEMENT tmc-service-preparation (pub)>
+<!ELEMENT pub (servcat+)>
+<!ATTLIST pub
+	id ID #REQUIRED
+>
+<!ELEMENT servcat (name, section+)>
+<!ATTLIST servcat
+	id CDATA #REQUIRED
+>
+<!ELEMENT section (name, ttl+)>
+<!ATTLIST section
+	id CDATA #REQUIRED
+>
+<!ELEMENT ttl (name, tool-table+)>
+<!ATTLIST ttl
+	id CDATA #REQUIRED
+>
+<!ELEMENT tool-table (title, tool+)>
+<!ATTLIST tool-table
+	category CDATA #REQUIRED
+>
+<!ELEMENT tool (tool-graphic, tool-id, tool-name, tool-remarks)>
+<!ELEMENT tool-graphic EMPTY>
+<!ATTLIST tool-graphic
+	align (left | right | center) #IMPLIED
+	colname NMTOKEN #IMPLIED
+	colsep NMTOKEN #IMPLIED
+	graphicname CDATA #REQUIRED
+	height CDATA #IMPLIED
+	width CDATA #IMPLIED
+>
+<!ELEMENT tool-id (#PCDATA)>
+<!ATTLIST tool-id
+	align (left | right | center) #IMPLIED
+	colname NMTOKEN #IMPLIED
+>
+<!ELEMENT tool-name (#PCDATA)>
+<!ATTLIST tool-name
+	align (left | right | center) #IMPLIED
+	colname NMTOKEN #IMPLIED
+>
+<!ELEMENT tool-remarks EMPTY>
+<!ATTLIST tool-remarks
+	align (left | right | center) #IMPLIED
+	colname NMTOKEN #IMPLIED
+>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT title (#PCDATA)>

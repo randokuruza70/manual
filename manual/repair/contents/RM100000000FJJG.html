@@ -1,0 +1,710 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">Engine / Hybrid System</span>
+<span class="globalSection">_029760</span>
+<span class="globalSectionName">1VD-FTV ENGINE CONTROL</span>
+<span class="globalTitle">_0135360</span>
+<span class="globalTitleName">ECD SYSTEM</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>1VD-FTV ENGINE CONTROL&nbsp;&nbsp;ECD SYSTEM&nbsp;&nbsp;P0500&nbsp;&nbsp;Vehicle Speed Sensor "A"&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000FJJG_01" class="category no03">
+<h2>DESCRIPTION</h2>
+<div class="content5">
+<p>The speed sensor detects the wheel speed and sends the appropriate signals to the skid control ECU. The skid control ECU converts these wheel speed signals into a 4-pulse signal and outputs it to the ECM via the combination meter. The ECM determines the vehicle speed based on the frequency of these pulse signals.
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A115899E35.png" alt="A115899E35" title="A115899E35">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.766,1.047 1.553,1.426</span>
+<span class="captionSize">0.787,0.378</span>
+<span class="fontsize">10</span>
+<span class="captionText">from Speed Sensor</span>
+</span>
+<span class="caption">
+<span class="points">1.817,1.96 3.237,2.123</span>
+<span class="captionSize">1.42,0.163</span>
+<span class="fontsize">10</span>
+<span class="captionText">Skid Control ECU</span>
+</span>
+<span class="caption">
+<span class="points">3.498,1.96 5.333,2.123</span>
+<span class="captionSize">1.835,0.163</span>
+<span class="fontsize">10</span>
+<span class="captionText">Combination Meter Assembly</span>
+</span>
+<span class="caption">
+<span class="points">3.113,0.599 3.922,0.776</span>
+<span class="captionSize">0.809,0.177</span>
+<span class="fontsize">10</span>
+<span class="captionText">4-Pulse</span>
+</span>
+<span class="caption">
+<span class="points">5.039,0.599 5.848,0.776</span>
+<span class="captionSize">0.809,0.177</span>
+<span class="fontsize">10</span>
+<span class="captionText">4-Pulse</span>
+</span>
+<span class="caption">
+<span class="points">6.068,1.841 6.515,2.005</span>
+<span class="captionSize">0.448,0.163</span>
+<span class="fontsize">10</span>
+<span class="captionText">ECM</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:20%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:10%">
+<col style="width:9%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC No.
+</th>
+<th class="alcenter">Detection Item
+</th>
+<th class="alcenter">DTC Detection Condition
+</th>
+<th class="alcenter">Trouble Area
+</th>
+<th class="alcenter">MIL
+</th>
+<th class="alcenter">Memory
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">P0500
+</td>
+<td class="alleft">Vehicle Speed Sensor "A"
+</td>
+<td class="alleft">When one of the following conditions is met:
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Following conditions (a), (b), (c) and (d) met for 8 seconds or more:
+</p>
+<p>(2 trip detection logic)
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">1.</div>
+<div class="list2Body"><p>Engine coolant temperature more than 70°C (158°F)
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">2.</div>
+<div class="list2Body"><p>Engine speed between 1500 rpm and 4000 rpm
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">3.</div>
+<div class="list2Body"><p>Vehicle running
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">4.</div>
+<div class="list2Body"><p>No speed signal input to ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Following conditions (a), (b) and (c) met for 5 seconds or more:
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">1.</div>
+<div class="list2Body"><p>Vehicle running
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">2.</div>
+<div class="list2Body"><p>Under fuel-cut operation
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">3.</div>
+<div class="list2Body"><p>No speed signal is input to ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Open or short in speed signal circuit
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Brake actuator assembly
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Combination meter
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">Comes on
+</td>
+<td class="alleft">DTC stored
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM100000000FJJG_06" class="category no03">
+<h2>WIRING DIAGRAM</h2>
+<div class="content5">
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A276508E03.png" alt="A276508E03" title="A276508E03">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.354,2.844 1.448,3.26</span>
+<span class="captionSize">1.094,0.417</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Skid Control ECU (Brake Actuator)</span>
+</span>
+<span class="caption">
+<span class="points">2.219,1.708 2.417,1.875</span>
+<span class="captionSize">0.198,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">9</span>
+</span>
+<span class="caption">
+<span class="points">3.917,1.708 4.115,1.875</span>
+<span class="captionSize">0.198,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">8</span>
+</span>
+<span class="caption">
+<span class="points">5.031,1.719 5.177,1.885</span>
+<span class="captionSize">0.146,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">8</span>
+</span>
+<span class="caption">
+<span class="points">5.958,1.385 6.25,1.552</span>
+<span class="captionSize">0.292,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">5 V</span>
+</span>
+<span class="caption">
+<span class="points">5.198,1.646 5.542,1.813</span>
+<span class="captionSize">0.344,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">SPD</span>
+</span>
+<span class="caption">
+<span class="points">5.667,2.635 6.01,2.802</span>
+<span class="captionSize">0.344,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A29</span>
+</span>
+<span class="caption">
+<span class="points">5.667,2.833 6.021,3</span>
+<span class="captionSize">0.354,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ECM</span>
+</span>
+<span class="caption">
+<span class="points">2.51,2.646 2.844,2.813</span>
+<span class="captionSize">0.333,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">L25</span>
+</span>
+<span class="caption">
+<span class="points">2.51,2.844 3.719,3.01</span>
+<span class="captionSize">1.208,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Combination Meter</span>
+</span>
+<span class="caption">
+<span class="points">1.75,1.708 1.948,1.875</span>
+<span class="captionSize">0.198,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">22</span>
+</span>
+<span class="caption">
+<span class="points">0.344,2.656 0.677,2.823</span>
+<span class="captionSize">0.333,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A20</span>
+</span>
+<span class="caption">
+<span class="points">3.635,1.708 3.875,1.854</span>
+<span class="captionSize">0.24,0.146</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">+S</span>
+</span>
+<span class="caption">
+<span class="points">2.417,1.708 2.656,1.854</span>
+<span class="captionSize">0.24,0.146</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">SI</span>
+</span>
+<span class="caption">
+<span class="points">1.365,1.813 1.677,2.031</span>
+<span class="captionSize">0.313,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">SP1</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000FJJG_07" class="category no10">
+<h2>CAUTION / NOTICE / HINT</h2>
+<div class="content5">
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3">
+<p>After replacing the ECM, the new ECM needs registration (See page <a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV ENGINE CONTROL&gt;ECD SYSTEM&gt;REGISTRATION<span class="invisible">201408,999999,_51,_029760,_0135360,RM100000000FJKB,</span></a>) and initialization (See page <a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV ENGINE CONTROL&gt;ECD SYSTEM&gt;INITIALIZATION<span class="invisible">201408,999999,_51,_029760,_0135360,RM100000000FJIX,</span></a>).
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>Read freeze frame data using the GTS. Freeze frame data records the engine condition when malfunctions are detected. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, and other data from the time the malfunction occurred.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000FJJG_09" class="category no01">
+<h2>PROCEDURE</h2>
+<div class="testgrp" id="RM100000000FJJG_09_0001">
+<div class="testtitle"><span class="titleText">1.CHECK OPERATION OF SPEEDOMETER</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Drive the vehicle and check whether the operation of the speedometer in the combination meter is normal.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>The vehicle speed sensor is operating normally if the speedometer reading is normal.
+</p>
+</dd>
+</dl>
+<br>
+<dl class="spec">
+<dt class="spec">OK:</dt>
+<dd class="spec"><p>The vehicle speed sensor is operating normally.
+</p>
+</dd>
+</dl>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJJG_09_0001_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">Proceed to
+</td>
+</tr>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">2.READ VALUE USING GTS (VEHICLE SPEED)</span></div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">GO TO SPEEDOMETER MALFUNCTION</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Vehicle Interior&gt;METER / GAUGE / DISPLAY&gt;METER / GAUGE SYSTEM&gt;Speedometer Malfunction<span class="invisible">201408,201608,_58,_029927,_0137559,RM100000000FSUS,</span><span class="invisible">201608,999999,_58,_029927,_0137559,RM10000000101PZ,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJJG_09_0003">
+<div class="testtitle"><span class="titleText">2.READ VALUE USING GTS (VEHICLE SPEED)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Turn the ignition switch ON and start the engine.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Turn the GTS ON.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Enter the following menus: Powertrain / Engine and ECT / Data List / All Data / Vehicle Speed.
+</p>
+<dl class="gtsDataList">
+<dt class="gtsDataList">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataList">
+<table summary="data-list" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Vehicle Speed
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsDataList gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50003</span>
+<span class="gtsEcu">61</span>
+<span class="gtsPid">316</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>Drive the vehicle.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>Read the value displayed on the GTS.
+</p>
+<dl class="spec">
+<dt class="spec">OK:</dt>
+<dd class="spec"><p>Vehicle speeds displayed on tester and speedometer display are equal.NG
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJJG_09_0003_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">Proceed to
+</td>
+</tr>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>OK
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">CHECK FOR INTERMITTENT PROBLEMS</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV ENGINE CONTROL&gt;ECD SYSTEM&gt;CHECK FOR INTERMITTENT PROBLEMS<span class="invisible">201408,999999,_51,_029760,_0135360,RM100000000FJK6,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueNext"><p>NG
+</p></div>
+<div class="nextAction"><span class="titleText">3.CHECK HARNESS AND CONNECTOR (COMBINATION METER ASSEMBLY - ECM)</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJJG_09_0012">
+<div class="testtitle"><span class="titleText">3.CHECK HARNESS AND CONNECTOR (COMBINATION METER ASSEMBLY - ECM)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Disconnect the L25 combination meter connector.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Disconnect the A29 ECM connector.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Measure the resistance according to the value(s) in the table below.
+</p>
+<dl class="spec">
+<dt class="spec">Standard resistance:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Connection
+</th>
+<th class="alcenter">Condition
+</th>
+<th class="alcenter">Specified Condition
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">L25-8 (+S) - A29-8 (SPD)
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">L25-8 (+S) or A29-8 (SPD) - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJJG_09_0012_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">Proceed to
+</td>
+</tr>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>OK
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">GO TO SPEED SENSOR CIRCUIT</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Vehicle Interior&gt;METER / GAUGE / DISPLAY&gt;METER / GAUGE SYSTEM&gt;Speed Signal Circuit<span class="invisible">201408,201608,_58,_029927,_0137559,RM100000000FSUX,</span><span class="invisible">201608,999999,_58,_029927,_0137559,RM10000000101QT,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPAIR OR REPLACE HARNESS OR CONNECTOR</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

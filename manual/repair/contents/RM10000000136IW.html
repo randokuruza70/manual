@@ -1,0 +1,548 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">Engine / Hybrid System</span>
+<span class="globalSection">_029760</span>
+<span class="globalSectionName">1VD-FTV ENGINE CONTROL</span>
+<span class="globalTitle">_0309414</span>
+<span class="globalTitleName">ECD SYSTEM(w/o EGR System)</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>1VD-FTV ENGINE CONTROL&nbsp;&nbsp;ECD SYSTEM(w/o EGR System)&nbsp;&nbsp;P0069&nbsp;&nbsp;Manifold Absolute Pressure - Barometric Pressure Correlation&nbsp;&nbsp;</h1>
+<br>
+<div id="RM10000000136IW_01" class="category no03">
+<h2>DESCRIPTION</h2>
+<div class="content5">
+<p>To detect atmospheric pressure, the atmospheric pressure sensor built into the ECM is used in the common rail system. Following the changes in the atmospheric pressure, the ECM corrects the fuel injection volume, timing and duration, and adjusts the common rail internal fuel pressure to optimize combustion.
+</p>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:20%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:10%">
+<col style="width:9%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC No.
+</th>
+<th class="alcenter">Detection Item
+</th>
+<th class="alcenter">DTC Detection Condition
+</th>
+<th class="alcenter">Trouble Area
+</th>
+<th class="alcenter">MIL
+</th>
+<th class="alcenter">Memory
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">P0069
+</td>
+<td class="alleft">MAP Sensor Too High or Too Low
+</td>
+<td class="alleft">After the ignition switch is turned to ON, the difference between the atmospheric pressure sensor output and manifold absolute pressure sensor output is more than 14 kPa for 0.5 seconds.
+<br>
+(2 trip detection logic)
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Manifold absolute pressure sensor
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">Comes on
+</td>
+<td class="alleft">DTC stored
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM10000000136IW_05" class="category no03">
+<h2>CONFIRMATION DRIVING PATTERN</h2>
+<div class="content5">
+<table summary="">
+<colgroup>
+<col style="width:50%">
+<col style="width:50%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC No.
+</th>
+<th class="alcenter">DTC Detection Drive Pattern
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">P0069
+</td>
+<td>1 second elapses after engine switch turned from off to on (IG) (starter remains off)
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM10000000136IW_02" class="category no10">
+<h2>CAUTION / NOTICE / HINT</h2>
+<div class="content5">
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3">
+<p>After replacing the ECM, the new ECM needs registration (See page <a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV ENGINE CONTROL&gt;ECD SYSTEM(w/o EGR System)&gt;REGISTRATION<span class="invisible">201701,999999,_51,_029760,_0309414,RM10000000136W1,</span></a>) and initialization (See page <a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV ENGINE CONTROL&gt;ECD SYSTEM(w/o EGR System)&gt;INITIALIZATION<span class="invisible">201701,999999,_51,_029760,_0309414,RM10000000136K9,</span></a>).
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>Read freeze frame data using the GTS. Freeze frame data records the engine condition when malfunctions are detected. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, and other data from the time the malfunction occurred.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM10000000136IW_04" class="category no01">
+<h2>PROCEDURE</h2>
+<div class="testgrp" id="RM10000000136IW_04_0001">
+<div class="testtitle"><span class="titleText">1.CHECK OTHER DTC OUTPUT (IN ADDITION TO DTC P0069)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Turn the ignition switch to ON and turn the GTS on.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Enter the following menus: Powertrain / Engine and ECT / Trouble Codes.
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Powertrain &gt; Engine and ECT &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">61</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Read the DTCs.
+</p>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM10000000136IW_04_0001_1" summary="">
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Result
+</th>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">P0069 and other DTCs are output
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">P0069 is output
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>If codes other than P0069 are output, perform troubleshooting for those DTCs first.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">2.INSPECT MANIFOLD ABSOLUTE PRESSURE SENSOR</span></div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">GO TO DTC CHART</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV ENGINE CONTROL&gt;ECD SYSTEM(w/o EGR System)&gt;DIAGNOSTIC TROUBLE CODE CHART<span class="invisible">201701,999999,_51,_029760,_0309414,RM10000000136KI,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM10000000136IW_04_0003">
+<div class="testtitle"><span class="titleText">2.INSPECT MANIFOLD ABSOLUTE PRESSURE SENSOR</span></div>
+<div class="content6">
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>Before inspecting the manifold absolute pressure sensor, perform a wire harness inspection and if there are any problems with the wire harness, repair or replace it.
+</p>
+</dd>
+</dl>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Turn the ignition switch to ON.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Turn the GTS on.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Enter the following menus: Engine and ECT / Data List / MAP.
+</p>
+<dl class="gtsDataList">
+<dt class="gtsDataList">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataList">
+<table summary="data-list" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">MAP
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsDataList gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50003</span>
+<span class="gtsEcu">61</span>
+<span class="gtsPid">314</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>Read the value.
+</p>
+<dl class="spec">
+<dt class="spec">OK:</dt>
+<dd class="spec"><p>Same value as the actual atmospheric pressure.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM10000000136IW_04_0003_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">Proceed to
+</td>
+</tr>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">3.CONFIRM WHETHER MALFUNCTION HAS BEEN SUCCESSFULLY REPAIRED</span></div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPLACE MANIFOLD ABSOLUTE PRESSURE SENSOR</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV ENGINE CONTROL&gt;MANIFOLD ABSOLUTE PRESSURE SENSOR&gt;REMOVAL<span class="invisible">201408,999999,_51,_029760,_0135361,RM100000000FJKO,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM10000000136IW_04_0005">
+<div class="testtitle"><span class="titleText">3.CONFIRM WHETHER MALFUNCTION HAS BEEN SUCCESSFULLY REPAIRED</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Clear the DTC.
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Powertrain &gt; Engine and ECT &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">61</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Turn the ignition switch off and wait for 30 seconds or more.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Turn the ignition switch to ON for 1 second or more.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>Enter the following menus: Powertrain / Engine and ECT / Trouble Codes.
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Powertrain &gt; Engine and ECT &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">61</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>Read the DTCs.
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM10000000136IW_04_0005_1" summary="">
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Result
+</th>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">P0069 is output
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">No DTC is output
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>A
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPLACE ECM</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV ENGINE CONTROL&gt;ECM&gt;REMOVAL<span class="invisible">201701,999999,_51,_029760,_0135352,RM1000000013IGX,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">END</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

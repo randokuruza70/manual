@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE LoadList SYSTEM "../../../../dtd/load.dtd">
+<LoadList ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <Block code="RL009">
+    <blockname>Cowl Side R/B Assembly</blockname>
+    <Fuse capacity="7.5" type="fuse" code="FUSE1">
+      <name>ACC</name>
+      <refs>
+        <System code="SYS001">Audio System (Before Aug. 2016 Production)</System>
+        <System code="SYS003">Auto Antenna (Before Aug. 2016 Production)</System>
+        <System code="SYS086">Clock (Before Aug. 2016 Production)</System>
+        <System code="SYS106">Power Outlet (Before Aug. 2016 Production)</System>
+        <System code="SYS066">Remote Control Mirror (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="7.5" type="fuse" code="FUSE2">
+      <name>OBD2</name>
+      <refs>
+        <System code="SYS124">DLC3 (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="7.5" type="fuse" code="FUSE3">
+      <name>ST</name>
+      <refs>
+        <System code="SYS018">Emission Control (Before Aug. 2016 Production)</System>
+        <System code="SYS020">Engine Control (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS028">Fuel Tank Changeover (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS032">Glow Plug (w/o Emission Control) (Before Aug. 2016 Production)</System>
+        <System code="SYS036">Starting (1GR-FE, 1VD-FTV) (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE4">
+      <name>A/C</name>
+      <refs>
+        <System code="SYS080">Air Conditioner (1GR-FE, 1VD-FTV) (Before Aug. 2016 Production)</System>
+        <System code="SYS018">Emission Control (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE5">
+      <name>DOME NO.1</name>
+      <refs>
+        <System code="SYS013">4WD (Before Aug. 2016 Production)</System>
+        <System code="SYS005">ABS (Before Aug. 2016 Production)</System>
+        <System code="SYS118">Charging (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS086">Clock (Before Aug. 2016 Production)</System>
+        <System code="SYS088">Combination Meter (Before Aug. 2016 Production)</System>
+        <System code="SYS018">Emission Control (Before Aug. 2016 Production)</System>
+        <System code="SYS020">Engine Control (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS015">Front/Rear Differential Lock (Before Aug. 2016 Production)</System>
+        <System code="SYS028">Fuel Tank Changeover (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS030">Fuel Tank Changeover (Diesel) (Before Aug. 2016 Production)</System>
+        <System code="SYS032">Glow Plug (w/o Emission Control) (Before Aug. 2016 Production)</System>
+        <System code="SYS098">Illumination (Before Aug. 2016 Production)</System>
+        <System code="SYS102">Interior Light (Before Aug. 2016 Production)</System>
+        <System code="SYS104">Key Reminder (Before Aug. 2016 Production)</System>
+        <System code="SYS056">Light Reminder (Before Aug. 2016 Production)</System>
+        <System code="SYS110">Seat Belt Warning (Before Aug. 2016 Production)</System>
+        <System code="SYS112">SRS (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE6">
+      <name>ECU-B</name>
+      <refs>
+        <System code="SYS003">Auto Antenna (Before Aug. 2016 Production)</System>
+        <System code="SYS086">Clock (Before Aug. 2016 Production)</System>
+        <System code="SYS094">Door Lock Control (RHD w/ Wireless Door Lock Control) (Before Aug. 2016 Production)</System>
+        <System code="SYS018">Emission Control (Before Aug. 2016 Production)</System>
+        <System code="SYS100">Immobiliser System (Before Aug. 2016 Production)</System>
+        <System code="SYS108">Rear Heater (Before Aug. 2016 Production)</System>
+        <System code="SYS116">Wireless Door Lock Control (RHD) (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE9">
+      <name>EFI-NO.2</name>
+      <refs>
+        <System code="SYS020">Engine Control (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS028">Fuel Tank Changeover (1GR-FE) (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE10">
+      <name>H/LP HI LH</name>
+      <refs>
+        <System code="SYS050">Headlight (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE11">
+      <name>H/LP HI RH</name>
+      <refs>
+        <System code="SYS050">Headlight (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE12">
+      <name>H/LP LO LH</name>
+      <refs>
+        <System code="SYS050">Headlight (Before Aug. 2016 Production)</System>
+        <System code="SYS052">Headlight Beam Level Control (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE13">
+      <name>H/LP LO RH</name>
+      <refs>
+        <System code="SYS050">Headlight (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE14">
+      <name>IGN</name>
+      <refs>
+        <System code="SYS020">Engine Control (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS028">Fuel Tank Changeover (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS030">Fuel Tank Changeover (Diesel) (Before Aug. 2016 Production)</System>
+        <System code="SYS112">SRS (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE15">
+      <name>INJ</name>
+      <refs>
+        <System code="SYS020">Engine Control (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS028">Fuel Tank Changeover (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS034">Ignition (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE16">
+      <name>MET</name>
+      <refs>
+        <System code="SYS013">4WD (Before Aug. 2016 Production)</System>
+        <System code="SYS005">ABS (Before Aug. 2016 Production)</System>
+        <System code="SYS118">Charging (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS086">Clock (Before Aug. 2016 Production)</System>
+        <System code="SYS088">Combination Meter (Before Aug. 2016 Production)</System>
+        <System code="SYS018">Emission Control (Before Aug. 2016 Production)</System>
+        <System code="SYS020">Engine Control (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS015">Front/Rear Differential Lock (Before Aug. 2016 Production)</System>
+        <System code="SYS028">Fuel Tank Changeover (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS030">Fuel Tank Changeover (Diesel) (Before Aug. 2016 Production)</System>
+        <System code="SYS032">Glow Plug (w/o Emission Control) (Before Aug. 2016 Production)</System>
+        <System code="SYS098">Illumination (Before Aug. 2016 Production)</System>
+        <System code="SYS102">Interior Light (Before Aug. 2016 Production)</System>
+        <System code="SYS104">Key Reminder (Before Aug. 2016 Production)</System>
+        <System code="SYS056">Light Reminder (Before Aug. 2016 Production)</System>
+        <System code="SYS110">Seat Belt Warning (Before Aug. 2016 Production)</System>
+        <System code="SYS112">SRS (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE17">
+      <name>PANEL</name>
+      <refs>
+        <System code="SYS098">Illumination (Before Aug. 2016 Production)</System>
+        <System code="SYS056">Light Reminder (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE18">
+      <name>TAIL</name>
+      <refs>
+        <System code="SYS020">Engine Control (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS042">Front Fog Light (Before Aug. 2016 Production)</System>
+        <System code="SYS028">Fuel Tank Changeover (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS060">Rear Fog Light (Before Aug. 2016 Production)</System>
+        <System code="SYS070">Taillight (Before Aug. 2016 Production)</System>
+        <System code="SYS072">Trailer Socket (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE19">
+      <name>CIG</name>
+      <refs>
+        <System code="SYS084">Cigarette Lighter (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE20">
+      <name>ECU IG</name>
+      <refs>
+        <System code="SYS013">4WD (Before Aug. 2016 Production)</System>
+        <System code="SYS005">ABS (Before Aug. 2016 Production)</System>
+        <System code="SYS003">Auto Antenna (Before Aug. 2016 Production)</System>
+        <System code="SYS118">Charging (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS088">Combination Meter (Before Aug. 2016 Production)</System>
+        <System code="SYS094">Door Lock Control (RHD w/ Wireless Door Lock Control) (Before Aug. 2016 Production)</System>
+        <System code="SYS018">Emission Control (Before Aug. 2016 Production)</System>
+        <System code="SYS046">Front Wiper and Washer (RHD 12V Battery Type) (Before Aug. 2016 Production)</System>
+        <System code="SYS048">Front Wiper and Washer (RHD 24V Battery Type) (Before Aug. 2016 Production)</System>
+        <System code="SYS015">Front/Rear Differential Lock (Before Aug. 2016 Production)</System>
+        <System code="SYS032">Glow Plug (w/o Emission Control) (Before Aug. 2016 Production)</System>
+        <System code="SYS100">Immobiliser System (Before Aug. 2016 Production)</System>
+        <System code="SYS116">Wireless Door Lock Control (RHD) (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE21">
+      <name>FR FOG</name>
+      <refs>
+        <System code="SYS042">Front Fog Light (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE22">
+      <name>FUEL HTR</name>
+      <refs>
+        <System code="SYS026">Fuel Heater (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE23">
+      <name>GAUGE</name>
+      <refs>
+        <System code="SYS080">Air Conditioner (1GR-FE, 1VD-FTV) (Before Aug. 2016 Production)</System>
+        <System code="SYS040">Back-Up Light (Before Aug. 2016 Production)</System>
+        <System code="SYS086">Clock (Before Aug. 2016 Production)</System>
+        <System code="SYS108">Rear Heater (Before Aug. 2016 Production)</System>
+        <System code="SYS062">Rear Window Defogger (Before Aug. 2016 Production)</System>
+        <System code="SYS072">Trailer Socket (Before Aug. 2016 Production)</System>
+        <System code="SYS074">Turn Signal and Hazard Warning Light (12V Battery Type) (Before Aug. 2016 Production)</System>
+        <System code="SYS076">Turn Signal and Hazard Warning Light (24V Battery Type) (Before Aug. 2016 Production)</System>
+        <System code="SYS078">Winch (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE24">
+      <name>RADIO</name>
+      <refs>
+        <System code="SYS001">Audio System (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE25">
+      <name>RR FOG</name>
+      <refs>
+        <System code="SYS060">Rear Fog Light (Before Aug. 2016 Production)</System>
+        <System code="SYS072">Trailer Socket (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE26">
+      <name>STOP</name>
+      <refs>
+        <System code="SYS005">ABS (Before Aug. 2016 Production)</System>
+        <System code="SYS020">Engine Control (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS028">Fuel Tank Changeover (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS068">Stop Light (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE27">
+      <name>TRAILER STOP</name>
+      <refs>
+        <System code="SYS072">Trailer Socket (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="20" type="fuse" code="FUSE28">
+      <name>DEFOG</name>
+      <refs>
+        <System code="SYS020">Engine Control (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS028">Fuel Tank Changeover (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS062">Rear Window Defogger (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="20" type="fuse" code="FUSE29">
+      <name>WIP</name>
+      <refs>
+        <System code="SYS046">Front Wiper and Washer (RHD 12V Battery Type) (Before Aug. 2016 Production)</System>
+        <System code="SYS048">Front Wiper and Washer (RHD 24V Battery Type) (Before Aug. 2016 Production)</System>
+        <System code="SYS064">Rear Wiper and Washer (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE30">
+      <name>DIFF</name>
+      <refs>
+        <System code="SYS015">Front/Rear Differential Lock (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE31">
+      <name>DOOR</name>
+      <refs>
+        <System code="SYS094">Door Lock Control (RHD w/ Wireless Door Lock Control) (Before Aug. 2016 Production)</System>
+        <System code="SYS096">Door Lock Control (RHD w/o Wireless Door Lock Control) (Before Aug. 2016 Production)</System>
+        <System code="SYS116">Wireless Door Lock Control (RHD) (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE32">
+      <name>POWER</name>
+      <refs>
+        <System code="SYS058">Power Window (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE33">
+      <name>STOP</name>
+      <refs>
+        <System code="SYS005">ABS (Before Aug. 2016 Production)</System>
+        <System code="SYS020">Engine Control (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS028">Fuel Tank Changeover (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS068">Stop Light (Before Aug. 2016 Production)</System>
+        <System code="SYS072">Trailer Socket (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE34">
+      <name>TRAILER</name>
+      <refs>
+        <System code="SYS072">Trailer Socket (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+  </Block>
+  <Block code="RL010">
+    <blockname>Fusible Link Block Assembly</blockname>
+    <Fuse capacity="30" type="fuse" code="FUSE35">
+      <name>AM1</name>
+      <refs>
+        <System code="SYS106">Power Outlet (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="50" type="fuse" code="FUSE36">
+      <name>ALT MAIN</name>
+      <refs>
+        <System code="SYS106">Power Outlet (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="50" type="fuse" code="FUSE37">
+      <name>AM1 NO.2</name>
+      <refs>
+        <System code="SYS106">Power Outlet (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="50" type="fuse" code="FUSE38">
+      <name>AM1 NO.3</name>
+      <refs>
+        <System code="SYS128">Power Source (Diesel) (Before Aug. 2016 Production)</System>
+        <System code="SYS130">Power Source (Gasoline) (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="50" type="fuse" code="FUSE39">
+      <name>HTR</name>
+      <refs>
+        <System code="SYS080">Air Conditioner (1GR-FE, 1VD-FTV) (Before Aug. 2016 Production)</System>
+        <System code="SYS018">Emission Control (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="80" type="fuse" code="FUSE40">
+      <name>GLOW1</name>
+      <refs>
+        <System code="SYS018">Emission Control (Before Aug. 2016 Production)</System>
+        <System code="SYS032">Glow Plug (w/o Emission Control) (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="140" type="fuse" code="FUSE43">
+      <name>ALT</name>
+      <refs>
+        <System code="SYS118">Charging (1GR-FE) (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+  </Block>
+  <Block code="RL011">
+    <blockname>Fuse Block Assembly</blockname>
+    <Fuse capacity="7.5" type="fuse" code="FUSE44">
+      <name>ALT-S</name>
+      <refs>
+        <System code="SYS118">Charging (1GR-FE) (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE45">
+      <name>A/F</name>
+      <refs>
+        <System code="SYS020">Engine Control (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS028">Fuel Tank Changeover (1GR-FE) (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE46">
+      <name>ETCS</name>
+      <refs>
+        <System code="SYS020">Engine Control (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS028">Fuel Tank Changeover (1GR-FE) (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE47">
+      <name>HORN</name>
+      <refs>
+        <System code="SYS054">Horn (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE51">
+      <name>TURN&amp;HAZ</name>
+      <refs>
+        <System code="SYS074">Turn Signal and Hazard Warning Light (12V Battery Type) (Before Aug. 2016 Production)</System>
+        <System code="SYS076">Turn Signal and Hazard Warning Light (24V Battery Type) (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="25" type="fuse" code="FUSE52">
+      <name>EFI</name>
+      <refs>
+        <System code="SYS020">Engine Control (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS028">Fuel Tank Changeover (1GR-FE) (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE53">
+      <name>ABS SOL</name>
+      <refs>
+        <System code="SYS005">ABS (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="50" type="fuse" code="FUSE54">
+      <name>ABS MTR</name>
+      <refs>
+        <System code="SYS005">ABS (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="50" type="fuse" code="FUSE55">
+      <name>AM2</name>
+      <refs>
+        <System code="SYS036">Starting (1GR-FE, 1VD-FTV) (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="50" type="fuse" code="FUSE56">
+      <name>HEAD</name>
+      <refs>
+        <System code="SYS050">Headlight (Before Aug. 2016 Production)</System>
+        <System code="SYS052">Headlight Beam Level Control (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="50" type="fuse" code="FUSE57">
+      <name>MAIN1</name>
+      <refs>
+        <System code="SYS020">Engine Control (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS042">Front Fog Light (Before Aug. 2016 Production)</System>
+        <System code="SYS028">Fuel Tank Changeover (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS098">Illumination (Before Aug. 2016 Production)</System>
+        <System code="SYS056">Light Reminder (Before Aug. 2016 Production)</System>
+        <System code="SYS060">Rear Fog Light (Before Aug. 2016 Production)</System>
+        <System code="SYS070">Taillight (Before Aug. 2016 Production)</System>
+        <System code="SYS072">Trailer Socket (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+  </Block>
+  <Block code="RL016">
+    <blockname>Cowl Side R/B Assembly</blockname>
+    <Fuse capacity="7.5" type="fuse" code="FUSE1">
+      <name>ACC</name>
+      <refs>
+        <System code="SYS001">Audio System (Before Aug. 2016 Production)</System>
+        <System code="SYS003">Auto Antenna (Before Aug. 2016 Production)</System>
+        <System code="SYS086">Clock (Before Aug. 2016 Production)</System>
+        <System code="SYS106">Power Outlet (Before Aug. 2016 Production)</System>
+        <System code="SYS066">Remote Control Mirror (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="7.5" type="fuse" code="FUSE2">
+      <name>OBD2</name>
+      <refs>
+        <System code="SYS124">DLC3 (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="7.5" type="fuse" code="FUSE3">
+      <name>ST</name>
+      <refs>
+        <System code="SYS018">Emission Control (Before Aug. 2016 Production)</System>
+        <System code="SYS020">Engine Control (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS028">Fuel Tank Changeover (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS032">Glow Plug (w/o Emission Control) (Before Aug. 2016 Production)</System>
+        <System code="SYS036">Starting (1GR-FE, 1VD-FTV) (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE4">
+      <name>A/C</name>
+      <refs>
+        <System code="SYS080">Air Conditioner (1GR-FE, 1VD-FTV) (Before Aug. 2016 Production)</System>
+        <System code="SYS018">Emission Control (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE5">
+      <name>DOME NO.1</name>
+      <refs>
+        <System code="SYS013">4WD (Before Aug. 2016 Production)</System>
+        <System code="SYS005">ABS (Before Aug. 2016 Production)</System>
+        <System code="SYS118">Charging (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS086">Clock (Before Aug. 2016 Production)</System>
+        <System code="SYS088">Combination Meter (Before Aug. 2016 Production)</System>
+        <System code="SYS018">Emission Control (Before Aug. 2016 Production)</System>
+        <System code="SYS020">Engine Control (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS015">Front/Rear Differential Lock (Before Aug. 2016 Production)</System>
+        <System code="SYS028">Fuel Tank Changeover (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS030">Fuel Tank Changeover (Diesel) (Before Aug. 2016 Production)</System>
+        <System code="SYS032">Glow Plug (w/o Emission Control) (Before Aug. 2016 Production)</System>
+        <System code="SYS098">Illumination (Before Aug. 2016 Production)</System>
+        <System code="SYS102">Interior Light (Before Aug. 2016 Production)</System>
+        <System code="SYS104">Key Reminder (Before Aug. 2016 Production)</System>
+        <System code="SYS056">Light Reminder (Before Aug. 2016 Production)</System>
+        <System code="SYS110">Seat Belt Warning (Before Aug. 2016 Production)</System>
+        <System code="SYS112">SRS (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE6">
+      <name>ECU-B</name>
+      <refs>
+        <System code="SYS003">Auto Antenna (Before Aug. 2016 Production)</System>
+        <System code="SYS086">Clock (Before Aug. 2016 Production)</System>
+        <System code="SYS094">Door Lock Control (RHD w/ Wireless Door Lock Control) (Before Aug. 2016 Production)</System>
+        <System code="SYS018">Emission Control (Before Aug. 2016 Production)</System>
+        <System code="SYS100">Immobiliser System (Before Aug. 2016 Production)</System>
+        <System code="SYS108">Rear Heater (Before Aug. 2016 Production)</System>
+        <System code="SYS116">Wireless Door Lock Control (RHD) (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE9">
+      <name>EFI-NO.2</name>
+      <refs>
+        <System code="SYS020">Engine Control (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS028">Fuel Tank Changeover (1GR-FE) (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE10">
+      <name>H/LP HI LH</name>
+      <refs>
+        <System code="SYS050">Headlight (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE11">
+      <name>H/LP HI RH</name>
+      <refs>
+        <System code="SYS050">Headlight (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE12">
+      <name>H/LP LO LH</name>
+      <refs>
+        <System code="SYS050">Headlight (Before Aug. 2016 Production)</System>
+        <System code="SYS052">Headlight Beam Level Control (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE13">
+      <name>H/LP LO RH</name>
+      <refs>
+        <System code="SYS050">Headlight (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE14">
+      <name>IGN</name>
+      <refs>
+        <System code="SYS020">Engine Control (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS028">Fuel Tank Changeover (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS030">Fuel Tank Changeover (Diesel) (Before Aug. 2016 Production)</System>
+        <System code="SYS112">SRS (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE15">
+      <name>INJ</name>
+      <refs>
+        <System code="SYS020">Engine Control (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS028">Fuel Tank Changeover (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS034">Ignition (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE16">
+      <name>MET</name>
+      <refs>
+        <System code="SYS013">4WD (Before Aug. 2016 Production)</System>
+        <System code="SYS005">ABS (Before Aug. 2016 Production)</System>
+        <System code="SYS118">Charging (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS086">Clock (Before Aug. 2016 Production)</System>
+        <System code="SYS088">Combination Meter (Before Aug. 2016 Production)</System>
+        <System code="SYS018">Emission Control (Before Aug. 2016 Production)</System>
+        <System code="SYS020">Engine Control (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS015">Front/Rear Differential Lock (Before Aug. 2016 Production)</System>
+        <System code="SYS028">Fuel Tank Changeover (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS030">Fuel Tank Changeover (Diesel) (Before Aug. 2016 Production)</System>
+        <System code="SYS032">Glow Plug (w/o Emission Control) (Before Aug. 2016 Production)</System>
+        <System code="SYS098">Illumination (Before Aug. 2016 Production)</System>
+        <System code="SYS102">Interior Light (Before Aug. 2016 Production)</System>
+        <System code="SYS104">Key Reminder (Before Aug. 2016 Production)</System>
+        <System code="SYS056">Light Reminder (Before Aug. 2016 Production)</System>
+        <System code="SYS110">Seat Belt Warning (Before Aug. 2016 Production)</System>
+        <System code="SYS112">SRS (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE17">
+      <name>PANEL</name>
+      <refs>
+        <System code="SYS098">Illumination (Before Aug. 2016 Production)</System>
+        <System code="SYS056">Light Reminder (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE18">
+      <name>TAIL</name>
+      <refs>
+        <System code="SYS020">Engine Control (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS042">Front Fog Light (Before Aug. 2016 Production)</System>
+        <System code="SYS028">Fuel Tank Changeover (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS060">Rear Fog Light (Before Aug. 2016 Production)</System>
+        <System code="SYS070">Taillight (Before Aug. 2016 Production)</System>
+        <System code="SYS072">Trailer Socket (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE19">
+      <name>CIG</name>
+      <refs>
+        <System code="SYS084">Cigarette Lighter (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE20">
+      <name>ECU IG</name>
+      <refs>
+        <System code="SYS013">4WD (Before Aug. 2016 Production)</System>
+        <System code="SYS005">ABS (Before Aug. 2016 Production)</System>
+        <System code="SYS003">Auto Antenna (Before Aug. 2016 Production)</System>
+        <System code="SYS118">Charging (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS088">Combination Meter (Before Aug. 2016 Production)</System>
+        <System code="SYS094">Door Lock Control (RHD w/ Wireless Door Lock Control) (Before Aug. 2016 Production)</System>
+        <System code="SYS018">Emission Control (Before Aug. 2016 Production)</System>
+        <System code="SYS046">Front Wiper and Washer (RHD 12V Battery Type) (Before Aug. 2016 Production)</System>
+        <System code="SYS048">Front Wiper and Washer (RHD 24V Battery Type) (Before Aug. 2016 Production)</System>
+        <System code="SYS015">Front/Rear Differential Lock (Before Aug. 2016 Production)</System>
+        <System code="SYS032">Glow Plug (w/o Emission Control) (Before Aug. 2016 Production)</System>
+        <System code="SYS100">Immobiliser System (Before Aug. 2016 Production)</System>
+        <System code="SYS116">Wireless Door Lock Control (RHD) (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE21">
+      <name>FR FOG</name>
+      <refs>
+        <System code="SYS042">Front Fog Light (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE22">
+      <name>FUEL HTR</name>
+      <refs>
+        <System code="SYS026">Fuel Heater (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE23">
+      <name>GAUGE</name>
+      <refs>
+        <System code="SYS080">Air Conditioner (1GR-FE, 1VD-FTV) (Before Aug. 2016 Production)</System>
+        <System code="SYS040">Back-Up Light (Before Aug. 2016 Production)</System>
+        <System code="SYS086">Clock (Before Aug. 2016 Production)</System>
+        <System code="SYS108">Rear Heater (Before Aug. 2016 Production)</System>
+        <System code="SYS062">Rear Window Defogger (Before Aug. 2016 Production)</System>
+        <System code="SYS072">Trailer Socket (Before Aug. 2016 Production)</System>
+        <System code="SYS074">Turn Signal and Hazard Warning Light (12V Battery Type) (Before Aug. 2016 Production)</System>
+        <System code="SYS076">Turn Signal and Hazard Warning Light (24V Battery Type) (Before Aug. 2016 Production)</System>
+        <System code="SYS078">Winch (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE24">
+      <name>RADIO</name>
+      <refs>
+        <System code="SYS001">Audio System (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE25">
+      <name>RR FOG</name>
+      <refs>
+        <System code="SYS060">Rear Fog Light (Before Aug. 2016 Production)</System>
+        <System code="SYS072">Trailer Socket (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE26">
+      <name>STOP</name>
+      <refs>
+        <System code="SYS005">ABS (Before Aug. 2016 Production)</System>
+        <System code="SYS020">Engine Control (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS028">Fuel Tank Changeover (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS068">Stop Light (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE27">
+      <name>TRAILER STOP</name>
+      <refs>
+        <System code="SYS072">Trailer Socket (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="20" type="fuse" code="FUSE28">
+      <name>DEFOG</name>
+      <refs>
+        <System code="SYS020">Engine Control (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS028">Fuel Tank Changeover (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS062">Rear Window Defogger (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="20" type="fuse" code="FUSE29">
+      <name>WIP</name>
+      <refs>
+        <System code="SYS046">Front Wiper and Washer (RHD 12V Battery Type) (Before Aug. 2016 Production)</System>
+        <System code="SYS048">Front Wiper and Washer (RHD 24V Battery Type) (Before Aug. 2016 Production)</System>
+        <System code="SYS064">Rear Wiper and Washer (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE30">
+      <name>DIFF</name>
+      <refs>
+        <System code="SYS015">Front/Rear Differential Lock (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE31">
+      <name>DOOR</name>
+      <refs>
+        <System code="SYS094">Door Lock Control (RHD w/ Wireless Door Lock Control) (Before Aug. 2016 Production)</System>
+        <System code="SYS096">Door Lock Control (RHD w/o Wireless Door Lock Control) (Before Aug. 2016 Production)</System>
+        <System code="SYS116">Wireless Door Lock Control (RHD) (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE32">
+      <name>POWER</name>
+      <refs>
+        <System code="SYS058">Power Window (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE33">
+      <name>STOP</name>
+      <refs>
+        <System code="SYS005">ABS (Before Aug. 2016 Production)</System>
+        <System code="SYS020">Engine Control (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS028">Fuel Tank Changeover (1GR-FE) (Before Aug. 2016 Production)</System>
+        <System code="SYS068">Stop Light (Before Aug. 2016 Production)</System>
+        <System code="SYS072">Trailer Socket (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE34">
+      <name>TRAILER</name>
+      <refs>
+        <System code="SYS072">Trailer Socket (Before Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+  </Block>
+</LoadList>

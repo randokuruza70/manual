@@ -1,0 +1,1587 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">Engine / Hybrid System</span>
+<span class="globalSection">_029760</span>
+<span class="globalSectionName">1VD-FTV ENGINE CONTROL</span>
+<span class="globalTitle">_0309414</span>
+<span class="globalTitleName">ECD SYSTEM(w/o EGR System)</span>
+<span class="globalCategory">U</span>
+</div>
+<h1>1VD-FTV ENGINE CONTROL&nbsp;&nbsp;ECD SYSTEM(w/o EGR System)&nbsp;&nbsp;TERMINALS OF ECM&nbsp;&nbsp;</h1>
+<br>
+<div id="RM10000000136KB_z0" class="category no00">
+<div class="content5">
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A163584E07.png" alt="A163584E07" title="A163584E07">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">2.396,0.188 2.906,0.5</span>
+<span class="rectangleSize">0.51,0.313</span>
+</span>
+<span class="rectangle">
+<span class="points">2.396,0.188 2.906,0.5</span>
+<span class="rectangleSize">0.51,0.313</span>
+</span>
+<span class="rectangle">
+<span class="points">5.531,0.188 6.042,0.5</span>
+<span class="rectangleSize">0.51,0.313</span>
+</span>
+<span class="caption">
+<span class="points">2.521,0.26 2.823,0.438</span>
+<span class="captionSize">0.302,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">C39</span>
+</span>
+<span class="caption">
+<span class="points">5.667,0.271 5.938,0.479</span>
+<span class="captionSize">0.271,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">I84</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<p>Measure the voltage according to the value(s) in the table below.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>The standard normal voltage between each pair of ECM terminals is shown in the table below. The appropriate conditions for checking each pair of terminals are also indicated.
+</p>
+</dd>
+<dd class="atten4">
+<p>The result of the checks should be compared with the standard normal voltage for that pair of terminals, which is displayed in the Specified Condition column.
+</p>
+</dd>
+<dd class="atten4">
+<p>The illustration above can be used as a reference to identify the ECM terminal locations.
+</p>
+</dd>
+</dl>
+<br>
+<table summary="">
+<colgroup>
+<col style="width:25%">
+<col style="width:10%">
+<col style="width:20%">
+<col style="width:25%">
+<col style="width:19%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Terminal No. (Symbols)
+</th>
+<th class="alcenter">Wiring Color
+</th>
+<th class="alcenter">Terminal Description
+</th>
+<th class="alcenter">Condition
+</th>
+<th class="alcenter">Specified Condition
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">I84-20 (BATT) - C39-81 (E1)
+</td>
+<td class="alcenter">R-B - BR
+</td>
+<td class="alleft">Battery (for measuring the battery voltage and for the ECM memory)
+</td>
+<td class="alleft">Always
+</td>
+<td class="alcenter">11 to 14 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">I84-28 (IGSW) - C39-81 (E1)
+</td>
+<td class="alcenter">B - BR
+</td>
+<td class="alleft">Ignition switch
+</td>
+<td class="alleft">Ignition switch ON
+</td>
+<td class="alcenter">11 to 14 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">I84-2 (+B) - C39-81 (E1)
+</td>
+<td class="alcenter">L - BR
+</td>
+<td class="alleft">Power source of ECM
+</td>
+<td class="alleft">Ignition switch ON
+</td>
+<td class="alcenter">11 to 14 V
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="2">I84-44 (MREL) - C39-81 (E1)
+</td>
+<td class="alcenter" rowspan="2">W-G - BR
+</td>
+<td class="alleft" rowspan="2">MAIN relay (MAIN)
+</td>
+<td class="alleft">Ignition switch ON
+</td>
+<td class="alcenter">11 to 14 V
+</td>
+</tr>
+<tr>
+<td class="alleft">10 seconds elapsed after ignition switch turned off
+</td>
+<td class="alcenter">0 to 1.5 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-66 (VCPM) - C39-75 (E2)
+</td>
+<td class="alcenter">L-R - BR
+</td>
+<td class="alleft">Power source of manifold absolute pressure sensor (for PIM)
+</td>
+<td class="alleft">Ignition switch ON
+</td>
+<td class="alcenter">4.5 to 5.5 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-70 (VCM) - C39-75 (E2)
+</td>
+<td class="alcenter">L-R - BR
+</td>
+<td class="alleft">Power source of fuel pressure sensor (for PCR1)
+</td>
+<td class="alleft">Ignition switch ON
+</td>
+<td class="alcenter">4.5 to 5.5 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-91 (VCVL) - C39-92 (EVLU)
+</td>
+<td class="alcenter">L-R - W-R
+</td>
+<td class="alleft">Power source of throttle position sensor
+</td>
+<td class="alleft">Ignition switch ON
+</td>
+<td class="alcenter">4.5 to 5.5 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-72 (VG) - C39-118 (EVG)
+</td>
+<td class="alcenter">L-Y - G-W
+</td>
+<td class="alleft">Mass air flow meter
+</td>
+<td class="alleft">Engine is warmed up: Idling, A/C switch OFF
+</td>
+<td class="alcenter">0.5 to 3.4 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-71 (THA) - C39-75 (E2)
+</td>
+<td class="alcenter">Y-B - BR
+</td>
+<td class="alleft">Intake air temperature sensor (built into mass air flow meter)
+</td>
+<td class="alleft">Engine is warmed up: Idling, intake air temperature at 0 to 80°C (32 to 176°F)
+</td>
+<td class="alcenter">0.5 to 3.4 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-85 (VN) - C39-81 (E1)
+</td>
+<td class="alcenter">L - BR
+</td>
+<td class="alleft">VRV (Vacuum Regulating Valve)
+</td>
+<td class="alleft">Idling
+</td>
+<td class="alcenter">Pulse generation
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="2">I84-53 (VPA) - I84-57 (EPA)
+</td>
+<td class="alcenter" rowspan="2">L-R - W
+</td>
+<td class="alleft" rowspan="2">Accelerator pedal position sensor (for engine control)
+</td>
+<td class="alleft">Ignition switch ON, accelerator pedal fully released
+</td>
+<td class="alcenter">0.6 to 1.0 V
+</td>
+</tr>
+<tr>
+<td class="alleft">Ignition switch ON, accelerator pedal fully depressed
+</td>
+<td class="alcenter">3.0 to 4.6 V
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="2">I84-54 (VPA2) - I84-58 (EPA2)
+</td>
+<td class="alcenter" rowspan="2">R-B - BR
+</td>
+<td class="alleft" rowspan="2">Accelerator pedal position sensor (for sensor malfunction detection)
+</td>
+<td class="alleft">Ignition switch ON, accelerator pedal fully released
+</td>
+<td class="alcenter">1.4 to 1.8 V
+</td>
+</tr>
+<tr>
+<td class="alleft">Ignition switch ON, accelerator pedal fully depressed
+</td>
+<td class="alcenter">3.7 to 5.0 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">I84-55 (VCPA) - I84-57 (EPA)
+</td>
+<td class="alcenter">BR-W - W
+</td>
+<td class="alleft">Power source of accelerator pedal position sensor (for VPA)
+</td>
+<td class="alleft">Ignition switch ON
+</td>
+<td class="alcenter">4.5 to 5.5 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">I84-56 (VCP2) - I84-58 (EPA2)
+</td>
+<td class="alcenter">V - BR
+</td>
+<td class="alleft">Power source of accelerator pedal position sensor (for VPA2)
+</td>
+<td class="alleft">Ignition switch ON
+</td>
+<td class="alcenter">4.5 to 5.5 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-74 (THIA) - C39-75 (E2)
+</td>
+<td class="alcenter">W-G - BR
+</td>
+<td class="alleft">Intake air temperature sensor (after turbocharged)
+</td>
+<td class="alleft">Engine is warmed up: Idling, intake air temperature sensor (after turbocharged) at 0 to 80°C (32 to 176°F)
+</td>
+<td class="alcenter">0.5 to 3.4 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-76 (THW) - C39-75 (E2)
+</td>
+<td class="alcenter">G-B - BR
+</td>
+<td class="alleft">Engine coolant temperature sensor
+</td>
+<td class="alleft">Engine is warmed up: Idling, engine coolant temperature at 60 to 120°C (140 to 248°F)
+</td>
+<td class="alcenter">0.2 to 1.2 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-40 (#1) - C39-81 (E1)
+</td>
+<td class="alcenter">Y - BR
+</td>
+<td class="alleft" rowspan="8">Fuel injector
+</td>
+<td class="alleft" rowspan="8">Idling
+</td>
+<td class="alcenter" rowspan="8">Pulse generation
+<br>
+(see waveform 1)
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-39 (#2) - C39-81 (E1)
+</td>
+<td class="alcenter">B - BR
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-38 (#3) - C39-81 (E1)
+</td>
+<td class="alcenter">L - BR
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-37 (#4) - C39-81 (E1)
+</td>
+<td class="alcenter">R - BR
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-36 (#5) - C39-81 (E1)
+</td>
+<td class="alcenter">G - BR
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-35 (#6) - C39-81 (E1)
+</td>
+<td class="alcenter">V - BR
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-34 (#7) - C39-81 (E1)
+</td>
+<td class="alcenter">W - BR
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-33 (#8) - C39-81 (E1)
+</td>
+<td class="alcenter">P - BR
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-80 (G+) - C39-79 (G-)
+</td>
+<td class="alcenter">W - B
+</td>
+<td class="alleft">Camshaft position sensor
+</td>
+<td class="alleft">Idling
+</td>
+<td class="alcenter">Pulse generation
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-78 (NE+) - C39-77 (NE-)
+</td>
+<td class="alcenter">B - W
+</td>
+<td class="alleft">Crankshaft position sensor
+</td>
+<td class="alleft">Idling
+</td>
+<td class="alcenter">Pulse generation
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="3">C39-114 (PIM) - C39-75 (E2)
+</td>
+<td class="alcenter" rowspan="3">P-L - BR
+</td>
+<td class="alleft" rowspan="3">Manifold absolute pressure sensor
+</td>
+<td class="alleft">Negative pressure of 40 kPa (300 mmHg, 11.8 in.Hg) applied
+</td>
+<td class="alcenter">0.1 to 0.7 V
+</td>
+</tr>
+<tr>
+<td class="alleft">Same as atmospheric pressure
+</td>
+<td class="alcenter">0.8 to 1.4 V
+</td>
+</tr>
+<tr>
+<td class="alleft">Positive pressure of 170 kPa (1275 mmHg, 50.2 in.Hg) applied
+</td>
+<td class="alcenter">1.6 to 2.2 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">I84-45 (IREL) - C39-81 (E1)
+</td>
+<td class="alcenter">P - BR
+</td>
+<td class="alleft">EDU 1 relay
+</td>
+<td class="alleft">Ignition switch ON
+</td>
+<td class="alcenter">0 to 1.5 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">I84-46 (IRL2) - C39-81 (E1)
+</td>
+<td class="alcenter">R - BR
+</td>
+<td class="alleft">EDU 2 relay
+</td>
+<td class="alleft">Ignition switch ON
+</td>
+<td class="alcenter">0 to 1.5 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-69 (PCR1) - C39-75 (E2)
+</td>
+<td class="alcenter">B - BR
+</td>
+<td class="alleft">Fuel pressure sensor
+</td>
+<td class="alleft">Idling (Approximately 35 MPa (357 kgf/cm<sup>2</sup>, 5078 psi))
+</td>
+<td class="alcenter">1.3 to 1.8 V
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="2">C39-63 (GREL) - C39-81 (E1)
+</td>
+<td class="alcenter" rowspan="2">R - BR
+</td>
+<td class="alleft" rowspan="2">No. 1 glow relay
+</td>
+<td class="alleft">Cranking
+</td>
+<td class="alcenter">11 to 14 V
+</td>
+</tr>
+<tr>
+<td class="alleft">Idling
+</td>
+<td class="alcenter">0 to 1.5 V
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="2">C39-62 (GRL2) - C39-81 (E1)
+</td>
+<td class="alcenter" rowspan="2">L - BR
+</td>
+<td class="alleft" rowspan="2">No. 2 glow relay
+</td>
+<td class="alleft">Cranking
+</td>
+<td class="alcenter">11 to 14 V
+</td>
+</tr>
+<tr>
+<td class="alleft">Idling
+</td>
+<td class="alcenter">0 to 1.5 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-116 (THF) - C39-75 (E2)
+</td>
+<td class="alcenter">G-R - BR
+</td>
+<td class="alleft">Fuel temperature sensor
+</td>
+<td class="alleft">Ignition switch ON
+</td>
+<td class="alcenter">0.5 to 3.4 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-106 (PCV+) - C39-105 (PCV-)
+</td>
+<td class="alcenter">W - BR
+</td>
+<td class="alleft">Suction control valve
+</td>
+<td class="alleft">Idling
+</td>
+<td class="alcenter">Pulse generation
+<br>
+(see waveform 2)
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-61 (INJ1) - C39-81 (E1)
+</td>
+<td class="alcenter">W - BR
+</td>
+<td class="alleft">No. 1 injector driver
+</td>
+<td class="alleft">Idling
+</td>
+<td class="alcenter">Pulse generation
+<br>
+(see waveform 3)
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-60 (INJ2) - C39-81 (E1)
+</td>
+<td class="alcenter">W - BR
+</td>
+<td class="alleft">No. 2 injector driver
+</td>
+<td class="alleft">Idling
+</td>
+<td class="alcenter">Pulse generation
+<br>
+(see waveform 3)
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="2">C39-93 (VLU) - C39-92 (EVLU)
+</td>
+<td class="alcenter" rowspan="2">L-W - W-R
+</td>
+<td class="alleft" rowspan="2">Throttle position sensor (for Bank 1)
+</td>
+<td class="alleft">Ignition switch ON
+<br>
+(throttle valve fully opened)
+</td>
+<td class="alcenter">0.4 to 1.0 V
+</td>
+</tr>
+<tr>
+<td class="alleft">Idling
+<br>
+(throttle valve fully closed)
+</td>
+<td class="alcenter">2.8 to 3.8 V
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="2">C39-103 (VLU2) - C39-92 (EVLU)
+</td>
+<td class="alcenter" rowspan="2">L-W - W-R
+</td>
+<td class="alleft" rowspan="2">Throttle position sensor (for Bank 2)
+</td>
+<td class="alleft">Ignition switch ON
+<br>
+(throttle valve fully opened)
+</td>
+<td class="alcenter">0.4 to 1.0 V
+</td>
+</tr>
+<tr>
+<td class="alleft">Idling
+<br>
+(throttle valve fully closed)
+</td>
+<td class="alcenter">2.8 to 3.8 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-42 (LUSL) - C39-81 (E1)
+</td>
+<td class="alcenter">B - BR
+</td>
+<td class="alleft">Diesel throttle duty signal (for Bank 1)
+</td>
+<td class="alleft">Engine warmed up, racing engine
+</td>
+<td class="alcenter">Pulse generation
+<br>
+(see waveform 4)
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-84 (LUS2) - C39-81 (E1)
+</td>
+<td class="alcenter">B - BR
+</td>
+<td class="alleft">Diesel throttle duty signal (for Bank 2)
+</td>
+<td class="alleft">Engine warmed up, racing engine
+</td>
+<td class="alcenter">Pulse generation
+<br>
+(see waveform 4)
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="2">I84-36 (STP) - C39-81 (E1)
+</td>
+<td class="alcenter" rowspan="2">W - BR
+</td>
+<td class="alleft" rowspan="2">Stop light switch
+</td>
+<td class="alleft">Ignition switch ON, brake pedal depressed
+</td>
+<td class="alcenter">7.5 to 14 V
+</td>
+</tr>
+<tr>
+<td class="alleft">Ignition switch ON, brake pedal released
+</td>
+<td class="alcenter">0 to 1.5 V
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="2">I84-35 (ST1-) - C39-81 (E1)
+</td>
+<td class="alcenter" rowspan="2">R-L - BR
+</td>
+<td class="alleft" rowspan="2">Stop light switch
+<br>
+(opposite to STP)
+</td>
+<td class="alleft">Ignition switch ON, brake pedal depressed
+</td>
+<td class="alcenter">0 to 1.5 V
+</td>
+</tr>
+<tr>
+<td class="alleft">Ignition switch ON, brake pedal released
+</td>
+<td class="alcenter">7.5 to 14 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">I84-15 (TACH) - C39-81 (E1)
+</td>
+<td class="alcenter">B - BR
+</td>
+<td class="alleft">Engine speed
+</td>
+<td class="alleft">Idling
+</td>
+<td class="alcenter">Pulse generation
+<br>
+(see waveform 5)
+</td>
+</tr>
+<tr>
+<td class="alcenter">I84-8 (SPD) - C39-81 (E1)
+</td>
+<td class="alcenter">G - BR
+</td>
+<td class="alleft">Speed signal from combination meter
+</td>
+<td class="alleft">Ignition switch ON, wheel rotated slowly
+</td>
+<td class="alcenter">Pulse generation
+<br>
+(see waveform 6)
+</td>
+</tr>
+<tr>
+<td class="alcenter">I84-48 (STA) - C39-81 (E1)
+</td>
+<td class="alcenter">B-W - BR
+</td>
+<td class="alleft">Starter signal
+</td>
+<td class="alleft">Cranking
+</td>
+<td class="alcenter">6.0 V or more
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-1 (ALT) - C39-81 (E1)
+</td>
+<td class="alcenter">R - BR
+</td>
+<td class="alleft">Generator duty ratio
+</td>
+<td class="alleft">Idling
+</td>
+<td class="alcenter">Pulse generation
+</td>
+</tr>
+<tr>
+<td class="alcenter">I84-27 (TC) - C39-81 (E1)
+</td>
+<td class="alcenter">G - BR
+</td>
+<td class="alleft">Terminal TC of DLC3
+</td>
+<td class="alleft">Ignition switch ON
+</td>
+<td class="alcenter">11 to 14 V
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="2">I84-30 (AC1) - C39-81 (E1)
+</td>
+<td class="alcenter" rowspan="2">B-W - BR
+</td>
+<td class="alleft" rowspan="2">A/C signal
+</td>
+<td class="alleft">A/C switch ON
+</td>
+<td class="alcenter">0 to 1.5 V
+</td>
+</tr>
+<tr>
+<td class="alleft">A/C switch OFF
+</td>
+<td class="alcenter">11 to 14 V
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="2">I84-18 (ACT) - C39-81 (E1)
+</td>
+<td class="alcenter" rowspan="2">L-B - BR
+</td>
+<td class="alleft" rowspan="2">A/C signal
+</td>
+<td class="alleft">Ignition switch ON
+</td>
+<td class="alcenter">11 to 14 V
+</td>
+</tr>
+<tr>
+<td class="alleft">A/C cut control ON
+</td>
+<td class="alcenter">0 to 3 V
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="2">I84-12 (IUSW) - C39-81 (E1)
+</td>
+<td class="alcenter" rowspan="2">L-R - BR
+</td>
+<td class="alleft" rowspan="2">Idle up switch
+</td>
+<td class="alleft">Idle up switch ON
+</td>
+<td class="alcenter">0 to 3 V
+</td>
+</tr>
+<tr>
+<td class="alleft">Idle up switch OFF
+</td>
+<td class="alcenter">11 to 14 V
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="2">C39-24 (RSW) - C39-81 (E1)
+</td>
+<td class="alcenter" rowspan="2">R-B - BR
+</td>
+<td class="alleft" rowspan="2">Back up light switch
+</td>
+<td class="alleft">Ignition switch ON, shift position is reverse
+</td>
+<td class="alcenter">11 to 14 V
+</td>
+</tr>
+<tr>
+<td class="alleft">Ignition switch ON, shift position is not reverse
+</td>
+<td class="alcenter">0 to 3 V
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="2">I84-42 (CLSW) - C39-81 (E1)
+</td>
+<td class="alcenter" rowspan="2">P-B - BR
+</td>
+<td class="alleft" rowspan="2">Clutch switch
+</td>
+<td class="alleft">Ignition switch ON, clutch pedal fully depressed
+</td>
+<td class="alcenter">0 to 3 V
+</td>
+</tr>
+<tr>
+<td class="alleft">Ignition switch ON, clutch pedal fully released
+</td>
+<td class="alcenter">11 to 14 V
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="2">C39-2 (PS) - C39-81 (E1)
+</td>
+<td class="alcenter" rowspan="2">P - BR
+</td>
+<td class="alleft" rowspan="2">Power steering oil pressure switch
+</td>
+<td class="alleft">Steering wheel turned
+</td>
+<td class="alcenter">0 to 3 V
+</td>
+</tr>
+<tr>
+<td class="alleft">Steering wheel not turned
+</td>
+<td class="alcenter">11 to 14 V
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="2">C39-32 (FSW) - C39-81 (E1)
+</td>
+<td class="alcenter" rowspan="2">L-W - BR
+</td>
+<td class="alleft" rowspan="2">Shift position switch
+</td>
+<td class="alleft">Ignition switch ON, shift position is first
+</td>
+<td class="alcenter">0 to 3 V
+</td>
+</tr>
+<tr>
+<td class="alleft">Ignition switch ON, shift position is not first
+</td>
+<td class="alcenter">11 to 14 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">I84-41 (CANH) - C39-81 (E1)
+</td>
+<td class="alcenter">B - BR
+</td>
+<td class="alleft">CAN communication line
+</td>
+<td class="alleft">Ignition switch ON
+</td>
+<td class="alcenter">Pulse generation
+<br>
+(see waveform 7)
+</td>
+</tr>
+<tr>
+<td class="alcenter">I84-49 (CANL) - C39-81 (E1)
+</td>
+<td class="alcenter">W - BR
+</td>
+<td class="alleft">CAN communication line
+</td>
+<td class="alleft">Ignition switch ON
+</td>
+<td class="alcenter">Pulse generation
+<br>
+(see waveform 8)
+</td>
+</tr>
+<tr>
+<td class="alcenter">I84-32 (EC) - Body ground
+</td>
+<td class="alcenter">W-B - Body ground
+</td>
+<td class="alleft">Ground circuit of ECM
+</td>
+<td class="alleft">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-81 (E1) - Body ground
+</td>
+<td class="alcenter">BR - Body ground
+</td>
+<td class="alleft">Ground circuit of ECM
+</td>
+<td class="alleft">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-75 (E2) - Body ground
+</td>
+<td class="alcenter">BR - Body ground
+</td>
+<td class="alleft">Ground circuit of ECM
+</td>
+<td class="alleft">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-22 (E01) - Body ground
+</td>
+<td class="alcenter">W-B - Body ground
+</td>
+<td class="alleft">Ground circuit of ECM
+</td>
+<td class="alleft">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">C39-21 (E02) - Body ground
+</td>
+<td class="alcenter">W-B - Body ground
+</td>
+<td class="alleft">Ground circuit of ECM
+</td>
+<td class="alleft">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">WAVEFORM 1
+</span></p>
+<br>
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/A009438E23.png" alt="A009438E23" title="A009438E23">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.396,0.427 0.604,0.625</span>
+<span class="captionSize">0.208,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">#1</span>
+</span>
+<span class="caption">
+<span class="points">0.396,0.781 0.635,0.99</span>
+<span class="captionSize">0.24,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">#2</span>
+</span>
+<span class="caption">
+<span class="points">0.417,1.135 0.646,1.344</span>
+<span class="captionSize">0.229,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">#7</span>
+</span>
+<span class="caption">
+<span class="points">0.406,1.5 0.625,1.708</span>
+<span class="captionSize">0.219,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">#3</span>
+</span>
+<span class="caption">
+<span class="points">2.729,0.938 3.281,1.135</span>
+<span class="captionSize">0.552,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">5 V/DIV.</span>
+</span>
+<span class="caption">
+<span class="points">1.167,2 2.083,2.177</span>
+<span class="captionSize">0.917,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">20 msec./DIV.</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+<table summary="" class="half">
+<caption>Fuel Injector No. 1 (to No. 8) Injection Signal</caption>
+<colgroup>
+<col style="width:38%">
+<col style="width:61%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">ECM Terminal Name
+</td>
+<td>Between #1 to #8 and E1
+</td>
+</tr>
+<tr>
+<td class="alcenter">Tester Range
+</td>
+<td>5 V/DIV., 20 msec./DIV.
+</td>
+</tr>
+<tr>
+<td class="alcenter">Condition
+</td>
+<td>Idling with warm engine
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>The waveform varies depending on the injector injection.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">WAVEFORM 2
+</span></p>
+<br>
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/A097624E20.png" alt="A097624E20" title="A097624E20">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.229,1.229 0.698,1.427</span>
+<span class="captionSize">0.469,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">PCV+</span>
+</span>
+<span class="caption">
+<span class="points">2.781,1.021 3.427,1.25</span>
+<span class="captionSize">0.646,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">10 V/DIV.</span>
+</span>
+<span class="caption">
+<span class="points">1.375,1.958 2.229,2.125</span>
+<span class="captionSize">0.854,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">5 msec./DIV.</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+<table summary="" class="half">
+<caption>Suction Control Valve Signal</caption>
+<colgroup>
+<col style="width:38%">
+<col style="width:61%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">ECM Terminal Name
+</td>
+<td>Between PCV+ and PCV-
+</td>
+</tr>
+<tr>
+<td class="alcenter">Tester Range
+</td>
+<td>10 V/DIV., 5 msec./DIV.
+</td>
+</tr>
+<tr>
+<td class="alcenter">Condition
+</td>
+<td>Idling or cranking with warm engine
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>The waveform varies depending on the suction control valve operation.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">WAVEFORM 3
+</span></p>
+<br>
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/A009437E21.png" alt="A009437E21" title="A009437E21">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.375,0.865 0.781,1.063</span>
+<span class="captionSize">0.406,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">INJ1</span>
+</span>
+<span class="caption">
+<span class="points">2.74,0.917 3.375,1.125</span>
+<span class="captionSize">0.635,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2 V/DIV.</span>
+</span>
+<span class="caption">
+<span class="points">1.354,1.948 2.302,2.167</span>
+<span class="captionSize">0.948,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">20 msec./DIV.</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+<table summary="" class="half">
+<caption>Injector Injection Confirmation Signal</caption>
+<colgroup>
+<col style="width:38%">
+<col style="width:61%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">ECM Terminal Name
+</td>
+<td>Between INJ1 and E1
+<br>
+Between INJ2 and E1
+</td>
+</tr>
+<tr>
+<td class="alcenter">Tester Range
+</td>
+<td>2 V/DIV., 20 msec./DIV.
+</td>
+</tr>
+<tr>
+<td class="alcenter">Condition
+</td>
+<td>Idling with warm engine
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>The waveform varies depending on the injector injection.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">WAVEFORM 4
+</span></p>
+<br>
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/A091225E14.png" alt="A091225E14" title="A091225E14">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.292,1.083 0.771,1.281</span>
+<span class="captionSize">0.479,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">LUSL</span>
+</span>
+<span class="caption">
+<span class="points">2.708,1.083 3.313,1.281</span>
+<span class="captionSize">0.604,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1 V/DIV.</span>
+</span>
+<span class="caption">
+<span class="points">1.417,1.948 2.375,2.156</span>
+<span class="captionSize">0.958,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2 msec./DIV.</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+<table summary="" class="half">
+<caption>Diesel Throttle Motor Signal</caption>
+<colgroup>
+<col style="width:38%">
+<col style="width:61%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">ECM Terminal Name
+</td>
+<td>Between LUSL and E1
+<br>
+Between LUS2 and E1
+</td>
+</tr>
+<tr>
+<td class="alcenter">Tester Range
+</td>
+<td>1 V/DIV., 2 msec./DIV.
+</td>
+</tr>
+<tr>
+<td class="alcenter">Condition
+</td>
+<td>Racing with warm engine
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>The waveform varies depending on the throttle valve operation.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">WAVEFORM 5
+</span></p>
+<br>
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/A292385E05.png" alt="A292385E05" title="A292385E05">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.542,1.167 1,1.365</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">GND</span>
+</span>
+<span class="caption">
+<span class="points">0.125,0.125 0.948,0.354</span>
+<span class="captionSize">0.823,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">5 V/DIV.</span>
+</span>
+<span class="caption">
+<span class="points">1.75,1.917 2.854,2.104</span>
+<span class="captionSize">1.104,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">10 msec./DIV.</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+<table summary="" class="half">
+<caption>Engine Speed Signal</caption>
+<colgroup>
+<col style="width:38%">
+<col style="width:61%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">ECM Terminal Name
+</td>
+<td>Between TACH and E1
+</td>
+</tr>
+<tr>
+<td class="alcenter">Tester Range
+</td>
+<td>5 V/DIV., 10 msec./DIV.
+</td>
+</tr>
+<tr>
+<td class="alcenter">Condition
+</td>
+<td>Idling
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>The wavelength becomes shorter as the engine speed increases.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">WAVEFORM 6
+</span></p>
+<br>
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/G037487E27.png" alt="G037487E27" title="G037487E27">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.073,1.146 0.469,1.344</span>
+<span class="captionSize">0.396,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">SPD</span>
+</span>
+<span class="caption">
+<span class="points">2.75,0.115 3.406,0.313</span>
+<span class="captionSize">0.656,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">5 V/DIV.</span>
+</span>
+<span class="caption">
+<span class="points">2.885,1.177 3.292,1.375</span>
+<span class="captionSize">0.406,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">GND</span>
+</span>
+<span class="caption">
+<span class="points">1.229,1.979 2.385,2.177</span>
+<span class="captionSize">1.156,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">10 msec./DIV.</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+<table summary="" class="half">
+<caption>Vehicle Speed Signal</caption>
+<colgroup>
+<col style="width:38%">
+<col style="width:61%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">ECM Terminal Name
+</td>
+<td>Between SPD and E1
+</td>
+</tr>
+<tr>
+<td class="alcenter">Tester Range
+</td>
+<td>5 V/DIV., 10 msec./DIV.
+</td>
+</tr>
+<tr>
+<td class="alcenter">Condition
+</td>
+<td>Driving at vehicle speed of 40 km/h (25 mph)
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>The wavelength becomes shorter as the vehicle speed increases.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">WAVEFORM 7
+</span></p>
+<br>
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/A303295E01.png" alt="A303295E01" title="A303295E01">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">2.771,0.167 3.385,0.375</span>
+<span class="captionSize">0.615,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1 V/DIV.</span>
+</span>
+<span class="caption">
+<span class="points">2.958,1.25 3.344,1.5</span>
+<span class="captionSize">0.385,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">GND</span>
+</span>
+<span class="caption">
+<span class="points">1.573,1.781 2.625,2.031</span>
+<span class="captionSize">1.052,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">10 msec./DIV.</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+<table summary="" class="half">
+<caption>CAN Communication Signal</caption>
+<colgroup>
+<col style="width:38%">
+<col style="width:61%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">ECM Terminal Name
+</td>
+<td>Between CANH and E1
+</td>
+</tr>
+<tr>
+<td class="alcenter">Tester Range
+</td>
+<td>1 V/DIV., 10 msec./DIV.
+</td>
+</tr>
+<tr>
+<td class="alcenter">Condition
+</td>
+<td>Engine stopped, ignition switch ON
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>The waveform varies depending on the CAN communication signal.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">WAVEFORM 8
+</span></p>
+<br>
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/A303296E01.png" alt="A303296E01" title="A303296E01">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">2.802,0.156 3.396,0.385</span>
+<span class="captionSize">0.594,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1 V/DIV.</span>
+</span>
+<span class="caption">
+<span class="points">2.99,1.229 3.333,1.469</span>
+<span class="captionSize">0.344,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">GND</span>
+</span>
+<span class="caption">
+<span class="points">1.615,1.76 2.719,1.969</span>
+<span class="captionSize">1.104,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">10 msec./DIV.</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+<table summary="" class="half">
+<caption>CAN Communication Signal</caption>
+<colgroup>
+<col style="width:38%">
+<col style="width:61%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">ECM Terminal Name
+</td>
+<td>Between CANL and E1
+</td>
+</tr>
+<tr>
+<td class="alcenter">Tester Range
+</td>
+<td>1 V/DIV., 10 msec./DIV.
+</td>
+</tr>
+<tr>
+<td class="alcenter">Condition
+</td>
+<td>Engine stopped, ignition switch ON
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>The waveform varies depending on the CAN communication signal.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS033" code="L25" type="conn" figID="12">
+    <name>Combination Meter Assembly</name>
+  </text>
+  <text ewd="SYS033" code="C86" type="conn" figID="5">
+    <name>Engine Coolant Temperature Sensor</name>
+  </text>
+  <text ewd="SYS033" code="I34" type="conn" figID="14">
+    <name>Generator Assembly</name>
+  </text>
+  <text ewd="SYS033" code="C90" type="conn" figID="6">
+    <name>Glow Plug Assembly</name>
+  </text>
+  <text ewd="SYS033" code="A22" type="conn" figID="4">
+    <name>No. 1 Junction Connector</name>
+  </text>
+  <text ewd="SYS033" code="I59,I70" type="conn" figID="9">
+    <name>No. 10 Junction Connector , No. 19 Junction Connector</name>
+  </text>
+  <text ewd="SYS033" code="I67,I107" type="conn" figID="15">
+    <name>No. 12 Junction Connector , No. 16 Junction Connector</name>
+  </text>
+  <text ewd="SYS033" code="I105" type="conn" figID="10">
+    <name>No. 8 Junction Connector</name>
+  </text>
+  <text ewd="SYS033" code="I72,I106" type="conn" figID="3">
+    <name>No. 9 Junction Connector , No. 21 Junction Connector</name>
+  </text>
+  <text ewd="SYS033" code="I92" type="conn" figID="8">
+    <name>Preheating Timer Assembly</name>
+  </text>
+  <text ewd="SYS033" code="FUSE5" type="fuse" figID="51">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS033" code="FUSE16" type="fuse" figID="50">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS033" code="FUSE20" type="fuse" figID="48">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS033" code="FUSE3" type="fuse" figID="49">
+    <name>7.5A ST</name>
+  </text>
+  <text ewd="SYS033" code="FUSE40" type="fuse" figID="47">
+    <name>80A GLOW1</name>
+  </text>
+  <text ewd="SYS033" code="AA" type="gp" figID="39">
+    <name />
+  </text>
+  <text ewd="SYS033" code="CC" type="gp" figID="40,41">
+    <name />
+  </text>
+  <text ewd="SYS033" code="3" type="jb" figID="21">
+    <name />
+  </text>
+  <text ewd="SYS033" code="1" type="rb" figID="7">
+    <name />
+  </text>
+  <text ewd="SYS033" code="FUSE5" type="rb" figID="1">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS033" code="FUSE16" type="rb" figID="2">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS033" code="FUSE20" type="rb" figID="13">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS033" code="FUSE3" type="rb" figID="11">
+    <name>7.5A ST</name>
+  </text>
+  <text ewd="SYS033" code="SP19" type="sp" figID="42,44">
+    <name />
+  </text>
+  <text ewd="SYS033" code="SP44" type="sp" figID="43">
+    <name />
+  </text>
+  <text ewd="SYS033" code="SP51" type="sp" figID="46">
+    <name />
+  </text>
+  <text ewd="SYS033" code="SP60" type="sp" figID="45">
+    <name />
+  </text>
+  <text ewd="SYS033" code="IL1" type="w2w" figID="29">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS033" code="IL2" type="w2w" figID="31,36,38">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS033" code="IL5" type="w2w" figID="28">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS033" code="IL6" type="w2w" figID="35,37">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS033" code="AI3" type="w2w" figID="24,25,27,33,34">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS033" code="AC1" type="w2w" figID="26,32">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS033" code="AC2" type="w2w" figID="23">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS033" code="AC3" type="w2w" figID="22">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS033" code="LI1" type="w2w" figID="30">
+    <name>Instrument Panel Wire and Cowl Wire</name>
+  </text>
+</EwdTree>

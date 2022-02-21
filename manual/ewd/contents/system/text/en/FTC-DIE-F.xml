@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25T2E" style="font-size:6px;font-family:'Arial'" ver="2.1.2.9">
+	<text textID="1">* 3 :2-Door Pick-Up Body Type</text>
+	<text textID="2">* 4 :Australia</text>
+	<text textID="3">* 5 :Except *3 *4</text>
+	<text textID="4">* 6 :w/ VSC</text>
+	<text textID="5">* 7 :w/o VSC</text>
+	<text textID="6">Combination Meter Assembly</text>
+	<text textID="7">Diode (Sub Tank Relay)</text>
+	<text textID="8">Fuel Control Switch Assembly</text>
+	<text textID="9">Fuel Tank Solenoid Main Valve Assembly</text>
+	<text textID="10">Fuel Tank Solenoid Return Valve Assembly</text>
+	<text textID="11">No. 1 Junction Connector</text>
+	<text textID="12">No. 2 Junction Connector</text>
+	<text textID="13">No. 9 Junction Connector</text>
+	<text textID="14">No. 9 Junction Connector , No. 19 Junction Connector</text>
+	<text textID="15">No. 9 Junction Connector , No. 36 Junction Connector , No. 21 Junction Connector</text>
+	<text textID="16">No. 19 Junction Connector</text>
+	<text textID="17">No. 21 Junction Connector</text>
+	<text textID="18">No. 24 Junction Connector</text>
+	<text textID="19">No. 24 Junction Connector , No. 28 Junction Connector</text>
+	<text textID="20">No. 28 Junction Connector</text>
+	<text textID="21">No. 36 Junction Connector</text>
+	<text textID="22">SUB TANK Relay</text>
+	<text textID="23">Sub Tank</text>
+</texts>

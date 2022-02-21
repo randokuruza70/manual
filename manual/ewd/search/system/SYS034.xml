@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS034">
+    <part type="conn" code="C39">
+      <text>ECM IGT1 IGT2 IGT3 IGT4 IGT5 IGF1 IGT6</text>
+    </part>
+    <part type="conn" code="C5">
+      <text>GND IGT1 IGF +B</text>
+      <name>Ignition Coil Assembly No. 1</name>
+    </part>
+    <part type="conn" code="C14">
+      <text>IGF +B GND IGT2</text>
+      <name>Ignition Coil Assembly No. 2</name>
+    </part>
+    <part type="conn" code="C6">
+      <text>IGF +B GND IGT3</text>
+      <name>Ignition Coil Assembly No. 3</name>
+    </part>
+    <part type="conn" code="C13">
+      <text>IGF +B GND IGT4</text>
+      <name>Ignition Coil Assembly No. 4</name>
+    </part>
+    <part type="conn" code="C7">
+      <text>IGF +B GND IGT5</text>
+      <name>Ignition Coil Assembly No. 5</name>
+    </part>
+    <part type="conn" code="C12">
+      <text>+B GND IGF IGT6</text>
+      <name>Ignition Coil Assembly No. 6</name>
+    </part>
+    <part type="conn" code="I56">
+      <name>No. 7 Junction Connector</name>
+    </part>
+    <part type="conn" code="C10">
+      <name>Radio Setting Condenser (Ignition)</name>
+    </part>
+    <part type="fuse" code="FUSE15">
+      <text>INJ</text>
+    </part>
+  </ttl>
+</EWDSearch>

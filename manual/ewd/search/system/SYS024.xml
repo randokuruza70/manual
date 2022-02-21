@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS024">
+    <part type="conn" code="I43">
+      <text>VPA VPA2 VCPA VCP2 EPA EPA2</text>
+      <name>Accelerator Pedal Sensor Assembly</name>
+    </part>
+    <part type="conn" code="C114">
+      <text>+B HAF1 AF1+ AF1-</text>
+      <name>Air Fuel Ratio Sensor (Bank 1 Sensor 1)</name>
+    </part>
+    <part type="conn" code="C32">
+      <name>Back-Up Light Switch Assembly</name>
+    </part>
+    <part type="conn" code="A20">
+      <text>SP1</text>
+      <name>Brake Actuator Assembly</name>
+    </part>
+    <part type="conn" code="C68">
+      <name>Cam Position Sensor</name>
+    </part>
+    <part type="conn" code="I50">
+      <name>Clutch Switch Assembly</name>
+    </part>
+    <part type="conn" code="L25,L26">
+      <text>CPU ES CANL CANH B DPF SET SI +S</text>
+      <name>Combination Meter Assembly</name>
+      <name type="inner">Glow</name>
+      <name type="inner">Cruise</name>
+      <name type="inner">Check Engine</name>
+    </part>
+    <part type="conn" code="C42">
+      <text>NE+ NE- GND</text>
+      <name>Crank Position Sensor</name>
+    </part>
+    <part type="conn" code="C116">
+      <name>Diesel Engine Coolant Temperature Sensor</name>
+    </part>
+    <part type="conn" code="C58">
+      <text>E2R VCR VTAR</text>
+      <name>Diesel Throttle Body Assembly (Bank 1)</name>
+    </part>
+    <part type="conn" code="C50">
+      <text>VTA VC E2</text>
+      <name>Diesel Throttle Body Assembly (Bank 1)</name>
+    </part>
+    <part type="conn" code="C61">
+      <text>VCR VTAR E2</text>
+      <name>Diesel Throttle Body Assembly (Bank 2)</name>
+    </part>
+    <part type="conn" code="C65">
+      <text>VC VTA E2</text>
+      <name>Diesel Throttle Body Assembly (Bank 2)</name>
+    </part>
+    <part type="conn" code="C101">
+      <text>E PIM VC</text>
+      <name>Diesel Turbo Pressure Sensor</name>
+    </part>
+    <part type="conn" code="C128">
+      <text>VC E2 PEX</text>
+      <name>Differential Pressure Sensor</name>
+    </part>
+    <part type="conn" code="I17">
+      <text>DLC3 TC TAC CANH CANL</text>
+    </part>
+    <part type="conn" code="L48">
+      <text>E B</text>
+      <name>DPF Switch Assembly (DPR Switch Assembly)</name>
+    </part>
+    <part type="conn" code="C120">
+      <text>E2 THCO</text>
+      <name>DPF Temperature Sensor (No. 3 Exhaust Gas Temperature Sensor)</name>
+    </part>
+    <part type="conn" code="A29,C39">
+      <text>ECM EGM- E2 PCV+ PCV- E02 THF E2M PCR1 IUSW VCM VLU VCVL EVLU IG #2 #3 #5 #8 INJ2 IDL2 CLSW VPA VPA2 VCPA #1 #4 VCP2 #6 EPA #7 EPA2 INJ1 PRD IDLO RLFF EPIM PIM VCPM THC1 ETCF THCO NE+ THCF NE- G- G+ STA E1 E01 RSW E05 DPSW ALT FSW EC IMO IMI CANH MREL CANL SPD TC TACH CCS BATT IREL +B +B2 IRL2 GRL2 GREL HA1A A1A+ VN A1A- ILL+ IGSW ST1- LUSL ECBV STP PSW FIV EVG VG THA VC PEX EGRA THIA EEGL VCEG THW EGM+</text>
+    </part>
+    <part type="conn" code="C106">
+      <text>M- VTA E2 VC M+</text>
+      <name>EGR Valve Assembly (Bank 1)</name>
+    </part>
+    <part type="conn" code="C91">
+      <name>Electric Vacuum Regulating Valve Assembly (EGR)</name>
+    </part>
+    <part type="conn" code="u1">
+      <text>+B FIV</text>
+      <name>Exhaust Fuel Addition Injector Assembly</name>
+    </part>
+    <part type="conn" code="C100">
+      <text>E2 PR VC</text>
+      <name>Fuel Pressure Sensor</name>
+    </part>
+    <part type="conn" code="r3">
+      <text>E2 THF</text>
+      <name>Fuel Temperature Sensor</name>
+    </part>
+    <part type="conn" code="C44">
+      <text>M</text>
+      <name>Generator Assembly</name>
+    </part>
+    <part type="conn" code="C45">
+      <text>B</text>
+      <name>Glow Plug Assembly No. 1</name>
+    </part>
+    <part type="conn" code="C62">
+      <text>B</text>
+      <name>Glow Plug Assembly No. 2</name>
+    </part>
+    <part type="conn" code="L6">
+      <name>Idle Up Switch</name>
+    </part>
+    <part type="conn" code="C107">
+      <name>Injector Assembly No. 1</name>
+    </part>
+    <part type="conn" code="C115">
+      <name>Injector Assembly No. 2</name>
+    </part>
+    <part type="conn" code="C108">
+      <name>Injector Assembly No. 3</name>
+    </part>
+    <part type="conn" code="C117">
+      <name>Injector Assembly No. 4</name>
+    </part>
+    <part type="conn" code="C109">
+      <name>Injector Assembly No. 5</name>
+    </part>
+    <part type="conn" code="C113">
+      <name>Injector Assembly No. 6</name>
+    </part>
+    <part type="conn" code="C110">
+      <name>Injector Assembly No. 7</name>
+    </part>
+    <part type="conn" code="C112">
+      <name>Injector Assembly No. 8</name>
+    </part>
+    <part type="conn" code="C121,C122,C123,C124">
+      <text>GND +B #10 RLF- #40 #60 RLF+ #70 IJ1+ IJ1- INJF PRD IJEN RLF IJ4+ IJ4- IJ6+ IJ6- IJ7+ IJ7-</text>
+      <name>Injector Driver (EDU) (No. 1)</name>
+    </part>
+    <part type="conn" code="C125,C126,C127">
+      <text>GND +B #20 IJ2+ IJ2- #30 #50 #60 IJ5+ IJ5- INF2 IDL2 IJ3+ IJ3- IJ8+ IJ8-</text>
+      <name>Injector Driver (EDU) (No. 2)</name>
+    </part>
+    <part type="conn" code="C60">
+      <name>Intake Air Temperature Sensor</name>
+    </part>
+    <part type="conn" code="C41">
+      <text>+B E2G VG E2 THA</text>
+      <name>Intake Mass Air Flow Meter Sub-Assembly</name>
+    </part>
+    <part type="conn" code="C118">
+      <text>E2 THCF</text>
+      <name>No. 1 Exhaust Gas Temperature Sensor</name>
+    </part>
+    <part type="conn" code="A22">
+      <name>No. 1 Junction Connector</name>
+    </part>
+    <part type="conn" code="C111">
+      <text>+B ECBV</text>
+      <name>No. 1 Vacuum Switching Valve Assembly (for EGR Cooler Bypass Valve)</name>
+    </part>
+    <part type="conn" code="I59">
+      <name>No. 10 Junction Connector</name>
+    </part>
+    <part type="conn" code="I61">
+      <name>No. 11 Junction Connector</name>
+    </part>
+    <part type="conn" code="I107">
+      <name>No. 12 Junction Connector</name>
+    </part>
+    <part type="conn" code="I108">
+      <name>No. 13 Junction Connector</name>
+    </part>
+    <part type="conn" code="I66">
+      <name>No. 15 Junction Connector</name>
+    </part>
+    <part type="conn" code="C119">
+      <text>THC1 E2</text>
+      <name>No. 2 Exhaust Gas Temperature Sensor</name>
+    </part>
+    <part type="conn" code="A23">
+      <name>No. 2 Junction Connector</name>
+    </part>
+    <part type="conn" code="L51">
+      <name>No. 25 Junction Connector</name>
+    </part>
+    <part type="conn" code="L53">
+      <name>No. 31 Junction Connector</name>
+    </part>
+    <part type="conn" code="I110">
+      <name>No. 33 Junction Connector</name>
+    </part>
+    <part type="conn" code="I112,I113,I115">
+      <name>No. 4 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I111">
+      <name>No. 5 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I105">
+      <name>No. 8 Junction Connector</name>
+    </part>
+    <part type="conn" code="I106">
+      <name>No. 9 Junction Connector</name>
+    </part>
+    <part type="conn" code="C28">
+      <name>Power Steering Oil Pressure Switch</name>
+    </part>
+    <part type="conn" code="v1">
+      <text>RLV COM3</text>
+      <name>Pressure Discharge Valve Assembly (Common Rail Assembly)</name>
+    </part>
+    <part type="conn" code="C78">
+      <name>Shift Position Switch</name>
+    </part>
+    <part type="conn" code="C102,C103">
+      <name>Short Connector</name>
+    </part>
+    <part type="conn" code="L27,z3">
+      <text>CCS ECC</text>
+      <name>Spiral Cable Sub-Assembly , Cruise Control Switch Wire</name>
+    </part>
+    <part type="conn" code="z3">
+      <text>ON-OFF +RES -SET CANCEL R B</text>
+      <name>Spiral Cable Sub-Assembly , Cruise Control Switch Wire</name>
+      <name type="inner">Cruise Control Main Switch</name>
+    </part>
+    <part type="conn" code="I19">
+      <name>Stop Light Switch Assembly</name>
+    </part>
+    <part type="conn" code="r2">
+      <text>+B PCV</text>
+      <name>Suction Control Valve</name>
+    </part>
+    <part type="conn" code="L30">
+      <text>EFII EFIO</text>
+      <name>Transponder Key ECU Assembly</name>
+    </part>
+    <part type="fuse" code="FUSE48">
+      <text>A/F</text>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>DOME NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE20">
+      <text>ECU IG</text>
+    </part>
+    <part type="fuse" code="FUSE7">
+      <text>EDU1</text>
+    </part>
+    <part type="fuse" code="FUSE8">
+      <text>EDU2</text>
+    </part>
+    <part type="fuse" code="FUSE49">
+      <text>EFI MAIN</text>
+    </part>
+    <part type="fuse" code="FUSE50">
+      <text>EFI MAIN2</text>
+    </part>
+    <part type="fuse" code="FUSE23">
+      <text>GAUGE</text>
+    </part>
+    <part type="fuse" code="FUSE40">
+      <text>GLOW1</text>
+    </part>
+    <part type="fuse" code="FUSE41">
+      <text>GLOW2</text>
+    </part>
+    <part type="fuse" code="FUSE14">
+      <text>IGN</text>
+    </part>
+    <part type="fuse" code="FUSE16">
+      <text>MET</text>
+    </part>
+    <part type="fuse" code="FUSE3">
+      <text>ST</text>
+    </part>
+    <part type="fuse" code="FUSE26">
+      <text>STOP</text>
+    </part>
+    <part type="fuse" code="FUSE33">
+      <text>STOP</text>
+    </part>
+  </ttl>
+</EWDSearch>

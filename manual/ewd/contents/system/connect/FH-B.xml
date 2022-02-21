@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <connector type="conn" code="A22" figID="3">
+    <pin no="3">
+      <line id="1" color="W-B" spec="RHD" commtxt="(RHD)">
+        <connector type="gp" code="AA" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A16" figID="1">
+    <pin no="1">
+      <line id="2" color="W-B" spec="RHD" commtxt="(RHD)">
+        <connector type="conn" code="A22" figID="3">
+          <pin no="6"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="female" figID="6">
+    <pin no="39">
+      <line id="3" color="B">
+        <connector type="conn" code="A16" figID="1">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE22" figID="2">
+    <pin>
+      <line id="4" color="B">
+        <connector type="w2w" code="AI3" sex="male" figID="6">
+          <pin no="39"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A23" figID="4">
+    <pin no="1">
+      <line id="5" color="W-B" spec="LHD" commtxt="(LHD)">
+        <connector type="gp" code="AA" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A23" figID="4">
+    <pin no="4">
+      <line id="6" color="W-B" spec="LHD" commtxt="(LHD)">
+        <connector type="conn" code="A16" figID="1">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+</connectionList>

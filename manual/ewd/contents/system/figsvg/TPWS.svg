@@ -1,0 +1,1800 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'ArialMT';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'ArialMT';">
+	<!ENTITY st11 "font-size:9px;font-family:'Svg Symbol';">
+	<!ENTITY st12 "font-size:6px;font-family:'Svg Symbol';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'Arial';">
+	<!ENTITY st19 "font-size:9px;font-family:'Arial';">
+	<!ENTITY st20 "font-size:6px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 2055.240 710.000" viewBox="0 0 2055.240 710.000" height="710.000" width="2055.240" xml:space="preserve" ewd:ver="2.1.2.9" xmlns="&ns_svg;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:xlink="&ns_xlink;">
+	<script type="text/javascript" xlink:href="../../../../../system/js/ewd/fig/svgfig.js"/>
+<g id="ewd_top">
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="L36" ewd:figID="1">
+		<path style="fill:#CCECF4;stroke:#000000; stroke-width:1.133; stroke-linecap:round;stroke-linejoin:round; " d=" M  1920.68,   545.69  L  1920.68,   562.69  L  1937.68,   562.69  L  1937.68,   545.69  L  1920.68,   545.69 "/>
+		<title ewd:textID="8">No. 28 Junction Connector</title>
+	</a>
+	<a ewd:figtype="rb" style="cursor:pointer;" ewd:code="FUSE20" ewd:figID="2">
+		<path style="fill:#CCECF4;stroke:#000000; stroke-width:0; stroke-linecap:round;stroke-linejoin:round; " d=" M   250.71,    35.78  L   250.71,    78.27  L   276.20,    78.27  L   276.20,    35.78  L   250.71,    35.78 "/>
+	</a>
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="L56" ewd:figID="3">
+		<path style="fill:#CCECF4;stroke:#000000; stroke-width:1.133; stroke-linecap:round;stroke-linejoin:round; " d=" M    67.99,   443.71  L   152.97,   443.71  L   152.97,   409.72  L    67.99,   409.72  L    67.99,   443.71 "/>
+		<title ewd:textID="15">Tire Pressure Warning Reset Switch</title>
+	</a>
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="L57" ewd:figID="4">
+		<path style="fill:#CCECF4;stroke:#000000; stroke-width:1.133; stroke-linecap:round;stroke-linejoin:round; " d=" M   127.48,   494.70  L   127.48,   511.70  L   203.97,   511.70  L   203.97,   494.70  L   127.48,   494.70 "/>
+		<title ewd:textID="12">No. 37 Junction Connector</title>
+	</a>
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="L53" ewd:figID="5">
+		<path style="fill:#CCECF4;stroke:#000000; stroke-width:1.133; stroke-linecap:round;stroke-linejoin:round; " d=" M    76.49,   562.69  L    76.49,   579.69  L    93.48,   579.69  L    93.48,   562.69  L    76.49,   562.69 "/>
+		<title ewd:textID="9">No. 31 Junction Connector</title>
+	</a>
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="I117" ewd:figID="6">
+		<path style="fill:#CCECF4;stroke:#000000; stroke-width:1.133; stroke-linecap:round;stroke-linejoin:round; " d=" M   288.95,   494.70  L   288.95,   511.70  L   305.95,   511.70  L   305.95,   494.70  L   288.95,   494.70 "/>
+		<title ewd:textID="10">No. 35 Junction Connector</title>
+	</a>
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="I93" ewd:figID="7">
+		<path style="fill:#CCECF4;stroke:#000000; stroke-width:1.133; stroke-linecap:round;stroke-linejoin:round; " d=" M   365.44,   503.20  L   365.44,   520.20  L   416.43,   520.20  L   416.43,   503.20  L   365.44,   503.20 "/>
+		<title ewd:textID="6">No. 5 Junction Connector</title>
+	</a>
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="L57" ewd:figID="8">
+		<path style="fill:#CCECF4;stroke:#000000; stroke-width:1.133; stroke-linecap:round;stroke-linejoin:round; " d=" M   569.40,   494.70  L   569.40,   511.70  L   628.89,   511.70  L   628.89,   494.70  L   569.40,   494.70 "/>
+		<title ewd:textID="12">No. 37 Junction Connector</title>
+	</a>
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="I117" ewd:figID="9">
+		<path style="fill:#CCECF4;stroke:#000000; stroke-width:1.133; stroke-linecap:round;stroke-linejoin:round; " d=" M   713.88,   494.70  L   713.88,   511.70  L   730.88,   511.70  L   730.88,   494.70  L   713.88,   494.70 "/>
+		<title ewd:textID="10">No. 35 Junction Connector</title>
+	</a>
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="I117" ewd:figID="10">
+		<path style="fill:#CCECF4;stroke:#000000; stroke-width:1.133; stroke-linecap:round;stroke-linejoin:round; " d=" M   807.37,   511.70  L   858.36,   511.70  L   858.36,   494.70  L   807.37,   494.70  L   807.37,   511.70 "/>
+		<title ewd:textID="10">No. 35 Junction Connector</title>
+	</a>
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="L57" ewd:figID="11">
+		<path style="fill:#CCECF4;stroke:#000000; stroke-width:1.133; stroke-linecap:round;stroke-linejoin:round; " d=" M   909.35,   494.70  L   909.35,   511.70  L   968.84,   511.70  L   968.84,   494.70  L   909.35,   494.70 "/>
+		<title ewd:textID="12">No. 37 Junction Connector</title>
+	</a>
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="I118" ewd:figID="12">
+		<path style="fill:#CCECF4;stroke:#000000; stroke-width:1.133; stroke-linecap:round;stroke-linejoin:round; " d=" M  1189.80,   494.70  L  1189.80,   511.70  L  1274.79,   511.70  L  1274.79,   494.70  L  1189.80,   494.70 "/>
+		<title ewd:textID="11">No. 36 Junction Connector</title>
+	</a>
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="I118" ewd:figID="13">
+		<path style="fill:#CCECF4;stroke:#000000; stroke-width:1.133; stroke-linecap:round;stroke-linejoin:round; " d=" M  1351.27,   180.26  L  1436.26,   180.26  L  1436.26,   163.26  L  1351.27,   163.26  L  1351.27,   180.26 "/>
+		<title ewd:textID="11">No. 36 Junction Connector</title>
+	</a>
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="I72" ewd:figID="14">
+		<path style="fill:#CCECF4;stroke:#000000; stroke-width:1.133; stroke-linecap:round;stroke-linejoin:round; " d=" M  1419.26,   460.71  L  1436.26,   460.71  L  1436.26,   443.71  L  1419.26,   443.71  L  1419.26,   460.71 "/>
+		<title ewd:textID="7">No. 21 Junction Connector</title>
+	</a>
+	<a ewd:figtype="rb" style="cursor:pointer;" ewd:code="FUSE5" ewd:figID="15">
+		<path style="fill:#CCECF4;stroke:#000000; stroke-width:0; stroke-linecap:round;stroke-linejoin:round; " d=" M  1618.98,    35.78  L  1618.98,    78.27  L  1644.48,    78.27  L  1644.48,    35.78  L  1618.98,    35.78 "/>
+	</a>
+	<a ewd:figtype="rb" style="cursor:pointer;" ewd:code="FUSE16" ewd:figID="16">
+		<path style="fill:#CCECF4;stroke:#000000; stroke-width:0; stroke-linecap:round;stroke-linejoin:round; " d=" M  1703.97,    35.78  L  1703.97,    78.27  L  1729.46,    78.27  L  1729.46,    35.78  L  1703.97,    35.78 "/>
+	</a>
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="I118" ewd:figID="17">
+		<path style="fill:#CCECF4;stroke:#000000; stroke-width:1.133; stroke-linecap:round;stroke-linejoin:round; " d=" M  1708.21,   146.26  L  1708.21,   163.26  L  1725.21,   163.26  L  1725.21,   146.26  L  1708.21,   146.26 "/>
+		<title ewd:textID="11">No. 36 Junction Connector</title>
+	</a>
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="A42" ewd:figID="18">
+		<path style="fill:#CCECF4;stroke:#000000; stroke-width:1.133; stroke-linecap:round;stroke-linejoin:round; " d=" M  1784.70,   630.68  L  1818.70,   630.68  L  1818.70,   596.69  L  1784.70,   596.69  L  1784.70,   630.68 "/>
+		<title ewd:textID="4">Brake Actuator Assembly</title>
+	</a>
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="I17" ewd:figID="19">
+		<path style="fill:#CCECF4;stroke:#000000; stroke-width:1.133; stroke-linecap:round;stroke-linejoin:round; " d=" M  1410.76,   341.73  L  1444.76,   341.73  L  1444.76,   307.73  L  1410.76,   307.73  L  1410.76,   341.73 "/>
+		<title>DLC3</title>
+	</a>
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="L25" ewd:figID="20">
+		<path style="fill:#CCECF4;stroke:#000000; stroke-width:1.133; stroke-linecap:round;stroke-linejoin:round; " d=" M  1614.73,   426.71  L  2005.66,   426.71  L  2005.66,   265.24  L  1614.73,   265.24  L  1614.73,   426.71 "/>
+		<title ewd:textID="5">Combination Meter Assembly</title>
+	</a>
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="S30,U5,Y7" ewd:figID="21">
+		<path style="fill:#CCECF4;stroke:#000000; stroke-width:1.133; stroke-linecap:round;stroke-linejoin:round; " d=" M   246.46,   350.23  L  1249.29,   350.23  L  1249.29,   307.73  L   246.46,   307.73  L   246.46,   350.23 "/>
+		<title ewd:textID="14">Tire Pressure Warning ECU and Receiver</title>
+	</a>
+	<a ewd:figtype="fuse" style="cursor:pointer;" ewd:code="FUSE20" ewd:figID="72">
+		<path style="&st7; stroke-width:0;" d=" M   250.71,    35.78  L   250.71,    78.27  L   276.20,    78.27  L   276.20,    35.78  L   250.71,    35.78 "/>
+	</a>
+	<a ewd:figtype="fuse" style="cursor:pointer;" ewd:code="FUSE5" ewd:figID="73">
+		<path style="&st7; stroke-width:0;" d=" M  1618.98,    35.78  L  1618.98,    78.27  L  1644.48,    78.27  L  1644.48,    35.78  L  1618.98,    35.78 "/>
+	</a>
+	<a ewd:figtype="fuse" style="cursor:pointer;" ewd:code="FUSE16" ewd:figID="74">
+		<path style="&st7; stroke-width:0;" d=" M  1703.97,    35.78  L  1703.97,    78.27  L  1729.46,    78.27  L  1729.46,    35.78  L  1703.97,    35.78 "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="1">
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M    42.49,   681.67  L    42.49,   571.19  L    76.49,   571.19  "/>
+		<path style="stroke:#FFFFFF;stroke-width:4.53 ;&st6;" d=" M    42.49,   681.67  L    42.49,   571.19  L    76.49,   571.19  "/>
+		<path style="stroke:#000000;stroke-width:1.13 ;&st6;" d=" M    42.49,   681.67  L    42.49,   571.19  L    76.49,   571.19  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="2">
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M    84.99,   681.67  L    84.99,   579.69  "/>
+		<path style="stroke:#FFFFFF;stroke-width:4.53 ;&st6;" d=" M    84.99,   681.67  L    84.99,   579.69  "/>
+		<path style="stroke:#000000;stroke-width:1.13 ;&st6;" d=" M    84.99,   681.67  L    84.99,   579.69  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="3">
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M    84.99,   511.70  L    84.99,   562.69  "/>
+		<path style="stroke:#FFFFFF;stroke-width:4.53 ;&st6;" d=" M    84.99,   511.70  L    84.99,   562.69  "/>
+		<path style="stroke:#000000;stroke-width:1.13 ;&st6;" d=" M    84.99,   511.70  L    84.99,   562.69  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="4">
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M    84.99,   443.71  L    84.99,   494.70  "/>
+		<path style="stroke:#FFFFFF;stroke-width:4.53 ;&st6;" d=" M    84.99,   443.71  L    84.99,   494.70  "/>
+		<path style="stroke:#000000;stroke-width:1.13 ;&st6;" d=" M    84.99,   443.71  L    84.99,   494.70  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="5">
+		<path style="stroke:#56077D;stroke-width:5.10 ;&st6;" d=" M   135.98,   443.71  L   135.98,   494.70  "/>
+	</a>
+	<a ewd:comment="2,3" style="cursor:pointer;" ewd:lineID="6">
+		<path style="stroke:#56077D;stroke-width:5.10 ;&st6;" d=" M   195.47,   511.70  L   195.47,   588.19  L   297.45,   588.19  L   297.45,   571.19  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="7">
+		<path style="stroke:#56077D;stroke-width:5.10 ;&st6;" d=" M   195.47,   443.71  L   195.47,   494.70  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="8">
+		<path style="stroke:#56077D;stroke-width:5.10 ;&st6;" d=" M   195.47,   428.98  L   195.47,   392.72  L   254.96,   392.72  L   263.46,   384.22  L   263.46,   377.42  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="9">
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M   229.46,   220.77  L   229.46,   265.24  L   254.96,   265.24  L   263.46,   273.74  L   263.46,   280.54  "/>
+		<path style="stroke:#FFFFFF;stroke-width:2.27 ;&st6;" d=" M   229.46,   220.77  L   229.46,   265.24  L   254.96,   265.24  L   263.46,   273.74  L   263.46,   280.54  "/>
+		<path style="stroke:#FFE600;stroke-width:1.13 ;&st6;" d=" M   229.46,   220.77  L   229.46,   265.24  L   254.96,   265.24  L   263.46,   273.74  L   263.46,   280.54  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="10">
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M   229.46,   205.75  L   229.46,   146.26  L   254.96,   146.26  "/>
+		<path style="stroke:#FFFFFF;stroke-width:2.27 ;&st6;" d=" M   229.46,   205.75  L   229.46,   146.26  L   254.96,   146.26  "/>
+		<path style="stroke:#FFE600;stroke-width:1.13 ;&st6;" d=" M   229.46,   205.75  L   229.46,   146.26  L   254.96,   146.26  "/>
+	</a>
+	<a ewd:comment="2" style="cursor:pointer;" ewd:lineID="11">
+		<path style="stroke:#56077D;stroke-width:5.10 ;&st6;" d=" M   263.46,   449.94  L   263.46,   503.20  L   288.95,   503.20  "/>
+	</a>
+	<a ewd:comment="2" style="cursor:pointer;" ewd:lineID="12">
+		<path style="stroke:#56077D;stroke-width:5.10 ;&st6;" d=" M   263.46,   435.21  L   263.46,   377.42  "/>
+	</a>
+	<a ewd:comment="2" style="cursor:pointer;" ewd:lineID="13">
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M   263.46,   214.25  L   263.46,   280.54  "/>
+		<path style="stroke:#FFFFFF;stroke-width:2.27 ;&st6;" d=" M   263.46,   214.25  L   263.46,   280.54  "/>
+		<path style="stroke:#FFE600;stroke-width:1.13 ;&st6;" d=" M   263.46,   214.25  L   263.46,   280.54  "/>
+	</a>
+	<a ewd:comment="2" style="cursor:pointer;" ewd:lineID="14">
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M   263.46,   199.52  L   263.46,   154.76  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="15">
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M   263.46,   103.77  L   263.46,   137.76  "/>
+		<path style="stroke:#FFFFFF;stroke-width:2.27 ;&st6;" d=" M   263.46,   103.77  L   263.46,   137.76  "/>
+		<path style="stroke:#FFE600;stroke-width:1.13 ;&st6;" d=" M   263.46,   103.77  L   263.46,   137.76  "/>
+	</a>
+	<a ewd:comment="2,3" style="cursor:pointer;" ewd:lineID="16">
+		<path style="stroke:#56077D;stroke-width:5.10 ;&st6;" d=" M   297.45,   556.46  L   297.45,   511.70  "/>
+	</a>
+	<a ewd:comment="3" style="cursor:pointer;" ewd:lineID="17">
+		<path style="stroke:#56077D;stroke-width:5.10 ;&st6;" d=" M   297.45,   449.94  L   297.45,   494.70  "/>
+	</a>
+	<a ewd:comment="3" style="cursor:pointer;" ewd:lineID="18">
+		<path style="stroke:#56077D;stroke-width:5.10 ;&st6;" d=" M   297.45,   435.21  L   297.45,   392.72  L   271.95,   392.72  L   263.46,   384.22  L   263.46,   377.42  "/>
+	</a>
+	<a ewd:comment="3" style="cursor:pointer;" ewd:lineID="19">
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M   297.45,   214.25  L   297.45,   265.24  L   271.95,   265.24  L   263.46,   273.74  L   263.46,   280.54  "/>
+		<path style="stroke:#FFFFFF;stroke-width:2.27 ;&st6;" d=" M   297.45,   214.25  L   297.45,   265.24  L   271.95,   265.24  L   263.46,   273.74  L   263.46,   280.54  "/>
+		<path style="stroke:#FFE600;stroke-width:1.13 ;&st6;" d=" M   297.45,   214.25  L   297.45,   265.24  L   271.95,   265.24  L   263.46,   273.74  L   263.46,   280.54  "/>
+	</a>
+	<a ewd:comment="3" style="cursor:pointer;" ewd:lineID="20">
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M   297.45,   199.52  L   297.45,   146.26  L   271.95,   146.26  "/>
+	</a>
+	<a ewd:comment="1,2" style="cursor:pointer;" ewd:lineID="21">
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M   373.94,   681.67  L   373.94,   613.68  "/>
+		<path style="stroke:#FFFFFF;stroke-width:4.53 ;&st6;" d=" M   373.94,   681.67  L   373.94,   613.68  "/>
+		<path style="stroke:#000000;stroke-width:1.13 ;&st6;" d=" M   373.94,   681.67  L   373.94,   613.68  "/>
+	</a>
+	<a ewd:comment="1,2" style="cursor:pointer;" ewd:lineID="22">
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M   373.94,   596.69  L   373.94,   529.26  "/>
+		<path style="stroke:#FFFFFF;stroke-width:4.53 ;&st6;" d=" M   373.94,   596.69  L   373.94,   529.26  "/>
+		<path style="stroke:#000000;stroke-width:1.13 ;&st6;" d=" M   373.94,   596.69  L   373.94,   529.26  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="23">
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M   373.94,   443.71  L   373.94,   494.14  "/>
+		<path style="stroke:#FFFFFF;stroke-width:4.53 ;&st6;" d=" M   373.94,   443.71  L   373.94,   494.14  "/>
+		<path style="stroke:#000000;stroke-width:1.13 ;&st6;" d=" M   373.94,   443.71  L   373.94,   494.14  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="24">
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M   373.94,   428.98  L   373.94,   392.72  L   399.43,   392.72  L   407.93,   384.22  L   407.93,   377.42  "/>
+		<path style="stroke:#FFFFFF;stroke-width:4.53 ;&st6;" d=" M   373.94,   428.98  L   373.94,   392.72  L   399.43,   392.72  L   407.93,   384.22  L   407.93,   377.42  "/>
+		<path style="stroke:#000000;stroke-width:1.13 ;&st6;" d=" M   373.94,   428.98  L   373.94,   392.72  L   399.43,   392.72  L   407.93,   384.22  L   407.93,   377.42  "/>
+	</a>
+	<a ewd:comment="1,2" style="cursor:pointer;" ewd:lineID="25">
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M   407.93,   681.67  L   407.93,   529.26  "/>
+		<path style="stroke:#FFFFFF;stroke-width:4.53 ;&st6;" d=" M   407.93,   681.67  L   407.93,   529.26  "/>
+		<path style="stroke:#000000;stroke-width:1.13 ;&st6;" d=" M   407.93,   681.67  L   407.93,   529.26  "/>
+	</a>
+	<a ewd:comment="2" style="cursor:pointer;" ewd:lineID="26">
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M   407.93,   449.94  L   407.93,   494.14  "/>
+		<path style="stroke:#FFFFFF;stroke-width:4.53 ;&st6;" d=" M   407.93,   449.94  L   407.93,   494.14  "/>
+		<path style="stroke:#000000;stroke-width:1.13 ;&st6;" d=" M   407.93,   449.94  L   407.93,   494.14  "/>
+	</a>
+	<a ewd:comment="2" style="cursor:pointer;" ewd:lineID="27">
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M   407.93,   435.21  L   407.93,   377.42  "/>
+		<path style="stroke:#FFFFFF;stroke-width:4.53 ;&st6;" d=" M   407.93,   435.21  L   407.93,   377.42  "/>
+		<path style="stroke:#000000;stroke-width:1.13 ;&st6;" d=" M   407.93,   435.21  L   407.93,   377.42  "/>
+	</a>
+	<a ewd:comment="3" style="cursor:pointer;" ewd:lineID="28">
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M   467.42,   528.70  L   467.42,   681.67  "/>
+		<path style="stroke:#FFFFFF;stroke-width:4.53 ;&st6;" d=" M   467.42,   528.70  L   467.42,   681.67  "/>
+		<path style="stroke:#000000;stroke-width:1.13 ;&st6;" d=" M   467.42,   528.70  L   467.42,   681.67  "/>
+	</a>
+	<a ewd:comment="3" style="cursor:pointer;" ewd:lineID="29">
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M   467.42,   449.94  L   467.42,   511.70  "/>
+		<path style="stroke:#FFFFFF;stroke-width:4.53 ;&st6;" d=" M   467.42,   449.94  L   467.42,   511.70  "/>
+		<path style="stroke:#000000;stroke-width:1.13 ;&st6;" d=" M   467.42,   449.94  L   467.42,   511.70  "/>
+	</a>
+	<a ewd:comment="3" style="cursor:pointer;" ewd:lineID="30">
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M   467.42,   435.21  L   467.42,   392.72  L   416.43,   392.72  L   407.93,   384.22  L   407.93,   377.42  "/>
+		<path style="stroke:#FFFFFF;stroke-width:4.53 ;&st6;" d=" M   467.42,   435.21  L   467.42,   392.72  L   416.43,   392.72  L   407.93,   384.22  L   407.93,   377.42  "/>
+		<path style="stroke:#000000;stroke-width:1.13 ;&st6;" d=" M   467.42,   435.21  L   467.42,   392.72  L   416.43,   392.72  L   407.93,   384.22  L   407.93,   377.42  "/>
+	</a>
+	<a ewd:comment="2,3" style="cursor:pointer;" ewd:lineID="31">
+		<path style="stroke:#008837;stroke-width:5.10 ;&st6;" d=" M   620.40,   511.70  L   620.40,   588.19  L   722.38,   588.19  L   722.38,   571.19  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="32">
+		<path style="stroke:#008837;stroke-width:5.10 ;&st6;" d=" M   620.40,   443.71  L   620.40,   494.70  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="33">
+		<path style="stroke:#008837;stroke-width:5.10 ;&st6;" d=" M   620.40,   428.98  L   620.40,   392.72  L   679.89,   392.72  L   688.38,   384.22  L   688.38,   377.42  "/>
+	</a>
+	<a ewd:comment="2" style="cursor:pointer;" ewd:lineID="34">
+		<path style="stroke:#008837;stroke-width:5.10 ;&st6;" d=" M   688.38,   449.94  L   688.38,   503.20  L   713.88,   503.20  "/>
+	</a>
+	<a ewd:comment="2" style="cursor:pointer;" ewd:lineID="35">
+		<path style="stroke:#008837;stroke-width:5.10 ;&st6;" d=" M   688.38,   435.21  L   688.38,   377.42  "/>
+	</a>
+	<a ewd:comment="2,3" style="cursor:pointer;" ewd:lineID="36">
+		<path style="stroke:#008837;stroke-width:5.10 ;&st6;" d=" M   722.38,   556.46  L   722.38,   511.70  "/>
+	</a>
+	<a ewd:comment="3" style="cursor:pointer;" ewd:lineID="37">
+		<path style="stroke:#008837;stroke-width:5.10 ;&st6;" d=" M   722.38,   449.94  L   722.38,   494.70  "/>
+	</a>
+	<a ewd:comment="3" style="cursor:pointer;" ewd:lineID="38">
+		<path style="stroke:#008837;stroke-width:5.10 ;&st6;" d=" M   722.38,   435.21  L   722.38,   392.72  L   696.88,   392.72  L   688.38,   384.22  L   688.38,   377.42  "/>
+	</a>
+	<a ewd:comment="3" style="cursor:pointer;" ewd:lineID="39">
+		<path style="stroke:#F668B2;stroke-width:5.10 ;&st6;" d=" M   815.86,   449.94  L   815.86,   494.70  "/>
+	</a>
+	<a ewd:comment="3" style="cursor:pointer;" ewd:lineID="40">
+		<path style="stroke:#F668B2;stroke-width:5.10 ;&st6;" d=" M   815.86,   435.21  L   815.86,   392.72  L   841.36,   392.72  L   849.86,   384.22  L   849.86,   377.42  "/>
+	</a>
+	<a ewd:comment="2,3" style="cursor:pointer;" ewd:lineID="41">
+		<path style="stroke:#F668B2;stroke-width:5.10 ;&st6;" d=" M   849.86,   556.46  L   849.86,   511.70  "/>
+	</a>
+	<a ewd:comment="2" style="cursor:pointer;" ewd:lineID="42">
+		<path style="stroke:#F668B2;stroke-width:5.10 ;&st6;" d=" M   849.86,   449.94  L   849.86,   494.70  "/>
+	</a>
+	<a ewd:comment="2" style="cursor:pointer;" ewd:lineID="43">
+		<path style="stroke:#F668B2;stroke-width:5.10 ;&st6;" d=" M   849.86,   435.21  L   849.86,   377.42  "/>
+	</a>
+	<a ewd:comment="2,3" style="cursor:pointer;" ewd:lineID="44">
+		<path style="stroke:#F668B2;stroke-width:5.10 ;&st6;" d=" M   917.85,   511.70  L   917.85,   588.19  L   849.86,   588.19  L   849.86,   571.19  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="45">
+		<path style="stroke:#F668B2;stroke-width:5.10 ;&st6;" d=" M   917.85,   443.71  L   917.85,   494.70  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="46">
+		<path style="stroke:#F668B2;stroke-width:5.10 ;&st6;" d=" M   917.85,   428.98  L   917.85,   392.72  L   858.36,   392.72  L   849.86,   384.22  L   849.86,   377.42  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="47">
+		<path style="stroke:#F668B2;stroke-width:5.10 ;&st6;" d=" M   960.34,   511.70  L   960.34,   647.68  L  1631.73,   647.68  L  1631.73,   435.78  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="48">
+		<path style="stroke:#008837;stroke-width:5.10 ;&st6;" d=" M  1198.30,   443.71  L  1198.30,   485.64  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="49">
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M  1198.30,   428.98  L  1198.30,   392.72  L  1223.80,   392.72  L  1232.29,   384.22  L  1232.29,   377.42  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="50">
+		<path style="stroke:#00A0C6;stroke-width:5.10 ;&st6;" d=" M  1198.30,   220.48  L  1198.30,   265.24  L  1223.80,   265.24  L  1232.29,   273.74  L  1232.29,   280.54  "/>
+	</a>
+	<a ewd:comment="2" style="cursor:pointer;" ewd:lineID="51">
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M  1232.29,   449.94  L  1232.29,   485.64  "/>
+	</a>
+	<a ewd:comment="2" style="cursor:pointer;" ewd:lineID="52">
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M  1232.29,   435.21  L  1232.29,   377.42  "/>
+	</a>
+	<a ewd:comment="2" style="cursor:pointer;" ewd:lineID="53">
+		<path style="stroke:#00A0C6;stroke-width:5.10 ;&st6;" d=" M  1232.29,   214.25  L  1232.29,   280.54  "/>
+	</a>
+	<a ewd:comment="2" style="cursor:pointer;" ewd:lineID="54">
+		<path style="stroke:#00A0C6;stroke-width:5.10 ;&st6;" d=" M  1232.29,   199.52  L  1232.29,   112.27  L  1393.77,   112.27  L  1393.77,   154.19  "/>
+	</a>
+	<a ewd:comment="3" style="cursor:pointer;" ewd:lineID="55">
+		<path style="stroke:#008837;stroke-width:5.10 ;&st6;" d=" M  1266.29,   449.94  L  1266.29,   485.64  "/>
+	</a>
+	<a ewd:comment="3" style="cursor:pointer;" ewd:lineID="56">
+		<path style="stroke:#7FC97F;stroke-width:5.10 ;&st6;" d=" M  1266.29,   435.21  L  1266.29,   392.72  L  1240.79,   392.72  L  1232.29,   384.22  L  1232.29,   377.42  "/>
+	</a>
+	<a ewd:comment="3" style="cursor:pointer;" ewd:lineID="57">
+		<path style="stroke:#00A0C6;stroke-width:5.10 ;&st6;" d=" M  1266.29,   214.25  L  1266.29,   265.24  L  1240.79,   265.24  L  1232.29,   273.74  L  1232.29,   280.54  "/>
+	</a>
+	<a ewd:comment="3" style="cursor:pointer;" ewd:lineID="58">
+		<path style="stroke:#00A0C6;stroke-width:5.10 ;&st6;" d=" M  1359.77,   154.19  L  1359.77,   129.26  L  1266.29,   129.26  L  1266.29,   199.52  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="59">
+		<path style="stroke:#008837;stroke-width:5.10 ;&st6;" d=" M  1427.76,   469.77  L  1427.76,   545.69  L  1266.29,   545.69  L  1266.29,   520.76  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="60">
+		<path style="stroke:#008837;stroke-width:5.10 ;&st6;" d=" M  1427.76,   341.73  L  1427.76,   434.65  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="61"> d=" M  1427.76,   189.32  L  1427.76,   307.73 
+	
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M  1427.76,   189.32  L  1427.76,   307.73  "/>
+		<path style="stroke:#FFFFFF;stroke-width:4.53 ;&st6;" d=" M  1427.76,   189.32  L  1427.76,   307.73  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="62">
+		<path style="stroke:#00A0C6;stroke-width:5.10 ;&st6;" d=" M  1427.76,   154.19  L  1427.76,    95.27  L  1198.30,    95.27  L  1198.30,   205.75  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="63">
+		<path style="stroke:#FF0000;stroke-width:5.10 ;&st6;" d=" M  1631.73,   256.18  L  1631.73,   220.48  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="64">
+		<path style="stroke:#FF0000;stroke-width:5.10 ;&st6;" d=" M  1631.73,   205.75  L  1631.73,   163.26  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="65">
+		<path style="stroke:#FF0000;stroke-width:5.10 ;&st6;" d=" M  1631.73,   103.77  L  1631.73,   146.26  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="66">
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M  1716.71,   220.77  L  1716.71,   256.18  "/>
+		<path style="stroke:#FFFFFF;stroke-width:2.27 ;&st6;" d=" M  1716.71,   220.77  L  1716.71,   256.18  "/>
+		<path style="stroke:#FFE600;stroke-width:1.13 ;&st6;" d=" M  1716.71,   220.77  L  1716.71,   256.18  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="67">
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M  1716.71,   205.75  L  1716.71,   172.32  "/>
+		<path style="stroke:#FFFFFF;stroke-width:2.27 ;&st6;" d=" M  1716.71,   205.75  L  1716.71,   172.32  "/>
+		<path style="stroke:#FFE600;stroke-width:1.13 ;&st6;" d=" M  1716.71,   205.75  L  1716.71,   172.32  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="68">
+		<path style="stroke:#000000;stroke-width:5.10 ;&st6;" d=" M  1716.71,   103.77  L  1716.71,   137.20  "/>
+		<path style="stroke:#FFFFFF;stroke-width:2.27 ;&st6;" d=" M  1716.71,   103.77  L  1716.71,   137.20  "/>
+		<path style="stroke:#FFE600;stroke-width:1.13 ;&st6;" d=" M  1716.71,   103.77  L  1716.71,   137.20  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="69">
+		<path style="stroke:#008837;stroke-width:5.10 ;&st6;" d=" M  1801.70,   545.69  L  1801.70,   596.69  "/>
+		<path style="stroke:#FFFFFF;stroke-width:2.27 ;&st6;" d=" M  1801.70,   545.69  L  1801.70,   596.69  "/>
+		<path style="stroke:#FF0000;stroke-width:1.13 ;&st6;" d=" M  1801.70,   545.69  L  1801.70,   596.69  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="70">
+		<path style="stroke:#008837;stroke-width:5.10 ;&st6;" d=" M  1801.70,   522.18  L  1801.70,   477.71  "/>
+		<path style="stroke:#FFFFFF;stroke-width:2.27 ;&st6;" d=" M  1801.70,   522.18  L  1801.70,   477.71  "/>
+		<path style="stroke:#FF0000;stroke-width:1.13 ;&st6;" d=" M  1801.70,   522.18  L  1801.70,   477.71  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="71">
+		<path style="stroke:#008837;stroke-width:5.10 ;&st6;" d=" M  1801.70,   462.69  L  1801.70,   435.78  "/>
+		<path style="stroke:#FFFFFF;stroke-width:2.27 ;&st6;" d=" M  1801.70,   462.69  L  1801.70,   435.78  "/>
+		<path style="stroke:#FF0000;stroke-width:1.13 ;&st6;" d=" M  1801.70,   462.69  L  1801.70,   435.78  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="72">
+		<path style="stroke:#008837;stroke-width:5.10 ;&st6;" d=" M  1929.18,   571.76  L  1929.18,   664.67  L   577.90,   664.67  L   577.90,   511.70  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="73">
+		<path style="stroke:#008837;stroke-width:5.10 ;&st6;" d=" M  1929.18,   435.78  L  1929.18,   536.63  "/>
+	</a>
+	<a ewd:comment="5" style="cursor:pointer;" ewd:lineID="74">
+		<path style="stroke:#992903;stroke-width:5.10 ;&st6;" d=" M  1988.67,   639.18  L  1988.67,   681.67  "/>
+	</a>
+	<a ewd:comment="5" style="cursor:pointer;" ewd:lineID="75">
+		<path style="stroke:#992903;stroke-width:5.10 ;&st6;" d=" M  1988.67,   622.18  L  1988.67,   594.42  "/>
+	</a>
+	<a ewd:comment="5" style="cursor:pointer;" ewd:lineID="76">
+		<path style="stroke:#992903;stroke-width:5.10 ;&st6;" d=" M  1988.67,   537.20  L  1988.67,   579.69  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="77">
+		<path style="stroke:#992903;stroke-width:5.10 ;&st6;" d=" M  1988.67,   477.71  L  1988.67,   520.20  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="78">
+		<path style="stroke:#992903;stroke-width:5.10 ;&st6;" d=" M  1988.67,   435.78  L  1988.67,   462.97  "/>
+	</a>
+	<a ewd:comment="4" style="cursor:pointer;" ewd:lineID="79">
+		<path style="stroke:#992903;stroke-width:5.10 ;&st6;" d=" M  1997.17,   528.70  L  2039.66,   528.70  L  2039.66,   573.46  "/>
+	</a>
+	<a ewd:comment="4" style="cursor:pointer;" ewd:lineID="80">
+		<path style="stroke:#992903;stroke-width:5.10 ;&st6;" d=" M  2039.66,   639.18  L  2039.66,   681.67  "/>
+	</a>
+	<a ewd:comment="4" style="cursor:pointer;" ewd:lineID="81">
+		<path style="stroke:#992903;stroke-width:5.10 ;&st6;" d=" M  2039.66,   588.19  L  2039.66,   624.45  "/>
+	</a>
+	<g ewd:figtype="conn" ewd:figID="1" ewd:code="L36">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1920.68,   545.69  L  1920.68,   562.69  L  1937.68,   562.69  L  1937.68,   545.69  L  1920.68,   545.69  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1929.18,   545.69  L  1929.18,   562.69  "/>
+		<text style="&st18;" transform="matrix(&st16;  1920.48  569.19 )">4</text>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1933.71,   567.22  C  1933.71    564.72   1931.68    562.69   1929.18    562.69  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1929.18,   562.69  C  1926.67    562.69   1924.65    564.72   1924.65    567.22  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1924.65,   567.22  C  1924.65    569.73   1926.67    571.76   1929.18    571.76  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1929.18,   571.76  C  1931.68    571.76   1933.71    569.73   1933.71    567.22  "/>
+		<text style="&st18;" transform="matrix(&st16;  1926.87  569.19 )">A</text>
+		<text style="&st18;" transform="matrix(&st16;  1920.48  543.13 )">7</text>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1933.71,   541.16  C  1933.71    538.66   1931.68    536.63   1929.18    536.63  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1929.18,   536.63  C  1926.67    536.63   1924.65    538.66   1924.65    541.16  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1924.65,   541.16  C  1924.65    543.66   1926.67    545.69   1929.18    545.69  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1929.18,   545.69  C  1931.68    545.69   1933.71    543.66   1933.71    541.16  "/>
+		<text style="&st18;" transform="matrix(&st16;  1926.87  543.13 )">A</text>
+		<g ewd:figtype="title">
+			<text style="&st18;" transform="matrix(&st17;  1952.39  565.6 )" ewd:textID="8">No. 28 Junction <tspan x="0 " dy="6.0">Connector</tspan></text>
+			<text style="&st18;" transform="matrix(&st17;  1945.57  565.59 )">L36(A)</text>
+		</g>
+	</g>
+	<g ewd:figtype="rb" ewd:figID="2" ewd:code="FUSE20">
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   263.46,    78.27  L   263.46,    95.27  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   265.58,   103.77  L   261.33,   103.77  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   265.58,    95.27  L   261.33,    95.27  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M   269.83,    99.52  C   269.83     97.17    267.93     95.27    265.58     95.27  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M   265.58,   103.77  C   267.93    103.77    269.83    101.87    269.83     99.52  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M   257.08,    99.52  C   257.08    101.87    258.98    103.77    261.33    103.77  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M   261.33,    95.27  C   258.98     95.27    257.08     97.17    257.08     99.52  "/>
+		<path style="stroke-width:0.28 ;&st9;  " d=" M   263.46,    90.37  L   260.62,    87.54  L   260.62,    91.79  L   263.46,    94.62  L   266.29,    91.79  L   266.29,    87.54  L   263.46,    90.37  "/>
+		<text style="&st18;" transform="matrix(&st16;  258.24  32.08 )">(IG)</text>
+		<text style="&st18;" transform="matrix(&st16;  257.27  86.47 )">2</text>
+		<text style="&st18;" transform="matrix(&st16;  261.66  101.49 )">2</text>
+		<text style="&st18;" transform="matrix(&st16;  279.88  56.17 )">15A <tspan x="0 " dy="6.0">ECU IG</tspan></text>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   263.46,    69.77  L   263.46,    78.27  "/>
+		<path style="stroke-width:0.85 ;&st7;   " d=" M   264.87,    68.36  C   264.87     67.57    264.24     66.94    263.46     66.94  "/>
+		<path style="stroke-width:0.85 ;&st7;   " d=" M   263.46,    66.94  C   262.67     66.94    262.04     67.57    262.04     68.36  "/>
+		<path style="stroke-width:0.85 ;&st7;   " d=" M   262.04,    68.36  C   262.04     69.14    262.67     69.77    263.46     69.77  "/>
+		<path style="stroke-width:0.85 ;&st7;   " d=" M   263.46,    69.77  C   264.24     69.77    264.87     69.14    264.87     68.36  "/>
+		<path style="stroke-width:0.85 ;&st7;   " d=" M   264.87,    45.69  C   264.87     44.91    264.24     44.28    263.46     44.28  "/>
+		<path style="stroke-width:0.85 ;&st7;   " d=" M   263.46,    44.28  C   262.67     44.28    262.04     44.91    262.04     45.69  "/>
+		<path style="stroke-width:0.85 ;&st7;   " d=" M   262.04,    45.69  C   262.04     46.48    262.67     47.11    263.46     47.11  "/>
+		<path style="stroke-width:0.85 ;&st7;   " d=" M   263.46,    47.11  C   264.24     47.11    264.87     46.48    264.87     45.69  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M   263.46,    66.94  C   266.19     65.33    267.11     61.80    265.49     59.06  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M   265.49,    59.06  C   264.97     58.18    264.34     57.55    263.46     57.03  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M   263.46,    47.11  C   260.72     48.72    259.81     52.25    261.42     54.99  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M   261.42,    54.99  C   261.94     55.87    262.57     56.51    263.46     57.03  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   250.71,    35.78  L   250.71,    78.27  L   276.20,    78.27  L   276.20,    35.78  L   250.71,    35.78  "/>
+	</g>
+	<g ewd:figtype="conn" ewd:figID="3" ewd:code="L56">
+		<g ewd:lineID="4">
+			<text style="&st18;" transform="matrix(&st16;  78.8  451.9 )">2</text>
+			<text style="&st18;" transform="matrix(&st16;  82.88  440.01 )">E</text>
+		</g>
+		<g ewd:lineID="5">
+			<text style="&st18;" transform="matrix(&st16;  129.79  451.9 )">1</text>
+			<text style="&st18;" transform="matrix(&st16;  130.84  440.01 )">INT</text>
+		</g>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M    67.99,   443.71  L   152.97,   443.71  L   152.97,   409.72  L    67.99,   409.72  L    67.99,   443.71  "/>
+		<g ewd:figtype="title">
+			<text style="&st18;" transform="matrix(&st16;  64.58  400.07 )" ewd:textID="15">Tire Pressure Warning <tspan x="0 " dy="6.0">Reset Switch</tspan></text>
+			<text style="&st18;" transform="matrix(&st16;  64.58  393.25 )">L56</text>
+		</g>
+	</g>
+	<g ewd:figtype="conn" ewd:figID="4" ewd:code="L57">
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   194.27,   502.20  L   194.00,   502.67  L   193.91,   503.20  L   194.00,   503.73  L   194.27,   504.20  L   194.69,   504.55  L   195.20,   504.74  L   195.74,   504.74  L   196.25,   504.55  L   196.66,   504.20  L   196.93,   503.73  L   197.03,   503.20  L   196.93,   502.67  L   196.66,   502.20  L   196.25,   501.85  L   195.74,   501.67  L   195.20,   501.67  L   194.69,   501.85  L   194.27,   502.20  L   194.67,   502.91  L   194.67,   503.49  L   195.04,   503.94  L   195.61,   504.04  L   196.12,   503.75  L   196.32,   503.20  L   196.12,   502.65  L   195.61,   502.37  L   195.04,   502.46  L   195.47,   503.20  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   195.47,   494.70  L   195.47,   511.70  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   127.48,   494.70  L   127.48,   511.70  L   203.97,   511.70  L   203.97,   494.70  L   127.48,   494.70  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   195.47,   503.20  L   135.98,   503.20  L   135.98,   494.70  "/>
+		<text style="&st18;" transform="matrix(&st16;  126.69  491.01 )">20</text>
+		<text style="&st18;" transform="matrix(&st16;  186.18  519.89 )">22</text>
+		<text style="&st18;" transform="matrix(&st16;  186.18  491.01 )">21</text>
+		<g ewd:figtype="title">
+			<text style="&st18;" transform="matrix(&st17;  211.86  514.6 )">L57</text>
+			<text style="&st18;" transform="matrix(&st17;  218.68  514.61 )" ewd:textID="12">No. 37 <tspan x="0 " dy="6.0">Junction </tspan><tspan x="0 " dy="6.0">Connector</tspan></text>
+		</g>
+	</g>
+	<g ewd:figtype="conn" ewd:figID="5" ewd:code="L53">
+		<path style="stroke-width:0.85 ;&st7;  " d=" M    84.99,   562.69  L    84.99,   579.69  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M    76.49,   562.69  L    76.49,   579.69  L    93.48,   579.69  L    93.48,   562.69  L    76.49,   562.69  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M    83.79,   570.19  L    83.52,   570.66  L    83.43,   571.19  L    83.52,   571.72  L    83.79,   572.19  L    84.21,   572.54  L    84.71,   572.73  L    85.26,   572.73  L    85.76,   572.54  L    86.18,   572.19  L    86.45,   571.72  L    86.54,   571.19  L    86.45,   570.66  L    86.18,   570.19  L    85.76,   569.84  L    85.26,   569.65  L    84.71,   569.65  L    84.21,   569.84  L    83.79,   570.19  L    84.19,   570.90  L    84.19,   571.48  L    84.56,   571.93  L    85.13,   572.03  L    85.64,   571.74  L    85.84,   571.19  L    85.64,   570.64  L    85.13,   570.35  L    84.56,   570.45  L    84.99,   571.19  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M    84.99,   571.19  L    76.49,   571.19  "/>
+		<text style="&st18;" transform="matrix(&st16;  70.3  567.5 )">5</text>
+		<text style="&st18;" transform="matrix(&st16;  78.8  587.88 )">4</text>
+		<text style="&st18;" transform="matrix(&st16;  75.7  559.0 )">13</text>
+		<g ewd:figtype="title">
+			<text style="&st18;" transform="matrix(&st17;  108.2  582.59 )" ewd:textID="9">No. 31 <tspan x="0 " dy="6.0">Junction </tspan><tspan x="0 " dy="6.0">Connector</tspan></text>
+			<text style="&st18;" transform="matrix(&st17;  101.38  582.59 )">L53</text>
+		</g>
+	</g>
+	<g ewd:figtype="conn" ewd:figID="6" ewd:code="I117">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   288.95,   494.70  L   288.95,   511.70  L   305.95,   511.70  L   305.95,   494.70  L   288.95,   494.70  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   297.45,   494.70  L   297.45,   511.70  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   297.45,   503.20  L   288.95,   503.20  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   296.26,   502.20  L   295.99,   502.67  L   295.89,   503.20  L   295.99,   503.73  L   296.26,   504.20  L   296.67,   504.55  L   297.18,   504.74  L   297.72,   504.74  L   298.23,   504.55  L   298.64,   504.20  L   298.91,   503.73  L   299.01,   503.20  L   298.91,   502.67  L   298.64,   502.20  L   298.23,   501.85  L   297.72,   501.67  L   297.18,   501.67  L   296.67,   501.85  L   296.26,   502.20  L   296.65,   502.91  L   296.65,   503.49  L   297.03,   503.94  L   297.60,   504.04  L   298.10,   503.75  L   298.30,   503.20  L   298.10,   502.65  L   297.60,   502.37  L   297.03,   502.46  L   297.45,   503.20  "/>
+		<text style="&st18;" transform="matrix(&st16;  279.67  499.51 )">10</text>
+		<text style="&st18;" transform="matrix(&st16;  291.27  519.89 )">9</text>
+		<text style="&st18;" transform="matrix(&st16;  288.16  491.01 )">11</text>
+		<g ewd:figtype="title">
+			<text style="&st18;" transform="matrix(&st17;  320.67  514.61 )" ewd:textID="10">No. 35 <tspan x="0 " dy="6.0">Junction </tspan><tspan x="0 " dy="6.0">Connector</tspan></text>
+			<text style="&st18;" transform="matrix(&st17;  313.84  514.6 )">I117</text>
+		</g>
+	</g>
+	<g ewd:figtype="conn" ewd:figID="7" ewd:code="I93">
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   407.93,   503.20  L   407.93,   520.20  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   373.94,   503.20  L   373.94,   520.20  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   365.44,   503.20  L   365.44,   520.20  L   416.43,   520.20  L   416.43,   503.20  L   365.44,   503.20  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   407.93,   511.70  L   373.94,   511.70  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   372.74,   510.70  L   372.47,   511.17  L   372.38,   511.70  L   372.47,   512.23  L   372.74,   512.70  L   373.16,   513.05  L   373.67,   513.24  L   374.21,   513.24  L   374.72,   513.05  L   375.13,   512.70  L   375.40,   512.23  L   375.50,   511.70  L   375.40,   511.17  L   375.13,   510.70  L   374.72,   510.35  L   374.21,   510.16  L   373.67,   510.16  L   373.16,   510.35  L   372.74,   510.70  L   373.14,   511.41  L   373.14,   511.99  L   373.51,   512.44  L   374.08,   512.54  L   374.59,   512.25  L   374.79,   511.70  L   374.59,   511.15  L   374.08,   510.86  L   373.51,   510.96  L   373.94,   511.70  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   406.74,   510.70  L   406.47,   511.17  L   406.37,   511.70  L   406.47,   512.23  L   406.74,   512.70  L   407.15,   513.05  L   407.66,   513.24  L   408.20,   513.24  L   408.71,   513.05  L   409.12,   512.70  L   409.40,   512.23  L   409.49,   511.70  L   409.40,   511.17  L   409.12,   510.70  L   408.71,   510.35  L   408.20,   510.16  L   407.66,   510.16  L   407.15,   510.35  L   406.74,   510.70  L   407.13,   511.41  L   407.13,   511.99  L   407.51,   512.44  L   408.08,   512.54  L   408.58,   512.25  L   408.78,   511.70  L   408.58,   511.15  L   408.08,   510.86  L   407.51,   510.96  L   407.93,   511.70  "/>
+		<text style="&st18;" transform="matrix(&st16;  365.24  526.7 )">2</text>
+		<text style="&st18;" transform="matrix(&st16;  371.63  526.7 )">A</text>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M   378.47,   524.73  C   378.47    522.23    376.44    520.20    373.94    520.20  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M   373.94,   520.20  C   371.43    520.20    369.40    522.23    369.40    524.73  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M   369.40,   524.73  C   369.40    527.23    371.43    529.26    373.94    529.26  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M   373.94,   529.26  C   376.44    529.26    378.47    527.23    378.47    524.73  "/>
+		<text style="&st18;" transform="matrix(&st16;  365.24  500.64 )">5</text>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M   378.47,   498.67  C   378.47    496.17    376.44    494.14    373.94    494.14  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M   373.94,   494.14  C   371.43    494.14    369.40    496.17    369.40    498.67  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M   369.40,   498.67  C   369.40    501.17    371.43    503.20    373.94    503.20  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M   373.94,   503.20  C   376.44    503.20    378.47    501.17    378.47    498.67  "/>
+		<text style="&st18;" transform="matrix(&st16;  371.63  500.64 )">A</text>
+		<text style="&st18;" transform="matrix(&st16;  399.24  526.7 )">1</text>
+		<text style="&st18;" transform="matrix(&st16;  405.63  526.7 )">A</text>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M   412.46,   524.73  C   412.46    522.23    410.44    520.20    407.93    520.20  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M   407.93,   520.20  C   405.43    520.20    403.40    522.23    403.40    524.73  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M   403.40,   524.73  C   403.40    527.23    405.43    529.26    407.93    529.26  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M   407.93,   529.26  C   410.44    529.26    412.46    527.23    412.46    524.73  "/>
+		<text style="&st18;" transform="matrix(&st16;  396.14  500.64 )">12</text>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M   412.46,   498.67  C   412.46    496.17    410.44    494.14    407.93    494.14  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M   407.93,   494.14  C   405.43    494.14    403.40    496.17    403.40    498.67  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M   403.40,   498.67  C   403.40    501.17    405.43    503.20    407.93    503.20  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M   407.93,   503.20  C   410.44    503.20    412.46    501.17    412.46    498.67  "/>
+		<text style="&st18;" transform="matrix(&st16;  405.63  500.64 )">A</text>
+		<g ewd:figtype="title">
+			<text style="&st18;" transform="matrix(&st17;  424.32  523.1 )">I93(A)</text>
+			<text style="&st18;" transform="matrix(&st17;  431.15  523.1 )" ewd:textID="6">No. 5 <tspan x="0 " dy="6.0">Junction </tspan><tspan x="0 " dy="6.0">Connector</tspan></text>
+		</g>
+	</g>
+	<g ewd:figtype="conn" ewd:figID="8" ewd:code="L57">
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   577.90,   511.70  L   577.90,   503.20  L   620.40,   503.20  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   569.40,   494.70  L   569.40,   511.70  L   628.89,   511.70  L   628.89,   494.70  L   569.40,   494.70  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   620.40,   494.70  L   620.40,   511.70  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   619.20,   502.20  L   618.93,   502.67  L   618.84,   503.20  L   618.93,   503.73  L   619.20,   504.20  L   619.62,   504.55  L   620.12,   504.74  L   620.67,   504.74  L   621.18,   504.55  L   621.59,   504.20  L   621.86,   503.73  L   621.95,   503.20  L   621.86,   502.67  L   621.59,   502.20  L   621.18,   501.85  L   620.67,   501.67  L   620.12,   501.67  L   619.62,   501.85  L   619.20,   502.20  L   619.60,   502.91  L   619.60,   503.49  L   619.97,   503.94  L   620.54,   504.04  L   621.05,   503.75  L   621.25,   503.20  L   621.05,   502.65  L   620.54,   502.37  L   619.97,   502.46  L   620.40,   503.20  "/>
+		<text style="&st18;" transform="matrix(&st16;  611.11  519.89 )">17</text>
+		<text style="&st18;" transform="matrix(&st16;  611.11  491.01 )">18</text>
+		<text style="&st18;" transform="matrix(&st16;  568.62  519.89 )">16</text>
+		<g ewd:figtype="title">
+			<text style="&st18;" transform="matrix(&st17;  643.61  514.61 )" ewd:textID="12">No. 37 <tspan x="0 " dy="6.0">Junction </tspan><tspan x="0 " dy="6.0">Connector</tspan></text>
+			<text style="&st18;" transform="matrix(&st17;  636.79  514.6 )">L57</text>
+		</g>
+	</g>
+	<g ewd:figtype="conn" ewd:figID="9" ewd:code="I117">
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   721.19,   502.20  L   720.91,   502.67  L   720.82,   503.20  L   720.91,   503.73  L   721.19,   504.20  L   721.60,   504.55  L   722.11,   504.74  L   722.65,   504.74  L   723.16,   504.55  L   723.57,   504.20  L   723.84,   503.73  L   723.94,   503.20  L   723.84,   502.67  L   723.57,   502.20  L   723.16,   501.85  L   722.65,   501.67  L   722.11,   501.67  L   721.60,   501.85  L   721.19,   502.20  L   721.58,   502.91  L   721.58,   503.49  L   721.95,   503.94  L   722.53,   504.04  L   723.03,   503.75  L   723.23,   503.20  L   723.03,   502.65  L   722.53,   502.37  L   721.95,   502.46  L   722.38,   503.20  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   722.38,   503.20  L   713.88,   503.20  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   722.38,   494.70  L   722.38,   511.70  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   713.88,   494.70  L   713.88,   511.70  L   730.88,   511.70  L   730.88,   494.70  L   713.88,   494.70  "/>
+		<text style="&st18;" transform="matrix(&st16;  707.7  499.51 )">2</text>
+		<text style="&st18;" transform="matrix(&st16;  716.2  519.89 )">3</text>
+		<text style="&st18;" transform="matrix(&st16;  716.2  491.01 )">8</text>
+		<g ewd:figtype="title">
+			<text style="&st18;" transform="matrix(&st17;  738.77  514.6 )">I117</text>
+			<text style="&st18;" transform="matrix(&st17;  745.6  514.61 )" ewd:textID="10">No. 35 <tspan x="0 " dy="6.0">Junction </tspan><tspan x="0 " dy="6.0">Connector</tspan></text>
+		</g>
+	</g>
+	<g ewd:figtype="conn" ewd:figID="10" ewd:code="I117">
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   849.86,   503.20  L   815.86,   503.20  L   815.86,   494.70  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   848.67,   502.20  L   848.39,   502.67  L   848.30,   503.20  L   848.39,   503.73  L   848.67,   504.20  L   849.08,   504.55  L   849.59,   504.74  L   850.13,   504.74  L   850.64,   504.55  L   851.05,   504.20  L   851.32,   503.73  L   851.42,   503.20  L   851.32,   502.67  L   851.05,   502.20  L   850.64,   501.85  L   850.13,   501.67  L   849.59,   501.67  L   849.08,   501.85  L   848.67,   502.20  L   849.06,   502.91  L   849.06,   503.49  L   849.43,   503.94  L   850.00,   504.04  L   850.51,   503.75  L   850.71,   503.20  L   850.51,   502.65  L   850.00,   502.37  L   849.43,   502.46  L   849.86,   503.20  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   849.86,   494.70  L   849.86,   511.70  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   807.36,   511.70  L   858.36,   511.70  L   858.36,   494.70  L   807.36,   494.70  L   807.36,   511.70  "/>
+		<text style="&st18;" transform="matrix(&st16;  809.68  491.01 )">7</text>
+		<text style="&st18;" transform="matrix(&st16;  843.67  519.89 )">6</text>
+		<text style="&st18;" transform="matrix(&st16;  843.67  491.01 )">1</text>
+		<g ewd:figtype="title">
+			<text style="&st18;" transform="matrix(&st17;  866.25  514.6 )">I117</text>
+			<text style="&st18;" transform="matrix(&st17;  873.07  514.61 )" ewd:textID="10">No. 35 <tspan x="0 " dy="6.0">Junction </tspan><tspan x="0 " dy="6.0">Connector</tspan></text>
+		</g>
+	</g>
+	<g ewd:figtype="conn" ewd:figID="11" ewd:code="L57">
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   917.85,   503.20  L   960.34,   503.20  L   960.34,   511.70  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   909.35,   494.70  L   909.35,   511.70  L   968.84,   511.70  L   968.84,   494.70  L   909.35,   494.70  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   917.85,   494.70  L   917.85,   511.70  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   916.65,   502.20  L   916.38,   502.67  L   916.29,   503.20  L   916.38,   503.73  L   916.65,   504.20  L   917.07,   504.55  L   917.57,   504.74  L   918.12,   504.74  L   918.63,   504.55  L   919.04,   504.20  L   919.31,   503.73  L   919.40,   503.20  L   919.31,   502.67  L   919.04,   502.20  L   918.63,   501.85  L   918.12,   501.67  L   917.57,   501.67  L   917.07,   501.85  L   916.65,   502.20  L   917.05,   502.91  L   917.05,   503.49  L   917.42,   503.94  L   917.99,   504.04  L   918.50,   503.75  L   918.70,   503.20  L   918.50,   502.65  L   917.99,   502.37  L   917.42,   502.46  L   917.85,   503.20  "/>
+		<text style="&st18;" transform="matrix(&st16;  911.66  519.89 )">7</text>
+		<text style="&st18;" transform="matrix(&st16;  911.66  491.01 )">6</text>
+		<text style="&st18;" transform="matrix(&st16;  954.16  519.89 )">5</text>
+		<g ewd:figtype="title">
+			<text style="&st18;" transform="matrix(&st17;  983.56  514.61 )" ewd:textID="12">No. 37 <tspan x="0 " dy="6.0">Junction </tspan><tspan x="0 " dy="6.0">Connector</tspan></text>
+			<text style="&st18;" transform="matrix(&st17;  976.73  514.6 )">L57</text>
+		</g>
+	</g>
+	<g ewd:figtype="conn" ewd:figID="12" ewd:code="I118">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1189.80,   494.70  L  1189.80,   511.70  L  1274.79,   511.70  L  1274.79,   494.70  L  1189.80,   494.70  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1266.29,   494.70  L  1266.29,   511.70  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1266.29,   503.20  L  1198.30,   503.20  L  1198.30,   494.70  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1265.10,   502.20  L  1264.82,   502.67  L  1264.73,   503.20  L  1264.82,   503.73  L  1265.10,   504.20  L  1265.51,   504.55  L  1266.02,   504.74  L  1266.56,   504.74  L  1267.07,   504.55  L  1267.48,   504.20  L  1267.75,   503.73  L  1267.85,   503.20  L  1267.75,   502.67  L  1267.48,   502.20  L  1267.07,   501.85  L  1266.56,   501.67  L  1266.02,   501.67  L  1265.51,   501.85  L  1265.10,   502.20  L  1265.49,   502.91  L  1265.49,   503.49  L  1265.86,   503.94  L  1266.44,   504.04  L  1266.94,   503.75  L  1267.14,   503.20  L  1266.94,   502.65  L  1266.44,   502.37  L  1265.86,   502.46  L  1266.29,   503.20  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1231.10,   502.20  L  1230.83,   502.67  L  1230.74,   503.20  L  1230.83,   503.73  L  1231.10,   504.20  L  1231.51,   504.55  L  1232.02,   504.74  L  1232.57,   504.74  L  1233.07,   504.55  L  1233.49,   504.20  L  1233.76,   503.73  L  1233.85,   503.20  L  1233.76,   502.67  L  1233.49,   502.20  L  1233.07,   501.85  L  1232.57,   501.67  L  1232.02,   501.67  L  1231.51,   501.85  L  1231.10,   502.20  L  1231.49,   502.91  L  1231.49,   503.49  L  1231.87,   503.94  L  1232.44,   504.04  L  1232.95,   503.75  L  1233.14,   503.20  L  1232.95,   502.65  L  1232.44,   502.37  L  1231.87,   502.46  L  1232.29,   503.20  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1232.29,   503.20  L  1232.29,   494.70  "/>
+		<text style="&st18;" transform="matrix(&st16;  1186.5  492.14 )">14</text>
+		<text style="&st18;" transform="matrix(&st16;  1195.88  492.14 )">C</text>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1202.83,   490.17  C  1202.83    487.67   1200.80    485.64   1198.30    485.64  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1198.30,   485.64  C  1195.80    485.64   1193.77    487.67   1193.77    490.17  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1193.77,   490.17  C  1193.77    492.67   1195.80    494.70   1198.30    494.70  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1198.30,   494.70  C  1200.80    494.70   1202.83    492.67   1202.83    490.17  "/>
+		<text style="&st18;" transform="matrix(&st16;  1220.5  492.14 )">15</text>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1236.83,   490.17  C  1236.83    487.67   1234.80    485.64   1232.29    485.64  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1232.29,   485.64  C  1229.79    485.64   1227.76    487.67   1227.76    490.17  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1227.76,   490.17  C  1227.76    492.67   1229.79    494.70   1232.29    494.70  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1232.29,   494.70  C  1234.80    494.70   1236.83    492.67   1236.83    490.17  "/>
+		<text style="&st18;" transform="matrix(&st16;  1229.87  492.14 )">C</text>
+		<text style="&st18;" transform="matrix(&st16;  1254.49  492.14 )">13</text>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1270.82,   490.17  C  1270.82    487.67   1268.79    485.64   1266.29    485.64  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1266.29,   485.64  C  1263.79    485.64   1261.76    487.67   1261.76    490.17  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1261.76,   490.17  C  1261.76    492.67   1263.79    494.70   1266.29    494.70  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1266.29,   494.70  C  1268.79    494.70   1270.82    492.67   1270.82    490.17  "/>
+		<text style="&st18;" transform="matrix(&st16;  1263.87  492.14 )">C</text>
+		<text style="&st18;" transform="matrix(&st16;  1254.49  518.2 )">12</text>
+		<text style="&st18;" transform="matrix(&st16;  1263.87  518.2 )">C</text>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1270.82,   516.23  C  1270.82    513.73   1268.79    511.70   1266.29    511.70  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1266.29,   511.70  C  1263.79    511.70   1261.76    513.73   1261.76    516.23  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1261.76,   516.23  C  1261.76    518.74   1263.79    520.76   1266.29    520.76  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1266.29,   520.76  C  1268.79    520.76   1270.82    518.74   1270.82    516.23  "/>
+		<g ewd:figtype="title">
+			<text style="&st18;" transform="matrix(&st17;  1289.5  514.61 )" ewd:textID="11">No. 36 <tspan x="0 " dy="6.0">Junction </tspan><tspan x="0 " dy="6.0">Connector</tspan></text>
+			<text style="&st18;" transform="matrix(&st17;  1282.68  514.6 )">I118(C)</text>
+		</g>
+	</g>
+	<g ewd:figtype="conn" ewd:figID="13" ewd:code="I118">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1351.27,   180.26  L  1436.26,   180.26  L  1436.26,   163.26  L  1351.27,   163.26  L  1351.27,   180.26  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1393.77,   163.26  L  1393.77,   171.76  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1427.76,   171.76  L  1427.76,   163.26  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1426.57,   170.75  L  1426.30,   171.22  L  1426.20,   171.76  L  1426.30,   172.29  L  1426.57,   172.76  L  1426.98,   173.11  L  1427.49,   173.29  L  1428.03,   173.29  L  1428.54,   173.11  L  1428.95,   172.76  L  1429.23,   172.29  L  1429.32,   171.76  L  1429.23,   171.22  L  1428.95,   170.75  L  1428.54,   170.41  L  1428.03,   170.22  L  1427.49,   170.22  L  1426.98,   170.41  L  1426.57,   170.75  L  1426.96,   171.47  L  1426.96,   172.05  L  1427.34,   172.49  L  1427.91,   172.59  L  1428.41,   172.30  L  1428.61,   171.76  L  1428.41,   171.21  L  1427.91,   170.92  L  1427.34,   171.02  L  1427.76,   171.76  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1392.57,   170.75  L  1392.30,   171.22  L  1392.21,   171.76  L  1392.30,   172.29  L  1392.57,   172.76  L  1392.99,   173.11  L  1393.49,   173.29  L  1394.04,   173.29  L  1394.55,   173.11  L  1394.96,   172.76  L  1395.23,   172.29  L  1395.32,   171.76  L  1395.23,   171.22  L  1394.96,   170.75  L  1394.55,   170.41  L  1394.04,   170.22  L  1393.49,   170.22  L  1392.99,   170.41  L  1392.57,   170.75  L  1392.97,   171.47  L  1392.97,   172.05  L  1393.34,   172.49  L  1393.91,   172.59  L  1394.42,   172.30  L  1394.62,   171.76  L  1394.42,   171.21  L  1393.91,   170.92  L  1393.34,   171.02  L  1393.77,   171.76  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1427.76,   180.26  L  1427.76,   171.76  L  1359.77,   171.76  L  1359.77,   163.26  "/>
+		<text style="&st18;" transform="matrix(&st16;  1381.97  160.69 )">17</text>
+		<text style="&st18;" transform="matrix(&st16;  1391.35  160.69 )">C</text>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1398.30,   158.73  C  1398.30    156.22   1396.27    154.19   1393.77    154.19  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1393.77,   154.19  C  1391.26    154.19   1389.23    156.22   1389.23    158.73  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1389.23,   158.73  C  1389.23    161.23   1391.26    163.26   1393.77    163.26  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1393.77,   163.26  C  1396.27    163.26   1398.30    161.23   1398.30    158.73  "/>
+		<text style="&st18;" transform="matrix(&st16;  1347.98  160.69 )">18</text>
+		<text style="&st18;" transform="matrix(&st16;  1357.35  160.69 )">C</text>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1364.31,   158.73  C  1364.31    156.22   1362.28    154.19   1359.77    154.19  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1359.77,   154.19  C  1357.27    154.19   1355.24    156.22   1355.24    158.73  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1355.24,   158.73  C  1355.24    161.23   1357.27    163.26   1359.77    163.26  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1359.77,   163.26  C  1362.28    163.26   1364.31    161.23   1364.31    158.73  "/>
+		<text style="&st18;" transform="matrix(&st16;  1415.97  186.76 )">22</text>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1432.29,   184.79  C  1432.29    182.28   1430.26    180.26   1427.76    180.26  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1427.76,   180.26  C  1425.26    180.26   1423.23    182.28   1423.23    184.79  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1423.23,   184.79  C  1423.23    187.29   1425.26    189.32   1427.76    189.32  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1427.76,   189.32  C  1430.26    189.32   1432.29    187.29   1432.29    184.79  "/>
+		<text style="&st18;" transform="matrix(&st16;  1425.34  186.76 )">C</text>
+		<text style="&st18;" transform="matrix(&st16;  1415.97  160.69 )">19</text>
+		<text style="&st18;" transform="matrix(&st16;  1425.34  160.69 )">C</text>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1432.29,   158.73  C  1432.29    156.22   1430.26    154.19   1427.76    154.19  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1427.76,   154.19  C  1425.26    154.19   1423.23    156.22   1423.23    158.73  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1423.23,   158.73  C  1423.23    161.23   1425.26    163.26   1427.76    163.26  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1427.76,   163.26  C  1430.26    163.26   1432.29    161.23   1432.29    158.73  "/>
+		<g ewd:figtype="title">
+			<text style="&st18;" transform="matrix(&st17;  1450.98  183.16 )" ewd:textID="11">No. 36 <tspan x="0 " dy="6.0">Junction Connector</tspan></text>
+			<text style="&st18;" transform="matrix(&st17;  1444.15  183.15 )">I118(C)</text>
+		</g>
+	</g>
+	<g ewd:figtype="conn" ewd:figID="14" ewd:code="I72">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1419.26,   460.71  L  1436.26,   460.71  L  1436.26,   443.71  L  1419.26,   443.71  L  1419.26,   460.71  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1427.76,   443.71  L  1427.76,   460.71  "/>
+		<text style="&st18;" transform="matrix(&st16;  1415.97  467.21 )">22</text>
+		<text style="&st18;" transform="matrix(&st16;  1425.46  467.21 )">A</text>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1432.29,   465.24  C  1432.29    462.74   1430.26    460.71   1427.76    460.71  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1427.76,   460.71  C  1425.26    460.71   1423.23    462.74   1423.23    465.24  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1423.23,   465.24  C  1423.23    467.74   1425.26    469.77   1427.76    469.77  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1427.76,   469.77  C  1430.26    469.77   1432.29    467.74   1432.29    465.24  "/>
+		<text style="&st18;" transform="matrix(&st16;  1415.97  441.15 )">19</text>
+		<text style="&st18;" transform="matrix(&st16;  1425.46  441.15 )">A</text>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1432.29,   439.18  C  1432.29    436.68   1430.26    434.65   1427.76    434.65  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1427.76,   434.65  C  1425.26    434.65   1423.23    436.68   1423.23    439.18  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1423.23,   439.18  C  1423.23    441.68   1425.26    443.71   1427.76    443.71  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1427.76,   443.71  C  1430.26    443.71   1432.29    441.68   1432.29    439.18  "/>
+		<g ewd:figtype="title">
+			<text style="&st18;" transform="matrix(&st17;  1450.98  463.61 )" ewd:textID="7">No. 21 <tspan x="0 " dy="6.0">Junction Connector</tspan></text>
+			<text style="&st18;" transform="matrix(&st17;  1444.15  463.61 )">I72(A)</text>
+		</g>
+	</g>
+	<g ewd:figtype="rb" ewd:figID="15" ewd:code="FUSE5">
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1631.73,    78.27  L  1631.73,    95.27  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1633.85,   103.77  L  1629.60,   103.77  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1633.85,    95.27  L  1629.60,    95.27  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1638.10,    99.52  C  1638.10     97.17   1636.20     95.27   1633.85     95.27  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1633.85,   103.77  C  1636.20    103.77   1638.10    101.87   1638.10     99.52  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1625.35,    99.52  C  1625.35    101.87   1627.26    103.77   1629.60    103.77  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1629.60,    95.27  C  1627.26     95.27   1625.35     97.17   1625.35     99.52  "/>
+		<path style="stroke-width:0.28 ;&st9;  " d=" M  1631.73,    90.37  L  1628.89,    87.54  L  1628.89,    91.79  L  1631.73,    94.62  L  1634.56,    91.79  L  1634.56,    87.54  L  1631.73,    90.37  "/>
+		<text style="&st18;" transform="matrix(&st16;  1623.68  32.08 )">(BAT)</text>
+		<text style="&st18;" transform="matrix(&st16;  1625.54  86.47 )">2</text>
+		<text style="&st18;" transform="matrix(&st16;  1629.93  101.49 )">2</text>
+		<text style="&st18;" transform="matrix(&st16;  1648.15  53.34 )">10A <tspan x="0 " dy="6.0">DOME </tspan><tspan x="0 " dy="6.0">NO.1</tspan></text>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1631.73,    69.77  L  1631.73,    78.27  "/>
+		<path style="stroke-width:0.85 ;&st7;   " d=" M  1633.14,    68.36  C  1633.14     67.57   1632.51     66.94   1631.73     66.94  "/>
+		<path style="stroke-width:0.85 ;&st7;   " d=" M  1631.73,    66.94  C  1630.95     66.94   1630.31     67.57   1630.31     68.36  "/>
+		<path style="stroke-width:0.85 ;&st7;   " d=" M  1630.31,    68.36  C  1630.31     69.14   1630.95     69.77   1631.73     69.77  "/>
+		<path style="stroke-width:0.85 ;&st7;   " d=" M  1631.73,    69.77  C  1632.51     69.77   1633.14     69.14   1633.14     68.36  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1618.98,    35.78  L  1618.98,    78.27  L  1644.47,    78.27  L  1644.47,    35.78  L  1618.98,    35.78  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1631.73,    66.94  C  1634.47     65.33   1635.38     61.80   1633.76     59.06  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1633.76,    59.06  C  1633.24     58.18   1632.61     57.55   1631.73     57.03  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1631.73,    47.11  C  1628.99     48.72   1628.08     52.25   1629.69     54.99  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1629.69,    54.99  C  1630.21     55.87   1630.85     56.51   1631.73     57.03  "/>
+		<path style="stroke-width:0.85 ;&st7;   " d=" M  1633.14,    45.69  C  1633.14     44.91   1632.51     44.28   1631.73     44.28  "/>
+		<path style="stroke-width:0.85 ;&st7;   " d=" M  1631.73,    44.28  C  1630.95     44.28   1630.31     44.91   1630.31     45.69  "/>
+		<path style="stroke-width:0.85 ;&st7;   " d=" M  1630.31,    45.69  C  1630.31     46.48   1630.95     47.11   1631.73     47.11  "/>
+		<path style="stroke-width:0.85 ;&st7;   " d=" M  1631.73,    47.11  C  1632.51     47.11   1633.14     46.48   1633.14     45.69  "/>
+	</g>
+	<g ewd:figtype="rb" ewd:figID="16" ewd:code="FUSE16">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1718.84,    95.27  L  1714.59,    95.27  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1718.84,   103.77  L  1714.59,   103.77  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1716.71,    78.27  L  1716.71,    95.27  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1714.59,    95.27  C  1712.24     95.27   1710.34     97.17   1710.34     99.52  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1710.34,    99.52  C  1710.34    101.87   1712.24    103.77   1714.59    103.77  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1718.84,   103.77  C  1721.18    103.77   1723.09    101.87   1723.09     99.52  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1723.09,    99.52  C  1723.09     97.17   1721.18     95.27   1718.84     95.27  "/>
+		<path style="stroke-width:0.28 ;&st9;  " d=" M  1716.71,    90.37  L  1713.88,    87.54  L  1713.88,    91.79  L  1716.71,    94.62  L  1719.55,    91.79  L  1719.55,    87.54  L  1716.71,    90.37  "/>
+		<text style="&st18;" transform="matrix(&st16;  1733.14  56.17 )">10A <tspan x="0 " dy="6.0">MET</tspan></text>
+		<text style="&st18;" transform="matrix(&st16;  1714.91  101.49 )">2</text>
+		<text style="&st18;" transform="matrix(&st16;  1710.53  86.47 )">2</text>
+		<text style="&st18;" transform="matrix(&st16;  1711.5  32.08 )">(IG)</text>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1716.71,    69.77  L  1716.71,    78.27  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1716.71,    47.11  C  1713.98     48.72   1713.06     52.25   1714.68     54.99  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1714.68,    54.99  C  1715.20     55.87   1715.83     56.51   1716.71     57.03  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1716.71,    66.94  C  1719.45     65.33   1720.36     61.80   1718.75     59.06  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1718.75,    59.06  C  1718.23     58.18   1717.60     57.55   1716.71     57.03  "/>
+		<path style="stroke-width:0.85 ;&st7;   " d=" M  1718.13,    45.69  C  1718.13     44.91   1717.50     44.28   1716.71     44.28  "/>
+		<path style="stroke-width:0.85 ;&st7;   " d=" M  1716.71,    44.28  C  1715.93     44.28   1715.30     44.91   1715.30     45.69  "/>
+		<path style="stroke-width:0.85 ;&st7;   " d=" M  1715.30,    45.69  C  1715.30     46.48   1715.93     47.11   1716.71     47.11  "/>
+		<path style="stroke-width:0.85 ;&st7;   " d=" M  1716.71,    47.11  C  1717.50     47.11   1718.13     46.48   1718.13     45.69  "/>
+		<path style="stroke-width:0.85 ;&st7;   " d=" M  1718.13,    68.36  C  1718.13     67.57   1717.50     66.94   1716.71     66.94  "/>
+		<path style="stroke-width:0.85 ;&st7;   " d=" M  1716.71,    66.94  C  1715.93     66.94   1715.30     67.57   1715.30     68.36  "/>
+		<path style="stroke-width:0.85 ;&st7;   " d=" M  1715.30,    68.36  C  1715.30     69.14   1715.93     69.77   1716.71     69.77  "/>
+		<path style="stroke-width:0.85 ;&st7;   " d=" M  1716.71,    69.77  C  1717.50     69.77   1718.13     69.14   1718.13     68.36  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1703.96,    35.78  L  1703.96,    78.27  L  1729.46,    78.27  L  1729.46,    35.78  L  1703.96,    35.78  "/>
+	</g>
+	<g ewd:figtype="conn" ewd:figID="17" ewd:code="I118">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1708.21,   146.26  L  1708.21,   163.26  L  1725.21,   163.26  L  1725.21,   146.26  L  1708.21,   146.26  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1716.71,   146.26  L  1716.71,   163.26  "/>
+		<text style="&st18;" transform="matrix(&st16;  1708.02  169.76 )">5</text>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1721.25,   167.79  C  1721.25    165.29   1719.22    163.26   1716.71    163.26  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1716.71,   163.26  C  1714.21    163.26   1712.18    165.29   1712.18    167.79  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1712.18,   167.79  C  1712.18    170.29   1714.21    172.32   1716.71    172.32  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1716.71,   172.32  C  1719.22    172.32   1721.25    170.29   1721.25    167.79  "/>
+		<text style="&st18;" transform="matrix(&st16;  1714.29  169.76 )">C</text>
+		<text style="&st18;" transform="matrix(&st16;  1708.02  143.7 )">4</text>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1721.25,   141.73  C  1721.25    139.23   1719.22    137.20   1716.71    137.20  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1716.71,   137.20  C  1714.21    137.20   1712.18    139.23   1712.18    141.73  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1712.18,   141.73  C  1712.18    144.23   1714.21    146.26   1716.71    146.26  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1716.71,   146.26  C  1719.22    146.26   1721.25    144.23   1721.25    141.73  "/>
+		<text style="&st18;" transform="matrix(&st16;  1714.29  143.7 )">C</text>
+		<g ewd:figtype="title">
+			<text style="&st18;" transform="matrix(&st17;  1739.93  166.16 )" ewd:textID="11">No. 36 <tspan x="0 " dy="6.0">Junction </tspan><tspan x="0 " dy="6.0">Connector</tspan></text>
+			<text style="&st18;" transform="matrix(&st17;  1733.11  166.16 )">I118(C)</text>
+		</g>
+	</g>
+	<g ewd:figtype="conn" ewd:figID="18" ewd:code="A42">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1784.70,   630.68  L  1818.70,   630.68  L  1818.70,   596.69  L  1784.70,   596.69  L  1784.70,   630.68  "/>
+		<text style="&st18;" transform="matrix(&st16;  1792.41  593.0 )">14</text>
+		<text style="&st18;" transform="matrix(&st16;  1796.6  604.32 )">SP1</text>
+		<g ewd:figtype="title">
+			<text style="&st18;" transform="matrix(&st17;  1826.59  633.58 )">A42</text>
+			<text style="&st18;" transform="matrix(&st17;  1833.41  633.59 )" ewd:textID="4">Brake Actuator Assembly</text>
+		</g>
+	</g>
+	<g ewd:figtype="conn" ewd:figID="19" ewd:code="I17">
+		<g ewd:lineID="60">
+			<text style="&st18;" transform="matrix(&st16;  1418.48  349.92 )">13</text>
+			<text style="&st18;" transform="matrix(&st16;  1423.4  338.03 )">TC</text>
+		</g>
+		<g ewd:lineID="61">
+			<text style="&st18;" transform="matrix(&st16;  1421.58  304.04 )">7</text>
+			<text style="&st18;" transform="matrix(&st16;  1423.25  315.37 )">SIL</text>
+		</g>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1410.76,   341.73  L  1444.76,   341.73  L  1444.76,   307.73  L  1410.76,   307.73  L  1410.76,   341.73  "/>
+		<g ewd:figtype="title">
+			<text style="&st18;" transform="matrix(&st17;  1452.65  344.63 )">I17</text>
+			<text style="&st18;" transform="matrix(&st17;  1459.48  344.63 )">DLC3</text>
+		</g>
+	</g>
+	<g ewd:figtype="conn" ewd:figID="20" ewd:code="L25">
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1720.96,   307.73  L  1712.46,   307.73  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1720.96,   333.23  L  1712.46,   333.23  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1635.98,   307.73  L  1627.48,   307.73  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1814.45,   307.73  L  1805.95,   307.73  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1822.93,   298.07  L  1815.57,   302.32  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1817.57,   305.79  L  1824.93,   301.54  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1759.21,   316.23  L  1759.21,   333.23  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1759.21,   324.73  L  1753.54,   324.73  "/>
+		<text style="&st18;" transform="matrix(&st17;  1796.32  314.29 )" ewd:textID="13">Tire <tspan x="0 " dy="6.0">Pressure</tspan></text>
+		<path style="stroke-width:0.28 ;&st9;  " d=" M  1716.71,   333.23  L  1711.05,   324.73  L  1722.38,   324.73  L  1716.71,   333.23  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1614.73,   426.71  L  2005.66,   426.71  L  2005.66,   265.24  L  1614.73,   265.24  L  1614.73,   426.71  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1699.72,   375.72  L  1810.20,   375.72  L  1810.20,   358.73  L  1699.72,   358.73  L  1699.72,   375.72  "/>
+		<path style="stroke-width:0.28 ;&st9;  " d=" M  1716.71,   307.73  L  1711.05,   299.24  L  1722.38,   299.24  L  1716.71,   307.73  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1716.71,   265.24  L  1716.71,   358.73  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1631.73,   265.24  L  1631.73,   341.73  L  1716.71,   341.73  "/>
+		<path style="stroke-width:0.28 ;&st9;  " d=" M  1631.73,   307.73  L  1626.06,   299.24  L  1637.39,   299.24  L  1631.73,   307.73  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1715.52,   340.73  L  1715.25,   341.20  L  1715.15,   341.73  L  1715.25,   342.26  L  1715.52,   342.73  L  1715.93,   343.08  L  1716.44,   343.26  L  1716.98,   343.26  L  1717.49,   343.08  L  1717.91,   342.73  L  1718.18,   342.26  L  1718.27,   341.73  L  1718.18,   341.20  L  1717.91,   340.73  L  1717.49,   340.38  L  1716.98,   340.19  L  1716.44,   340.19  L  1715.93,   340.38  L  1715.52,   340.73  L  1715.91,   341.44  L  1715.91,   342.02  L  1716.29,   342.46  L  1716.86,   342.56  L  1717.36,   342.28  L  1717.56,   341.73  L  1717.36,   341.18  L  1716.86,   340.89  L  1716.29,   340.99  L  1716.71,   341.73  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1810.20,   341.73  L  1810.20,   333.23  L  1807.36,   331.81  L  1813.03,   328.98  L  1807.36,   326.15  L  1813.03,   323.31  L  1807.36,   320.48  L  1813.03,   317.65  L  1810.20,   316.23  L  1810.20,   282.24  L  1716.71,   282.24  "/>
+		<path style="stroke-width:0.28 ;&st9;  " d=" M  1810.20,   307.73  L  1804.53,   299.24  L  1815.86,   299.24  L  1810.20,   307.73  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1822.93,   298.07  L  1820.60,   301.11  L  1819.13,   298.57  L  1822.93,   298.07  L  1821.65,   298.81  L  1820.66,   300.09  L  1820.04,   299.02  L  1821.65,   298.81  L  1821.01,   299.18  L  1820.70,   299.58  L  1820.50,   299.25  L  1821.01,   299.18  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1824.93,   301.54  L  1822.60,   304.58  L  1821.13,   302.04  L  1824.93,   301.54  L  1823.65,   302.28  L  1822.67,   303.56  L  1822.05,   302.49  L  1823.65,   302.28  L  1823.01,   302.65  L  1822.70,   303.05  L  1822.51,   302.72  L  1823.01,   302.65  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1767.70,   316.23  L  1759.21,   321.90  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1767.70,   333.23  L  1765.57,   330.05  L  1763.94,   332.49  L  1767.70,   333.23  L  1766.47,   332.41  L  1765.57,   331.07  L  1764.89,   332.09  L  1766.47,   332.41  L  1765.86,   332.00  L  1765.57,   331.58  L  1765.36,   331.90  L  1765.86,   332.00  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1767.70,   333.23  L  1767.70,   341.73  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1759.21,   341.73  L  1776.20,   341.73  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1767.70,   341.73  L  1763.45,   350.23  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1776.20,   341.73  L  1771.95,   350.23  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1759.21,   341.73  L  1754.96,   350.23  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1753.54,   324.73  L  1742.21,   324.73  L  1742.21,   358.73  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1715.52,   281.24  L  1715.25,   281.71  L  1715.15,   282.24  L  1715.25,   282.77  L  1715.52,   283.24  L  1715.93,   283.59  L  1716.44,   283.77  L  1716.98,   283.77  L  1717.49,   283.59  L  1717.91,   283.24  L  1718.18,   282.77  L  1718.27,   282.24  L  1718.18,   281.71  L  1717.91,   281.24  L  1717.49,   280.89  L  1716.98,   280.70  L  1716.44,   280.70  L  1715.93,   280.89  L  1715.52,   281.24  L  1715.91,   281.95  L  1715.91,   282.53  L  1716.29,   282.97  L  1716.86,   283.07  L  1717.36,   282.79  L  1717.56,   282.24  L  1717.36,   281.69  L  1716.86,   281.40  L  1716.29,   281.50  L  1716.71,   282.24  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1767.70,   316.23  L  1767.70,   307.73  L  1784.70,   307.73  L  1784.70,   341.73  L  1810.20,   341.73  "/>
+		<path style="stroke-width:0.28 ;&st9;  " d=" M  1631.73,   375.72  L  1626.06,   367.22  L  1637.39,   367.22  L  1631.73,   375.72  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1631.73,   401.22  L  1631.73,   426.71  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1631.73,   358.73  L  1631.73,   367.22  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1627.48,   358.73  L  1635.98,   358.73  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1716.71,   375.72  L  1716.71,   384.22  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1699.72,   384.22  L  1699.72,   401.22  L  1733.71,   401.22  L  1733.71,   384.22  L  1699.72,   384.22  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1631.73,   401.22  L  1628.89,   399.80  L  1634.56,   396.97  L  1628.89,   394.14  L  1634.56,   391.30  L  1628.89,   388.47  L  1634.56,   385.64  L  1631.73,   384.22  L  1631.73,   367.22  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1630.53,   357.72  L  1630.26,   358.19  L  1630.17,   358.73  L  1630.26,   359.26  L  1630.53,   359.73  L  1630.95,   360.07  L  1631.45,   360.26  L  1632.00,   360.26  L  1632.51,   360.07  L  1632.92,   359.73  L  1633.19,   359.26  L  1633.28,   358.73  L  1633.19,   358.19  L  1632.92,   357.72  L  1632.51,   357.38  L  1632.00,   357.19  L  1631.45,   357.19  L  1630.95,   357.38  L  1630.53,   357.72  L  1630.93,   358.43  L  1630.93,   359.02  L  1631.30,   359.46  L  1631.87,   359.56  L  1632.38,   359.27  L  1632.58,   358.73  L  1632.38,   358.18  L  1631.87,   357.89  L  1631.30,   357.99  L  1631.73,   358.73  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1630.53,   408.71  L  1630.26,   409.18  L  1630.17,   409.72  L  1630.26,   410.25  L  1630.53,   410.72  L  1630.95,   411.07  L  1631.45,   411.25  L  1632.00,   411.25  L  1632.51,   411.07  L  1632.92,   410.72  L  1633.19,   410.25  L  1633.28,   409.72  L  1633.19,   409.18  L  1632.92,   408.71  L  1632.51,   408.37  L  1632.00,   408.18  L  1631.45,   408.18  L  1630.95,   408.37  L  1630.53,   408.71  L  1630.93,   409.43  L  1630.93,   410.01  L  1631.30,   410.45  L  1631.87,   410.55  L  1632.38,   410.26  L  1632.58,   409.72  L  1632.38,   409.17  L  1631.87,   408.88  L  1631.30,   408.98  L  1631.73,   409.72  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1648.72,   409.72  L  1657.22,   409.72  L  1658.64,   406.88  L  1661.47,   412.55  L  1664.30,   406.88  L  1667.14,   412.55  L  1669.97,   406.88  L  1672.80,   412.55  L  1674.22,   409.72  L  1682.72,   409.72  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1767.70,   333.23  L  1759.21,   327.56  "/>
+		<text style="&st18;" transform="matrix(&st16;  1634.31  423.02 )">TIRE</text>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1682.72,   409.72  L  1716.71,   409.72  L  1716.71,   401.22  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1635.98,   375.72  L  1627.48,   375.72  "/>
+		<text style="&st18;" transform="matrix(&st16;  1985.01  423.02 )">ES</text>
+		<text style="&st18;" transform="matrix(&st16;  1719.3  273.43 )">B</text>
+		<text style="&st18;" transform="matrix(&st16;  1712.16  394.69 )">I/F</text>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1631.73,   409.72  L  1648.72,   409.72  "/>
+		<text style="&st18;" transform="matrix(&st16;  1634.31  273.43 )">B</text>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1895.18,   384.22  L  1886.68,   378.56  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1835.69,   392.72  L  1827.19,   387.05  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1827.19,   375.72  L  1827.19,   392.72  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1886.68,   367.22  L  1886.68,   384.22  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1861.19,   375.72  L  1861.19,   367.22  L  1858.36,   365.81  L  1864.02,   362.97  L  1858.36,   360.14  L  1864.02,   357.31  L  1858.36,   354.48  L  1864.02,   351.64  L  1861.19,   350.23  L  1861.19,   341.73  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1835.69,   392.72  L  1833.56,   389.54  L  1831.93,   391.98  L  1835.69,   392.72  L  1834.46,   391.90  L  1833.56,   390.56  L  1832.87,   391.58  L  1834.46,   391.90  L  1833.85,   391.49  L  1833.56,   391.07  L  1833.34,   391.39  L  1833.85,   391.49  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1835.69,   375.72  L  1827.19,   381.39  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1801.70,   384.22  L  1827.19,   384.22  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1801.70,   418.22  L  1801.70,   409.72  L  1798.87,   408.30  L  1804.53,   405.47  L  1798.87,   402.63  L  1804.53,   399.80  L  1798.87,   396.97  L  1804.53,   394.14  L  1801.70,   392.72  L  1801.70,   384.22  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1860.00,   374.72  L  1859.72,   375.19  L  1859.63,   375.72  L  1859.72,   376.26  L  1860.00,   376.73  L  1860.41,   377.07  L  1860.92,   377.26  L  1861.46,   377.26  L  1861.97,   377.07  L  1862.38,   376.73  L  1862.65,   376.26  L  1862.75,   375.72  L  1862.65,   375.19  L  1862.38,   374.72  L  1861.97,   374.37  L  1861.46,   374.19  L  1860.92,   374.19  L  1860.41,   374.37  L  1860.00,   374.72  L  1860.39,   375.43  L  1860.39,   376.01  L  1860.76,   376.46  L  1861.34,   376.56  L  1861.84,   376.27  L  1862.04,   375.72  L  1861.84,   375.18  L  1861.34,   374.89  L  1860.76,   374.99  L  1861.19,   375.72  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1860.00,   340.73  L  1859.72,   341.20  L  1859.63,   341.73  L  1859.72,   342.26  L  1860.00,   342.73  L  1860.41,   343.08  L  1860.92,   343.26  L  1861.46,   343.26  L  1861.97,   343.08  L  1862.38,   342.73  L  1862.65,   342.26  L  1862.75,   341.73  L  1862.65,   341.20  L  1862.38,   340.73  L  1861.97,   340.38  L  1861.46,   340.19  L  1860.92,   340.19  L  1860.41,   340.38  L  1860.00,   340.73  L  1860.39,   341.44  L  1860.39,   342.02  L  1860.76,   342.46  L  1861.34,   342.56  L  1861.84,   342.28  L  1862.04,   341.73  L  1861.84,   341.18  L  1861.34,   340.89  L  1860.76,   340.99  L  1861.19,   341.73  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1929.18,   409.72  L  1929.18,   426.71  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1856.94,   341.73  L  1865.44,   341.73  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1801.70,   384.22  L  1801.70,   375.72  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1800.51,   383.22  L  1800.23,   383.69  L  1800.14,   384.22  L  1800.23,   384.75  L  1800.51,   385.22  L  1800.92,   385.57  L  1801.43,   385.76  L  1801.97,   385.76  L  1802.48,   385.57  L  1802.89,   385.22  L  1803.16,   384.75  L  1803.26,   384.22  L  1803.16,   383.69  L  1802.89,   383.22  L  1802.48,   382.87  L  1801.97,   382.69  L  1801.43,   382.69  L  1800.92,   382.87  L  1800.51,   383.22  L  1800.90,   383.93  L  1800.90,   384.51  L  1801.27,   384.96  L  1801.85,   385.06  L  1802.35,   384.77  L  1802.55,   384.22  L  1802.35,   383.67  L  1801.85,   383.39  L  1801.27,   383.48  L  1801.70,   384.22  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1895.18,   384.22  L  1895.18,   392.72  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1827.19,   401.22  L  1822.94,   409.72  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1844.19,   401.22  L  1839.94,   409.72  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1835.69,   401.22  L  1831.44,   409.72  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1827.19,   401.22  L  1844.19,   401.22  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1835.69,   392.72  L  1835.69,   401.22  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1886.68,   392.72  L  1903.68,   392.72  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1895.18,   367.22  L  1886.68,   372.89  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1895.18,   384.22  L  1893.05,   381.04  L  1891.42,   383.48  L  1895.18,   384.22  L  1893.95,   383.40  L  1893.05,   382.06  L  1892.36,   383.09  L  1893.95,   383.40  L  1893.34,   382.99  L  1893.05,   382.57  L  1892.83,   382.89  L  1893.34,   382.99  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1835.69,   375.72  L  1886.68,   375.72  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1895.18,   392.72  L  1890.93,   401.22  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1903.68,   392.72  L  1899.43,   401.22  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1929.18,   409.72  L  1926.34,   408.30  L  1932.01,   405.47  L  1926.34,   402.63  L  1932.01,   399.80  L  1926.34,   396.97  L  1932.01,   394.14  L  1929.18,   392.72  L  1929.18,   384.22  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1886.68,   392.72  L  1882.43,   401.22  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1895.18,   367.22  L  1929.18,   367.22  L  1929.18,   384.22  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1801.70,   418.22  L  1801.70,   426.71  "/>
+		<text style="&st18;" transform="matrix(&st16;  1931.76  423.02 )">+S</text>
+		<text style="&st18;" transform="matrix(&st16;  1804.28  423.02 )">SI</text>
+		<text style="&st18;" transform="matrix(&st16;  1748.66  369.19 )">CPU</text>
+		<text style="&st18;" transform="matrix(&st16;  1623.03  433.22 )">5</text>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1636.26,   431.25  C  1636.26    428.74   1634.23    426.71   1631.73    426.71  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1631.73,   426.71  C  1629.22    426.71   1627.19    428.74   1627.19    431.25  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1627.19,   431.25  C  1627.19    433.75   1629.22    435.78   1631.73    435.78  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1631.73,   435.78  C  1634.23    435.78   1636.26    433.75   1636.26    431.25  "/>
+		<text style="&st18;" transform="matrix(&st16;  1629.42  433.22 )">A</text>
+		<text style="&st18;" transform="matrix(&st16;  1619.93  262.68 )">26</text>
+		<text style="&st18;" transform="matrix(&st16;  1629.42  262.68 )">A</text>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1636.26,   260.71  C  1636.26    258.21   1634.23    256.18   1631.73    256.18  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1631.73,   256.18  C  1629.22    256.18   1627.19    258.21   1627.19    260.71  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1627.19,   260.71  C  1627.19    263.21   1629.22    265.24   1631.73    265.24  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1631.73,   265.24  C  1634.23    265.24   1636.26    263.21   1636.26    260.71  "/>
+		<text style="&st18;" transform="matrix(&st16;  1704.92  262.68 )">28</text>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1721.25,   260.71  C  1721.25    258.21   1719.22    256.18   1716.71    256.18  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1716.71,   256.18  C  1714.21    256.18   1712.18    258.21   1712.18    260.71  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1712.18,   260.71  C  1712.18    263.21   1714.21    265.24   1716.71    265.24  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1716.71,   265.24  C  1719.22    265.24   1721.25    263.21   1721.25    260.71  "/>
+		<text style="&st18;" transform="matrix(&st16;  1714.41  262.68 )">A</text>
+		<text style="&st18;" transform="matrix(&st16;  1793.01  433.22 )">9</text>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1806.23,   431.25  C  1806.23    428.74   1804.20    426.71   1801.70    426.71  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1801.70,   426.71  C  1799.20    426.71   1797.17    428.74   1797.17    431.25  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1797.17,   431.25  C  1797.17    433.75   1799.20    435.78   1801.70    435.78  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1801.70,   435.78  C  1804.20    435.78   1806.23    433.75   1806.23    431.25  "/>
+		<text style="&st18;" transform="matrix(&st16;  1799.39  433.22 )">A</text>
+		<text style="&st18;" transform="matrix(&st16;  1920.48  433.22 )">8</text>
+		<text style="&st18;" transform="matrix(&st16;  1926.87  433.22 )">A</text>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1933.71,   431.25  C  1933.71    428.74   1931.68    426.71   1929.18    426.71  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1929.18,   426.71  C  1926.67    426.71   1924.65    428.74   1924.65    431.25  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1924.65,   431.25  C  1924.65    433.75   1926.67    435.78   1929.18    435.78  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1929.18,   435.78  C  1931.68    435.78   1933.71    433.75   1933.71    431.25  "/>
+		<text style="&st18;" transform="matrix(&st16;  1976.87  433.22 )">15</text>
+		<text style="&st18;" transform="matrix(&st16;  1986.36  433.22 )">A</text>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1993.20,   431.25  C  1993.20    428.74   1991.17    426.71   1988.67    426.71  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1988.67,   426.71  C  1986.16    426.71   1984.14    428.74   1984.14    431.25  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1984.14,   431.25  C  1984.14    433.75   1986.16    435.78   1988.67    435.78  "/>
+		<path style="stroke-width:1.42 ;&st7;   " d=" M  1988.67,   435.78  C  1991.17    435.78   1993.20    433.75   1993.20    431.25  "/>
+		<g ewd:figtype="title">
+			<text style="&st18;" transform="matrix(&st16;  1798.29  261.54 )" ewd:textID="5">Combination Meter Assembly</text>
+			<text style="&st18;" transform="matrix(&st16;  1798.29  254.72 )">L25(A)</text>
+		</g>
+	</g>
+	<g ewd:figtype="conn" ewd:figID="21" ewd:code="S30,U5,Y7">
+		<g ewd:lineID="12,18,8">
+			<text style="&st18;" transform="matrix(&st16;  254.76  374.86 )">7</text>
+			<text style="&st18;" transform="matrix(&st16;  254.76  365.79 )">7</text>
+			<text style="&st18;" transform="matrix(&st16;  254.76  356.73 )">7</text>
+			<text style="&st18;" transform="matrix(&st16;  261.27  365.79 )">B</text>
+			<text style="&st18;" transform="matrix(&st16;  261.15  356.73 )">A</text>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   267.99,   372.89  C   267.99    370.39    265.96    368.36    263.46    368.36  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   263.46,   368.36  C   260.95    368.36    258.92    370.39    258.92    372.89  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   258.92,   372.89  C   258.92    375.39    260.95    377.42    263.46    377.42  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   263.46,   377.42  C   265.96    377.42    267.99    375.39    267.99    372.89  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   267.99,   354.76  C   267.99    352.26    265.96    350.23    263.46    350.23  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   263.46,   350.23  C   260.95    350.23    258.92    352.26    258.92    354.76  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   258.92,   354.76  C   258.92    357.26    260.95    359.29    263.46    359.29  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   263.46,   359.29  C   265.96    359.29    267.99    357.26    267.99    354.76  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   267.99,   363.82  C   267.99    361.32    265.96    359.29    263.46    359.29  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   263.46,   359.29  C   260.95    359.29    258.92    361.32    258.92    363.82  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   258.92,   363.82  C   258.92    366.33    260.95    368.36    263.46    368.36  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   263.46,   368.36  C   265.96    368.36    267.99    366.33    267.99    363.82  "/>
+			<text style="&st18;" transform="matrix(&st16;  261.04  374.86 )">C</text>
+			<text style="&st18;" transform="matrix(&st16;  254.95  346.53 )">CLSW</text>
+		</g>
+		<g ewd:comment="3,1,2" ewd:lineID="13,19,9">
+			<text style="&st18;" transform="matrix(&st16;  254.76  305.17 )">1</text>
+			<text style="&st18;" transform="matrix(&st16;  254.76  296.11 )">1</text>
+			<text style="&st18;" transform="matrix(&st16;  254.76  287.04 )">1</text>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   267.99,   303.20  C   267.99    300.70    265.96    298.67    263.46    298.67  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   263.46,   298.67  C   260.95    298.67    258.92    300.70    258.92    303.20  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   258.92,   303.20  C   258.92    305.70    260.95    307.73    263.46    307.73  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   263.46,   307.73  C   265.96    307.73    267.99    305.70    267.99    303.20  "/>
+			<text style="&st18;" transform="matrix(&st16;  261.04  305.17 )">C</text>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   267.99,   285.07  C   267.99    282.57    265.96    280.54    263.46    280.54  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   263.46,   280.54  C   260.95    280.54    258.92    282.57    258.92    285.07  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   258.92,   285.07  C   258.92    287.57    260.95    289.60    263.46    289.60  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   263.46,   289.60  C   265.96    289.60    267.99    287.57    267.99    285.07  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   267.99,   294.14  C   267.99    291.63    265.96    289.60    263.46    289.60  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   263.46,   289.60  C   260.95    289.60    258.92    291.63    258.92    294.14  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   258.92,   294.14  C   258.92    296.64    260.95    298.67    263.46    298.67  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   263.46,   298.67  C   265.96    298.67    267.99    296.64    267.99    294.14  "/>
+			<text style="&st18;" transform="matrix(&st16;  261.27  296.11 )">B</text>
+			<text style="&st18;" transform="matrix(&st16;  261.15  287.04 )">A</text>
+			<text style="&st18;" transform="matrix(&st16;  260.1  315.37 )">IG</text>
+			<g ewd:code="" ewd:figID="89" ewd:comment="3" ewd:figtype="commref">
+				<text style="&st18;" transform="matrix(&st16;  268.55  305.17 )">(*3)</text>
+			</g>
+			<g ewd:code="" ewd:figID="90" ewd:comment="1" ewd:figtype="commref">
+				<text style="&st18;" transform="matrix(&st16;  268.55  287.04 )">(*1)</text>
+			</g>
+			<g ewd:code="" ewd:figID="91" ewd:comment="2" ewd:figtype="commref">
+				<text style="&st18;" transform="matrix(&st16;  268.55  296.11 )">(*2)</text>
+			</g>
+		</g>
+		<g ewd:lineID="24,27,30">
+			<text style="&st18;" transform="matrix(&st16;  396.14  365.79 )">12</text>
+			<text style="&st18;" transform="matrix(&st16;  396.14  356.73 )">12</text>
+			<text style="&st18;" transform="matrix(&st16;  396.14  374.86 )">12</text>
+			<text style="&st18;" transform="matrix(&st16;  405.51  374.86 )">C</text>
+			<text style="&st18;" transform="matrix(&st16;  405.74  365.79 )">B</text>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   412.46,   372.89  C   412.46    370.39    410.44    368.36    407.93    368.36  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   407.93,   368.36  C   405.43    368.36    403.40    370.39    403.40    372.89  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   403.40,   372.89  C   403.40    375.39    405.43    377.42    407.93    377.42  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   407.93,   377.42  C   410.44    377.42    412.46    375.39    412.46    372.89  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   412.46,   354.76  C   412.46    352.26    410.44    350.23    407.93    350.23  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   407.93,   350.23  C   405.43    350.23    403.40    352.26    403.40    354.76  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   403.40,   354.76  C   403.40    357.26    405.43    359.29    407.93    359.29  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   407.93,   359.29  C   410.44    359.29    412.46    357.26    412.46    354.76  "/>
+			<text style="&st18;" transform="matrix(&st16;  405.63  356.73 )">A</text>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   412.46,   363.82  C   412.46    361.32    410.44    359.29    407.93    359.29  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   407.93,   359.29  C   405.43    359.29    403.40    361.32    403.40    363.82  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   403.40,   363.82  C   403.40    366.33    405.43    368.36    407.93    368.36  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   407.93,   368.36  C   410.44    368.36    412.46    366.33    412.46    363.82  "/>
+			<text style="&st18;" transform="matrix(&st16;  401.28  346.53 )">GND</text>
+		</g>
+		<g ewd:lineID="33,35,38">
+			<text style="&st18;" transform="matrix(&st16;  679.69  374.86 )">2</text>
+			<text style="&st18;" transform="matrix(&st16;  679.69  365.79 )">2</text>
+			<text style="&st18;" transform="matrix(&st16;  679.69  356.73 )">2</text>
+			<text style="&st18;" transform="matrix(&st16;  686.08  356.73 )">A</text>
+			<text style="&st18;" transform="matrix(&st16;  686.2  365.79 )">B</text>
+			<text style="&st18;" transform="matrix(&st16;  685.96  374.86 )">C</text>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   692.92,   363.82  C   692.92    361.32    690.89    359.29    688.38    359.29  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   688.38,   359.29  C   685.88    359.29    683.85    361.32    683.85    363.82  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   683.85,   363.82  C   683.85    366.33    685.88    368.36    688.38    368.36  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   688.38,   368.36  C   690.89    368.36    692.92    366.33    692.92    363.82  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   692.92,   372.89  C   692.92    370.39    690.89    368.36    688.38    368.36  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   688.38,   368.36  C   685.88    368.36    683.85    370.39    683.85    372.89  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   683.85,   372.89  C   683.85    375.39    685.88    377.42    688.38    377.42  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   688.38,   377.42  C   690.89    377.42    692.92    375.39    692.92    372.89  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   692.92,   354.76  C   692.92    352.26    690.89    350.23    688.38    350.23  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   688.38,   350.23  C   685.88    350.23    683.85    352.26    683.85    354.76  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   683.85,   354.76  C   683.85    357.26    685.88    359.29    688.38    359.29  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   688.38,   359.29  C   690.89    359.29    692.92    357.26    692.92    354.76  "/>
+			<text style="&st18;" transform="matrix(&st16;  682.71  346.53 )">SPD</text>
+		</g>
+		<g ewd:lineID="40,43,46">
+			<text style="&st18;" transform="matrix(&st16;  841.16  374.86 )">5</text>
+			<text style="&st18;" transform="matrix(&st16;  841.16  365.79 )">5</text>
+			<text style="&st18;" transform="matrix(&st16;  841.16  356.73 )">5</text>
+			<text style="&st18;" transform="matrix(&st16;  847.55  356.73 )">A</text>
+			<text style="&st18;" transform="matrix(&st16;  847.67  365.79 )">B</text>
+			<text style="&st18;" transform="matrix(&st16;  847.44  374.86 )">C</text>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   854.39,   363.82  C   854.39    361.32    852.36    359.29    849.86    359.29  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   849.86,   359.29  C   847.35    359.29    845.33    361.32    845.33    363.82  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   845.33,   363.82  C   845.33    366.33    847.35    368.36    849.86    368.36  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   849.86,   368.36  C   852.36    368.36    854.39    366.33    854.39    363.82  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   854.39,   354.76  C   854.39    352.26    852.36    350.23    849.86    350.23  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   849.86,   350.23  C   847.35    350.23    845.33    352.26    845.33    354.76  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   845.33,   354.76  C   845.33    357.26    847.35    359.29    849.86    359.29  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   849.86,   359.29  C   852.36    359.29    854.39    357.26    854.39    354.76  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   854.39,   372.89  C   854.39    370.39    852.36    368.36    849.86    368.36  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   849.86,   368.36  C   847.35    368.36    845.33    370.39    845.33    372.89  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   845.33,   372.89  C   845.33    375.39    847.35    377.42    849.86    377.42  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M   849.86,   377.42  C   852.36    377.42    854.39    375.39    854.39    372.89  "/>
+			<text style="&st18;" transform="matrix(&st16;  844.53  346.53 )">IND</text>
+		</g>
+		<g ewd:comment="1,2,3" ewd:lineID="49,52,56">
+			<text style="&st18;" transform="matrix(&st16;  1223.6  365.79 )">3</text>
+			<text style="&st18;" transform="matrix(&st16;  1223.6  374.86 )">3</text>
+			<text style="&st18;" transform="matrix(&st16;  1223.6  356.73 )">3</text>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M  1236.83,   363.82  C  1236.83    361.32   1234.80    359.29   1232.29    359.29  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M  1232.29,   359.29  C  1229.79    359.29   1227.76    361.32   1227.76    363.82  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M  1227.76,   363.82  C  1227.76    366.33   1229.79    368.36   1232.29    368.36  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M  1232.29,   368.36  C  1234.80    368.36   1236.83    366.33   1236.83    363.82  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M  1236.83,   372.89  C  1236.83    370.39   1234.80    368.36   1232.29    368.36  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M  1232.29,   368.36  C  1229.79    368.36   1227.76    370.39   1227.76    372.89  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M  1227.76,   372.89  C  1227.76    375.39   1229.79    377.42   1232.29    377.42  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M  1232.29,   377.42  C  1234.80    377.42   1236.83    375.39   1236.83    372.89  "/>
+			<text style="&st18;" transform="matrix(&st16;  1229.99  356.73 )">A</text>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M  1236.83,   354.76  C  1236.83    352.26   1234.80    350.23   1232.29    350.23  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M  1232.29,   350.23  C  1229.79    350.23   1227.76    352.26   1227.76    354.76  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M  1227.76,   354.76  C  1227.76    357.26   1229.79    359.29   1232.29    359.29  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M  1232.29,   359.29  C  1234.80    359.29   1236.83    357.26   1236.83    354.76  "/>
+			<text style="&st18;" transform="matrix(&st16;  1229.87  374.86 )">C</text>
+			<text style="&st18;" transform="matrix(&st16;  1230.11  365.79 )">B</text>
+			<text style="&st18;" transform="matrix(&st16;  1227.93  346.53 )">TC</text>
+			<g ewd:code="" ewd:figID="77" ewd:comment="1" ewd:figtype="commref">
+				<text style="&st18;" transform="matrix(&st16;  1237.39  356.73 )">(*1)</text>
+			</g>
+			<g ewd:code="" ewd:figID="78" ewd:comment="2" ewd:figtype="commref">
+				<text style="&st18;" transform="matrix(&st16;  1237.39  365.79 )">(*2)</text>
+			</g>
+			<g ewd:code="" ewd:figID="79" ewd:comment="3" ewd:figtype="commref">
+				<text style="&st18;" transform="matrix(&st16;  1237.39  374.86 )">(*3)</text>
+			</g>
+		</g>
+		<g ewd:comment="3,2,1" ewd:lineID="50,53,57">
+			<text style="&st18;" transform="matrix(&st16;  1220.5  296.11 )">10</text>
+			<text style="&st18;" transform="matrix(&st16;  1220.5  287.04 )">10</text>
+			<text style="&st18;" transform="matrix(&st16;  1220.5  305.17 )">10</text>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M  1236.83,   294.14  C  1236.83    291.63   1234.80    289.60   1232.29    289.60  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M  1232.29,   289.60  C  1229.79    289.60   1227.76    291.63   1227.76    294.14  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M  1227.76,   294.14  C  1227.76    296.64   1229.79    298.67   1232.29    298.67  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M  1232.29,   298.67  C  1234.80    298.67   1236.83    296.64   1236.83    294.14  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M  1236.83,   303.20  C  1236.83    300.70   1234.80    298.67   1232.29    298.67  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M  1232.29,   298.67  C  1229.79    298.67   1227.76    300.70   1227.76    303.20  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M  1227.76,   303.20  C  1227.76    305.70   1229.79    307.73   1232.29    307.73  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M  1232.29,   307.73  C  1234.80    307.73   1236.83    305.70   1236.83    303.20  "/>
+			<text style="&st18;" transform="matrix(&st16;  1229.87  305.17 )">C</text>
+			<text style="&st18;" transform="matrix(&st16;  1230.11  296.11 )">B</text>
+			<text style="&st18;" transform="matrix(&st16;  1229.99  287.04 )">A</text>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M  1236.83,   285.07  C  1236.83    282.57   1234.80    280.54   1232.29    280.54  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M  1232.29,   280.54  C  1229.79    280.54   1227.76    282.57   1227.76    285.07  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M  1227.76,   285.07  C  1227.76    287.57   1229.79    289.60   1232.29    289.60  "/>
+			<path style="stroke-width:1.42 ;&st7;   " d=" M  1232.29,   289.60  C  1234.80    289.60   1236.83    287.57   1236.83    285.07  "/>
+			<text style="&st18;" transform="matrix(&st16;  1227.78  315.37 )">SIL</text>
+			<g ewd:code="" ewd:figID="82" ewd:comment="3" ewd:figtype="commref">
+				<text style="&st18;" transform="matrix(&st16;  1237.39  305.17 )">(*3)</text>
+			</g>
+			<g ewd:code="" ewd:figID="83" ewd:comment="2" ewd:figtype="commref">
+				<text style="&st18;" transform="matrix(&st16;  1237.39  296.11 )">(*2)</text>
+			</g>
+			<g ewd:code="" ewd:figID="84" ewd:comment="1" ewd:figtype="commref">
+				<text style="&st18;" transform="matrix(&st16;  1237.39  287.04 )">(*1)</text>
+			</g>
+		</g>
+		<path style="stroke-width: 0.85 ;&st7; stroke-dasharray:3, 1.5;" d=" M   696.88,   354.76  L   837.11,   354.76  "/>
+		<path style="stroke-width: 0.85 ;&st7; stroke-dasharray:3, 1.5;" d=" M   696.88,   363.82  L   837.11,   363.82  "/>
+		<path style="stroke-width: 0.85 ;&st7; stroke-dasharray:3, 1.5;" d=" M   696.88,   372.89  L   837.11,   372.89  "/>
+		<path style="stroke-width: 0.85 ;&st7; stroke-dasharray:3, 1.5;" d=" M   271.95,   354.76  L   390.93,   354.76  "/>
+		<path style="stroke-width: 0.85 ;&st7; stroke-dasharray:3, 1.5;" d=" M   271.95,   363.82  L   390.93,   363.82  "/>
+		<path style="stroke-width: 0.85 ;&st7; stroke-dasharray:3, 1.5;" d=" M   271.95,   372.89  L   390.93,   372.89  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   246.46,   350.23  L  1249.29,   350.23  L  1249.29,   307.73  L   246.46,   307.73  L   246.46,   350.23  "/>
+		<g ewd:figtype="title">
+			<text style="&st18;" transform="matrix(&st16;  319.54  304.04 )" ewd:textID="14">Tire Pressure Warning ECU and Receiver</text>
+			<text style="&st18;" transform="matrix(&st16;  319.53  297.21 )">S30(A),U5(B),Y7(C)</text>
+		</g>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="25" ewd:code="LS2">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   191.22,   426.15  L   195.47,   430.40  L   199.72,   426.15  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   199.72,   429.55  L   195.47,   433.80  L   191.22,   429.55  "/>
+		<text style="&st18;" transform="matrix(&st16;  179.73  441.43 )">15</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="26" ewd:code="IS2">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   233.71,   219.92  L   229.46,   215.67  L   225.21,   219.92  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   233.71,   223.31  L   229.46,   219.07  L   225.21,   223.31  "/>
+		<text style="&st18;" transform="matrix(&st16;  213.73  211.97 )">16</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="27" ewd:code="UI5">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   267.71,   452.78  L   263.46,   448.53  L   259.21,   452.78  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   267.71,   449.38  L   263.46,   445.13  L   259.21,   449.38  "/>
+		<text style="&st18;" transform="matrix(&st16;  247.72  441.43 )">13</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="28" ewd:code="UI5">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   267.71,   200.09  L   263.46,   204.33  L   259.21,   200.09  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   259.21,   196.69  L   263.46,   200.94  L   267.71,   196.69  "/>
+		<text style="&st18;" transform="matrix(&st16;  250.82  211.97 )">8</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="29" ewd:code="LI1">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   301.70,   557.03  L   297.45,   561.27  L   293.20,   557.03  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   293.20,   553.63  L   297.45,   557.88  L   301.70,   553.63  "/>
+		<text style="&st18;" transform="matrix(&st16;  284.82  568.91 )">6</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="30" ewd:code="YI3">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   301.70,   449.38  L   297.45,   445.13  L   293.20,   449.38  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   301.70,   452.78  L   297.45,   448.53  L   293.20,   452.78  "/>
+		<text style="&st18;" transform="matrix(&st16;  284.82  441.43 )">3</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="31" ewd:code="YI3">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   301.70,   200.09  L   297.45,   204.33  L   293.20,   200.09  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   293.20,   196.69  L   297.45,   200.94  L   301.70,   196.69  "/>
+		<text style="&st18;" transform="matrix(&st16;  284.82  211.97 )">8</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="32" ewd:code="IS2">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   369.69,   426.15  L   373.94,   430.40  L   378.19,   426.15  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   378.19,   429.55  L   373.94,   433.80  L   369.69,   429.55  "/>
+		<text style="&st18;" transform="matrix(&st16;  361.31  441.43 )">1</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="33" ewd:code="UI5">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   412.18,   452.78  L   407.93,   448.53  L   403.68,   452.78  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   412.18,   449.38  L   407.93,   445.13  L   403.68,   449.38  "/>
+		<text style="&st18;" transform="matrix(&st16;  395.3  441.43 )">2</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="34" ewd:code="YI3">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   471.67,   449.38  L   467.42,   445.13  L   463.17,   449.38  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   471.67,   452.78  L   467.42,   448.53  L   463.17,   452.78  "/>
+		<text style="&st18;" transform="matrix(&st16;  454.79  441.43 )">5</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="35" ewd:code="LS2">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   624.65,   429.55  L   620.40,   433.80  L   616.15,   429.55  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   616.15,   426.15  L   620.40,   430.40  L   624.65,   426.15  "/>
+		<text style="&st18;" transform="matrix(&st16;  604.66  441.43 )">10</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="36" ewd:code="UI5">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   692.63,   449.38  L   688.38,   445.13  L   684.14,   449.38  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   692.63,   452.78  L   688.38,   448.53  L   684.14,   452.78  "/>
+		<text style="&st18;" transform="matrix(&st16;  675.75  441.43 )">6</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="37" ewd:code="LI1">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   718.13,   553.63  L   722.38,   557.88  L   726.63,   553.63  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   726.63,   557.03  L   722.38,   561.27  L   718.13,   557.03  "/>
+		<text style="&st18;" transform="matrix(&st16;  709.75  568.91 )">5</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="38" ewd:code="YI3">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   726.63,   452.78  L   722.38,   448.53  L   718.13,   452.78  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   726.63,   449.38  L   722.38,   445.13  L   718.13,   449.38  "/>
+		<text style="&st18;" transform="matrix(&st16;  709.75  441.43 )">7</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="39" ewd:code="YI3">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   820.11,   452.78  L   815.86,   448.53  L   811.61,   452.78  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   820.11,   449.38  L   815.86,   445.13  L   811.61,   449.38  "/>
+		<text style="&st18;" transform="matrix(&st16;  803.23  441.43 )">9</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="40" ewd:code="LI1">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   845.61,   553.63  L   849.86,   557.88  L   854.11,   553.63  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   854.11,   557.03  L   849.86,   561.27  L   845.61,   557.03  "/>
+		<text style="&st18;" transform="matrix(&st16;  837.23  568.91 )">4</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="41" ewd:code="UI5">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   854.11,   449.38  L   849.86,   445.13  L   845.61,   449.38  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   854.11,   452.78  L   849.86,   448.53  L   845.61,   452.78  "/>
+		<text style="&st18;" transform="matrix(&st16;  837.23  441.43 )">7</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="42" ewd:code="LS2">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   922.10,   429.55  L   917.85,   433.80  L   913.60,   429.55  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M   913.60,   426.15  L   917.85,   430.40  L   922.10,   426.15  "/>
+		<text style="&st18;" transform="matrix(&st16;  905.22  441.43 )">1</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="43" ewd:code="IS2">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1194.05,   426.15  L  1198.30,   430.40  L  1202.55,   426.15  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1202.55,   429.55  L  1198.30,   433.80  L  1194.05,   429.55  "/>
+		<text style="&st18;" transform="matrix(&st16;  1185.67  441.43 )">4</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="44" ewd:code="IS2">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1202.55,   223.31  L  1198.30,   219.07  L  1194.05,   223.31  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1202.55,   219.92  L  1198.30,   215.67  L  1194.05,   219.92  "/>
+		<text style="&st18;" transform="matrix(&st16;  1182.57  211.97 )">20</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="45" ewd:code="UI5">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1236.54,   452.78  L  1232.29,   448.53  L  1228.04,   452.78  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1236.54,   449.38  L  1232.29,   445.13  L  1228.04,   449.38  "/>
+		<text style="&st18;" transform="matrix(&st16;  1216.56  441.43 )">12</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="46" ewd:code="UI5">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1228.04,   196.69  L  1232.29,   200.94  L  1236.54,   196.69  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1236.54,   200.09  L  1232.29,   204.33  L  1228.04,   200.09  "/>
+		<text style="&st18;" transform="matrix(&st16;  1216.56  211.97 )">14</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="47" ewd:code="YI3">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1270.54,   449.38  L  1266.29,   445.13  L  1262.04,   449.38  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1270.54,   452.78  L  1266.29,   448.53  L  1262.04,   452.78  "/>
+		<text style="&st18;" transform="matrix(&st16;  1253.66  441.43 )">6</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="48" ewd:code="YI3">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1262.04,   196.69  L  1266.29,   200.94  L  1270.54,   196.69  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1270.54,   200.09  L  1266.29,   204.33  L  1262.04,   200.09  "/>
+		<text style="&st18;" transform="matrix(&st16;  1253.66  211.97 )">2</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="49" ewd:code="IL2">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1635.98,   223.31  L  1631.73,   219.07  L  1627.48,   223.31  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1635.98,   219.92  L  1631.73,   215.67  L  1627.48,   219.92  "/>
+		<text style="&st18;" transform="matrix(&st16;  1619.1  211.97 )">2</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="50" ewd:code="IL2">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1720.96,   223.31  L  1716.71,   219.07  L  1712.46,   223.31  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1720.96,   219.92  L  1716.71,   215.67  L  1712.46,   219.92  "/>
+		<text style="&st18;" transform="matrix(&st16;  1700.98  211.97 )">22</text>
+	</g>
+	<g ewd:code="AI3" ewd:figID="51" ewd:comment="5" ewd:figtype="w2w">
+		<text style="&st18;" transform="matrix(&st16;  1785.97  543.41 )">51</text>
+		<g ewd:code="" ewd:figID="93" ewd:comment="5" ewd:figtype="commref">
+			<text style="&st18;" transform="matrix(&st16;  1810.73  543.41 )">(*5)</text>
+		</g>
+	</g>
+	<g ewd:code="AI3" ewd:figID="52" ewd:comment="4" ewd:figtype="w2w">
+		<text style="&st18;" transform="matrix(&st16;  1785.97  534.92 )">20</text>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1797.45,   519.63  L  1801.70,   523.88  L  1805.95,   519.63  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1805.95,   523.03  L  1801.70,   527.28  L  1797.45,   523.03  "/>
+		<g ewd:code="" ewd:figID="92" ewd:comment="4" ewd:figtype="commref">
+			<text style="&st18;" transform="matrix(&st16;  1810.73  534.92 )">(*4)</text>
+		</g>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="53" ewd:code="IL2">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1797.45,   460.14  L  1801.70,   464.39  L  1805.95,   460.14  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1805.95,   463.54  L  1801.70,   467.79  L  1797.45,   463.54  "/>
+		<text style="&st18;" transform="matrix(&st16;  1785.97  475.43 )">18</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="54" ewd:code="IC2">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1992.92,   593.85  L  1988.67,   589.60  L  1984.42,   593.85  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1992.92,   597.25  L  1988.67,   593.00  L  1984.42,   597.25  "/>
+		<text style="&st18;" transform="matrix(&st16;  1976.04  585.91 )">9</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="55" ewd:code="IL2">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1984.42,   460.14  L  1988.67,   464.39  L  1992.92,   460.14  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  1992.92,   463.54  L  1988.67,   467.79  L  1984.42,   463.54  "/>
+		<text style="&st18;" transform="matrix(&st16;  1976.04  475.43 )">4</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="56" ewd:code="CA4">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  2035.41,   621.61  L  2039.66,   625.86  L  2043.91,   621.61  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  2043.91,   625.01  L  2039.66,   629.26  L  2035.41,   625.01  "/>
+		<text style="&st18;" transform="matrix(&st16;  2023.93  636.9 )">17</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="57" ewd:code="AI3">
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  2035.41,   570.62  L  2039.66,   574.87  L  2043.91,   570.62  "/>
+		<path style="stroke-width:1.42 ;&st7;  " d=" M  2043.91,   574.02  L  2039.66,   578.27  L  2035.41,   574.02  "/>
+		<text style="&st18;" transform="matrix(&st16;  2023.93  585.91 )">13</text>
+	</g>
+	<g ewd:figtype="gp" ewd:figID="58" ewd:code="LB">
+		<path style="stroke-width:0.85 ;&st7;  " d=" M    41.08,   710.00  L    43.91,   710.00  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M    39.66,   707.17  L    45.33,   707.17  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M    38.24,   704.33  L    46.74,   704.33  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M    33.99,   701.50  L    50.99,   701.50  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M    42.49,   697.25  L    42.49,   701.50  "/>
+	</g>
+	<g ewd:figtype="gp" ewd:figID="59" ewd:code="LA">
+		<path style="stroke-width:0.85 ;&st7;  " d=" M    84.99,   697.25  L    84.99,   701.50  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M    76.49,   701.50  L    93.48,   701.50  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M    80.74,   704.33  L    89.24,   704.33  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M    82.15,   707.17  L    87.82,   707.17  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M    83.57,   710.00  L    86.40,   710.00  "/>
+	</g>
+	<g ewd:figtype="gp" ewd:figID="60" ewd:code="IE">
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   373.94,   697.25  L   373.94,   701.50  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   365.44,   701.50  L   382.44,   701.50  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   369.69,   704.33  L   378.19,   704.33  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   371.10,   707.17  L   376.77,   707.17  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   372.52,   710.00  L   375.35,   710.00  "/>
+	</g>
+	<g ewd:figtype="gp" ewd:figID="61" ewd:code="IA">
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   407.93,   697.25  L   407.93,   701.50  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   399.43,   701.50  L   416.43,   701.50  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   403.68,   704.33  L   412.18,   704.33  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   405.10,   707.17  L   410.76,   707.17  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   406.52,   710.00  L   409.35,   710.00  "/>
+	</g>
+	<g ewd:figtype="gp" ewd:figID="62" ewd:code="IC">
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   467.42,   697.25  L   467.42,   701.50  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   458.92,   701.50  L   475.92,   701.50  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   463.17,   704.33  L   471.67,   704.33  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   464.59,   707.17  L   470.25,   707.17  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M   466.01,   710.00  L   468.84,   710.00  "/>
+	</g>
+	<g ewd:figtype="gp" ewd:figID="63" ewd:code="CA">
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1988.67,   697.25  L  1988.67,   701.50  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1980.17,   701.50  L  1997.17,   701.50  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1984.42,   704.33  L  1992.92,   704.33  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1985.83,   707.17  L  1991.50,   707.17  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  1987.25,   710.00  L  1990.08,   710.00  "/>
+	</g>
+	<g ewd:figtype="gp" ewd:figID="64" ewd:code="CE">
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  2039.66,   697.25  L  2039.66,   701.50  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  2031.16,   701.50  L  2048.16,   701.50  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  2035.41,   704.33  L  2043.91,   704.33  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  2036.83,   707.17  L  2042.49,   707.17  "/>
+		<path style="stroke-width:0.85 ;&st7;  " d=" M  2038.24,   710.00  L  2041.07,   710.00  "/>
+	</g>
+	<g ewd:code="" ewd:figID="94" ewd:comment="2" ewd:figtype="commref">
+		<text style="&st18;" transform="matrix(&st16;  854.95  365.79 )">(*2)</text>
+	</g>
+	<g ewd:code="" ewd:figID="95" ewd:comment="1" ewd:figtype="commref">
+		<text style="&st18;" transform="matrix(&st16;  854.95  356.73 )">(*1)</text>
+	</g>
+	<g ewd:code="" ewd:figID="96" ewd:comment="3" ewd:figtype="commref">
+		<text style="&st18;" transform="matrix(&st16;  854.95  374.86 )">(*3)</text>
+	</g>
+	<g ewd:code="" ewd:figID="97" ewd:comment="2" ewd:figtype="commref">
+		<text style="&st18;" transform="matrix(&st16;  413.02  365.79 )">(*2)</text>
+	</g>
+	<g ewd:code="" ewd:figID="98" ewd:comment="1" ewd:figtype="commref">
+		<text style="&st18;" transform="matrix(&st16;  413.02  356.73 )">(*1)</text>
+	</g>
+	<g ewd:code="" ewd:figID="99" ewd:comment="3" ewd:figtype="commref">
+		<text style="&st18;" transform="matrix(&st16;  413.02  374.86 )">(*3)</text>
+	</g>
+	<g ewd:code="2" ewd:figID="81" ewd:comment="" ewd:figtype="comment">
+		<text style="&st18;" transform="matrix(&st16;  837.95  71.74 )" ewd:textID="2">* 2 :Except Pick-Up Body Type</text>
+	</g>
+	<g ewd:code="3" ewd:figID="86" ewd:comment="" ewd:figtype="comment">
+		<text style="&st18;" transform="matrix(&st16;  1866.28  63.24 )" ewd:textID="3">* 3 :4-Door Pick-Up Body Type</text>
+	</g>
+	<g ewd:code="1" ewd:figID="88" ewd:comment="" ewd:figtype="comment">
+		<text style="&st18;" transform="matrix(&st16;  1866.28  46.25 )" ewd:textID="1">* 1 :2-Door Pick-Up Body Type</text>
+	</g>
+	<g ewd:code="1" ewd:figID="85" ewd:comment="" ewd:figtype="comment">
+		<text style="&st18;" transform="matrix(&st16;  837.95  63.24 )" ewd:textID="1">* 1 :2-Door Pick-Up Body Type</text>
+	</g>
+	<g ewd:code="4" ewd:figID="75" ewd:comment="" ewd:figtype="comment">
+		<text style="&st18;" transform="matrix(&st16;  1866.28  71.74 )">* 4 :1VD-FTV</text>
+	</g>
+	<g ewd:code="3" ewd:figID="80" ewd:comment="" ewd:figtype="comment">
+		<text style="&st18;" transform="matrix(&st16;  837.95  80.24 )" ewd:textID="3">* 3 :4-Door Pick-Up Body Type</text>
+	</g>
+	<g ewd:code="5" ewd:figID="76" ewd:comment="" ewd:figtype="comment">
+		<text style="&st18;" transform="matrix(&st16;  1866.28  80.24 )">* 5 :1GR-FE</text>
+	</g>
+	<g ewd:code="2" ewd:figID="87" ewd:comment="" ewd:figtype="comment">
+		<text style="&st18;" transform="matrix(&st16;  1866.28  54.75 )" ewd:textID="2">* 2 :Except Pick-Up Body Type</text>
+	</g>
+	<text style="&st18;" transform="matrix(&st17;  2047.3  665.14 )">(*4)</text>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M  1980.17,   469.21  L  1988.67,   469.21  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M  1725.21,   214.25  L  1716.71,   214.25  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M  1240.79,   443.71  L  1232.29,   443.71  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M  1274.79,   443.71  L  1266.29,   443.71  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M  1189.80,   435.21  L  1198.30,   435.21  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   271.95,   443.71  L   263.46,   443.71  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   305.95,   443.71  L   297.45,   443.71  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   186.97,   435.21  L   195.47,   435.21  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   288.95,   562.69  L   297.45,   562.69  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   713.88,   562.69  L   722.38,   562.69  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   475.92,   443.71  L   467.42,   443.71  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   365.44,   435.21  L   373.94,   435.21  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   416.43,   443.71  L   407.93,   443.71  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   611.90,   435.21  L   620.40,   435.21  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   730.88,   443.71  L   722.38,   443.71  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   696.88,   443.71  L   688.38,   443.71  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M  1206.80,   214.25  L  1198.30,   214.25  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M  1223.80,   205.75  L  1232.29,   205.75  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M  1257.79,   205.75  L  1266.29,   205.75  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   288.95,   205.75  L   297.45,   205.75  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   254.96,   205.75  L   263.46,   205.75  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   237.96,   214.25  L   229.46,   214.25  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   841.36,   562.69  L   849.86,   562.69  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   909.35,   435.21  L   917.85,   435.21  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   824.36,   443.71  L   815.86,   443.71  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   858.36,   443.71  L   849.86,   443.71  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M  1640.23,   214.25  L  1631.73,   214.25  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M  2031.16,   579.69  L  2039.66,   579.69  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M  2031.16,   630.68  L  2039.66,   630.68  "/>
+	<text style="&st18;" transform="matrix(&st16;  1008.87  660.98 )">G</text>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   382.44,   601.66  L   377.46,   596.69  "/>
+	<text style="&st18;" transform="matrix(&st17;  1628.03  487.7 )">P</text>
+	<text style="&st18;" transform="matrix(&st17;  1984.97  612.98 )">BR</text>
+	<text style="&st18;" transform="matrix(&st17;  1713.02  244.92 )">B-Y</text>
+	<text style="&st18;" transform="matrix(&st17;  1713.02  193.93 )">B-Y</text>
+	<text style="&st18;" transform="matrix(&st17;  1713.02  125.94 )">B-Y</text>
+	<text style="&st18;" transform="matrix(&st17;  1228.6  470.9 )">B</text>
+	<text style="&st18;" transform="matrix(&st17;  1239.93  473.92 )">(*2)</text>
+	<text style="&st18;" transform="matrix(&st17;  1273.92  473.92 )">(*3)</text>
+	<text style="&st18;" transform="matrix(&st16;  1058.91  291.26 )">S30(A),U5(B),Y7(C)</text>
+	<text style="&st18;" transform="matrix(&st16;  1058.92  298.09 )" ewd:textID="14">Tire Pressure Warning ECU <tspan x="0 " dy="6.0">and Receiver</tspan></text>
+	<text style="&st18;" transform="matrix(&st17;  81.29  475.16 )">W-B</text>
+	<text style="&st18;" transform="matrix(&st17;  1262.59  471.17 )">G</text>
+	<text style="&st18;" transform="matrix(&st17;  1205.94  473.92 )">(*1)</text>
+	<text style="&st18;" transform="matrix(&st17;  1194.6  471.17 )">G</text>
+	<text style="&st18;" transform="matrix(&st17;  1194.6  411.41 )">B</text>
+	<text style="&st18;" transform="matrix(&st17;  1205.94  414.43 )">(*1)</text>
+	<text style="&st18;" transform="matrix(&st17;  1262.59  413.5 )">LG</text>
+	<text style="&st18;" transform="matrix(&st17;  1273.92  414.43 )">(*3)</text>
+	<text style="&st18;" transform="matrix(&st17;  1239.93  414.43 )">(*2)</text>
+	<text style="&st18;" transform="matrix(&st17;  1228.6  411.41 )">B</text>
+	<text style="&st18;" transform="matrix(&st17;  259.76  471.01 )">V</text>
+	<text style="&st18;" transform="matrix(&st17;  271.09  473.92 )">(*2)</text>
+	<text style="&st18;" transform="matrix(&st17;  305.09  473.92 )">(*3)</text>
+	<text style="&st18;" transform="matrix(&st17;  293.75  471.01 )">V</text>
+	<text style="&st18;" transform="matrix(&st17;  203.1  473.92 )">(*1)</text>
+	<text style="&st18;" transform="matrix(&st17;  191.77  471.01 )">V</text>
+	<text style="&st18;" transform="matrix(&st17;  191.77  411.52 )">V</text>
+	<text style="&st18;" transform="matrix(&st17;  203.1  414.43 )">(*1)</text>
+	<text style="&st18;" transform="matrix(&st17;  293.75  411.52 )">V</text>
+	<text style="&st18;" transform="matrix(&st17;  305.09  414.43 )">(*3)</text>
+	<text style="&st18;" transform="matrix(&st17;  271.09  414.43 )">(*2)</text>
+	<text style="&st18;" transform="matrix(&st17;  259.76  411.52 )">V</text>
+	<text style="&st18;" transform="matrix(&st17;  305.09  545.94 )">(*2,*3)</text>
+	<text style="&st18;" transform="matrix(&st17;  293.75  539.0 )">V</text>
+	<text style="&st18;" transform="matrix(&st17;  191.77  539.0 )">V</text>
+	<text style="&st18;" transform="matrix(&st17;  203.1  545.94 )">(*2,*3)</text>
+	<text style="&st18;" transform="matrix(&st17;  132.28  471.01 )">V</text>
+	<text style="&st18;" transform="matrix(&st17;  574.21  539.16 )">G</text>
+	<text style="&st18;" transform="matrix(&st17;  628.03  545.94 )">(*2,*3)</text>
+	<text style="&st18;" transform="matrix(&st17;  616.7  539.16 )">G</text>
+	<text style="&st18;" transform="matrix(&st17;  718.68  539.16 )">G</text>
+	<text style="&st18;" transform="matrix(&st17;  730.02  545.94 )">(*2,*3)</text>
+	<text style="&st18;" transform="matrix(&st17;  404.24  475.16 )">W-B</text>
+	<text style="&st18;" transform="matrix(&st17;  415.57  473.92 )">(*2)</text>
+	<text style="&st18;" transform="matrix(&st17;  475.06  473.92 )">(*3)</text>
+	<text style="&st18;" transform="matrix(&st17;  463.73  475.16 )">W-B</text>
+	<text style="&st18;" transform="matrix(&st17;  381.57  473.92 )">(*1)</text>
+	<text style="&st18;" transform="matrix(&st17;  370.24  475.16 )">W-B</text>
+	<text style="&st18;" transform="matrix(&st17;  370.24  415.67 )">W-B</text>
+	<text style="&st18;" transform="matrix(&st17;  381.57  414.43 )">(*1)</text>
+	<text style="&st18;" transform="matrix(&st17;  463.73  415.67 )">W-B</text>
+	<text style="&st18;" transform="matrix(&st17;  475.06  414.43 )">(*3)</text>
+	<text style="&st18;" transform="matrix(&st17;  415.57  414.43 )">(*2)</text>
+	<text style="&st18;" transform="matrix(&st17;  404.24  415.67 )">W-B</text>
+	<text style="&st18;" transform="matrix(&st17;  684.69  411.68 )">G</text>
+	<text style="&st18;" transform="matrix(&st17;  696.02  414.43 )">(*2)</text>
+	<text style="&st18;" transform="matrix(&st17;  730.02  414.43 )">(*3)</text>
+	<text style="&st18;" transform="matrix(&st17;  718.68  411.68 )">G</text>
+	<text style="&st18;" transform="matrix(&st17;  628.03  414.43 )">(*1)</text>
+	<text style="&st18;" transform="matrix(&st17;  616.7  411.68 )">G</text>
+	<text style="&st18;" transform="matrix(&st17;  616.7  471.17 )">G</text>
+	<text style="&st18;" transform="matrix(&st17;  628.03  473.92 )">(*1)</text>
+	<text style="&st18;" transform="matrix(&st17;  718.68  471.17 )">G</text>
+	<text style="&st18;" transform="matrix(&st17;  730.02  473.92 )">(*3)</text>
+	<text style="&st18;" transform="matrix(&st17;  696.02  473.92 )">(*2)</text>
+	<text style="&st18;" transform="matrix(&st17;  684.69  471.17 )">G</text>
+	<text style="&st18;" transform="matrix(&st17;  1984.97  451.51 )">BR</text>
+	<text style="&st18;" transform="matrix(&st17;  1984.97  502.5 )">BR</text>
+	<text style="&st18;" transform="matrix(&st17;  1984.97  663.98 )">BR</text>
+	<text style="&st18;" transform="matrix(&st17;  1228.6  164.83 )">L</text>
+	<text style="&st18;" transform="matrix(&st17;  1239.93  167.97 )">(*2)</text>
+	<text style="&st18;" transform="matrix(&st17;  1205.94  167.97 )">(*1)</text>
+	<text style="&st18;" transform="matrix(&st17;  1194.6  164.83 )">L</text>
+	<text style="&st18;" transform="matrix(&st17;  1262.59  164.83 )">L</text>
+	<text style="&st18;" transform="matrix(&st17;  1273.92  167.97 )">(*3)</text>
+	<text style="&st18;" transform="matrix(&st17;  1273.92  244.46 )">(*3)</text>
+	<text style="&st18;" transform="matrix(&st17;  1262.59  241.32 )">L</text>
+	<text style="&st18;" transform="matrix(&st17;  1194.6  241.32 )">L</text>
+	<text style="&st18;" transform="matrix(&st17;  1205.94  244.46 )">(*1)</text>
+	<text style="&st18;" transform="matrix(&st17;  1239.93  244.46 )">(*2)</text>
+	<text style="&st18;" transform="matrix(&st17;  1228.6  241.32 )">L</text>
+	<text style="&st18;" transform="matrix(&st17;  259.76  244.92 )">B-Y</text>
+	<text style="&st18;" transform="matrix(&st17;  271.09  244.46 )">(*2)</text>
+	<text style="&st18;" transform="matrix(&st17;  237.1  244.46 )">(*1)</text>
+	<text style="&st18;" transform="matrix(&st17;  225.77  244.92 )">B-Y</text>
+	<text style="&st18;" transform="matrix(&st17;  293.75  244.92 )">B-Y</text>
+	<text style="&st18;" transform="matrix(&st17;  305.09  244.46 )">(*3)</text>
+	<text style="&st18;" transform="matrix(&st17;  305.09  176.47 )">(*3)</text>
+	<text style="&st18;" transform="matrix(&st17;  293.75  173.45 )">B</text>
+	<text style="&st18;" transform="matrix(&st17;  225.77  176.94 )">B-Y</text>
+	<text style="&st18;" transform="matrix(&st17;  237.1  176.47 )">(*1)</text>
+	<text style="&st18;" transform="matrix(&st17;  271.09  176.47 )">(*2)</text>
+	<text style="&st18;" transform="matrix(&st17;  259.76  173.45 )">B</text>
+	<text style="&st18;" transform="matrix(&st17;  259.76  125.94 )">B-Y</text>
+	<text style="&st18;" transform="matrix(&st17;  38.8  619.64 )">W-B</text>
+	<text style="&st18;" transform="matrix(&st17;  81.29  619.64 )">W-B</text>
+	<text style="&st18;" transform="matrix(&st17;  81.29  543.15 )">W-B</text>
+	<text style="&st18;" transform="matrix(&st17;  404.24  577.14 )">W-B</text>
+	<text style="&st18;" transform="matrix(&st17;  463.73  577.14 )">W-B</text>
+	<text style="&st18;" transform="matrix(&st17;  370.24  649.38 )">W-B</text>
+	<text style="&st18;" transform="matrix(&st17;  370.24  577.14 )">W-B</text>
+	<text style="&st18;" transform="matrix(&st17;  925.48  545.94 )">(*2,*3)</text>
+	<text style="&st18;" transform="matrix(&st17;  914.15  538.69 )">P</text>
+	<text style="&st18;" transform="matrix(&st17;  846.16  538.69 )">P</text>
+	<text style="&st18;" transform="matrix(&st17;  857.49  545.94 )">(*2,*3)</text>
+	<text style="&st18;" transform="matrix(&st17;  846.16  411.21 )">P</text>
+	<text style="&st18;" transform="matrix(&st17;  857.49  414.43 )">(*2)</text>
+	<text style="&st18;" transform="matrix(&st17;  823.5  414.43 )">(*3)</text>
+	<text style="&st18;" transform="matrix(&st17;  812.17  411.21 )">P</text>
+	<text style="&st18;" transform="matrix(&st17;  925.48  414.43 )">(*1)</text>
+	<text style="&st18;" transform="matrix(&st17;  914.15  411.21 )">P</text>
+	<text style="&st18;" transform="matrix(&st17;  914.15  470.7 )">P</text>
+	<text style="&st18;" transform="matrix(&st17;  925.48  473.92 )">(*1)</text>
+	<text style="&st18;" transform="matrix(&st17;  812.17  470.7 )">P</text>
+	<text style="&st18;" transform="matrix(&st17;  823.5  473.92 )">(*3)</text>
+	<text style="&st18;" transform="matrix(&st17;  857.49  473.92 )">(*2)</text>
+	<text style="&st18;" transform="matrix(&st17;  846.16  470.7 )">P</text>
+	<text style="&st18;" transform="matrix(&st17;  381.57  579.94 )">(*1,*2)</text>
+	<text style="&st18;" transform="matrix(&st17;  381.57  652.17 )">(*1,*2)</text>
+	<text style="&st18;" transform="matrix(&st17;  415.57  579.94 )">(*1,*2)</text>
+	<text style="&st18;" transform="matrix(&st17;  475.06  575.9 )">(*3)</text>
+	<text style="&st18;" transform="matrix(&st17;  1984.97  557.74 )">BR</text>
+	<text style="&st18;" transform="matrix(&st17;  1628.03  122.38 )">R</text>
+	<text style="&st18;" transform="matrix(&st17;  1628.03  241.36 )">R</text>
+	<text style="&st18;" transform="matrix(&st17;  1628.03  186.12 )">R</text>
+	<text style="&st18;" transform="matrix(&st17;  1996.3  558.91 )">(*5)</text>
+	<text style="&st18;" transform="matrix(&st17;  1996.3  614.15 )">(*5)</text>
+	<text style="&st18;" transform="matrix(&st17;  1996.3  665.14 )">(*5)</text>
+	<text style="&st18;" transform="matrix(&st17;  2035.96  557.74 )">BR</text>
+	<text style="&st18;" transform="matrix(&st17;  2035.96  612.98 )">BR</text>
+	<text style="&st18;" transform="matrix(&st17;  2035.96  663.98 )">BR</text>
+	<text style="&st18;" transform="matrix(&st17;  2047.3  558.91 )">(*4)</text>
+	<text style="&st18;" transform="matrix(&st17;  2047.3  614.15 )">(*4)</text>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M  1997.17,   588.19  L  1988.67,   588.19  "/>
+	<text style="&st18;" transform="matrix(&st17;  1424.07  411.68 )">G</text>
+	<text style="&st18;" transform="matrix(&st17;  1424.07  505.16 )">G</text>
+	<text style="&st18;" transform="matrix(&st17;  1424.07  242.21 )">W</text>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M    76.49,   506.73  L    81.46,   511.70  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   365.44,   608.71  L   370.41,   613.68  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M    93.48,   499.67  L    88.51,   494.70  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   377.46,   613.68  L   382.44,   608.71  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   370.41,   596.69  L   365.44,   601.66  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M    88.51,   511.70  L    93.48,   506.73  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M    81.46,   494.70  L    76.49,   499.67  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M  1640.23,   151.23  L  1635.25,   146.26  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M  1623.23,   158.29  L  1628.20,   163.26  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M  1635.25,   163.26  L  1640.23,   158.29  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M  1628.20,   146.26  L  1623.23,   151.23  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   475.92,   516.67  L   470.95,   511.70  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   458.92,   523.73  L   463.89,   528.70  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   470.95,   528.70  L   475.92,   523.73  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   463.89,   511.70  L   458.92,   516.67  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M  1985.14,   520.20  L  1980.17,   525.17  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M  1992.19,   537.20  L  1997.17,   532.23  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M  1980.17,   532.23  L  1985.14,   537.20  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M  1997.17,   525.17  L  1992.19,   520.20  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M  1997.17,   627.15  L  1992.19,   622.18  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M  1980.17,   634.21  L  1985.14,   639.18  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M  1992.19,   639.18  L  1997.17,   634.21  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M  1985.14,   622.18  L  1980.17,   627.15  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M  1793.20,   469.21  L  1801.70,   469.21  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M  1793.20,   528.70  L  1801.70,   528.70  "/>
+	<text style="&st18;" transform="matrix(&st17;  1798.0  572.31 )">G-R</text>
+	<text style="&st18;" transform="matrix(&st17;  1798.0  504.32 )">G-R</text>
+	<text style="&st18;" transform="matrix(&st17;  1925.48  607.14 )">G</text>
+	<text style="&st18;" transform="matrix(&st16;  1578.74  643.98 )">P</text>
+	<text style="&st18;" transform="matrix(&st17;  956.64  538.69 )">P</text>
+	<text style="&st18;" transform="matrix(&st16;  1527.75  643.98 )">P</text>
+	<text style="&st18;" transform="matrix(&st16;  1578.28  660.98 )">G</text>
+	<text style="&st18;" transform="matrix(&st16;  1527.28  660.98 )">G</text>
+	<text style="&st18;" transform="matrix(&st17;  1798.0  453.33 )">G-R</text>
+	<text style="&st18;" transform="matrix(&st16;  1059.86  660.98 )">G</text>
+	<text style="&st18;" transform="matrix(&st17;  1925.48  488.16 )">G</text>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   271.95,   142.73  L   266.98,   137.76  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   254.96,   149.79  L   259.93,   154.76  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   266.98,   154.76  L   271.95,   149.79  "/>
+	<path style="stroke-width:1.42 ;&st7;  " d=" M   259.93,   137.76  L   254.96,   142.73  "/>
+	<text style="&st18;" transform="matrix(&st16;  1060.33  643.98 )">P</text>
+	<text style="&st18;" transform="matrix(&st16;  1009.34  643.98 )">P</text>
+	<text style="&st18;" transform="matrix(&st16;  786.96  297.21 )">S30(A),U5(B),Y7(C)</text>
+	<text style="&st18;" transform="matrix(&st16;  786.96  304.04 )" ewd:textID="14">Tire Pressure Warning ECU and Receiver</text>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="15" ewd:code="LS2" ewd:figID="25">
+		<path style="&st2;" d=" M   203.97,   435.21  L   186.97,   435.21  L   186.97,   443.71  L   203.97,   443.71  L   203.97,   435.21 "/>
+		<text style="&st8;" transform="matrix(&st16;  190.69  441.58 )"><tspan x="0" style="&st18;" y="0">LS2</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="16" ewd:code="IS2" ewd:figID="26">
+		<path style="&st2;" d=" M   237.96,   205.75  L   220.96,   205.75  L   220.96,   214.25  L   237.96,   214.25  L   237.96,   205.75 "/>
+		<text style="&st8;" transform="matrix(&st16;  225.59  212.12 )"><tspan x="0" style="&st18;" y="0">IS2</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="13" ewd:code="UI5" ewd:figID="27">
+		<path style="&st2;" d=" M   271.95,   435.21  L   254.96,   435.21  L   254.96,   443.71  L   271.95,   443.71  L   271.95,   435.21 "/>
+		<text style="&st8;" transform="matrix(&st16;  259.02  441.58 )"><tspan x="0" style="&st18;" y="0">UI5</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="8" ewd:code="UI5" ewd:figID="28">
+		<path style="&st2;" d=" M   271.95,   205.75  L   254.96,   205.75  L   254.96,   214.25  L   271.95,   214.25  L   271.95,   205.75 "/>
+		<text style="&st8;" transform="matrix(&st16;  259.02  212.12 )"><tspan x="0" style="&st18;" y="0">UI5</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="6" ewd:code="LI1" ewd:figID="29">
+		<path style="&st2;" d=" M   305.95,   562.69  L   288.95,   562.69  L   288.95,   571.19  L   305.95,   571.19  L   305.95,   562.69 "/>
+		<text style="&st8;" transform="matrix(&st16;  293.31  569.06 )"><tspan x="0" style="&st18;" y="0">LI1</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="3" ewd:code="YI3" ewd:figID="30">
+		<path style="&st2;" d=" M   305.95,   435.21  L   288.95,   435.21  L   288.95,   443.71  L   305.95,   443.71  L   305.95,   435.21 "/>
+		<text style="&st8;" transform="matrix(&st16;  293.2  441.58 )"><tspan x="0" style="&st18;" y="0">YI3</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="8" ewd:code="YI3" ewd:figID="31">
+		<path style="&st2;" d=" M   305.95,   205.75  L   288.95,   205.75  L   288.95,   214.25  L   305.95,   214.25  L   305.95,   205.75 "/>
+		<text style="&st8;" transform="matrix(&st16;  293.2  212.12 )"><tspan x="0" style="&st18;" y="0">YI3</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="1" ewd:code="IS2" ewd:figID="32">
+		<path style="&st2;" d=" M   382.44,   435.21  L   365.44,   435.21  L   365.44,   443.71  L   382.44,   443.71  L   382.44,   435.21 "/>
+		<text style="&st8;" transform="matrix(&st16;  370.06  441.58 )"><tspan x="0" style="&st18;" y="0">IS2</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="2" ewd:code="UI5" ewd:figID="33">
+		<path style="&st2;" d=" M   416.43,   435.21  L   399.43,   435.21  L   399.43,   443.71  L   416.43,   443.71  L   416.43,   435.21 "/>
+		<text style="&st8;" transform="matrix(&st16;  403.49  441.58 )"><tspan x="0" style="&st18;" y="0">UI5</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="5" ewd:code="YI3" ewd:figID="34">
+		<path style="&st2;" d=" M   475.92,   435.21  L   458.92,   435.21  L   458.92,   443.71  L   475.92,   443.71  L   475.92,   435.21 "/>
+		<text style="&st8;" transform="matrix(&st16;  463.17  441.58 )"><tspan x="0" style="&st18;" y="0">YI3</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="10" ewd:code="LS2" ewd:figID="35">
+		<path style="&st2;" d=" M   628.89,   435.21  L   611.90,   435.21  L   611.90,   443.71  L   628.89,   443.71  L   628.89,   435.21 "/>
+		<text style="&st8;" transform="matrix(&st16;  615.62  441.58 )"><tspan x="0" style="&st18;" y="0">LS2</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="6" ewd:code="UI5" ewd:figID="36">
+		<path style="&st2;" d=" M   696.88,   435.21  L   679.89,   435.21  L   679.89,   443.71  L   696.88,   443.71  L   696.88,   435.21 "/>
+		<text style="&st8;" transform="matrix(&st16;  683.95  441.58 )"><tspan x="0" style="&st18;" y="0">UI5</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="5" ewd:code="LI1" ewd:figID="37">
+		<path style="&st2;" d=" M   730.88,   562.69  L   713.88,   562.69  L   713.88,   571.19  L   730.88,   571.19  L   730.88,   562.69 "/>
+		<text style="&st8;" transform="matrix(&st16;  718.24  569.06 )"><tspan x="0" style="&st18;" y="0">LI1</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="7" ewd:code="YI3" ewd:figID="38">
+		<path style="&st2;" d=" M   730.88,   435.21  L   713.88,   435.21  L   713.88,   443.71  L   730.88,   443.71  L   730.88,   435.21 "/>
+		<text style="&st8;" transform="matrix(&st16;  718.13  441.58 )"><tspan x="0" style="&st18;" y="0">YI3</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="9" ewd:code="YI3" ewd:figID="39">
+		<path style="&st2;" d=" M   824.36,   435.21  L   807.37,   435.21  L   807.37,   443.71  L   824.36,   443.71  L   824.36,   435.21 "/>
+		<text style="&st8;" transform="matrix(&st16;  811.61  441.58 )"><tspan x="0" style="&st18;" y="0">YI3</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="4" ewd:code="LI1" ewd:figID="40">
+		<path style="&st2;" d=" M   858.36,   562.69  L   841.36,   562.69  L   841.36,   571.19  L   858.36,   571.19  L   858.36,   562.69 "/>
+		<text style="&st8;" transform="matrix(&st16;  845.72  569.06 )"><tspan x="0" style="&st18;" y="0">LI1</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="7" ewd:code="UI5" ewd:figID="41">
+		<path style="&st2;" d=" M   858.36,   435.21  L   841.36,   435.21  L   841.36,   443.71  L   858.36,   443.71  L   858.36,   435.21 "/>
+		<text style="&st8;" transform="matrix(&st16;  845.42  441.58 )"><tspan x="0" style="&st18;" y="0">UI5</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="1" ewd:code="LS2" ewd:figID="42">
+		<path style="&st2;" d=" M   926.35,   435.21  L   909.35,   435.21  L   909.35,   443.71  L   926.35,   443.71  L   926.35,   435.21 "/>
+		<text style="&st8;" transform="matrix(&st16;  913.07  441.58 )"><tspan x="0" style="&st18;" y="0">LS2</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="4" ewd:code="IS2" ewd:figID="43">
+		<path style="&st2;" d=" M  1206.80,   435.21  L  1189.80,   435.21  L  1189.80,   443.71  L  1206.80,   443.71  L  1206.80,   435.21 "/>
+		<text style="&st8;" transform="matrix(&st16;  1194.42  441.58 )"><tspan x="0" style="&st18;" y="0">IS2</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="20" ewd:code="IS2" ewd:figID="44">
+		<path style="&st2;" d=" M  1206.80,   205.75  L  1189.80,   205.75  L  1189.80,   214.25  L  1206.80,   214.25  L  1206.80,   205.75 "/>
+		<text style="&st8;" transform="matrix(&st16;  1194.42  212.12 )"><tspan x="0" style="&st18;" y="0">IS2</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="12" ewd:code="UI5" ewd:figID="45">
+		<path style="&st2;" d=" M  1240.79,   435.21  L  1223.80,   435.21  L  1223.80,   443.71  L  1240.79,   443.71  L  1240.79,   435.21 "/>
+		<text style="&st8;" transform="matrix(&st16;  1227.85  441.58 )"><tspan x="0" style="&st18;" y="0">UI5</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="14" ewd:code="UI5" ewd:figID="46">
+		<path style="&st2;" d=" M  1240.79,   205.75  L  1223.80,   205.75  L  1223.80,   214.25  L  1240.79,   214.25  L  1240.79,   205.75 "/>
+		<text style="&st8;" transform="matrix(&st16;  1227.85  212.12 )"><tspan x="0" style="&st18;" y="0">UI5</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="6" ewd:code="YI3" ewd:figID="47">
+		<path style="&st2;" d=" M  1274.79,   435.21  L  1257.79,   435.21  L  1257.79,   443.71  L  1274.79,   443.71  L  1274.79,   435.21 "/>
+		<text style="&st8;" transform="matrix(&st16;  1262.04  441.58 )"><tspan x="0" style="&st18;" y="0">YI3</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="2" ewd:code="YI3" ewd:figID="48">
+		<path style="&st2;" d=" M  1274.79,   205.75  L  1257.79,   205.75  L  1257.79,   214.25  L  1274.79,   214.25  L  1274.79,   205.75 "/>
+		<text style="&st8;" transform="matrix(&st16;  1262.04  212.12 )"><tspan x="0" style="&st18;" y="0">YI3</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="2" ewd:code="IL2" ewd:figID="49">
+		<path style="&st2;" d=" M  1640.23,   205.75  L  1623.23,   205.75  L  1623.23,   214.25  L  1640.23,   214.25  L  1640.23,   205.75 "/>
+		<text style="&st8;" transform="matrix(&st16;  1627.59  212.12 )"><tspan x="0" style="&st18;" y="0">IL2</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="22" ewd:code="IL2" ewd:figID="50">
+		<path style="&st2;" d=" M  1725.21,   205.75  L  1708.21,   205.75  L  1708.21,   214.25  L  1725.21,   214.25  L  1725.21,   205.75 "/>
+		<text style="&st8;" transform="matrix(&st16;  1712.57  212.12 )"><tspan x="0" style="&st18;" y="0">IL2</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="51" ewd:code="AI3" ewd:figID="51">
+		<path style="&st2;" d=" M  1810.20,   537.20  L  1793.20,   537.20  L  1793.20,   545.69  L  1810.20,   545.69  L  1810.20,   537.20 "/>
+		<text style="&st8;" transform="matrix(&st16;  1797.33  543.57 )"><tspan x="0" style="&st18;" y="0">AI3</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="20" ewd:code="AI3" ewd:figID="52">
+		<path style="&st2;" d=" M  1810.20,   528.70  L  1793.20,   528.70  L  1793.20,   537.20  L  1810.20,   537.20  L  1810.20,   528.70 "/>
+		<text style="&st8;" transform="matrix(&st16;  1797.33  535.07 )"><tspan x="0" style="&st18;" y="0">AI3</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="18" ewd:code="IL2" ewd:figID="53">
+		<path style="&st2;" d=" M  1810.20,   469.21  L  1793.20,   469.21  L  1793.20,   477.71  L  1810.20,   477.71  L  1810.20,   469.21 "/>
+		<text style="&st8;" transform="matrix(&st16;  1797.56  475.58 )"><tspan x="0" style="&st18;" y="0">IL2</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="9" ewd:code="IC2" ewd:figID="54">
+		<path style="&st2;" d=" M  1997.17,   579.69  L  1980.17,   579.69  L  1980.17,   588.19  L  1997.17,   588.19  L  1997.17,   579.69 "/>
+		<text style="&st8;" transform="matrix(&st16;  1984.19  586.06 )"><tspan x="0" style="&st18;" y="0">IC2</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="4" ewd:code="IL2" ewd:figID="55">
+		<path style="&st2;" d=" M  1997.17,   469.21  L  1980.17,   469.21  L  1980.17,   477.71  L  1997.17,   477.71  L  1997.17,   469.21 "/>
+		<text style="&st8;" transform="matrix(&st16;  1984.53  475.58 )"><tspan x="0" style="&st18;" y="0">IL2</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="17" ewd:code="CA4" ewd:figID="56">
+		<path style="&st2;" d=" M  2048.16,   630.68  L  2031.16,   630.68  L  2031.16,   639.18  L  2048.16,   639.18  L  2048.16,   630.68 "/>
+		<text style="&st8;" transform="matrix(&st16;  2034.05  637.05 )"><tspan x="0" style="&st18;" y="0">CA4</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="13" ewd:code="AI3" ewd:figID="57">
+		<path style="&st2;" d=" M  2048.16,   579.69  L  2031.16,   579.69  L  2031.16,   588.19  L  2048.16,   588.19  L  2048.16,   579.69 "/>
+		<text style="&st8;" transform="matrix(&st16;  2035.29  586.06 )"><tspan x="0" style="&st18;" y="0">AI3</tspan></text>
+	</a>
+	<a ewd:figtype="gp" style="cursor:pointer;" ewd:code="LB" ewd:figID="58">
+		<path style="&st2;" d=" M    31.87,   681.67  L    53.12,   681.67  L    42.49,   697.25  L    31.87,   681.67 "/>
+		<text style="&st8;" transform="matrix(&st16;  38.84  689.46 )"><tspan x="0" style="&st18;" y="0">LB</tspan></text>
+	</a>
+	<a ewd:figtype="gp" style="cursor:pointer;" ewd:code="LA" ewd:figID="59">
+		<path style="&st2;" d=" M    74.36,   681.67  L    95.61,   681.67  L    84.99,   697.25  L    74.36,   681.67 "/>
+		<text style="&st8;" transform="matrix(&st16;  81.22  689.46 )"><tspan x="0" style="&st18;" y="0">LA</tspan></text>
+	</a>
+	<a ewd:figtype="gp" style="cursor:pointer;" ewd:code="IE" ewd:figID="60">
+		<path style="&st2;" d=" M   363.31,   681.67  L   384.56,   681.67  L   373.94,   697.25  L   363.31,   681.67 "/>
+		<text style="&st8;" transform="matrix(&st16;  371.27  689.46 )"><tspan x="0" style="&st18;" y="0">IE</tspan></text>
+	</a>
+	<a ewd:figtype="gp" style="cursor:pointer;" ewd:code="IA" ewd:figID="61">
+		<path style="&st2;" d=" M   397.31,   681.67  L   418.56,   681.67  L   407.93,   697.25  L   397.31,   681.67 "/>
+		<text style="&st8;" transform="matrix(&st16;  405.07  689.46 )"><tspan x="0" style="&st18;" y="0">IA</tspan></text>
+	</a>
+	<a ewd:figtype="gp" style="cursor:pointer;" ewd:code="IC" ewd:figID="62">
+		<path style="&st2;" d=" M   456.80,   681.67  L   478.05,   681.67  L   467.42,   697.25  L   456.80,   681.67 "/>
+		<text style="&st8;" transform="matrix(&st16;  464.45  689.46 )"><tspan x="0" style="&st18;" y="0">IC</tspan></text>
+	</a>
+	<a ewd:figtype="gp" style="cursor:pointer;" ewd:code="CA" ewd:figID="63">
+		<path style="&st2;" d=" M  1978.04,   681.67  L  1999.29,   681.67  L  1988.67,   697.25  L  1978.04,   681.67 "/>
+		<text style="&st8;" transform="matrix(&st16;  1984.57  689.46 )"><tspan x="0" style="&st18;" y="0">CA</tspan></text>
+	</a>
+	<a ewd:figtype="gp" style="cursor:pointer;" ewd:code="CE" ewd:figID="64">
+		<path style="&st2;" d=" M  2029.04,   681.67  L  2050.28,   681.67  L  2039.66,   697.25  L  2029.04,   681.67 "/>
+		<text style="&st8;" transform="matrix(&st16;  2035.75  689.46 )"><tspan x="0" style="&st18;" y="0">CE</tspan></text>
+	</a>
+	<a ewd:figtype="sp" style="cursor:pointer;" ewd:code="SP82" ewd:figID="65">
+		<path style="&st2;" d=" M    80.74,   494.70  L    89.24,   494.70  L    93.48,   498.95  L    93.48,   507.45  L    89.24,   511.70  L    80.74,   511.70  L    76.49,   507.45  L    76.49,   498.95  L    80.74,   494.70 "/>
+	</a>
+	<a ewd:figtype="sp" style="cursor:pointer;" ewd:code="SP44" ewd:figID="66">
+		<path style="&st2;" d=" M   259.21,   137.76  L   267.71,   137.76  L   271.95,   142.01  L   271.95,   150.51  L   267.71,   154.76  L   259.21,   154.76  L   254.96,   150.51  L   254.96,   142.01  L   259.21,   137.76 "/>
+	</a>
+	<a ewd:figtype="sp" style="cursor:pointer;" ewd:code="SP76" ewd:figID="67">
+		<path style="&st2;" d=" M   369.69,   596.69  L   378.19,   596.69  L   382.44,   600.93  L   382.44,   609.43  L   378.19,   613.68  L   369.69,   613.68  L   365.44,   609.43  L   365.44,   600.93  L   369.69,   596.69 "/>
+	</a>
+	<a ewd:figtype="sp" style="cursor:pointer;" ewd:code="SP66" ewd:figID="68">
+		<path style="&st2;" d=" M   463.17,   511.70  L   471.67,   511.70  L   475.92,   515.95  L   475.92,   524.45  L   471.67,   528.70  L   463.17,   528.70  L   458.92,   524.45  L   458.92,   515.95  L   463.17,   511.70 "/>
+	</a>
+	<a ewd:figtype="sp" style="cursor:pointer;" ewd:code="SP51" ewd:figID="69">
+		<path style="&st2;" d=" M  1627.48,   146.26  L  1635.98,   146.26  L  1640.23,   150.51  L  1640.23,   159.01  L  1635.98,   163.26  L  1627.48,   163.26  L  1623.23,   159.01  L  1623.23,   150.51  L  1627.48,   146.26 "/>
+	</a>
+	<a ewd:figtype="sp" style="cursor:pointer;" ewd:code="SP19" ewd:figID="70">
+		<path style="&st2;" d=" M  1984.42,   622.18  L  1992.92,   622.18  L  1997.17,   626.43  L  1997.17,   634.93  L  1992.92,   639.18  L  1984.42,   639.18  L  1980.17,   634.93  L  1980.17,   626.43  L  1984.42,   622.18 "/>
+	</a>
+	<a ewd:figtype="sp" style="cursor:pointer;" ewd:code="SP60" ewd:figID="71">
+		<path style="&st2;" d=" M  1984.42,   520.20  L  1992.92,   520.20  L  1997.17,   524.45  L  1997.17,   532.95  L  1992.92,   537.20  L  1984.42,   537.20  L  1980.17,   532.95  L  1980.17,   524.45  L  1984.42,   520.20 "/>
+	</a>
+</g>
+</svg>

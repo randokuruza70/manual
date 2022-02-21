@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'ArialMT';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'ArialMT';">
+	<!ENTITY st11 "font-size:9px;font-family:'Svg Symbol';">
+	<!ENTITY st12 "font-size:6px;font-family:'Svg Symbol';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'Arial';">
+	<!ENTITY st19 "font-size:9px;font-family:'Arial';">
+	<!ENTITY st20 "font-size:6px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 10206.470 710.000" viewBox="0 0 10206.470 710.000" height="710.000" width="10206.470" xml:space="preserve" ewd:ver="2.1.2.9" xmlns="&ns_svg;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:xlink="&ns_xlink;">
+<path style="stroke-width:1.42 ;&st7;  " d=" M  7028.33,   528.70  L  7036.82,   528.70  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7028.33,   460.71  L  7036.82,   460.71  " /><text style="&st18;" transform="matrix(&st17;  7143.61  381.68 )">B-W</text><text style="&st18;" transform="matrix(&st16;  7288.38  117.07 )" ewd:textID="57">Combination Meter Assembly</text><text style="&st18;" transform="matrix(&st16;  7288.37  110.24 )">L25(A),L26(B),L50(C)</text><text style="&st18;" transform="matrix(&st17;  7103.95  381.99 )">(*20)</text><text style="&st18;" transform="matrix(&st17;  7211.6  377.41 )">B</text><text style="&st18;" transform="matrix(&st17;  7033.13  377.53 )">V</text><text style="&st18;" transform="matrix(&st17;  7044.46  381.99 )">(*21)</text><text style="&st18;" transform="matrix(&st17;  7033.13  496.51 )">V</text><text style="&st18;" transform="matrix(&st17;  7044.46  500.97 )">(*21)</text><text style="&st18;" transform="matrix(&st17;  7033.13  619.64 )">W-B</text><text style="&st18;" transform="matrix(&st17;  7044.46  619.95 )">(*21)</text><text style="&st18;" transform="matrix(&st17;  7092.62  377.53 )">V</text><text style="&st18;" transform="matrix(&st17;  7296.58  372.29 )">B-L</text><text style="&st18;" transform="matrix(&st17;  7364.57  372.33 )">R-Y</text><text style="&st18;" transform="matrix(&st17;  7432.56  372.21 )">R-L</text><g ewd:figtype="w2w" ewd:figID="179" ewd:code="AI2"><text style="&st18;" transform="matrix(&st16;  7024.19  543.41 )">4</text><g ewd:code="" ewd:figID="336" ewd:comment="" ewd:figtype="commref"><text style="&st18;" transform="matrix(&st16;  7045.85  543.41 )">(RHD)</text></g></g><g ewd:figtype="w2w" ewd:figID="180" ewd:code="AI7"><path style="stroke-width:1.42 ;&st7;  " d=" M  7041.07,   523.03  L  7036.82,   527.28  L  7032.57,   523.03  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7032.57,   519.63  L  7036.82,   523.88  L  7041.07,   519.63  " /><text style="&st18;" transform="matrix(&st16;  7021.09  534.92 )">13</text><g ewd:code="" ewd:figID="337" ewd:comment="" ewd:figtype="commref"><text style="&st18;" transform="matrix(&st16;  7045.85  534.92 )">(LHD)</text></g></g><g ewd:figtype="w2w" ewd:figID="181" ewd:code="IL5"><text style="&st18;" transform="matrix(&st16;  7021.09  475.43 )">17</text><g ewd:code="" ewd:figID="356" ewd:comment="" ewd:figtype="commref"><text style="&st18;" transform="matrix(&st16;  7045.85  475.43 )">(RHD)</text></g></g><g ewd:figtype="w2w" ewd:figID="182" ewd:code="IL1"><path style="stroke-width:1.42 ;&st7;  " d=" M  7041.07,   455.04  L  7036.82,   459.29  L  7032.57,   455.04  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7032.57,   451.64  L  7036.82,   455.89  L  7041.07,   451.64  " /><text style="&st18;" transform="matrix(&st16;  7024.19  466.93 )">7</text><g ewd:code="" ewd:figID="357" ewd:comment="" ewd:figtype="commref"><text style="&st18;" transform="matrix(&st16;  7045.85  466.93 )">(LHD)</text></g></g><g ewd:figtype="annex" ewd:figID="57" ewd:code=" "><path style="stroke-width:1.42 ;&st7;  " d=" M  7096.31,   409.72  L  7101.37,   398.35  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7147.31,   409.72  L  7152.37,   398.35  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7096.31,   409.72  L  7091.25,   398.35  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7215.29,   409.72  L  7210.23,   398.35  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7215.29,   409.72  L  7220.35,   398.35  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7147.31,   409.72  L  7142.25,   398.35  " /><text style="&st18;" transform="matrix(&st17;  7095.47  451.29 )" ewd:textID="49">Brake Actuator <tspan x="0 " dy="6.0">Assembly</tspan></text><text style="&st18;" transform="matrix(&st17;  7140.51  482.31 )" ewd:textID="75">Front Door Courtesy Light <tspan x="0 " dy="6.0">Switch Assembly LH (LHD)</tspan></text><text style="&st18;" transform="matrix(&st17;  7190.66  481.38 )" ewd:textID="74">Front Door Courtesy Light <tspan x="0 " dy="6.0">Switch Assembly LH</tspan></text><text style="&st18;" transform="matrix(&st17;  7152.41  482.47 )" ewd:textID="77">Front Door Courtesy Light <tspan x="0 " dy="6.0">Switch Assembly RH (RHD)</tspan></text><text style="&st18;" transform="matrix(&st17;  7202.55  481.38 )" ewd:textID="76">Front Door Courtesy Light <tspan x="0 " dy="6.0">Switch Assembly RH</tspan></text><text style="&st18;" transform="matrix(&st17;  7214.45  478.75 )" ewd:textID="139">Rear Door Courtesy Light <tspan x="0 " dy="6.0">Switch Assembly LH</tspan></text><text style="&st18;" transform="matrix(&st17;  7226.35  478.75 )" ewd:textID="140">Rear Door Courtesy Light <tspan x="0 " dy="6.0">Switch Assembly RH</tspan></text><text style="&st18;" transform="matrix(&st17;  7238.25  479.6 )" ewd:textID="47">Back Door Courtesy Light <tspan x="0 " dy="6.0">Switch Assembly</tspan></text></g><g ewd:code=" " ewd:figID="58" ewd:comment="3,5,32,4" ewd:figtype="annex"><path style="stroke-width:1.42 ;&st7;  " d=" M  7368.27,   401.22  L  7363.21,   389.86  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7716.71,   401.22  L  7721.77,   389.86  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7436.26,   401.22  L  7441.32,   389.86  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7648.72,   401.22  L  7653.78,   389.86  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7580.73,   401.22  L  7585.79,   389.86  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7300.28,   401.22  L  7305.34,   389.86  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7512.74,   401.22  L  7517.80,   389.86  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7648.72,   401.22  L  7643.66,   389.86  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7716.71,   401.22  L  7711.65,   389.86  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7512.74,   401.22  L  7507.69,   389.86  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7300.28,   401.22  L  7295.22,   389.86  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7368.27,   401.22  L  7373.33,   389.86  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7580.73,   401.22  L  7575.67,   389.86  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7436.26,   401.22  L  7431.20,   389.86  " /><text style="&st18;" transform="matrix(&st17;  7293.78  467.07 )" ewd:textID="52">Center Differential Lock <tspan x="0 " dy="6.0">Indicator Switch </tspan><tspan x="0 " dy="6.0">(No. 1 Transfer Indicator </tspan><tspan x="0 " dy="6.0"> Switch)</tspan></text><text style="&st18;" transform="matrix(&st17;  7511.9  445.82 )" ewd:textID="83">Fuel Control <tspan x="0 " dy="6.0">Switch Assembly</tspan></text><text style="&st18;" transform="matrix(&st17;  7582.7  416.51 )">ECM</text><g ewd:code="" ewd:figID="620" ewd:comment="3,32" ewd:figtype="commref"><text style="&st18;" transform="matrix(&st17;  7644.75  439.46 )">ECM (*3 *32)</text></g><text style="&st18;" transform="matrix(&st17;  7718.69  455.36 )" ewd:textID="91">Generator Assembly</text><g ewd:code="" ewd:figID="619" ewd:comment="4" ewd:figtype="commref"><text style="&st18;" transform="matrix(&st17;  7650.7  473.2 )" ewd:textID="66">Emission Control ECU (*4)</text></g><g ewd:code="" ewd:figID="618" ewd:comment="5" ewd:figtype="commref"><text style="&st18;" transform="matrix(&st17;  7656.66  485.14 )" ewd:textID="134">Preheating Timer Assembly (*5)</text></g><text style="&st18;" transform="matrix(&st17;  7367.42  456.76 )" ewd:textID="73">Front Differential <tspan x="0 " dy="6.0">Lock Position Switch</tspan></text><text style="&st18;" transform="matrix(&st17;  7435.41  456.76 )" ewd:textID="138">Rear Differential <tspan x="0 " dy="6.0">Lock Position Switch</tspan></text></g><g ewd:code="26" ewd:figID="339" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  7067.41  46.25 )" ewd:textID="24">*26 :w/ Oil Pressure Gage</text></g><g ewd:code="27" ewd:figID="341" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  7067.41  54.75 )" ewd:textID="25">*27 :w/ Oil Pressure Warning Light</text></g><g ewd:code="25" ewd:figID="407" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  7067.41  37.75 )" ewd:textID="23">*25 :w/ SRS w/o VSC</text></g><g ewd:code="28" ewd:figID="303" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  7067.41  63.24 )" ewd:textID="26">*28 :1GR-FE w/ Oil Pressure Warning Light</text></g><g ewd:code="46" ewd:figID="532" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  7067.41  80.24 )" ewd:textID="42">*46 :w/o VSC</text></g><g ewd:code="45" ewd:figID="531" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  7067.41  71.74 )" ewd:textID="41">*45 :w/ VSC</text></g></svg>

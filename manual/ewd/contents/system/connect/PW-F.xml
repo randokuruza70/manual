@@ -1,0 +1,1588 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <connector type="conn" code="O10" figID="10">
+    <pin no="4" spec="LHD Pick-Up Body Type, 4-Door Except Pick-Up Body Type, Rear Bench Seats 2-Door Except Pick-Up Body Type">
+      <line id="1" color="R">
+        <connector type="conn" code="O2" figID="1">
+          <pin no="1" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O10" figID="10">
+    <pin no="4" spec="LHD Pick-Up Body Type, 4-Door Except Pick-Up Body Type, Rear Bench Seats 2-Door Except Pick-Up Body Type">
+      <line id="1" color="R">
+        <connector type="conn" code="P2" figID="1">
+          <pin no="1" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O11" figID="10">
+    <pin no="1" spec="LHD Rear Forward Facing Seats 2-Door Except Pick-Up Body Type">
+      <line id="1" color="R">
+        <connector type="conn" code="O2" figID="1">
+          <pin no="1" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O11" figID="10">
+    <pin no="1" spec="LHD Rear Forward Facing Seats 2-Door Except Pick-Up Body Type">
+      <line id="1" color="R">
+        <connector type="conn" code="P2" figID="1">
+          <pin no="1" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P11" figID="10">
+    <pin no="4" spec="RHD Pick-Up Body Type, 4-Door Except Pick-Up Body Type, Rear Bench Seats 2-Door Except Pick-Up Body Type">
+      <line id="1" color="R">
+        <connector type="conn" code="O2" figID="1">
+          <pin no="1" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P11" figID="10">
+    <pin no="4" spec="RHD Pick-Up Body Type, 4-Door Except Pick-Up Body Type, Rear Bench Seats 2-Door Except Pick-Up Body Type">
+      <line id="1" color="R">
+        <connector type="conn" code="P2" figID="1">
+          <pin no="1" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P12" figID="10">
+    <pin no="1" spec="RHD Rear Forward Facing Seats 2-Door Except Pick-Up Body Type">
+      <line id="1" color="R">
+        <connector type="conn" code="O2" figID="1">
+          <pin no="1" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P12" figID="10">
+    <pin no="1" spec="RHD Rear Forward Facing Seats 2-Door Except Pick-Up Body Type">
+      <line id="1" color="R">
+        <connector type="conn" code="P2" figID="1">
+          <pin no="1" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP144" figID="52">
+    <pin>
+      <line id="2" color="L" spec="RHD" commtxt="(RHD)">
+        <connector type="conn" code="O10" figID="10">
+          <pin no="5" spec="LHD Pick-Up Body Type, 4-Door Except Pick-Up Body Type, Rear Bench Seats 2-Door Except Pick-Up Body Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP144" figID="52">
+    <pin>
+      <line id="2" color="L" spec="RHD" commtxt="(RHD)">
+        <connector type="conn" code="P11" figID="10">
+          <pin no="5" spec="RHD Pick-Up Body Type, 4-Door Except Pick-Up Body Type, Rear Bench Seats 2-Door Except Pick-Up Body Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP144" figID="52">
+    <pin>
+      <line id="2" color="L" spec="RHD" commtxt="(RHD)">
+        <connector type="conn" code="P12" figID="10">
+          <pin no="4" spec="RHD Rear Forward Facing Seats 2-Door Except Pick-Up Body Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OI4" sex="female" figID="14">
+    <pin no="3" spec="LHD">
+      <line id="3" color="L" spec="LHD" commtxt="(LHD)">
+        <connector type="conn" code="O10" figID="10">
+          <pin no="5" spec="LHD Pick-Up Body Type, 4-Door Except Pick-Up Body Type, Rear Bench Seats 2-Door Except Pick-Up Body Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OI4" sex="female" figID="14">
+    <pin no="3" spec="LHD">
+      <line id="3" color="L" spec="LHD" commtxt="(LHD)">
+        <connector type="conn" code="O11" figID="10">
+          <pin no="4" spec="LHD Rear Forward Facing Seats 2-Door Except Pick-Up Body Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OI4" sex="female" figID="14">
+    <pin no="3" spec="LHD">
+      <line id="3" color="L" spec="LHD" commtxt="(LHD)">
+        <connector type="conn" code="P11" figID="10">
+          <pin no="5" spec="RHD Pick-Up Body Type, 4-Door Except Pick-Up Body Type, Rear Bench Seats 2-Door Except Pick-Up Body Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="PI2" sex="female" figID="13">
+    <pin no="3" spec="RHD">
+      <line id="4" color="L" spec="RHD" commtxt="(RHD)">
+        <connector type="sp" code="SP144" figID="52">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="PI2" sex="male" figID="13">
+    <pin no="3" spec="RHD">
+      <line id="5" color="L" spec="RHD" commtxt="(RHD)">
+        <connector type="sp" code="SP61" figID="55">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I96" figID="9">
+    <pin no="10">
+      <line id="6" color="L" spec="LHD" commtxt="(LHD)">
+        <connector type="w2w" code="OI4" sex="male" figID="14">
+          <pin no="3" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE32" figID="5">
+    <pin>
+      <line id="7" color="L" spec="LHD" commtxt="(LHD)">
+        <connector type="conn" code="I96" figID="9">
+          <pin no="8"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE32" figID="5">
+    <pin>
+      <line id="8" color="L" spec="RHD" commtxt="(RHD)">
+        <connector type="sp" code="SP61" figID="57">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O10" figID="10">
+    <pin no="1" spec="LHD Pick-Up Body Type, 4-Door Except Pick-Up Body Type, Rear Bench Seats 2-Door Except Pick-Up Body Type">
+      <line id="9" color="G">
+        <connector type="conn" code="O2" figID="1">
+          <pin no="2" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O10" figID="10">
+    <pin no="1" spec="LHD Pick-Up Body Type, 4-Door Except Pick-Up Body Type, Rear Bench Seats 2-Door Except Pick-Up Body Type">
+      <line id="9" color="G">
+        <connector type="conn" code="P2" figID="1">
+          <pin no="2" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O11" figID="10">
+    <pin no="3" spec="LHD Rear Forward Facing Seats 2-Door Except Pick-Up Body Type">
+      <line id="9" color="G">
+        <connector type="conn" code="O2" figID="1">
+          <pin no="2" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O11" figID="10">
+    <pin no="3" spec="LHD Rear Forward Facing Seats 2-Door Except Pick-Up Body Type">
+      <line id="9" color="G">
+        <connector type="conn" code="P2" figID="1">
+          <pin no="2" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P11" figID="10">
+    <pin no="1" spec="RHD Pick-Up Body Type, 4-Door Except Pick-Up Body Type, Rear Bench Seats 2-Door Except Pick-Up Body Type">
+      <line id="9" color="G">
+        <connector type="conn" code="O2" figID="1">
+          <pin no="2" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P11" figID="10">
+    <pin no="1" spec="RHD Pick-Up Body Type, 4-Door Except Pick-Up Body Type, Rear Bench Seats 2-Door Except Pick-Up Body Type">
+      <line id="9" color="G">
+        <connector type="conn" code="P2" figID="1">
+          <pin no="2" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P12" figID="10">
+    <pin no="3" spec="RHD Rear Forward Facing Seats 2-Door Except Pick-Up Body Type">
+      <line id="9" color="G">
+        <connector type="conn" code="O2" figID="1">
+          <pin no="2" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P12" figID="10">
+    <pin no="3" spec="RHD Rear Forward Facing Seats 2-Door Except Pick-Up Body Type">
+      <line id="9" color="G">
+        <connector type="conn" code="P2" figID="1">
+          <pin no="2" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O10" figID="10">
+    <pin no="3" spec="LHD Pick-Up Body Type, 4-Door Except Pick-Up Body Type, Rear Bench Seats 2-Door Except Pick-Up Body Type">
+      <line id="10" color="R-L" spec="RHD" commtxt="(RHD)">
+        <connector type="sp" code="SP143" figID="53">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P11" figID="10">
+    <pin no="3" spec="RHD Pick-Up Body Type, 4-Door Except Pick-Up Body Type, Rear Bench Seats 2-Door Except Pick-Up Body Type">
+      <line id="10" color="R-L" spec="RHD" commtxt="(RHD)">
+        <connector type="sp" code="SP143" figID="53">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P12" figID="10">
+    <pin no="2" spec="RHD Rear Forward Facing Seats 2-Door Except Pick-Up Body Type">
+      <line id="10" color="R-L" spec="RHD" commtxt="(RHD)">
+        <connector type="sp" code="SP143" figID="53">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O10" figID="10">
+    <pin no="2" spec="LHD Pick-Up Body Type, 4-Door Except Pick-Up Body Type, Rear Bench Seats 2-Door Except Pick-Up Body Type">
+      <line id="11" color="W" spec="RHD" commtxt="(RHD)">
+        <connector type="sp" code="SP142" figID="54">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P11" figID="10">
+    <pin no="2" spec="RHD Pick-Up Body Type, 4-Door Except Pick-Up Body Type, Rear Bench Seats 2-Door Except Pick-Up Body Type">
+      <line id="11" color="W" spec="RHD" commtxt="(RHD)">
+        <connector type="sp" code="SP142" figID="54">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P12" figID="10">
+    <pin no="5" spec="RHD Rear Forward Facing Seats 2-Door Except Pick-Up Body Type">
+      <line id="11" color="W" spec="RHD" commtxt="(RHD)">
+        <connector type="sp" code="SP142" figID="54">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="R1" figID="7">
+    <pin no="4">
+      <line id="12" color="R" spec="4-Door" commtxt="(*1)">
+        <connector type="conn" code="R3" figID="3">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="RS1" sex="female" figID="15">
+    <pin no="6">
+      <line id="13" color="L" spec="4-Door" commtxt="(*1)">
+        <connector type="conn" code="R1" figID="7">
+          <pin no="5"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IS3" sex="male" figID="16">
+    <pin no="22">
+      <line id="14" color="L" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="RS1" sex="male" figID="15">
+          <pin no="6"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IS3" sex="female" figID="16">
+    <pin no="22">
+      <line id="15" color="L" spec="RHD 4-Door" commtxt="(RHD *1)">
+        <connector type="sp" code="SP61" figID="55">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I96" figID="9">
+    <pin no="9">
+      <line id="16" color="L" spec="LHD 4-Door" commtxt="(LHD *1)">
+        <connector type="w2w" code="IS3" sex="female" figID="16">
+          <pin no="22"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP143" figID="53">
+    <pin>
+      <line id="17" color="R-L" spec="RHD" commtxt="(RHD)">
+        <connector type="w2w" code="PI2" sex="female" figID="44">
+          <pin no="5" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP142" figID="54">
+    <pin>
+      <line id="18" color="W" spec="RHD" commtxt="(RHD)">
+        <connector type="w2w" code="PI2" sex="female" figID="40">
+          <pin no="4" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="R1" figID="7">
+    <pin no="1">
+      <line id="19" color="G" spec="4-Door" commtxt="(*1)">
+        <connector type="conn" code="R3" figID="3">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP61" figID="55">
+    <pin>
+      <line id="20" color="L" spec="RHD" commtxt="(RHD)">
+        <connector type="sp" code="SP61" figID="56">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="R1" figID="7">
+    <pin no="3">
+      <line id="21" color="R-B" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="RS1" sex="female" figID="36">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="R1" figID="7">
+    <pin no="2">
+      <line id="22" color="R-G" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="RS1" sex="female" figID="32">
+          <pin no="5"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="Q1" figID="11">
+    <pin no="4">
+      <line id="23" color="R" spec="4-Door" commtxt="(*1)">
+        <connector type="conn" code="Q3" figID="4">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="QU1" sex="female" figID="17">
+    <pin no="6">
+      <line id="24" color="L" spec="4-Door" commtxt="(*1)">
+        <connector type="conn" code="Q1" figID="11">
+          <pin no="5"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="UI4" sex="female" figID="19">
+    <pin no="5" spec="Before Jan. 2017 Production">
+      <line id="25" color="L" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="QU1" sex="male" figID="17">
+          <pin no="6"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="UI5" sex="female" figID="18">
+    <pin no="11" spec="From Jan. 2017 Production">
+      <line id="25" color="L" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="QU1" sex="male" figID="17">
+          <pin no="6"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="UI4" sex="male" figID="19">
+    <pin no="5" spec="Before Jan. 2017 Production">
+      <line id="26" color="L" spec="RHD 4-Door" commtxt="(RHD *1)">
+        <connector type="sp" code="SP61" figID="56">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="UI5" sex="male" figID="18">
+    <pin no="11" spec="From Jan. 2017 Production">
+      <line id="26" color="L" spec="RHD 4-Door" commtxt="(RHD *1)">
+        <connector type="sp" code="SP61" figID="56">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I96" figID="9">
+    <pin no="11">
+      <line id="27" color="L" spec="LHD 4-Door" commtxt="(LHD *1)">
+        <connector type="w2w" code="UI4" sex="male" figID="19">
+          <pin no="5" spec="Before Jan. 2017 Production"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I96" figID="9">
+    <pin no="11">
+      <line id="27" color="L" spec="LHD 4-Door" commtxt="(LHD *1)">
+        <connector type="w2w" code="UI5" sex="male" figID="18">
+          <pin no="11" spec="From Jan. 2017 Production"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I96" figID="9">
+    <pin no="3">
+      <line id="28" color="L" spec="LHD" commtxt="(LHD)">
+        <connector type="w2w" code="PI3" sex="male" figID="31">
+          <pin no="8" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="Q1" figID="11">
+    <pin no="1">
+      <line id="29" color="G" spec="4-Door" commtxt="(*1)">
+        <connector type="conn" code="Q3" figID="4">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP61" figID="56">
+    <pin>
+      <line id="30" color="L" spec="RHD" commtxt="(RHD)">
+        <connector type="sp" code="SP61" figID="57">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP61" figID="57">
+    <pin>
+      <line id="31" color="L" spec="RHD" commtxt="(RHD)">
+        <connector type="w2w" code="OI5" sex="male" figID="30">
+          <pin no="1" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="Q1" figID="11">
+    <pin no="3">
+      <line id="32" color="R-B" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="QU1" sex="female" figID="25">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="Q1" figID="11">
+    <pin no="2">
+      <line id="33" color="R-G" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="QU1" sex="female" figID="20">
+          <pin no="5"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="UI4" sex="female" figID="22">
+    <pin no="4" spec="Before Jan. 2017 Production">
+      <line id="34" color="G" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="QU1" sex="male" figID="20">
+          <pin no="5"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="UI5" sex="female" figID="21">
+    <pin no="5" spec="From Jan. 2017 Production">
+      <line id="34" color="G" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="QU1" sex="male" figID="20">
+          <pin no="5"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OI5" sex="male" figID="23">
+    <pin no="10" spec="RHD">
+      <line id="35" color="G" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="UI4" sex="male" figID="22">
+          <pin no="4" spec="Before Jan. 2017 Production"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OI5" sex="male" figID="23">
+    <pin no="10" spec="RHD">
+      <line id="35" color="G" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="UI5" sex="male" figID="21">
+          <pin no="5" spec="From Jan. 2017 Production"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="PI3" sex="male" figID="24">
+    <pin no="3" spec="LHD">
+      <line id="35" color="G" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="UI4" sex="male" figID="22">
+          <pin no="4" spec="Before Jan. 2017 Production"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="PI3" sex="male" figID="24">
+    <pin no="3" spec="LHD">
+      <line id="35" color="G" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="UI5" sex="male" figID="21">
+          <pin no="5" spec="From Jan. 2017 Production"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O8" figID="8">
+    <pin no="10" spec="RHD 4-Door">
+      <line id="36" color="G" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="OI5" sex="female" figID="23">
+          <pin no="10" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O8" figID="8">
+    <pin no="10" spec="RHD 4-Door">
+      <line id="36" color="G" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="PI3" sex="female" figID="24">
+          <pin no="3" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P9" figID="8">
+    <pin no="10" spec="LHD 4-Door">
+      <line id="36" color="G" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="OI5" sex="female" figID="23">
+          <pin no="10" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P9" figID="8">
+    <pin no="10" spec="LHD 4-Door">
+      <line id="36" color="G" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="PI3" sex="female" figID="24">
+          <pin no="3" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="QU1" sex="male" figID="25">
+    <pin no="4">
+      <line id="37" color="R" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="UI4" sex="female" figID="27">
+          <pin no="3" spec="Before Jan. 2017 Production"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="QU1" sex="male" figID="25">
+    <pin no="4">
+      <line id="37" color="R" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="UI5" sex="female" figID="26">
+          <pin no="1" spec="From Jan. 2017 Production"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="UI4" sex="male" figID="27">
+    <pin no="3" spec="Before Jan. 2017 Production">
+      <line id="38" color="R" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="OI5" sex="male" figID="28">
+          <pin no="9" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="UI4" sex="male" figID="27">
+    <pin no="3" spec="Before Jan. 2017 Production">
+      <line id="38" color="R" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="PI3" sex="male" figID="29">
+          <pin no="4" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="UI5" sex="male" figID="26">
+    <pin no="1" spec="From Jan. 2017 Production">
+      <line id="38" color="R" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="OI5" sex="male" figID="28">
+          <pin no="9" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="UI5" sex="male" figID="26">
+    <pin no="1" spec="From Jan. 2017 Production">
+      <line id="38" color="R" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="PI3" sex="male" figID="29">
+          <pin no="4" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OI5" sex="female" figID="28">
+    <pin no="9" spec="RHD">
+      <line id="39" color="R" spec="4-Door" commtxt="(*1)">
+        <connector type="conn" code="O8" figID="8">
+          <pin no="7" spec="RHD 4-Door"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OI5" sex="female" figID="28">
+    <pin no="9" spec="RHD">
+      <line id="39" color="R" spec="4-Door" commtxt="(*1)">
+        <connector type="conn" code="P9" figID="8">
+          <pin no="9" spec="LHD 4-Door"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="PI3" sex="female" figID="29">
+    <pin no="4" spec="LHD">
+      <line id="39" color="R" spec="4-Door" commtxt="(*1)">
+        <connector type="conn" code="O8" figID="8">
+          <pin no="7" spec="RHD 4-Door"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="PI3" sex="female" figID="29">
+    <pin no="4" spec="LHD">
+      <line id="39" color="R" spec="4-Door" commtxt="(*1)">
+        <connector type="conn" code="P9" figID="8">
+          <pin no="9" spec="LHD 4-Door"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP93" figID="58">
+    <pin>
+      <line id="40" color="L" spec="4-Door" commtxt="(*1)">
+        <connector type="conn" code="O8" figID="8">
+          <pin no="13" spec="RHD 4-Door"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP93" figID="58">
+    <pin>
+      <line id="40" color="L" spec="4-Door" commtxt="(*1)">
+        <connector type="conn" code="O9" figID="8">
+          <pin no="6" spec="RHD 2-Door"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP93" figID="58">
+    <pin>
+      <line id="40" color="L" spec="4-Door" commtxt="(*1)">
+        <connector type="conn" code="P10" figID="8">
+          <pin no="9" spec="LHD 2-Door"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP93" figID="58">
+    <pin>
+      <line id="40" color="L" spec="4-Door" commtxt="(*1)">
+        <connector type="conn" code="P9" figID="8">
+          <pin no="8" spec="LHD 4-Door"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OI5" sex="female" figID="30">
+    <pin no="1" spec="RHD">
+      <line id="41" color="L" spec="2-Door" commtxt="(*2)">
+        <connector type="conn" code="O8" figID="8">
+          <pin no="13" spec="RHD 4-Door"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OI5" sex="female" figID="30">
+    <pin no="1" spec="RHD">
+      <line id="41" color="L" spec="2-Door" commtxt="(*2)">
+        <connector type="conn" code="O9" figID="8">
+          <pin no="6" spec="RHD 2-Door"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="PI3" sex="female" figID="31">
+    <pin no="8" spec="LHD">
+      <line id="41" color="L" spec="2-Door" commtxt="(*2)">
+        <connector type="conn" code="P10" figID="8">
+          <pin no="9" spec="LHD 2-Door"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="PI3" sex="female" figID="31">
+    <pin no="8" spec="LHD">
+      <line id="41" color="L" spec="2-Door" commtxt="(*2)">
+        <connector type="conn" code="P9" figID="8">
+          <pin no="8" spec="LHD 4-Door"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OI5" sex="female" figID="30">
+    <pin no="1" spec="RHD">
+      <line id="42" color="L" spec="4-Door" commtxt="(*1)">
+        <connector type="sp" code="SP93" figID="58">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="PI3" sex="female" figID="31">
+    <pin no="8" spec="LHD">
+      <line id="42" color="L" spec="4-Door" commtxt="(*1)">
+        <connector type="sp" code="SP93" figID="58">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP93" figID="58">
+    <pin>
+      <line id="43" color="L" spec="4-Door" commtxt="(*1)">
+        <connector type="conn" code="O8" figID="8">
+          <pin no="14" spec="RHD 4-Door"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP93" figID="58">
+    <pin>
+      <line id="43" color="L" spec="4-Door" commtxt="(*1)">
+        <connector type="conn" code="P9" figID="8">
+          <pin no="7" spec="LHD 4-Door"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IS2" sex="male" figID="33">
+    <pin no="7">
+      <line id="44" color="L-R" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="RS1" sex="male" figID="32">
+          <pin no="5"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OI5" sex="male" figID="34">
+    <pin no="12" spec="RHD">
+      <line id="45" color="L-R" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="IS2" sex="female" figID="33">
+          <pin no="7"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="PI3" sex="male" figID="35">
+    <pin no="5" spec="LHD">
+      <line id="45" color="L-R" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="IS2" sex="female" figID="33">
+          <pin no="7"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O8" figID="8">
+    <pin no="11" spec="RHD 4-Door">
+      <line id="46" color="L-R" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="OI5" sex="female" figID="34">
+          <pin no="12" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O8" figID="8">
+    <pin no="11" spec="RHD 4-Door">
+      <line id="46" color="L-R" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="PI3" sex="female" figID="35">
+          <pin no="5" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P9" figID="8">
+    <pin no="11" spec="LHD 4-Door">
+      <line id="46" color="L-R" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="OI5" sex="female" figID="34">
+          <pin no="12" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P9" figID="8">
+    <pin no="11" spec="LHD 4-Door">
+      <line id="46" color="L-R" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="PI3" sex="female" figID="35">
+          <pin no="5" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="RS1" sex="male" figID="36">
+    <pin no="4">
+      <line id="47" color="R-B" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="IS2" sex="male" figID="37">
+          <pin no="8"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IS2" sex="female" figID="37">
+    <pin no="8">
+      <line id="48" color="R-B" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="OI5" sex="male" figID="38">
+          <pin no="11" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IS2" sex="female" figID="37">
+    <pin no="8">
+      <line id="48" color="R-B" spec="4-Door" commtxt="(*1)">
+        <connector type="w2w" code="PI3" sex="male" figID="39">
+          <pin no="6" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OI5" sex="female" figID="38">
+    <pin no="11" spec="RHD">
+      <line id="49" color="R-B" spec="4-Door" commtxt="(*1)">
+        <connector type="conn" code="O8" figID="8">
+          <pin no="12" spec="RHD 4-Door"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OI5" sex="female" figID="38">
+    <pin no="11" spec="RHD">
+      <line id="49" color="R-B" spec="4-Door" commtxt="(*1)">
+        <connector type="conn" code="P9" figID="8">
+          <pin no="14" spec="LHD 4-Door"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="PI3" sex="female" figID="39">
+    <pin no="6" spec="LHD">
+      <line id="49" color="R-B" spec="4-Door" commtxt="(*1)">
+        <connector type="conn" code="O8" figID="8">
+          <pin no="12" spec="RHD 4-Door"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="PI3" sex="female" figID="39">
+    <pin no="6" spec="LHD">
+      <line id="49" color="R-B" spec="4-Door" commtxt="(*1)">
+        <connector type="conn" code="P9" figID="8">
+          <pin no="14" spec="LHD 4-Door"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OI4" sex="female" figID="41">
+    <pin no="4" spec="LHD">
+      <line id="50" color="W" spec="LHD" commtxt="(LHD)">
+        <connector type="conn" code="O10" figID="10">
+          <pin no="2" spec="LHD Pick-Up Body Type, 4-Door Except Pick-Up Body Type, Rear Bench Seats 2-Door Except Pick-Up Body Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OI4" sex="female" figID="41">
+    <pin no="4" spec="LHD">
+      <line id="50" color="W" spec="LHD" commtxt="(LHD)">
+        <connector type="conn" code="O11" figID="10">
+          <pin no="5" spec="LHD Rear Forward Facing Seats 2-Door Except Pick-Up Body Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OI4" sex="female" figID="41">
+    <pin no="4" spec="LHD">
+      <line id="50" color="W" spec="LHD" commtxt="(LHD)">
+        <connector type="conn" code="P11" figID="10">
+          <pin no="2" spec="RHD Pick-Up Body Type, 4-Door Except Pick-Up Body Type, Rear Bench Seats 2-Door Except Pick-Up Body Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OI5" sex="male" figID="42">
+    <pin no="8" spec="RHD">
+      <line id="51" color="W">
+        <connector type="w2w" code="OI4" sex="male" figID="41">
+          <pin no="4" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OI5" sex="male" figID="42">
+    <pin no="8" spec="RHD">
+      <line id="51" color="W">
+        <connector type="w2w" code="PI2" sex="male" figID="40">
+          <pin no="4" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="PI3" sex="male" figID="43">
+    <pin no="1" spec="LHD">
+      <line id="51" color="W">
+        <connector type="w2w" code="OI4" sex="male" figID="41">
+          <pin no="4" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="PI3" sex="male" figID="43">
+    <pin no="1" spec="LHD">
+      <line id="51" color="W">
+        <connector type="w2w" code="PI2" sex="male" figID="40">
+          <pin no="4" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O8" figID="8">
+    <pin no="9" spec="RHD 4-Door">
+      <line id="52" color="W">
+        <connector type="w2w" code="OI5" sex="female" figID="42">
+          <pin no="8" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O8" figID="8">
+    <pin no="9" spec="RHD 4-Door">
+      <line id="52" color="W">
+        <connector type="w2w" code="PI3" sex="female" figID="43">
+          <pin no="1" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O9" figID="8">
+    <pin no="5" spec="RHD 2-Door">
+      <line id="52" color="W">
+        <connector type="w2w" code="OI5" sex="female" figID="42">
+          <pin no="8" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O9" figID="8">
+    <pin no="5" spec="RHD 2-Door">
+      <line id="52" color="W">
+        <connector type="w2w" code="PI3" sex="female" figID="43">
+          <pin no="1" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P10" figID="8">
+    <pin no="10" spec="LHD 2-Door">
+      <line id="52" color="W">
+        <connector type="w2w" code="OI5" sex="female" figID="42">
+          <pin no="8" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P10" figID="8">
+    <pin no="10" spec="LHD 2-Door">
+      <line id="52" color="W">
+        <connector type="w2w" code="PI3" sex="female" figID="43">
+          <pin no="1" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P9" figID="8">
+    <pin no="12" spec="LHD 4-Door">
+      <line id="52" color="W">
+        <connector type="w2w" code="OI5" sex="female" figID="42">
+          <pin no="8" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P9" figID="8">
+    <pin no="12" spec="LHD 4-Door">
+      <line id="52" color="W">
+        <connector type="w2w" code="PI3" sex="female" figID="43">
+          <pin no="1" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OI4" sex="female" figID="45">
+    <pin no="5" spec="LHD">
+      <line id="53" color="R-L" spec="LHD" commtxt="(LHD)">
+        <connector type="conn" code="O10" figID="10">
+          <pin no="3" spec="LHD Pick-Up Body Type, 4-Door Except Pick-Up Body Type, Rear Bench Seats 2-Door Except Pick-Up Body Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OI4" sex="female" figID="45">
+    <pin no="5" spec="LHD">
+      <line id="53" color="R-L" spec="LHD" commtxt="(LHD)">
+        <connector type="conn" code="O11" figID="10">
+          <pin no="2" spec="LHD Rear Forward Facing Seats 2-Door Except Pick-Up Body Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OI4" sex="female" figID="45">
+    <pin no="5" spec="LHD">
+      <line id="53" color="R-L" spec="LHD" commtxt="(LHD)">
+        <connector type="conn" code="P11" figID="10">
+          <pin no="3" spec="RHD Pick-Up Body Type, 4-Door Except Pick-Up Body Type, Rear Bench Seats 2-Door Except Pick-Up Body Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OI5" sex="male" figID="46">
+    <pin no="3" spec="RHD">
+      <line id="54" color="R-L">
+        <connector type="w2w" code="OI4" sex="male" figID="45">
+          <pin no="5" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OI5" sex="male" figID="46">
+    <pin no="3" spec="RHD">
+      <line id="54" color="R-L">
+        <connector type="w2w" code="PI2" sex="male" figID="44">
+          <pin no="5" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="PI3" sex="male" figID="47">
+    <pin no="2" spec="LHD">
+      <line id="54" color="R-L">
+        <connector type="w2w" code="OI4" sex="male" figID="45">
+          <pin no="5" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="PI3" sex="male" figID="47">
+    <pin no="2" spec="LHD">
+      <line id="54" color="R-L">
+        <connector type="w2w" code="PI2" sex="male" figID="44">
+          <pin no="5" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O8" figID="8">
+    <pin no="2" spec="RHD 4-Door">
+      <line id="55" color="R-L">
+        <connector type="w2w" code="OI5" sex="female" figID="46">
+          <pin no="3" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O8" figID="8">
+    <pin no="2" spec="RHD 4-Door">
+      <line id="55" color="R-L">
+        <connector type="w2w" code="PI3" sex="female" figID="47">
+          <pin no="2" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O9" figID="8">
+    <pin no="8" spec="RHD 2-Door">
+      <line id="55" color="R-L">
+        <connector type="w2w" code="OI5" sex="female" figID="46">
+          <pin no="3" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O9" figID="8">
+    <pin no="8" spec="RHD 2-Door">
+      <line id="55" color="R-L">
+        <connector type="w2w" code="PI3" sex="female" figID="47">
+          <pin no="2" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P10" figID="8">
+    <pin no="7" spec="LHD 2-Door">
+      <line id="55" color="R-L">
+        <connector type="w2w" code="OI5" sex="female" figID="46">
+          <pin no="3" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P10" figID="8">
+    <pin no="7" spec="LHD 2-Door">
+      <line id="55" color="R-L">
+        <connector type="w2w" code="PI3" sex="female" figID="47">
+          <pin no="2" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P9" figID="8">
+    <pin no="5" spec="LHD 4-Door">
+      <line id="55" color="R-L">
+        <connector type="w2w" code="OI5" sex="female" figID="46">
+          <pin no="3" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P9" figID="8">
+    <pin no="5" spec="LHD 4-Door">
+      <line id="55" color="R-L">
+        <connector type="w2w" code="PI3" sex="female" figID="47">
+          <pin no="2" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O8" figID="8">
+    <pin no="8" spec="RHD 4-Door">
+      <line id="56" color="R">
+        <connector type="conn" code="O2" figID="2">
+          <pin no="1" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O8" figID="8">
+    <pin no="8" spec="RHD 4-Door">
+      <line id="56" color="R">
+        <connector type="conn" code="P2" figID="2">
+          <pin no="1" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O9" figID="8">
+    <pin no="1" spec="RHD 2-Door">
+      <line id="56" color="R">
+        <connector type="conn" code="O2" figID="2">
+          <pin no="1" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O9" figID="8">
+    <pin no="1" spec="RHD 2-Door">
+      <line id="56" color="R">
+        <connector type="conn" code="P2" figID="2">
+          <pin no="1" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P10" figID="8">
+    <pin no="4" spec="LHD 2-Door">
+      <line id="56" color="R">
+        <connector type="conn" code="O2" figID="2">
+          <pin no="1" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P10" figID="8">
+    <pin no="4" spec="LHD 2-Door">
+      <line id="56" color="R">
+        <connector type="conn" code="P2" figID="2">
+          <pin no="1" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P9" figID="8">
+    <pin no="13" spec="LHD 4-Door">
+      <line id="56" color="R">
+        <connector type="conn" code="O2" figID="2">
+          <pin no="1" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P9" figID="8">
+    <pin no="13" spec="LHD 4-Door">
+      <line id="56" color="R">
+        <connector type="conn" code="P2" figID="2">
+          <pin no="1" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O8" figID="8">
+    <pin no="1" spec="RHD 4-Door">
+      <line id="57" color="G">
+        <connector type="conn" code="O2" figID="2">
+          <pin no="2" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O8" figID="8">
+    <pin no="1" spec="RHD 4-Door">
+      <line id="57" color="G">
+        <connector type="conn" code="P2" figID="2">
+          <pin no="2" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O9" figID="8">
+    <pin no="2" spec="RHD 2-Door">
+      <line id="57" color="G">
+        <connector type="conn" code="O2" figID="2">
+          <pin no="2" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O9" figID="8">
+    <pin no="2" spec="RHD 2-Door">
+      <line id="57" color="G">
+        <connector type="conn" code="P2" figID="2">
+          <pin no="2" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P10" figID="8">
+    <pin no="3" spec="LHD 2-Door">
+      <line id="57" color="G">
+        <connector type="conn" code="O2" figID="2">
+          <pin no="2" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P10" figID="8">
+    <pin no="3" spec="LHD 2-Door">
+      <line id="57" color="G">
+        <connector type="conn" code="P2" figID="2">
+          <pin no="2" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P9" figID="8">
+    <pin no="6" spec="LHD 4-Door">
+      <line id="57" color="G">
+        <connector type="conn" code="O2" figID="2">
+          <pin no="2" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P9" figID="8">
+    <pin no="6" spec="LHD 4-Door">
+      <line id="57" color="G">
+        <connector type="conn" code="P2" figID="2">
+          <pin no="2" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I93" figID="6">
+    <pin no="1">
+      <line id="58" color="W-B" spec="RHD" commtxt="(RHD)">
+        <connector type="gp" code="IA" figID="50">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP66" figID="59">
+    <pin>
+      <line id="59" color="W-B" spec="LHD" commtxt="(LHD)">
+        <connector type="gp" code="IC" figID="51">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OI5" sex="male" figID="48">
+    <pin no="2" spec="RHD">
+      <line id="60" color="W-B" spec="RHD" commtxt="(RHD)">
+        <connector type="conn" code="I93" figID="6">
+          <pin no="11"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="PI3" sex="male" figID="49">
+    <pin no="12" spec="LHD">
+      <line id="61" color="W-B" spec="LHD" commtxt="(LHD)">
+        <connector type="sp" code="SP66" figID="59">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP88" figID="60">
+    <pin>
+      <line id="62" color="W-B">
+        <connector type="w2w" code="OI5" sex="female" figID="48">
+          <pin no="2" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP88" figID="60">
+    <pin>
+      <line id="62" color="W-B">
+        <connector type="w2w" code="PI3" sex="female" figID="49">
+          <pin no="12" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O8" figID="8">
+    <pin no="6" spec="RHD 4-Door">
+      <line id="63" color="W-B">
+        <connector type="sp" code="SP88" figID="60">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O9" figID="8">
+    <pin no="9" spec="RHD 2-Door">
+      <line id="63" color="W-B">
+        <connector type="sp" code="SP88" figID="60">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P10" figID="8">
+    <pin no="6" spec="LHD 2-Door">
+      <line id="63" color="W-B">
+        <connector type="sp" code="SP88" figID="60">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P9" figID="8">
+    <pin no="1" spec="LHD 4-Door">
+      <line id="63" color="W-B">
+        <connector type="sp" code="SP88" figID="60">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O8" figID="8">
+    <pin no="5" spec="RHD 4-Door">
+      <line id="64" color="W-B" spec="4-Door" commtxt="(*1)">
+        <connector type="sp" code="SP88" figID="60">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="P9" figID="8">
+    <pin no="2" spec="LHD 4-Door">
+      <line id="64" color="W-B" spec="4-Door" commtxt="(*1)">
+        <connector type="sp" code="SP88" figID="60">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="26">
+    <pin>
+      <line id="74" color="" dir="none">
+        <connector type="w2w" code="" figID="27">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="46">
+    <pin>
+      <line id="75" color="" dir="none">
+        <connector type="w2w" code="" figID="47">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="38">
+    <pin>
+      <line id="76" color="" dir="none">
+        <connector type="w2w" code="" figID="39">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="28">
+    <pin>
+      <line id="77" color="" dir="none">
+        <connector type="w2w" code="" figID="29">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="34">
+    <pin>
+      <line id="78" color="" dir="none">
+        <connector type="w2w" code="" figID="35">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="23">
+    <pin>
+      <line id="79" color="" dir="none">
+        <connector type="w2w" code="" figID="24">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="40">
+    <pin>
+      <line id="80" color="" dir="none">
+        <connector type="w2w" code="" figID="41">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="45">
+    <pin>
+      <line id="81" color="" dir="none">
+        <connector type="w2w" code="" figID="44">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="18">
+    <pin>
+      <line id="82" color="" dir="none">
+        <connector type="w2w" code="" figID="19">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="21">
+    <pin>
+      <line id="83" color="" dir="none">
+        <connector type="w2w" code="" figID="22">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="42">
+    <pin>
+      <line id="84" color="" dir="none">
+        <connector type="w2w" code="" figID="43">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="48">
+    <pin>
+      <line id="85" color="" dir="none">
+        <connector type="w2w" code="" figID="49">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="14">
+    <pin>
+      <line id="86" color="" dir="none">
+        <connector type="w2w" code="" figID="13">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="31">
+    <pin>
+      <line id="87" color="" dir="none">
+        <connector type="w2w" code="" figID="30">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+</connectionList>

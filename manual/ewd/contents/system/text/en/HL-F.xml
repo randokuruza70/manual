@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25T2E" style="font-size:6px;font-family:'Arial'" ver="2.1.2.9">
+	<text textID="1">* 6 :1GR-FE, RHD 1HZ 24V Battery Type</text>
+	<text textID="2">* 7 :1VD-FTV, RHD 1HZ 12V Battery Type</text>
+	<text textID="3">* 8 :1GR-FE, 1VD-FTV, 1HZ 12V Battery Type</text>
+	<text textID="4">* 9 :1HZ 24V Battery Type</text>
+	<text textID="5">*10 :1HZ 12V Battery Type</text>
+	<text textID="6">Combination Meter Assembly</text>
+	<text textID="7">DIM Relay</text>
+	<text textID="8">Dimmer Switch</text>
+	<text textID="9">Flash</text>
+	<text textID="10">H-LP Relay</text>
+	<text textID="11">Head</text>
+	<text textID="12">Headlight Assembly LH</text>
+	<text textID="13">Headlight Assembly RH</text>
+	<text textID="14">Headlight Dimmer Switch Assembly</text>
+	<text textID="15">High</text>
+	<text textID="16">High Beam</text>
+	<text textID="17">Light Control Switch</text>
+	<text textID="18">Low</text>
+	<text textID="19">No. 1 Junction Connector</text>
+	<text textID="20">No. 12 Junction Connector</text>
+	<text textID="21">No. 12 Junction Connector , No. 20 Junction Connector</text>
+	<text textID="22">No. 20 Junction Connector</text>
+	<text textID="23">No. 24 Junction Connector</text>
+	<text textID="24">No. 24 Junction Connector , No. 26 Junction Connector</text>
+	<text textID="25">No. 26 Junction Connector</text>
+	<text textID="26">No. 31 Junction Connector</text>
+	<text textID="27">Tail</text>
+</texts>

@@ -1,0 +1,915 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_57</span>
+<span class="globalServcatName">Power Source / Network</span>
+<span class="globalSection">_057931</span>
+<span class="globalSectionName">NETWORKING</span>
+<span class="globalTitle">_0285332</span>
+<span class="globalTitleName">CAN COMMUNICATION SYSTEM(w/ VSC)</span>
+<span class="globalCategory">D</span>
+</div>
+<h1>NETWORKING&nbsp;&nbsp;CAN COMMUNICATION SYSTEM(w/ VSC)&nbsp;&nbsp;DTC COMBINATION TABLE&nbsp;&nbsp;</h1>
+<br>
+<div id="RM1000000010U8S_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">HOW TO INTERPRET COMMUNICATION DTCS (DTCS THAT START WITH U)
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>If a CAN communication error cannot be reproduced, determine the suspected malfunctioning part using the DTCs stored in ECUs that are connected to the CAN buses by following the procedure below.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>Communication DTCs (DTCs that start with U) indicate a communication error between the ECU that stores the DTC and the ECU that is indicated by the DTC.
+</p>
+</dd>
+</dl>
+<br>
+<div class="step3">
+<div class="step3Item step3HasFigure">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>If multiple ECUs store a communication DTC for a particular ECU, a communication stop of the ECU is suspected.
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/C253779C05.png" alt="C253779C05" title="C253779C05">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">6.904,0.248 7.148,0.437</span>
+<span class="captionSize">0.244,0.189</span>
+<span class="fontsize">10</span>
+<span class="captionText">: *a</span>
+</span>
+<span class="caption">
+<span class="points">4.43,0.174 5.346,0.397</span>
+<span class="captionSize">0.916,0.223</span>
+<span class="fontsize">10</span>
+<span class="captionText">Tester display</span>
+</span>
+<span class="caption">
+<span class="points">2.194,0.173 3.048,0.376</span>
+<span class="captionSize">0.854,0.204</span>
+<span class="fontsize">10</span>
+<span class="captionText">Output DTC</span>
+</span>
+<span class="caption">
+<span class="points">0.723,0.177 1.53,0.381</span>
+<span class="captionSize">0.808,0.204</span>
+<span class="fontsize">10</span>
+<span class="captionText">Output from</span>
+</span>
+</div>
+</div>
+<table summary="caption-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:39%">
+<col style="width:10%">
+<col style="width:39%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td class="alleft">Items to be Checked
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This DTC table is from another model, and is only used here to show an example of DTCs that are output when there is an open in a CAN branch line for the main body ECU. This table does not show DTCs applicable to this vehicle.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Even though a DTC title may indicate a communication error with a specific ECU, the ECU name used in the DTC name on the GTS may differ depending on the ECU that stores the DTC. (Regarding output DTCs, refer to DTC Table by ECU.)
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>As multiple ECUs indicate a communication stop with the main body ECU, the possibility of a communication stop of the main body ECU is high.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item step3HasFigure">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>If almost all of the communication DTCs of an ECU are stored, a communication stop of the ECU is suspected.
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/C253780C04.png" alt="C253780C04" title="C253780C04">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">6.896,0.271 7.156,0.458</span>
+<span class="captionSize">0.26,0.188</span>
+<span class="fontsize">10</span>
+<span class="captionText">: *a</span>
+</span>
+<span class="caption">
+<span class="points">4.417,0.167 5.333,0.385</span>
+<span class="captionSize">0.917,0.219</span>
+<span class="fontsize">10</span>
+<span class="captionText">Tester display</span>
+</span>
+<span class="caption">
+<span class="points">2.188,0.167 3.042,0.375</span>
+<span class="captionSize">0.854,0.208</span>
+<span class="fontsize">10</span>
+<span class="captionText">Output DTC</span>
+</span>
+<span class="caption">
+<span class="points">0.719,0.177 1.531,0.385</span>
+<span class="captionSize">0.813,0.208</span>
+<span class="fontsize">10</span>
+<span class="captionText">Output from</span>
+</span>
+</div>
+</div>
+<table summary="caption-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:39%">
+<col style="width:10%">
+<col style="width:39%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td class="alleft">Items to be Checked
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>This DTC table is from another model, and is only used here to show an example of DTCs that are output when there is an open in a CAN branch line for the main body ECU. This table does not show DTCs applicable to this vehicle.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Even though a DTC title may indicate a communication error with a specific ECU, the ECU name used in the DTC name on the GTS may differ depending on the ECU that stores the DTC. (Regarding output DTCs, refer to DTC Table by ECU.)
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If almost all of the DTCs of the main body ECU are stored, the possibility of a communication stop of the main body ECU is high.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When a CAN communication error occurs, many DTCs are output. DTCs other than communication error DTCs (such as DTCs that start with C or B) and communication DTCs for the ABS system are important DTCs, however it may be easier to determine the malfunctioning part by examining the overall situation without considering these DTCs.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>To help determine the part of the sub bus that has a communication error, prioritize the communication stop DTCs stored in the gateway function equipped ECU.
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/C240704C06.png" alt="C240704C06" title="C240704C06">
+<div class="indicateinfo">
+<span class="line">
+<span class="points">3.615,0.333 3.823,0.333</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">1.313,1.813 1.052,2.354</span>
+<span class="points">1.052,2.354 0.875,2.354</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">4.833,0.333 5.115,0.531</span>
+<span class="captionSize">0.281,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">: *d</span>
+</span>
+<span class="caption">
+<span class="points">3.854,0.26 4.042,0.458</span>
+<span class="captionSize">0.188,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*f</span>
+</span>
+<span class="caption">
+<span class="points">3.656,0.844 3.844,1.042</span>
+<span class="captionSize">0.188,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*c</span>
+</span>
+<span class="caption">
+<span class="points">0.427,1.677 0.615,1.875</span>
+<span class="captionSize">0.188,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*b</span>
+</span>
+<span class="caption">
+<span class="points">0.698,2.26 0.885,2.458</span>
+<span class="captionSize">0.188,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*e</span>
+</span>
+<span class="caption">
+<span class="points">0.896,2.708 1.698,2.906</span>
+<span class="captionSize">0.802,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Output from</span>
+</span>
+<span class="caption">
+<span class="points">2.49,2.708 3.292,2.906</span>
+<span class="captionSize">0.802,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Output DTC</span>
+</span>
+<span class="caption">
+<span class="points">4.625,2.698 5.573,2.896</span>
+<span class="captionSize">0.948,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Tester display</span>
+</span>
+<span class="caption">
+<span class="points">1.135,4.49 1.438,4.688</span>
+<span class="captionSize">0.302,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">: *a</span>
+</span>
+</div>
+</div>
+<table summary="caption-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:39%">
+<col style="width:10%">
+<col style="width:39%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td class="alleft">Items to be Checked
+</td>
+<td class="alcenter">*b
+</td>
+<td class="alleft">ECM
+</td>
+</tr>
+<tr>
+<td class="alcenter">*c
+</td>
+<td class="alleft">Gateway function equipped ECU
+</td>
+<td class="alcenter">*d
+</td>
+<td class="alleft">Location of malfunction
+</td>
+</tr>
+<tr>
+<td class="alcenter">*e
+</td>
+<td class="alleft">Central bus
+</td>
+<td class="alcenter">*f
+</td>
+<td class="alleft">Sub bus
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3">
+<p>This DTC table is from another model, and is only used here to show the ECUs connected to both a central bus and a sub bus. It shows DTCs output when there is an open in the main bus lines for the ECM on the sub bus. This table does not show DTCs applicable to this vehicle.
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>As gateway function equipped ECUs (sub bus monitor ECU) monitor signals from all ECUs that are connected to sub buses, gateway function equipped ECUs can detect ECUs with a communication stop more accurately.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When there is a communication stop for the gateway function equipped ECU (gateway), communication with ECUs connected to other buses such as the central bus stops. Therefore, communication DTCs for ECUs connected to other buses are also stored.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>When any of the following malfunctions occurs, many DTCs are likely to be output from many ECUs. Because of this, it may be difficult to determine the probable malfunctioning part.
+</p>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Short between CAN lines (CANH and CANL)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Short between a CAN line (CANH or CANL) and ground
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Short between a CAN line (CANH or CANL) and +B
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Open in a CAN branch line (CANH or CANL) of an ECU or sensor
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Open in a CAN main bus line (CANH or CANL) between 2 ECUs that have a terminating resistor
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">DTC COMBINATION TABLE (OPEN IN CAN BRANCH OF V BUS, PAST COMMUNICATION ERROR)
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>Regarding the past communication error of ECUs and sensors connected to the V bus (in this case, normal was displayed when performing the CAN bus check, but communication DTCs are output), the probable CAN branch that had a malfunction can be determined based on the following DTC combination table.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Based on the table below and DTCs output from ECUs connected via CAN communication, the probable part for which communication stop occurred can be determined.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Regarding an open in a CAN branch and a communication stop that is currently occurring, the malfunctioning part can be confirmed easily by performing the CAN bus check using the GTS because the ECU or sensor connected to the CAN branch does not respond (the ECU or sensor name will not be displayed on the screen).
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If an open in a CAN main bus wire, a short between the CAN bus lines (CANH and CANL) or a +B or ground short in the CAN bus occurs, DTCs of almost all ECUs (or sensors) on the CAN bus may be output, or a message indicating a communication error may be displayed on the GTS screen. In this case, check the resistance of the CAN bus (steps 7 to 9) first.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Power Source / Network&gt;NETWORKING&gt;CAN COMMUNICATION SYSTEM(w/ VSC)&gt;HOW TO PROCEED WITH TROUBLESHOOTING<span class="invisible">201608,999999,_57,_057931,_0285332,RM100000000ZBAK,</span></a>
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If an open occurs in just one of the lines of a CAN branch, DTCs which are not related to malfunctioning parts may be output (DTCs may be displayed randomly), or a message indicating a communication error may be displayed.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>○: DTC is output.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>-: DTC is not output.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*: DTC U0073 may be stored when communication is lost.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<table summary="">
+<colgroup>
+<col style="width:16%">
+<col style="width:14%">
+<col style="width:16%">
+<col style="width:16%">
+<col style="width:16%">
+<col style="width:17%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter" rowspan="3">Output from
+</th>
+<th class="alcenter" rowspan="3">Output DTC
+</th>
+<th class="alcenter" colspan="4">Trouble Mode
+</th>
+</tr>
+<tr>
+<th class="alcenter" colspan="4">V Bus
+</th>
+</tr>
+<tr>
+<th class="alcenter">Skid Control ECU Communication Stop Mode
+<br>
+(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">201608,999999,_57,_057931,_0285332,RM100000000ZBAP,</span></a>)
+</th>
+<th class="alcenter">Steering Angle Sensor Communication Stop Mode
+<br>
+(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">201608,999999,_57,_057931,_0285332,RM100000000ZBCG,</span></a>)
+</th>
+<th class="alcenter">Center Airbag Sensor Communication Stop Mode
+<br>
+(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">201608,999999,_57,_057931,_0285332,RM100000000ZBAT,</span></a>)
+</th>
+<th class="alcenter">DLC3
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter" rowspan="3">Brake Actuator Assembly (Skid Control ECU)*
+</td>
+<td class="alcenter">U0100
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">U0124
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">U0126
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="3">Combination Meter Assembly
+</td>
+<td class="alcenter">U0100
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">U0129
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">U0151
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">ECM
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">Spiral with Sensor Cable Sub-assembly (Steering Angle Sensor)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">Airbag Sensor Assembly
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table summary="">
+<colgroup>
+<col style="width:25%">
+<col style="width:23%">
+<col style="width:25%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter" rowspan="3">Output from
+</th>
+<th class="alcenter" rowspan="3">Output DTC
+</th>
+<th class="alcenter" colspan="2">Trouble Mode
+</th>
+</tr>
+<tr>
+<th class="alcenter" colspan="2">V Bus
+</th>
+</tr>
+<tr>
+<th class="alcenter">ECM Communication Stop Mode
+<br>
+(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">201608,999999,_57,_057931,_0285332,RM100000000ZBAR,</span></a>)
+</th>
+<th class="alcenter">Combination Meter ECU Communication Stop Mode
+<br>
+(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">201608,999999,_57,_057931,_0285332,RM100000000ZBAS,</span></a>)
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter" rowspan="3">Brake Actuator Assembly (Skid Control ECU)*
+</td>
+<td class="alcenter">U0100
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">U0124
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">U0126
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="3">Combination Meter Assembly
+</td>
+<td class="alcenter">U0100
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alcenter">U0129
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alcenter">U0151
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alcenter">ECM
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">Spiral with Sensor Cable Sub-assembly (Steering Angle Sensor)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">Airbag Sensor Assembly
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table summary="">
+<colgroup>
+<col style="width:34%">
+<col style="width:30%">
+<col style="width:34%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter" rowspan="3">Output from
+</th>
+<th class="alcenter" rowspan="3">Output DTC
+</th>
+<th class="alcenter">Trouble Mode
+</th>
+</tr>
+<tr>
+<th class="alcenter">V Bus
+</th>
+</tr>
+<tr>
+<th class="alcenter">CANH - CANL
+<br>
+CANH - GND
+<br>
+CANL - GND
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter" rowspan="3">Brake Actuator Assembly (Skid Control ECU)*
+</td>
+<td class="alcenter">U0100
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alcenter">U0124
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alcenter">U0126
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="3">Combination Meter Assembly
+</td>
+<td class="alcenter">U0100
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alcenter">U0129
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alcenter">U0151
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alcenter">ECM
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">Spiral with Sensor Cable Sub-assembly (Steering Angle Sensor)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">Airbag Sensor Assembly
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

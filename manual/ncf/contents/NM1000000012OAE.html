@@ -1,0 +1,382 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">NM25T0E</span>
+<span class="globalServcat">_53</span>
+<span class="globalServcatName">Suspension</span>
+<span class="globalSection">_062799</span>
+<span class="globalSectionName">TIRE PRESSURE MONITORING</span>
+<span class="globalTitle">_0306387</span>
+<span class="globalTitleName">TIRE PRESSURE WARNING SYSTEM</span>
+<span class="globalSubTitle">CO</span>
+<span class="globalSubTitleName">CONTROL</span>
+<span class="globalCategory">F</span>
+</div>
+<h1>TIRE PRESSURE MONITORING&nbsp;&nbsp;TIRE PRESSURE WARNING SYSTEM&nbsp;&nbsp;CONTROL&nbsp;&nbsp;TIRE PRESSURE WARNING CONTROL&nbsp;&nbsp;</h1>
+<br>
+<div id="NM1000000012OAE_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">FUNCTION OF MAIN COMPONENTS
+</span></p>
+<br>
+<table summary="">
+<colgroup>
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:59%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter" colspan="2">Component
+</th>
+<th class="alcenter">Function
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft" colspan="2">Tire Pressure Warning Valve and Transmitter
+</td>
+<td class="alleft">Detects the tire pressure, internal temperature and rotational acceleration of the tire, and transmits the measured values and the ID code to the tire pressure warning ECU and receiver.
+</td>
+</tr>
+<tr>
+<td class="alleft" colspan="2">Tire Pressure Warning ECU and Receiver
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Receives the data from the tire pressure warning valve and transmitter and monitors the tire inflation pressure.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Outputs the respective signal to the combination meter assembly when a drop in the tire inflation pressure, a system malfunction or the beginning of initialization is detected.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft" colspan="2">Tire Pressure Warning Reset Switch
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The warning threshold is calculated from the tire inflation pressure value at the time of initialization and memorized in the tire pressure warning ECU and receiver by operating the tire pressure warning reset switch.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Selects the wheel set.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft" rowspan="2">Combination Meter Assembly
+</td>
+<td class="alleft">Tire Pressure Warning Light
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Illuminates or stays on after blinking for 1 minute to warn the driver in accordance with the signal from the tire pressure warning system.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Flashes 3 times after initialization.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Displays the 2-digit Diagnostic Trouble Code (DTC).
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Speedometer
+</td>
+<td class="alleft">Sends a vehicle speed signal to the tire pressure warning ECU and receiver.
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">FUNCTION
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>Warning Function
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>When any of the following conditions are met, the tire pressure warning system illuminates the tire pressure warning light to warn the driver.
+</p>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When the tire pressure decreases to approximately 75% or less of the default tire pressure set during system initialization.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When the tire pressure decreases to approximately 75% or less of the tire pressure when warm.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When driving for a certain period of time after the system has been initialized, the system corrects the tire pressure set during initialization according to the vehicle driving conditions and sets the tire pressure when warm.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>The tire pressure warning system has 2 warning methods which are used depending on the condition detected.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iii.</div>
+<div class="step3Body">
+<p>The table below shows the warning methods for the tire pressure warning light in the combination meter assembly:
+</p>
+<table summary="">
+<colgroup>
+<col style="width:54%">
+<col style="width:45%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Detection Condition
+</th>
+<th class="alcenter">Tire Pressure Warning Light
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">The tire pressure warning system has detected that the tire pressure has become lower than the warning threshold.
+</td>
+<td class="alcenter">Illuminates*1
+</td>
+</tr>
+<tr>
+<td class="alleft">The tire pressure warning system has detected a malfunction in the system.
+</td>
+<td class="alcenter">Illuminates after blinking for 1 minute*2
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>*1: If the tire pressure warning light illuminates, adjust the tire pressure.
+</p>
+</dd>
+<dd class="atten4">
+<p>*2: If the tire pressure warning light stays on after blinking for 1 minute, the system is malfunctioning and must be repaired in order to turn off the light. For details, refer to the Repair Manual.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>Initial Check Function
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>After the ignition switch is ON, the tire pressure warning ECU and receiver illuminates the tire pressure warning light for 3 seconds to check the warning light circuits.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>Initialization Function
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>The warning threshold is calculated from the tire inflation pressure value and memorized in the tire pressure warning ECU and receiver. Therefore, the tire pressure warning ECU and receiver should be initialized after:
+</p>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The recommended tire inflation pressure changes due to changes in vehicle weight or speed conditions.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The tire pressure warning ECU and receiver or the tire pressure warning valve and transmitter is replaced.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The tires are rotated on a vehicle with different recommended tire inflation pressures for the front and rear tires.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The tire pressure is adjusted.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>Initialization starts after the tire pressure warning reset switch is pressed and held (with the ignition switch ON and with the vehicle stopped) and the tire pressure warning light illuminates slowly 3 times.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iii.</div>
+<div class="step3Body">
+<p>Before performing initialization, adjust the tire inflation pressure to the recommended pressure when the tires are cold. For details, refer to the Repair Manual.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">DIAGNOSIS
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>To inform the driver when the tire pressure warning ECU and receiver detects a malfunction in the system, the tire pressure warning ECU and receiver blinks the tire pressure warning light for 1 minute, after which the light stays on. The tire pressure warning ECU and receiver also stores the Diagnostic Trouble Codes (DTCs) in memory.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>5-digit DTCs can be read by connecting a Global TechStream (GTS) to the DLC3. For details, refer to the Repair Manual.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

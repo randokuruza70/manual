@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <note id="RL001" icon="P">
+    <name>Relay Location</name>
+    <book id="RELAY_RL008">
+      <name>Engine Room R/B Assembly</name>
+      <note id="RL001_RL008">
+        <name>Engine Room R/B Assembly</name>
+      </note>
+      <note id="RL001_RL008-Inn">
+        <name>Inner Circuit</name>
+      </note>
+    </book>
+    <book id="RELAY_RL010">
+      <name>Fusible Link Block Assembly</name>
+      <note id="RL001_RL010">
+        <name>Fusible Link Block Assembly</name>
+        <text code="3I" type="jbc">
+          <name>3I</name>
+        </text>
+        <text code="3H" type="jbc">
+          <name>3H</name>
+        </text>
+        <text code="3G" type="jbc">
+          <name>3G</name>
+        </text>
+        <text code="3F" type="jbc">
+          <name>3F</name>
+        </text>
+        <text code="3B" type="jbc">
+          <name>3B</name>
+        </text>
+        <text code="3C" type="jbc">
+          <name>3C</name>
+        </text>
+        <text code="3D" type="jbc">
+          <name>3D</name>
+        </text>
+        <text code="3E" type="jbc">
+          <name>3E</name>
+        </text>
+        <text code="3A" type="jbc">
+          <name>3A</name>
+        </text>
+      </note>
+      <note id="RL001_RL010-Inn">
+        <name>Inner Circuit</name>
+        <text code="3B" type="jbc">
+          <name>3B</name>
+        </text>
+        <text code="3C" type="jbc">
+          <name>3C</name>
+        </text>
+        <text code="3D" type="jbc">
+          <name>3D</name>
+        </text>
+        <text code="3E" type="jbc">
+          <name>3E</name>
+        </text>
+        <text code="3F" type="jbc">
+          <name>3F</name>
+        </text>
+        <text code="3G" type="jbc">
+          <name>3G</name>
+        </text>
+        <text code="3H" type="jbc">
+          <name>3H</name>
+        </text>
+        <text code="3I" type="jbc">
+          <name>3I</name>
+        </text>
+        <text code="3A" type="jbc">
+          <name>3A</name>
+        </text>
+      </note>
+    </book>
+    <book id="RELAY_RL011">
+      <name>Fuse Block Assembly</name>
+      <note id="RL001_RL011">
+        <name>Fuse Block Assembly</name>
+        <text code="4B" type="jbc">
+          <name>4B</name>
+        </text>
+        <text code="4A" type="jbc">
+          <name>4A</name>
+        </text>
+      </note>
+      <note id="RL001_RL011-Inn">
+        <name>Inner Circuit</name>
+        <text code="4A" type="jbc">
+          <name>4A</name>
+        </text>
+        <text code="4B" type="jbc">
+          <name>4B</name>
+        </text>
+      </note>
+    </book>
+  </note>
+</EwdTree>

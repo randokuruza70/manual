@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25T2E" style="font-size:6px;font-family:'Arial'" ver="2.1.2.9">
+	<text textID="1">* 7 :RHD 1GR-FE,1HZ 24V Battery Type</text>
+	<text textID="2">*10 :1HZ 12V Battery Type</text>
+	<text textID="3">*11 :1GR-FE, 1VD-FTV, 1HZ 12V Battery Type</text>
+	<text textID="4">*12 :1HZ 24V Battery Type</text>
+	<text textID="5">*13 :w/ ABS w/o VSC</text>
+	<text textID="6">*14 :w/o ABS</text>
+	<text textID="7">*15 :w/ VSC</text>
+	<text textID="8">*16 :w/o VSC</text>
+	<text textID="9">2-4 CHG Relay</text>
+	<text textID="10">Brake Actuator Assembly</text>
+	<text textID="11">Center Differential Lock Indicator Switch (No. 1 Transfer Indicator Switch)</text>
+	<text textID="12">Combination Meter Assembly</text>
+	<text textID="13">Diode (Transfer L4 Position Switch)</text>
+	<text textID="14">Four Wheel Drive Control Solenoid Assembly</text>
+	<text textID="15">No. 1 Junction Connector</text>
+	<text textID="16">No. 2 Four Wheel Drive Control ECU</text>
+	<text textID="17">No. 2 Junction Connector</text>
+	<text textID="18">No. 8 Junction Connector</text>
+	<text textID="19">No. 9 Junction Connector</text>
+	<text textID="20">No. 9 Junction Connector , No. 36 Junction Connector , No. 21 Junction Connector</text>
+	<text textID="21">No. 11 Junction Connector</text>
+	<text textID="22">No. 11 Junction Connector , No. 19 Junction Connector</text>
+	<text textID="23">No. 19 Junction Connector</text>
+	<text textID="24">No. 21 Junction Connector</text>
+	<text textID="25">No. 34 Junction Connector</text>
+	<text textID="26">No. 36 Junction Connector</text>
+	<text textID="27">Transfer L4 Position Switch (No. 1 Transfer Indicator Switch)</text>
+	<text textID="28">Transmission Control Switch</text>
+</texts>

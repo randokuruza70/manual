@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- #  DTD VERSION 1.7  UPDATE Dec. 04, 2014    -->
+<!ELEMENT tmc-service-wn-comment (pub)>
+<!ELEMENT pub (section+)>
+<!ATTLIST pub
+	id ID #REQUIRED
+>
+<!ELEMENT section (name, ttl)>
+<!ELEMENT ttl (name, subttl)>
+<!ELEMENT subttl (name, para)>
+<!ELEMENT para (name, attr-name, reas-name, file-path)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT attr-name (#PCDATA)>
+<!ELEMENT reas-name (#PCDATA)>
+<!ELEMENT file-path (#PCDATA)>

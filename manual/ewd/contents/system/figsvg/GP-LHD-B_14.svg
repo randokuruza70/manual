@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'ArialMT';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'ArialMT';">
+	<!ENTITY st11 "font-size:9px;font-family:'Svg Symbol';">
+	<!ENTITY st12 "font-size:6px;font-family:'Svg Symbol';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'Arial';">
+	<!ENTITY st19 "font-size:9px;font-family:'Arial';">
+	<!ENTITY st20 "font-size:6px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 6731.584 710.000" viewBox="0 0 6731.584 710.000" height="710.000" width="6731.584" xml:space="preserve" ewd:ver="2.1.2.9" xmlns="&ns_svg;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:xlink="&ns_xlink;">
+<text style="&st18;" transform="matrix(&st16;  6672.23  468.34 )" ewd:textID="101">Rear Window <tspan x="0 " dy="6.0">Defogger (Back </tspan><tspan x="0 " dy="6.0">Door Glass RH)</tspan></text><text style="&st18;" transform="matrix(&st16;  6672.23  51.91 )" ewd:textID="46">Front Seat <tspan x="0 " dy="6.0">Inner Belt </tspan><tspan x="0 " dy="6.0">Assembly LH</tspan></text><text style="&st18;" transform="matrix(&st16;  6672.23  655.31 )" ewd:textID="97">Rear <tspan x="0 " dy="6.0">Combination </tspan><tspan x="0 " dy="6.0">Light </tspan><tspan x="0 " dy="6.0">Assembly RH</tspan></text><text style="&st18;" transform="matrix(&st16;  6672.23  604.32 )" ewd:textID="97">Rear <tspan x="0 " dy="6.0">Combination </tspan><tspan x="0 " dy="6.0">Light </tspan><tspan x="0 " dy="6.0">Assembly RH</tspan></text><text style="&st18;" transform="matrix(&st16;  6672.23  561.83 )" ewd:textID="34">Differential <tspan x="0 " dy="6.0">Lock Shift </tspan><tspan x="0 " dy="6.0">Actuator</tspan></text><text style="&st18;" transform="matrix(&st16;  6672.23  510.84 )" ewd:textID="98">Rear <tspan x="0 " dy="6.0">Differential </tspan><tspan x="0 " dy="6.0">Lock Position </tspan><tspan x="0 " dy="6.0">Switch</tspan></text><text style="&st18;" transform="matrix(&st16;  6588.44  40.58 )">W-B</text><text style="&st18;" transform="matrix(&st16;  6558.72  457.01 )">B</text><text style="&st18;" transform="matrix(&st16;  6618.21  457.01 )">B</text><text style="&st18;" transform="matrix(&st16;  6672.22  44.81 )">S2</text><path style="stroke-width:1.42 ;&st7;  " d=" M  6535.41,    40.75  L  6530.44,    35.78  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6518.41,    47.81  L  6523.38,    52.78  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6530.44,    52.78  L  6535.41,    47.81  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6523.38,    35.78  L  6518.41,    40.75  " /><text style="&st18;" transform="matrix(&st16;  6672.22  648.21 )">T1</text><text style="&st18;" transform="matrix(&st16;  6672.22  554.72 )">V2</text><text style="&st18;" transform="matrix(&st16;  6672.22  503.73 )">V1</text><path style="stroke-width:1.42 ;&st7;  " d=" M  6603.40,   499.67  L  6598.42,   494.70  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6586.40,   506.73  L  6591.37,   511.70  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6598.42,   511.70  L  6603.40,   506.73  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6591.37,   494.70  L  6586.40,   499.67  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6535.41,   498.95  L  6535.41,   503.20  " /><text style="&st18;" transform="matrix(&st16;  6520.15  604.32 )">(*28)</text><text style="&st18;" transform="matrix(&st16;  6520.46  592.99 )">W-B</text><text style="&st18;" transform="matrix(&st16;  6672.22  597.21 )">T6</text><text style="&st18;" transform="matrix(&st16;  6672.22  461.24 )">c1</text><path style="stroke-width:1.42 ;&st7;  " d=" M  6518.41,   460.71  L  6518.41,   464.96  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6586.40,   460.71  L  6586.40,   464.96  " /><text style="&st18;" transform="matrix(&st16;  6554.45  499.5 )">W-B</text><text style="&st18;" transform="matrix(&st16;  6613.94  499.5 )">W-B</text><text style="&st18;" transform="matrix(&st16;  6613.94  550.5 )">W-B</text><text style="&st18;" transform="matrix(&st16;  6520.46  643.98 )">W-B</text><path style="stroke-width:1.42 ;&st7;  " d=" M  6518.41,   239.75  L  6526.91,   239.75  " /><text style="&st18;" transform="matrix(&st17;  6523.21  160.71 )">W-B</text><text style="&st18;" transform="matrix(&st17;  6523.21  339.18 )">W-B</text><text style="&st18;" transform="matrix(&st16;  6615.18  468.34 )">(*6)</text><text style="&st18;" transform="matrix(&st16;  6555.69  468.34 )">(*6)</text><text style="&st18;" transform="matrix(&st17;  6500.55  278.45 )">(*6)</text><text style="&st18;" transform="matrix(&st16;  6589.69  51.91 )">(*6)</text><text style="&st18;" transform="matrix(&st17;  6500.55  218.96 )">(*6)</text><text style="&st18;" transform="matrix(&st17;  6534.55  159.47 )">(*6)</text><text style="&st18;" transform="matrix(&st17;  6534.55  337.94 )">(*6)</text><text style="&st18;" transform="matrix(&st17;  6500.55  337.94 )">(*6)</text><text style="&st18;" transform="matrix(&st16;  6555.69  510.84 )">(*6)</text><text style="&st18;" transform="matrix(&st16;  6615.18  510.84 )">(*6)</text><text style="&st18;" transform="matrix(&st16;  6615.18  561.83 )">(*6)</text><text style="&st18;" transform="matrix(&st16;  6520.15  655.31 )">(*29)</text><path style="stroke-width:1.42 ;&st7;  " d=" M  6645.89,    35.78  L  6645.89,    69.77  L  6730.87,    69.77  L  6730.87,    35.78  L  6645.89,    35.78  " /><text style="&st18;" transform="matrix(&st16;  6647.62  46.25 )">(E)</text><path style="stroke-width:1.42 ;&st7;  " d=" M  6645.89,   639.18  L  6645.89,   681.67  L  6730.87,   681.67  L  6730.87,   639.18  L  6645.89,   639.18  " /><text style="&st18;" transform="matrix(&st16;  6647.62  649.65 )">(E)</text><path style="stroke-width:1.42 ;&st7;  " d=" M  6645.89,   545.69  L  6645.89,   579.69  L  6730.87,   579.69  L  6730.87,   545.69  L  6645.89,   545.69  " /><text style="&st18;" transform="matrix(&st16;  6647.62  556.16 )">(GND)</text><path style="stroke-width:1.42 ;&st7;  " d=" M  6645.89,   494.70  L  6645.89,   537.20  L  6730.87,   537.20  L  6730.87,   494.70  L  6645.89,   494.70  " /><text style="&st18;" transform="matrix(&st16;  6647.62  505.17 )">(RRE)</text><path style="stroke-width:1.42 ;&st7;  " d=" M  6645.89,   452.21  L  6645.89,   486.20  L  6730.87,   486.20  L  6730.87,   452.21  L  6645.89,   452.21  " /><text style="&st18;" transform="matrix(&st16;  6647.62  462.68 )">(RH-)</text><text style="&st18;" transform="matrix(&st16;  6647.62  598.65 )">(TE)</text><path style="stroke-width:1.42 ;&st7;  " d=" M  6645.89,   588.19  L  6645.89,   630.68  L  6730.87,   630.68  L  6730.87,   588.19  L  6645.89,   588.19  " /><g ewd:figtype="w2w" ewd:figID="77" ewd:code="TV2"><path style="stroke-width:1.42 ;&st7;  " d=" M  6544.47,   507.45  L  6540.22,   503.20  L  6544.47,   498.95  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6541.07,   507.45  L  6536.82,   503.20  L  6541.07,   498.95  " /><text style="&st18;" transform="matrix(&st16;  6525.11  495.96 )">8</text></g><g ewd:figtype="w2w" ewd:figID="78" ewd:code="aS2"><text style="&st18;" transform="matrix(&st16;  6525.11  453.47 )">3</text><path style="stroke-width:1.42 ;&st7;  " d=" M  6509.34,   456.46  L  6513.59,   460.71  L  6509.34,   464.96  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6512.74,   456.46  L  6516.99,   460.71  L  6512.74,   464.96  " /></g><g ewd:figtype="w2w" ewd:figID="79" ewd:code="TS2"><path style="stroke-width:1.42 ;&st7;  " d=" M  6522.66,   230.68  L  6526.91,   234.93  L  6531.16,   230.68  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6531.16,   234.08  L  6526.91,   238.33  L  6522.66,   234.08  " /><text style="&st18;" transform="matrix(&st16;  6511.18  245.96 )">13</text></g><g ewd:figtype="w2w" ewd:figID="80" ewd:code="ca4"><text style="&st18;" transform="matrix(&st16;  6593.1  453.47 )">1</text><path style="stroke-width:1.42 ;&st7;  " d=" M  6577.33,   456.46  L  6581.58,   460.71  L  6577.33,   464.96  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6580.73,   456.46  L  6584.98,   460.71  L  6580.73,   464.96  " /></g><g ewd:code="25" ewd:figID="212" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  6566.0  292.71 )" ewd:textID="12">*25 :Back Door w/o Fuel Tank</text></g><g ewd:code="29" ewd:figID="210" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  6566.0  309.7 )" ewd:textID="14">*29 :Except Algeria</text></g><g ewd:code="28" ewd:figID="211" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  6566.0  301.2 )" ewd:textID="13">*28 :Algeria</text></g><g ewd:code="6" ewd:figID="203" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  6566.0  275.71 )" ewd:textID="4">* 6 :4-Door Except Pick-Up Body Type</text></g><g ewd:code="24" ewd:figID="213" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  6566.0  284.21 )" ewd:textID="11">*24 :Back Door w/ Fuel Tank</text></g></svg>

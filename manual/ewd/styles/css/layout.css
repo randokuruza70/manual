@@ -1,0 +1,84 @@
+td {
+  font-size:   10pt;
+  font-weight: lighter;
+}
+div.ewd_tree_defsize {
+  width: 190px;
+}
+
+div.ewd_tree_minsize {
+  display: none;
+}
+
+div.ewd_tree_maxsize {
+  width: 350px;
+}
+
+div.ewd_body_minsize {
+  width: 100%;
+}
+
+div.tree_view_area_190px {
+  width: 190px;
+}
+
+div#E3000_DIV {
+  width:auto;
+}
+
+#E3400_DIV 
+{
+  border-bottom:1px solid #E9EEEA;
+  background:#FFF;
+  padding-top: 5px;
+  overflow:auto;
+  _overflow:auto;
+  _width:100%;
+
+}
+
+#E3500_DIV 
+{
+  height:35px;
+  padding:0px 5px 0px 5px;
+  background:#FFF;
+}
+
+div#E5000_DIV {
+  padding-top: 5px;
+  height:100%;
+  overflow:auto;
+ _width: 100%;
+}
+
+div#E2000_DIV {
+  height:100%;
+  overflow:auto;
+ _width: 100%;
+}
+
+div#ewd_tree_root {
+  overflow: auto;
+  height: 100%;
+  float: left;
+  background: #ffffff;
+  border: #dddddd 1px solid;
+}
+
+div#ewd_body_root {
+  overflow: hidden;
+  height: 100%;
+  border-width: 0px 1px 1px 1px;
+  padding-top: 5px;
+}
+
+td.loading{
+  white-space: nowrap;
+  width:40px;
+  table-layout:fixed;
+}
+
+span#comp_msg {
+  white-space: nowrap;
+
+}

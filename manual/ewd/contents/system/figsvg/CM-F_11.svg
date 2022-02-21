@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'ArialMT';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'ArialMT';">
+	<!ENTITY st11 "font-size:9px;font-family:'Svg Symbol';">
+	<!ENTITY st12 "font-size:6px;font-family:'Svg Symbol';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'Arial';">
+	<!ENTITY st19 "font-size:9px;font-family:'Arial';">
+	<!ENTITY st20 "font-size:6px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 10206.470 710.000" viewBox="0 0 10206.470 710.000" height="710.000" width="10206.470" xml:space="preserve" ewd:ver="2.1.2.9" xmlns="&ns_svg;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:xlink="&ns_xlink;">
+<text style="&st18;" transform="matrix(&st16;  5223.21  110.24 )">L25(A),L26(B),L50(C)</text><text style="&st18;" transform="matrix(&st16;  5223.22  117.07 )" ewd:textID="57">Combination Meter Assembly</text><text style="&st18;" transform="matrix(&st16;  5152.96  15.09 )">B-Y</text><text style="&st18;" transform="matrix(&st16;  5202.87  26.42 )">(*13)</text><text style="&st18;" transform="matrix(&st16;  5203.95  15.09 )">B-Y</text><text style="&st18;" transform="matrix(&st16;  5151.87  26.42 )">(*13)</text><path style="stroke-width:1.42 ;&st7;  " d=" M  5090.65,   486.20  L  5099.15,   486.20  " /><text style="&st18;" transform="matrix(&st17;  5095.45  653.63 )">W-B</text><text style="&st18;" transform="matrix(&st17;  5106.78  652.39 )">(*3)</text><text style="&st18;" transform="matrix(&st17;  5095.45  602.64 )">W-B</text><text style="&st18;" transform="matrix(&st17;  5095.45  516.8 )">B-R</text><text style="&st18;" transform="matrix(&st17;  5106.78  516.41 )">(*3)</text><text style="&st18;" transform="matrix(&st17;  5095.45  363.83 )">B-R</text><text style="&st18;" transform="matrix(&st17;  5095.45  419.07 )">B-R</text><text style="&st18;" transform="matrix(&st17;  5106.78  363.44 )">(*3)</text><text style="&st18;" transform="matrix(&st17;  5106.78  418.68 )">(*3)</text><text style="&st18;" transform="matrix(&st17;  5095.45  470.06 )">B-R</text><text style="&st18;" transform="matrix(&st17;  5106.78  469.67 )">(*3)</text><text style="&st18;" transform="matrix(&st17;  5106.78  601.4 )">(*3)</text><text style="&st18;" transform="matrix(&st17;  5435.4  372.33 )">R-B</text><path style="stroke-width:1.42 ;&st7;  " d=" M  5107.65,   618.65  L  5102.67,   613.68  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  5090.65,   625.71  L  5095.62,   630.68  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  5102.67,   630.68  L  5107.65,   625.71  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  5095.62,   613.68  L  5090.65,   618.65  " /><text style="&st18;" transform="matrix(&st17;  5273.92  368.72 )">P</text><text style="&st18;" transform="matrix(&st17;  5358.91  372.33 )">B-R</text><path style="stroke-width:1.42 ;&st7;  " d=" M  5090.65,   435.21  L  5099.15,   435.21  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  5090.65,   384.22  L  5099.15,   384.22  " /><g ewd:figtype="conn" ewd:figID="23" ewd:code="C71"><path style="stroke-width:1.42 ;&st7;  " d=" M  5082.15,   571.19  L  5116.14,   571.19  L  5116.14,   537.20  L  5082.15,   537.20  L  5082.15,   571.19  " /><g ewd:lineID="157"><text style="&st18;" transform="matrix(&st16;  5092.96  579.38 )">2</text><text style="&st18;" transform="matrix(&st16;  5097.04  567.49 )">E</text></g><g ewd:lineID="158"><text style="&st18;" transform="matrix(&st16;  5092.96  533.51 )">1</text><text style="&st18;" transform="matrix(&st16;  5093.2  544.83 )">LVL</text></g><g ewd:figtype="title"><text style="&st18;" transform="matrix(&st17;  5124.04  574.09 )">C71</text><text style="&st18;" transform="matrix(&st17;  5130.86  574.1 )" ewd:textID="67">Engine Oil <tspan x="0 " dy="6.0">Level Sensor</tspan></text></g></g><g ewd:figtype="w2w" ewd:figID="156" ewd:code="CA4"><path style="stroke-width:1.42 ;&st7;  " d=" M  5094.90,   477.14  L  5099.15,   481.39  L  5103.40,   477.14  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  5103.40,   480.54  L  5099.15,   484.79  L  5094.90,   480.54  " /><text style="&st18;" transform="matrix(&st16;  5083.41  492.42 )">13</text></g><g ewd:figtype="w2w" ewd:figID="157" ewd:code="AI3"><text style="&st18;" transform="matrix(&st16;  5086.52  449.93 )">7</text><g ewd:code="" ewd:figID="479" ewd:comment="" ewd:figtype="commref"><text style="&st18;" transform="matrix(&st16;  5108.18  449.93 )">(RHD)</text></g></g><g ewd:figtype="w2w" ewd:figID="158" ewd:code="AI3"><text style="&st18;" transform="matrix(&st16;  5083.41  441.43 )">28</text><path style="stroke-width:1.42 ;&st7;  " d=" M  5103.40,   429.55  L  5099.15,   433.80  L  5094.90,   429.55  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  5094.90,   426.15  L  5099.15,   430.40  L  5103.40,   426.15  " /><g ewd:code="" ewd:figID="480" ewd:comment="" ewd:figtype="commref"><text style="&st18;" transform="matrix(&st16;  5108.18  441.43 )">(LHD)</text></g></g><g ewd:figtype="w2w" ewd:figID="159" ewd:code="IL5"><text style="&st18;" transform="matrix(&st16;  5083.41  398.94 )">46</text><g ewd:code="" ewd:figID="481" ewd:comment="" ewd:figtype="commref"><text style="&st18;" transform="matrix(&st16;  5108.18  398.94 )">(RHD)</text></g></g><g ewd:figtype="w2w" ewd:figID="160" ewd:code="IL1"><text style="&st18;" transform="matrix(&st16;  5083.41  390.44 )">15</text><path style="stroke-width:1.42 ;&st7;  " d=" M  5103.40,   378.56  L  5099.15,   382.80  L  5094.90,   378.56  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  5094.90,   375.16  L  5099.15,   379.41  L  5103.40,   375.16  " /><g ewd:code="" ewd:figID="482" ewd:comment="" ewd:figtype="commref"><text style="&st18;" transform="matrix(&st16;  5108.18  390.44 )">(LHD)</text></g></g><g ewd:figtype="gp" ewd:figID="243" ewd:code="CE"><path style="stroke-width:0.85 ;&st7;  " d=" M  5099.15,   697.25  L  5099.15,   701.50  " /><path style="stroke-width:0.85 ;&st7;  " d=" M  5090.65,   701.50  L  5107.64,   701.50  " /><path style="stroke-width:0.85 ;&st7;  " d=" M  5094.90,   704.33  L  5103.40,   704.33  " /><path style="stroke-width:0.85 ;&st7;  " d=" M  5096.31,   707.17  L  5101.98,   707.17  " /><path style="stroke-width:0.85 ;&st7;  " d=" M  5097.73,   710.00  L  5100.56,   710.00  " /></g><g ewd:figtype="annex" ewd:figID="54" ewd:code=" "><path style="stroke-width:1.42 ;&st7;  " d=" M  5277.62,   409.72  L  5282.68,   398.35  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  5362.60,   409.72  L  5367.66,   398.35  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  5439.09,   392.72  L  5444.15,   404.08  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  5277.62,   409.72  L  5272.56,   398.35  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  5362.60,   409.72  L  5357.54,   398.35  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  5439.09,   392.72  L  5434.03,   404.08  " /><text style="&st18;" transform="matrix(&st17;  5270.67  466.57 )" ewd:textID="80">Front Seat Inner Belt <tspan x="0 " dy="6.0">Assembly LH (LHD)</tspan></text><text style="&st18;" transform="matrix(&st17;  5361.76  458.04 )" ewd:textID="158">Un-Lock Warning <tspan x="0 " dy="6.0">Switch Assembly</tspan></text><text style="&st18;" transform="matrix(&st17;  5438.25  468.51 )" ewd:textID="46">Back-Up Light Switch <tspan x="0 " dy="6.0">Assembly</tspan></text><text style="&st18;" transform="matrix(&st17;  5282.57  466.57 )" ewd:textID="81">Front Seat Inner Belt <tspan x="0 " dy="6.0">Assembly RH (RHD)</tspan></text></g></svg>

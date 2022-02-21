@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS127">
+    <part type="conn" code="I51">
+      <text>CANL CANH</text>
+      <name>Airbag Sensor Assembly</name>
+    </part>
+    <part type="conn" code="A42">
+      <text>CANH CANL</text>
+      <name>Brake Actuator Assembly</name>
+    </part>
+    <part type="conn" code="A20">
+      <text>CANH CANL</text>
+      <name>Brake Actuator Assembly</name>
+    </part>
+    <part type="conn" code="A25,A26">
+      <name>Brake Vacuum Check Valve Assembly</name>
+    </part>
+    <part type="conn" code="L26">
+      <text>CANL CANH</text>
+      <name>Combination Meter Assembly</name>
+    </part>
+    <part type="conn" code="I17">
+      <text>DLC3 CANL CANH</text>
+    </part>
+    <part type="conn" code="A29,I84">
+      <text>ECM CANL CANH</text>
+    </part>
+    <part type="conn" code="I77,I78,I83,I100">
+      <text>1 2 3</text>
+      <name>No. 1 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I81,I82,I101">
+      <text>3 2 1</text>
+      <name>No. 2 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="A24">
+      <name>No. 3 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I112,I113,I114,I115,I116,I119,I120,I121,I122,I123,I124">
+      <name>No. 4 CAN Junction Connector , No. 6 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I111">
+      <name>No. 5 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I93">
+      <name>No. 5 Junction Connector</name>
+    </part>
+    <part type="conn" code="L47">
+      <text>CANL CANH</text>
+      <name>Steering Sensor (Spiral Cable with Sensor Sub-Assembly)</name>
+    </part>
+  </ttl>
+</EWDSearch>

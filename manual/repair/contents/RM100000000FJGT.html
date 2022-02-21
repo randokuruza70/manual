@@ -1,0 +1,571 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">Engine / Hybrid System</span>
+<span class="globalSection">_029758</span>
+<span class="globalSectionName">1GR-FE ENGINE CONTROL</span>
+<span class="globalTitle">_0135343</span>
+<span class="globalTitleName">SFI SYSTEM</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>1GR-FE ENGINE CONTROL&nbsp;&nbsp;SFI SYSTEM&nbsp;&nbsp;P060A&nbsp;&nbsp;Internal Control Module Monitoring Processor Performance&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000FJGT_01" class="category no03">
+<h2>DESCRIPTION</h2>
+<div class="content5">
+<p>The main CPU and sub CPU of the ECM perform data communication between each other. The main CPU monitors the communication and WDC pulses from the sub CPU. When the signal malfunctions below are detected, this DTC is stored.
+</p>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:15%">
+<col style="width:26%">
+<col style="width:26%">
+<col style="width:10%">
+<col style="width:10%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC No.
+</th>
+<th class="alcenter">Detection Item
+</th>
+<th class="alcenter">DTC Detection Condition
+</th>
+<th class="alcenter">Trouble Area
+</th>
+<th class="alcenter">MIL
+</th>
+<th class="alcenter">Memory
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">P060A
+</td>
+<td class="alleft">Internal Control Module Monitoring Processor Performance
+</td>
+<td class="alleft">A CPU reset is performed after one of the following conditions is met (1 trip detection logic):
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>There is an ECM main CPU error.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>There is an ECM sub CPU error.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>There is an electronic throttle monitoring CPU error.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">ECM
+</td>
+<td class="alleft">Comes on
+</td>
+<td class="alleft">DTC stored
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM100000000FJGT_09" class="category no03">
+<h2>CONFIRMATION DRIVING PATTERN</h2>
+<div class="content5">
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>Turn the ignition switch to ON and turn the GTS on.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>Clear the DTCs (even if no DTCs are stored, perform the clear DTC procedure).
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">4.</div>
+<div class="list1Body"><p>Turn the GTS off.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">5.</div>
+<div class="list1Body"><p>Turn the ignition switch off.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">6.</div>
+<div class="list1Body"><p>Disconnect the GTS.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">7.</div>
+<div class="list1Body"><p>Disconnect the cable from the negative (-) battery terminal and wait for 1 minute.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">8.</div>
+<div class="list1Body"><p>Connect the cable to the negative (-) battery terminal.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">9.</div>
+<div class="list1Body"><p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">10.</div>
+<div class="list1Body"><p>Turn the ignition switch to ON and turn the GTS on.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">11.</div>
+<div class="list1Body"><p>Wait 16 seconds or more.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">12.</div>
+<div class="list1Body"><p>Enter the following menus: Powertrain / Engine and ECT / Trouble Codes.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">13.</div>
+<div class="list1Body"><p>Read the pending DTCs.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If a pending DTC is output, the system is malfunctioning.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If a pending DTC is not output, perform the following procedure.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">14.</div>
+<div class="list1Body"><p>Enter the following menus: Powertrain / Engine and ECT / Utility / All Readiness.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">15.</div>
+<div class="list1Body"><p>Input the DTC: P060A.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">16.</div>
+<div class="list1Body"><p>Check the DTC judgment result.
+</p>
+<table summary="">
+<colgroup>
+<col style="width:29%">
+<col style="width:70%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">GTS Display
+</th>
+<th class="alcenter">Description
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NORMAL
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC judgment completed
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>System normal
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">ABNORMAL
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC judgment completed
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>System abnormal
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">INCOMPLETE
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC judgment not completed
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Perform driving pattern after confirming DTC enabling conditions
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">N/A
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Unable to perform DTC judgment
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Number of DTCs which do not fulfill DTC preconditions has reached ECU memory limit
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the judgment result shows NORMAL, the system is normal.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the judgment result shows ABNORMAL, the system has a malfunction.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000FJGT_05" class="category no10">
+<h2>CAUTION / NOTICE / HINT</h2>
+<div class="content5">
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>Read freeze frame data using the GTS. Freeze frame data records the engine condition when malfunctions are detected. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, if the air fuel ratio was lean or rich, and other data from the time the malfunction occurred.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000FJGT_08" class="category no01">
+<h2>PROCEDURE</h2>
+<div class="testgrp" id="RM100000000FJGT_08_0001">
+<div class="testtitle"><span class="titleText">1.READ OUTPUT DTC (DTC P060A)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Turn the ignition switch to ON
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Turn the GTS on.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Clear the DTCs.
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Powertrain &gt; Engine and ECT &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>Turn the ignition switch off.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>Disconnect the cable from the negative (-) battery terminal and wait for 1 minute.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">g.</div>
+<div class="test1Body">
+<p>Connect the cable to the negative (-) battery terminal.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">h.</div>
+<div class="test1Body">
+<p>Turn the ignition switch to ON.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">i.</div>
+<div class="test1Body">
+<p>Turn the GTS on.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">j.</div>
+<div class="test1Body">
+<p>Wait for 16 seconds or more.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">k.</div>
+<div class="test1Body">
+<p>Enter the following menus: Powertrain / Engine and ECT / Trouble Codes.
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Powertrain &gt; Engine and ECT &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">l.</div>
+<div class="test1Body">
+<p>Read the DTCs.
+</p>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJGT_08_0001_1" summary="">
+<colgroup>
+<col style="width:50%">
+<col style="width:50%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Result
+</th>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">DTC is not output
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">DTC P060A is output
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>A
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">CHECK FOR INTERMITTENT PROBLEMS</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;SFI SYSTEM&gt;CHECK FOR INTERMITTENT PROBLEMS<span class="invisible">201408,999999,_51,_029758,_0135343,RM100000000FJGQ,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPLACE ECM</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;ECM&gt;REMOVAL<span class="invisible">201408,999999,_51,_029758,_0135332,RM100000000FJEC,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

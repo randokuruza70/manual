@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS013" code="A20" type="conn" figID="19">
+    <name>Brake Actuator Assembly</name>
+  </text>
+  <text ewd="SYS013" code="C35,C98" type="conn" figID="10">
+    <name>Center Differential Lock Indicator Switch (No. 1 Transfer Indicator Switch)</name>
+  </text>
+  <text ewd="SYS013" code="L25" type="conn" figID="14">
+    <name>Combination Meter Assembly</name>
+  </text>
+  <text ewd="SYS013" code="I24" type="conn" figID="9">
+    <name>Diode (Transfer L4 Position Switch)</name>
+  </text>
+  <text ewd="SYS013" code="I30,I31" type="conn" figID="1">
+    <name>Four Wheel Drive Control Solenoid Assembly</name>
+  </text>
+  <text ewd="SYS013" code="A22" type="conn" figID="7,13">
+    <name>No. 1 Junction Connector</name>
+  </text>
+  <text ewd="SYS013" code="I61,I70" type="conn" figID="11">
+    <name>No. 11 Junction Connector , No. 19 Junction Connector</name>
+  </text>
+  <text ewd="SYS013" code="I8" type="conn" figID="18">
+    <name>No. 2 Four Wheel Drive Control ECU</name>
+  </text>
+  <text ewd="SYS013" code="A23" type="conn" figID="8,12">
+    <name>No. 2 Junction Connector</name>
+  </text>
+  <text ewd="SYS013" code="I57" type="conn" figID="2">
+    <name>No. 8 Junction Connector</name>
+  </text>
+  <text ewd="SYS013" code="I58,I72" type="conn" figID="15">
+    <name>No. 9 Junction Connector , No. 21 Junction Connector</name>
+  </text>
+  <text ewd="SYS013" code="C36,C99" type="conn" figID="6">
+    <name>Transfer L4 Position Switch (No. 1 Transfer Indicator Switch)</name>
+  </text>
+  <text ewd="SYS013" code="L17" type="conn" figID="5">
+    <name>Transmission Control Switch</name>
+  </text>
+  <text ewd="SYS013" code="FUSE5" type="fuse" figID="89">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS013" code="FUSE16" type="fuse" figID="88">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS013" code="FUSE20" type="fuse" figID="87">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS013" code="AA" type="gp" figID="68,71">
+    <name />
+  </text>
+  <text ewd="SYS013" code="CA" type="gp" figID="69,75">
+    <name />
+  </text>
+  <text ewd="SYS013" code="CC" type="gp" figID="72,74">
+    <name />
+  </text>
+  <text ewd="SYS013" code="CE" type="gp" figID="67,73">
+    <name />
+  </text>
+  <text ewd="SYS013" code="IE" type="gp" figID="64,70">
+    <name />
+  </text>
+  <text ewd="SYS013" code="IG" type="gp" figID="65">
+    <name />
+  </text>
+  <text ewd="SYS013" code="LA" type="gp" figID="66">
+    <name />
+  </text>
+  <text ewd="SYS013" code="1" type="rb" figID="4">
+    <name />
+  </text>
+  <text ewd="SYS013" code="FUSE5" type="rb" figID="17">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS013" code="FUSE16" type="rb" figID="16">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS013" code="FUSE20" type="rb" figID="3">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS013" code="SP6" type="sp" figID="77">
+    <name />
+  </text>
+  <text ewd="SYS013" code="SP14" type="sp" figID="80">
+    <name />
+  </text>
+  <text ewd="SYS013" code="SP19" type="sp" figID="83,84">
+    <name />
+  </text>
+  <text ewd="SYS013" code="SP44" type="sp" figID="78">
+    <name />
+  </text>
+  <text ewd="SYS013" code="SP51" type="sp" figID="86">
+    <name />
+  </text>
+  <text ewd="SYS013" code="SP54" type="sp" figID="76">
+    <name />
+  </text>
+  <text ewd="SYS013" code="SP60" type="sp" figID="85">
+    <name />
+  </text>
+  <text ewd="SYS013" code="SP76" type="sp" figID="81">
+    <name />
+  </text>
+  <text ewd="SYS013" code="SP81" type="sp" figID="79">
+    <name />
+  </text>
+  <text ewd="SYS013" code="SP139" type="sp" figID="82">
+    <name />
+  </text>
+  <text ewd="SYS013" code="IA2" type="w2w" figID="37">
+    <name>Cowl Wire and Engine Room Main Wire</name>
+  </text>
+  <text ewd="SYS013" code="IA4" type="w2w" figID="36">
+    <name>Cowl Wire and Engine Room Main Wire</name>
+  </text>
+  <text ewd="SYS013" code="IC1" type="w2w" figID="42,43">
+    <name>Cowl Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS013" code="IC2" type="w2w" figID="61">
+    <name>Cowl Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS013" code="IC3" type="w2w" figID="33">
+    <name>Cowl Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS013" code="IL1" type="w2w" figID="28,52,54,59,63">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS013" code="AI2" type="w2w" figID="26,38,40">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS013" code="AI3" type="w2w" figID="24,25,29,35,48,49,51,56,57,58,62">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS013" code="AI6" type="w2w" figID="27,39,41">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS013" code="AC1" type="w2w" figID="30,31,46,55">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS013" code="AC5" type="w2w" figID="32,60">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS013" code="AC8" type="w2w" figID="44,47">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS013" code="CA2" type="w2w" figID="34,45,50,53">
+    <name>Engine Wire and Engine Room Main Wire</name>
+  </text>
+</EwdTree>

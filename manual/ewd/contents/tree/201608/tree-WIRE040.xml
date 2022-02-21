@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <note ewd="WIRE040" code="Y3" type="conn">
+    <name>Center Stop Light Assembly</name>
+  </note>
+  <note ewd="WIRE040" code="Y5" type="conn">
+    <name>No. 1 Room Light Assembly</name>
+  </note>
+  <note ewd="WIRE040" code="Y6" type="conn">
+    <name>No. 1 Room Light Assembly</name>
+  </note>
+  <note ewd="WIRE040" code="Y4" type="conn">
+    <name>No. 2 Room Light Assembly</name>
+  </note>
+  <note ewd="WIRE040" code="Y1" type="conn">
+    <name>No. 3 Room Light Assembly</name>
+  </note>
+  <note ewd="WIRE040" code="Y2" type="conn">
+    <name>No. 3 Room Light Assembly</name>
+  </note>
+  <note ewd="WIRE040" code="Y7" type="conn">
+    <name>Tire Pressure Warning ECU and Receiver</name>
+  </note>
+  <note ewd="WIRE040" code="YS4" type="w2w">
+    <name>No. 1 Roof Wire and Floor Wire</name>
+  </note>
+</EwdTree>

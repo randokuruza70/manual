@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS098">
+    <part type="conn" code="L13">
+      <name>Antenna Switch Assembly</name>
+    </part>
+    <part type="conn" code="L10">
+      <name>Ashtray Receptacle Light</name>
+    </part>
+    <part type="conn" code="L19">
+      <name>Cigarette Lighter Illumination (Cigarette Lighter Bezel Stay)</name>
+    </part>
+    <part type="conn" code="L9">
+      <text>GND ILL+</text>
+      <name>Clock Assembly</name>
+    </part>
+    <part type="conn" code="L25">
+      <text>+B ILL+ B ES</text>
+      <name>Combination Meter Assembly</name>
+      <name type="inner">Illumination</name>
+      <name type="inner">Meter Micro Computer</name>
+    </part>
+    <part type="conn" code="L18">
+      <name>Door Control Switch Assembly</name>
+    </part>
+    <part type="conn" code="L8">
+      <name>Fuel Control Switch Assembly</name>
+    </part>
+    <part type="conn" code="L14">
+      <name>Hazard Warning Signal Switch Assembly</name>
+    </part>
+    <part type="conn" code="L24">
+      <text>EL T OFF H</text>
+      <name>Headlight Dimmer Switch Assembly</name>
+      <name type="inner">Head</name>
+      <name type="inner">Tail</name>
+      <name type="inner">Light Control Switch</name>
+    </part>
+    <part type="conn" code="L15">
+      <name>Headlight Leveling Switch</name>
+    </part>
+    <part type="conn" code="L6">
+      <name>Idle Up Switch</name>
+    </part>
+    <part type="conn" code="I13">
+      <name>No. 1 Heater Control Indicator Light Assembly</name>
+    </part>
+    <part type="conn" code="I61,I72">
+      <name>No. 11 Junction Connector , No. 21 Junction Connector</name>
+    </part>
+    <part type="conn" code="I73">
+      <name>No. 22 Junction Connector</name>
+    </part>
+    <part type="conn" code="L38">
+      <name>No. 30 Junction Connector</name>
+    </part>
+    <part type="conn" code="L39">
+      <name>No. 31 Junction Connector</name>
+    </part>
+    <part type="conn" code="I58,I72">
+      <name>No. 9 Junction Connector , No. 21 Junction Connector</name>
+    </part>
+    <part type="conn" code="L2">
+      <text>E ILL+</text>
+      <name>Radio Receiver Assembly</name>
+    </part>
+    <part type="conn" code="L7">
+      <name>Rear Window Defogger Switch Assembly</name>
+    </part>
+    <part type="conn" code="L17">
+      <name>Transmission Control Switch</name>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>DOME NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE57">
+      <text>MAIN1</text>
+    </part>
+    <part type="fuse" code="FUSE16">
+      <text>MET</text>
+    </part>
+    <part type="fuse" code="FUSE17">
+      <text>PANEL</text>
+    </part>
+  </ttl>
+</EWDSearch>

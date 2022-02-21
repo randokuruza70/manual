@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'ArialMT';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'ArialMT';">
+	<!ENTITY st11 "font-size:9px;font-family:'Svg Symbol';">
+	<!ENTITY st12 "font-size:6px;font-family:'Svg Symbol';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'Arial';">
+	<!ENTITY st19 "font-size:9px;font-family:'Arial';">
+	<!ENTITY st20 "font-size:6px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 3037.365 710.000" viewBox="0 0 3037.365 710.000" height="710.000" width="3037.365" xml:space="preserve" ewd:ver="2.1.2.9" xmlns="&ns_svg;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:xlink="&ns_xlink;">
+<path style="stroke-width:1.42 ;&st7;  " d=" M  3000.00,   256.74  L  3008.50,   256.74  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  3017.00,   426.71  L  3008.50,   426.71  " /><text style="&st18;" transform="matrix(&st17;  3004.8  225.21 )">W</text><text style="&st18;" transform="matrix(&st17;  3004.8  309.32 )">L-W</text><text style="&st18;" transform="matrix(&st17;  3004.8  406.28 )">L-B</text><text style="&st18;" transform="matrix(&st17;  3004.8  458.15 )">B</text><text style="&st18;" transform="matrix(&st17;  3016.13  227.46 )">(*1)</text><text style="&st18;" transform="matrix(&st17;  3016.13  308.2 )">(*1)</text><text style="&st18;" transform="matrix(&st17;  3016.13  405.93 )">(*1)</text><text style="&st18;" transform="matrix(&st17;  3016.13  461.17 )">(*1)</text><g ewd:figtype="conn" ewd:figID="17" ewd:code="Q2"><path style="stroke-width:1.42 ;&st7;  " d=" M  3012.75,   347.39  L  3012.75,   351.36  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  3004.25,   351.36  L  3004.25,   347.39  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  3004.25,   347.39  L  3012.75,   347.39  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  3012.75,   370.06  L  3012.75,   366.09  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  3004.25,   366.09  L  3004.25,   370.06  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  3004.25,   370.06  L  3012.75,   370.06  " /><path style="stroke-width:1.42 ;&st7;   " d=" M  3017.00,   358.73  C  3017.00    354.03   3013.19    350.23   3008.50    350.23  " /><path style="stroke-width:1.42 ;&st7;   " d=" M  3008.50,   350.23  C  3003.80    350.23   3000.00    354.03   3000.00    358.73  " /><path style="stroke-width:1.42 ;&st7;   " d=" M  3000.00,   358.73  C  3000.00    363.42   3003.80    367.22   3008.50    367.22  " /><path style="stroke-width:1.42 ;&st7;   " d=" M  3008.50,   367.22  C  3013.19    367.22   3017.00    363.42   3017.00    358.73  " /><text style="&st18;" transform="matrix(&st16;  3005.77  360.69 )">M</text><text style="&st18;" transform="matrix(&st16;  3002.31  378.25 )">2</text><text style="&st18;" transform="matrix(&st16;  3002.31  343.7 )">1</text><g ewd:figtype="title"><text style="&st18;" transform="matrix(&st17;  3024.89  370.12 )">Q2</text><text style="&st18;" transform="matrix(&st17;  3031.71  370.13 )" ewd:textID="35">Rear Door Lock Actuator Assembly LH</text></g></g></svg>

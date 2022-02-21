@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS128" code="A35,A36,D9,E1,E4,F1" type="conn" figID="11">
+    <name>Battery (Main)</name>
+  </text>
+  <text ewd="SYS128" code="A37,E3" type="conn" figID="8">
+    <name>Battery (Sub)</name>
+  </text>
+  <text ewd="SYS128" code="E2,F2" type="conn" figID="9">
+    <name>Battery (Sub)</name>
+  </text>
+  <text ewd="SYS128" code="L21" type="conn" figID="28">
+    <name>Ignition or Starter Switch Assembly</name>
+  </text>
+  <text ewd="SYS128" code="I19" type="conn" figID="56">
+    <name>Stop Light Switch Assembly</name>
+  </text>
+  <text ewd="SYS128" code="FUSE42,FUSE43" type="fuse" figID="119">
+    <name>100A ALT,140A ALT</name>
+  </text>
+  <text ewd="SYS128" code="FUSE4" type="fuse" figID="138">
+    <name>10A A/C</name>
+  </text>
+  <text ewd="SYS128" code="FUSE5" type="fuse" figID="153">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS128" code="FUSE6" type="fuse" figID="152">
+    <name>10A ECU-B</name>
+  </text>
+  <text ewd="SYS128" code="FUSE10" type="fuse" figID="163">
+    <name>10A H/LP HI LH</name>
+  </text>
+  <text ewd="SYS128" code="FUSE11" type="fuse" figID="164">
+    <name>10A H/LP HI RH</name>
+  </text>
+  <text ewd="SYS128" code="FUSE12" type="fuse" figID="165">
+    <name>10A H/LP LO LH</name>
+  </text>
+  <text ewd="SYS128" code="FUSE13" type="fuse" figID="166">
+    <name>10A H/LP LO RH</name>
+  </text>
+  <text ewd="SYS128" code="FUSE47" type="fuse" figID="127">
+    <name>10A HORN</name>
+  </text>
+  <text ewd="SYS128" code="FUSE14" type="fuse" figID="162">
+    <name>10A IGN</name>
+  </text>
+  <text ewd="SYS128" code="FUSE15" type="fuse" figID="161">
+    <name>10A INJ</name>
+  </text>
+  <text ewd="SYS128" code="FUSE16" type="fuse" figID="160">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS128" code="FUSE17" type="fuse" figID="158">
+    <name>10A PANEL</name>
+  </text>
+  <text ewd="SYS128" code="FUSE18" type="fuse" figID="159">
+    <name>10A TAIL</name>
+  </text>
+  <text ewd="SYS128" code="FUSE19" type="fuse" figID="150">
+    <name>15A CIG</name>
+  </text>
+  <text ewd="SYS128" code="FUSE20" type="fuse" figID="146">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS128" code="FUSE49" type="fuse" figID="129">
+    <name>15A EFI MAIN</name>
+  </text>
+  <text ewd="SYS128" code="FUSE50" type="fuse" figID="128">
+    <name>15A EFI MAIN2</name>
+  </text>
+  <text ewd="SYS128" code="FUSE21" type="fuse" figID="156">
+    <name>15A FR FOG</name>
+  </text>
+  <text ewd="SYS128" code="FUSE22" type="fuse" figID="143">
+    <name>15A FUEL HTR</name>
+  </text>
+  <text ewd="SYS128" code="FUSE23" type="fuse" figID="145">
+    <name>15A GAUGE</name>
+  </text>
+  <text ewd="SYS128" code="FUSE24" type="fuse" figID="151">
+    <name>15A RADIO</name>
+  </text>
+  <text ewd="SYS128" code="FUSE25" type="fuse" figID="155">
+    <name>15A RR FOG</name>
+  </text>
+  <text ewd="SYS128" code="FUSE26" type="fuse" figID="140">
+    <name>15A STOP</name>
+  </text>
+  <text ewd="SYS128" code="FUSE27" type="fuse" figID="139">
+    <name>15A TRAILER STOP</name>
+  </text>
+  <text ewd="SYS128" code="FUSE51" type="fuse" figID="124">
+    <name>15A TURN&amp;HAZ</name>
+  </text>
+  <text ewd="SYS128" code="FUSE28" type="fuse" figID="137">
+    <name>20A DEFOG</name>
+  </text>
+  <text ewd="SYS128" code="FUSE29" type="fuse" figID="142,147">
+    <name>20A WIP</name>
+  </text>
+  <text ewd="SYS128" code="FUSE53" type="fuse" figID="126">
+    <name>30A ABS SOL</name>
+  </text>
+  <text ewd="SYS128" code="FUSE35" type="fuse" figID="134">
+    <name>30A AM1</name>
+  </text>
+  <text ewd="SYS128" code="FUSE30" type="fuse" figID="144">
+    <name>30A DIFF</name>
+  </text>
+  <text ewd="SYS128" code="FUSE31" type="fuse" figID="154">
+    <name>30A DOOR</name>
+  </text>
+  <text ewd="SYS128" code="FUSE32" type="fuse" figID="141">
+    <name>30A POWER</name>
+  </text>
+  <text ewd="SYS128" code="FUSE33" type="fuse" figID="135">
+    <name>30A STOP</name>
+  </text>
+  <text ewd="SYS128" code="FUSE34" type="fuse" figID="157">
+    <name>30A TRAILER</name>
+  </text>
+  <text ewd="SYS128" code="FUSE54" type="fuse" figID="120">
+    <name>50A ABS MTR</name>
+  </text>
+  <text ewd="SYS128" code="FUSE36" type="fuse" figID="130">
+    <name>50A ALT MAIN</name>
+  </text>
+  <text ewd="SYS128" code="FUSE37" type="fuse" figID="133">
+    <name>50A AM1 NO.2</name>
+  </text>
+  <text ewd="SYS128" code="FUSE38" type="fuse" figID="132">
+    <name>50A AM1 NO.3</name>
+  </text>
+  <text ewd="SYS128" code="FUSE55" type="fuse" figID="123">
+    <name>50A AM2</name>
+  </text>
+  <text ewd="SYS128" code="FUSE56" type="fuse" figID="122">
+    <name>50A HEAD</name>
+  </text>
+  <text ewd="SYS128" code="FUSE39" type="fuse" figID="131">
+    <name>50A HTR</name>
+  </text>
+  <text ewd="SYS128" code="FUSE57" type="fuse" figID="121">
+    <name>50A MAIN1</name>
+  </text>
+  <text ewd="SYS128" code="FUSE1" type="fuse" figID="149">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS128" code="FUSE44" type="fuse" figID="125">
+    <name>7.5A ALT-S</name>
+  </text>
+  <text ewd="SYS128" code="FUSE2" type="fuse" figID="136">
+    <name>7.5A OBD2</name>
+  </text>
+  <text ewd="SYS128" code="FUSE3" type="fuse" figID="148">
+    <name>7.5A ST</name>
+  </text>
+  <text ewd="SYS128" code="FUSE40" type="fuse" figID="118">
+    <name>80A GLOW1</name>
+  </text>
+  <text ewd="SYS128" code="FUSE41" type="fuse" figID="117">
+    <name>80A GLOW2</name>
+  </text>
+  <text ewd="SYS128" code="AC" type="gp" figID="100">
+    <name />
+  </text>
+  <text ewd="SYS128" code="DA" type="gp" figID="99">
+    <name />
+  </text>
+  <text ewd="SYS128" code="FA" type="gp" figID="101">
+    <name />
+  </text>
+  <text ewd="SYS128" code="FB" type="gp" figID="98">
+    <name />
+  </text>
+  <text ewd="SYS128" code="FC" type="gp" figID="97">
+    <name />
+  </text>
+  <text ewd="SYS128" code="IC" type="gp" figID="102">
+    <name />
+  </text>
+  <text ewd="SYS128" code="3" type="jb" figID="77">
+    <name />
+  </text>
+  <text ewd="SYS128" code="4" type="jb" figID="75,76">
+    <name />
+  </text>
+  <text ewd="SYS128" code="2" type="rb" figID="16,21,29,34,38,42,43,44,48">
+    <name />
+  </text>
+  <text ewd="SYS128" code="FUSE4" type="rb" figID="22">
+    <name>10A A/C</name>
+  </text>
+  <text ewd="SYS128" code="FUSE5" type="rb" figID="45">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS128" code="FUSE6" type="rb" figID="46">
+    <name>10A ECU-B</name>
+  </text>
+  <text ewd="SYS128" code="FUSE10" type="rb" figID="1">
+    <name>10A H/LP HI LH</name>
+  </text>
+  <text ewd="SYS128" code="FUSE11" type="rb" figID="10">
+    <name>10A H/LP HI RH</name>
+  </text>
+  <text ewd="SYS128" code="FUSE12" type="rb" figID="20">
+    <name>10A H/LP LO LH</name>
+  </text>
+  <text ewd="SYS128" code="FUSE13" type="rb" figID="18">
+    <name>10A H/LP LO RH</name>
+  </text>
+  <text ewd="SYS128" code="FUSE47" type="rb" figID="4">
+    <name>10A HORN</name>
+  </text>
+  <text ewd="SYS128" code="FUSE14" type="rb" figID="49">
+    <name>10A IGN</name>
+  </text>
+  <text ewd="SYS128" code="FUSE15" type="rb" figID="50">
+    <name>10A INJ</name>
+  </text>
+  <text ewd="SYS128" code="FUSE16" type="rb" figID="51">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS128" code="FUSE17" type="rb" figID="53">
+    <name>10A PANEL</name>
+  </text>
+  <text ewd="SYS128" code="FUSE18" type="rb" figID="52">
+    <name>10A TAIL</name>
+  </text>
+  <text ewd="SYS128" code="FUSE19" type="rb" figID="41">
+    <name>15A CIG</name>
+  </text>
+  <text ewd="SYS128" code="FUSE20" type="rb" figID="31">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS128" code="FUSE49" type="rb" figID="2">
+    <name>15A EFI MAIN</name>
+  </text>
+  <text ewd="SYS128" code="FUSE50" type="rb" figID="3">
+    <name>15A EFI MAIN2</name>
+  </text>
+  <text ewd="SYS128" code="FUSE21" type="rb" figID="55">
+    <name>15A FR FOG</name>
+  </text>
+  <text ewd="SYS128" code="FUSE22" type="rb" figID="35">
+    <name>15A FUEL HTR</name>
+  </text>
+  <text ewd="SYS128" code="FUSE23" type="rb" figID="32">
+    <name>15A GAUGE</name>
+  </text>
+  <text ewd="SYS128" code="FUSE24" type="rb" figID="47">
+    <name>15A RADIO</name>
+  </text>
+  <text ewd="SYS128" code="FUSE25" type="rb" figID="12">
+    <name>15A RR FOG</name>
+  </text>
+  <text ewd="SYS128" code="FUSE26" type="rb" figID="26">
+    <name>15A STOP</name>
+  </text>
+  <text ewd="SYS128" code="FUSE27" type="rb" figID="27">
+    <name>15A TRAILER STOP</name>
+  </text>
+  <text ewd="SYS128" code="FUSE51" type="rb" figID="7">
+    <name>15A TURN&amp;HAZ</name>
+  </text>
+  <text ewd="SYS128" code="FUSE28" type="rb" figID="23">
+    <name>20A DEFOG</name>
+  </text>
+  <text ewd="SYS128" code="FUSE29" type="rb" figID="30,36">
+    <name>20A WIP</name>
+  </text>
+  <text ewd="SYS128" code="FUSE53" type="rb" figID="5">
+    <name>30A ABS SOL</name>
+  </text>
+  <text ewd="SYS128" code="FUSE30" type="rb" figID="33">
+    <name>30A DIFF</name>
+  </text>
+  <text ewd="SYS128" code="FUSE31" type="rb" figID="14">
+    <name>30A DOOR</name>
+  </text>
+  <text ewd="SYS128" code="FUSE32" type="rb" figID="37">
+    <name>30A POWER</name>
+  </text>
+  <text ewd="SYS128" code="FUSE33" type="rb" figID="25">
+    <name>30A STOP</name>
+  </text>
+  <text ewd="SYS128" code="FUSE34" type="rb" figID="54">
+    <name>30A TRAILER</name>
+  </text>
+  <text ewd="SYS128" code="FUSE54" type="rb" figID="19">
+    <name>50A ABS MTR</name>
+  </text>
+  <text ewd="SYS128" code="FUSE55" type="rb" figID="13">
+    <name>50A AM2</name>
+  </text>
+  <text ewd="SYS128" code="FUSE56" type="rb" figID="15">
+    <name>50A HEAD</name>
+  </text>
+  <text ewd="SYS128" code="FUSE57" type="rb" figID="17">
+    <name>50A MAIN1</name>
+  </text>
+  <text ewd="SYS128" code="FUSE1" type="rb" figID="40">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS128" code="FUSE44" type="rb" figID="6">
+    <name>7.5A ALT-S</name>
+  </text>
+  <text ewd="SYS128" code="FUSE2" type="rb" figID="24">
+    <name>7.5A OBD2</name>
+  </text>
+  <text ewd="SYS128" code="FUSE3" type="rb" figID="39">
+    <name>7.5A ST</name>
+  </text>
+  <text ewd="SYS128" code="SP4" type="sp" figID="103">
+    <name />
+  </text>
+  <text ewd="SYS128" code="SP55" type="sp" figID="110">
+    <name />
+  </text>
+  <text ewd="SYS128" code="SP56" type="sp" figID="105">
+    <name />
+  </text>
+  <text ewd="SYS128" code="SP57" type="sp" figID="112">
+    <name />
+  </text>
+  <text ewd="SYS128" code="SP59" type="sp" figID="115">
+    <name />
+  </text>
+  <text ewd="SYS128" code="SP66" type="sp" figID="107,108,109">
+    <name />
+  </text>
+  <text ewd="SYS128" code="SP67" type="sp" figID="111">
+    <name />
+  </text>
+  <text ewd="SYS128" code="SP70" type="sp" figID="114">
+    <name />
+  </text>
+  <text ewd="SYS128" code="SP71" type="sp" figID="113">
+    <name />
+  </text>
+  <text ewd="SYS128" code="SP72" type="sp" figID="104">
+    <name />
+  </text>
+  <text ewd="SYS128" code="SP79" type="sp" figID="106">
+    <name />
+  </text>
+  <text ewd="SYS128" code="SP80" type="sp" figID="116">
+    <name />
+  </text>
+  <text ewd="SYS128" code="IL3" type="w2w" figID="91,92,93,94,95,96">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS128" code="AI1" type="w2w" figID="79,82,83,84,87,89">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS128" code="AI2" type="w2w" figID="90">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS128" code="AI3" type="w2w" figID="78">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS128" code="AI4" type="w2w" figID="80,81,85,88">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS128" code="AI6" type="w2w" figID="86">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+</EwdTree>

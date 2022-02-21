@@ -1,0 +1,2065 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">Engine / Hybrid System</span>
+<span class="globalSection">_029758</span>
+<span class="globalSectionName">1GR-FE ENGINE CONTROL</span>
+<span class="globalTitle">_0135343</span>
+<span class="globalTitleName">SFI SYSTEM</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>1GR-FE ENGINE CONTROL&nbsp;&nbsp;SFI SYSTEM&nbsp;&nbsp;P0120&nbsp;&nbsp;Throttle / Pedal Position Sensor / Switch "A" Circuit Malfunction&nbsp;&nbsp;P0121&nbsp;&nbsp;Throttle / Pedal Position Sensor / Switch "A" Circuit Range / Performance Problem&nbsp;&nbsp;P0122&nbsp;&nbsp;Throttle / Pedal Position Sensor / Switch "A" Circuit Low Input&nbsp;&nbsp;P0123&nbsp;&nbsp;Throttle / Pedal Position Sensor / Switch "A" Circuit High Input&nbsp;&nbsp;P0220&nbsp;&nbsp;Throttle / Pedal Position Sensor / Switch "B" Circuit&nbsp;&nbsp;P0222&nbsp;&nbsp;Throttle / Pedal Position Sensor / Switch "B" Circuit Low Input&nbsp;&nbsp;P0223&nbsp;&nbsp;Throttle / Pedal Position Sensor / Switch "B" Circuit High Input&nbsp;&nbsp;P2135&nbsp;&nbsp;Throttle / Pedal Position Sensor / Switch "A" / "B" Voltage Correlation&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000FJFW_01" class="category no03">
+<h2>DESCRIPTION</h2>
+<div class="content5">
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>These DTCs relate to the throttle position sensor.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<p>The TP sensor is mounted on the throttle body with motor assembly, and detects the opening angle of the throttle valve. This sensor is a non-contact type. It uses Hall-effect elements in order to yield accurate signals even in extreme driving conditions, such as at high speeds as well as very low speeds.
+</p>
+<p>The TP sensor has 2 sensor circuits, each of which transmits a signal, VTA1 and VTA2. VTA1 is used to detect the throttle valve angle and VTA2 is used to detect malfunctions in VTA1. The sensor signal voltages vary between 0 V and 5 V in proportion to the throttle valve opening angle, and are transmitted to the VTA terminals of the ECM.
+</p>
+<p>As the valve closes, the sensor output voltage decreases and as the valve opens, the sensor output voltage increases. The ECM calculates the throttle valve opening angle according to these signals and controls the throttle actuator in response to driver inputs. These signals are also used in calculations such as air fuel ratio correction, power increase correction and fuel-cut control.
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A293043E35.png" alt="A293043E35" title="A293043E35">
+<div class="indicateinfo">
+<span class="line">
+<span class="points">4.188,1.063 4.385,0.583</span>
+<span class="points">4.385,0.583 4.542,0.583</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">5.74,1.51 5.51,0.281</span>
+<span class="points">5.51,0.281 5.229,0.281</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">5.323,1.875 5.802,2.323</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">4.979,2.229 5.313,2.531</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">1.042,2.604 0.938,1.792</span>
+<span class="points">0.938,1.792 0.792,1.792</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">1.49,1.219 1.063,2.188</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">0.969,2.958 0.583,3.563</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">1.073,3.344 1.552,3.75</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">4.677,1.469 4.896,1.656</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">1.573,1.052 2.49,1.25</span>
+<span class="captionSize">0.917,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Magnet</span>
+</span>
+<span class="caption">
+<span class="points">0.24,1.708 0.854,1.917</span>
+<span class="captionSize">0.615,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IC No. 1</span>
+</span>
+<span class="caption">
+<span class="points">0.323,3.656 1.24,3.854</span>
+<span class="captionSize">0.917,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IC No. 2</span>
+</span>
+<span class="caption">
+<span class="points">1.594,3.74 2.51,3.938</span>
+<span class="captionSize">0.917,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Magnet</span>
+</span>
+<span class="caption">
+<span class="points">0.104,4.115 1.979,4.406</span>
+<span class="captionSize">1.875,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Throttle Position Sensor</span>
+</span>
+<span class="caption">
+<span class="points">0.146,4.615 2.021,4.906</span>
+<span class="captionSize">1.875,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Note:</span>
+</span>
+<span class="caption">
+<span class="points">0.135,4.854 3.344,5.479</span>
+<span class="captionSize">3.208,0.625</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">The throttle valve opening angle transmitted through sensor terminal VTA is expressed as a percentage.</span>
+</span>
+<span class="caption">
+<span class="points">0.125,5.604 3.323,5.823</span>
+<span class="captionSize">3.198,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Between 10% and 22%: Throttle valve fully closed</span>
+</span>
+<span class="caption">
+<span class="points">0.125,5.948 3.323,6.167</span>
+<span class="captionSize">3.198,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Between 64% and 96%: Throttle valve fully open</span>
+</span>
+<span class="caption">
+<span class="points">0.115,6.281 3.313,6.5</span>
+<span class="captionSize">3.198,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Approximately 18.6%: Fail safe angle (6°)</span>
+</span>
+<span class="caption">
+<span class="points">3.531,0.188 5.271,0.479</span>
+<span class="captionSize">1.74,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Line indicating VTA2 x 0.8</span>
+</span>
+<span class="caption">
+<span class="points">2.5,0.677 4.24,0.969</span>
+<span class="captionSize">1.74,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Sensor Output Voltage (V)</span>
+</span>
+<span class="caption">
+<span class="points">4.604,0.51 5.604,0.865</span>
+<span class="captionSize">1,0.354</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Fail-safe Angle</span>
+</span>
+<span class="caption">
+<span class="points">5.385,2.531 5.781,2.938</span>
+<span class="captionSize">0.396,0.406</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">VTA</span>
+</span>
+<span class="caption">
+<span class="points">4.51,3.646 6.708,3.979</span>
+<span class="captionSize">2.198,0.333</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Throttle Valve Opening Angle (°)</span>
+</span>
+<span class="caption">
+<span class="points">4.521,4.125 6.656,4.344</span>
+<span class="captionSize">2.135,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*: During fail-safe control</span>
+</span>
+<span class="caption">
+<span class="points">3.74,4.75 5.938,5.083</span>
+<span class="captionSize">2.198,0.333</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Characteristics of sensor output:</span>
+</span>
+<span class="caption">
+<span class="points">3.75,5.198 7.156,5.51</span>
+<span class="captionSize">3.406,0.313</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">VTA2 x 0.8 is approximately equal to VTA + 1.11 V</span>
+</span>
+<span class="caption">
+<span class="points">5.823,2.375 6.427,2.75</span>
+<span class="captionSize">0.604,0.375</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1.11 V</span>
+</span>
+<span class="caption">
+<span class="points">4.281,1.365 4.677,1.771</span>
+<span class="captionSize">0.396,0.406</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">VTA2</span>
+</span>
+<span class="caption">
+<span class="points">3.75,0.99 4.01,1.396</span>
+<span class="captionSize">0.26,0.406</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">5.0</span>
+</span>
+<span class="caption">
+<span class="points">3.667,1.188 4,1.594</span>
+<span class="captionSize">0.333,0.406</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">4.65</span>
+</span>
+<span class="caption">
+<span class="points">3.635,1.917 4.063,2.146</span>
+<span class="captionSize">0.427,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2.55*</span>
+</span>
+<span class="caption">
+<span class="points">3.688,2.063 4.021,2.469</span>
+<span class="captionSize">0.333,0.406</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2.25</span>
+</span>
+<span class="caption">
+<span class="points">3.625,2.438 4.208,2.656</span>
+<span class="captionSize">0.583,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">0.93*</span>
+</span>
+<span class="caption">
+<span class="points">3.656,2.604 3.99,3.01</span>
+<span class="captionSize">0.333,0.406</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">0.69</span>
+</span>
+<span class="caption">
+<span class="points">4.125,2.865 4.458,3.271</span>
+<span class="captionSize">0.333,0.406</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">6</span>
+</span>
+<span class="caption">
+<span class="points">3.979,3.271 4.313,3.677</span>
+<span class="captionSize">0.333,0.406</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">0</span>
+</span>
+<span class="caption">
+<span class="points">6.271,3.292 6.604,3.698</span>
+<span class="captionSize">0.333,0.406</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">84</span>
+</span>
+<span class="caption">
+<span class="points">1.688,2.771 2.083,3.177</span>
+<span class="captionSize">0.396,0.406</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">VTA2</span>
+</span>
+<span class="caption">
+<span class="points">1.771,2.385 2.167,2.792</span>
+<span class="captionSize">0.396,0.406</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">VTA</span>
+</span>
+<span class="caption">
+<span class="points">1.677,2.021 2.26,2.375</span>
+<span class="captionSize">0.583,0.354</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">VCTA</span>
+</span>
+<span class="caption">
+<span class="points">1.708,3.125 2.104,3.531</span>
+<span class="captionSize">0.396,0.406</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ETA</span>
+</span>
+<span class="caption">
+<span class="points">4.698,3.188 5.719,3.406</span>
+<span class="captionSize">1.021,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Usable Range</span>
+</span>
+<span class="caption">
+<span class="points">2.417,4.073 3.333,4.271</span>
+<span class="captionSize">0.917,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ECM</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:15%">
+<col style="width:26%">
+<col style="width:26%">
+<col style="width:10%">
+<col style="width:10%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC No.
+</th>
+<th class="alcenter">Detection Item
+</th>
+<th class="alcenter">DTC Detection Condition
+</th>
+<th class="alcenter">Trouble Area
+</th>
+<th class="alcenter">MIL
+</th>
+<th class="alcenter">Memory
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">P0120
+</td>
+<td class="alleft">Throttle / Pedal Position Sensor / Switch "A" Circuit Malfunction
+</td>
+<td class="alleft">The output voltage of VTA1 quickly fluctuates beyond the lower and upper malfunction thresholds for 2 seconds when the accelerator pedal is depressed (1 trip detection logic).
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Throttle position sensor (throttle body with motor assembly)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">Comes on
+</td>
+<td class="alleft">DTC stored
+</td>
+</tr>
+<tr>
+<td class="alleft">P0121
+</td>
+<td class="alleft">Throttle / Pedal Position Sensor / Switch "A" Circuit Range / Performance Problem
+</td>
+<td class="alleft">The difference between the VTA1 and VTA2 voltages is below 0.8 V, or higher than 1.6 V for 2 seconds (1 trip detection logic).
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Throttle position sensor (throttle body with motor assembly)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>TP sensor circuit
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">Comes on
+</td>
+<td class="alleft">DTC stored
+</td>
+</tr>
+<tr>
+<td class="alleft">P0122
+</td>
+<td class="alleft">Throttle / Pedal Position Sensor / Switch "A" Circuit Low Input
+</td>
+<td class="alleft">The output voltage of VTA1 is 0.2 V or less for 2 seconds when the accelerator pedal is depressed (1 trip detection logic).
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Short in VTA1 circuit
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Open in VC circuit
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Throttle position sensor (throttle body with motor assembly)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">Comes on
+</td>
+<td class="alleft">DTC stored
+</td>
+</tr>
+<tr>
+<td class="alleft">P0123
+</td>
+<td class="alleft">Throttle / Pedal Position Sensor / Switch "A" Circuit High Input
+</td>
+<td class="alleft">The output voltage of VTA1 is 4.535 V or higher for 2 seconds when the accelerator pedal is depressed (1 trip detection logic).
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Open in VTA1 circuit
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Open in E2 circuit
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Short between VC and VTA1 circuits
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Throttle position sensor (throttle body with motor assembly)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">Comes on
+</td>
+<td class="alleft">DTC stored
+</td>
+</tr>
+<tr>
+<td class="alleft">P0220
+</td>
+<td class="alleft">Throttle / Pedal Position Sensor / Switch "B" Circuit
+</td>
+<td class="alleft">The output voltage of VTA2 quickly fluctuates beyond the lower and upper malfunction thresholds for 2 seconds when the accelerator pedal is depressed (1 trip detection logic).
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Throttle position sensor (throttle body with motor assembly)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">Comes on
+</td>
+<td class="alleft">DTC stored
+</td>
+</tr>
+<tr>
+<td class="alleft">P0222
+</td>
+<td class="alleft">Throttle / Pedal Position Sensor / Switch "B" Circuit Low Input
+</td>
+<td class="alleft">The output voltage of VTA2 is 1.75 V or less for 2 seconds when the accelerator pedal is depressed (1 trip detection logic).
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Short in VTA2 circuit
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Open in VC circuit
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>TP sensor (built into throttle body)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">Comes on
+</td>
+<td class="alleft">DTC stored
+</td>
+</tr>
+<tr>
+<td class="alleft">P0223
+</td>
+<td class="alleft">Throttle / Pedal Position Sensor / Switch "B" Circuit High Input
+</td>
+<td class="alleft">The output voltage of VTA2 is 4.8 V or higher, and VTA1 is between 0.2 V and 2.02 V for 2 seconds when the accelerator pedal is depressed (1 trip detection logic).
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Open in VTA2 circuit
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Open in E2 circuit
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Short between VC and VTA2 circuits
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Throttle position sensor (throttle body with motor assembly)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">Comes on
+</td>
+<td class="alleft">DTC stored
+</td>
+</tr>
+<tr>
+<td class="alleft">P2135
+</td>
+<td class="alleft">Throttle / Pedal Position Sensor / Switch "A" / "B" Voltage Correlation
+</td>
+<td class="alleft">Either condition (a) or (b) is met (1 trip detection logic):
+<br>
+(a) The difference between the output voltages of VTA1 and VTA2 is 0.02 V or less for 0.5 seconds or more.
+<br>
+(b) The output voltage of VTA1 is 0.2 V or less and VTA2 is 1.75 V or less for 0.4 seconds or more.
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Short between VTA1 and VTA2 circuits
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Throttle position sensor (throttle body with motor assembly)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">Comes on
+</td>
+<td class="alleft">DTC stored
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When any of these DTCs are output, check the throttle valve opening angle by entering the following menus: Powertrain / Engine and ECT / Data List / ETCS / Throttle Position No.1 and Throttle Position No.2.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Throttle Position No.1 is the VTA1 signal, and Throttle Position No.2 is the VTA2 signal.
+</p>
+<table summary="">
+<caption>Reference (Normal Condition)</caption>
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">GTS Display
+</th>
+<th class="alcenter">Accelerator Pedal Fully Released
+</th>
+<th class="alcenter">Accelerator Pedal Fully Depressed
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">Throttle Position No.1
+</td>
+<td class="alcenter">0.5 to 1.1 V
+</td>
+<td class="alcenter">3.2 to 4.8 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">Throttle Position No.2
+</td>
+<td class="alcenter">2.1 to 3.1 V
+</td>
+<td class="alcenter">4.6 to 4.98 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000FJFW_02" class="category no03">
+<h2>MONITOR DESCRIPTION</h2>
+<div class="content5">
+<p>The ECM uses the throttle position sensor to monitor the throttle valve opening angle. There are several checks that the ECM performs to confirm the proper operation of the throttle position sensor.
+</p>
+<div class="list1">
+<div class="listTitle">P0120, P0122, P0123, P0220, P0222, P0223 and P2135:</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>A specific voltage difference is expected between the sensor terminals, VTA and VTA2, for each throttle valve opening angle. If the difference between VTA and VTA2 is incorrect, the ECM interprets this as a malfunction in the sensor circuit, and stores a DTC.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>VTA and VTA2 each have a specific voltage range. If VTA or VTA2 is outside the normal operating range, the ECM interprets this as a malfunction in the sensor circuit, and stores a DTC.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>VTA and VTA2 should never be close to the same voltage level. If VTA is within 0.02 V of VTA2, the ECM determines that there is a short circuit in the sensor circuit, and stores a DTC.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list1">
+<div class="listTitle">P0121:</div>
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>This sensor transmits two signals: VTA and VTA2. VTA is used to detect the throttle opening angle and VTA2 is used to detect malfunctions in VTA. The ECM performs several checks to confirm the proper operation of the throttle position sensor and VTA.
+</p>
+<p>For each throttle opening angle, a specific voltage difference is expected between the outputs of VTA and VTA2. If the output voltage difference between the two signals deviates from the normal operating range, the ECM interprets this as a malfunction in the throttle position sensor. In this case the ECM will illuminate the MIL and store this DTC.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000FJFW_14" class="category no03">
+<h2>CONFIRMATION DRIVING PATTERN</h2>
+<div class="content5">
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A198824E25.png" alt="A198824E25" title="A198824E25">
+<div class="indicateinfo">
+<span class="line">
+<span class="points">3.688,1.396 3.323,0.406</span>
+<span class="points">3.323,0.406 3.552,0.406</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">2.635,2.01 2.375,1.271</span>
+<span class="points">2.375,1.271 2.542,1.271</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">4.938,1.99 5.26,1.146</span>
+<span class="points">5.26,1.146 5.375,1.146</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">1.229,1.875 1.604,2.042</span>
+<span class="captionSize">0.375,0.167</span>
+<span class="fontsize">10</span>
+<span class="captionText">Idling</span>
+</span>
+<span class="caption">
+<span class="points">0.417,2.146 1.615,2.292</span>
+<span class="captionSize">1.198,0.146</span>
+<span class="fontsize">10</span>
+<span class="captionText">Ignition Switch ON</span>
+</span>
+<span class="caption">
+<span class="points">2.115,2.01 2.375,2.26</span>
+<span class="captionSize">0.26,0.25</span>
+<span class="fontsize">10</span>
+<span class="captionText">[A]</span>
+</span>
+<span class="caption">
+<span class="points">3.844,1.76 4.125,2.021</span>
+<span class="captionSize">0.281,0.26</span>
+<span class="fontsize">10</span>
+<span class="captionText">[B]</span>
+</span>
+<span class="caption">
+<span class="points">5.448,1.083 6.083,1.229</span>
+<span class="captionSize">0.635,0.146</span>
+<span class="fontsize">10</span>
+<span class="captionText">Released</span>
+</span>
+<span class="caption">
+<span class="points">3.625,0.313 4.354,0.458</span>
+<span class="captionSize">0.729,0.146</span>
+<span class="fontsize">10</span>
+<span class="captionText">Depressed</span>
+</span>
+<span class="caption">
+<span class="points">4.396,2.583 5.094,2.771</span>
+<span class="captionSize">0.698,0.188</span>
+<span class="fontsize">10</span>
+<span class="captionText">2 seconds</span>
+</span>
+<span class="caption">
+<span class="points">4.708,1.719 4.948,1.927</span>
+<span class="captionSize">0.24,0.208</span>
+<span class="fontsize">10</span>
+<span class="captionText">[C]</span>
+</span>
+<span class="caption">
+<span class="points">5.031,2.969 5.313,3.167</span>
+<span class="captionSize">0.281,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">[D]</span>
+</span>
+<span class="caption">
+<span class="points">2.635,1.198 3.271,1.344</span>
+<span class="captionSize">0.635,0.146</span>
+<span class="fontsize">10</span>
+<span class="captionText">Released</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>Turn the ignition switch to ON and turn the GTS on.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>Clear the DTCs (even if no DTCs are stored, perform the clear DTC procedure).
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">4.</div>
+<div class="list1Body"><p>Turn the ignition switch off and wait for at least 30 seconds.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">5.</div>
+<div class="list1Body"><p>Turn the ignition switch to ON and turn the GTS on [A].
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">6.</div>
+<div class="list1Body"><p>Start the engine.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">7.</div>
+<div class="list1Body"><p>With the vehicle stationary, fully depress and release the accelerator pedal [B].
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">8.</div>
+<div class="list1Body"><p>Idle the engine for 2 seconds or more [C].
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">9.</div>
+<div class="list1Body"><p>Enter the following menus: Powertrain / Engine and ECT / Trouble Codes [D].
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">10.</div>
+<div class="list1Body"><p>Read the pending DTCs.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If a pending DTC is output, the system is malfunctioning.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If a pending DTC is not output, perform the following procedure.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">11.</div>
+<div class="list1Body"><p>Enter the following menus: Powertrain / Engine and ECT / Utility / All Readiness.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">12.</div>
+<div class="list1Body"><p>Input the DTC: P0120, P0121, P0122, P0123, P0220, P0222, P0223 or P2135.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">13.</div>
+<div class="list1Body"><p>Check the DTC judgment result.
+</p>
+<table summary="">
+<colgroup>
+<col style="width:29%">
+<col style="width:70%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">GTS Display
+</th>
+<th class="alcenter">Description
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NORMAL
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC judgment completed
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>System normal
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">ABNORMAL
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC judgment completed
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>System abnormal
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">INCOMPLETE
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC judgment not completed
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Perform driving pattern after confirming DTC enabling conditions
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">N/A
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Unable to perform DTC judgment
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Number of DTCs which do not fulfill DTC preconditions has reached ECU memory limit
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the judgment result shows NORMAL, the system is normal.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the judgment result shows ABNORMAL, the system has a malfunction.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the judgment result shows INCOMPLETE or N/A, perform steps [B] through [D] again.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000FJFW_07" class="category no03">
+<h2>FAIL-SAFE</h2>
+<div class="content5">
+<p>When any of these DTCs, as well as other DTCs relating to ETCS (Electronic Throttle Control System) malfunctions are stored, the ECM enters fail-safe mode. During fail-safe mode, the ECM cuts the current to the throttle actuator, and the throttle valve is returned to a 6° throttle angle by the return spring. The ECM then adjusts the engine output by controlling the fuel injection (intermittent fuel-cut) and ignition timing, in accordance with the accelerator pedal opening angle, to allow the vehicle to continue at a minimal speed. If the accelerator pedal is depressed firmly and gently, the vehicle can be driven slowly.
+</p>
+<p>Fail-safe mode continues until a pass condition is detected, and the ignition switch is then turned off.
+</p>
+</div>
+</div>
+<div id="RM100000000FJFW_08" class="category no03">
+<h2>WIRING DIAGRAM</h2>
+<div class="content5">
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A147857E17.png" alt="A147857E17" title="A147857E17">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">4.719,1.875 4.917,2.031</span>
+<span class="captionSize">0.198,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">98</span>
+</span>
+<span class="caption">
+<span class="points">2.323,3.24 2.573,3.417</span>
+<span class="captionSize">0.25,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E2</span>
+</span>
+<span class="caption">
+<span class="points">2.594,3.146 2.74,3.302</span>
+<span class="captionSize">0.146,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3</span>
+</span>
+<span class="caption">
+<span class="points">2.281,1.323 2.573,1.5</span>
+<span class="captionSize">0.292,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">VC</span>
+</span>
+<span class="caption">
+<span class="points">2.594,1.229 2.74,1.385</span>
+<span class="captionSize">0.146,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">5</span>
+</span>
+<span class="caption">
+<span class="points">2.229,1.979 2.573,2.156</span>
+<span class="captionSize">0.344,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">VTA</span>
+</span>
+<span class="caption">
+<span class="points">2.594,1.885 2.74,2.042</span>
+<span class="captionSize">0.146,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">6</span>
+</span>
+<span class="caption">
+<span class="points">4.979,1.875 5.417,2.052</span>
+<span class="captionSize">0.438,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">VTA1</span>
+</span>
+<span class="caption">
+<span class="points">4.719,1.24 4.917,1.396</span>
+<span class="captionSize">0.198,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">96</span>
+</span>
+<span class="caption">
+<span class="points">4.979,1.24 5.417,1.417</span>
+<span class="captionSize">0.438,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">VCTA</span>
+</span>
+<span class="caption">
+<span class="points">4.719,2.5 4.917,2.656</span>
+<span class="captionSize">0.198,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">99</span>
+</span>
+<span class="caption">
+<span class="points">4.979,2.5 5.417,2.677</span>
+<span class="captionSize">0.438,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">VTA2</span>
+</span>
+<span class="caption">
+<span class="points">2.146,2.615 2.583,2.792</span>
+<span class="captionSize">0.438,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">VTA2</span>
+</span>
+<span class="caption">
+<span class="points">4.719,3.125 4.917,3.281</span>
+<span class="captionSize">0.198,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">97</span>
+</span>
+<span class="caption">
+<span class="points">4.979,3.125 5.417,3.302</span>
+<span class="captionSize">0.438,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ETA</span>
+</span>
+<span class="caption">
+<span class="points">2.594,2.51 2.74,2.667</span>
+<span class="captionSize">0.146,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">4</span>
+</span>
+<span class="caption">
+<span class="points">1.281,3.917 1.625,4.083</span>
+<span class="captionSize">0.344,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">C4</span>
+</span>
+<span class="caption">
+<span class="points">1.281,4.094 3.906,4.552</span>
+<span class="captionSize">2.625,0.458</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Throttle Position Sensor (Built into Throttle Body with Motor Assembly)</span>
+</span>
+<span class="caption">
+<span class="points">5.219,3.875 5.521,4.063</span>
+<span class="captionSize">0.302,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">C39</span>
+</span>
+<span class="caption">
+<span class="points">5.219,4.052 5.573,4.24</span>
+<span class="captionSize">0.354,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ECM</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000FJFW_09" class="category no10">
+<h2>CAUTION / NOTICE / HINT</h2>
+<div class="content5">
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>Read freeze frame data using the GTS. Freeze frame data records the engine condition when malfunctions are detected. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, if the air fuel ratio was lean or rich, and other data from the time the malfunction occurred.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000FJFW_13" class="category no01">
+<h2>PROCEDURE</h2>
+<div class="testgrp" id="RM100000000FJFW_13_0001">
+<div class="testtitle"><span class="titleText">1.READ VALUE USING GTS (THROTTLE POSITION SENSOR)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Turn the ignition switch to ON and turn the GTS on.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Enter the following menus: Powertrain / Engine and ECT / Data List / Ptrl Throttle / Throttle Position No.1 and Throttle Position No.2.
+</p>
+<dl class="gtsDataList">
+<dt class="gtsDataList">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataList">
+<table summary="data-list" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Throttle Position No.1
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Position No.2
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsDataList gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50003</span>
+<span class="gtsEcu">234</span>
+<span class="gtsPid">282,283</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Read the values displayed on the GTS.
+</p>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJFW_13_0001_1" summary="">
+<colgroup>
+<col style="width:16%">
+<col style="width:16%">
+<col style="width:16%">
+<col style="width:16%">
+<col style="width:16%">
+<col style="width:16%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter" colspan="2">When Accelerator Pedal Fully Released
+</td>
+<td class="alcenter" colspan="2">When Accelerator Pedal Fully Depressed
+</td>
+<td class="alcenter" rowspan="2">Trouble Area
+</td>
+<td class="alcenter" rowspan="2">Proceed to
+</td>
+</tr>
+<tr>
+<td class="alcenter">Throttle Position No.1
+<br>
+(VTA1)
+</td>
+<td class="alcenter">Throttle Position No.2
+<br>
+(VTA2)
+</td>
+<td class="alcenter">Throttle Position No.1
+<br>
+(VTA1)
+</td>
+<td class="alcenter">Throttle Position No.2
+<br>
+(VTA2)
+</td>
+</tr>
+<tr>
+<td class="alcenter">0 to 0.2 V
+</td>
+<td class="alcenter">0 to 0.2 V
+</td>
+<td class="alcenter">0 to 0.2 V
+</td>
+<td class="alcenter">0 to 0.2 V
+</td>
+<td class="alcenter">VC circuit open
+</td>
+<td class="alcenter" rowspan="4">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">4.5 to 4.98 V
+</td>
+<td class="alcenter">4.5 to 4.98 V
+</td>
+<td class="alcenter">4.5 to 4.98 V
+</td>
+<td class="alcenter">4.5 to 4.98 V
+</td>
+<td class="alcenter">E2 circuit open
+</td>
+</tr>
+<tr>
+<td class="alcenter">0 to 0.2 V, or 4.5 to 4.98 V
+</td>
+<td class="alcenter">2.1 to 3.1 V
+<br>
+(Fail-safe)
+</td>
+<td class="alcenter">0 to 0.2 V, or 4.5 to 5.0 V
+</td>
+<td class="alcenter">2.1 to 3.1 V
+<br>
+(Fail-safe)
+</td>
+<td class="alcenter">VTA1 circuit open or shorted to ground
+</td>
+</tr>
+<tr>
+<td class="alcenter">0.6 to 1.4 V
+<br>
+(Fail-safe)
+</td>
+<td class="alcenter">0 to 0.2 V, or 4.5 to 4.98 V
+</td>
+<td class="alcenter">0.6 to 1.4 V
+<br>
+(Fail-safe)
+</td>
+<td class="alcenter">0 to 0.2 V, or 4.5 to 4.98 V
+</td>
+<td class="alcenter">VTA2 circuit open or shorted to ground
+</td>
+</tr>
+<tr>
+<td class="alcenter">0.5 to 1.1 V
+</td>
+<td class="alcenter">2.1 to 3.1 V
+</td>
+<td class="alcenter">3.2 to 4.8 V
+<br>
+(Not fail-safe)
+</td>
+<td class="alcenter">4.6 to 4.98 V
+<br>
+(Not fail-safe)
+</td>
+<td class="alcenter">Throttle position sensor circuit normal
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC P0121 is stored when the VTA1 and VTA2 output voltages are not consistent with the sensor characteristics. Therefore, check the freeze frame data when this DTC is stored. Use the following formula to confirm the relative differences in voltage.
+</p>
+<dl class="spec">
+<dt class="spec">Characteristic Sensor Output:</dt>
+<dd class="spec"><p>VTA2 x 0.8 is approximately equal to VTA1 + 1.11 V
+</p>
+<p>VTA1: Throttle Position No.1
+</p>
+<p>VTA2: Throttle Position No.2
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If DTC P0121 is output, proceed to "Check Harness And Connector (Throttle Position Sensor - ECM)".
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">2.CHECK HARNESS AND CONNECTOR (THROTTLE POSITION SENSOR - ECM)</span></div>
+<div class="judgeValueNext"><p>B
+</p></div>
+<div class="nextAction"><span class="titleText">5.CHECK WHETHER DTC OUTPUT RECURS (THROTTLE POSITION SENSOR DTCS)</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJFW_13_0002">
+<div class="testtitle"><span class="titleText">2.CHECK HARNESS AND CONNECTOR (THROTTLE POSITION SENSOR - ECM)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Disconnect the throttle with motor body assembly connector.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Disconnect the ECM connector.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Measure the resistance according to the value(s) in the table below.
+</p>
+<dl class="spec">
+<dt class="spec">Standard Resistance:</dt>
+<dd class="spec"><table summary="">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Connection
+</th>
+<th class="alcenter">Condition
+</th>
+<th class="alcenter">Specified Condition
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">C4-5 (VC) - C39-96 (VCTA)
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">C4-6 (VTA) - C39-98 (VTA1)
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">C4-4 (VTA2) - C39-99 (VTA2)
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">C4-3 (E2) - C39-97 (ETA)
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">Below 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">C4-5 (VC) or C39-96 (VCTA) - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+<tr>
+<td class="alcenter">C4-6 (VTA) or C39-98 (VTA1) - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+<tr>
+<td class="alcenter">C4-4 (VTA2) or C39-99 (VTA2) - Body ground
+</td>
+<td class="alcenter">Always
+</td>
+<td class="alcenter">10 kΩ or higher
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJFW_13_0002_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">3.INSPECT ECM (VC VOLTAGE)</span></div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPAIR OR REPLACE HARNESS OR CONNECTOR</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJFW_13_0003">
+<div class="testtitle"><span class="titleText">3.INSPECT ECM (VC VOLTAGE)</span></div>
+<div class="content6">
+<div class="contentPartition"></div>
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/A107895C15.png" alt="A107895C15" title="A107895C15">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">0.479,1.042 0.969,1.333</span>
+<span class="rectangleSize">0.49,0.292</span>
+</span>
+<span class="line">
+<span class="points">1.302,1.781 1.625,1.417</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">2.219,1.802 1.938,1.417</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.042,0.01 0.333,0.26</span>
+<span class="captionSize">0.292,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">1.135,1.813 1.448,2.042</span>
+<span class="captionSize">0.313,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E2</span>
+</span>
+<span class="caption">
+<span class="points">2.156,1.813 2.49,2.042</span>
+<span class="captionSize">0.333,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">VC</span>
+</span>
+<span class="caption">
+<span class="points">0.615,1.104 0.948,1.323</span>
+<span class="captionSize">0.333,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">C4</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td>Front view of wire harness connector
+<br>
+(to Throttle Body with Motor Assembly)
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Disconnect the throttle body with motor assembly connector.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Turn the ignition switch to ON.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Measure the voltage according to the value(s) in the table below.
+</p>
+<dl class="spec">
+<dt class="spec">Standard Voltage:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Connection
+</th>
+<th class="alcenter">Switch Condition
+</th>
+<th class="alcenter">Specified Condition
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">C4-5 (VC) - C4-3 (E2)
+</td>
+<td class="alcenter">Ignition switch ON
+</td>
+<td class="alcenter">4.5 to 5.5 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJFW_13_0003_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">4.REPLACE THROTTLE BODY WITH MOTOR ASSEMBLY</span></div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPLACE ECM</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;ECM&gt;REMOVAL<span class="invisible">201408,999999,_51,_029758,_0135332,RM100000000FJEC,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJFW_13_0004">
+<div class="testtitle"><span class="titleText">4.REPLACE THROTTLE BODY WITH MOTOR ASSEMBLY</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Replace the throttle body with motor assembly.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;THROTTLE BODY&gt;REMOVAL<span class="invisible">201408,999999,_51,_029758,_0135331,RM100000000FJE8,</span></a>
+</p>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJFW_13_0004_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NEXT
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>NEXT
+</p></div>
+<div class="nextAction"><span class="titleText">5.CHECK WHETHER DTC OUTPUT RECURS (THROTTLE POSITION SENSOR DTCS)</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000FJFW_13_0005">
+<div class="testtitle"><span class="titleText">5.CHECK WHETHER DTC OUTPUT RECURS (THROTTLE POSITION SENSOR DTCS)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Turn the ignition switch to ON and turn the GTS on.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Clear the DTCs.
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Powertrain &gt; Engine and ECT &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Turn the ignition switch off and wait for at least 30 seconds.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>Turn the ignition switch to ON and turn the GTS on.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>Drive the vehicle in accordance with the driving pattern described in Confirmation Driving Pattern.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">g.</div>
+<div class="test1Body">
+<p>Enter the following menus: Powertrain / Engine and ECT / Trouble Codes.
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Powertrain &gt; Engine and ECT &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">h.</div>
+<div class="test1Body">
+<p>Read the DTCs.
+</p>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000FJFW_13_0005_1" summary="">
+<colgroup>
+<col style="width:69%">
+<col style="width:30%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Result
+</th>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">DTC P0120, P0121, P0122, P0123, P0220, P0222, P0223, and/or P2135 are output
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">DTC is not output
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>A
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPLACE ECM</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;ECM&gt;REMOVAL<span class="invisible">201408,999999,_51,_029758,_0135332,RM100000000FJEC,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">END</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

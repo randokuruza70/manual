@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'ArialMT';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'ArialMT';">
+	<!ENTITY st11 "font-size:9px;font-family:'Svg Symbol';">
+	<!ENTITY st12 "font-size:6px;font-family:'Svg Symbol';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'Arial';">
+	<!ENTITY st19 "font-size:9px;font-family:'Arial';">
+	<!ENTITY st20 "font-size:6px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 7245.579 710.000" viewBox="0 0 7245.579 710.000" height="710.000" width="7245.579" xml:space="preserve" ewd:ver="2.1.2.9" xmlns="&ns_svg;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:xlink="&ns_xlink;">
+<path style="stroke-width:1.42 ;&st7;  " d=" M  6875.35,    78.27  L  6866.85,    78.27  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6824.36,    49.25  L  6819.39,    44.28  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6807.36,    56.31  L  6812.33,    61.28  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6819.39,    61.28  L  6824.36,    56.31  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6812.33,    44.28  L  6807.36,    49.25  " /><text style="&st18;" transform="matrix(&st17;  6514.72  363.83 )">B-R</text><text style="&st18;" transform="matrix(&st17;  6608.2  385.83 )">R</text><text style="&st18;" transform="matrix(&st17;  6619.53  390.49 )">(*13)</text><text style="&st18;" transform="matrix(&st17;  6585.54  390.49 )">(*25)</text><text style="&st18;" transform="matrix(&st17;  6526.05  364.99 )">(*27)</text><text style="&st18;" transform="matrix(&st17;  6500.55  364.99 )">(*26)</text><text style="&st18;" transform="matrix(&st17;  6863.16  105.38 )">R</text><text style="&st18;" transform="matrix(&st17;  6812.17  105.38 )">R</text><text style="&st18;" transform="matrix(&st16;  6843.5  49.08 )">R</text><text style="&st18;" transform="matrix(&st16;  6752.68  15.09 )">B-Y(*13)</text><text style="&st18;" transform="matrix(&st16;  6701.69  15.09 )">B-Y(*13)</text><text style="&st18;" transform="matrix(&st16;  6711.77  516.5 )">R</text><text style="&st18;" transform="matrix(&st16;  6707.11  527.83 )">(*13)</text><text style="&st18;" transform="matrix(&st16;  6762.76  516.5 )">R</text><text style="&st18;" transform="matrix(&st16;  6758.11  527.83 )">(*13)</text><text style="&st18;" transform="matrix(&st17;  6574.2  385.83 )">R</text><text style="&st18;" transform="matrix(&st17;  6863.16  364.68 )">B-W</text><text style="&st18;" transform="matrix(&st17;  6931.15  360.41 )">B</text><text style="&st18;" transform="matrix(&st17;  6905.65  109.61 )">L-W</text><text style="&st18;" transform="matrix(&st17;  6956.64  109.22 )">G-B</text><g ewd:figtype="rb" ewd:figID="24" ewd:code="FUSE5"><path style="stroke-width:1.42 ;&st7;  " d=" M  6766.99,    95.27  L  6762.75,    95.27  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6766.99,   103.77  L  6762.75,   103.77  " /><path style="stroke-width:0.85 ;&st7;  " d=" M  6764.87,    78.27  L  6764.87,    95.27  " /><path style="stroke-width:1.42 ;&st7;   " d=" M  6762.75,    95.27  C  6760.40     95.27   6758.50     97.17   6758.50     99.52  " /><path style="stroke-width:1.42 ;&st7;   " d=" M  6758.50,    99.52  C  6758.50    101.87   6760.40    103.77   6762.75    103.77  " /><path style="stroke-width:0.28 ;&st9;  " d=" M  6764.87,    90.37  L  6762.03,    87.54  L  6762.03,    91.79  L  6764.87,    94.62  L  6767.70,    91.79  L  6767.70,    87.54  L  6764.87,    90.37  " /><path style="stroke-width:1.42 ;&st7;   " d=" M  6771.24,    99.52  C  6771.24     97.17   6769.34     95.27   6766.99     95.27  " /><text style="&st18;" transform="matrix(&st16;  6781.29  53.34 )">10A <tspan x="0 " dy="6.0">DOME </tspan><tspan x="0 " dy="6.0">NO.1</tspan></text><text style="&st18;" transform="matrix(&st16;  6763.07  101.49 )">2</text><text style="&st18;" transform="matrix(&st16;  6758.69  86.47 )">2</text><text style="&st18;" transform="matrix(&st16;  6756.83  32.08 )">(BAT)</text><path style="stroke-width:1.42 ;&st7;   " d=" M  6766.99,   103.77  C  6769.34    103.77   6771.24    101.87   6771.24     99.52  " /><path style="stroke-width:0.85 ;&st7;  " d=" M  6764.87,    69.77  L  6764.87,    78.27  " /><path style="stroke-width:1.42 ;&st7;   " d=" M  6764.87,    47.11  C  6762.13     48.72   6761.22     52.25   6762.83     54.99  " /><path style="stroke-width:1.42 ;&st7;   " d=" M  6762.83,    54.99  C  6763.35     55.87   6763.99     56.51   6764.87     57.03  " /><path style="stroke-width:1.42 ;&st7;   " d=" M  6764.87,    66.94  C  6767.61     65.33   6768.52     61.80   6766.91     59.06  " /><path style="stroke-width:1.42 ;&st7;   " d=" M  6766.91,    59.06  C  6766.39     58.18   6765.75     57.55   6764.87     57.03  " /><path style="stroke-width:0.85 ;&st7;   " d=" M  6766.29,    45.69  C  6766.29     44.91   6765.65     44.28   6764.87     44.28  " /><path style="stroke-width:0.85 ;&st7;   " d=" M  6764.87,    44.28  C  6764.09     44.28   6763.45     44.91   6763.45     45.69  " /><path style="stroke-width:0.85 ;&st7;   " d=" M  6763.45,    45.69  C  6763.45     46.48   6764.09     47.11   6764.87     47.11  " /><path style="stroke-width:0.85 ;&st7;   " d=" M  6764.87,    47.11  C  6765.65     47.11   6766.29     46.48   6766.29     45.69  " /><path style="stroke-width:0.85 ;&st7;   " d=" M  6766.29,    68.36  C  6766.29     67.57   6765.65     66.94   6764.87     66.94  " /><path style="stroke-width:0.85 ;&st7;   " d=" M  6764.87,    66.94  C  6764.09     66.94   6763.45     67.57   6763.45     68.36  " /><path style="stroke-width:0.85 ;&st7;   " d=" M  6763.45,    68.36  C  6763.45     69.14   6764.09     69.77   6764.87     69.77  " /><path style="stroke-width:0.85 ;&st7;   " d=" M  6764.87,    69.77  C  6765.65     69.77   6766.29     69.14   6766.29     68.36  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6752.12,    35.78  L  6752.12,    78.27  L  6777.61,    78.27  L  6777.61,    35.78  L  6752.12,    35.78  " /></g><g ewd:figtype="w2w" ewd:figID="169" ewd:code="IL1"><path style="stroke-width:1.42 ;&st7;  " d=" M  6871.10,    87.34  L  6866.85,    83.09  L  6862.60,    87.34  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6871.10,    83.94  L  6866.85,    79.69  L  6862.60,    83.94  " /><text style="&st18;" transform="matrix(&st16;  6851.12  75.99 )">59</text></g><g ewd:figtype="annex" ewd:figID="60" ewd:code=" "><path style="stroke-width:1.42 ;&st7;  " d=" M  7011.33,    86.77  L  7016.39,    75.41  " /><path style="stroke-width:0.85 ;&st7;  " d=" M  7015.57,    65.52  L  7011.33,    61.28  L  6987.95,    61.28  L  6985.83,    57.03  L  6983.71,    61.28  L  6960.33,    61.28  L  6956.08,    65.52  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7011.33,    86.77  L  7006.27,    75.41  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6960.34,    86.77  L  6965.40,    75.41  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6960.34,    86.77  L  6955.28,    75.41  " /><text style="&st18;" transform="matrix(&st16;  6971.04  41.18 )" ewd:textID="123">Turn Signal <tspan x="0 " dy="6.0">Flasher </tspan><tspan x="0 " dy="6.0">Assembly</tspan></text></g><g ewd:figtype="annex" ewd:figID="61" ewd:code=" "><path style="stroke-width:1.42 ;&st7;  " d=" M  6909.35,    86.77  L  6904.29,    75.41  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6909.35,    86.77  L  6914.41,    75.41  " /><text style="&st18;" transform="matrix(&st17;  6905.66  67.02 )" ewd:textID="72">H/LP <tspan x="0 " dy="6.0">HI LH </tspan><tspan x="0 " dy="6.0">Fuse</tspan></text></g><g ewd:figtype="annex" ewd:figID="63" ewd:code=" "><path style="stroke-width:1.42 ;&st7;  " d=" M  6866.85,   392.72  L  6871.91,   381.36  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6866.85,   392.72  L  6861.79,   381.36  " /><text style="&st18;" transform="matrix(&st17;  6872.1  452.52 )" ewd:textID="57">Front Door Courtesy <tspan x="0 " dy="6.0">Light Switch Assembly </tspan><tspan x="0 " dy="6.0">RH (RHD)</tspan></text><text style="&st18;" transform="matrix(&st17;  6854.26  452.52 )" ewd:textID="55">Front Door Courtesy <tspan x="0 " dy="6.0">Light Switch Assembly </tspan><tspan x="0 " dy="6.0">LH (LHD)</tspan></text></g><g ewd:figtype="annex" ewd:figID="64" ewd:code=" "><path style="stroke-width:1.42 ;&st7;  " d=" M  6934.84,   392.72  L  6939.90,   381.36  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6934.84,   392.72  L  6929.78,   381.36  " /><text style="&st18;" transform="matrix(&st17;  6910.2  462.53 )" ewd:textID="54">Front Door Courtesy <tspan x="0 " dy="6.0">Light Switch Assembly LH</tspan></text><text style="&st18;" transform="matrix(&st17;  6922.1  462.6 )" ewd:textID="56">Front Door Courtesy <tspan x="0 " dy="6.0">Light Switch Assembly RH</tspan></text><text style="&st18;" transform="matrix(&st17;  6934.0  462.53 )" ewd:textID="109">Rear Door Courtesy <tspan x="0 " dy="6.0">Light Switch Assembly LH</tspan></text><text style="&st18;" transform="matrix(&st17;  6945.9  462.6 )" ewd:textID="110">Rear Door Courtesy <tspan x="0 " dy="6.0">Light Switch Assembly RH</tspan></text><text style="&st18;" transform="matrix(&st17;  6957.79  452.52 )" ewd:textID="31">Back Door Courtesy <tspan x="0 " dy="6.0">Light Switch Assembly</tspan></text></g><g ewd:figtype="annex" ewd:figID="65" ewd:code=" "><path style="stroke-width:1.42 ;&st7;  " d=" M  6577.90,   418.22  L  6572.84,   406.85  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6577.90,   418.22  L  6582.96,   406.85  " /><text style="&st18;" transform="matrix(&st17;  6577.05  456.07 )" ewd:textID="30">Airbag Sensor <tspan x="0 " dy="6.0">Assembly</tspan></text></g></svg>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE CategoryList SYSTEM "../dtd/sc.dtd">
+<CategoryList type="TMC" xml:lang="en" ver="2.1.2.9">
+	<Category no="01" code="ENG">ENGINE</Category>
+	<Category no="02" code="HYB">HYBRID SYSTEM</Category>
+	<Category no="03" code="IS">IDLING STOP</Category>
+	<Category no="04" code="TM">TRANSMISSION</Category>
+	<Category no="05" code="DL">DRIVE LINE</Category>
+	<Category no="06" code="SUS">SUSPENSION &amp; AXLE</Category>
+	<Category no="07" code="BRA">BRAKE</Category>
+	<Category no="08" code="STR">STEERING</Category>
+	<Category no="09" code="HVAC">HEATER &amp; AIR CONDITIONING SYSTEM</Category>
+	<Category no="10" code="SRS">RESTRAINTS</Category>
+	<Category no="11" code="SEC">SECURITIES</Category>
+	<Category no="12" code="CCS">CRUISE CONTROL SYSTEM</Category>
+	<Category no="13" code="BE">BODY ELECTRICAL</Category>
+	<Category no="14" code="BO">BODY</Category>
+	<Category no="15" code="DM">DRIVE MECHANISM</Category>
+	<Category no="16" code="CS">COMMUNICATION SYSTEM</Category>
+	<Category no="51" code="EG">Engine / Hybrid System</Category>
+	<Category no="52" code="DR">Drivetrain</Category>
+	<Category no="53" code="SS">Suspension</Category>
+	<Category no="54" code="BK">Brake</Category>
+	<Category no="55" code="ST">Steering</Category>
+	<Category no="56" code="AV">Audio/Visual/Telematics</Category>
+	<Category no="57" code="PS">Power Source / Network</Category>
+	<Category no="58" code="IN">Vehicle Interior</Category>
+	<Category no="59" code="EX">Vehicle Exterior</Category>
+</CategoryList>

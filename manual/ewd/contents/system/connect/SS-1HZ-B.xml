@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <connector type="conn" code="F2" figID="6">
+    <pin no="1">
+      <line id="1" color="B-DG" spec="12V Battery Type w/ Two Batteries" commtxt="(*2)">
+        <connector type="gp" code="FC" figID="17">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="F2" figID="6">
+    <pin no="1">
+      <line id="2" color="B-DG" spec="12V Battery Type w/ Two Batteries" commtxt="(*2)">
+        <connector type="gp" code="FB" figID="18">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A36" figID="7">
+    <pin no="1">
+      <line id="3" color="B-DG">
+        <connector type="gp" code="AC" figID="19">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E1" figID="7">
+    <pin no="1">
+      <line id="4" color="B" spec="12V Battery Type w/ Two Batteries" commtxt="(*2)">
+        <connector type="conn" code="E2" figID="6">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E3" figID="5">
+    <pin no="1">
+      <line id="5" color="B" spec="24V Battery Type" commtxt="(*3)">
+        <connector type="conn" code="E4" figID="7">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="F1" figID="7">
+    <pin no="1">
+      <line id="6" color="B-DG" spec="12V Battery Type w/ One Battery,24V Battery Type" commtxt="(*1,*3)">
+        <connector type="gp" code="FA" figID="20">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="D8" figID="7">
+    <pin no="1">
+      <line id="7" color="B" spec="12V Battery Type w/ One Battery,12V Battery Type w/ Two Batteries" commtxt="(*1,*2)">
+        <connector type="conn" code="D5" figID="8">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="D5" figID="8">
+    <pin no="1">
+      <line id="8" color="B" spec="24V Battery Type" commtxt="(*3)">
+        <connector type="conn" code="D10" figID="5">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AC1" sex="male" figID="15">
+    <pin no="10">
+      <line id="9" color="B-W">
+        <connector type="conn" code="C89" figID="8">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AC1" sex="female" figID="15">
+    <pin no="10">
+      <line id="10" color="B-W">
+        <connector type="rb" code="1" figID="4">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP4" figID="22">
+    <pin>
+      <line id="11" color="L">
+        <connector type="rb" code="1" figID="4">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE55" figID="3">
+    <pin>
+      <line id="12" color="L">
+        <connector type="sp" code="SP4" figID="22">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A22" figID="9">
+    <pin no="2" spec="RHD 24V Battery Type">
+      <line id="13" color="W-B">
+        <connector type="gp" code="AA" figID="21">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A22" figID="9">
+    <pin no="3" spec="RHD 12V Battery Type">
+      <line id="13" color="W-B">
+        <connector type="gp" code="AA" figID="21">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A22" figID="9">
+    <pin no="4" spec="LHD">
+      <line id="13" color="W-B">
+        <connector type="gp" code="AA" figID="21">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="1" figID="4">
+    <pin>
+      <line id="14" color="W-B">
+        <connector type="conn" code="A22" figID="9">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="1" figID="4">
+    <pin>
+      <line id="15" color="B-W" spec="w/o Emission Control" commtxt="(*8)">
+        <connector type="w2w" code="AI3" sex="female" figID="16">
+          <pin no="7"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A30" figID="10">
+    <pin no="2">
+      <line id="16" color="B-W" spec="w/ Emission Control" commtxt="(*7)">
+        <connector type="sp" code="SP3" figID="23">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP3" figID="23">
+    <pin>
+      <line id="17" color="B-W" spec="w/ Emission Control" commtxt="(*7)">
+        <connector type="rb" code="1" figID="4">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="female" figID="16">
+    <pin no="7">
+      <line id="18" color="B-W" spec="w/ Emission Control" commtxt="(*7)">
+        <connector type="sp" code="SP3" figID="23">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I59" figID="2">
+    <pin no="1" spec="RHD 24V Battery Type">
+      <line id="19" color="B-W">
+        <connector type="w2w" code="AI3" sex="male" figID="16">
+          <pin no="7"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I59" figID="2">
+    <pin no="9" spec="RHD 12V Battery Type">
+      <line id="19" color="B-W">
+        <connector type="w2w" code="AI3" sex="male" figID="16">
+          <pin no="7"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I70" figID="2">
+    <pin no="9" spec="LHD">
+      <line id="19" color="B-W">
+        <connector type="w2w" code="AI3" sex="male" figID="16">
+          <pin no="7"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE3" figID="1">
+    <pin>
+      <line id="20" color="B-W">
+        <connector type="conn" code="I59" figID="2">
+          <pin no="10" spec="RHD 12V Battery Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE3" figID="1">
+    <pin>
+      <line id="20" color="B-W">
+        <connector type="conn" code="I59" figID="2">
+          <pin no="2" spec="RHD 24V Battery Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE3" figID="1">
+    <pin>
+      <line id="20" color="B-W">
+        <connector type="conn" code="I70" figID="2">
+          <pin no="10" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="" figID="8">
+    <pin>
+      <line id="23" color="" dir="none">
+        <connector type="annex" code="" figID="14">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+</connectionList>

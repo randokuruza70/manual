@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25T2E" style="font-size:6px;font-family:'Arial'" ver="2.1.2.9">
+	<text textID="1">* 1 :Pick-Up Body Type</text>
+	<text textID="2">* 2 :Except Pick-Up Body Type</text>
+	<text textID="3">* 3 :w/ Rear Fog Light</text>
+	<text textID="4">* 8 :12V Battery Type</text>
+	<text textID="5">* 9 :24V Battery Type</text>
+	<text textID="6">*13 :RHD 1GR-FE, 1HZ 12V Battery Type w/o Emission Control</text>
+	<text textID="7">*14 :1HZ 12V Battery Type w/ Emission Control, 1HZ 24V Battery Type</text>
+	<text textID="8">*20 :Australia</text>
+	<text textID="9">*21 :Except Australia</text>
+	<text textID="10">*23 :Soft Top Body Type</text>
+	<text textID="11">*24 :Except Soft Top Body Type</text>
+	<text textID="12">Back-Up Light Switch Assembly</text>
+	<text textID="13">Combination Meter Assembly</text>
+	<text textID="14">Diode (Turn Signal Light LH)</text>
+	<text textID="15">Diode (Turn Signal Light RH)</text>
+	<text textID="16">FLSH2 Relay</text>
+	<text textID="17">FLSH Relay</text>
+	<text textID="18">Flasher Circuit</text>
+	<text textID="19">Hazard Warning Signal Switch Assembly</text>
+	<text textID="20">Headlight Dimmer Switch Assembly</text>
+	<text textID="21">No. 6 Junction Connector</text>
+	<text textID="22">No. 8 Junction Connector</text>
+	<text textID="23">No. 9 Junction Connector</text>
+	<text textID="24">No. 10 Junction Connector</text>
+	<text textID="25">No. 12 Junction Connector</text>
+	<text textID="26">No. 13 Junction Connector</text>
+	<text textID="27">No. 24 Junction Connector</text>
+	<text textID="28">No. 24 Junction Connector , No. 26 Junction Connector</text>
+	<text textID="29">No. 26 Junction Connector</text>
+	<text textID="30">No. 31 Junction Connector</text>
+	<text textID="31">No. 32 Junction Connector</text>
+	<text textID="32">RR FOG Relay</text>
+	<text textID="33">Stop Light Switch Assembly</text>
+	<text textID="34">TAIL Relay</text>
+	<text textID="35">Trailer Socket</text>
+	<text textID="36">Turn LH</text>
+	<text textID="37">Turn RH</text>
+	<text textID="38">Turn Signal Flasher Assembly</text>
+	<text textID="39">Turn Switch</text>
+</texts>

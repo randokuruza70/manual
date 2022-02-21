@@ -1,0 +1,474 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">Engine / Hybrid System</span>
+<span class="globalSection">_029760</span>
+<span class="globalSectionName">1VD-FTV ENGINE CONTROL</span>
+<span class="globalTitle">_0309414</span>
+<span class="globalTitleName">ECD SYSTEM(w/o EGR System)</span>
+<span class="globalCategory">D</span>
+</div>
+<h1>1VD-FTV ENGINE CONTROL&nbsp;&nbsp;ECD SYSTEM(w/o EGR System)&nbsp;&nbsp;FREEZE FRAME DATA&nbsp;&nbsp;</h1>
+<br>
+<div id="RM10000000136KE_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">DESCRIPTION
+</span></p>
+<br>
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/A301856E12.png" alt="A301856E12" title="A301856E12">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">2.24,0.938 3.083,1.167</span>
+<span class="captionSize">0.844,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">0.5 seconds</span>
+</span>
+<span class="caption">
+<span class="points">0.344,0.938 1.188,1.167</span>
+<span class="captionSize">0.844,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">0.5 seconds</span>
+</span>
+<span class="caption">
+<span class="points">1.323,0.927 2.167,1.156</span>
+<span class="captionSize">0.844,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">0.5 seconds</span>
+</span>
+<span class="caption">
+<span class="points">0.406,2.813 2.844,3.083</span>
+<span class="captionSize">2.438,0.271</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Freeze frame data recorded</span>
+</span>
+<span class="caption">
+<span class="points">2.375,0.302 3.26,0.563</span>
+<span class="captionSize">0.885,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">DTC is stored</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+<p>The ECM records vehicle and driving condition information as freeze frame data the moment a DTC is stored. When troubleshooting, freeze frame data can be helpful in determining whether the vehicle was moving or stationary, whether the air fuel ratio was lean or rich, as well as the other data recorded at the time of a malfunction.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>If it is impossible to duplicate the problem even though a DTC is stored, confirm the freeze frame data.
+</p>
+</dd>
+</dl>
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>The ECM records engine conditions in the form of freeze frame data every 0.5 seconds. Using the GTS, 5 separate sets of freeze frame data can be checked.
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>3 data sets from before the DTC was stored
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>1 data set from when the DTC was stored
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>1 data set from after the DTC was stored
+</p>
+<p>These data sets can be used to simulate the condition of the vehicle from around the time of the occurrence of the malfunction. The data may assist in identifying the cause of the malfunction, and in judging whether it was temporary or not.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">LIST OF FREEZE FRAME DATA
+</span></p>
+<br>
+</div>
+<br>
+<dl class="gtsFreezeFrame hasAllTable">
+<dt class="gtsFreezeFrame">Powertrain &gt; Engine and ECT</dt>
+<dd class="gtsFreezeFrame">
+<table summary="freeze-frame">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Vehicle Speed
+</td>
+</tr>
+<tr>
+<td class="alleft">Target Idle Engine Speed
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Speed
+</td>
+</tr>
+<tr>
+<td class="alleft">Calculate Load
+</td>
+</tr>
+<tr>
+<td class="alleft">MAF
+</td>
+</tr>
+<tr>
+<td class="alleft">Atmosphere Pressure
+</td>
+</tr>
+<tr>
+<td class="alleft">MAP
+</td>
+</tr>
+<tr>
+<td class="alleft">Coolant Temp
+</td>
+</tr>
+<tr>
+<td class="alleft">Intake Air
+</td>
+</tr>
+<tr>
+<td class="alleft">Intake Air Temp (Turbo)
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Run Time
+</td>
+</tr>
+<tr>
+<td class="alleft">Initial Engine Coolant Temp
+</td>
+</tr>
+<tr>
+<td class="alleft">Initial Intake Air Temp
+</td>
+</tr>
+<tr>
+<td class="alleft">Battery Voltage
+</td>
+</tr>
+<tr>
+<td class="alleft">Pre Glow
+</td>
+</tr>
+<tr>
+<td class="alleft">After Glow
+</td>
+</tr>
+<tr>
+<td class="alleft">Accel Position
+</td>
+</tr>
+<tr>
+<td class="alleft">Accel Sens. No.1 Volt %
+</td>
+</tr>
+<tr>
+<td class="alleft">Accel Sens. No.2 Volt %
+</td>
+</tr>
+<tr>
+<td class="alleft">Target Throttle Position
+</td>
+</tr>
+<tr>
+<td class="alleft">Target Throttle Position #2
+</td>
+</tr>
+<tr>
+<td class="alleft">Actual Throttle Position
+</td>
+</tr>
+<tr>
+<td class="alleft">Actual Throttle Position #2
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Motor DUTY #1
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Motor DUTY #2
+</td>
+</tr>
+<tr>
+<td class="alleft">Diesel Throttle Learn Status
+</td>
+</tr>
+<tr>
+<td class="alleft">Diesel Throttle Learn Status #2
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Sensor Volt %
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttl Sensor #2 Volt %
+</td>
+</tr>
+<tr>
+<td class="alleft">Injection Volume
+</td>
+</tr>
+<tr>
+<td class="alleft">Inj. FB Vol. for Idle
+</td>
+</tr>
+<tr>
+<td class="alleft">Inj Vol Feedback Learning
+</td>
+</tr>
+<tr>
+<td class="alleft">Injection Feedback Val #1
+</td>
+</tr>
+<tr>
+<td class="alleft">Injection Feedback Val #2
+</td>
+</tr>
+<tr>
+<td class="alleft">Injection Feedback Val #3
+</td>
+</tr>
+<tr>
+<td class="alleft">Injection Feedback Val #4
+</td>
+</tr>
+<tr>
+<td class="alleft">Injection Feedback Val #5
+</td>
+</tr>
+<tr>
+<td class="alleft">Injection Feedback Val #6
+</td>
+</tr>
+<tr>
+<td class="alleft">Injection Feedback Val #7
+</td>
+</tr>
+<tr>
+<td class="alleft">Injection Feedback Val #8
+</td>
+</tr>
+<tr>
+<td class="alleft">Pilot 1 Injection Period
+</td>
+</tr>
+<tr>
+<td class="alleft">Pilot 2 Injection Period
+</td>
+</tr>
+<tr>
+<td class="alleft">Main Injection Period
+</td>
+</tr>
+<tr>
+<td class="alleft">After Injection Period
+</td>
+</tr>
+<tr>
+<td class="alleft">Pilot 1 Injection Timing
+</td>
+</tr>
+<tr>
+<td class="alleft">Pilot 2 Injection Timing
+</td>
+</tr>
+<tr>
+<td class="alleft">Main Injection Timing
+</td>
+</tr>
+<tr>
+<td class="alleft">After Injection Timing
+</td>
+</tr>
+<tr>
+<td class="alleft">Injector Memory Error
+</td>
+</tr>
+<tr>
+<td class="alleft">Target Common Rail Pressure
+</td>
+</tr>
+<tr>
+<td class="alleft">Fuel Press
+</td>
+</tr>
+<tr>
+<td class="alleft">Fuel Temperature
+</td>
+</tr>
+<tr>
+<td class="alleft">Fuel Return Temp
+</td>
+</tr>
+<tr>
+<td class="alleft">Target Pump SCV Current
+</td>
+</tr>
+<tr>
+<td class="alleft">Target Booster Pressure
+</td>
+</tr>
+<tr>
+<td class="alleft">VN Turbo Command
+</td>
+</tr>
+<tr>
+<td class="alleft">Starter Signal
+</td>
+</tr>
+<tr>
+<td class="alleft">Power Steering Signal
+</td>
+</tr>
+<tr>
+<td class="alleft">Power Steer. Sig. Record
+</td>
+</tr>
+<tr>
+<td class="alleft">Low Gear Switch
+</td>
+</tr>
+<tr>
+<td class="alleft">Clutch Switch
+</td>
+</tr>
+<tr>
+<td class="alleft">Stop Light Switch
+</td>
+</tr>
+<tr>
+<td class="alleft">A/C Signal
+</td>
+</tr>
+<tr>
+<td class="alleft">Immobiliser Communication
+</td>
+</tr>
+<tr>
+<td class="alleft">Time after DTC Cleared
+</td>
+</tr>
+<tr>
+<td class="alleft">Distance from DTC Cleared
+</td>
+</tr>
+<tr>
+<td class="alleft">Warmup Cycle Cleared DTC
+</td>
+</tr>
+<tr>
+<td class="alleft">TC and TE1
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Start Time
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Speed (Starter Off)
+</td>
+</tr>
+<tr>
+<td class="alleft">Starter Count
+</td>
+</tr>
+<tr>
+<td class="alleft">Run Dist of Previous Trip
+</td>
+</tr>
+<tr>
+<td class="alleft">Electric Duty Feedback Value
+</td>
+</tr>
+<tr>
+<td class="alleft">A/C Duty Feedback Value
+</td>
+</tr>
+<tr>
+<td class="alleft">PS Duty Feedback Value
+</td>
+</tr>
+<tr>
+<td class="alleft">Idle Injection Volume (Min)
+</td>
+</tr>
+<tr>
+<td class="alleft">ACT VSV
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

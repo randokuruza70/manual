@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS048" code="I46" type="conn" figID="8">
+    <name>Diode (Wiper Relay)</name>
+  </text>
+  <text ewd="SYS048" code="A22" type="conn" figID="14">
+    <name>No. 1 Junction Connector</name>
+  </text>
+  <text ewd="SYS048" code="I59" type="conn" figID="10">
+    <name>No. 10 Junction Connector</name>
+  </text>
+  <text ewd="SYS048" code="I63,I65" type="conn" figID="15,17">
+    <name>No. 13 Junction Connector</name>
+  </text>
+  <text ewd="SYS048" code="A23" type="conn" figID="6">
+    <name>No. 2 Junction Connector</name>
+  </text>
+  <text ewd="SYS048" code="L33" type="conn" figID="12">
+    <name>No. 25 Junction Connector</name>
+  </text>
+  <text ewd="SYS048" code="L39" type="conn" figID="19">
+    <name>No. 31 Junction Connector</name>
+  </text>
+  <text ewd="SYS048" code="I57" type="conn" figID="13">
+    <name>No. 8 Junction Connector</name>
+  </text>
+  <text ewd="SYS048" code="I35" type="conn" figID="2">
+    <name>Windshield Washer Motor and Pump Assembly</name>
+  </text>
+  <text ewd="SYS048" code="A12" type="conn" figID="5">
+    <name>Windshield Wiper Motor Assembly</name>
+  </text>
+  <text ewd="SYS048" code="L22,L23" type="conn" figID="20">
+    <name>Windshield Wiper Switch Assembly</name>
+  </text>
+  <text ewd="SYS048" code="I26" type="conn" figID="11">
+    <name>Wiper Lock Switch (Limit Switch Assembly)</name>
+  </text>
+  <text ewd="SYS048" code="FUSE20" type="fuse" figID="45">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS048" code="FUSE29" type="fuse" figID="46">
+    <name>20A WIP</name>
+  </text>
+  <text ewd="SYS048" code="AA" type="gp" figID="36">
+    <name />
+  </text>
+  <text ewd="SYS048" code="IC" type="gp" figID="39,40">
+    <name />
+  </text>
+  <text ewd="SYS048" code="LA" type="gp" figID="38">
+    <name />
+  </text>
+  <text ewd="SYS048" code="LB" type="gp" figID="37">
+    <name />
+  </text>
+  <text ewd="SYS048" code="1" type="rb" figID="3,4">
+    <name />
+  </text>
+  <text ewd="SYS048" code="2" type="rb" figID="1,16,18">
+    <name />
+  </text>
+  <text ewd="SYS048" code="FUSE20" type="rb" figID="7">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS048" code="FUSE29" type="rb" figID="9">
+    <name>20A WIP</name>
+  </text>
+  <text ewd="SYS048" code="SP9" type="sp" figID="41">
+    <name />
+  </text>
+  <text ewd="SYS048" code="SP66" type="sp" figID="43,44">
+    <name />
+  </text>
+  <text ewd="SYS048" code="SP82" type="sp" figID="42">
+    <name />
+  </text>
+  <text ewd="SYS048" code="IL1" type="w2w" figID="30,31,33">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS048" code="IL2" type="w2w" figID="32,34">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS048" code="AI3" type="w2w" figID="28,29,35">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+</EwdTree>

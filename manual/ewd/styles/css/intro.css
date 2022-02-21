@@ -1,0 +1,184 @@
+td.s1 {
+	color:            #666666;
+	background-color: #dfedf0;
+	font-size:        10pt;
+	font-weight:      bold;
+	padding-left:		18px;
+	border-style:     none;
+	border-color:     #cccccc;
+}
+
+
+ol.ss2 {
+	font-size:       10pt;
+	font-weight:     lighter;
+	list-style-type: lower-alpha;
+	margin-left:     30px;
+}
+
+
+ol.s2 {
+	color:           #5b80a4;
+	font-size:       10pt;
+	list-style-type: lower-alpha;
+}
+
+ol.s3 {
+	color:           #55969d;
+	font-size:       10pt;
+	font-weight:     bold;
+	list-style-type: lower-roman;
+	margin-left:     20px;
+}
+
+dt.caution {
+	color:       #ff0000;
+	font-size:   10pt;
+	font-weight: bold;
+}
+
+dd.caution {
+	color:       #ff0000;
+	font-size:   10pt;
+	font-weight: lighter;
+	margin-left: 10px;
+}
+
+dt.notice {
+	color:       #e88517;
+	font-size:   10pt;
+	font-weight: bold;
+}
+
+dd.notice {
+	color:       #e88517;
+	font-size:   10pt;
+	font-weight: lighter;
+	margin-left: 10px;
+}
+
+dt.hint {
+	color:       #008000;
+	font-size:   10pt;
+	font-weight: bold;
+}
+
+dd.hint {
+	color:       #008000;
+	font-size:   10pt;
+	font-weight: lighter;
+	margin-left: 10px;
+}
+
+dt.example {
+	color:       #1b6384;
+	font-size:   10pt;
+	font-weight: bold;
+}
+
+dd.example {
+	color:       #1b6384;
+	font-size:   10pt;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+table.float {
+	border:   0px;
+	margin:   0px;
+	float:    right;
+}
+
+font.ptxt{
+	color:       #000000;
+	font-size:   10pt;
+	font-weight: lighter;
+}
+
+
+/* for wh-intro, repair 2012-03-12	*/
+img.intro_float {
+	float:    right;
+}
+.intro_caution {
+	color:       #ff0000;
+	font-size:   10pt;
+}
+.intro_notice {
+	color:       #e88517;
+	font-size:   10pt;
+	font-weight: bold;
+}
+.intro_example {
+	color:       #1b6384;
+	font-size:   10pt;
+	font-weight: bold;
+}
+.intro_hint {
+	color:       #008000;
+	font-size:   10pt;
+	font-weight: lighter;
+}
+.intro_ptxt{
+	font-size:   10pt;
+	font-weight: lighter;
+}
+ol.intro_c1{
+  color : red;
+  list-style-type : lower-alpha;
+}
+
+span.intro_notice-dt {
+	color:       #e88517;
+	font-size:   10pt;
+	font-weight: bold;
+}
+
+span.intro_notice-dd {
+	color:       #e88517;
+	font-size:   10pt;
+	font-weight: lighter;
+  list-style-type : disc;
+}
+
+span.intro_hint-dt {
+	color:       #008000;
+	font-size:   10pt;
+	font-weight: bold;
+}
+
+span.intro_hint-dd {
+	color:       #008000;
+	font-size:   10pt;
+	font-weight: lighter;
+}
+
+span.intro_s2_n {
+	color:				#5b80a4;
+	font-size:			10pt;
+	list-style-type:	none;
+}
+
+ol.intro_s4{
+  font-size : 10pt;
+  color : #008000;
+  list-style-type : lower-alpha;
+}
+
+ol.intro_s5 {
+	font-size:			10pt;
+	font-weight:      bold;
+	list-style-type:	upper-alpha;
+}
+
+ol.intro_h1{
+  color : #008000;
+  list-style-type : decimal;
+}
+
+
+/* for wh-intro, repair 2012-07-09	*/
+.intro_b{
+	font-size:   10pt;
+	font-weight:      bold;
+}

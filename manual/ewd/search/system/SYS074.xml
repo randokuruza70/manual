@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS074">
+    <part type="conn" code="L25,L26">
+      <text>B ES</text>
+      <name>Combination Meter Assembly</name>
+      <name type="inner">Turn LH</name>
+      <name type="inner">Turn RH</name>
+    </part>
+    <part type="conn" code="L14,M1">
+      <text>E F</text>
+      <name>Hazard Warning Signal Switch Assembly</name>
+    </part>
+    <part type="conn" code="A3">
+      <text>B E</text>
+      <name>Headlight Assembly LH</name>
+      <name type="inner">Turn</name>
+    </part>
+    <part type="conn" code="I38">
+      <text>B E</text>
+      <name>Headlight Assembly RH</name>
+      <name type="inner">Turn</name>
+    </part>
+    <part type="conn" code="L24">
+      <text>EL TR LH N RH TL</text>
+      <name>Headlight Dimmer Switch Assembly</name>
+      <name type="inner">Turn Switch</name>
+    </part>
+    <part type="conn" code="A22">
+      <name>No. 1 Junction Connector</name>
+    </part>
+    <part type="conn" code="I62">
+      <name>No. 12 Junction Connector</name>
+    </part>
+    <part type="conn" code="A23">
+      <name>No. 2 Junction Connector</name>
+    </part>
+    <part type="conn" code="L32,L34">
+      <name>No. 24 Junction Connector , No. 26 Junction Connector</name>
+    </part>
+    <part type="conn" code="L39">
+      <name>No. 31 Junction Connector</name>
+    </part>
+    <part type="conn" code="I57">
+      <name>No. 8 Junction Connector</name>
+    </part>
+    <part type="conn" code="T17">
+      <text>TRN E</text>
+      <name>Rear Combination Light Assembly LH</name>
+      <name type="inner">Turn</name>
+    </part>
+    <part type="conn" code="T5,T7">
+      <text>TRN TE(*12) E(*13)</text>
+      <name>Rear Combination Light Assembly LH</name>
+      <name type="inner">Turn</name>
+    </part>
+    <part type="conn" code="T14">
+      <text>TRN E</text>
+      <name>Rear Combination Light Assembly RH</name>
+      <name type="inner">Turn</name>
+    </part>
+    <part type="conn" code="T1,T6">
+      <text>E(*13) TRN TE(*12)</text>
+      <name>Rear Combination Light Assembly RH</name>
+      <name type="inner">Turn</name>
+    </part>
+    <part type="conn" code="A11">
+      <name>Side Turn Signal Light Assembly LH</name>
+    </part>
+    <part type="conn" code="I25">
+      <name>Side Turn Signal Light Assembly RH</name>
+    </part>
+    <part type="conn" code="I28">
+      <text>E ER IG B HAZ LR LL EL</text>
+      <name>Turn Signal Flasher Assembly</name>
+    </part>
+    <part type="fuse" code="FUSE23">
+      <text>GAUGE</text>
+    </part>
+    <part type="fuse" code="FUSE51">
+      <text>TURN&amp;HAZ</text>
+    </part>
+  </ttl>
+</EWDSearch>

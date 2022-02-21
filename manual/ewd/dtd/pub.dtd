@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- #  DTD VERSION 1.7  UPDATE Dec. 04, 2014    -->
+<!ELEMENT tmc-service-pub (dtd-version, pub)>
+<!ELEMENT dtd-version EMPTY>
+<!ATTLIST dtd-version
+	version CDATA #REQUIRED
+>
+<!ELEMENT pub (name, models, brand, market-code, model-year-base?, plants, entry-date, publish-date, fin-date, term-base, revision)>
+<!ATTLIST pub
+	id ID #REQUIRED
+	type (RM | NM | EM | BM) #REQUIRED
+	xml:lang CDATA #REQUIRED
+	format CDATA #IMPLIED
+>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT models (model+)>
+<!ELEMENT model (model-name, model-code+)>
+<!ELEMENT model-name (#PCDATA)>
+<!ELEMENT model-code (engine-code+)>
+<!ATTLIST model-code
+	code CDATA #REQUIRED
+>
+<!ELEMENT engine-code (#PCDATA)>
+<!ELEMENT brand (#PCDATA)>
+<!ELEMENT market-code (#PCDATA)>
+<!ELEMENT model-year-base (year-base+)>
+<!ELEMENT year-base EMPTY>
+<!ATTLIST year-base
+	term-id-from CDATA #REQUIRED
+	model-year CDATA #REQUIRED
+	term-id-to CDATA #IMPLIED
+>
+<!ELEMENT plants (plant+)>
+<!ELEMENT plant (#PCDATA)>
+<!ELEMENT entry-date (#PCDATA)>
+<!ELEMENT publish-date (#PCDATA)>
+<!ELEMENT fin-date (#PCDATA)>
+<!ELEMENT term-base (term+)>
+<!ELEMENT term (#PCDATA)>
+<!ATTLIST term
+	alt-pub-id CDATA #REQUIRED
+	date CDATA #REQUIRED
+	term-id-from CDATA #REQUIRED
+>
+<!ELEMENT revision (release+)>
+<!ELEMENT release (term | correction+)>
+<!ATTLIST release
+	send-date CDATA #REQUIRED
+>
+<!ELEMENT correction (#PCDATA)>
+<!ATTLIST correction
+	para-id CDATA #REQUIRED
+	id ID #REQUIRED
+	sicr CDATA #IMPLIED
+>

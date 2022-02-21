@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS080" code="A6,I2" type="conn" figID="18">
+    <name>A/C Pressure Switch (Cooler Refrigerant Liquid Pipe B)</name>
+  </text>
+  <text ewd="SYS080" code="I7" type="conn" figID="5">
+    <name>Blower Resistor</name>
+  </text>
+  <text ewd="SYS080" code="I12" type="conn" figID="1">
+    <name>Cooler Stabilizer Amplifier Assembly</name>
+  </text>
+  <text ewd="SYS080" code="C2" type="conn" figID="21">
+    <name>Crank Position Sensor</name>
+  </text>
+  <text ewd="SYS080" code="C42" type="conn" figID="24">
+    <name>Crank Position Sensor</name>
+  </text>
+  <text ewd="SYS080" code="C69" type="conn" figID="26">
+    <name>Diesel Engine Coolant Temperature Sensor</name>
+  </text>
+  <text ewd="SYS080" code="C1" type="conn" figID="22">
+    <name>E.F.I. Engine Coolant Temperature Sensor</name>
+  </text>
+  <text ewd="SYS080" code="A29,C39,I84" type="conn" figID="27">
+    <name>ECM</name>
+  </text>
+  <text ewd="SYS080" code="I5" type="conn" figID="19">
+    <name>Front Blower Motor (Heater Blower Case)</name>
+  </text>
+  <text ewd="SYS080" code="I15" type="conn" figID="4,13">
+    <name>Heater Blower Switch Assembly</name>
+  </text>
+  <text ewd="SYS080" code="C23" type="conn" figID="9">
+    <name>Magnet Clutch Assembly</name>
+  </text>
+  <text ewd="SYS080" code="I16" type="conn" figID="14">
+    <name>No. 1 Cooler Thermistor</name>
+  </text>
+  <text ewd="SYS080" code="I59,I67" type="conn" figID="15">
+    <name>No. 10 Junction Connector , No. 16 Junction Connector</name>
+  </text>
+  <text ewd="SYS080" code="I59,I70" type="conn" figID="17,20">
+    <name>No. 10 Junction Connector , No. 19 Junction Connector</name>
+  </text>
+  <text ewd="SYS080" code="I62,I67" type="conn" figID="11">
+    <name>No. 12 Junction Connector , No. 16 Junction Connector</name>
+  </text>
+  <text ewd="SYS080" code="I63,I65" type="conn" figID="10">
+    <name>No. 13 Junction Connector</name>
+  </text>
+  <text ewd="SYS080" code="I73" type="conn" figID="16">
+    <name>No. 22 Junction Connector</name>
+  </text>
+  <text ewd="SYS080" code="C38" type="conn" figID="23">
+    <name>No. 4 Junction Connector</name>
+  </text>
+  <text ewd="SYS080" code="I56" type="conn" figID="7">
+    <name>No. 7 Junction Connector</name>
+  </text>
+  <text ewd="SYS080" code="I57" type="conn" figID="3">
+    <name>No. 8 Junction Connector</name>
+  </text>
+  <text ewd="SYS080" code="C81,C82" type="conn" figID="25">
+    <name>Short Connector</name>
+  </text>
+  <text ewd="SYS080" code="FUSE4" type="fuse" figID="75">
+    <name>10A A/C</name>
+  </text>
+  <text ewd="SYS080" code="FUSE23" type="fuse" figID="73">
+    <name>15A GAUGE</name>
+  </text>
+  <text ewd="SYS080" code="FUSE39" type="fuse" figID="74">
+    <name>50A HTR</name>
+  </text>
+  <text ewd="SYS080" code="CB" type="gp" figID="61">
+    <name />
+  </text>
+  <text ewd="SYS080" code="CE" type="gp" figID="62">
+    <name />
+  </text>
+  <text ewd="SYS080" code="IA" type="gp" figID="58,59">
+    <name />
+  </text>
+  <text ewd="SYS080" code="IC" type="gp" figID="57,60">
+    <name />
+  </text>
+  <text ewd="SYS080" code="3" type="jb" figID="32">
+    <name />
+  </text>
+  <text ewd="SYS080" code="1" type="rb" figID="8">
+    <name />
+  </text>
+  <text ewd="SYS080" code="2" type="rb" figID="12">
+    <name />
+  </text>
+  <text ewd="SYS080" code="FUSE4" type="rb" figID="6">
+    <name>10A A/C</name>
+  </text>
+  <text ewd="SYS080" code="FUSE23" type="rb" figID="2">
+    <name>15A GAUGE</name>
+  </text>
+  <text ewd="SYS080" code="SP35" type="sp" figID="72">
+    <name />
+  </text>
+  <text ewd="SYS080" code="SP40" type="sp" figID="70">
+    <name />
+  </text>
+  <text ewd="SYS080" code="SP56" type="sp" figID="66">
+    <name />
+  </text>
+  <text ewd="SYS080" code="SP65" type="sp" figID="65">
+    <name />
+  </text>
+  <text ewd="SYS080" code="SP66" type="sp" figID="64,67">
+    <name />
+  </text>
+  <text ewd="SYS080" code="SP69" type="sp" figID="63">
+    <name />
+  </text>
+  <text ewd="SYS080" code="SP120" type="sp" figID="68">
+    <name />
+  </text>
+  <text ewd="SYS080" code="SP132" type="sp" figID="69">
+    <name />
+  </text>
+  <text ewd="SYS080" code="SP134" type="sp" figID="71">
+    <name />
+  </text>
+  <text ewd="SYS080" code="IC2" type="w2w" figID="35,45,51">
+    <name>Cowl Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS080" code="AI1" type="w2w" figID="33">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS080" code="AI3" type="w2w" figID="36,38,39,40,41,43,46,48,50,52,53,54,55,56">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS080" code="AC5" type="w2w" figID="37,42,47">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS080" code="AC11" type="w2w" figID="34,44,49">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+</EwdTree>

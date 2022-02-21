@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>help menu</title>
+<style type="text/css">
+<!--
+h1 {
+	font-size: 14px;
+	padding-left: 19px;
+	margin: 0px;
+	padding-bottom: 5px;
+	font-weight: normal;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    list-style-position: outside;
+    list-style-type: none;
+}
+li {
+    font-size: 11px;
+    margin-left: 15px;
+    list-style-position: outside;
+    list-style-type: none;
+}
+li p.page{
+	background: url(common/images/page.gif) no-repeat scroll left center transparent;
+	height: 21px;
+	line-height: 21px;
+	padding-left: 19px;
+	margin: 0pc;
+}
+li p.folder_o{
+	background: url(common/images/book_open.jpg) no-repeat scroll left center transparent;
+	height: 21px;
+	line-height: 21px;
+	padding-left: 33px;
+	margin: 0pc;
+	cursor: pointer;
+}
+li p.folder_c{
+	background: url(common/images/book_close.jpg) no-repeat scroll left center transparent;
+	height: 21px;
+	line-height: 21px;
+	padding-left: 33px;
+	margin: 0pc;
+	cursor: pointer;
+}
+
+ul ul {
+	display: block;
+	display: none;
+}
+a {
+    color: #333333;
+    text-decoration: underline;
+}
+a:visited {
+    color: #333333;
+    text-decoration: underline;
+}
+a:hover {
+    color: #B30000;
+    text-decoration: underline;
+}
+body,td,th {
+	font-size: 14px;
+}
+body {
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.style1 {font-family: Verdana}
+-->
+</style>
+<script type="text/javascript">
+<!--
+document.onclick = function(event){
+	if(! event) event=window.event;
+	var traget = event.srcElement || event.target ;
+	if(traget.tagName == 'UL'){
+	}else{
+		obj_ul.showHide(traget);
+	}
+}
+
+var obj_ul = {
+    showHide: function(element) {
+
+		var traget = element;
+		var objUL = null;
+		var objLI = null;
+		var objP = null;
+
+		do{
+			if (traget.tagName=='HTML') {
+				break ;
+			}
+
+			if (traget.tagName == 'LI') {
+				var objLI = traget;
+				objLI.style.display = "block"
+				for (var i=1;i<objLI.childNodes.length;i=i+1){
+						if(objLI.childNodes.item(i).tagName =='UL'){
+							var objUL = objLI.childNodes.item(i);
+						}
+				}
+				break ;
+			}
+			if (traget.tagName == 'P') {
+				var objP = traget;
+			}
+			traget = traget.parentNode;
+		}while(traget)
+
+		if(objUL){
+	        var styleDisplay = objUL.style.display;
+	        if (styleDisplay == 'none' || styleDisplay == '') {
+				objUL.style.display = "block";
+				if(objP) objP.className = "folder_o";
+			}else{
+				objUL.style.display = "none";
+				if(objP) objP.className = "folder_c";
+			}
+		}
+        return false;
+    }
+}
+
+
+//-->
+</script>
+</head>
+<body>
+<h1 class="style1">Menu</h1>
+<ul class="style1">
+  <li><p class="folder_c"><a href="javascript:void(0);">Using This Site</a></p>
+    <ul>
+      <li><p class="page"><a href="guidebook_001.html#a002" target="H-main">Copyrights and trademarks</a></p></li>
+      <li><p class="page"><a href="guidebook_001.html#a006" target="H-main">JavaScript</a></p></li>
+      <li><p class="page"><a href="guidebook_001.html#a007" target="H-main">Plug-ins</a></p></li>
+      <li><p class="page"><a href="guidebook_001.html#a008" target="H-main">Content displayed in this manual</a></p></li>
+      <li><p class="page"><a href="guidebook_001.html#a012" target="H-main">Recommended environment</a></p></li>
+    </ul>
+  </li>
+  <li><p class="folder_c"><a href="javascript:void(0);">Top screen</a></p>
+    <ul>
+      <li><p class="page"><a href="guidebook_007.html#a001" target="H-main">Overview</a></p></li>
+      <li><p class="page"><a href="guidebook_007.html#a004" target="H-main">The Top screen</a></p></li>
+	  <li><p class="page"><a href="guidebook_007.html#a002" target="H-main">Applicable Production Dates</a></p></li>
+    </ul>
+  </li>
+  <li><p class="folder_c"><a href="javascript:void(0);">Open Manuals</a></p>
+    <ul>
+      <li><p class="page"><a href="guidebook_002.html#a001" target="H-main">Overview</a></p></li>
+	  <li><p class="page"><a href="guidebook_002.html#a002" target="H-main">Select and open the applicable Production Date</a></p></li>
+    </ul>
+  </li>
+  <li><p class="folder_c"><a href="javascript:void(0);">Search Manuals</a></p>
+    <ul>
+      <li><p class="page"><a href="guidebook_003.html#a001" target="H-main">Overview</a></p></li>
+      <li><p class="page"><a href="guidebook_003.html#a007" target="H-main">Make a keyword search</a></p>
+        <ul>
+          <li><p class="page"><a href="guidebook_003.html#a002" target="H-main">Input Keywords</a></p></li>
+          <li><p class="page"><a href="guidebook_003.html#a003" target="H-main">Input support function</a></p></li>
+        </ul>
+      </li>
+      <li><p class="page"><a href="guidebook_003.html#a006" target="H-main">How to Read Search Results</a></p></li>
+    </ul>
+  </li>
+  <li><p class="folder_c"><a href="javascript:void(0);">View Manuals</a></p>
+    <ul>
+      <li><p class="page"><a href="guidebook_004.html" target="H-main">Manual (Service Information) Screen Description</a></p></li>
+      <li><p class="folder_c"><a href="javascript:void(0);">Repair Manual</a></p>
+        <ul>
+          <li><p class="page"><a href="guidebook_011.html#a001" target="H-main">Overview</a></p></li>
+          <li><p class="page"><a href="guidebook_011.html#a002" target="H-main">Starting GTS</a></p></li>
+        </ul>
+      </li>
+      <li><p class="folder_c"><a href="javascript:void(0);">New Car Features</a></p>
+        <ul>
+          <li><p class="page"><a href="guidebook_012.html#a001" target="H-main">Overview</a></p></li>
+          <li><p class="page"><a href="guidebook_012.html#a002" target="H-main">Displaying PDF data</a></p></li>
+          <li><p class="page"><a href="guidebook_012.html#a003" target="H-main">Enlarged video display</a></p></li>
+        </ul>
+      </li>
+      <li><p class="folder_c"><a href="javascript:void(0);">Electrical Wiring Diagram</a></p>
+        <ul>
+          <li><p class="page"><a href="guidebook_013.html#a001" target="H-main">Overview</a></p></li>
+          <li><p class="page"><a href="guidebook_013.html#a009" target="H-main">Description of the Electrical Wiring Diagram screen</a></p></li>
+          <li><p class="page"><a href="guidebook_013.html#a002" target="H-main">System Circuit Diagram</a></p></li>
+          <li><p class="page"><a href="guidebook_013.html#a003" target="H-main">Fuse list</a></p></li>
+          <li><p class="page"><a href="guidebook_013.html#a004" target="H-main">Connectors and Other Details</a></p></li>
+          <li><p class="page"><a href="guidebook_013.html#a005" target="H-main">Wiring Harness Diagram</a></p></li>
+          <li><p class="page"><a href="guidebook_013.html#a006" target="H-main">J/B and R/B Diagram</a></p></li>
+          <li><p class="page"><a href="guidebook_013.html#a007" target="H-main">Internal Circuit Diagram</a></p></li>
+          <li><p class="page"><a href="guidebook_013.html#a008" target="H-main">Relocation</a></p></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><p class="folder_c"><a href="javascript:void(0);">Link with GTS</a></p>
+    <ul>
+      <li><p class="page"><a href="guidebook_010.html#a001" target="H-main">Overview</a></p></li>
+      <li><p class="page"><a href="guidebook_010.html#a004" target="H-main">Start GTS functions from the Repair Manual</a></p></li>
+    </ul>
+  </li>
+</ul>
+<p class="style1">&nbsp;</p>
+</body>
+</html>
+

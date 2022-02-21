@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE IntroList SYSTEM "../dtd/intro.dtd">
+<IntroList xml:lang="en" ver="2.1.2.9">
+	<Intro code="INTRO01">
+		<name>INTRODUCTION</name>
+		<file>intro</file>
+	</Intro>
+	<Intro code="INTRO02">
+		<name>ABBREVIATIONS</name>
+		<file>abbre</file>
+	</Intro>
+	<Intro code="INTRO03">
+		<name>GLOSSARY OF TERMS AND SYMBOLS</name>
+		<file>glossary</file>
+	</Intro>
+	<Intro code="INTRO04">
+		<name>WIRE HARNESS REPAIR INTRODUCTION</name>
+		<file>wh-intro</file>
+	</Intro>
+	<Intro code="INTRO05">
+		<name>TERMINAL AND CONNECTOR REPAIR</name>
+		<file>repair</file>
+	</Intro>
+</IntroList>

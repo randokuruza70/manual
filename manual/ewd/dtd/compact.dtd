@@ -1,0 +1,82 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<!-- XML DTD for TOYOTA EWD -->
+<!--
+	EWD DTD for Compact XML
+
+	Copyright (c) 2000-2012 SHINTEC HOZUMI Co.,LTD.
+	All Rights Reserved. 
+
+	ver 1.00	2011/06/20
+	ver 2.0		2011/12/06 change attribute ver value
+	ver 2.1		2012/07/10 no change in this file
+-->
+
+<!ENTITY % CompactItem "(ps | gp | part )">
+<!ENTITY % psType "(conn | jb | rb | gp | w2w )">
+<!ENTITY % Code "CDATA">
+<!ENTITY % pinNo "CDATA">
+<!ENTITY % figID "CDATA">
+<!ENTITY % gpType "(conn | jb | rb | w2w )">
+<!ENTITY % partElement "(path+, conn*, commref*, line* )">
+<!ENTITY % partType "(conn | jb | rb | gp | w2w | gnd | ant | omit | sh | tw | cs | bat | annex)">
+<!ENTITY % split "( h )">
+<!ENTITY % dir "(h | v)">
+<!ENTITY % comment "CDATA">
+<!ENTITY % d "CDATA">
+<!ENTITY % conn "(path+ , commref* )">
+<!ENTITY % lineID "CDATA">
+<!ENTITY % commref "(lineref? | partref )">
+<!ELEMENT compact-defs (%CompactItem;)*>
+<!ATTLIST compact-defs
+	ver CDATA #IMPLIED
+	pubno CDATA #REQUIRED
+>
+<!ELEMENT ps EMPTY>
+<!ATTLIST ps
+	type %psType; #REQUIRED
+	code %Code; #REQUIRED
+	pinNo %pinNo; #IMPLIED
+	figID %figID; #REQUIRED
+>
+<!ELEMENT gp EMPTY>
+<!ATTLIST gp
+	type %gpType; #REQUIRED
+	code %Code; #REQUIRED
+	pinNo %pinNo; #IMPLIED
+	figID %figID; #REQUIRED
+>
+<!ELEMENT part %partElement;>
+<!ATTLIST part
+	type %partType; #REQUIRED
+	code %Code; #REQUIRED
+	pinNo %pinNo; #IMPLIED
+	figID %figID; #REQUIRED
+	split %split; #IMPLIED
+	dir %dir; #IMPLIED
+	comment %comment; #IMPLIED
+>
+<!ELEMENT path EMPTY>
+<!ATTLIST path
+	d %d; #REQUIRED
+>
+<!ELEMENT conn %conn;>
+<!ATTLIST conn
+	lineID %lineID; #REQUIRED
+>
+<!ELEMENT commref %commref;>
+<!ATTLIST commref
+	figID %figID; #REQUIRED
+>
+<!ELEMENT lineref EMPTY>
+<!ATTLIST lineref
+	lineID %lineID; #REQUIRED
+>
+<!ELEMENT partref EMPTY>
+<!ATTLIST partref
+	figID %lineID; #IMPLIED
+	dir %dir; #REQUIRED
+>
+<!ELEMENT line EMPTY>
+<!ATTLIST line
+	lineID %lineID; #REQUIRED
+>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25T2E" style="font-size:6px;font-family:'Arial'" ver="2.1.2.9">
+	<text textID="1">* 3 :1HZ 24V Battery Type</text>
+	<text textID="2">* 4 :12V Battery Type w/ One Battery</text>
+	<text textID="3">* 5 :12V Battery Type w/ Two Batteries</text>
+	<text textID="4">* 8 :1VD-FTV, 1HZ 12V Battery Type</text>
+	<text textID="5">* 9 :1HZ 12V Battery Type w/ One Battery</text>
+	<text textID="6">*10 :Australia</text>
+	<text textID="7">*11 :Except Australia</text>
+	<text textID="8">*12 :1HZ 12V Battery Type</text>
+	<text textID="9">ACC Relay</text>
+	<text textID="10">Battery (Main)</text>
+	<text textID="11">Battery (Sub)</text>
+	<text textID="12">DIM Relay</text>
+	<text textID="13">H-LP Relay</text>
+	<text textID="14">HTR Relay</text>
+	<text textID="15">IG2 Relay</text>
+	<text textID="16">IG1 1 Relay</text>
+	<text textID="17">IG1 2 Relay</text>
+	<text textID="18">Ignition or Starter Switch Assembly</text>
+	<text textID="19">Stop Light Switch Assembly</text>
+	<text textID="20">TAIL Relay</text>
+</texts>

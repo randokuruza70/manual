@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS062" code="I62" type="conn" figID="4">
+    <name>No. 12 Junction Connector</name>
+  </text>
+  <text ewd="SYS062" code="L33,L37" type="conn" figID="6">
+    <name>No. 25 Junction Connector , No. 29 Junction Connector</name>
+  </text>
+  <text ewd="SYS062" code="I56" type="conn" figID="10">
+    <name>No. 7 Junction Connector</name>
+  </text>
+  <text ewd="SYS062" code="I57" type="conn" figID="3">
+    <name>No. 8 Junction Connector</name>
+  </text>
+  <text ewd="SYS062" code="d1,f1" type="conn" figID="9">
+    <name>Rear Window Defogger (Back Door Glass LH)</name>
+  </text>
+  <text ewd="SYS062" code="c1,c2" type="conn" figID="8">
+    <name>Rear Window Defogger (Back Door Glass RH)</name>
+  </text>
+  <text ewd="SYS062" code="L7" type="conn" figID="7">
+    <name>Rear Window Defogger Switch Assembly</name>
+  </text>
+  <text ewd="SYS062" code="FUSE23" type="fuse" figID="35">
+    <name>15A GAUGE</name>
+  </text>
+  <text ewd="SYS062" code="FUSE28" type="fuse" figID="36">
+    <name>20A DEFOG</name>
+  </text>
+  <text ewd="SYS062" code="LA" type="gp" figID="27">
+    <name />
+  </text>
+  <text ewd="SYS062" code="TA" type="gp" figID="28">
+    <name />
+  </text>
+  <text ewd="SYS062" code="2" type="rb" figID="5">
+    <name />
+  </text>
+  <text ewd="SYS062" code="FUSE23" type="rb" figID="2">
+    <name>15A GAUGE</name>
+  </text>
+  <text ewd="SYS062" code="FUSE28" type="rb" figID="1">
+    <name>20A DEFOG</name>
+  </text>
+  <text ewd="SYS062" code="SP69" type="sp" figID="30">
+    <name />
+  </text>
+  <text ewd="SYS062" code="SP81" type="sp" figID="29">
+    <name />
+  </text>
+  <text ewd="SYS062" code="SP101" type="sp" figID="31">
+    <name />
+  </text>
+  <text ewd="SYS062" code="SP106" type="sp" figID="33">
+    <name />
+  </text>
+  <text ewd="SYS062" code="SP107" type="sp" figID="32">
+    <name />
+  </text>
+  <text ewd="SYS062" code="SP119" type="sp" figID="34">
+    <name />
+  </text>
+  <text ewd="SYS062" code="IS1" type="w2w" figID="16">
+    <name>Cowl Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS062" code="IL1" type="w2w" figID="14,15">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS062" code="aS2" type="w2w" figID="20,23">
+    <name>No. 1 Back Door Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS062" code="ca3" type="w2w" figID="21">
+    <name>No. 1 Rear Window Wire and No. 1 Back Door Wire</name>
+  </text>
+  <text ewd="SYS062" code="ca4" type="w2w" figID="24">
+    <name>No. 1 Rear Window Wire and No. 1 Back Door Wire</name>
+  </text>
+  <text ewd="SYS062" code="bT1" type="w2w" figID="18,25">
+    <name>No. 2 Back Door Wire and No. 2 Floor Wire</name>
+  </text>
+  <text ewd="SYS062" code="bf1" type="w2w" figID="26">
+    <name>No. 2 Back Door Wire and No. 4 Back Door Wire</name>
+  </text>
+  <text ewd="SYS062" code="TS1" type="w2w" figID="17,22">
+    <name>No. 2 Floor Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS062" code="db1" type="w2w" figID="19">
+    <name>No. 2 Rear Window Wire and No. 2 Back Door Wire</name>
+  </text>
+</EwdTree>

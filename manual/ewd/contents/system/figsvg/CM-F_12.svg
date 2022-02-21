@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'ArialMT';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'ArialMT';">
+	<!ENTITY st11 "font-size:9px;font-family:'Svg Symbol';">
+	<!ENTITY st12 "font-size:6px;font-family:'Svg Symbol';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'Arial';">
+	<!ENTITY st19 "font-size:9px;font-family:'Arial';">
+	<!ENTITY st20 "font-size:6px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 10206.470 710.000" viewBox="0 0 10206.470 710.000" height="710.000" width="10206.470" xml:space="preserve" ewd:ver="2.1.2.9" xmlns="&ns_svg;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:xlink="&ns_xlink;">
+<text style="&st18;" transform="matrix(&st16;  5670.29  26.42 )">(*13)</text><text style="&st18;" transform="matrix(&st16;  5722.37  15.09 )">B-Y</text><text style="&st18;" transform="matrix(&st16;  5721.28  26.42 )">(*13)</text><text style="&st18;" transform="matrix(&st16;  5671.37  15.09 )">B-Y</text><path style="stroke-width:1.42 ;&st7;  " d=" M  5583.57,   392.72  L  5575.07,   392.72  " /><text style="&st18;" transform="matrix(&st17;  5979.31  100.64 )">G-R</text><text style="&st18;" transform="matrix(&st17;  5990.64  101.53 )">(*17)</text><text style="&st18;" transform="matrix(&st16;  5758.63  117.07 )" ewd:textID="57">Combination Meter Assembly</text><text style="&st18;" transform="matrix(&st16;  5758.62  110.24 )">L25(A),L26(B),L50(C)</text><text style="&st18;" transform="matrix(&st17;  5571.37  364.6 )">R-W</text><text style="&st18;" transform="matrix(&st17;  5571.37  424.09 )">R-W</text><g ewd:figtype="conn" ewd:figID="27" ewd:code="S15"><path style="stroke-width:0.85 ;&st7;  " d=" M  5575.07,   477.71  L  5575.07,   473.46  " /><path style="stroke-width:0.85 ;&st7;  " d=" M  5575.07,   447.96  L  5575.07,   443.71  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  5575.07,   470.62  L  5580.73,   447.96  " /><path style="stroke-width:0.85 ;&st7;   " d=" M  5576.48,   472.04  C  5576.48    471.26   5575.85    470.62   5575.07    470.62  " /><path style="stroke-width:0.85 ;&st7;   " d=" M  5575.07,   470.62  C  5574.29    470.62   5573.65    471.26   5573.65    472.04  " /><path style="stroke-width:0.85 ;&st7;   " d=" M  5573.65,   472.04  C  5573.65    472.82   5574.29    473.46   5575.07    473.46  " /><path style="stroke-width:0.85 ;&st7;   " d=" M  5575.07,   473.46  C  5575.85    473.46   5576.48    472.82   5576.48    472.04  " /><path style="stroke-width:0.85 ;&st7;   " d=" M  5576.48,   449.38  C  5576.48    448.59   5575.85    447.96   5575.07    447.96  " /><path style="stroke-width:0.85 ;&st7;   " d=" M  5575.07,   447.96  C  5574.29    447.96   5573.65    448.59   5573.65    449.38  " /><path style="stroke-width:0.85 ;&st7;   " d=" M  5573.65,   449.38  C  5573.65    450.16   5574.29    450.79   5575.07    450.79  " /><path style="stroke-width:0.85 ;&st7;   " d=" M  5575.07,   450.79  C  5575.85    450.79   5576.48    450.16   5576.48    449.38  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  5583.56,   443.71  L  5583.56,   477.71  L  5566.57,   477.71  L  5566.57,   443.71  L  5583.56,   443.71  " /><text style="&st18;" transform="matrix(&st16;  5568.88  440.02 )">1</text><g ewd:figtype="title"><text style="&st18;" transform="matrix(&st17;  5598.28  480.61 )" ewd:textID="133">Parking Brake <tspan x="0 " dy="6.0">Switch Assembly</tspan></text><text style="&st18;" transform="matrix(&st17;  5591.46  480.6 )">S15</text></g></g><g ewd:figtype="w2w" ewd:figID="161" ewd:code="LS2"><path style="stroke-width:1.42 ;&st7;  " d=" M  5579.32,   401.78  L  5575.07,   397.54  L  5570.82,   401.78  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  5579.32,   398.39  L  5575.07,   394.14  L  5570.82,   398.39  " /><text style="&st18;" transform="matrix(&st16;  5562.44  390.44 )">4</text></g><g ewd:code=" " ewd:figID="55" ewd:comment="42" ewd:figtype="annex"><path style="stroke-width:1.42 ;&st7;  " d=" M  5983.00,    61.28  L  5977.94,    72.64  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  5983.00,    61.28  L  5988.06,    72.64  " /><path style="stroke-width:0.85 ;&st7;  " d=" M  6140.22,    57.03  L  6135.97,    52.78  L  6121.10,    52.78  L  6118.98,    48.53  L  6116.85,    52.78  L  6101.98,    52.78  L  6097.73,    57.03  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6135.97,    61.28  L  6130.92,    72.64  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6101.98,    61.28  L  6096.92,    72.64  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6101.98,    61.28  L  6107.04,    72.64  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  6135.97,    61.28  L  6141.03,    72.64  " /><text style="&st18;" transform="matrix(&st16;  5953.79  39.75 )" ewd:textID="95">Hazard Warning Signal <tspan x="0 " dy="6.0">Switch Assembly</tspan></text><g ewd:code="" ewd:figID="617" ewd:comment="42" ewd:figtype="commref"><text style="&st18;" transform="matrix(&st16;  5951.3  51.64 )" ewd:textID="63">Door Control ECU with <tspan x="0 " dy="6.0">Receiver Assembly (*42)</tspan></text></g><text style="&st18;" transform="matrix(&st16;  6095.73  38.9 )" ewd:textID="97">Headlight Dimmer <tspan x="0 " dy="6.0">Switch Assembly</tspan></text></g><g ewd:figtype="annex" ewd:figID="268" ewd:code=" "><path style="stroke-width:0.85 ;&st7;  " d=" M  5570.82,   489.04  L  5579.32,   489.04  " /><path style="stroke-width:0.85 ;&st7;  " d=" M  5572.23,   491.87  L  5577.90,   491.87  " /><path style="stroke-width:0.85 ;&st7;  " d=" M  5566.57,   486.20  L  5583.56,   486.20  " /><path style="stroke-width:0.85 ;&st7;  " d=" M  5573.65,   494.70  L  5576.48,   494.70  " /><path style="stroke-width:0.85 ;&st7;  " d=" M  5575.07,   477.71  L  5575.07,   486.20  " /></g><g ewd:code="17" ewd:figID="408" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  5877.61  454.18 )" ewd:textID="17">*17 :12V Battery Type</text></g><g ewd:code="42" ewd:figID="529" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  5877.61  462.68 )" ewd:textID="39">*42 :w/ Wireless Door Lock Control</text></g><g ewd:code="13" ewd:figID="304" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  5877.61  445.68 )" ewd:textID="15">*13 :w/o SRS</text></g></svg>

@@ -1,0 +1,401 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">Engine / Hybrid System</span>
+<span class="globalSection">_029760</span>
+<span class="globalSectionName">1VD-FTV ENGINE CONTROL</span>
+<span class="globalTitle">_0282525</span>
+<span class="globalTitleName">ECD SYSTEM(w/ DPF)</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>1VD-FTV ENGINE CONTROL&nbsp;&nbsp;ECD SYSTEM(w/ DPF)&nbsp;&nbsp;P2226&nbsp;&nbsp;Barometric Pressure Circuit&nbsp;&nbsp;P2228&nbsp;&nbsp;Barometric Pressure Circuit Low Input&nbsp;&nbsp;P2229&nbsp;&nbsp;Barometric Pressure Circuit High Input&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000YXV6_01" class="category no03">
+<h2>DESCRIPTION</h2>
+<div class="content5">
+<p>To detect atmospheric pressure, the built-in atmospheric pressure sensor in the ECM is used for the common rail system. Following the changes in the atmospheric pressure, the ECM corrects the fuel injection volume, timing and duration, and adjusts the common rail internal fuel pressure in order to optimize engine combustion.
+</p>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:20%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:10%">
+<col style="width:9%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC No.
+</th>
+<th class="alcenter">Detection Item
+</th>
+<th class="alcenter">DTC Detection Condition
+</th>
+<th class="alcenter">Trouble Area
+</th>
+<th class="alcenter">MIL
+</th>
+<th class="alcenter">Memory
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">P2226
+</td>
+<td class="alleft">Barometric Pressure Circuit
+</td>
+<td class="alleft">Atmospheric pressure sensor malfunction
+<br>
+(1 trip detection logic)
+</td>
+<td class="alleft">ECM
+</td>
+<td class="alleft">Comes on
+</td>
+<td class="alleft">DTC stored
+</td>
+</tr>
+<tr>
+<td class="alleft">P2228
+</td>
+<td class="alleft">Barometric Pressure Circuit Low Input
+</td>
+<td class="alleft">Atmospheric pressure sensor malfunction
+<br>
+(1 trip detection logic)
+</td>
+<td class="alleft">ECM
+</td>
+<td class="alleft">Comes on
+</td>
+<td class="alleft">DTC stored
+</td>
+</tr>
+<tr>
+<td class="alleft">P2229
+</td>
+<td class="alleft">Barometric Pressure Circuit High Input
+</td>
+<td class="alleft">Atmospheric pressure sensor malfunction
+<br>
+(1 trip detection logic)
+</td>
+<td class="alleft">ECM
+</td>
+<td class="alleft">Comes on
+</td>
+<td class="alleft">DTC stored
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table summary="">
+<caption>Related Data List</caption>
+<colgroup>
+<col style="width:50%">
+<col style="width:50%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC No.
+</th>
+<th class="alcenter">Data List
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>P2226
+</td>
+<td rowspan="3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Atmosphere Pressure
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>MAP
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td>P2228
+</td>
+</tr>
+<tr>
+<td>P2229
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When the engine switch is on (IG), the intake manifold pressure, "MAP", is approximately equal to atmospheric pressure.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Under standard atmospheric pressure conditions, the output of the atmospheric pressure sensor is 101 kPa. For every 100 m increase in elevation, pressure drops by 1 kPa. This varies by weather (high atmospheric pressure, low atmospheric pressure).
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If DTC P2226, P2228 and/or P2229 is stored, the following symptoms may appear:
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Misfire
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Combustion noise
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Black smoke
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>White smoke
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000YXV6_05" class="category no03">
+<h2>CONFIRMATION DRIVING PATTERN</h2>
+<div class="content5">
+<table summary="">
+<colgroup>
+<col style="width:29%">
+<col style="width:70%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC No.
+</th>
+<th class="alcenter">DTC Detection Drive Pattern
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">P2226
+<br>
+P2228
+<br>
+P2229
+</td>
+<td>Ignition switch to ON for 1 second
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM100000000YXV6_02" class="category no10">
+<h2>CAUTION / NOTICE / HINT</h2>
+<div class="content5">
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3">
+<p>After replacing the ECM, the new ECM needs registration (See page <a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV ENGINE CONTROL&gt;ECD SYSTEM(w/ DPF)&gt;REGISTRATION<span class="invisible">201608,999999,_51,_029760,_0282525,RM100000000Z1DB,</span></a>) and initialization (See page <a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV ENGINE CONTROL&gt;ECD SYSTEM(w/ DPF)&gt;INITIALIZATION<span class="invisible">201608,999999,_51,_029760,_0282525,RM100000000YXU9,</span></a>).
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>Read freeze frame data using the GTS. Freeze frame data records the engine condition when malfunctions are detected. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, and other data from the time the malfunction occurred.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000YXV6_04" class="category no01">
+<h2>PROCEDURE</h2>
+<div class="testgrp" id="RM100000000YXV6_04_0001">
+<div class="testtitle"><span class="titleText">1.CHECK ANY OTHER DTCS OUTPUT (IN ADDITION TO DTC P2226, P2228 OR P2229)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Turn the ignition switch to ON and turn the GTS on.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Enter the following menus: Powertrain / Engine and ECT / Trouble Codes.
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Powertrain &gt; Engine and ECT &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">61</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Read DTCs.
+</p>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM100000000YXV6_04_0001_1" summary="">
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Result
+</th>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">P2226, P2228 or P2229 is output
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">P2226, P2228 or P2229 and other DTCs are output
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>If any DTCs other than P2226, P2228 and P2229 are output, troubleshoot those DTCs first.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>A
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPLACE ECM</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV ENGINE CONTROL&gt;ECM&gt;REMOVAL<span class="invisible">201408,201701,_51,_029760,_0135352,RM100000000FJHY,</span><span class="invisible">201701,999999,_51,_029760,_0135352,RM1000000013IGX,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">GO TO DTC CHART</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV ENGINE CONTROL&gt;ECD SYSTEM(w/ DPF)&gt;DIAGNOSTIC TROUBLE CODE CHART<span class="invisible">201608,999999,_51,_029760,_0282525,RM100000000YXUD,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

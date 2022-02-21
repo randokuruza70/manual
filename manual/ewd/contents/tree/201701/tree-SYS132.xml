@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS132" code="A42" type="conn" figID="18">
+    <name>Brake Actuator Assembly</name>
+  </text>
+  <text ewd="SYS132" code="L25" type="conn" figID="20">
+    <name>Combination Meter Assembly</name>
+  </text>
+  <text ewd="SYS132" code="I17" type="conn" figID="19">
+    <name>DLC3</name>
+  </text>
+  <text ewd="SYS132" code="I72" type="conn" figID="14">
+    <name>No. 21 Junction Connector</name>
+  </text>
+  <text ewd="SYS132" code="L36" type="conn" figID="1">
+    <name>No. 28 Junction Connector</name>
+  </text>
+  <text ewd="SYS132" code="L53" type="conn" figID="5">
+    <name>No. 31 Junction Connector</name>
+  </text>
+  <text ewd="SYS132" code="I117" type="conn" figID="6,9,10">
+    <name>No. 35 Junction Connector</name>
+  </text>
+  <text ewd="SYS132" code="I118" type="conn" figID="12,13,17">
+    <name>No. 36 Junction Connector</name>
+  </text>
+  <text ewd="SYS132" code="L57" type="conn" figID="4,8,11">
+    <name>No. 37 Junction Connector</name>
+  </text>
+  <text ewd="SYS132" code="I93" type="conn" figID="7">
+    <name>No. 5 Junction Connector</name>
+  </text>
+  <text ewd="SYS132" code="S30,U5,Y7" type="conn" figID="21">
+    <name>Tire Pressure Warning ECU and Receiver</name>
+  </text>
+  <text ewd="SYS132" code="L56" type="conn" figID="3">
+    <name>Tire Pressure Warning Reset Switch</name>
+  </text>
+  <text ewd="SYS132" code="FUSE5" type="fuse" figID="73">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS132" code="FUSE16" type="fuse" figID="74">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS132" code="FUSE20" type="fuse" figID="72">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS132" code="CA" type="gp" figID="63">
+    <name />
+  </text>
+  <text ewd="SYS132" code="CE" type="gp" figID="64">
+    <name />
+  </text>
+  <text ewd="SYS132" code="IA" type="gp" figID="61">
+    <name />
+  </text>
+  <text ewd="SYS132" code="IC" type="gp" figID="62">
+    <name />
+  </text>
+  <text ewd="SYS132" code="IE" type="gp" figID="60">
+    <name />
+  </text>
+  <text ewd="SYS132" code="LA" type="gp" figID="59">
+    <name />
+  </text>
+  <text ewd="SYS132" code="LB" type="gp" figID="58">
+    <name />
+  </text>
+  <text ewd="SYS132" code="FUSE5" type="rb" figID="15">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS132" code="FUSE16" type="rb" figID="16">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS132" code="FUSE20" type="rb" figID="2">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS132" code="SP19" type="sp" figID="70">
+    <name />
+  </text>
+  <text ewd="SYS132" code="SP44" type="sp" figID="66">
+    <name />
+  </text>
+  <text ewd="SYS132" code="SP51" type="sp" figID="69">
+    <name />
+  </text>
+  <text ewd="SYS132" code="SP60" type="sp" figID="71">
+    <name />
+  </text>
+  <text ewd="SYS132" code="SP66" type="sp" figID="68">
+    <name />
+  </text>
+  <text ewd="SYS132" code="SP76" type="sp" figID="67">
+    <name />
+  </text>
+  <text ewd="SYS132" code="SP82" type="sp" figID="65">
+    <name />
+  </text>
+  <text ewd="SYS132" code="IC2" type="w2w" figID="54">
+    <name>Cowl Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS132" code="IS2" type="w2w" figID="26,32,43,44">
+    <name>Cowl Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS132" code="IL2" type="w2w" figID="49,50,53,55">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS132" code="AI3" type="w2w" figID="51,52,57">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS132" code="CA4" type="w2w" figID="56">
+    <name>Engine Wire and Engine Room Main Wire</name>
+  </text>
+  <text ewd="SYS132" code="LI1" type="w2w" figID="29,37,40">
+    <name>Instrument Panel Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS132" code="LS2" type="w2w" figID="25,35,42">
+    <name>Instrument Panel Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS132" code="YI3" type="w2w" figID="30,31,34,38,39,47,48">
+    <name>No. 1 Roof Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS132" code="UI5" type="w2w" figID="27,28,33,36,41,45,46">
+    <name>No. 3 Floor Wire and Cowl Wire</name>
+  </text>
+</EwdTree>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25T2E" style="font-size:6px;font-family:'Arial'" ver="2.1.2.9">
+	<text textID="1">* 5 :w/ Wiper Lock Switch</text>
+	<text textID="2">* 6 :w/o Wiper Lock Switch</text>
+	<text textID="3">* 7 :w/ Intermittent Switch</text>
+	<text textID="4">* 8 :w/o Intermittent Switch</text>
+	<text textID="5">* 9 :w/ Intermittent</text>
+	<text textID="6">*10 :w/o Intermittent</text>
+	<text textID="7">*11 :Australia</text>
+	<text textID="8">*12 :Except Australia</text>
+	<text textID="9">Front Washer Switch</text>
+	<text textID="10">Front Wiper Switch</text>
+	<text textID="11">No. 2 Junction Connector</text>
+	<text textID="12">No. 8 Junction Connector</text>
+	<text textID="13">No. 13 Junction Connector</text>
+	<text textID="14">No. 31 Junction Connector</text>
+	<text textID="15">OUT WIP1 Relay</text>
+	<text textID="16">OUT WIP2 Relay</text>
+	<text textID="17">Off</text>
+	<text textID="18">On</text>
+	<text textID="19">Windshield Washer Motor and Pump Assembly</text>
+	<text textID="20">Windshield Wiper Motor Assembly</text>
+	<text textID="21">Windshield Wiper Switch Assembly</text>
+	<text textID="22">Wiper Lock Switch (Limit Switch Assembly)</text>
+	<text textID="23">Wiper Relay</text>
+</texts>

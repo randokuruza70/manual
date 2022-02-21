@@ -1,0 +1,26 @@
+table {
+  border-collapse: collapse;
+  background: #ffffff;
+}
+
+td#list_header {
+  height: 25px;
+  line-height: 25px;
+  font-weight: normal;
+  letter-spacing: normal;
+  color: #FFFFFF;
+  background: url(../../icon/mtrx-bg.png) repeat-x;
+  font-size: 14px;
+  text-indent: 14px;
+}
+
+td {
+  border: 1px solid #808080;
+  overflow: auto;
+
+}
+td.wireName {
+	text-align : center;
+	vertical-align : middle;
+	width : 20px;
+}

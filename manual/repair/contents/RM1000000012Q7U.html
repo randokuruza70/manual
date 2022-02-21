@@ -1,0 +1,886 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_54</span>
+<span class="globalServcatName">Brake</span>
+<span class="globalSection">_029873</span>
+<span class="globalSectionName">BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS</span>
+<span class="globalTitle">_0287798</span>
+<span class="globalTitleName">VEHICLE STABILITY CONTROL SYSTEM</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&nbsp;&nbsp;VEHICLE STABILITY CONTROL SYSTEM&nbsp;&nbsp;U0073&nbsp;&nbsp;Control Module Communication Bus OFF&nbsp;&nbsp;U0100&nbsp;&nbsp;Lost Communication with ECM&nbsp;&nbsp;U0124&nbsp;&nbsp;Lost Communication with Lateral Acceleration Sensor Module&nbsp;&nbsp;U0126&nbsp;&nbsp;Lost Communication with Steering Angle Sensor Module&nbsp;&nbsp;</h1>
+<br>
+<div id="RM1000000012Q7U_01" class="category no03">
+<h2>DESCRIPTION</h2>
+<div class="content5">
+<p>The skid control ECU (brake actuator assembly) receives the signals from the ECM, steering angle sensor (spiral with sensor cable sub-assembly) and yaw rate and acceleration sensor (airbag sensor assembly) via the CAN communication system.
+</p>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC No.
+</th>
+<th class="alcenter">Detection Item
+</th>
+<th class="alcenter">DTC Detection Condition
+</th>
+<th class="alcenter">Trouble Area
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">U0073
+</td>
+<td class="alleft">Control Module Communication Bus OFF
+</td>
+<td class="alleft">Any of the following is detected:
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>A bus OFF state occurs once or more within 0.1 seconds, 10 times in succession. (Sent signals cannot be received.)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>When the +BS terminal voltage is between 10 and 17.4 V, a delay in receiving data from the yaw rate sensor and steering angle sensor continues for 1 second or more.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>When the +BS terminal voltage is between 10 and 17.4 V, the following occurs 10 times in succession within 60 seconds.
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>The condition that a delay in receiving data from the yaw rate sensor and steering angle sensor occurs more than once within 5 seconds.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</td>
+<td class="alleft">CAN communication system
+</td>
+</tr>
+<tr>
+<td class="alleft">U0100
+</td>
+<td class="alleft">Lost Communication with ECM
+</td>
+<td class="alleft">When the +BS terminal voltage is between 10 and 17.4 V, and the vehicle speed is 15 km/h (9 mph) or more, data cannot be received from the ECM for 2 seconds or more.
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>CAN communication system
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Skid control ECU (Brake actuator assembly)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">U0124
+</td>
+<td class="alleft">Lost Communication with Lateral Acceleration Sensor Module
+</td>
+<td class="alleft">Either of the following is detected:
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>When the +BS terminal voltage is between 10 and 17.4 V, and the vehicle speed is 7 km/h or more, data from the acceleration sensor cannot be received for 1 second or more.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>When the +BS terminal voltage is between 10 and 17.4 V, the following occurs 10 times in succession within 60 seconds.
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>The condition that data from the acceleration sensor cannot be received occurs once or more within 5 seconds.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>CAN communication system
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Skid control ECU (Brake actuator assembly)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Acceleration sensor (Airbag sensor assembly)
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">U0126
+</td>
+<td class="alleft">Lost Communication with Steering Angle Sensor Module
+</td>
+<td class="alleft">Either of the following is detected:
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>When the +BS terminal voltage is between 10 and 17.4 V, data from the steering angle sensor cannot be received for 1 second or more.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>When the +BS terminal voltage is between 10 and 17.4 V, the following occurs 10 times in succession.
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>The condition that data from the steering angle sensor cannot be received occurs once or more within 5 seconds.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>CAN communication system
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Skid control ECU (Brake actuator assembly)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Steering angle sensor
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM1000000012Q7U_02" class="category no01">
+<h2>PROCEDURE</h2>
+<div class="testgrp" id="RM1000000012Q7U_02_0001">
+<div class="testtitle"><span class="titleText">1.CHECK HARNESS AND CONNECTOR (MOMENTARY INTERRUPTION)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Using the GTS, check for any momentary interruption in the wire harness and connector corresponding to a DTC.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;VEHICLE STABILITY CONTROL SYSTEM&gt;CHECK FOR INTERMITTENT PROBLEMS<span class="invisible">201608,999999,_54,_029873,_0287798,RM100000000ZNUD,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Chassis &gt; ABS/VSC/TRC &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:19%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+<th class="alcenter">Measurement Item
+</th>
+<th class="alcenter">Range
+</th>
+<th class="alcenter">Normal Condition
+</th>
+<th class="alcenter">Diagnostic Note
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">EFI Communication Open
+</td>
+<td class="alleft">ECM communication open detection
+</td>
+<td class="alleft">Normal or Error
+</td>
+<td class="alleft">Normal
+</td>
+<td class="alleft">Error: Momentary interruption
+</td>
+</tr>
+<tr>
+<td class="alleft">Yaw Rate Open
+</td>
+<td class="alleft">Yaw rate sensor open detection
+</td>
+<td class="alleft">Normal or Error
+</td>
+<td class="alleft">Normal
+</td>
+<td class="alleft">Error: Momentary interruption
+</td>
+</tr>
+<tr>
+<td class="alleft">Deceleration Open
+</td>
+<td class="alleft">Acceleration sensor open detection
+</td>
+<td class="alleft">Error or Normal
+</td>
+<td class="alleft">Normal
+</td>
+<td class="alleft">Error: Momentary interruption
+</td>
+</tr>
+<tr>
+<td class="alleft">Steering Open
+</td>
+<td class="alleft">Steering angle sensor open detection
+</td>
+<td class="alleft">Normal or Error
+</td>
+<td class="alleft">Normal
+</td>
+<td class="alleft">Error: Momentary interruption
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="gtsDataList">
+<dt class="gtsDataList">Chassis &gt; ABS/VSC/TRC &gt; Data List</dt>
+<dd class="gtsDataList">
+<table summary="data-list" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">EFI Communication Open
+</td>
+</tr>
+<tr>
+<td class="alleft">Yaw Rate Open
+</td>
+</tr>
+<tr>
+<td class="alleft">Deceleration Open
+</td>
+</tr>
+<tr>
+<td class="alleft">Steering Open
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsDataList gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50003</span>
+<span class="gtsEcu">105</span>
+<span class="gtsPid">204,205,206,207</span>
+</dd>
+</dl>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>Perform the above inspection before removing the sensor and connector.
+</p>
+</dd>
+</dl>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM1000000012Q7U_02_0001_1" summary="">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">There is a constant open circuit
+</td>
+</tr>
+<tr>
+<td class="alcenter">There are no momentary interruptions
+</td>
+</tr>
+<tr>
+<td class="alcenter">There are momentary interruptions
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>There is a constant open circuit
+</p></div>
+<div class="nextAction"><span class="titleText">2.CHECK IF EACH SENSOR AND ECM CONNECTOR IS SECURELY CONNECTED</span></div>
+<div class="judgeValueNext"><p>There are no momentary interruptions
+</p></div>
+<div class="nextAction"><span class="titleText">3.RECONFIRM DTC</span></div>
+<div class="judgeValueNext"><p>There are momentary interruptions
+</p></div>
+<div class="nextAction"><span class="titleText">4.REPAIR OR REPLACE HARNESS OR CONNECTOR</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM1000000012Q7U_02_0002">
+<div class="testtitle"><span class="titleText">2.CHECK IF EACH SENSOR AND ECM CONNECTOR IS SECURELY CONNECTED</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Turn the ignition switch off.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Check if each sensor or ECM connector is securely connected.
+</p>
+<dl class="spec">
+<dt class="spec">OK:</dt>
+<dd class="spec"><p>Each connector is securely connected.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM1000000012Q7U_02_0002_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">OK
+</td>
+</tr>
+<tr>
+<td class="alcenter">NG
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>OK
+</p></div>
+<div class="nextAction"><span class="titleText">3.RECONFIRM DTC</span></div>
+<div class="judgeValueEnd"><p>NG
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">CONNECT CONNECTOR TO EACH SENSOR OR ECM CORRECTLY</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM1000000012Q7U_02_0003">
+<div class="testtitle"><span class="titleText">3.RECONFIRM DTC</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Turn the ignition switch off.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Record the output DTCs (for VSC system and/or CAN communication system).
+</p>
+<p>for VSC system: Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;VEHICLE STABILITY CONTROL SYSTEM&gt;DTC CHECK / CLEAR<span class="invisible">201608,999999,_54,_029873,_0287798,RM100000000ZNUI,</span></a>
+</p>
+<p>for LHD: Click here<a class="mlink" href="javascript:void(0)">Power Source / Network&gt;NETWORKING&gt;CAN COMMUNICATION SYSTEM(for LHD with VSC)&gt;DIAGNOSIS SYSTEM<span class="invisible">201701,999999,_57,_057931,_0306321,RM1000000012O2V,</span></a>
+</p>
+<p>for RHD: Click here<a class="mlink" href="javascript:void(0)">Power Source / Network&gt;NETWORKING&gt;CAN COMMUNICATION SYSTEM(for RHD with VSC)&gt;DIAGNOSIS SYSTEM<span class="invisible">201701,999999,_57,_057931,_0306319,RM1000000012O27,</span></a>
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>If the CAN communication system DTC and the relevant sensor DTCs are output simultaneously, troubleshoot the relevant sensor DTCs (for VSC system) after the CAN communication system returns to normal.
+</p>
+</dd>
+</dl>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM1000000012Q7U_02_0003_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Result
+</th>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">DTC (relating to CAN communication system) is output
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">DTC (relating to VSC system) is output
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+<tr>
+<td class="alcenter">DTC is not output
+</td>
+<td class="alcenter">C
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>A
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">CHECK CAN COMMUNICATION SYSTEM</span></div>
+<div class="content6">
+<p>for LHD: Click here<a class="mlink" href="javascript:void(0)">Power Source / Network&gt;NETWORKING&gt;CAN COMMUNICATION SYSTEM(for LHD with VSC)&gt;HOW TO PROCEED WITH TROUBLESHOOTING<span class="invisible">201701,999999,_57,_057931,_0306321,RM1000000012O2S,</span></a>
+</p>
+<p>for RHD: Click here<a class="mlink" href="javascript:void(0)">Power Source / Network&gt;NETWORKING&gt;CAN COMMUNICATION SYSTEM(for RHD with VSC)&gt;HOW TO PROCEED WITH TROUBLESHOOTING<span class="invisible">201701,999999,_57,_057931,_0306319,RM1000000012O24,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPAIR CIRCUIT INDICATED BY OUTPUT DTC</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;VEHICLE STABILITY CONTROL SYSTEM&gt;DIAGNOSTIC TROUBLE CODE CHART<span class="invisible">201701,999999,_54,_029873,_0287798,RM1000000012Q7K,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>C
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">USE SIMULATION METHOD TO CHECK</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">General&gt;INTRODUCTION&gt;HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS&gt;HOW TO PROCEED WITH TROUBLESHOOTING<span class="invisible">201701,999999,_V1,_030611,_0140190,RM10000000136PZ,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM1000000012Q7U_02_0004">
+<div class="testtitle"><span class="titleText">4.REPAIR OR REPLACE HARNESS OR CONNECTOR</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Turn the ignition switch off.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Repair or replace the harness or connector.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Check for any momentary interruption between the skid control ECU (brake actuator assembly) and each sensor or ECM.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;VEHICLE STABILITY CONTROL SYSTEM&gt;CHECK FOR INTERMITTENT PROBLEMS<span class="invisible">201608,999999,_54,_029873,_0287798,RM100000000ZNUD,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Check that there is no momentary interruption.
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM1000000012Q7U_02_0004_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NEXT
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>NEXT
+</p></div>
+<div class="nextAction"><span class="titleText">5.RECONFIRM DTC</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM1000000012Q7U_02_0005">
+<div class="testtitle"><span class="titleText">5.RECONFIRM DTC</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>Turn the ignition switch off.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>Clear the DTCs.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;VEHICLE STABILITY CONTROL SYSTEM&gt;DTC CHECK / CLEAR<span class="invisible">201608,999999,_54,_029873,_0287798,RM100000000ZNUI,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Chassis &gt; ABS/VSC/TRC &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>Start the engine.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>Drive the vehicle at a speed of 15 km/h (9 mph) or more and turn the steering wheel to the right and left.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>Check that no CAN communication system DTC is output.
+</p>
+<p>for LHD: Click here<a class="mlink" href="javascript:void(0)">Power Source / Network&gt;NETWORKING&gt;CAN COMMUNICATION SYSTEM(for LHD with VSC)&gt;DIAGNOSIS SYSTEM<span class="invisible">201701,999999,_57,_057931,_0306321,RM1000000012O2V,</span></a>
+</p>
+<p>for RHD: Click here<a class="mlink" href="javascript:void(0)">Power Source / Network&gt;NETWORKING&gt;CAN COMMUNICATION SYSTEM(for RHD with VSC)&gt;DIAGNOSIS SYSTEM<span class="invisible">201701,999999,_57,_057931,_0306319,RM1000000012O27,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>If VSC system DTCs are output, record them.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;VEHICLE STABILITY CONTROL SYSTEM&gt;DTC CHECK / CLEAR<span class="invisible">201608,999999,_54,_029873,_0287798,RM100000000ZNUI,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>The CAN communication system must be normal when repairing each sensor DTC (for VSC system).
+</p>
+</dd>
+</dl>
+<br>
+<dl class="spec">
+<dt class="spec">Result:</dt>
+<dd class="spec"><table id="RM1000000012Q7U_02_0005_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Result
+</th>
+<th class="alcenter">Proceed to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DTC is not output
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td>DTC is output (relating to VSC system)
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+<tr>
+<td>DTC is output (relating to CAN communication system)
+</td>
+<td class="alcenter">C
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>A
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">END</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">REPAIR CIRCUIT INDICATED BY OUTPUT DTC</span></div>
+<div class="content6">
+<p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;VEHICLE STABILITY CONTROL SYSTEM&gt;DIAGNOSTIC TROUBLE CODE CHART<span class="invisible">201701,999999,_54,_029873,_0287798,RM1000000012Q7K,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>C
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">CHECK CAN COMMUNICATION SYSTEM</span></div>
+<div class="content6">
+<p>for LHD: Click here<a class="mlink" href="javascript:void(0)">Power Source / Network&gt;NETWORKING&gt;CAN COMMUNICATION SYSTEM(for LHD with VSC)&gt;HOW TO PROCEED WITH TROUBLESHOOTING<span class="invisible">201701,999999,_57,_057931,_0306321,RM1000000012O2S,</span></a>
+</p>
+<p>for RHD: Click here<a class="mlink" href="javascript:void(0)">Power Source / Network&gt;NETWORKING&gt;CAN COMMUNICATION SYSTEM(for RHD with VSC)&gt;HOW TO PROCEED WITH TROUBLESHOOTING<span class="invisible">201701,999999,_57,_057931,_0306319,RM1000000012O24,</span></a>
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

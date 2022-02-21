@@ -1,0 +1,905 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_54</span>
+<span class="globalServcatName">Brake</span>
+<span class="globalSection">_029873</span>
+<span class="globalSectionName">BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS</span>
+<span class="globalTitle">_0287798</span>
+<span class="globalTitleName">VEHICLE STABILITY CONTROL SYSTEM</span>
+<span class="globalCategory">D</span>
+</div>
+<h1>BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&nbsp;&nbsp;VEHICLE STABILITY CONTROL SYSTEM&nbsp;&nbsp;CALIBRATION&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000ZNUE_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">DESCRIPTION
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>After replacing any VSC related components or performing wheel alignment adjustment, clear and read the sensor calibration data.
+</p>
+<p>Refer to the table below and then perform the necessary operation according to the part to be replaced in order to perform calibration.
+</p>
+<table summary="">
+<colgroup>
+<col style="width:42%">
+<col style="width:57%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Parts to be Replaced/Operation
+</th>
+<th class="alcenter">Necessary Operation
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Skid control ECU (brake actuator assembly)
+</td>
+<td>Perform yaw rate and acceleration sensor zero point calibration and store system information.
+</td>
+</tr>
+<tr>
+<td class="alleft">Yaw rate and acceleration sensor (airbag sensor assembly)
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Clear zero point calibration data and store system information.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>Perform yaw rate and acceleration sensor zero point calibration and store system information.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Wheel alignment adjustment
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>Clear zero point calibration data and store system information.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>Perform yaw rate and acceleration sensor zero point calibration and store system information.
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">PERFORM YAW RATE AND ACCELERATION SENSOR ZERO POINT CALIBRATION AND STORE SYSTEM INFORMATION (When Using GTS)
+</span></p>
+<br>
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Stored system information cannot be overwritten unless it is cleared. Clear the stored information and then store new system information.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>While obtaining the zero points, keep the vehicle stationary and do not vibrate, tilt, move, or shake it (do not start the engine).
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Be sure to perform this procedure on a level surface (with an inclination of less than 1 degree).
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>Clear the zero point calibration data and store system information.
+</p>
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3">
+<p>Performing the following procedure will clear the zero points of the yaw rate and acceleration sensor and system information simultaneously.
+</p>
+</dd>
+</dl>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>Turn the ignition switch off.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>Check that the steering wheel is centered.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iii.</div>
+<div class="step3Body">
+<p>Check that the shift lever is in neutral and apply the parking brake.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iv.</div>
+<div class="step3Body">
+<p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">v.</div>
+<div class="step3Body">
+<p>Turn the ignition switch to ON.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">vi.</div>
+<div class="step3Body">
+<p>Turn the GTS on.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">vii.</div>
+<div class="step3Body">
+<p>Select the skid control ECU (brake actuator assembly) to clear the zero point calibration data using the GTS.
+</p>
+<p>Enter the following menus: Chassis / ABS/VSC/TRC / Utility / Reset Memory.
+</p>
+<dl class="gtsUtilityNormal">
+<dt class="gtsUtilityNormal">Chassis &gt; ABS/VSC/TRC &gt; Utility</dt>
+<dd class="gtsUtilityNormal">
+<table summary="utility" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Reset Memory
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsUtilityNormal gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50005</span>
+<span class="gtsEcu">105</span>
+<span class="gtsUtil">138</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">viii.</div>
+<div class="step3Body">
+<p>Check that the slip indicator light comes on.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ix.</div>
+<div class="step3Body">
+<p>Turn the ignition switch off.
+</p>
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3">
+<p>If the ignition switch is turned to ON for more than 15 seconds with the parking brake applied after the zero point of the yaw rate and acceleration sensor has been cleared, only the zero point of the yaw rate sensor will be stored. If the vehicle is driven under these conditions, the skid control ECU (brake actuator assembly) will store the zero point calibration for the acceleration sensor as not being completed. The skid control ECU (brake actuator assembly) will then also indicate this as a malfunction of the VSC system using the indicator light.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>Perform the yaw rate and acceleration sensor zero point calibration and store system information.
+</p>
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3">
+<p>Performing the following procedure will perform the yaw rate and acceleration sensor zero point calibration and store system information simultaneously.
+</p>
+</dd>
+</dl>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>Turn the ignition switch off.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>Check that the steering wheel is centered.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iii.</div>
+<div class="step3Body">
+<p>Check that the shift lever is in neutral and apply the parking brake.
+</p>
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When Test Mode is selected when the parking brake is not applied, the yaw rate and acceleration sensor zero point calibration incomplete DTC is stored.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When the vehicle is driven with the zero point cleared, the yaw rate and acceleration sensor zero point calibration incomplete DTC is stored.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If a DTC is stored that indicates zero point calibration is incomplete, repeat the procedure starting at the step for clearing the zero point calibration data and system information.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iv.</div>
+<div class="step3Body">
+<p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">v.</div>
+<div class="step3Body">
+<p>Turn the ignition switch to ON.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">vi.</div>
+<div class="step3Body">
+<p>Turn the GTS on.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">vii.</div>
+<div class="step3Body">
+<p>Switch the skid control ECU (brake actuator assembly) to Test Mode using the GTS.
+</p>
+<p>Enter the following menus: Chassis / ABS/VSC/TRC / Utility / Test Mode.
+</p>
+<dl class="gtsUtilityNormal">
+<dt class="gtsUtilityNormal">Chassis &gt; ABS/VSC/TRC &gt; Utility</dt>
+<dd class="gtsUtilityNormal">
+<table summary="utility" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Test Mode
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsUtilityNormal gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50005</span>
+<span class="gtsEcu">105</span>
+<span class="gtsUtil">166</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">viii.</div>
+<div class="step3Body">
+<p>After the Test Mode has been entered, keep the vehicle stationary on a level surface for 5 seconds or more.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ix.</div>
+<div class="step3Body">
+<p>Check that the slip indicator light comes on for several seconds and then blinks in the Test Mode pattern.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the slip indicator light does not blink, perform zero point calibration again.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The zero point calibration is performed only once after the system enters the Test Mode.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Calibration cannot be performed again until the stored data is cleared.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">x.</div>
+<div class="step3Body">
+<p>Turn the ignition switch off and disconnect the GTS.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">PERFORM YAW RATE AND ACCELERATION SENSOR ZERO POINT CALIBRATION AND STORE SYSTEM INFORMATION (When Using SST Check Wire)
+</span></p>
+<br>
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Stored system information cannot be overwritten unless it is cleared. Clear the stored information and then store new system information.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>While obtaining the zero points, keep the vehicle stationary and do not vibrate, tilt, move, or shake it (do not start the engine).
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Be sure to perform this procedure on a level surface (with an inclination of less than 1 degree).
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>Clear the zero point calibration data and store system information.
+</p>
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3">
+<p>Performing the following procedure will clear the zero points of the yaw rate and acceleration sensor and system information simultaneously.
+</p>
+</dd>
+</dl>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>Turn the ignition switch off.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>Check that the steering wheel is centered.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iii.</div>
+<div class="step3Body">
+<p>Check that the shift lever is in neutral and apply the parking brake.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iv.</div>
+<div class="step3Body">
+<p>Turn the ignition switch to ON.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item step3HasFigure">
+<div class="step3Head">v.</div>
+<div class="step3Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/C146309C91.png" alt="C146309C91" title="C146309C91">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.108,0.087 0.413,0.238</span>
+<span class="captionSize">0.305,0.151</span>
+<span class="fontsize">10</span>
+<span class="captionText">*a</span>
+</span>
+<span class="line">
+<span class="points">1.63,0.813 1.946,0.3</span>
+<span class="points">1.946,0.3 2.07,0.3</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">1.614,1.47 1.303,2.016</span>
+<span class="points">1.303,2.016 1.18,2.016</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">2.137,0.207 2.441,0.358</span>
+<span class="captionSize">0.305,0.151</span>
+<span class="fontsize">10</span>
+<span class="captionText">CG</span>
+</span>
+<span class="caption">
+<span class="points">0.933,1.943 1.238,2.094</span>
+<span class="captionSize">0.305,0.151</span>
+<span class="fontsize">10</span>
+<span class="captionText">TS</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td>Front view of DLC3
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<p>Using SST, connect and disconnect terminals 12 (TS) and 4 (CG) of the DLC3 4 times or more within 8 seconds.
+</p>
+<dl class="sst">
+<dt class="sst">SST</dt>
+<dd class="sst">09843-18040&nbsp;&nbsp;<br></dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">vi.</div>
+<div class="step3Body">
+<p>Check that the slip indicator light comes on.
+</p>
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the vehicle is driven after the zero point of the yaw rate and acceleration sensor and system information are cleared, DTCs will be stored.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the ignition switch is turned to ON for more than 15 seconds with the parking brake applied after the zero point of the yaw rate and acceleration sensor has been cleared, only the zero point of the yaw rate sensor will be stored. If the vehicle is driven under these conditions, the skid control ECU (brake actuator assembly) will store the zero point calibration for the acceleration sensor as not being completed. The skid control ECU (brake actuator assembly) will then also indicate this as a malfunction of the VSC system using the indicator light.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">vii.</div>
+<div class="step3Body">
+<p>Turn the ignition switch off.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>Perform the yaw rate and acceleration sensor zero point calibration and store system information.
+</p>
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3">
+<p>Performing the following procedure will perform the yaw rate and acceleration sensor zero point calibration, and also store system information simultaneously.
+</p>
+</dd>
+</dl>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>Turn the ignition switch off.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>Check that the steering wheel is centered.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iii.</div>
+<div class="step3Body">
+<p>Check that the shift lever is in neutral and apply the parking brake.
+</p>
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When Test Mode is selected when the parking brake is not applied, the yaw rate and acceleration sensor zero point calibration incomplete DTC is stored.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When the vehicle is driven with the zero point cleared, the yaw rate and acceleration sensor zero point calibration incomplete DTC is stored.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item step3HasFigure">
+<div class="step3Head">iv.</div>
+<div class="step3Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/C146309C91.png" alt="C146309C91" title="C146309C91">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.108,0.087 0.413,0.238</span>
+<span class="captionSize">0.305,0.151</span>
+<span class="fontsize">10</span>
+<span class="captionText">*a</span>
+</span>
+<span class="line">
+<span class="points">1.63,0.813 1.946,0.3</span>
+<span class="points">1.946,0.3 2.07,0.3</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">1.614,1.47 1.303,2.016</span>
+<span class="points">1.303,2.016 1.18,2.016</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">2.137,0.207 2.441,0.358</span>
+<span class="captionSize">0.305,0.151</span>
+<span class="fontsize">10</span>
+<span class="captionText">CG</span>
+</span>
+<span class="caption">
+<span class="points">0.933,1.943 1.238,2.094</span>
+<span class="captionSize">0.305,0.151</span>
+<span class="fontsize">10</span>
+<span class="captionText">TS</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td>Front view of DLC3
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<p>Using SST, connect terminals 12 (TS) and 4 (CG) of the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">v.</div>
+<div class="step3Body">
+<p>Turn the ignition switch to ON.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">vi.</div>
+<div class="step3Body">
+<p>After Test Mode has been entered, keep the vehicle stationary on a level surface for 5 seconds or more.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">vii.</div>
+<div class="step3Body">
+<p>Check that the slip indicator light comes on for several seconds and then blinks in the Test Mode pattern.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>If the slip indicator light does not blink, perform zero point calibration again.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The zero point calibration is performed only once after the system enters the Test Mode.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Calibration cannot be performed again until the stored data is cleared.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">viii.</div>
+<div class="step3Body">
+<p>Turn the ignition switch off and disconnect SST from the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

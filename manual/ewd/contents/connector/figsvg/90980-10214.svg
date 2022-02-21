@@ -1,0 +1,35 @@
+﻿<?xml version="1.0"?>
+<!-- Generator: Adobe Illustrator 10.0, SVG Export Plug-In . SVG Version: 3.0.0 Build 77)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st1 "fill:none;stroke:#000000;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st2 "font-size:6px;">
+	<!ENTITY st3 "font-family:'Arial';">
+	<!ATTLIST svg
+		ewd:ver CDATA #IMPLIED
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/">
+	<!ATTLIST g
+		ewd:pinNo CDATA #IMPLIED>
+]>
+<svg width="20.632" height="40.264" viewBox="0 0 20.632 40.264" style="overflow:visible;enable-background:new 0 0 20.632 40.264" xml:space="preserve" onload="call_execInitLoadProc_svg('connector')" ewd:ver="2.1.2.9" xmlns="&ns_svg;" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:xlink="&ns_xlink;">
+<script type="text/javascript" xlink:href="../../../../../system/js/ewd/fig/svgfig.js"/>
+<g id="レイヤー_1">
+	<path style="&st1;" d="M5.174,6.109V3.305"/>
+	<path style="&st1;" d="M15.458,6.109V3.305"/>
+	<path style="&st1;" d="M20.132,6.109H0.5"/>
+	<path style="&st1;" d="M2.37,11.718h15.892v9.349H2.37V11.718"/>
+	<path style="&st1;" d="M15.458,21.067v15.892H5.174V21.067"/>
+	<path style="&st1;" d="M20.132,9.849l-0.935-0.935H1.435L0.5,9.849"/>
+	<path style="&st0;" d="M5.174,0.5h10.284v2.805h4.674v18.697l-0.935,0.935h-1.87v15.892l-0.935,0.935H4.239l-0.935-0.935V22.937    H1.435L0.5,22.001V3.305h4.674V0.5"/>
+	<g ewd:pinNo="1">
+		<text transform="matrix(1 0 0 1 8.7188 18.6489)"><tspan x="0" y="0" style="&st3; &st2;">1</tspan></text>
+	</g>
+	<g ewd:pinNo="2">
+		<text transform="matrix(1 0 0 1 8.7188 31.2695)"><tspan x="0" y="0" style="&st3; &st2;">2</tspan></text>
+	</g>
+</g>
+</svg>

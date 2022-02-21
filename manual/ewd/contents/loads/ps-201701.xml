@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE LoadList SYSTEM "../../dtd/load.dtd">
+<LoadList ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <Block code="RL009">
+    <blockname>Cowl Side R/B Assembly</blockname>
+    <Fuse capacity="7.5" type="fuse" code="FUSE1">
+      <name>ACC</name>
+      <refs>
+        <System code="SYS002">Audio System (From Aug. 2016 Production)</System>
+        <System code="SYS004">Auto Antenna (From Aug. 2016 Production)</System>
+        <System code="SYS087">Clock (From Aug. 2016 Production)</System>
+        <System code="SYS107">Power Outlet (From Aug. 2016 Production)</System>
+        <System code="SYS067">Remote Control Mirror (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="7.5" type="fuse" code="FUSE2">
+      <name>OBD2</name>
+      <refs>
+        <System code="SYS125">DLC3 (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="7.5" type="fuse" code="FUSE3">
+      <name>ST</name>
+      <refs>
+        <System code="SYS083">Air Conditioner (1HZ) (From Aug. 2016 Production)</System>
+        <System code="SYS017">Cruise Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS019">Emission Control (From Aug. 2016 Production)</System>
+        <System code="SYS021">Engine Control (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS023">Engine Control (LHD 1VD-FTV) (Middle East)</System>
+        <System code="SYS024">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS025">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Except Australia)</System>
+        <System code="SYS029">Fuel Tank Changeover (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS033">Glow Plug (w/o Emission Control) (From Aug. 2016 Production)</System>
+        <System code="SYS037">Starting (1GR-FE, 1VD-FTV) (From Aug. 2016 Production)</System>
+        <System code="SYS039">Starting (1HZ) (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE4">
+      <name>A/C</name>
+      <refs>
+        <System code="SYS081">Air Conditioner (1GR-FE, 1VD-FTV) (From Aug. 2016 Production)</System>
+        <System code="SYS083">Air Conditioner (1HZ) (From Aug. 2016 Production)</System>
+        <System code="SYS019">Emission Control (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE5">
+      <name>DOME NO.1</name>
+      <refs>
+        <System code="SYS014">4WD (From Aug. 2016 Production)</System>
+        <System code="SYS006">ABS (w/ VSC) (From Aug. 2016 Production)</System>
+        <System code="SYS007">ABS (w/o VSC) (From Aug. 2016 Production)</System>
+        <System code="SYS008">Brake Assist (From Aug. 2016 Production)</System>
+        <System code="SYS119">Charging (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS121">Charging (1HZ) (From Aug. 2016 Production)</System>
+        <System code="SYS123">Charging (1VD-FTV) (From Aug. 2016 Production)</System>
+        <System code="SYS087">Clock (From Aug. 2016 Production)</System>
+        <System code="SYS089">Combination Meter (From Aug. 2016 Production)</System>
+        <System code="SYS017">Cruise Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS009">EBD (From Aug. 2016 Production)</System>
+        <System code="SYS019">Emission Control (From Aug. 2016 Production)</System>
+        <System code="SYS021">Engine Control (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS023">Engine Control (LHD 1VD-FTV) (Middle East)</System>
+        <System code="SYS024">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS025">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Except Australia)</System>
+        <System code="SYS016">Front/Rear Differential Lock (From Aug. 2016 Production)</System>
+        <System code="SYS029">Fuel Tank Changeover (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS031">Fuel Tank Changeover (Diesel) (From Aug. 2016 Production)</System>
+        <System code="SYS033">Glow Plug (w/o Emission Control) (From Aug. 2016 Production)</System>
+        <System code="SYS010">Hill-Start Assist Control (From Aug. 2016 Production)</System>
+        <System code="SYS099">Illumination (From Aug. 2016 Production)</System>
+        <System code="SYS103">Interior Light (From Aug. 2016 Production)</System>
+        <System code="SYS105">Key Reminder (From Aug. 2016 Production)</System>
+        <System code="SYS057">Light Reminder (From Aug. 2016 Production)</System>
+        <System code="SYS111">Seat Belt Warning (From Aug. 2016 Production)</System>
+        <System code="SYS113">SRS (From Aug. 2016 Production)</System>
+        <System code="SYS132">Tire Pressure Warning System</System>
+        <System code="SYS011">TRC (From Aug. 2016 Production)</System>
+        <System code="SYS012">VSC (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE6">
+      <name>ECU-B</name>
+      <refs>
+        <System code="SYS006">ABS (w/ VSC) (From Aug. 2016 Production)</System>
+        <System code="SYS004">Auto Antenna (From Aug. 2016 Production)</System>
+        <System code="SYS008">Brake Assist (From Aug. 2016 Production)</System>
+        <System code="SYS087">Clock (From Aug. 2016 Production)</System>
+        <System code="SYS091">Door Lock Control (LHD w/ Wireless Door Lock Control) (From Aug. 2016 Production)</System>
+        <System code="SYS095">Door Lock Control (RHD w/ Wireless Door Lock Control) (From Aug. 2016 Production)</System>
+        <System code="SYS009">EBD (From Aug. 2016 Production)</System>
+        <System code="SYS019">Emission Control (From Aug. 2016 Production)</System>
+        <System code="SYS010">Hill-Start Assist Control (From Aug. 2016 Production)</System>
+        <System code="SYS101">Immobiliser System (From Aug. 2016 Production)</System>
+        <System code="SYS109">Rear Heater (From Aug. 2016 Production)</System>
+        <System code="SYS011">TRC (From Aug. 2016 Production)</System>
+        <System code="SYS012">VSC (From Aug. 2016 Production)</System>
+        <System code="SYS115">Wireless Door Lock Control (LHD) (From Aug. 2016 Production)</System>
+        <System code="SYS117">Wireless Door Lock Control (RHD) (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE7">
+      <name>EDU1</name>
+      <refs>
+        <System code="SYS017">Cruise Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS024">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE8">
+      <name>EDU2</name>
+      <refs>
+        <System code="SYS017">Cruise Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS024">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE9">
+      <name>EFI-NO.2</name>
+      <refs>
+        <System code="SYS021">Engine Control (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS029">Fuel Tank Changeover (1GR-FE) (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE10">
+      <name>H/LP HI LH</name>
+      <refs>
+        <System code="SYS051">Headlight (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE11">
+      <name>H/LP HI RH</name>
+      <refs>
+        <System code="SYS051">Headlight (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE12">
+      <name>H/LP LO LH</name>
+      <refs>
+        <System code="SYS051">Headlight (From Aug. 2016 Production)</System>
+        <System code="SYS053">Headlight Beam Level Control (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE13">
+      <name>H/LP LO RH</name>
+      <refs>
+        <System code="SYS051">Headlight (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE14">
+      <name>IGN</name>
+      <refs>
+        <System code="SYS017">Cruise Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS021">Engine Control (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS023">Engine Control (LHD 1VD-FTV) (Middle East)</System>
+        <System code="SYS024">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS025">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Except Australia)</System>
+        <System code="SYS029">Fuel Tank Changeover (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS031">Fuel Tank Changeover (Diesel) (From Aug. 2016 Production)</System>
+        <System code="SYS113">SRS (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE15">
+      <name>INJ</name>
+      <refs>
+        <System code="SYS021">Engine Control (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS029">Fuel Tank Changeover (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS035">Ignition (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE16">
+      <name>MET</name>
+      <refs>
+        <System code="SYS014">4WD (From Aug. 2016 Production)</System>
+        <System code="SYS006">ABS (w/ VSC) (From Aug. 2016 Production)</System>
+        <System code="SYS007">ABS (w/o VSC) (From Aug. 2016 Production)</System>
+        <System code="SYS008">Brake Assist (From Aug. 2016 Production)</System>
+        <System code="SYS119">Charging (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS121">Charging (1HZ) (From Aug. 2016 Production)</System>
+        <System code="SYS123">Charging (1VD-FTV) (From Aug. 2016 Production)</System>
+        <System code="SYS087">Clock (From Aug. 2016 Production)</System>
+        <System code="SYS089">Combination Meter (From Aug. 2016 Production)</System>
+        <System code="SYS017">Cruise Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS009">EBD (From Aug. 2016 Production)</System>
+        <System code="SYS019">Emission Control (From Aug. 2016 Production)</System>
+        <System code="SYS021">Engine Control (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS023">Engine Control (LHD 1VD-FTV) (Middle East)</System>
+        <System code="SYS024">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS025">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Except Australia)</System>
+        <System code="SYS016">Front/Rear Differential Lock (From Aug. 2016 Production)</System>
+        <System code="SYS029">Fuel Tank Changeover (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS031">Fuel Tank Changeover (Diesel) (From Aug. 2016 Production)</System>
+        <System code="SYS033">Glow Plug (w/o Emission Control) (From Aug. 2016 Production)</System>
+        <System code="SYS010">Hill-Start Assist Control (From Aug. 2016 Production)</System>
+        <System code="SYS099">Illumination (From Aug. 2016 Production)</System>
+        <System code="SYS103">Interior Light (From Aug. 2016 Production)</System>
+        <System code="SYS105">Key Reminder (From Aug. 2016 Production)</System>
+        <System code="SYS057">Light Reminder (From Aug. 2016 Production)</System>
+        <System code="SYS111">Seat Belt Warning (From Aug. 2016 Production)</System>
+        <System code="SYS113">SRS (From Aug. 2016 Production)</System>
+        <System code="SYS132">Tire Pressure Warning System</System>
+        <System code="SYS011">TRC (From Aug. 2016 Production)</System>
+        <System code="SYS012">VSC (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE17">
+      <name>PANEL</name>
+      <refs>
+        <System code="SYS099">Illumination (From Aug. 2016 Production)</System>
+        <System code="SYS057">Light Reminder (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE18">
+      <name>TAIL</name>
+      <refs>
+        <System code="SYS021">Engine Control (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS043">Front Fog Light (From Aug. 2016 Production)</System>
+        <System code="SYS029">Fuel Tank Changeover (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS061">Rear Fog Light (From Aug. 2016 Production)</System>
+        <System code="SYS071">Taillight (From Aug. 2016 Production)</System>
+        <System code="SYS073">Trailer Socket (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE19">
+      <name>CIG</name>
+      <refs>
+        <System code="SYS085">Cigarette Lighter (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE20">
+      <name>ECU IG</name>
+      <refs>
+        <System code="SYS014">4WD (From Aug. 2016 Production)</System>
+        <System code="SYS006">ABS (w/ VSC) (From Aug. 2016 Production)</System>
+        <System code="SYS007">ABS (w/o VSC) (From Aug. 2016 Production)</System>
+        <System code="SYS004">Auto Antenna (From Aug. 2016 Production)</System>
+        <System code="SYS008">Brake Assist (From Aug. 2016 Production)</System>
+        <System code="SYS119">Charging (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS121">Charging (1HZ) (From Aug. 2016 Production)</System>
+        <System code="SYS123">Charging (1VD-FTV) (From Aug. 2016 Production)</System>
+        <System code="SYS089">Combination Meter (From Aug. 2016 Production)</System>
+        <System code="SYS017">Cruise Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS091">Door Lock Control (LHD w/ Wireless Door Lock Control) (From Aug. 2016 Production)</System>
+        <System code="SYS095">Door Lock Control (RHD w/ Wireless Door Lock Control) (From Aug. 2016 Production)</System>
+        <System code="SYS009">EBD (From Aug. 2016 Production)</System>
+        <System code="SYS019">Emission Control (From Aug. 2016 Production)</System>
+        <System code="SYS023">Engine Control (LHD 1VD-FTV) (Middle East)</System>
+        <System code="SYS024">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS025">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Except Australia)</System>
+        <System code="SYS045">Front Wiper and Washer (LHD) (From Aug. 2016 Production)</System>
+        <System code="SYS047">Front Wiper and Washer (RHD 12V Battery Type) (From Aug. 2016 Production)</System>
+        <System code="SYS049">Front Wiper and Washer (RHD 24V Battery Type) (From Aug. 2016 Production)</System>
+        <System code="SYS016">Front/Rear Differential Lock (From Aug. 2016 Production)</System>
+        <System code="SYS033">Glow Plug (w/o Emission Control) (From Aug. 2016 Production)</System>
+        <System code="SYS010">Hill-Start Assist Control (From Aug. 2016 Production)</System>
+        <System code="SYS101">Immobiliser System (From Aug. 2016 Production)</System>
+        <System code="SYS132">Tire Pressure Warning System</System>
+        <System code="SYS011">TRC (From Aug. 2016 Production)</System>
+        <System code="SYS012">VSC (From Aug. 2016 Production)</System>
+        <System code="SYS115">Wireless Door Lock Control (LHD) (From Aug. 2016 Production)</System>
+        <System code="SYS117">Wireless Door Lock Control (RHD) (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE21">
+      <name>FR FOG</name>
+      <refs>
+        <System code="SYS043">Front Fog Light (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE22">
+      <name>FUEL HTR</name>
+      <refs>
+        <System code="SYS027">Fuel Heater (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE23">
+      <name>GAUGE</name>
+      <refs>
+        <System code="SYS081">Air Conditioner (1GR-FE, 1VD-FTV) (From Aug. 2016 Production)</System>
+        <System code="SYS083">Air Conditioner (1HZ) (From Aug. 2016 Production)</System>
+        <System code="SYS041">Back-Up Light (From Aug. 2016 Production)</System>
+        <System code="SYS087">Clock (From Aug. 2016 Production)</System>
+        <System code="SYS017">Cruise Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS023">Engine Control (LHD 1VD-FTV) (Middle East)</System>
+        <System code="SYS024">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS025">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Except Australia)</System>
+        <System code="SYS109">Rear Heater (From Aug. 2016 Production)</System>
+        <System code="SYS063">Rear Window Defogger (From Aug. 2016 Production)</System>
+        <System code="SYS073">Trailer Socket (From Aug. 2016 Production)</System>
+        <System code="SYS077">Turn Signal and Hazard Warning Light (24V Battery Type) (From Aug. 2016 Production)</System>
+        <System code="SYS079">Winch (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE24">
+      <name>RADIO</name>
+      <refs>
+        <System code="SYS002">Audio System (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE25">
+      <name>RR FOG</name>
+      <refs>
+        <System code="SYS061">Rear Fog Light (From Aug. 2016 Production)</System>
+        <System code="SYS073">Trailer Socket (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE26">
+      <name>STOP</name>
+      <refs>
+        <System code="SYS006">ABS (w/ VSC) (From Aug. 2016 Production)</System>
+        <System code="SYS007">ABS (w/o VSC) (From Aug. 2016 Production)</System>
+        <System code="SYS008">Brake Assist (From Aug. 2016 Production)</System>
+        <System code="SYS017">Cruise Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS009">EBD (From Aug. 2016 Production)</System>
+        <System code="SYS021">Engine Control (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS023">Engine Control (LHD 1VD-FTV) (Middle East)</System>
+        <System code="SYS024">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS025">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Except Australia)</System>
+        <System code="SYS029">Fuel Tank Changeover (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS010">Hill-Start Assist Control (From Aug. 2016 Production)</System>
+        <System code="SYS069">Stop Light (From Aug. 2016 Production)</System>
+        <System code="SYS011">TRC (From Aug. 2016 Production)</System>
+        <System code="SYS012">VSC (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE27">
+      <name>TRAILER STOP</name>
+      <refs>
+        <System code="SYS073">Trailer Socket (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="20" type="fuse" code="FUSE28">
+      <name>DEFOG</name>
+      <refs>
+        <System code="SYS021">Engine Control (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS029">Fuel Tank Changeover (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS063">Rear Window Defogger (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="20" type="fuse" code="FUSE29">
+      <name>WIP</name>
+      <refs>
+        <System code="SYS045">Front Wiper and Washer (LHD) (From Aug. 2016 Production)</System>
+        <System code="SYS047">Front Wiper and Washer (RHD 12V Battery Type) (From Aug. 2016 Production)</System>
+        <System code="SYS049">Front Wiper and Washer (RHD 24V Battery Type) (From Aug. 2016 Production)</System>
+        <System code="SYS065">Rear Wiper and Washer (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE30">
+      <name>DIFF</name>
+      <refs>
+        <System code="SYS016">Front/Rear Differential Lock (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE31">
+      <name>DOOR</name>
+      <refs>
+        <System code="SYS091">Door Lock Control (LHD w/ Wireless Door Lock Control) (From Aug. 2016 Production)</System>
+        <System code="SYS093">Door Lock Control (LHD w/o Wireless Door Lock Control) (From Aug. 2016 Production)</System>
+        <System code="SYS095">Door Lock Control (RHD w/ Wireless Door Lock Control) (From Aug. 2016 Production)</System>
+        <System code="SYS097">Door Lock Control (RHD w/o Wireless Door Lock Control) (From Aug. 2016 Production)</System>
+        <System code="SYS115">Wireless Door Lock Control (LHD) (From Aug. 2016 Production)</System>
+        <System code="SYS117">Wireless Door Lock Control (RHD) (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE32">
+      <name>POWER</name>
+      <refs>
+        <System code="SYS059">Power Window (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE33">
+      <name>STOP</name>
+      <refs>
+        <System code="SYS006">ABS (w/ VSC) (From Aug. 2016 Production)</System>
+        <System code="SYS007">ABS (w/o VSC) (From Aug. 2016 Production)</System>
+        <System code="SYS008">Brake Assist (From Aug. 2016 Production)</System>
+        <System code="SYS017">Cruise Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS009">EBD (From Aug. 2016 Production)</System>
+        <System code="SYS021">Engine Control (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS023">Engine Control (LHD 1VD-FTV) (Middle East)</System>
+        <System code="SYS024">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS025">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Except Australia)</System>
+        <System code="SYS029">Fuel Tank Changeover (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS010">Hill-Start Assist Control (From Aug. 2016 Production)</System>
+        <System code="SYS069">Stop Light (From Aug. 2016 Production)</System>
+        <System code="SYS073">Trailer Socket (From Aug. 2016 Production)</System>
+        <System code="SYS011">TRC (From Aug. 2016 Production)</System>
+        <System code="SYS012">VSC (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE34">
+      <name>TRAILER</name>
+      <refs>
+        <System code="SYS073">Trailer Socket (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+  </Block>
+  <Block code="RL010">
+    <blockname>Fusible Link Block Assembly</blockname>
+    <Fuse capacity="30" type="fuse" code="FUSE35">
+      <name>AM1</name>
+      <refs>
+        <System code="SYS107">Power Outlet (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="50" type="fuse" code="FUSE36">
+      <name>ALT MAIN</name>
+      <refs>
+        <System code="SYS107">Power Outlet (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="50" type="fuse" code="FUSE37">
+      <name>AM1 NO.2</name>
+      <refs>
+        <System code="SYS107">Power Outlet (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="50" type="fuse" code="FUSE38">
+      <name>AM1 NO.3</name>
+      <refs>
+        <System code="SYS129">Power Source (Diesel) (From Aug. 2016 Production)</System>
+        <System code="SYS131">Power Source (Gasoline) (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="50" type="fuse" code="FUSE39">
+      <name>HTR</name>
+      <refs>
+        <System code="SYS081">Air Conditioner (1GR-FE, 1VD-FTV) (From Aug. 2016 Production)</System>
+        <System code="SYS083">Air Conditioner (1HZ) (From Aug. 2016 Production)</System>
+        <System code="SYS019">Emission Control (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="80" type="fuse" code="FUSE40">
+      <name>GLOW1</name>
+      <refs>
+        <System code="SYS017">Cruise Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS019">Emission Control (From Aug. 2016 Production)</System>
+        <System code="SYS023">Engine Control (LHD 1VD-FTV) (Middle East)</System>
+        <System code="SYS024">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS025">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Except Australia)</System>
+        <System code="SYS033">Glow Plug (w/o Emission Control) (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="80" type="fuse" code="FUSE41">
+      <name>GLOW2</name>
+      <refs>
+        <System code="SYS017">Cruise Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS023">Engine Control (LHD 1VD-FTV) (Middle East)</System>
+        <System code="SYS024">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS025">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Except Australia)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="100" type="fuse" code="FUSE42">
+      <name>ALT</name>
+      <refs>
+        <System code="SYS121">Charging (1HZ) (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="140" type="fuse" code="FUSE43">
+      <name>ALT</name>
+      <refs>
+        <System code="SYS119">Charging (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS123">Charging (1VD-FTV) (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+  </Block>
+  <Block code="RL011">
+    <blockname>Fuse Block Assembly</blockname>
+    <Fuse capacity="7.5" type="fuse" code="FUSE44">
+      <name>ALT-S</name>
+      <refs>
+        <System code="SYS119">Charging (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS121">Charging (1HZ) (From Aug. 2016 Production)</System>
+        <System code="SYS123">Charging (1VD-FTV) (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE45">
+      <name>A/F</name>
+      <refs>
+        <System code="SYS021">Engine Control (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS029">Fuel Tank Changeover (1GR-FE) (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE46">
+      <name>ETCS</name>
+      <refs>
+        <System code="SYS021">Engine Control (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS029">Fuel Tank Changeover (1GR-FE) (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE47">
+      <name>HORN</name>
+      <refs>
+        <System code="SYS055">Horn (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE48">
+      <name>A/F</name>
+      <refs>
+        <System code="SYS017">Cruise Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS024">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE49">
+      <name>EFI MAIN</name>
+      <refs>
+        <System code="SYS017">Cruise Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS023">Engine Control (LHD 1VD-FTV) (Middle East)</System>
+        <System code="SYS024">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS025">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Except Australia)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE50">
+      <name>EFI MAIN2</name>
+      <refs>
+        <System code="SYS017">Cruise Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS023">Engine Control (LHD 1VD-FTV) (Middle East)</System>
+        <System code="SYS024">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS025">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Except Australia)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE51">
+      <name>TURN&amp;HAZ</name>
+      <refs>
+        <System code="SYS089">Combination Meter (From Aug. 2016 Production)</System>
+        <System code="SYS091">Door Lock Control (LHD w/ Wireless Door Lock Control) (From Aug. 2016 Production)</System>
+        <System code="SYS095">Door Lock Control (RHD w/ Wireless Door Lock Control) (From Aug. 2016 Production)</System>
+        <System code="SYS073">Trailer Socket (From Aug. 2016 Production)</System>
+        <System code="SYS075">Turn Signal and Hazard Warning Light (12V Battery Type) (From Aug. 2016 Production)</System>
+        <System code="SYS077">Turn Signal and Hazard Warning Light (24V Battery Type) (From Aug. 2016 Production)</System>
+        <System code="SYS115">Wireless Door Lock Control (LHD) (From Aug. 2016 Production)</System>
+        <System code="SYS117">Wireless Door Lock Control (RHD) (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="25" type="fuse" code="FUSE52">
+      <name>EFI</name>
+      <refs>
+        <System code="SYS021">Engine Control (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS029">Fuel Tank Changeover (1GR-FE) (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE53">
+      <name>ABS SOL</name>
+      <refs>
+        <System code="SYS006">ABS (w/ VSC) (From Aug. 2016 Production)</System>
+        <System code="SYS007">ABS (w/o VSC) (From Aug. 2016 Production)</System>
+        <System code="SYS008">Brake Assist (From Aug. 2016 Production)</System>
+        <System code="SYS009">EBD (From Aug. 2016 Production)</System>
+        <System code="SYS010">Hill-Start Assist Control (From Aug. 2016 Production)</System>
+        <System code="SYS011">TRC (From Aug. 2016 Production)</System>
+        <System code="SYS012">VSC (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="50" type="fuse" code="FUSE54">
+      <name>ABS MTR</name>
+      <refs>
+        <System code="SYS006">ABS (w/ VSC) (From Aug. 2016 Production)</System>
+        <System code="SYS007">ABS (w/o VSC) (From Aug. 2016 Production)</System>
+        <System code="SYS008">Brake Assist (From Aug. 2016 Production)</System>
+        <System code="SYS009">EBD (From Aug. 2016 Production)</System>
+        <System code="SYS010">Hill-Start Assist Control (From Aug. 2016 Production)</System>
+        <System code="SYS011">TRC (From Aug. 2016 Production)</System>
+        <System code="SYS012">VSC (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="50" type="fuse" code="FUSE55">
+      <name>AM2</name>
+      <refs>
+        <System code="SYS037">Starting (1GR-FE, 1VD-FTV) (From Aug. 2016 Production)</System>
+        <System code="SYS039">Starting (1HZ) (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="50" type="fuse" code="FUSE56">
+      <name>HEAD</name>
+      <refs>
+        <System code="SYS051">Headlight (From Aug. 2016 Production)</System>
+        <System code="SYS053">Headlight Beam Level Control (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="50" type="fuse" code="FUSE57">
+      <name>MAIN1</name>
+      <refs>
+        <System code="SYS021">Engine Control (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS043">Front Fog Light (From Aug. 2016 Production)</System>
+        <System code="SYS029">Fuel Tank Changeover (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS099">Illumination (From Aug. 2016 Production)</System>
+        <System code="SYS057">Light Reminder (From Aug. 2016 Production)</System>
+        <System code="SYS061">Rear Fog Light (From Aug. 2016 Production)</System>
+        <System code="SYS071">Taillight (From Aug. 2016 Production)</System>
+        <System code="SYS073">Trailer Socket (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+  </Block>
+  <Block code="RL016">
+    <blockname>Cowl Side R/B Assembly</blockname>
+    <Fuse capacity="7.5" type="fuse" code="FUSE1">
+      <name>ACC</name>
+      <refs>
+        <System code="SYS002">Audio System (From Aug. 2016 Production)</System>
+        <System code="SYS004">Auto Antenna (From Aug. 2016 Production)</System>
+        <System code="SYS087">Clock (From Aug. 2016 Production)</System>
+        <System code="SYS107">Power Outlet (From Aug. 2016 Production)</System>
+        <System code="SYS067">Remote Control Mirror (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="7.5" type="fuse" code="FUSE2">
+      <name>OBD2</name>
+      <refs>
+        <System code="SYS125">DLC3 (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="7.5" type="fuse" code="FUSE3">
+      <name>ST</name>
+      <refs>
+        <System code="SYS083">Air Conditioner (1HZ) (From Aug. 2016 Production)</System>
+        <System code="SYS017">Cruise Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS019">Emission Control (From Aug. 2016 Production)</System>
+        <System code="SYS021">Engine Control (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS023">Engine Control (LHD 1VD-FTV) (Middle East)</System>
+        <System code="SYS024">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS025">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Except Australia)</System>
+        <System code="SYS029">Fuel Tank Changeover (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS033">Glow Plug (w/o Emission Control) (From Aug. 2016 Production)</System>
+        <System code="SYS037">Starting (1GR-FE, 1VD-FTV) (From Aug. 2016 Production)</System>
+        <System code="SYS039">Starting (1HZ) (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE4">
+      <name>A/C</name>
+      <refs>
+        <System code="SYS081">Air Conditioner (1GR-FE, 1VD-FTV) (From Aug. 2016 Production)</System>
+        <System code="SYS083">Air Conditioner (1HZ) (From Aug. 2016 Production)</System>
+        <System code="SYS019">Emission Control (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE5">
+      <name>DOME NO.1</name>
+      <refs>
+        <System code="SYS014">4WD (From Aug. 2016 Production)</System>
+        <System code="SYS006">ABS (w/ VSC) (From Aug. 2016 Production)</System>
+        <System code="SYS007">ABS (w/o VSC) (From Aug. 2016 Production)</System>
+        <System code="SYS008">Brake Assist (From Aug. 2016 Production)</System>
+        <System code="SYS119">Charging (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS121">Charging (1HZ) (From Aug. 2016 Production)</System>
+        <System code="SYS123">Charging (1VD-FTV) (From Aug. 2016 Production)</System>
+        <System code="SYS087">Clock (From Aug. 2016 Production)</System>
+        <System code="SYS089">Combination Meter (From Aug. 2016 Production)</System>
+        <System code="SYS017">Cruise Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS009">EBD (From Aug. 2016 Production)</System>
+        <System code="SYS019">Emission Control (From Aug. 2016 Production)</System>
+        <System code="SYS021">Engine Control (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS023">Engine Control (LHD 1VD-FTV) (Middle East)</System>
+        <System code="SYS024">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS025">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Except Australia)</System>
+        <System code="SYS016">Front/Rear Differential Lock (From Aug. 2016 Production)</System>
+        <System code="SYS029">Fuel Tank Changeover (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS031">Fuel Tank Changeover (Diesel) (From Aug. 2016 Production)</System>
+        <System code="SYS033">Glow Plug (w/o Emission Control) (From Aug. 2016 Production)</System>
+        <System code="SYS010">Hill-Start Assist Control (From Aug. 2016 Production)</System>
+        <System code="SYS099">Illumination (From Aug. 2016 Production)</System>
+        <System code="SYS103">Interior Light (From Aug. 2016 Production)</System>
+        <System code="SYS105">Key Reminder (From Aug. 2016 Production)</System>
+        <System code="SYS057">Light Reminder (From Aug. 2016 Production)</System>
+        <System code="SYS111">Seat Belt Warning (From Aug. 2016 Production)</System>
+        <System code="SYS113">SRS (From Aug. 2016 Production)</System>
+        <System code="SYS132">Tire Pressure Warning System</System>
+        <System code="SYS011">TRC (From Aug. 2016 Production)</System>
+        <System code="SYS012">VSC (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE6">
+      <name>ECU-B</name>
+      <refs>
+        <System code="SYS006">ABS (w/ VSC) (From Aug. 2016 Production)</System>
+        <System code="SYS004">Auto Antenna (From Aug. 2016 Production)</System>
+        <System code="SYS008">Brake Assist (From Aug. 2016 Production)</System>
+        <System code="SYS087">Clock (From Aug. 2016 Production)</System>
+        <System code="SYS091">Door Lock Control (LHD w/ Wireless Door Lock Control) (From Aug. 2016 Production)</System>
+        <System code="SYS095">Door Lock Control (RHD w/ Wireless Door Lock Control) (From Aug. 2016 Production)</System>
+        <System code="SYS009">EBD (From Aug. 2016 Production)</System>
+        <System code="SYS019">Emission Control (From Aug. 2016 Production)</System>
+        <System code="SYS010">Hill-Start Assist Control (From Aug. 2016 Production)</System>
+        <System code="SYS101">Immobiliser System (From Aug. 2016 Production)</System>
+        <System code="SYS109">Rear Heater (From Aug. 2016 Production)</System>
+        <System code="SYS011">TRC (From Aug. 2016 Production)</System>
+        <System code="SYS012">VSC (From Aug. 2016 Production)</System>
+        <System code="SYS115">Wireless Door Lock Control (LHD) (From Aug. 2016 Production)</System>
+        <System code="SYS117">Wireless Door Lock Control (RHD) (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE7">
+      <name>EDU1</name>
+      <refs>
+        <System code="SYS017">Cruise Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS024">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE8">
+      <name>EDU2</name>
+      <refs>
+        <System code="SYS017">Cruise Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS024">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE9">
+      <name>EFI-NO.2</name>
+      <refs>
+        <System code="SYS021">Engine Control (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS029">Fuel Tank Changeover (1GR-FE) (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE10">
+      <name>H/LP HI LH</name>
+      <refs>
+        <System code="SYS051">Headlight (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE11">
+      <name>H/LP HI RH</name>
+      <refs>
+        <System code="SYS051">Headlight (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE12">
+      <name>H/LP LO LH</name>
+      <refs>
+        <System code="SYS051">Headlight (From Aug. 2016 Production)</System>
+        <System code="SYS053">Headlight Beam Level Control (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE13">
+      <name>H/LP LO RH</name>
+      <refs>
+        <System code="SYS051">Headlight (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE14">
+      <name>IGN</name>
+      <refs>
+        <System code="SYS017">Cruise Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS021">Engine Control (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS023">Engine Control (LHD 1VD-FTV) (Middle East)</System>
+        <System code="SYS024">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS025">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Except Australia)</System>
+        <System code="SYS029">Fuel Tank Changeover (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS031">Fuel Tank Changeover (Diesel) (From Aug. 2016 Production)</System>
+        <System code="SYS113">SRS (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE15">
+      <name>INJ</name>
+      <refs>
+        <System code="SYS021">Engine Control (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS029">Fuel Tank Changeover (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS035">Ignition (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE16">
+      <name>MET</name>
+      <refs>
+        <System code="SYS014">4WD (From Aug. 2016 Production)</System>
+        <System code="SYS006">ABS (w/ VSC) (From Aug. 2016 Production)</System>
+        <System code="SYS007">ABS (w/o VSC) (From Aug. 2016 Production)</System>
+        <System code="SYS008">Brake Assist (From Aug. 2016 Production)</System>
+        <System code="SYS119">Charging (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS121">Charging (1HZ) (From Aug. 2016 Production)</System>
+        <System code="SYS123">Charging (1VD-FTV) (From Aug. 2016 Production)</System>
+        <System code="SYS087">Clock (From Aug. 2016 Production)</System>
+        <System code="SYS089">Combination Meter (From Aug. 2016 Production)</System>
+        <System code="SYS017">Cruise Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS009">EBD (From Aug. 2016 Production)</System>
+        <System code="SYS019">Emission Control (From Aug. 2016 Production)</System>
+        <System code="SYS021">Engine Control (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS023">Engine Control (LHD 1VD-FTV) (Middle East)</System>
+        <System code="SYS024">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS025">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Except Australia)</System>
+        <System code="SYS016">Front/Rear Differential Lock (From Aug. 2016 Production)</System>
+        <System code="SYS029">Fuel Tank Changeover (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS031">Fuel Tank Changeover (Diesel) (From Aug. 2016 Production)</System>
+        <System code="SYS033">Glow Plug (w/o Emission Control) (From Aug. 2016 Production)</System>
+        <System code="SYS010">Hill-Start Assist Control (From Aug. 2016 Production)</System>
+        <System code="SYS099">Illumination (From Aug. 2016 Production)</System>
+        <System code="SYS103">Interior Light (From Aug. 2016 Production)</System>
+        <System code="SYS105">Key Reminder (From Aug. 2016 Production)</System>
+        <System code="SYS057">Light Reminder (From Aug. 2016 Production)</System>
+        <System code="SYS111">Seat Belt Warning (From Aug. 2016 Production)</System>
+        <System code="SYS113">SRS (From Aug. 2016 Production)</System>
+        <System code="SYS132">Tire Pressure Warning System</System>
+        <System code="SYS011">TRC (From Aug. 2016 Production)</System>
+        <System code="SYS012">VSC (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE17">
+      <name>PANEL</name>
+      <refs>
+        <System code="SYS099">Illumination (From Aug. 2016 Production)</System>
+        <System code="SYS057">Light Reminder (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE18">
+      <name>TAIL</name>
+      <refs>
+        <System code="SYS021">Engine Control (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS043">Front Fog Light (From Aug. 2016 Production)</System>
+        <System code="SYS029">Fuel Tank Changeover (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS061">Rear Fog Light (From Aug. 2016 Production)</System>
+        <System code="SYS071">Taillight (From Aug. 2016 Production)</System>
+        <System code="SYS073">Trailer Socket (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE19">
+      <name>CIG</name>
+      <refs>
+        <System code="SYS085">Cigarette Lighter (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE20">
+      <name>ECU IG</name>
+      <refs>
+        <System code="SYS014">4WD (From Aug. 2016 Production)</System>
+        <System code="SYS006">ABS (w/ VSC) (From Aug. 2016 Production)</System>
+        <System code="SYS007">ABS (w/o VSC) (From Aug. 2016 Production)</System>
+        <System code="SYS004">Auto Antenna (From Aug. 2016 Production)</System>
+        <System code="SYS008">Brake Assist (From Aug. 2016 Production)</System>
+        <System code="SYS119">Charging (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS121">Charging (1HZ) (From Aug. 2016 Production)</System>
+        <System code="SYS123">Charging (1VD-FTV) (From Aug. 2016 Production)</System>
+        <System code="SYS089">Combination Meter (From Aug. 2016 Production)</System>
+        <System code="SYS017">Cruise Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS091">Door Lock Control (LHD w/ Wireless Door Lock Control) (From Aug. 2016 Production)</System>
+        <System code="SYS095">Door Lock Control (RHD w/ Wireless Door Lock Control) (From Aug. 2016 Production)</System>
+        <System code="SYS009">EBD (From Aug. 2016 Production)</System>
+        <System code="SYS019">Emission Control (From Aug. 2016 Production)</System>
+        <System code="SYS023">Engine Control (LHD 1VD-FTV) (Middle East)</System>
+        <System code="SYS024">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS025">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Except Australia)</System>
+        <System code="SYS045">Front Wiper and Washer (LHD) (From Aug. 2016 Production)</System>
+        <System code="SYS047">Front Wiper and Washer (RHD 12V Battery Type) (From Aug. 2016 Production)</System>
+        <System code="SYS049">Front Wiper and Washer (RHD 24V Battery Type) (From Aug. 2016 Production)</System>
+        <System code="SYS016">Front/Rear Differential Lock (From Aug. 2016 Production)</System>
+        <System code="SYS033">Glow Plug (w/o Emission Control) (From Aug. 2016 Production)</System>
+        <System code="SYS010">Hill-Start Assist Control (From Aug. 2016 Production)</System>
+        <System code="SYS101">Immobiliser System (From Aug. 2016 Production)</System>
+        <System code="SYS132">Tire Pressure Warning System</System>
+        <System code="SYS011">TRC (From Aug. 2016 Production)</System>
+        <System code="SYS012">VSC (From Aug. 2016 Production)</System>
+        <System code="SYS115">Wireless Door Lock Control (LHD) (From Aug. 2016 Production)</System>
+        <System code="SYS117">Wireless Door Lock Control (RHD) (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE21">
+      <name>FR FOG</name>
+      <refs>
+        <System code="SYS043">Front Fog Light (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE22">
+      <name>FUEL HTR</name>
+      <refs>
+        <System code="SYS027">Fuel Heater (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE23">
+      <name>GAUGE</name>
+      <refs>
+        <System code="SYS081">Air Conditioner (1GR-FE, 1VD-FTV) (From Aug. 2016 Production)</System>
+        <System code="SYS083">Air Conditioner (1HZ) (From Aug. 2016 Production)</System>
+        <System code="SYS041">Back-Up Light (From Aug. 2016 Production)</System>
+        <System code="SYS087">Clock (From Aug. 2016 Production)</System>
+        <System code="SYS017">Cruise Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS023">Engine Control (LHD 1VD-FTV) (Middle East)</System>
+        <System code="SYS024">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS025">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Except Australia)</System>
+        <System code="SYS109">Rear Heater (From Aug. 2016 Production)</System>
+        <System code="SYS063">Rear Window Defogger (From Aug. 2016 Production)</System>
+        <System code="SYS073">Trailer Socket (From Aug. 2016 Production)</System>
+        <System code="SYS077">Turn Signal and Hazard Warning Light (24V Battery Type) (From Aug. 2016 Production)</System>
+        <System code="SYS079">Winch (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE24">
+      <name>RADIO</name>
+      <refs>
+        <System code="SYS002">Audio System (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE25">
+      <name>RR FOG</name>
+      <refs>
+        <System code="SYS061">Rear Fog Light (From Aug. 2016 Production)</System>
+        <System code="SYS073">Trailer Socket (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE26">
+      <name>STOP</name>
+      <refs>
+        <System code="SYS006">ABS (w/ VSC) (From Aug. 2016 Production)</System>
+        <System code="SYS007">ABS (w/o VSC) (From Aug. 2016 Production)</System>
+        <System code="SYS008">Brake Assist (From Aug. 2016 Production)</System>
+        <System code="SYS017">Cruise Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS009">EBD (From Aug. 2016 Production)</System>
+        <System code="SYS021">Engine Control (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS023">Engine Control (LHD 1VD-FTV) (Middle East)</System>
+        <System code="SYS024">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS025">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Except Australia)</System>
+        <System code="SYS029">Fuel Tank Changeover (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS010">Hill-Start Assist Control (From Aug. 2016 Production)</System>
+        <System code="SYS069">Stop Light (From Aug. 2016 Production)</System>
+        <System code="SYS011">TRC (From Aug. 2016 Production)</System>
+        <System code="SYS012">VSC (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE27">
+      <name>TRAILER STOP</name>
+      <refs>
+        <System code="SYS073">Trailer Socket (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="20" type="fuse" code="FUSE28">
+      <name>DEFOG</name>
+      <refs>
+        <System code="SYS021">Engine Control (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS029">Fuel Tank Changeover (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS063">Rear Window Defogger (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="20" type="fuse" code="FUSE29">
+      <name>WIP</name>
+      <refs>
+        <System code="SYS045">Front Wiper and Washer (LHD) (From Aug. 2016 Production)</System>
+        <System code="SYS047">Front Wiper and Washer (RHD 12V Battery Type) (From Aug. 2016 Production)</System>
+        <System code="SYS049">Front Wiper and Washer (RHD 24V Battery Type) (From Aug. 2016 Production)</System>
+        <System code="SYS065">Rear Wiper and Washer (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE30">
+      <name>DIFF</name>
+      <refs>
+        <System code="SYS016">Front/Rear Differential Lock (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE31">
+      <name>DOOR</name>
+      <refs>
+        <System code="SYS091">Door Lock Control (LHD w/ Wireless Door Lock Control) (From Aug. 2016 Production)</System>
+        <System code="SYS093">Door Lock Control (LHD w/o Wireless Door Lock Control) (From Aug. 2016 Production)</System>
+        <System code="SYS095">Door Lock Control (RHD w/ Wireless Door Lock Control) (From Aug. 2016 Production)</System>
+        <System code="SYS097">Door Lock Control (RHD w/o Wireless Door Lock Control) (From Aug. 2016 Production)</System>
+        <System code="SYS115">Wireless Door Lock Control (LHD) (From Aug. 2016 Production)</System>
+        <System code="SYS117">Wireless Door Lock Control (RHD) (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE32">
+      <name>POWER</name>
+      <refs>
+        <System code="SYS059">Power Window (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE33">
+      <name>STOP</name>
+      <refs>
+        <System code="SYS006">ABS (w/ VSC) (From Aug. 2016 Production)</System>
+        <System code="SYS007">ABS (w/o VSC) (From Aug. 2016 Production)</System>
+        <System code="SYS008">Brake Assist (From Aug. 2016 Production)</System>
+        <System code="SYS017">Cruise Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS009">EBD (From Aug. 2016 Production)</System>
+        <System code="SYS021">Engine Control (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS023">Engine Control (LHD 1VD-FTV) (Middle East)</System>
+        <System code="SYS024">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Australia)</System>
+        <System code="SYS025">Engine Control (RHD 1VD-FTV) (From Aug. 2016 Production Except Australia)</System>
+        <System code="SYS029">Fuel Tank Changeover (1GR-FE) (From Aug. 2016 Production)</System>
+        <System code="SYS010">Hill-Start Assist Control (From Aug. 2016 Production)</System>
+        <System code="SYS069">Stop Light (From Aug. 2016 Production)</System>
+        <System code="SYS073">Trailer Socket (From Aug. 2016 Production)</System>
+        <System code="SYS011">TRC (From Aug. 2016 Production)</System>
+        <System code="SYS012">VSC (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE34">
+      <name>TRAILER</name>
+      <refs>
+        <System code="SYS073">Trailer Socket (From Aug. 2016 Production)</System>
+      </refs>
+    </Fuse>
+  </Block>
+</LoadList>

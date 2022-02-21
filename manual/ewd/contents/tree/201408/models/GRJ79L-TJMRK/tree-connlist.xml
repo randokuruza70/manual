@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <book id="C-EG">
+    <name>Engine Compartment</name>
+    <book id="WIRE001" file="T">
+      <name>Engine Room Main Wire</name>
+    </book>
+    <book id="WIRE002" file="T">
+      <name>No. 2 Engine Room Wire</name>
+    </book>
+    <book id="WIRE003" file="T">
+      <name>Engine Wire</name>
+    </book>
+    <book id="WIRE004" file="T">
+      <name>No. 2 Engine Wire</name>
+    </book>
+    <book id="WIRE005" file="T">
+      <name>Battery to Battery Cable</name>
+    </book>
+    <book id="WIRE006" file="T">
+      <name>Battery to Ground Cable</name>
+    </book>
+    <book id="WIRE008" file="T">
+      <name>Cowl Wire</name>
+    </book>
+    <book id="WIRE009" file="T">
+      <name>No. 2 Cowl Wire</name>
+    </book>
+    <book id="WIRE010" file="T">
+      <name>No. 3 Cowl Wire</name>
+    </book>
+    <book id="WIRE011" file="T">
+      <name>Sensor Wire</name>
+    </book>
+    <book id="WIRE012" file="T">
+      <name>Battery to Magnet Switch Cable</name>
+    </book>
+    <book id="WIRE013" file="T">
+      <name>Magnet Switch to Winch Cable</name>
+    </book>
+    <book id="WIRE014" file="T">
+      <name>Fuel Pump Motor Wire</name>
+    </book>
+    <book id="WIRE015" file="T">
+      <name>Winch Control Wire</name>
+    </book>
+    <book id="WIRE016" file="T">
+      <name>Earth Wire</name>
+    </book>
+    <book id="WIRE017" file="T">
+      <name>Lead Injector Wire</name>
+    </book>
+    <book id="WIRE018" file="T">
+      <name>Connecting Wire</name>
+    </book>
+  </book>
+  <book id="C-INPA">
+    <name>Instrument Panel</name>
+    <book id="WIRE019" file="T">
+      <name>Engine Room Main Wire</name>
+    </book>
+    <book id="WIRE020" file="T">
+      <name>Cowl Wire</name>
+    </book>
+    <book id="WIRE021" file="T">
+      <name>Instrument Panel Wire</name>
+    </book>
+    <book id="WIRE022" file="T">
+      <name>No. 2 Instrument Panel Wire</name>
+    </book>
+    <book id="WIRE023" file="T">
+      <name>No. 3 Instrument Panel Wire</name>
+    </book>
+    <book id="WIRE024" file="T">
+      <name>Front Door Wire RH</name>
+    </book>
+    <book id="WIRE025" file="T">
+      <name>Front Door Wire LH</name>
+    </book>
+    <book id="WIRE026" file="T">
+      <name>Floor Wire</name>
+    </book>
+    <book id="WIRE027" file="T">
+      <name>No. 3 Floor Wire</name>
+    </book>
+    <book id="WIRE028" file="T">
+      <name>No. 1 Roof Wire</name>
+    </book>
+  </book>
+  <book id="C-BODY">
+    <name>Body</name>
+    <book id="WIRE030" file="T">
+      <name>Front Door Wire RH</name>
+    </book>
+    <book id="WIRE031" file="T">
+      <name>Front Door Wire LH</name>
+    </book>
+    <book id="WIRE032" file="T">
+      <name>No. 2 Rear Door Wire</name>
+    </book>
+    <book id="WIRE033" file="T">
+      <name>No. 1 Rear Door Wire</name>
+    </book>
+    <book id="WIRE034" file="T">
+      <name>Floor Wire</name>
+    </book>
+    <book id="WIRE035" file="T">
+      <name>No. 2 Floor Wire</name>
+    </book>
+    <book id="WIRE036" file="T">
+      <name>No. 3 Floor Wire</name>
+    </book>
+    <book id="WIRE037" file="T">
+      <name>Frame Wire</name>
+    </book>
+    <book id="WIRE038" file="T">
+      <name>No. 2 Frame Wire</name>
+    </book>
+    <book id="WIRE039" file="T">
+      <name>No. 3 Frame Wire</name>
+    </book>
+    <book id="WIRE040" file="T">
+      <name>No. 1 Roof Wire</name>
+    </book>
+    <book id="WIRE041" file="T">
+      <name>No. 1 Back Door Wire</name>
+    </book>
+    <book id="WIRE042" file="T">
+      <name>No. 2 Back Door Wire</name>
+    </book>
+    <book id="WIRE043" file="T">
+      <name>No. 1 Rear Window Wire</name>
+    </book>
+    <book id="WIRE044" file="T">
+      <name>No. 2 Rear Window Wire</name>
+    </book>
+    <book id="WIRE045" file="T">
+      <name>No. 3 Back Door Wire</name>
+    </book>
+    <book id="WIRE046" file="T">
+      <name>No. 4 Back Door Wire</name>
+    </book>
+    <book id="WIRE047" file="T">
+      <name>Switch Wire LH</name>
+    </book>
+    <book id="WIRE048" file="T">
+      <name>Switch Wire RH</name>
+    </book>
+  </book>
+</EwdTree>

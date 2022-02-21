@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'ArialMT';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'ArialMT';">
+	<!ENTITY st11 "font-size:9px;font-family:'Svg Symbol';">
+	<!ENTITY st12 "font-size:6px;font-family:'Svg Symbol';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'Arial';">
+	<!ENTITY st19 "font-size:9px;font-family:'Arial';">
+	<!ENTITY st20 "font-size:6px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 7245.579 710.000" viewBox="0 0 7245.579 710.000" height="710.000" width="7245.579" xml:space="preserve" ewd:ver="2.1.2.9" xmlns="&ns_svg;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:xlink="&ns_xlink;">
+<path style="stroke-width:1.42 ;&st7;  " d=" M  7240.79,   341.73  L  7232.29,   341.73  " /><text style="&st18;" transform="matrix(&st16;  7075.91  347.95 )" ewd:textID="40">Combination Meter Assembly</text><text style="&st18;" transform="matrix(&st17;  7239.93  254.51 )">(*13)</text><text style="&st18;" transform="matrix(&st17;  7228.6  253.42 )">B-Y</text><text style="&st18;" transform="matrix(&st17;  7228.6  385.83 )">R</text><text style="&st18;" transform="matrix(&st17;  7239.93  390.49 )">(*13)</text><text style="&st18;" transform="matrix(&st16;  7075.9  341.12 )">L25(A),L26(B)</text><text style="&st18;" transform="matrix(&st17;  7007.63  109.22 )">G-Y</text><text style="&st18;" transform="matrix(&st17;  7058.62  108.87 )">R-B</text><text style="&st18;" transform="matrix(&st17;  7109.62  108.75 )">R-L</text><text style="&st18;" transform="matrix(&st17;  7160.61  109.14 )">G-R</text><g ewd:figtype="w2w" ewd:figID="170" ewd:code="IL2"><path style="stroke-width:1.42 ;&st7;  " d=" M  7236.54,   350.79  L  7232.29,   346.54  L  7228.04,   350.79  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7236.54,   347.39  L  7232.29,   343.14  L  7228.04,   347.39  " /><text style="&st18;" transform="matrix(&st16;  7219.66  339.45 )">2</text></g><g ewd:figtype="annex" ewd:figID="45" ewd:code=" "><path style="stroke-width:1.42 ;&st7;  " d=" M  7113.31,    86.77  L  7108.25,    75.41  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7113.31,    86.77  L  7118.37,    75.41  " /><text style="&st18;" transform="matrix(&st17;  7112.46  67.01 )" ewd:textID="106">RR FOG <tspan x="0 " dy="6.0">Relay</tspan></text></g><g ewd:figtype="annex" ewd:figID="59" ewd:code=" "><path style="stroke-width:1.42 ;&st7;  " d=" M  7062.32,    86.77  L  7057.26,    75.41  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7062.32,    86.77  L  7067.38,    75.41  " /><text style="&st18;" transform="matrix(&st17;  7061.46  67.01 )" ewd:textID="51">FR FOG <tspan x="0 " dy="6.0">Relay</tspan></text></g><g ewd:figtype="annex" ewd:figID="62" ewd:code=" "><path style="stroke-width:1.42 ;&st7;  " d=" M  7164.30,    86.77  L  7159.24,    75.41  " /><path style="stroke-width:1.42 ;&st7;  " d=" M  7164.30,    86.77  L  7169.36,    75.41  " /><text style="&st18;" transform="matrix(&st17;  7160.62  67.02 )" ewd:textID="120">Transponder <tspan x="0 " dy="6.0">Key ECU </tspan><tspan x="0 " dy="6.0">Assembly</tspan></text></g></svg>

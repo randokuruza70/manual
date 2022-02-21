@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="WR025">
+    <part type="conn" code="C95">
+      <name>Back-Up Light Switch Assembly</name>
+    </part>
+    <part type="conn" code="C98">
+      <name>Center Differential Lock Indicator Switch (No. 1 Transfer Indicator Switch)</name>
+    </part>
+    <part type="conn" code="C91">
+      <name>Electric Vacuum Regulating Valve Assembly (EGR)</name>
+    </part>
+    <part type="conn" code="C86">
+      <name>Engine Coolant Temperature Sensor</name>
+    </part>
+    <part type="conn" code="C88">
+      <name>Engine Oil Pressure Switch Assembly</name>
+    </part>
+    <part type="conn" code="C97">
+      <name>Fuel Sender Gage Assembly (Front)</name>
+    </part>
+    <part type="conn" code="C90">
+      <name>Glow Plug Assembly</name>
+    </part>
+    <part type="conn" code="C84">
+      <name>Injection or Supply Pump Assembly</name>
+    </part>
+    <part type="conn" code="C83">
+      <name>Injection or Supply Pump Assembly</name>
+    </part>
+    <part type="conn" code="C87">
+      <name>Oil Pressure Sender Gage Assembly</name>
+    </part>
+    <part type="conn" code="C96">
+      <name>Speedometer Sensor</name>
+    </part>
+    <part type="conn" code="C89">
+      <name>Starter Assembly</name>
+    </part>
+    <part type="conn" code="C99">
+      <name>Transfer L4 Position Switch (No. 1 Transfer Indicator Switch)</name>
+    </part>
+    <part type="conn" code="C93">
+      <name>Vacuum Sensor</name>
+    </part>
+    <part type="conn" code="C94">
+      <name>Vacuum Switching Valve Assembly (BACS)</name>
+    </part>
+    <part type="conn" code="C92">
+      <name>Vacuum Switching Valve Assembly (EGR Cut)</name>
+    </part>
+    <part type="conn" code="C85">
+      <name>Water Temperature Sender Gage Assembly</name>
+    </part>
+  </ttl>
+</EWDSearch>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE compact-defs SYSTEM "../../../dtd/compact.dtd">
+<compact-defs pubno="EM25T2E" ver="2.1.2.9">
+    <part code="A16" figID="1" type="conn">
+        <path d="M 220.96, 265.74 L 237.96, 265.74 L 237.96, 315.93 L 220.96, 315.93 L 220.96, 265.74 "/>
+    </part>
+    <part code="2" figID="2" type="rb">
+        <path d="M 216.71, 27.71 L 261.01, 27.71 L 261.01, 103.77 L 216.71, 103.77 L 216.71, 27.71 "/>
+    </part>
+    <part code="A22" figID="3" type="conn">
+        <path d="M 220.96, 400.65 L 237.96, 400.65 L 237.96, 435.78 L 220.96, 435.78 L 220.96, 400.65 "/>
+    </part>
+    <part code="A23" figID="4" type="conn">
+        <path d="M 314.33, 400.65 L 331.44, 400.65 L 331.44, 435.78 L 314.33, 435.78 L 314.33, 400.65 "/>
+    </part>
+    <part code="AI3" figID="6" type="w2w">
+        <path d="M 213.98, 162.69 L 237.96, 162.69 L 237.96, 182.26 L 213.98, 182.26 L 213.98, 162.69 "/>
+    </part>
+    <part code="AA" figID="7" type="gp">
+        <path d="M 218.84, 679.67 L 240.08, 679.67 L 240.08, 710.00 L 218.84, 710.00 L 218.84, 679.67 "/>
+    </part>
+</compact-defs>

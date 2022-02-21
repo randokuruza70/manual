@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS016">
+    <part type="conn" code="A20">
+      <text>EXI3 SP1</text>
+      <name>Brake Actuator Assembly</name>
+    </part>
+    <part type="conn" code="A42">
+      <text>FSW+ SP1 EXI3</text>
+      <name>Brake Actuator Assembly</name>
+    </part>
+    <part type="conn" code="C35,C98">
+      <text>B GND</text>
+      <name>Center Differential Lock Indicator Switch (No. 1 Transfer Indicator Switch)</name>
+    </part>
+    <part type="conn" code="L4">
+      <text>IG RF R</text>
+      <name>Center Differential Lock Switch</name>
+    </part>
+    <part type="conn" code="L25">
+      <text>ES B RRSW FRSW CPU +S IG+ SI (*13)</text>
+      <name>Combination Meter Assembly</name>
+      <name type="inner">Rear Diff. Lock</name>
+      <name type="inner">Front Diff. Lock</name>
+    </part>
+    <part type="conn" code="V2">
+      <text>RLY1 RLY2 M1 M2 GND M</text>
+      <name>Differential Lock Shift Actuator</name>
+    </part>
+    <part type="conn" code="B2">
+      <name>Front Differential Lock Position Switch</name>
+    </part>
+    <part type="conn" code="A22">
+      <name>No. 1 Junction Connector</name>
+    </part>
+    <part type="conn" code="I61,I67">
+      <name>No. 11 Junction Connector , No. 16 Junction Connector</name>
+    </part>
+    <part type="conn" code="I61,I70">
+      <name>No. 11 Junction Connector , No. 19 Junction Connector</name>
+    </part>
+    <part type="conn" code="I66,I67">
+      <name>No. 15 Junction Connector , No. 16 Junction Connector</name>
+    </part>
+    <part type="conn" code="B1,B5">
+      <text>RLY3 RLY4 M3 M4 GND M</text>
+      <name>No. 2 Differential Lock Shift Actuator</name>
+    </part>
+    <part type="conn" code="I8">
+      <text>SPD 4WD GND M4 IG M3 RLY4 RLY3 M2 M1 RLY2 RLY1 RLP FLP RF R</text>
+      <name>No. 2 Four Wheel Drive Control ECU</name>
+    </part>
+    <part type="conn" code="A23">
+      <name>No. 2 Junction Connector</name>
+    </part>
+    <part type="conn" code="L32,L34">
+      <name>No. 24 Junction Connector , No. 26 Junction Connector</name>
+    </part>
+    <part type="conn" code="L36,L51">
+      <name>No. 28 Junction Connector , No. 25 Junction Connector</name>
+    </part>
+    <part type="conn" code="I110">
+      <name>No. 33 Junction Connector</name>
+    </part>
+    <part type="conn" code="I93">
+      <name>No. 5 Junction Connector</name>
+    </part>
+    <part type="conn" code="I72,I104,I118">
+      <name>No. 6 Junction Connector , No. 36 Junction Connector , No. 21 Junction Connector</name>
+    </part>
+    <part type="conn" code="I105">
+      <name>No. 8 Junction Connector</name>
+    </part>
+    <part type="conn" code="I72,I106,I118">
+      <name>No. 9 Junction Connector , No. 36 Junction Connector , No. 21 Junction Connector</name>
+    </part>
+    <part type="conn" code="V1">
+      <name>Rear Differential Lock Position Switch</name>
+    </part>
+    <part type="conn" code="C96">
+      <text>SE IG+ SI</text>
+      <name>Speedometer Sensor</name>
+    </part>
+    <part type="fuse" code="FUSE30">
+      <text>DIFF</text>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>DOME NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE20">
+      <text>ECU IG</text>
+    </part>
+    <part type="fuse" code="FUSE16">
+      <text>MET</text>
+    </part>
+  </ttl>
+</EWDSearch>

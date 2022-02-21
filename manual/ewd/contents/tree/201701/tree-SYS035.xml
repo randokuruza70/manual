@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <text ewd="SYS035" code="C39" type="conn" figID="10">
+    <name>ECM</name>
+  </text>
+  <text ewd="SYS035" code="C5" type="conn" figID="2">
+    <name>Ignition Coil Assembly No. 1</name>
+  </text>
+  <text ewd="SYS035" code="C14" type="conn" figID="3">
+    <name>Ignition Coil Assembly No. 2</name>
+  </text>
+  <text ewd="SYS035" code="C6" type="conn" figID="5">
+    <name>Ignition Coil Assembly No. 3</name>
+  </text>
+  <text ewd="SYS035" code="C13" type="conn" figID="7">
+    <name>Ignition Coil Assembly No. 4</name>
+  </text>
+  <text ewd="SYS035" code="C7" type="conn" figID="8">
+    <name>Ignition Coil Assembly No. 5</name>
+  </text>
+  <text ewd="SYS035" code="C12" type="conn" figID="9">
+    <name>Ignition Coil Assembly No. 6</name>
+  </text>
+  <text ewd="SYS035" code="I94" type="conn" figID="1">
+    <name>No. 7 Junction Connector</name>
+  </text>
+  <text ewd="SYS035" code="C10" type="conn" figID="6">
+    <name>Radio Setting Condenser (Ignition)</name>
+  </text>
+  <text ewd="SYS035" code="FUSE15" type="fuse" figID="35">
+    <name>10A INJ</name>
+  </text>
+  <text ewd="SYS035" code="CA" type="gp" figID="15">
+    <name />
+  </text>
+  <text ewd="SYS035" code="CB" type="gp" figID="16">
+    <name />
+  </text>
+  <text ewd="SYS035" code="FUSE15" type="rb" figID="4">
+    <name>10A INJ</name>
+  </text>
+  <text ewd="SYS035" code="SP13" type="sp" figID="18">
+    <name />
+  </text>
+  <text ewd="SYS035" code="SP21" type="sp" figID="22,25,28,31,34">
+    <name />
+  </text>
+  <text ewd="SYS035" code="SP24" type="sp" figID="17">
+    <name />
+  </text>
+  <text ewd="SYS035" code="SP29" type="sp" figID="19,23,26,29,32">
+    <name />
+  </text>
+  <text ewd="SYS035" code="SP30" type="sp" figID="20,21,24,27,30,33">
+    <name />
+  </text>
+  <text ewd="SYS035" code="IC2" type="w2w" figID="14">
+    <name>Cowl Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS035" code="AI2" type="w2w" figID="12">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS035" code="AC5" type="w2w" figID="13">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+</EwdTree>

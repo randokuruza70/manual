@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <note ewd="WIRE031" code="P7" type="conn">
+    <name>Door Control Relay Assembly</name>
+  </note>
+  <note ewd="WIRE031" code="P6" type="conn">
+    <name>Door Control Switch</name>
+  </note>
+  <note ewd="WIRE031" code="P3" type="conn">
+    <name>Front Door Lock Actuator Assembly LH</name>
+  </note>
+  <note ewd="WIRE031" code="P4" type="conn">
+    <name>Front Door Lock Actuator Assembly LH</name>
+  </note>
+  <note ewd="WIRE031" code="P5" type="conn">
+    <name>Front Door Lock Actuator Assembly LH</name>
+  </note>
+  <note ewd="WIRE031" code="P8" type="conn">
+    <name>Front Door Lock Actuator Assembly LH</name>
+  </note>
+  <note ewd="WIRE031" code="P2" type="conn">
+    <name>Front Power Window Regulator Motor Assembly LH</name>
+  </note>
+  <note ewd="WIRE031" code="P11" type="conn">
+    <name>Front Power Window Regulator Switch Assembly LH</name>
+  </note>
+  <note ewd="WIRE031" code="P12" type="conn">
+    <name>Front Power Window Regulator Switch Assembly LH</name>
+  </note>
+  <note ewd="WIRE031" code="P9" type="conn">
+    <name>Power Window Regulator Master Switch Assembly</name>
+  </note>
+  <note ewd="WIRE031" code="P10" type="conn">
+    <name>Power Window Regulator Master Switch Assembly</name>
+  </note>
+  <note ewd="WIRE031" code="Pi1" type="w2w">
+    <name>Front Door Wire LH and Switch Wire LH</name>
+  </note>
+</EwdTree>

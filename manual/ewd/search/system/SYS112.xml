@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS112">
+    <part type="conn" code="I51">
+      <text>IG2 D- +SL +SR -SL -SR GSW2 E2 E1 TC SIL LA P+ D+ P-</text>
+      <name>Airbag Sensor Assembly</name>
+    </part>
+    <part type="conn" code="L25,L26">
+      <text>B A/B SRS IG2 ES</text>
+      <name>Combination Meter Assembly</name>
+      <name type="inner">Meter Micro Computer</name>
+    </part>
+    <part type="conn" code="I17">
+      <text>DLC3 TC SIL</text>
+    </part>
+    <part type="conn" code="A29,I84">
+      <text>ECM F/PS</text>
+    </part>
+    <part type="conn" code="A13">
+      <text>+SL -SL</text>
+      <name>Front Airbag Sensor LH</name>
+    </part>
+    <part type="conn" code="I52">
+      <text>+SR -SR</text>
+      <name>Front Airbag Sensor RH</name>
+    </part>
+    <part type="conn" code="N1">
+      <text>P- P+</text>
+      <name>Front Passenger Side Squib Circuit (Instrument Panel Passenger Airbag Assembly)</name>
+    </part>
+    <part type="conn" code="I59,I69">
+      <name>No. 10 Junction Connector , No. 18 Junction Connector</name>
+    </part>
+    <part type="conn" code="I61,I72">
+      <name>No. 11 Junction Connector , No. 21 Junction Connector</name>
+    </part>
+    <part type="conn" code="I68,I75">
+      <name>No. 17 Junction Connector</name>
+    </part>
+    <part type="conn" code="I58,I72">
+      <name>No. 9 Junction Connector , No. 21 Junction Connector</name>
+    </part>
+    <part type="conn" code="z2">
+      <name>Spiral Cable Sub-Assembly , Driver Side Squib Circuit</name>
+    </part>
+    <part type="conn" code="L29,z2">
+      <text>D- D+</text>
+      <name>Spiral Cable Sub-Assembly , Driver Side Squib Circuit</name>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>DOME NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE14">
+      <text>IGN</text>
+    </part>
+    <part type="fuse" code="FUSE16">
+      <text>MET</text>
+    </part>
+  </ttl>
+</EWDSearch>

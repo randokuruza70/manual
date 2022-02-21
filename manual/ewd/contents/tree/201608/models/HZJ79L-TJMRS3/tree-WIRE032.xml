@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <note ewd="WIRE032" code="Q2" type="conn">
+    <name>Rear Door Lock Actuator Assembly LH</name>
+  </note>
+  <note ewd="WIRE032" code="Q3" type="conn">
+    <name>Rear Power Window Regulator Motor Assembly LH</name>
+  </note>
+  <note ewd="WIRE032" code="Q1" type="conn">
+    <name>Rear Power Window Regulator Switch Assembly LH</name>
+  </note>
+  <note ewd="WIRE032" code="QU1" type="w2w">
+    <name>No. 2 Rear Door Wire and No. 3 Floor Wire</name>
+  </note>
+</EwdTree>

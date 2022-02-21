@@ -1,0 +1,119 @@
+﻿<?xml version="1.0"?>
+<!-- Generator: Adobe Illustrator 10.0, SVG Export Plug-In . SVG Version: 3.0.0 Build 77)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st1 "fill:none;stroke:#000000;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st2 "font-size:6px;">
+	<!ENTITY st3 "font-family:'Arial';">
+	<!ATTLIST svg
+		ewd:ver CDATA #IMPLIED
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/">
+	<!ATTLIST g
+		ewd:pinNo CDATA #IMPLIED>
+]>
+<svg width="63.323" height="61.907" viewBox="0 0 63.323 61.907" style="overflow:visible;enable-background:new 0 0 63.323 61.907" xml:space="preserve" onload="call_execInitLoadProc_svg('connector')" ewd:ver="2.1.2.9" xmlns="&ns_svg;" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:xlink="&ns_xlink;">
+<script type="text/javascript" xlink:href="../../../../../system/js/ewd/fig/svgfig.js"/>
+<g id="レイヤー_1">
+	<path style="&st0;" d="M7.299,2.483c0-1.095-0.888-1.983-1.983-1.983"/>
+	<path style="&st0;" d="M2.483,0.5C1.388,0.5,0.5,1.388,0.5,2.483"/>
+	<path style="&st0;" d="M58.007,0.5c-1.095,0-1.983,0.888-1.983,1.983"/>
+	<path style="&st0;" d="M62.823,2.483c0-1.095-0.888-1.983-1.983-1.983"/>
+	<path style="&st0;" d="M0.5,54.03c0,2.693,1.807,4.946,4.436,5.531"/>
+	<path style="&st0;" d="M58.387,59.56c2.628-0.584,4.435-2.837,4.435-5.53"/>
+	<path style="&st1;" d="M6.166,27.413v22.663h50.992V27.413H6.166"/>
+	<path style="&st1;" d="M6.166,38.744h50.992"/>
+	<path style="&st1;" d="M23.163,50.075V27.413"/>
+	<path style="&st1;" d="M31.662,50.075V27.413"/>
+	<path style="&st1;" d="M40.16,50.075V27.413"/>
+	<path style="&st1;" d="M2.766,24.58V0.5"/>
+	<path style="&st0;" d="M0.5,54.03V2.483"/>
+	<path style="&st0;" d="M2.483,0.5h2.833"/>
+	<path style="&st1;" d="M7.299,24.58h3.116"/>
+	<path style="&st1;" d="M2.766,3.333h2.266V24.58"/>
+	<path style="&st1;" d="M10.415,7.583h21.247"/>
+	<path style="&st1;" d="M10.415,13.814h21.247"/>
+	<path style="&st1;" d="M25.996,13.814V9.565h5.666"/>
+	<path style="&st1;" d="M21.747,11.832h4.249"/>
+	<path style="&st1;" d="M60.557,24.58V0.5"/>
+	<path style="&st0;" d="M62.823,54.03V2.483"/>
+	<path style="&st0;" d="M60.84,0.5h-2.833"/>
+	<path style="&st1;" d="M56.024,24.58h-3.116"/>
+	<path style="&st1;" d="M60.557,3.333H58.29V24.58"/>
+	<path style="&st1;" d="M52.908,7.583H31.662"/>
+	<path style="&st1;" d="M52.908,13.814H31.662"/>
+	<path style="&st1;" d="M37.327,13.814V9.565h-5.666"/>
+	<path style="&st1;" d="M41.577,11.832h-4.25"/>
+	<path style="&st0;" d="M4.937,59.56l8.312,1.847"/>
+	<path style="&st1;" d="M4.749,52.908v4.249h53.825v-4.249"/>
+	<path style="&st0;" d="M50.075,61.407l8.312-1.847"/>
+	<path style="&st0;" d="M13.248,61.407h36.827"/>
+	<path style="&st1;" d="M59.99,52.908h2.833"/>
+	<path style="&st1;" d="M0.5,52.908h2.833"/>
+	<path style="&st1;" d="M6.166,51.492h50.992"/>
+	<path style="&st1;" d="M3.333,52.908H59.99"/>
+	<path style="&st1;" d="M6.166,51.492l-4.25-4.25"/>
+	<path style="&st1;" d="M0.5,47.242h1.416"/>
+	<path style="&st1;" d="M1.916,47.242V24.58"/>
+	<path style="&st1;" d="M6.166,52.908v-1.417"/>
+	<path style="&st1;" d="M62.823,47.242h-1.417"/>
+	<path style="&st1;" d="M57.157,51.492l4.249-4.25"/>
+	<path style="&st1;" d="M61.406,47.242V24.58"/>
+	<path style="&st1;" d="M57.157,52.908v-1.417"/>
+	<path style="&st1;" d="M48.659,50.075V27.413"/>
+	<path style="&st1;" d="M14.664,50.075V27.413"/>
+	<path style="&st1;" d="M0.5,24.58h6.799"/>
+	<path style="&st1;" d="M56.024,24.58h6.799"/>
+	<path style="&st0;" d="M7.299,13.814h3.116"/>
+	<path style="&st0;" d="M7.299,2.483v11.332"/>
+	<path style="&st1;" d="M7.299,13.814V24.58"/>
+	<path style="&st1;" d="M10.415,24.58V13.814"/>
+	<path style="&st0;" d="M10.415,13.814V5.6l7.082-1.983h14.165"/>
+	<path style="&st0;" d="M52.908,13.814h3.116"/>
+	<path style="&st1;" d="M52.908,24.58V13.814"/>
+	<path style="&st0;" d="M52.908,13.814V5.6l-7.082-1.983H31.662"/>
+	<path style="&st0;" d="M56.024,2.483v11.332"/>
+	<path style="&st1;" d="M56.024,13.814V24.58"/>
+	<path style="&st1;" d="M13.248,13.814v-2.833h8.499v2.833"/>
+	<path style="&st1;" d="M50.075,13.814v-2.833h-8.499v2.833"/>
+	<g ewd:pinNo="12">
+		<text transform="matrix(1 0 0 1 49.3003 46.5459)"><tspan x="0" y="0" style="&st3; &st2;">12</tspan></text>
+	</g>
+	<g ewd:pinNo="10">
+		<text transform="matrix(1 0 0 1 32.3027 46.5459)"><tspan x="0" y="0" style="&st3; &st2;">10</tspan></text>
+	</g>
+	<g ewd:pinNo="9">
+		<text transform="matrix(1 0 0 1 25.7759 46.5459)"><tspan x="0" y="0" style="&st3; &st2;">9</tspan></text>
+	</g>
+	<g ewd:pinNo="7">
+		<text transform="matrix(1 0 0 1 8.7788 46.5459)"><tspan x="0" y="0" style="&st3; &st2;">7</tspan></text>
+	</g>
+	<g ewd:pinNo="6">
+		<text transform="matrix(1 0 0 1 51.272 35.2144)"><tspan x="0" y="0" style="&st3; &st2;">6</tspan></text>
+	</g>
+	<g ewd:pinNo="4">
+		<text transform="matrix(1 0 0 1 34.2749 35.2144)"><tspan x="0" y="0" style="&st3; &st2;">4</tspan></text>
+	</g>
+	<g ewd:pinNo="1">
+		<text transform="matrix(1 0 0 1 8.7788 35.2144)"><tspan x="0" y="0" style="&st3; &st2;">1</tspan></text>
+	</g>
+	<g ewd:pinNo="3">
+		<text transform="matrix(1 0 0 1 25.7759 35.2144)"><tspan x="0" y="0" style="&st3; &st2;">3</tspan></text>
+	</g>
+	<g ewd:pinNo="5">
+		<text transform="matrix(1 0 0 1 42.7734 35.2144)"><tspan x="0" y="0" style="&st3; &st2;">5</tspan></text>
+	</g>
+	<g ewd:pinNo="11">
+		<text transform="matrix(1 0 0 1 41.0239 46.5459)"><tspan x="0" y="0" style="&st3; &st2;">11</tspan></text>
+	</g>
+	<g ewd:pinNo="2">
+		<text transform="matrix(1 0 0 1 17.2778 35.2144)"><tspan x="0" y="0" style="&st3; &st2;">2</tspan></text>
+	</g>
+	<g ewd:pinNo="8">
+		<text transform="matrix(1 0 0 1 17.2778 46.5459)"><tspan x="0" y="0" style="&st3; &st2;">8</tspan></text>
+	</g>
+</g>
+</svg>

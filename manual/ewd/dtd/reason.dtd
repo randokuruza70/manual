@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- #  DTD VERSION 1.7  UPDATE Dec. 04, 2014    -->
+<!ELEMENT tmc-service-reason (pub)>
+<!ELEMENT pub (release+)>
+<!ATTLIST pub
+	id ID #REQUIRED
+>
+<!ELEMENT release (term | correction+)>
+<!ATTLIST release
+	send-date CDATA #REQUIRED
+>
+<!ELEMENT term (#PCDATA)>
+<!ATTLIST term
+	alt-pub-id CDATA #REQUIRED
+	date CDATA #REQUIRED
+	term-id-from CDATA #REQUIRED
+>
+<!ELEMENT correction (#PCDATA)>
+<!ATTLIST correction
+	para-id CDATA #REQUIRED
+	id ID #REQUIRED
+	type CDATA #REQUIRED
+	sicr CDATA #REQUIRED
+>

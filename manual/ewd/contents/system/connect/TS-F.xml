@@ -1,0 +1,1849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <connector type="sp" code="SP7" figID="123">
+    <pin>
+      <line id="1" color="L" spec="LHD 1VD-FTV" commtxt="(*25)">
+        <connector type="w2w" code="CA4" sex="male" figID="50">
+          <pin no="10"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP7" figID="123">
+    <pin>
+      <line id="2" color="L" spec="LHD 1VD-FTV" commtxt="(*25)">
+        <connector type="w2w" code="AI3" sex="female" figID="51">
+          <pin no="42"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="CA4" sex="female" figID="50">
+    <pin no="10">
+      <line id="3" color="L" spec="1VD-FTV" commtxt="(*10)">
+        <connector type="conn" code="C32" figID="14">
+          <pin no="2" spec="1GR-FE, 1VD-FTV"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="female" figID="51">
+    <pin no="42">
+      <line id="4" color="L" spec="RHD 1VD-FTV" commtxt="(*26)">
+        <connector type="w2w" code="CA4" sex="male" figID="50">
+          <pin no="10"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="51">
+    <pin no="42">
+      <line id="5" color="L" spec="RHD 1VD-FTV" commtxt="(*26)">
+        <connector type="conn" code="I107" figID="6">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I105" figID="13">
+    <pin no="11" spec="24V Battery Type">
+      <line id="6" color="L" spec="RHD" commtxt="(RHD)">
+        <connector type="conn" code="I107" figID="6">
+          <pin no="5"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I105" figID="13">
+    <pin no="8" spec="12V Battery Type">
+      <line id="6" color="L" spec="RHD" commtxt="(RHD)">
+        <connector type="conn" code="I107" figID="6">
+          <pin no="5"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP69" figID="124">
+    <pin>
+      <line id="7" color="L" spec="LHD 1VD-FTV" commtxt="(*25)">
+        <connector type="w2w" code="AI3" sex="male" figID="51">
+          <pin no="42"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="C32" figID="14">
+    <pin no="2" spec="1GR-FE, 1VD-FTV">
+      <line id="8" color="L" spec="RHD 1GR-FE, 1HZ" commtxt="(*6)">
+        <connector type="w2w" code="AC7" sex="male" figID="54">
+          <pin no="5" spec="RHD 1GR-FE"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="C95" figID="14">
+    <pin no="2" spec="1HZ">
+      <line id="8" color="L" spec="RHD 1GR-FE, 1HZ" commtxt="(*6)">
+        <connector type="w2w" code="AC3" sex="male" figID="53">
+          <pin no="2" spec="1HZ"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IC1" sex="male" figID="52">
+    <pin no="8">
+      <line id="9" color="L" spec="LHD 1GR-FE" commtxt="(*4)">
+        <connector type="conn" code="C32" figID="14">
+          <pin no="2" spec="1GR-FE, 1VD-FTV"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP69" figID="124">
+    <pin>
+      <line id="10" color="L" spec="LHD 1GR-FE" commtxt="(*4)">
+        <connector type="w2w" code="IC1" sex="female" figID="52">
+          <pin no="8"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE23" figID="11">
+    <pin>
+      <line id="11" color="L" spec="RHD" commtxt="(RHD)">
+        <connector type="conn" code="I105" figID="13">
+          <pin no="1" spec="12V Battery Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE23" figID="11">
+    <pin>
+      <line id="11" color="L" spec="RHD" commtxt="(RHD)">
+        <connector type="conn" code="I105" figID="13">
+          <pin no="9" spec="24V Battery Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE23" figID="11">
+    <pin>
+      <line id="12" color="L" spec="LHD" commtxt="(LHD)">
+        <connector type="sp" code="SP69" figID="124">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP69" figID="124">
+    <pin>
+      <line id="13" color="L" spec="LHD 1HZ" commtxt="(*7)">
+        <connector type="w2w" code="AI3" sex="male" figID="55">
+          <pin no="5"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP7" figID="125">
+    <pin>
+      <line id="14" color="L" spec="RHD 1GR-FE, 1HZ 12V Battery Type w/o Emission Control" commtxt="(*13)">
+        <connector type="w2w" code="AC3" sex="female" figID="53">
+          <pin no="2" spec="1HZ"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP7" figID="125">
+    <pin>
+      <line id="14" color="L" spec="RHD 1GR-FE, 1HZ 12V Battery Type w/o Emission Control" commtxt="(*13)">
+        <connector type="w2w" code="AC7" sex="female" figID="54">
+          <pin no="5" spec="RHD 1GR-FE"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="female" figID="55">
+    <pin no="5">
+      <line id="15" color="L" spec="1HZ 12V Battery Type w/ Emission Control, 1HZ 24V Battery Type" commtxt="(*14)">
+        <connector type="w2w" code="AC3" sex="female" figID="53">
+          <pin no="2" spec="1HZ"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="female" figID="55">
+    <pin no="5">
+      <line id="16" color="L" spec="RHD 1GR-FE, 1HZ 12V Battery Type w/o Emission Control" commtxt="(*13)">
+        <connector type="sp" code="SP7" figID="125">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="55">
+    <pin no="5">
+      <line id="17" color="L" spec="RHD 1GR-FE, RHD 1HZ" commtxt="(*11)">
+        <connector type="conn" code="I107" figID="6">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP41" figID="126">
+    <pin>
+      <line id="18" color="R-B" spec="1VD-FTV" commtxt="(*10)">
+        <connector type="conn" code="C32" figID="14">
+          <pin no="1" spec="1GR-FE, 1VD-FTV"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IC1" sex="male" figID="56">
+    <pin no="7">
+      <line id="19" color="R-B" spec="LHD 1GR-FE" commtxt="(*4)">
+        <connector type="conn" code="C32" figID="14">
+          <pin no="1" spec="1GR-FE, 1VD-FTV"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP109" figID="127">
+    <pin>
+      <line id="20" color="R-B" spec="Pick-Up Body Type" commtxt="(*1)">
+        <connector type="conn" code="T10" figID="5">
+          <pin no="8"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="ST2" sex="male" figID="57">
+    <pin no="11">
+      <line id="21" color="R-B" spec="Pick-Up Body Type" commtxt="(*1)">
+        <connector type="sp" code="SP109" figID="127">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IS3" sex="male" figID="58">
+    <pin no="1">
+      <line id="22" color="R-B" spec="Pick-Up Body Type" commtxt="(*1)">
+        <connector type="w2w" code="ST2" sex="female" figID="57">
+          <pin no="11"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IS3" sex="male" figID="58">
+    <pin no="1">
+      <line id="23" color="R-B" spec="Except Pick-Up Body Type" commtxt="(*2)">
+        <connector type="w2w" code="TS2" sex="male" figID="60">
+          <pin no="9"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IS3" sex="female" figID="58">
+    <pin no="1">
+      <line id="24" color="R-B" spec="LHD" commtxt="(LHD)">
+        <connector type="conn" code="I97" figID="32">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IS3" sex="female" figID="58">
+    <pin no="1">
+      <line id="25" color="R-B" spec="RHD 12V Battery Type" commtxt="(RHD *8)">
+        <connector type="conn" code="I108" figID="35">
+          <pin no="8"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I97" figID="32">
+    <pin no="2">
+      <line id="26" color="R-B" spec="LHD 1GR-FE" commtxt="(*4)">
+        <connector type="w2w" code="IC1" sex="female" figID="56">
+          <pin no="7"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I97" figID="32">
+    <pin no="2">
+      <line id="27" color="R-B" spec="LHD 1HZ,LHD 1VD-FTV" commtxt="(*7,*25)">
+        <connector type="w2w" code="AI7" sex="male" figID="59">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI7" sex="female" figID="59">
+    <pin no="2">
+      <line id="28" color="R-B" spec="LHD 1HZ" commtxt="(*7)">
+        <connector type="w2w" code="AC3" sex="female" figID="63">
+          <pin no="1" spec="12V Battery Type 1HZ"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP109" figID="128">
+    <pin>
+      <line id="29" color="R-B" spec="Except Pick-Up Body Type" commtxt="(*2)">
+        <connector type="conn" code="T10" figID="5">
+          <pin no="8"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="TS2" sex="female" figID="60">
+    <pin no="9">
+      <line id="30" color="R-B" spec="Except Pick-Up Body Type" commtxt="(*2)">
+        <connector type="sp" code="SP109" figID="128">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI2" sex="male" figID="61">
+    <pin no="12" spec="1VD-FTV">
+      <line id="31" color="R-B" spec="RHD 12V Battery Type" commtxt="(RHD *8)">
+        <connector type="conn" code="I108" figID="35">
+          <pin no="7"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI2" sex="male" figID="62">
+    <pin no="2" spec="RHD 1GR-FE,RHD 12V Battery Type 1HZ">
+      <line id="31" color="R-B" spec="RHD 12V Battery Type" commtxt="(RHD *8)">
+        <connector type="conn" code="I108" figID="35">
+          <pin no="7"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI2" sex="female" figID="62">
+    <pin no="2" spec="RHD 1GR-FE,RHD 12V Battery Type 1HZ">
+      <line id="32" color="R-B" spec="RHD 1GR-FE,RHD 12V Battery Type 1HZ" commtxt="(*5,RHD *8 *15)">
+        <connector type="w2w" code="AC3" sex="female" figID="63">
+          <pin no="1" spec="12V Battery Type 1HZ"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI2" sex="female" figID="62">
+    <pin no="2" spec="RHD 1GR-FE,RHD 12V Battery Type 1HZ">
+      <line id="32" color="R-B" spec="RHD 1GR-FE,RHD 12V Battery Type 1HZ" commtxt="(*5,RHD *8 *15)">
+        <connector type="w2w" code="AC8" sex="female" figID="64">
+          <pin no="7" spec="RHD 1GR-FE"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI2" sex="female" figID="61">
+    <pin no="12" spec="1VD-FTV">
+      <line id="33" color="R-B" spec="1VD-FTV" commtxt="(*10)">
+        <connector type="w2w" code="CA4" sex="male" figID="65">
+          <pin no="16"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AC3" sex="male" figID="63">
+    <pin no="1" spec="12V Battery Type 1HZ">
+      <line id="34" color="R-B" spec="RHD 1GR-FE,12V Battery Type 1HZ" commtxt="(*5,*8 *15)">
+        <connector type="conn" code="C95" figID="14">
+          <pin no="1" spec="1HZ"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AC8" sex="male" figID="64">
+    <pin no="7" spec="RHD 1GR-FE">
+      <line id="34" color="R-B" spec="RHD 1GR-FE,12V Battery Type 1HZ" commtxt="(*5,*8 *15)">
+        <connector type="conn" code="C32" figID="14">
+          <pin no="1" spec="1GR-FE, 1VD-FTV"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="CA4" sex="male" figID="65">
+    <pin no="16">
+      <line id="35" color="R-B" spec="LHD 1VD-FTV" commtxt="(*25)">
+        <connector type="w2w" code="AI7" sex="female" figID="59">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="CA4" sex="female" figID="65">
+    <pin no="16">
+      <line id="36" color="R-B" spec="1VD-FTV" commtxt="(*10)">
+        <connector type="sp" code="SP41" figID="126">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP71" figID="129">
+    <pin>
+      <line id="37" color="W-L">
+        <connector type="rb" code="2" figID="10">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP71" figID="129">
+    <pin>
+      <line id="38" color="W-L">
+        <connector type="w2w" code="AI1" sex="male" figID="66">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE57" figID="8">
+    <pin>
+      <line id="39" color="W-L">
+        <connector type="w2w" code="AI1" sex="female" figID="66">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP71" figID="129">
+    <pin>
+      <line id="40" color="W-L">
+        <connector type="rb" code="2" figID="10">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="2" figID="10">
+    <pin>
+      <line id="41" color="G">
+        <connector type="rb" code="FUSE18" figID="9">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="ST2" sex="male" figID="67">
+    <pin no="4">
+      <line id="42" color="G" spec="Pick-Up Body Type" commtxt="(*1)">
+        <connector type="sp" code="SP110" figID="131">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="ST2" sex="female" figID="67">
+    <pin no="4">
+      <line id="43" color="G" spec="Pick-Up Body Type" commtxt="(*1)">
+        <connector type="w2w" code="IS3" sex="male" figID="68">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IS3" sex="female" figID="68">
+    <pin no="3">
+      <line id="44" color="G-R" spec="RHD" commtxt="(RHD)">
+        <connector type="conn" code="I104" figID="15">
+          <pin no="7"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP45" figID="130">
+    <pin>
+      <line id="45" color="G-R" spec="LHD" commtxt="(LHD)">
+        <connector type="w2w" code="IS3" sex="female" figID="68">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE18" figID="9">
+    <pin>
+      <line id="46" color="G-R" spec="LHD" commtxt="(LHD)">
+        <connector type="sp" code="SP45" figID="130">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE18" figID="9">
+    <pin>
+      <line id="47" color="G-R" spec="RHD" commtxt="(RHD)">
+        <connector type="conn" code="I106" figID="16">
+          <pin no="8"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I106" figID="16">
+    <pin no="3">
+      <line id="48" color="G-R" spec="RHD" commtxt="(RHD)">
+        <connector type="conn" code="I104" figID="15">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="TS2" sex="female" figID="69">
+    <pin no="2">
+      <line id="49" color="G" spec="Except Pick-Up Body Type" commtxt="(*2)">
+        <connector type="sp" code="SP110" figID="131">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="TS2" sex="male" figID="69">
+    <pin no="2">
+      <line id="50" color="G" spec="Except Pick-Up Body Type" commtxt="(*2)">
+        <connector type="w2w" code="IS3" sex="male" figID="68">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="TS2" sex="female" figID="70">
+    <pin no="7">
+      <line id="51" color="R-B" spec="w/ Rear Fog Light" commtxt="(*3)">
+        <connector type="sp" code="SP113" figID="132">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IS3" sex="male" figID="71">
+    <pin no="9">
+      <line id="52" color="R-L" spec="w/ Rear Fog Light" commtxt="(*3)">
+        <connector type="w2w" code="TS2" sex="male" figID="70">
+          <pin no="7"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP58" figID="133">
+    <pin>
+      <line id="53" color="R-L" spec="w/ Rear Fog Light" commtxt="(*3)">
+        <connector type="w2w" code="IS3" sex="female" figID="71">
+          <pin no="9"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="2" figID="7">
+    <pin>
+      <line id="54" color="R-L" spec="w/ Rear Fog Light" commtxt="(*3)">
+        <connector type="sp" code="SP58" figID="133">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE25" figID="12">
+    <pin>
+      <line id="55" color="R-W" spec="w/ Rear Fog Light" commtxt="(*3)">
+        <connector type="rb" code="2" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="T10" figID="5">
+    <pin no="1">
+      <line id="56" color="R-B" spec="w/ Rear Fog Light" commtxt="(*3)">
+        <connector type="sp" code="SP113" figID="132">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="TS2" sex="female" figID="72">
+    <pin no="12">
+      <line id="57" color="W-L" spec="Except Pick-Up Body Type" commtxt="(*2)">
+        <connector type="conn" code="T10" figID="5">
+          <pin no="5"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="TS2" sex="male" figID="72">
+    <pin no="12">
+      <line id="58" color="W-L" spec="Except Pick-Up Body Type" commtxt="(*2)">
+        <connector type="w2w" code="IS3" sex="male" figID="73">
+          <pin no="23"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IS3" sex="male" figID="73">
+    <pin no="23">
+      <line id="59" color="W-L" spec="Pick-Up Body Type" commtxt="(*1)">
+        <connector type="w2w" code="ST2" sex="female" figID="74">
+          <pin no="8"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IS3" sex="female" figID="73">
+    <pin no="23">
+      <line id="60" color="W-L">
+        <connector type="rb" code="FUSE34" figID="1">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="T10" figID="5">
+    <pin no="2">
+      <line id="61" color="G">
+        <connector type="sp" code="SP110" figID="131">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="ST2" sex="male" figID="74">
+    <pin no="8">
+      <line id="62" color="W-L" spec="Pick-Up Body Type" commtxt="(*1)">
+        <connector type="conn" code="T10" figID="5">
+          <pin no="5"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I19" figID="4">
+    <pin no="1" spec="1GR-FE, 1VD-FTV">
+      <line id="63" color="G">
+        <connector type="rb" code="FUSE27" figID="3">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I19" figID="4">
+    <pin no="1" spec="1HZ">
+      <line id="63" color="G">
+        <connector type="rb" code="FUSE27" figID="3">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE33" figID="2">
+    <pin>
+      <line id="64" color="G-Y">
+        <connector type="conn" code="I19" figID="4">
+          <pin no="2" spec="1GR-FE, 1VD-FTV"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE33" figID="2">
+    <pin>
+      <line id="64" color="G-Y">
+        <connector type="conn" code="I19" figID="4">
+          <pin no="2" spec="1HZ"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP106" figID="134">
+    <pin>
+      <line id="65" color="W-B" spec="Except Pick-Up Body Type" commtxt="(*2)">
+        <connector type="gp" code="TA" figID="110">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP106" figID="134">
+    <pin>
+      <line id="66" color="W-B" spec="Pick-Up Body Type" commtxt="(*1)">
+        <connector type="gp" code="TB" figID="111">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="T10" figID="5">
+    <pin no="6">
+      <line id="67" color="W-B">
+        <connector type="sp" code="SP106" figID="134">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP106" figID="134">
+    <pin>
+      <line id="68" color="W-B" spec="Pick-Up Body Type" commtxt="(*1)">
+        <connector type="gp" code="TC" figID="112">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="T10" figID="5">
+    <pin no="3">
+      <line id="69" color="G" spec="Pick-Up Body Type" commtxt="(*1)">
+        <connector type="sp" code="SP111" figID="138">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="T10" figID="5">
+    <pin no="7">
+      <line id="70" color="L" spec="Except Pick-Up Body Type" commtxt="(*2)">
+        <connector type="w2w" code="TS2" sex="female" figID="75">
+          <pin no="11"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="T10" figID="5">
+    <pin no="7">
+      <line id="71" color="L" spec="Pick-Up Body Type" commtxt="(*1)">
+        <connector type="w2w" code="ST2" sex="male" figID="77">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="TS2" sex="male" figID="75">
+    <pin no="11">
+      <line id="72" color="L" spec="Except Pick-Up Body Type" commtxt="(*2)">
+        <connector type="w2w" code="IS3" sex="male" figID="76">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IS3" sex="male" figID="76">
+    <pin no="4">
+      <line id="73" color="L" spec="Pick-Up Body Type" commtxt="(*1)">
+        <connector type="w2w" code="ST2" sex="female" figID="77">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IS3" sex="female" figID="76">
+    <pin no="4">
+      <line id="74" color="L">
+        <connector type="rb" code="FUSE27" figID="3">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="T10" figID="5">
+    <pin no="4">
+      <line id="75" color="G" spec="Pick-Up Body Type" commtxt="(*1)">
+        <connector type="sp" code="SP112" figID="135">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="ST2" sex="male" figID="78">
+    <pin no="6">
+      <line id="76" color="G" spec="Pick-Up Body Type" commtxt="(*1)">
+        <connector type="sp" code="SP112" figID="135">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IS3" sex="male" figID="79">
+    <pin no="19">
+      <line id="77" color="G-Y" spec="Pick-Up Body Type" commtxt="(*1)">
+        <connector type="w2w" code="ST2" sex="female" figID="78">
+          <pin no="6"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IS3" sex="male" figID="79">
+    <pin no="19">
+      <line id="78" color="G-Y" spec="Except Pick-Up Body Type" commtxt="(*2)">
+        <connector type="w2w" code="TS2" sex="male" figID="80">
+          <pin no="5"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IS3" sex="female" figID="79">
+    <pin no="19">
+      <line id="79" color="G-Y" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="sp" code="SP53" figID="136">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IS3" sex="female" figID="79">
+    <pin no="19">
+      <line id="80" color="G-Y" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="sp" code="SP53" figID="150">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I29" figID="36">
+    <pin no="2">
+      <line id="81" color="G-Y" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="sp" code="SP53" figID="136">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP112" figID="137">
+    <pin>
+      <line id="82" color="G" spec="Except Pick-Up Body Type" commtxt="(*2)">
+        <connector type="conn" code="T10" figID="5">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="TS2" sex="female" figID="80">
+    <pin no="5">
+      <line id="83" color="G" spec="Except Pick-Up Body Type" commtxt="(*2)">
+        <connector type="sp" code="SP112" figID="137">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="ST2" sex="male" figID="81">
+    <pin no="10">
+      <line id="84" color="G" spec="Pick-Up Body Type" commtxt="(*1)">
+        <connector type="sp" code="SP111" figID="138">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IS3" sex="male" figID="82">
+    <pin no="20">
+      <line id="85" color="G-B" spec="Pick-Up Body Type" commtxt="(*1)">
+        <connector type="w2w" code="ST2" sex="female" figID="81">
+          <pin no="10"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IS3" sex="male" figID="82">
+    <pin no="20">
+      <line id="86" color="G-B" spec="Except Pick-Up Body Type" commtxt="(*2)">
+        <connector type="w2w" code="TS2" sex="male" figID="83">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IS3" sex="female" figID="82">
+    <pin no="20">
+      <line id="87" color="G-B" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="sp" code="SP48" figID="149">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP48" figID="139">
+    <pin>
+      <line id="88" color="G-B" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="w2w" code="IS3" sex="female" figID="82">
+          <pin no="20"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I29" figID="36">
+    <pin no="3">
+      <line id="89" color="G-B" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="sp" code="SP48" figID="139">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP111" figID="140">
+    <pin>
+      <line id="90" color="G" spec="Except Pick-Up Body Type" commtxt="(*2)">
+        <connector type="conn" code="T10" figID="5">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="TS2" sex="female" figID="83">
+    <pin no="4">
+      <line id="91" color="G" spec="Except Pick-Up Body Type" commtxt="(*2)">
+        <connector type="sp" code="SP111" figID="140">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I29" figID="36">
+    <pin no="5">
+      <line id="92" color="B" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="sp" code="SP62" figID="142">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="gp" code="LB" figID="113">
+    <pin>
+      <line id="93" color="W-B" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="conn" code="L14" figID="25">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L14" figID="25">
+    <pin no="1">
+      <line id="94" color="L-W" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="w2w" code="LI1" sex="female" figID="84">
+          <pin no="24"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="LI1" sex="male" figID="84">
+    <pin no="24">
+      <line id="95" color="L-W" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="sp" code="SP63" figID="141">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP63" figID="141">
+    <pin>
+      <line id="96" color="L-W" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="conn" code="I29" figID="36">
+          <pin no="6"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L14" figID="25">
+    <pin no="2">
+      <line id="97" color="B" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="w2w" code="LI1" sex="female" figID="85">
+          <pin no="23"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="LI1" sex="male" figID="85">
+    <pin no="23">
+      <line id="98" color="B" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="sp" code="SP62" figID="142">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="2" figID="24">
+    <pin>
+      <line id="99" color="B" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="conn" code="I59" figID="18">
+          <pin no="11"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="2" figID="24">
+    <pin>
+      <line id="100" color="L" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="conn" code="I105" figID="27">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I105" figID="27">
+    <pin no="9">
+      <line id="101" color="L" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="rb" code="FUSE23" figID="26">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP66" figID="143">
+    <pin>
+      <line id="102" color="W-B" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="gp" code="IC" figID="114">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="2" figID="24">
+    <pin>
+      <line id="103" color="W-B" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="sp" code="SP66" figID="143">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="2" figID="24">
+    <pin>
+      <line id="104" color="B" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="sp" code="SP62" figID="142">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="2" figID="23">
+    <pin>
+      <line id="105" color="L-W" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="conn" code="I108" figID="17">
+          <pin no="8"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="2" figID="23">
+    <pin>
+      <line id="106" color="L" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="conn" code="I105" figID="27">
+          <pin no="12"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="2" figID="23">
+    <pin>
+      <line id="107" color="W-B" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="sp" code="SP66" figID="143">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="2" figID="23">
+    <pin>
+      <line id="108" color="L-W" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="sp" code="SP63" figID="141">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I109" figID="17">
+    <pin no="11">
+      <line id="109" color="L-W" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="conn" code="I23" figID="22">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I23" figID="22">
+    <pin no="2">
+      <line id="110" color="L" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="conn" code="I105" figID="27">
+          <pin no="13"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I105" figID="27">
+    <pin no="5">
+      <line id="111" color="L" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="conn" code="I22" figID="21">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I59" figID="18">
+    <pin no="10">
+      <line id="112" color="B" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="conn" code="I22" figID="21">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I59" figID="18">
+    <pin no="9">
+      <line id="113" color="B" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="w2w" code="LI1" sex="male" figID="86">
+          <pin no="12"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL1" sex="female" figID="87">
+    <pin no="13">
+      <line id="114" color="L-W" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="conn" code="I108" figID="17">
+          <pin no="7"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L24" figID="20">
+    <pin no="16">
+      <line id="115" color="B" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="w2w" code="LI1" sex="female" figID="86">
+          <pin no="12"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L53" figID="19">
+    <pin no="5">
+      <line id="116" color="W-B" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="gp" code="LB" figID="115">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L53" figID="19">
+    <pin no="4">
+      <line id="117" color="W-B" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="gp" code="LA" figID="116">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L53" figID="19">
+    <pin no="13">
+      <line id="118" color="W-B" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="sp" code="SP82" figID="144">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP82" figID="144">
+    <pin>
+      <line id="119" color="W-B" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="conn" code="L24" figID="20">
+          <pin no="19"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L24" figID="20">
+    <pin no="18">
+      <line id="120" color="L-W" spec="24V Battery Type" commtxt="(*9)">
+        <connector type="w2w" code="IL1" sex="male" figID="87">
+          <pin no="13"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L53" figID="30">
+    <pin no="5">
+      <line id="121" color="W-B" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="gp" code="LB" figID="117">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L53" figID="30">
+    <pin no="4">
+      <line id="122" color="W-B" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="gp" code="LA" figID="118">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L53" figID="30">
+    <pin no="13">
+      <line id="123" color="W-B" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="sp" code="SP82" figID="145">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP82" figID="145">
+    <pin>
+      <line id="124" color="W-B" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="conn" code="L24" figID="31">
+          <pin no="12" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP82" figID="145">
+    <pin>
+      <line id="124" color="W-B" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="conn" code="L24" figID="31">
+          <pin no="19" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L24" figID="31">
+    <pin no="15" spec="LHD">
+      <line id="125" color="G-B" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="conn" code="L26" figID="33">
+          <pin no="22"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L24" figID="31">
+    <pin no="18" spec="RHD">
+      <line id="125" color="G-B" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="conn" code="L26" figID="33">
+          <pin no="22"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="CA4" sex="female" figID="88">
+    <pin no="17">
+      <line id="126" color="BR" spec="12V Battery Type 1VD-FTV" commtxt="(*8 *10)">
+        <connector type="gp" code="CE" figID="119">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="gp" code="CC" figID="120">
+    <pin>
+      <line id="127" color="BR" spec="12V Battery Type 1HZ" commtxt="(*8 *15)">
+        <connector type="sp" code="SP19" figID="146">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP19" figID="146">
+    <pin>
+      <line id="128" color="BR" spec="12V Battery Type 1HZ" commtxt="(*8 *15)">
+        <connector type="w2w" code="AC1" sex="male" figID="89">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="female" figID="90">
+    <pin no="13" spec="LHD 1VD-FTV">
+      <line id="129" color="BR" spec="12V Battery Type 1VD-FTV" commtxt="(*8 *10)">
+        <connector type="w2w" code="CA4" sex="male" figID="88">
+          <pin no="17"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="female" figID="91">
+    <pin no="55" spec="RHD 1VD-FTV">
+      <line id="129" color="BR" spec="12V Battery Type 1VD-FTV" commtxt="(*8 *10)">
+        <connector type="w2w" code="CA4" sex="male" figID="88">
+          <pin no="17"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="female" figID="92">
+    <pin no="22" spec="RHD 1HZ">
+      <line id="130" color="BR" spec="12V Battery Type 1HZ" commtxt="(*8 *15)">
+        <connector type="w2w" code="AC1" sex="female" figID="89">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="female" figID="93">
+    <pin no="45" spec="LHD 1HZ">
+      <line id="130" color="BR" spec="12V Battery Type 1HZ" commtxt="(*8 *15)">
+        <connector type="w2w" code="AC1" sex="female" figID="89">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="90">
+    <pin no="13" spec="LHD 1VD-FTV">
+      <line id="131" color="BR" spec="12V Battery Type 1VD-FTV,12V Battery Type 1HZ" commtxt="(*8 *10,*8 *15)">
+        <connector type="sp" code="SP60" figID="147">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="92">
+    <pin no="22" spec="RHD 1HZ">
+      <line id="131" color="BR" spec="12V Battery Type 1VD-FTV,12V Battery Type 1HZ" commtxt="(*8 *10,*8 *15)">
+        <connector type="sp" code="SP60" figID="147">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="93">
+    <pin no="45" spec="LHD 1HZ">
+      <line id="131" color="BR" spec="12V Battery Type 1VD-FTV,12V Battery Type 1HZ" commtxt="(*8 *10,*8 *15)">
+        <connector type="sp" code="SP60" figID="147">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="91">
+    <pin no="55" spec="RHD 1VD-FTV">
+      <line id="131" color="BR" spec="12V Battery Type 1VD-FTV,12V Battery Type 1HZ" commtxt="(*8 *10,*8 *15)">
+        <connector type="sp" code="SP60" figID="147">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP60" figID="147">
+    <pin>
+      <line id="132" color="BR" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="w2w" code="IL2" sex="female" figID="95">
+          <pin no="4" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP60" figID="147">
+    <pin>
+      <line id="132" color="BR" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="w2w" code="IL6" sex="female" figID="94">
+          <pin no="14" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL2" sex="male" figID="95">
+    <pin no="4" spec="LHD">
+      <line id="133" color="BR" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="conn" code="L25" figID="33">
+          <pin no="15"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL6" sex="male" figID="94">
+    <pin no="14" spec="RHD">
+      <line id="133" color="BR" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="conn" code="L25" figID="33">
+          <pin no="15"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="gp" code="CA" figID="121">
+    <pin>
+      <line id="134" color="BR" spec="12V Battery Type 1GR-FE" commtxt="(*8 *22)">
+        <connector type="sp" code="SP19" figID="148">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP19" figID="148">
+    <pin>
+      <line id="135" color="BR" spec="12V Battery Type 1GR-FE" commtxt="(*8 *22)">
+        <connector type="w2w" code="AC5" sex="male" figID="96">
+          <pin no="9" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP19" figID="148">
+    <pin>
+      <line id="135" color="BR" spec="12V Battery Type 1GR-FE" commtxt="(*8 *22)">
+        <connector type="w2w" code="IC2" sex="male" figID="97">
+          <pin no="9" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IC2" sex="female" figID="97">
+    <pin no="9" spec="LHD">
+      <line id="136" color="BR" spec="12V Battery Type LHD 1GR-FE" commtxt="(*8 *4)">
+        <connector type="sp" code="SP60" figID="147">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AC5" sex="female" figID="96">
+    <pin no="9" spec="RHD">
+      <line id="137" color="BR" spec="12V Battery Type RHD 1GR-FE" commtxt="(*8 *5)">
+        <connector type="w2w" code="AI3" sex="female" figID="98">
+          <pin no="56"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="98">
+    <pin no="56">
+      <line id="138" color="BR" spec="12V Battery Type RHD 1GR-FE" commtxt="(*8 *5)">
+        <connector type="sp" code="SP60" figID="147">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L26" figID="33">
+    <pin no="23">
+      <line id="139" color="G-Y" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="conn" code="L24" figID="31">
+          <pin no="13" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L26" figID="33">
+    <pin no="23">
+      <line id="139" color="G-Y" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="conn" code="L24" figID="31">
+          <pin no="16" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="gp" code="LB" figID="122">
+    <pin>
+      <line id="140" color="W-B" spec="12V Battery Type Except Soft Top Body Type" commtxt="(*8 *24)">
+        <connector type="conn" code="L14" figID="34">
+          <pin no="6" spec="Except Soft Top Body Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="gp" code="LB" figID="122">
+    <pin>
+      <line id="141" color="W-B" spec="12V Battery Type Soft Top Body Type" commtxt="(*8 *23)">
+        <connector type="w2w" code="LM1" sex="female" figID="103">
+          <pin no="6"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="M1" figID="34">
+    <pin no="5" spec="Soft Top Body Type">
+      <line id="142" color="G-R" spec="12V Battery Type Soft Top Body Type" commtxt="(*8 *23)">
+        <connector type="w2w" code="LM1" sex="male" figID="99">
+          <pin no="5"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L14" figID="34">
+    <pin no="5" spec="Except Soft Top Body Type">
+      <line id="143" color="G-R" spec="12V Battery Type Except Soft Top Body Type" commtxt="(*8 *24)">
+        <connector type="conn" code="L32" figID="28">
+          <pin no="17" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L14" figID="34">
+    <pin no="5" spec="Except Soft Top Body Type">
+      <line id="143" color="G-R" spec="12V Battery Type Except Soft Top Body Type" commtxt="(*8 *24)">
+        <connector type="conn" code="L34" figID="28">
+          <pin no="2" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="LM1" sex="female" figID="99">
+    <pin no="5">
+      <line id="144" color="G-R" spec="12V Battery Type Soft Top Body Type" commtxt="(*8 *23)">
+        <connector type="conn" code="L32" figID="28">
+          <pin no="17" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="LM1" sex="female" figID="99">
+    <pin no="5">
+      <line id="144" color="G-R" spec="12V Battery Type Soft Top Body Type" commtxt="(*8 *23)">
+        <connector type="conn" code="L34" figID="28">
+          <pin no="2" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI1" sex="male" figID="102">
+    <pin no="3" spec="1VD-FTV Australia,LHD 1VD-FTV,LHD 1GR-FE">
+      <line id="145" color="G" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="w2w" code="IL1" sex="female" figID="105">
+          <pin no="3" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI1" sex="male" figID="102">
+    <pin no="3" spec="1VD-FTV Australia,LHD 1VD-FTV,LHD 1GR-FE">
+      <line id="145" color="G" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="w2w" code="IL5" sex="female" figID="104">
+          <pin no="5" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI2" sex="male" figID="101">
+    <pin no="11" spec="RHD 1HZ">
+      <line id="145" color="G" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="w2w" code="IL1" sex="female" figID="105">
+          <pin no="3" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI2" sex="male" figID="101">
+    <pin no="11" spec="RHD 1HZ">
+      <line id="145" color="G" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="w2w" code="IL5" sex="female" figID="104">
+          <pin no="5" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="100">
+    <pin no="44" spec="RHD 1GR-FE,1VD-FTV Except Australia,LHD 1HZ">
+      <line id="145" color="G" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="w2w" code="IL1" sex="female" figID="105">
+          <pin no="3" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="100">
+    <pin no="44" spec="RHD 1GR-FE,1VD-FTV Except Australia,LHD 1HZ">
+      <line id="145" color="G" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="w2w" code="IL5" sex="female" figID="104">
+          <pin no="5" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI1" sex="female" figID="102">
+    <pin no="3" spec="1VD-FTV Australia,LHD 1VD-FTV,LHD 1GR-FE">
+      <line id="146" color="G" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="rb" code="FUSE51" figID="29">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI2" sex="female" figID="101">
+    <pin no="11" spec="RHD 1HZ">
+      <line id="146" color="G" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="rb" code="FUSE51" figID="29">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="female" figID="100">
+    <pin no="44" spec="RHD 1GR-FE,1VD-FTV Except Australia,LHD 1HZ">
+      <line id="146" color="G" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="rb" code="FUSE51" figID="29">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="LM1" sex="male" figID="103">
+    <pin no="6">
+      <line id="147" color="W-B" spec="12V Battery Type Soft Top Body Type" commtxt="(*8 *23)">
+        <connector type="conn" code="M1" figID="34">
+          <pin no="6" spec="Soft Top Body Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L50" figID="33">
+    <pin no="1">
+      <line id="148" color="G-R" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="conn" code="L32" figID="28">
+          <pin no="16" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L50" figID="33">
+    <pin no="1">
+      <line id="148" color="G-R" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="conn" code="L34" figID="28">
+          <pin no="1" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL1" sex="male" figID="105">
+    <pin no="3" spec="LHD">
+      <line id="149" color="G" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="conn" code="L50" figID="33">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL5" sex="male" figID="104">
+    <pin no="5" spec="RHD">
+      <line id="149" color="G" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="conn" code="L50" figID="33">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L50" figID="33">
+    <pin no="4">
+      <line id="150" color="G-Y" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="w2w" code="IL1" sex="male" figID="107">
+          <pin no="2" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L50" figID="33">
+    <pin no="4">
+      <line id="150" color="G-Y" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="w2w" code="IL5" sex="male" figID="106">
+          <pin no="4" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL1" sex="female" figID="107">
+    <pin no="2" spec="LHD">
+      <line id="151" color="G-Y" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="sp" code="SP53" figID="150">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL5" sex="female" figID="106">
+    <pin no="4" spec="RHD">
+      <line id="151" color="G-Y" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="sp" code="SP53" figID="150">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL1" sex="male" figID="109">
+    <pin no="1" spec="LHD">
+      <line id="152" color="G-B" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="conn" code="L50" figID="33">
+          <pin no="6"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL5" sex="male" figID="108">
+    <pin no="3" spec="RHD">
+      <line id="152" color="G-B" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="conn" code="L50" figID="33">
+          <pin no="6"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL1" sex="female" figID="109">
+    <pin no="1" spec="LHD">
+      <line id="153" color="G-B" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="sp" code="SP48" figID="149">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL5" sex="female" figID="108">
+    <pin no="3" spec="RHD">
+      <line id="153" color="G-B" spec="12V Battery Type" commtxt="(*8)">
+        <connector type="sp" code="SP48" figID="149">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="62">
+    <pin>
+      <line id="182" color="" dir="none">
+        <connector type="w2w" code="" figID="61">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="106">
+    <pin>
+      <line id="183" color="" dir="none">
+        <connector type="w2w" code="" figID="107">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="93">
+    <pin>
+      <line id="184" color="" dir="none">
+        <connector type="w2w" code="" figID="90">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="100">
+    <pin>
+      <line id="185" color="" dir="none">
+        <connector type="w2w" code="" figID="102">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="104">
+    <pin>
+      <line id="186" color="" dir="none">
+        <connector type="w2w" code="" figID="105">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="108">
+    <pin>
+      <line id="187" color="" dir="none">
+        <connector type="w2w" code="" figID="109">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="92">
+    <pin>
+      <line id="188" color="" dir="none">
+        <connector type="w2w" code="" figID="93">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="91">
+    <pin>
+      <line id="189" color="" dir="none">
+        <connector type="w2w" code="" figID="90">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="101">
+    <pin>
+      <line id="190" color="" dir="none">
+        <connector type="w2w" code="" figID="100">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="93">
+    <pin>
+      <line id="191" color="" dir="none">
+        <connector type="w2w" code="" figID="91">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="92">
+    <pin>
+      <line id="192" color="" dir="none">
+        <connector type="w2w" code="" figID="91">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="64">
+    <pin>
+      <line id="193" color="" dir="none">
+        <connector type="w2w" code="" figID="63">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="97">
+    <pin>
+      <line id="194" color="" dir="none">
+        <connector type="w2w" code="" figID="96">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="54">
+    <pin>
+      <line id="195" color="" dir="none">
+        <connector type="w2w" code="" figID="53">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="92">
+    <pin>
+      <line id="196" color="" dir="none">
+        <connector type="w2w" code="" figID="90">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="95">
+    <pin>
+      <line id="197" color="" dir="none">
+        <connector type="w2w" code="" figID="94">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="101">
+    <pin>
+      <line id="198" color="" dir="none">
+        <connector type="w2w" code="" figID="102">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+</connectionList>

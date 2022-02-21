@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'ArialMT';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'ArialMT';">
+	<!ENTITY st11 "font-size:9px;font-family:'Svg Symbol';">
+	<!ENTITY st12 "font-size:6px;font-family:'Svg Symbol';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'Arial';">
+	<!ENTITY st19 "font-size:9px;font-family:'Arial';">
+	<!ENTITY st20 "font-size:6px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 3105.354 710.000" viewBox="0 0 3105.354 710.000" height="710.000" width="3105.354" xml:space="preserve" ewd:ver="2.1.2.9" xmlns="&ns_svg;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:xlink="&ns_xlink;">
+<text style="&st18;" transform="matrix(&st17;  2426.9  364.68 )">B-W</text><text style="&st18;" transform="matrix(&st17;  2438.23  366.58 )">(RHD)</text><text style="&st18;" transform="matrix(&st17;  2367.41  364.68 )">B-W</text><text style="&st18;" transform="matrix(&st17;  2378.74  366.54 )">(LHD)</text><text style="&st18;" transform="matrix(&st17;  2299.42  363.79 )">L-B</text><text style="&st18;" transform="matrix(&st17;  2310.75  366.58 )">(RHD)</text><text style="&st18;" transform="matrix(&st17;  2239.93  363.79 )">L-B</text><text style="&st18;" transform="matrix(&st17;  2251.26  366.54 )">(LHD)</text><text style="&st18;" transform="matrix(&st17;  2004.8  70.24 )">(*5)</text><text style="&st18;" transform="matrix(&st17;  2004.8  172.22 )">(*5)</text><text style="&st18;" transform="matrix(&st16;  2231.71  460.1 )">I88</text><text style="&st18;" transform="matrix(&st16;  2231.72  466.93 )" ewd:textID="8">Cooler Stabilizer Amplifier Assembly</text><text style="&st18;" transform="matrix(&st17;  2171.94  360.41 )">B</text><text style="&st18;" transform="matrix(&st17;  2183.27  363.44 )">(*5)</text><g ewd:figtype="conn" ewd:figID="26" ewd:code="I88"><g ewd:lineID="71"><text style="&st18;" transform="matrix(&st16;  2169.45  406.03 )">4</text><text style="&st18;" transform="matrix(&st16;  2170.23  417.35 )">IGN</text></g><g ewd:lineID="72,79"><text style="&st18;" transform="matrix(&st16;  2237.44  406.03 )">6</text><text style="&st18;" transform="matrix(&st16;  2237.21  417.35 )">ACT</text></g><g ewd:lineID="73,74"><text style="&st18;" transform="matrix(&st16;  2364.92  406.03 )">1</text><text style="&st18;" transform="matrix(&st16;  2365.08  417.35 )">AC1</text></g></g><g ewd:code="7" ewd:figID="109" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  2401.69  581.66 )" ewd:textID="3">* 7 :Except Australia</text></g><g ewd:code="2" ewd:figID="113" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  2401.69  556.16 )">* 2 :1VD-FTV</text></g><g ewd:code="6" ewd:figID="128" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  2401.69  573.16 )" ewd:textID="2">* 6 :Australia</text></g><g ewd:code="5" ewd:figID="115" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  2401.69  564.66 )" ewd:textID="1">* 5 :w/ Air Conditioner</text></g><g ewd:code="1" ewd:figID="114" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  2401.69  547.66 )">* 1 :1GR-FE</text></g><g ewd:code="8" ewd:figID="111" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  2401.69  590.16 )" ewd:textID="4">* 8 :Shielded</text></g></svg>

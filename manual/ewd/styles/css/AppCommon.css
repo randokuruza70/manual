@@ -1,0 +1,227 @@
+
+html,body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background: #F7F9F9;
+}
+
+body {
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	color: #333333;
+}
+
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+p,
+sub,
+sup,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+caption,
+th,
+td,
+img,
+hr,
+fieldset,
+legend,
+input,
+textarea,
+select,
+option,
+a {
+  /* font-size: 11px; */
+  /* font-family: "Verdana",sans-serif; */
+  /* line-height: 13px; */
+}
+
+
+/* 日本語フォント設定 */
+body.font_ja,
+h1.font_ja,
+h2.font_ja,
+h3.font_ja,
+input.font_ja,
+select.font_ja,
+option.font_ja
+{
+	font-size: 14px;
+	line-height: 16px;
+	font-family: "MS PGOTHIC",sans-serif;
+}
+
+a.small_ja,
+span.small_ja,
+p.small_ja,
+li.small_ja
+{
+	font-size: 11px;
+	line-height: 13px;
+	font-family: "MS PGOTHIC",sans-serif;
+}
+
+a.smaller_ja,
+span.smaller_ja,
+p.smaller_ja,
+li.smaller_ja
+{
+	font-size: 10px;
+	line-height: 12px;
+	font-family: "MS PGOTHIC",sans-serif;
+}
+
+input[type="button"].font_ja
+{
+        height: 22px;
+        font-size: 12px;
+        line-height: 14px;
+        cursor: pointer;
+	font-family: "MS PGOTHIC",sans-serif;
+}
+
+/* 英語フォント設定 */
+body.font_en,
+h1.font_en,
+h2.font_en,
+h3.font_en,
+input.font_en,
+select.font_en,
+option.font_en
+{
+	font-size: 11px;
+	line-height: 13px;
+	font-family: "Verdana",sans-serif;
+}
+
+input[type="button"].font_en
+{
+        height: 22px;
+        font-size: 12px;
+        line-height: 14px;
+        cursor: pointer;
+	font-family: "Verdana",sans-serif;
+}
+
+/* 独語フォント設定 */
+body.font_de,
+h1.font_de,
+h2.font_de,
+h3.font_de,
+input.font_de,
+select.font_de,
+option.font_de
+{
+	font-size: 11px;
+	line-height: 13px;
+	font-family: "Verdana",sans-serif;
+}
+
+input[type="button"].font_de
+{
+        height: 22px;
+        font-size: 12px;
+        line-height: 14px;
+        cursor: pointer;
+	font-family: "Verdana",sans-serif;
+}
+
+/* 仏語フォント設定 */
+body.font_fr,
+h1.font_fr,
+h2.font_fr,
+h3.font_fr,
+input.font_fr,
+select.font_fr,
+option.font_fr
+{
+	font-size: 11px;
+	line-height: 13px;
+	font-family: "Verdana",sans-serif;
+}
+
+input[type="button"].font_fr
+{
+        height: 22px;
+        font-size: 12px;
+        line-height: 14px;
+        cursor: pointer;
+	font-family: "Verdana",sans-serif;
+}
+
+/* 西語フォント設定 */
+body.font_es,
+h1.font_es,
+h2.font_es,
+h3.font_es,
+input.font_es,
+select.font_es,
+option.font_es
+{
+	font-size: 11px;
+	line-height: 13px;
+	font-family: "Verdana",sans-serif;
+}
+
+input[type="button"].font_es
+{
+        height: 22px;
+        font-size: 12px;
+        line-height: 14px;
+        cursor: pointer;
+	font-family: "Verdana",sans-serif;
+}
+
+
+
+
+div,
+p,
+h1,
+h2,
+h3,
+button,
+input,
+option,
+select
+ {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* リンク */
+a {
+	color: #444444;
+	text-decoration: none;
+}
+
+img {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+
+.title{
+  background: url(images/mtrx-bg.png) repeat-x;
+  color: white;
+  font-weight: bold;
+  line-height: 26px;
+  letter-spacing: 0.2em;
+  text-indent: 1em;
+}
+

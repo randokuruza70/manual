@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- #  DTD VERSION 1.7  UPDATE Dec. 04, 2014    -->
+<!ELEMENT tmc-service-paragraph (pub)>
+<!ELEMENT pub (servcat)>
+<!ATTLIST pub
+	id CDATA #REQUIRED
+>
+<!ELEMENT servcat (name, section)>
+<!ATTLIST servcat
+	id CDATA #REQUIRED
+>
+<!ELEMENT section (name, ttl)>
+<!ATTLIST section
+	id CDATA #REQUIRED
+>
+<!ELEMENT ttl (name, para)>
+<!ATTLIST ttl
+	id CDATA #REQUIRED
+>
+<!ELEMENT para (((name, ncf-para?) | (dtccode, dtcname)*), subpara+)>
+<!ATTLIST para
+	category CDATA #REQUIRED
+	id ID #REQUIRED
+>
+<!ELEMENT ncf-para (name)>
+<!ATTLIST ncf-para
+	ncf-para-category CDATA #REQUIRED
+>
+<!ELEMENT subpara (name?, s-1*, content2*, content3*, content4*, content5*, testgrp*)>
+<!ATTLIST subpara
+	id ID #REQUIRED
+	category CDATA #REQUIRED
+>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT dtcname (#PCDATA)>
+<!ELEMENT dtccode (#PCDATA)>
+<!ELEMENT action (actiontitle, content6?)?>
+<!ATTLIST action
+	actiontype (next | end | jump) #REQUIRED
+	cellposition CDATA #IMPLIED
+	childid CDATA #IMPLIED
+>
+<!ELEMENT actiontitle (#PCDATA)>
+<!ELEMENT atten2 (title?, (figure | ptxt | list1 | table)+)>
+<!ELEMENT atten3 (title?, (figure | ptxt | list1 | table)+)>
+<!ELEMENT atten4 (title?, (figure | ptxt | list1 | table)+)>
+<!ELEMENT callout (table)>
+<!ELEMENT colspec EMPTY>
+<!ATTLIST colspec
+	align (left | right | center) #IMPLIED
+	colname NMTOKEN #IMPLIED
+	colnum NMTOKEN #IMPLIED
+	colsep NMTOKEN #IMPLIED
+	colwidth CDATA #IMPLIED
+	rowsep NMTOKEN #IMPLIED
+>
+<!ELEMENT content1 ((ptxt | list1 | spec | figure | table | atten2 | atten3 | atten4 | torque | sst | gts-info)*, s2*)>
+<!ELEMENT content2 (title?, (ptxt | figure | atten2 | atten3 | atten4)*)>
+<!ELEMENT content3 (title?, (ptxt | list1 | spec | figure | table | atten2 | atten3 | atten4 | torque | sst | gts-info)*)>
+<!ELEMENT content4 (title?, (table | atten2 | atten3 | atten4)*)>
+<!ELEMENT content5 (title?, (ptxt | step1 | list1 | spec | figure | table | atten2 | atten3 | atten4 | torque | sst | topic | gts-info)*)>
+<!ELEMENT content6 (title?, (spec | sst | torque | atten2 | atten3 | atten4 | figure | list1 | table | test1 | ptxt | gts-info)*)>
+<!ELEMENT convertitem (c-value1*, c-value2*, c-value3*)>
+<!ATTLIST convertitem
+	point1 CDATA #REQUIRED
+	point2 CDATA #IMPLIED
+	style CDATA #REQUIRED
+	unit CDATA #REQUIRED
+>
+<!ELEMENT c-value1 (#PCDATA)>
+<!ATTLIST c-value1
+	type CDATA #REQUIRED
+	unit CDATA #REQUIRED
+>
+<!ELEMENT c-value2 (#PCDATA)>
+<!ATTLIST c-value2
+	type CDATA #REQUIRED
+	unit CDATA #REQUIRED
+>
+<!ELEMENT c-value3 (#PCDATA)>
+<!ATTLIST c-value3
+	type CDATA #REQUIRED
+	unit CDATA #REQUIRED
+>
+<!ELEMENT data-name (ptxt | list1 | mlink | torque | graphic | atten2 | atten3 | atten4)*>
+<!ATTLIST data-name
+	args1 CDATA #IMPLIED
+	name CDATA #REQUIRED
+	parts-id CDATA #IMPLIED
+>
+<!ELEMENT entry (data-name | (title?, (ptxt | list1 | atten2 | atten3 | atten4 | graphic | judge-value)*))>
+<!ATTLIST entry
+	align (left | right | center) #IMPLIED
+	colname NMTOKEN #IMPLIED
+	colsep NMTOKEN #IMPLIED
+	morerows NMTOKEN #IMPLIED
+	nameend NMTOKEN #IMPLIED
+	namest NMTOKEN #IMPLIED
+	rowsep NMTOKEN #IMPLIED
+	valign (top | middle | bottom) #IMPLIED
+>
+<!ELEMENT figure (title?, graphic+, callout?, footnote?)>
+<!ATTLIST figure
+	translate CDATA #IMPLIED
+	type CDATA #IMPLIED
+>
+<!ELEMENT footnote (ptxt)+>
+<!ELEMENT graphic EMPTY>
+<!ATTLIST graphic
+	graphicname CDATA #REQUIRED
+	height CDATA #REQUIRED
+	width CDATA #REQUIRED
+>
+<!ELEMENT item (ptxt | figure | table | spec | atten2 | atten3 | atten4)+>
+<!ATTLIST item
+	label CDATA #IMPLIED
+>
+<!ELEMENT judge-value (ptxt)>
+<!ATTLIST judge-value
+	label CDATA #IMPLIED
+>
+<!ELEMENT list1 (title?, figure*, item, (item | list2)*)>
+<!ATTLIST list1
+	type (ordered | unordered | nonmark) #IMPLIED
+>
+<!ELEMENT list2 (title?, figure*, item, (item | list3)*)>
+<!ATTLIST list2
+	type (ordered | unordered | nonmark) #IMPLIED
+>
+<!ELEMENT list3 (title?, figure*, item+)>
+<!ATTLIST list3
+	type (ordered | unordered | nonmark) #IMPLIED
+>
+<!ELEMENT mlink (xref+)>
+<!ELEMENT ptxt (#PCDATA | sub | sup | mlink)*>
+<!ELEMENT result (action)>
+<!ATTLIST result
+	cellposition CDATA #IMPLIED
+	label CDATA #IMPLIED
+>
+<!ELEMENT results (result+)>
+<!ELEMENT row (entry+)>
+<!ATTLIST row
+	rowsep NMTOKEN #IMPLIED
+>
+<!ELEMENT s-1 (ptxt+, content1*)>
+<!ATTLIST s-1
+	id ID #REQUIRED
+>
+<!ELEMENT s2 ((ptxt | list1 | spec | figure | table | atten2 | atten3 | atten4 | torque | sst | gts-info)*, s3*)>
+<!ATTLIST s2
+	label CDATA #IMPLIED
+>
+<!ELEMENT s3 ((ptxt | list1 | spec | figure | table | atten2 | atten3 | atten4 | torque | sst | gts-info)*)>
+<!ATTLIST s3
+	label CDATA #IMPLIED
+>
+<!ELEMENT s-number (#PCDATA)>
+<!ELEMENT spec (title, (table | (subtitle* | specitem)+)+)>
+<!ATTLIST spec
+	type (current | resistance | voltage | other) #REQUIRED
+>
+<!ELEMENT specitem (ptxt)+>
+<!ELEMENT sst (sstitem+)>
+<!ELEMENT sstitem (s-number+, s-subnumber*, ptxt?)+>
+<!ELEMENT s-subnumber (#PCDATA)>
+<!ELEMENT step1 ((ptxt | list1 | spec | figure | table | atten2 | atten3 | atten4 | torque | sst | gts-info)*, step2*)>
+<!ATTLIST step1
+	label CDATA #IMPLIED
+>
+<!ELEMENT step2 ((ptxt | list1 | spec | figure | table | atten2 | atten3 | atten4 | torque | sst | gts-info)*, step3*)>
+<!ATTLIST step2
+	label CDATA #IMPLIED
+>
+<!ELEMENT step3 ((ptxt | list1 | spec | figure | table | atten2 | atten3 | atten4 | torque | sst | gts-info)*)>
+<!ATTLIST step3
+	label CDATA #IMPLIED
+>
+<!ELEMENT sub (#PCDATA)>
+<!ELEMENT subtitle (#PCDATA)>
+<!ELEMENT sup (#PCDATA)>
+<!ELEMENT table (title?, (ptxt)*, tgroup+, footnote?)>
+<!ATTLIST table
+	colsep NMTOKEN #IMPLIED
+	frame (all | none) #IMPLIED
+	pgwide NMTOKEN #IMPLIED
+	rowsep NMTOKEN #IMPLIED
+	type (dtc-table | dtc-explan-table | tool-table | symptom-table | caption-table | torque-specification-table | freeze-frame | data-list | data-list-table | active-test | active-test-table | utility | utility-table | customize | multi-list) #IMPLIED
+>
+<!ELEMENT tbody (row+)>
+<!ATTLIST tbody
+	valign (top | middle | bottom) #IMPLIED
+>
+<!ELEMENT test1 (ptxt, (ptxt | spec | atten2 | atten3 | atten4 | figure | list1 | table | gts-info)*, test2*)>
+<!ATTLIST test1
+	id ID #IMPLIED
+	label CDATA #IMPLIED
+>
+<!ELEMENT test2 (ptxt, (ptxt | spec | atten2 | atten3 | atten4 | figure | list1 | table | gts-info)*)>
+<!ATTLIST test2
+	id ID #IMPLIED
+	label CDATA #IMPLIED
+>
+<!ELEMENT testgrp (testtitle, content6*, results?)>
+<!ATTLIST testgrp
+	cellposition CDATA #IMPLIED
+	id ID #REQUIRED
+>
+<!ELEMENT testtitle (#PCDATA)*>
+<!ELEMENT tgroup (colspec*, thead?, tbody)>
+<!ATTLIST tgroup
+	align (left | right | center) #IMPLIED
+	cols NMTOKEN #REQUIRED
+	colsep NMTOKEN #IMPLIED
+	rowsep NMTOKEN #IMPLIED
+>
+<!ELEMENT thead (colspec*, row+)>
+<!ATTLIST thead
+	valign (top | middle | bottom) #IMPLIED
+>
+<!ELEMENT title (#PCDATA)>
+<!ATTLIST title
+	date CDATA #IMPLIED
+>
+<!ELEMENT topic (title?, (ptxt | list1 | spec | figure | table | atten2 | atten3 | atten4 | torque | sst)*)>
+<!ATTLIST topic
+	id ID #IMPLIED
+>
+<!ELEMENT torque (subtitle?, convertitem, ptxt*)+>
+<!ELEMENT xref EMPTY>
+<!ATTLIST xref
+	href CDATA #REQUIRED
+	label CDATA #IMPLIED
+	refid CDATA #IMPLIED
+	term-id-from CDATA #REQUIRED
+	term-id-to CDATA #IMPLIED
+>
+<!ELEMENT gts-info (title, ((table+, title?, table?, gts-exec?, app-communication) | (gts-exec, app-communication)))>
+<!ATTLIST gts-info
+	category CDATA #IMPLIED
+>
+<!ELEMENT gts-cust EMPTY>
+<!ATTLIST gts-cust
+	cust-id CDATA #REQUIRED
+>
+<!ELEMENT gts-did EMPTY>
+<!ATTLIST gts-did
+	did-id CDATA #REQUIRED
+>
+<!ELEMENT gts-ecu (gts-did?, gts-pid*, gts-util?)?>
+<!ATTLIST gts-ecu
+	ecu-id CDATA #REQUIRED
+>
+<!ELEMENT gts-exec ((gts-ecu* | gts-cust*), gts-2nd-ecu?)>
+<!ATTLIST gts-exec
+	function-id CDATA #REQUIRED
+>
+<!ELEMENT gts-pid EMPTY>
+<!ATTLIST gts-pid
+	pid-id CDATA #REQUIRED
+>
+<!ELEMENT gts-util EMPTY>
+<!ATTLIST gts-util
+	util-id CDATA #REQUIRED
+>
+<!ELEMENT gts-2nd-ecu (gts-2nd-pid*, gts-multi)?>
+<!ATTLIST gts-2nd-ecu
+	ecu-id CDATA #REQUIRED
+>
+<!ELEMENT gts-2nd-pid EMPTY>
+<!ATTLIST gts-2nd-pid
+	pid-id CDATA #REQUIRED
+>
+<!ELEMENT gts-multi EMPTY>
+<!ATTLIST gts-multi
+	multi-mode CDATA #REQUIRED
+>
+<!ELEMENT app-param (#PCDATA)*>
+<!ATTLIST app-param
+	name CDATA #REQUIRED
+>
+<!ELEMENT app-communication (app-param-unit | app-param)*>
+<!ELEMENT app-param-unit (app-param+)>

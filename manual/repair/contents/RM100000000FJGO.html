@@ -1,0 +1,373 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">Engine / Hybrid System</span>
+<span class="globalSection">_029758</span>
+<span class="globalSectionName">1GR-FE ENGINE CONTROL</span>
+<span class="globalTitle">_0135343</span>
+<span class="globalTitleName">SFI SYSTEM</span>
+<span class="globalCategory">D</span>
+</div>
+<h1>1GR-FE ENGINE CONTROL&nbsp;&nbsp;SFI SYSTEM&nbsp;&nbsp;DIAGNOSIS SYSTEM&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000FJGO_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">M-OBD
+</span></p>
+<br>
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/F102324.png" alt="F102324" title="F102324">
+</div>
+</div>
+</div>
+<br>
+</div>
+<p>When troubleshooting Multiplex On-Board Diagnostic (M-OBD) vehicle, the vehicle must be connected to the GTS. Various data output from the ECM can then be read.
+</p>
+<p>OBD regulations require that the vehicle on-board computer illuminates the MIL on the instrument panel when the computer detects a malfunction in:
+</p>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>The emission control system/components.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>The powertrain control components (which affect vehicle emissions).
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>The computer.
+</p>
+</div>
+</div>
+</div>
+<br>
+<p>In addition, the applicable DTCs are stored in the ECM memory. If the malfunction does not recur in 3 consecutive trips, the MIL turns off automatically but the DTCs remain recorded in the ECM memory.
+</p>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">NORMAL MODE AND CHECK MODE
+</span></p>
+<br>
+<p>The diagnosis system operates in normal mode during normal vehicle use. In normal mode, 2 trip detection logic is used to ensure accurate detection of malfunctions. Check mode is also available as an option for technicians. In check mode, 1 trip detection logic is used for simulating malfunction symptoms and increasing the ability of the system to detect malfunctions, including intermittent problems (GTS only).
+</p>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">2 TRIP DETECTION LOGIC
+</span></p>
+<br>
+<p>When a malfunction is first detected, the malfunction is temporarily stored in the ECM memory (1st trip). If the same malfunction is detected during the next subsequent drive cycle, the MIL is illuminated (2nd trip).
+</p>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">FREEZE FRAME DATA
+</span></p>
+<br>
+<p>The ECM records vehicle and driving condition information as freeze frame data the moment a DTC is stored. When troubleshooting, freeze frame data can be helpful in determining whether the vehicle was moving or stationary, whether the engine was warmed up or not, whether the air fuel ratio was lean or rich, as well as other data recorded at the time of a malfunction.
+</p>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">BATTERY VOLTAGE
+</span></p>
+<br>
+<dl class="spec">
+<dt class="spec">Standard voltage:</dt>
+<dd class="spec"><p>11 to 14 V
+</p>
+</dd>
+</dl>
+<br>
+<p>If voltage is below 11 V, replace or recharge the battery before proceeding.
+</p>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">MIL (Malfunction Indicator Lamp)
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>The MIL is illuminated when the ignition switch is first turned to ON (the engine is not running).
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>The MIL should turn off when the engine is started. If the MIL remains illuminated, the diagnosis system has detected a malfunction or abnormality in the system.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>If the MIL is not illuminated when the ignition switch is first turned to ON, check the MIL circuit.
+</p>
+</dd>
+<dd class="atten4">
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;SFI SYSTEM&gt;MIL Circuit<span class="invisible">201408,201701,_51,_029758,_0135343,RM100000000FJFY,</span><span class="invisible">201701,999999,_51,_029758,_0135343,RM1000000013KRI,</span></a>
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">ALL READINESS
+</span></p>
+<br>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>With "All Readiness" you can check whether or not the DTC judgment has been completed by using the GTS.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>You should check "All Readiness" after simulating malfunction symptoms or for validation after finishing repairs.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>Connect the GTS to the DLC3.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>Turn the ignition switch to ON.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>Turn the GTS on.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>Clear the DTCs.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE ENGINE CONTROL&gt;SFI SYSTEM&gt;DTC CHECK / CLEAR<span class="invisible">201408,999999,_51,_029758,_0135343,RM100000000FJGP,</span></a>
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>Perform the DTC judgment driving pattern to run the DTC judgment.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">f.</div>
+<div class="step2Body">
+<p>Enter the following menus: Powertrain / Engine and ECT / Utility / All Readiness.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">g.</div>
+<div class="step2Body">
+<p>Input the DTCs to be confirmed.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">h.</div>
+<div class="step2Body">
+<p>Check the DTC judgment result.
+</p>
+<table summary="">
+<caption>Result</caption>
+<colgroup>
+<col style="width:50%">
+<col style="width:50%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">GTS Display
+</th>
+<th class="alcenter">Description
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NORMAL
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC judgment completed
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>System normal
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">ABNORMAL
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC judgment completed
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>System abnormal
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">INCOMPLETE
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC judgment not completed
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>You should perform driving pattern after confirming DTC enabling conditions
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">UNKNOWN
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Unable to perform DTC judgment
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Number of DTCs which do not fulfill DTC preconditions has reached ECU memory limit
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

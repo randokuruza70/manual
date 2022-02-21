@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <connector type="w2w" code="IL1" sex="male" figID="11">
+    <pin no="9">
+      <line id="1" color="GR">
+        <connector type="conn" code="L32" figID="3">
+          <pin no="10" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL1" sex="male" figID="11">
+    <pin no="9">
+      <line id="1" color="GR">
+        <connector type="conn" code="L37" figID="3">
+          <pin no="5" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I61" figID="2">
+    <pin no="4" spec="RHD">
+      <line id="2" color="GR">
+        <connector type="w2w" code="IL1" sex="female" figID="11">
+          <pin no="9"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I72" figID="2">
+    <pin no="20" spec="LHD">
+      <line id="2" color="GR">
+        <connector type="w2w" code="IL1" sex="female" figID="11">
+          <pin no="9"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE1" figID="1">
+    <pin>
+      <line id="3" color="GR">
+        <connector type="conn" code="I61" figID="2">
+          <pin no="5" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE1" figID="1">
+    <pin>
+      <line id="3" color="GR">
+        <connector type="conn" code="I72" figID="2">
+          <pin no="21" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L32" figID="3">
+    <pin no="9" spec="RHD">
+      <line id="4" color="GR">
+        <connector type="conn" code="L16" figID="9">
+          <pin no="8"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L37" figID="3">
+    <pin no="13" spec="LHD">
+      <line id="4" color="GR">
+        <connector type="conn" code="L16" figID="9">
+          <pin no="8"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="Pi1" sex="male" figID="12">
+    <pin no="2">
+      <line id="5" color="R-W">
+        <connector type="conn" code="i1" figID="6">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="PL1" sex="female" figID="13">
+    <pin no="4">
+      <line id="6" color="R-W">
+        <connector type="w2w" code="Pi1" sex="female" figID="12">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L16" figID="9">
+    <pin no="4">
+      <line id="7" color="V">
+        <connector type="w2w" code="PL1" sex="male" figID="13">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="Pi1" sex="male" figID="14">
+    <pin no="1">
+      <line id="8" color="P">
+        <connector type="conn" code="i1" figID="6">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="Pi1" sex="female" figID="14">
+    <pin no="1">
+      <line id="9" color="P">
+        <connector type="w2w" code="PL1" sex="female" figID="15">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L16" figID="9">
+    <pin no="5">
+      <line id="10" color="P">
+        <connector type="w2w" code="PL1" sex="male" figID="15">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="Pi1" sex="male" figID="16">
+    <pin no="3">
+      <line id="11" color="GR">
+        <connector type="conn" code="i1" figID="6">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="PL1" sex="female" figID="17">
+    <pin no="5">
+      <line id="12" color="GR">
+        <connector type="w2w" code="Pi1" sex="female" figID="16">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="PL1" sex="male" figID="17">
+    <pin no="5">
+      <line id="13" color="R" spec="LHD" commtxt="(LHD)">
+        <connector type="conn" code="L34" figID="5">
+          <pin no="9"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L35" figID="4">
+    <pin no="4">
+      <line id="14" color="R" spec="RHD" commtxt="(RHD)">
+        <connector type="w2w" code="PL1" sex="male" figID="17">
+          <pin no="5"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L35" figID="4">
+    <pin no="6">
+      <line id="15" color="R" spec="RHD" commtxt="(RHD)">
+        <connector type="conn" code="L16" figID="9">
+          <pin no="6"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L35" figID="4">
+    <pin no="5">
+      <line id="16" color="R" spec="RHD" commtxt="(RHD)">
+        <connector type="w2w" code="OL1" sex="male" figID="19">
+          <pin no="5"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="Oj1" sex="male" figID="18">
+    <pin no="3">
+      <line id="17" color="GR">
+        <connector type="conn" code="j1" figID="7">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="Oj1" sex="female" figID="18">
+    <pin no="3">
+      <line id="18" color="GR">
+        <connector type="w2w" code="OL1" sex="female" figID="19">
+          <pin no="5"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L34" figID="5">
+    <pin no="10">
+      <line id="19" color="R" spec="LHD" commtxt="(LHD)">
+        <connector type="w2w" code="OL1" sex="male" figID="19">
+          <pin no="5"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L16" figID="9">
+    <pin no="6">
+      <line id="20" color="R" spec="LHD" commtxt="(LHD)">
+        <connector type="conn" code="L34" figID="5">
+          <pin no="11"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="Oj1" sex="male" figID="20">
+    <pin no="2">
+      <line id="21" color="R-W">
+        <connector type="conn" code="j1" figID="7">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OL1" sex="female" figID="21">
+    <pin no="4">
+      <line id="22" color="R-W">
+        <connector type="w2w" code="Oj1" sex="female" figID="20">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L16" figID="9">
+    <pin no="3">
+      <line id="23" color="V-R">
+        <connector type="w2w" code="OL1" sex="male" figID="21">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="Oj1" sex="male" figID="22">
+    <pin no="1">
+      <line id="24" color="P">
+        <connector type="conn" code="j1" figID="7">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OL1" sex="female" figID="23">
+    <pin no="3">
+      <line id="25" color="R">
+        <connector type="w2w" code="Oj1" sex="female" figID="22">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L16" figID="9">
+    <pin no="2">
+      <line id="26" color="R">
+        <connector type="w2w" code="OL1" sex="male" figID="23">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L39" figID="8">
+    <pin no="5">
+      <line id="27" color="W-B">
+        <connector type="gp" code="LB" figID="24">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L39" figID="8">
+    <pin no="4">
+      <line id="28" color="W-B">
+        <connector type="gp" code="LA" figID="25">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L16" figID="9">
+    <pin no="7">
+      <line id="29" color="W-B">
+        <connector type="conn" code="L39" figID="8">
+          <pin no="7"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+</connectionList>

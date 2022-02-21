@@ -1,0 +1,525 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM25T0E</span>
+<span class="globalServcat">_54</span>
+<span class="globalServcatName">Brake</span>
+<span class="globalSection">_029873</span>
+<span class="globalSectionName">BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS</span>
+<span class="globalTitle">_0135612</span>
+<span class="globalTitleName">ANTI-LOCK BRAKE SYSTEM</span>
+<span class="globalCategory">D</span>
+</div>
+<h1>BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&nbsp;&nbsp;ANTI-LOCK BRAKE SYSTEM&nbsp;&nbsp;FREEZE FRAME DATA&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000FKQ4_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">FREEZE FRAME DATA
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>Using the GTS, check the vehicle condition (ECU, sensor) when the brake system operates or a DTC is output.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">CHECK FREEZE FRAME DATA WHEN BRAKE SYSTEM OPERATES
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>Freeze frame data is stored when the brake system operates. The freeze frame data is updated each time the system operates.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>Once freeze frame data is stored when the system operates, it is not cleared until the DTC is cleared.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>The number of times (maximum: 31) the ignition switch has been turned from off to ON since the last time the system was activated can be stored and displayed.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>When the vehicle is stopped (vehicle speed below 7 km/h), turning the ignition switch from off to ON does not cause the value to increase.
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>The value "31" is displayed when the ignition switch was turned on more than 31 times.
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>Check freeze frame data when the system operates
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>Turn the ignition switch off.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>Connect the GTS to the DLC3 and turn the ignition switch to ON.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iii.</div>
+<div class="step3Body">
+<p>Enter the following menus: Chassis / ABS/VSC/TRC / Utility.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iv.</div>
+<div class="step3Body">
+<p>Select "ABS History".
+</p>
+<dl class="gtsUtilityNormal">
+<dt class="gtsUtilityNormal">Chassis &gt; ABS/VSC/TRC &gt; Utility</dt>
+<dd class="gtsUtilityNormal">
+<table summary="utility" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">ABS History
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsUtilityNormal gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50005</span>
+<span class="gtsEcu">105</span>
+<span class="gtsUtil">8</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">v.</div>
+<div class="step3Body">
+<p>Check the freeze frame data when the system operates.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">CHECK FREEZE FRAME DATA WHEN DTC WAS STORED
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>Freeze frame data is stored when a DTC is output.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>Once freeze frame data is stored when a DTC is output, it is not updated or cleared until the DTC is cleared.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>The number of times (maximum: 31) the ignition switch has been turned from off to ON since a DTC was output can be stored and displayed.
+</p>
+<dl class="atten4">
+<dt class="atten4">HINT:</dt>
+<dd class="atten4">
+<p>The value "31" is displayed when the ignition switch was turned ON more than 31 times.
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>Check freeze frame data when DTC is output
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>Turn the ignition switch off.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>Connect the GTS to the DLC3 and turn the ignition switch to ON.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iii.</div>
+<div class="step3Body">
+<p>Enter the following menus: Chassis / ABS/VSC/TRC / Trouble Codes.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iv.</div>
+<div class="step3Body">
+<p>Select a DTC to display the freeze frame data.
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">v.</div>
+<div class="step3Body">
+<p>Check the freeze frame data for the output DTC.
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<dl class="gtsFreezeFrame hasAllTable">
+<dt class="gtsFreezeFrame">Chassis &gt; ABS/VSC/TRC</dt>
+<dd class="gtsFreezeFrame">
+<table summary="freeze-frame">
+<colgroup>
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:19%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">Tester Display
+</th>
+<th class="alcenter">Measurement Item
+</th>
+<th class="alcenter">Range
+</th>
+<th class="alcenter">Normal Condition
+</th>
+<th class="alcenter">Diagnostic Note
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Elapsed Time after Freeze Trigger
+</td>
+<td class="alleft">Elapsed time after freeze trigger
+</td>
+<td class="alleft">Min.: 0 msec
+<br>
+Max.: 500 msec
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Number of IG ON
+</td>
+<td class="alleft">Number of times ignition switch turned to ON after storing freeze frame data
+</td>
+<td class="alleft">0 to 31
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Stop Light SW
+</td>
+<td class="alleft">Stop light switch assembly signal
+</td>
+<td class="alleft">ON or OFF
+</td>
+<td class="alleft">ON: Brake pedal depressed
+<br>
+OFF: Brake pedal not depressed
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Operated System
+</td>
+<td class="alleft">Operated system status
+</td>
+<td class="alleft">Non, ABS, VSC, TRAC, BA, HAB, Fail, PBA, PB, HA-CTRL, TSC or Sys
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">ABS: ABS operating
+</td>
+</tr>
+<tr>
+<td class="alleft">Forward and Rearward G
+</td>
+<td class="alleft">Deceleration sensor reading
+</td>
+<td class="alleft">Min.: -25.10 m/s<sup>2</sup>
+<br>
+Max.: 24.90 m/s<sup>2</sup>
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">Changes in proportion with acceleration during acceleration/ deceleration.
+</td>
+</tr>
+<tr>
+<td class="alleft">FR Wheel Speed
+</td>
+<td class="alleft">Front wheel speed sensor RH reading
+</td>
+<td class="alleft">Min.: 0 km/h (0 mph)
+<br>
+Max.: 326 km/h (202 mph)
+</td>
+<td class="alleft">Actual vehicle speed
+</td>
+<td class="alleft">No large fluctuations when driving at a constant speed.
+</td>
+</tr>
+<tr>
+<td class="alleft">FL Wheel Speed
+</td>
+<td class="alleft">Front wheel speed sensor LH reading
+</td>
+<td class="alleft">Min.: 0 km/h (0 mph)
+<br>
+Max.: 326 km/h (202 mph)
+</td>
+<td class="alleft">Actual vehicle speed
+</td>
+<td class="alleft">No large fluctuations when driving at a constant speed.
+</td>
+</tr>
+<tr>
+<td class="alleft">RR Wheel Speed
+</td>
+<td class="alleft">Rear wheel speed sensor RH reading
+</td>
+<td class="alleft">Min.: 0 km/h (0 mph)
+<br>
+Max.: 326 km/h (202 mph)
+</td>
+<td class="alleft">Actual vehicle speed
+</td>
+<td class="alleft">No large fluctuations when driving at a constant speed.
+</td>
+</tr>
+<tr>
+<td class="alleft">RL Wheel Speed
+</td>
+<td class="alleft">Rear wheel speed sensor LH reading
+</td>
+<td class="alleft">Min.: 0 km/h (0 mph)
+<br>
+Max.: 326 km/h (202 mph)
+</td>
+<td class="alleft">Actual vehicle speed
+</td>
+<td class="alleft">No large fluctuations when driving at a constant speed.
+</td>
+</tr>
+<tr>
+<td class="alleft">Vehicle Speed
+</td>
+<td class="alleft">Maximum wheel speed sensor value
+</td>
+<td class="alleft">Min.: 0 km/h (0 mph)
+<br>
+Max.: 326 km/h (202 mph)
+</td>
+<td class="alleft">Actual vehicle speed
+</td>
+<td class="alleft">No large fluctuations when driving at a constant speed.
+</td>
+</tr>
+<tr>
+<td class="alleft">Vehicle Speed Grade
+</td>
+<td class="alleft">Vehicle acceleration
+</td>
+<td class="alleft">Min.: -25.10 m/s<sup>2</sup>
+<br>
+Max.: 24.90 m/s<sup>2</sup>
+</td>
+<td class="alleft">Vehicle stopped: 0 m/s<sup>2</sup>
+</td>
+<td class="alleft">Changes in proportion with the vehicle acceleration/ deceleration during driving.
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<div class="step1">
+<p class="step1"><span class="titleText">CLEAR FREEZE FRAME DATA
+</span></p>
+<br>
+<dl class="atten3">
+<dt class="atten3">NOTICE:</dt>
+<dd class="atten3">
+<p>Clearing the DTC also clears the freeze frame data.
+</p>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>Clear the DTCs.
+</p>
+<p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;ANTI-LOCK BRAKE SYSTEM&gt;DTC CHECK / CLEAR<span class="invisible">201408,999999,_54,_029873,_0135612,RM100000000FKQ3,</span></a>
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Chassis &gt; ABS/VSC/TRC &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="Execute">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

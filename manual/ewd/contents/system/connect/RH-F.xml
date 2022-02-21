@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <connector type="conn" code="S5" figID="9">
+    <pin no="3">
+      <line id="1" color="L-Y" spec="Rear Switch Type" commtxt="(*2)">
+        <connector type="conn" code="S10" figID="8">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="S5" figID="9">
+    <pin no="3">
+      <line id="2" color="L-Y" spec="Front Switch Type" commtxt="(*1)">
+        <connector type="w2w" code="IS2" sex="male" figID="19">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I109" figID="6">
+    <pin no="4">
+      <line id="3" color="P" spec="RHD" commtxt="(RHD)">
+        <connector type="rb" code="2" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I108" figID="6">
+    <pin no="4">
+      <line id="4" color="P" spec="RHD" commtxt="(RHD)">
+        <connector type="rb" code="FUSE6" figID="2">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="S5" figID="9">
+    <pin no="2">
+      <line id="5" color="L-B" spec="Rear Switch Type" commtxt="(*2)">
+        <connector type="conn" code="S10" figID="8">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="S5" figID="9">
+    <pin no="2">
+      <line id="6" color="L-B" spec="Front Switch Type" commtxt="(*1)">
+        <connector type="w2w" code="IS2" sex="male" figID="18">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="S5" figID="9">
+    <pin no="1">
+      <line id="7" color="LG">
+        <connector type="w2w" code="IS2" sex="male" figID="14">
+          <pin no="6"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IS2" sex="female" figID="14">
+    <pin no="6">
+      <line id="8" color="LG">
+        <connector type="rb" code="2" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I95" figID="5">
+    <pin no="13">
+      <line id="9" color="P" spec="LHD" commtxt="(LHD)">
+        <connector type="rb" code="2" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I95" figID="5">
+    <pin no="5">
+      <line id="10" color="P" spec="LHD" commtxt="(LHD)">
+        <connector type="rb" code="FUSE6" figID="2">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="2" figID="7">
+    <pin>
+      <line id="11" color="B-L" spec="Front Switch Type" commtxt="(*1)">
+        <connector type="conn" code="I14" figID="3">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="2" figID="7">
+    <pin>
+      <line id="12" color="L" spec="LHD" commtxt="(LHD)">
+        <connector type="sp" code="SP69" figID="23">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP69" figID="23">
+    <pin>
+      <line id="13" color="L" spec="LHD" commtxt="(LHD)">
+        <connector type="rb" code="FUSE23" figID="1">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="S10" figID="8">
+    <pin no="2">
+      <line id="14" color="B-L" spec="Rear Switch Type" commtxt="(*2)">
+        <connector type="w2w" code="IS3" sex="male" figID="15">
+          <pin no="7"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IS3" sex="female" figID="15">
+    <pin no="7">
+      <line id="15" color="B-L" spec="Rear Switch Type" commtxt="(*2)">
+        <connector type="rb" code="2" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I105" figID="4">
+    <pin no="6">
+      <line id="16" color="L" spec="RHD" commtxt="(RHD)">
+        <connector type="rb" code="2" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I105" figID="4">
+    <pin no="1">
+      <line id="17" color="L" spec="RHD" commtxt="(RHD)">
+        <connector type="rb" code="FUSE23" figID="1">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP100" figID="24">
+    <pin>
+      <line id="18" color="W-B" spec="Rear Switch Type" commtxt="(*2)">
+        <connector type="conn" code="S10" figID="8">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP100" figID="24">
+    <pin>
+      <line id="19" color="W-B" spec="Rear Switch Type Pick-Up Body Type" commtxt="(*2 *3)">
+        <connector type="w2w" code="TS2" sex="male" figID="17">
+          <pin no="11"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="gp" code="TA" figID="20">
+    <pin>
+      <line id="20" color="W-B" spec="Rear Switch Type Except Pick-Up Body Type" commtxt="(*2 *4)">
+        <connector type="sp" code="SP107" figID="25">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP107" figID="25">
+    <pin>
+      <line id="21" color="W-B" spec="Rear Switch Type Except Pick-Up Body Type" commtxt="(*2 *4)">
+        <connector type="w2w" code="TS2" sex="female" figID="16">
+          <pin no="13"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="TS2" sex="male" figID="16">
+    <pin no="13">
+      <line id="22" color="W-B" spec="Rear Switch Type Except Pick-Up Body Type" commtxt="(*2 *4)">
+        <connector type="sp" code="SP100" figID="24">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="TS2" sex="female" figID="17">
+    <pin no="11">
+      <line id="23" color="W-B" spec="Rear Switch Type Pick-Up Body Type" commtxt="(*2 *3)">
+        <connector type="gp" code="TB" figID="21">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I14" figID="3">
+    <pin no="3">
+      <line id="24" color="L-B" spec="Front Switch Type" commtxt="(*1)">
+        <connector type="w2w" code="IS2" sex="female" figID="18">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I14" figID="3">
+    <pin no="1">
+      <line id="25" color="L-Y" spec="Front Switch Type" commtxt="(*1)">
+        <connector type="w2w" code="IS2" sex="female" figID="19">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP65" figID="26">
+    <pin>
+      <line id="26" color="W-B" spec="RHD Front Switch Type" commtxt="(RHD *1)">
+        <connector type="gp" code="IA" figID="22">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I14" figID="3">
+    <pin no="4">
+      <line id="27" color="W-B" spec="RHD Front Switch Type" commtxt="(RHD *1)">
+        <connector type="sp" code="SP65" figID="26">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I14" figID="3">
+    <pin no="4">
+      <line id="28" color="W-B" spec="LHD Front Switch Type" commtxt="(LHD *1)">
+        <connector type="conn" code="I97" figID="10">
+          <pin no="9"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I97" figID="10">
+    <pin no="2">
+      <line id="29" color="W-B" spec="LHD Front Switch Type" commtxt="(LHD *1)">
+        <connector type="gp" code="IA" figID="22">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+</connectionList>

@@ -1,0 +1,47 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<!-- XML DTD for TOYOTA EWD -->
+<!--
+	EWD DTD for EWD Tree XML
+
+	Copyright (c) 2000-2012 SHINTEC HOZUMI Co.,LTD.
+	All Rights Reserved. 
+
+	ver 2.0		2012/03/21
+	ver 2.1		2012/07/10	add entity value of CountryCode
+-->
+
+<!ENTITY % CountryCode "(en | ja | de | fr | es | it | nl | pt | da | sv | fi | no | is | cs | 
+                         hu | pl | sl | sq | tr | el | ru | uk | la | he | zh | th | vi)">
+<!ENTITY % Book "( name, note*, book* )">
+<!ELEMENT EwdTree (book* | root* | text* | note*)>
+<!ATTLIST EwdTree
+	ver CDATA #IMPLIED
+	pubno CDATA #REQUIRED
+	xml:lang %CountryCode; #REQUIRED
+>
+<!ELEMENT root (name)>
+<!ATTLIST root
+	id CDATA #REQUIRED
+>
+<!ELEMENT book (%Book;)>
+<!ATTLIST book
+	id CDATA #REQUIRED
+	file CDATA #IMPLIED
+>
+<!ELEMENT text (name)>
+<!ATTLIST text
+	ewd CDATA #IMPLIED
+	code CDATA #IMPLIED
+	type CDATA #IMPLIED
+	figID CDATA #IMPLIED
+>
+<!ELEMENT note (%Book;, text*)>
+<!ATTLIST note
+	id CDATA #IMPLIED
+	icon CDATA #IMPLIED
+	file CDATA #IMPLIED
+	ewd CDATA #IMPLIED
+	code CDATA #IMPLIED
+	type CDATA #IMPLIED
+>
+<!ELEMENT name (#PCDATA)>

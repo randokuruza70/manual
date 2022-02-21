@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25T2E" style="font-size:6px;font-family:'Arial'" ver="2.1.2.9">
+	<text textID="1">* 1 :4-Door</text>
+	<text textID="2">* 2 :2-Door</text>
+	<text textID="3">* 3 :w/ Power Window</text>
+	<text textID="4">* 4 :w/o Power Window</text>
+	<text textID="5">* 5 :4-Door Pick-Up Body Type</text>
+	<text textID="6">* 6 :4-Door Except Pick-Up Body Type</text>
+	<text textID="7">* 7 :2-Door Except Pick-Up Body Type</text>
+	<text textID="8">* 8 :Except Pick-Up Body Type</text>
+	<text textID="9">* 9 :Except 2-Door Pick-Up Body Type</text>
+	<text textID="10">Back Door Lock Assembly</text>
+	<text textID="11">Door Control Relay Assembly</text>
+	<text textID="12">Door Control Switch</text>
+	<text textID="13">Door Control Switch Assembly</text>
+	<text textID="14">Door Lock Control Switch</text>
+	<text textID="15">Front Door Lock Actuator Assembly LH</text>
+	<text textID="16">Front Door Lock Actuator Assembly RH</text>
+	<text textID="17">Key Lock</text>
+	<text textID="18">Key Unlock</text>
+	<text textID="19">Lock</text>
+	<text textID="20">No. 31 Junction Connector</text>
+	<text textID="21">Power Window Regulator Master Switch Assembly</text>
+	<text textID="22">Rear Door Lock Actuator Assembly LH</text>
+	<text textID="23">Rear Door Lock Actuator Assembly RH</text>
+	<text textID="24">Unlock</text>
+</texts>

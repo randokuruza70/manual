@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS033">
+    <part type="conn" code="L25">
+      <text>CPU GLW- B ES</text>
+      <name>Combination Meter Assembly</name>
+      <name type="inner">Glow</name>
+    </part>
+    <part type="conn" code="C86">
+      <name>Engine Coolant Temperature Sensor</name>
+    </part>
+    <part type="conn" code="I34">
+      <text>L</text>
+      <name>Generator Assembly</name>
+    </part>
+    <part type="conn" code="C90">
+      <text>B</text>
+      <name>Glow Plug Assembly</name>
+    </part>
+    <part type="conn" code="A22">
+      <name>No. 1 Junction Connector</name>
+    </part>
+    <part type="conn" code="I59,I70">
+      <name>No. 10 Junction Connector , No. 19 Junction Connector</name>
+    </part>
+    <part type="conn" code="I67,I107">
+      <name>No. 12 Junction Connector , No. 16 Junction Connector</name>
+    </part>
+    <part type="conn" code="I105">
+      <name>No. 8 Junction Connector</name>
+    </part>
+    <part type="conn" code="I72,I106">
+      <name>No. 9 Junction Connector , No. 21 Junction Connector</name>
+    </part>
+    <part type="conn" code="I92">
+      <text>RLY2 TMP+ IG-L ST WRN CHG E</text>
+      <name>Preheating Timer Assembly</name>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>DOME NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE20">
+      <text>ECU IG</text>
+    </part>
+    <part type="fuse" code="FUSE40">
+      <text>GLOW1</text>
+    </part>
+    <part type="fuse" code="FUSE16">
+      <text>MET</text>
+    </part>
+    <part type="fuse" code="FUSE3">
+      <text>ST</text>
+    </part>
+  </ttl>
+</EWDSearch>

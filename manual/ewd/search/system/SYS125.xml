@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS125">
+    <part type="conn" code="I51">
+      <text>ACL SIL TC</text>
+      <name>Airbag Sensor Assembly</name>
+    </part>
+    <part type="conn" code="A20,A42">
+      <text>CANL CANH TS TC</text>
+      <name>Brake Actuator Assembly</name>
+    </part>
+    <part type="conn" code="A25,A26">
+      <name>Brake Vacuum Check Valve Assembly</name>
+    </part>
+    <part type="conn" code="I17">
+      <text>DLC3 SG CG TC WFSE BAT TAC SIL TS CANL CANH (*20 *27) ACL (*19,LHD *21)</text>
+    </part>
+    <part type="conn" code="A29,I84">
+      <text>ECM CANH CANL SIL WFSE TC TACH</text>
+    </part>
+    <part type="conn" code="A31">
+      <text>TC</text>
+      <name>Emission Control ECU</name>
+    </part>
+    <part type="conn" code="I77,I78,I83">
+      <name>No. 1 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I59">
+      <name>No. 10 Junction Connector</name>
+    </part>
+    <part type="conn" code="I59,I95">
+      <name>No. 10 Junction Connector , No. 18 Junction Connector</name>
+    </part>
+    <part type="conn" code="I59,I70">
+      <name>No. 10 Junction Connector , No. 19 Junction Connector</name>
+    </part>
+    <part type="conn" code="I61,I72">
+      <name>No. 11 Junction Connector , No. 21 Junction Connector</name>
+    </part>
+    <part type="conn" code="I98,I99">
+      <name>No. 17 Junction Connector</name>
+    </part>
+    <part type="conn" code="I81,I82">
+      <name>No. 2 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I72">
+      <name>No. 21 Junction Connector</name>
+    </part>
+    <part type="conn" code="A24">
+      <name>No. 3 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I118">
+      <name>No. 36 Junction Connector</name>
+    </part>
+    <part type="conn" code="I113,I115,I120,I122,I124">
+      <name>No. 4 CAN Junction Connector , No. 6 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I111">
+      <name>No. 5 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I93">
+      <name>No. 5 Junction Connector</name>
+    </part>
+    <part type="conn" code="S30,U5,Y7">
+      <text>TC SIL</text>
+      <name>Tire Pressure Warning ECU and Receiver</name>
+    </part>
+    <part type="conn" code="L30">
+      <text>D</text>
+      <name>Transponder Key ECU Assembly</name>
+    </part>
+    <part type="fuse" code="FUSE2">
+      <text>OBD2</text>
+    </part>
+  </ttl>
+</EWDSearch>

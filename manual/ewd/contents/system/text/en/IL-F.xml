@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25T2E" style="font-size:6px;font-family:'Arial'" ver="2.1.2.9">
+	<text textID="1">* 1 :Pick-Up Body Type</text>
+	<text textID="2">* 2 :Except Pick-Up Body Type</text>
+	<text textID="3">* 3 :Soft Top Body Type</text>
+	<text textID="4">* 4 :4-Door</text>
+	<text textID="5">* 5 :Super Long Wheel Base 2-Door Pick-Up Body Type</text>
+	<text textID="6">* 6 :LHD 2-Door Pick-Up Body Type</text>
+	<text textID="7">* 7 :RHD 2-Door Pick-Up Body Type</text>
+	<text textID="8">* 8 :LHD 4-Door Pick-Up Body Type, LHD Except Pick-Up Body Type</text>
+	<text textID="9">* 9 :RHD 4-Door Pick-Up Body Type, RHD Except Pick-Up Body Type</text>
+	<text textID="10">*13 :1GR-FE, 1VD-FTV, 1HZ 12V Battery Type</text>
+	<text textID="11">*14 :1HZ 12V Battery Type</text>
+	<text textID="12">*15 :1HZ 24V Battery Type</text>
+	<text textID="13">*17 :Long Wheel Base</text>
+	<text textID="14">*18 :Semi Long Wheel Base</text>
+	<text textID="15">*19 :Super Long Wheel Base 4-Door Pick-Up Body Type</text>
+	<text textID="16">*20 :Short Wheel Base Steel Roof Except Pick-Up Body Type</text>
+	<text textID="17">*21 :2-Door Pick-Up Body Type</text>
+	<text textID="18">*22 :4-Door Pick-Up Body Type, Except Pick-Up Body Type</text>
+	<text textID="19">*24 :*1 Australia</text>
+	<text textID="20">*25 :Except *24</text>
+	<text textID="21">*26 :w/ VSC</text>
+	<text textID="22">*27 :w/o VSC</text>
+	<text textID="23">*28 :Before Jan. 2017 Production</text>
+	<text textID="24">*29 :From Jan. 2017 Production</text>
+	<text textID="25">Back Door Courtesy Light Switch Assembly</text>
+	<text textID="26">Combination Meter Assembly</text>
+	<text textID="27">Diode (Door Courtesy)</text>
+	<text textID="28">Diode (Interior Light)</text>
+	<text textID="29">Door</text>
+	<text textID="30">Front Door Courtesy Light Switch Assembly LH</text>
+	<text textID="31">Front Door Courtesy Light Switch Assembly RH</text>
+	<text textID="32">No. 1 Room Light Assembly</text>
+	<text textID="33">No. 2 Room Light Assembly</text>
+	<text textID="34">No. 3 Room Light Assembly</text>
+	<text textID="35">No. 9 Junction Connector</text>
+	<text textID="36">No. 9 Junction Connector , No. 36 Junction Connector , No. 21 Junction Connector</text>
+	<text textID="37">No. 11 Junction Connector</text>
+	<text textID="38">No. 16 Junction Connector</text>
+	<text textID="39">No. 21 Junction Connector</text>
+	<text textID="40">No. 27 Junction Connector</text>
+	<text textID="41">No. 27 Junction Connector , No. 28 Junction Connector</text>
+	<text textID="42">No. 28 Junction Connector</text>
+	<text textID="43">No. 36 Junction Connector</text>
+	<text textID="44">Rear Door Courtesy Light Switch Assembly LH</text>
+	<text textID="45">Rear Door Courtesy Light Switch Assembly RH</text>
+</texts>

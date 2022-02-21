@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <ttl id="SYS092">
+    <part type="conn" code="b1">
+      <text>M</text>
+      <name>Back Door Lock Assembly</name>
+    </part>
+    <part type="conn" code="P7">
+      <text>E UL1 B L1 ACT+ ACT-</text>
+      <name>Door Control Relay Assembly</name>
+    </part>
+    <part type="conn" code="P6">
+      <text>E UL L</text>
+      <name>Door Control Switch</name>
+      <name type="inner">Key Unlock</name>
+      <name type="inner">Key Lock</name>
+    </part>
+    <part type="conn" code="L18">
+      <text>UL L E</text>
+      <name>Door Control Switch Assembly</name>
+      <name type="inner">Lock</name>
+      <name type="inner">Unlock</name>
+    </part>
+    <part type="conn" code="P3">
+      <text>M</text>
+      <name>Front Door Lock Actuator Assembly LH</name>
+    </part>
+    <part type="conn" code="P5">
+      <text>L UL M E</text>
+      <name>Front Door Lock Actuator Assembly LH</name>
+      <name type="inner">Key Lock</name>
+      <name type="inner">Key Unlock</name>
+    </part>
+    <part type="conn" code="O3">
+      <text>M</text>
+      <name>Front Door Lock Actuator Assembly RH</name>
+    </part>
+    <part type="conn" code="L39">
+      <name>No. 31 Junction Connector</name>
+    </part>
+    <part type="conn" code="P10">
+      <text>E L UL</text>
+      <name>Power Window Regulator Master Switch Assembly</name>
+      <name type="inner">Lock</name>
+      <name type="inner">Unlock</name>
+      <name type="inner">Door Lock Control Switch</name>
+    </part>
+    <part type="conn" code="P9">
+      <text>E L UL</text>
+      <name>Power Window Regulator Master Switch Assembly</name>
+      <name type="inner">Lock</name>
+      <name type="inner">Unlock</name>
+      <name type="inner">Door Lock Control Switch</name>
+    </part>
+    <part type="conn" code="Q2">
+      <text>M</text>
+      <name>Rear Door Lock Actuator Assembly LH</name>
+    </part>
+    <part type="conn" code="R2">
+      <text>M</text>
+      <name>Rear Door Lock Actuator Assembly RH</name>
+    </part>
+    <part type="fuse" code="FUSE31">
+      <text>DOOR</text>
+    </part>
+  </ttl>
+</EWDSearch>

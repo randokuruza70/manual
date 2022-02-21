@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.9" pubno="EM25T2E" xml:lang="en">
+  <note ewd="WIRE019" code="A30" type="conn">
+    <name>Emission Control ECU</name>
+  </note>
+  <note ewd="WIRE019" code="A31" type="conn">
+    <name>Emission Control ECU</name>
+  </note>
+  <note ewd="WIRE019" code="AI1" type="w2w">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </note>
+  <note ewd="WIRE019" code="AI2" type="w2w">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </note>
+  <note ewd="WIRE019" code="AI3" type="w2w">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </note>
+  <note ewd="WIRE019" code="AI4" type="w2w">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </note>
+  <note ewd="WIRE019" code="AI5" type="w2w">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </note>
+  <note ewd="WIRE019" code="AI6" type="w2w">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </note>
+  <note ewd="WIRE019" code="AI7" type="w2w">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </note>
+</EwdTree>

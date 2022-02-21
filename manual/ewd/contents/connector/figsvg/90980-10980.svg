@@ -1,0 +1,77 @@
+﻿<?xml version="1.0"?>
+<!-- Generator: Adobe Illustrator 10.0, SVG Export Plug-In . SVG Version: 3.0.0 Build 77)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st1 "fill:none;stroke:#000000;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st2 "font-size:6px;">
+	<!ENTITY st3 "font-family:'Arial';">
+	<!ATTLIST svg
+		ewd:ver CDATA #IMPLIED
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/">
+	<!ATTLIST g
+		ewd:pinNo CDATA #IMPLIED>
+]>
+<svg width="43.351" height="44.91" viewBox="0 0 43.351 44.91" style="overflow:visible;enable-background:new 0 0 43.351 44.91" xml:space="preserve" onload="call_execInitLoadProc_svg('connector')" ewd:ver="2.1.2.9" xmlns="&ns_svg;" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:xlink="&ns_xlink;">
+<script type="text/javascript" xlink:href="../../../../../system/js/ewd/fig/svgfig.js"/>
+<g id="レイヤー_1">
+	<path style="&st0;" d="M42.851,9.707v27.62"/>
+	<path style="&st0;" d="M1.35,8.291h1.133"/>
+	<path style="&st1;" d="M25.146,23.163H39.31"/>
+	<path style="&st0;" d="M0.5,9.141v28.187"/>
+	<path style="&st0;" d="M9.817,44.41h23.716"/>
+	<path style="&st1;" d="M3.333,13.956h18.272"/>
+	<path style="&st1;" d="M5.032,8.291h13.457"/>
+	<path style="&st1;" d="M5.032,10.061h13.457"/>
+	<path style="&st0;" d="M7.299,0.5h8.923"/>
+	<path style="&st1;" d="M2.625,38.744h38.102"/>
+	<path style="&st1;" d="M5.812,41.577H37.54"/>
+	<path style="&st1;" d="M3.333,11.832v8.499"/>
+	<path style="&st0;" d="M42.851,9.707c0-0.782-0.634-1.417-1.417-1.417"/>
+	<path style="&st0;" d="M0.5,37.327c0,0.782,0.634,1.417,1.416,1.417"/>
+	<path style="&st1;" d="M18.489,38.744c0.782,0,1.416-0.634,1.416-1.417"/>
+	<path style="&st1;" d="M23.446,37.327c0,0.782,0.634,1.417,1.416,1.417"/>
+	<path style="&st0;" d="M41.435,38.744c0.782,0,1.417-0.634,1.417-1.417"/>
+	<path style="&st0;" d="M3.333,9.141c0-0.47-0.38-0.85-0.85-0.85"/>
+	<path style="&st0;" d="M1.35,8.291c-0.469,0-0.85,0.38-0.85,0.85"/>
+	<path style="&st0;" d="M7.299,0.5c-1.251,0-2.267,1.015-2.267,2.267"/>
+	<path style="&st0;" d="M18.489,2.767c0-1.252-1.015-2.267-2.267-2.267"/>
+	<path style="&st1;" d="M0.5,21.605c0,0.469,0.38,0.85,0.85,0.85"/>
+	<path style="&st1;" d="M1.35,32.37c-0.469,0-0.85,0.38-0.85,0.85"/>
+	<path style="&st1;" d="M42.001,12.54c0.469,0,0.85-0.381,0.85-0.85"/>
+	<path style="&st1;" d="M42.851,33.22c0-0.469-0.38-0.85-0.85-0.85"/>
+	<path style="&st0;" d="M39.877,41.577c0.469,0,0.85-0.38,0.85-0.85"/>
+	<path style="&st0;" d="M2.625,40.727c0,0.47,0.38,0.85,0.85,0.85"/>
+	<path style="&st0;" d="M7.814,43.58c0.553,0.553,1.221,0.83,2.003,0.83"/>
+	<path style="&st0;" d="M33.534,44.41c0.782,0,1.45-0.277,2.003-0.83"/>
+	<path style="&st1;" d="M1.35,20.33c-0.469,0-0.85,0.381-0.85,0.85"/>
+	<path style="&st0;" d="M3.333,9.141v2.691h1.7V2.767"/>
+	<path style="&st0;" d="M41.435,8.291H23.729l-2.125,2.125v1.416h-3.116V2.767"/>
+	<path style="&st0;" d="M2.625,40.727v-1.983H1.916"/>
+	<path style="&st0;" d="M7.814,43.58l-2.003-2.003H3.474"/>
+	<path style="&st0;" d="M39.877,41.577H37.54l-2.003,2.003"/>
+	<path style="&st0;" d="M40.727,40.727v-1.983h0.708"/>
+	<path style="&st1;" d="M41.081,36.265H37.54v-2.125h3.541V36.265"/>
+	<path style="&st1;" d="M37.54,35.203H25.146V11.124H39.31v23.017"/>
+	<path style="&st1;" d="M5.812,35.203h12.394v-12.04H4.041v10.978"/>
+	<path style="&st1;" d="M5.812,34.141H2.271v2.125h3.541V34.141"/>
+	<path style="&st1;" d="M1.35,32.37h1.275v-9.915H1.35"/>
+	<path style="&st1;" d="M21.604,11.832v8.499H1.35"/>
+	<path style="&st1;" d="M42.001,32.37h-1.275V12.54h1.275"/>
+	<path style="&st1;" d="M23.446,37.327V24.58h-3.542v12.748"/>
+	<path style="&st1;" d="M18.489,13.956v-2.125H5.032v2.125"/>
+	<path style="&st1;" d="M8.928,8.291V3.333h5.666v4.958"/>
+	<g ewd:pinNo="1">
+		<text transform="matrix(1 0 0 1 30.4111 19.4019)"><tspan x="0" y="0" style="&st3; &st2;">1</tspan></text>
+	</g>
+	<g ewd:pinNo="2">
+		<text transform="matrix(1 0 0 1 9.3066 31.4419)"><tspan x="0" y="0" style="&st3; &st2;">2</tspan></text>
+	</g>
+	<g ewd:pinNo="3">
+		<text transform="matrix(1 0 0 1 30.4111 31.4419)"><tspan x="0" y="0" style="&st3; &st2;">3</tspan></text>
+	</g>
+</g>
+</svg>

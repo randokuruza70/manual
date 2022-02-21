@@ -1,0 +1,416 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head>
+		<title>PageTitle</title>
+		<meta content="text/html; charset=windows-1252" http-equiv="Content-Type" />
+		<script type="text/javascript" src="./common/js/function.js"></script>
+		<link href="./common/css/style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+	<p><a name="a001"></a></p>
+	<h1>View Manuals</h1>
+	
+    <h2>Electrical Wiring Diagram</h2>
+<h3>Overview</h3>
+<p>Electrical Wiring Diagrams include the following categories, and the relevant items included in each Category are stated.</p>
+<p><img src="images/a005.png" width="135" height="110"></p>
+<p> Select the item to display from the tree, and display the Electrical Wiring Diagram or System Circuit Diagram. In Electrical Wiring Diagram, lists, and System Circuit Diagrams, parts can be checked on the tree.</p>    
+<p><a name="a009"></a></p>
+    
+<h3>Description of the Electrical Wiring Diagram screen</h3>
+    
+<p><img src="images/i158.png" alt="" width="700" height="496" /></p>    
+<table>
+  <tr> 
+    <th class="part">1</th>
+    <td><strong>Reset</strong><br>      <ul>
+        <li> Resets the display zoom.</li>
+        <li>Cancels part selections.</li>
+      </ul></td>
+  </tr>
+  <tr> 
+    <th class="part">2</th>
+    <td class="part"><strong>Shorten Pane</strong><br>
+    Reduces  the size of the illustration.</td>
+  </tr>
+  <tr> 
+    <th class="part">3</th>
+    <td><strong>Display zoom ratio indicator</strong><br> 
+      Displays the display zoom ratio.
+      <table border="1">
+        <tr> 
+          <td bgcolor="#EEEEEE"><div align="center">Display zoom ratio</div></td>
+          <td bgcolor="#EEEEEE"><div align="center">Display zoom ratio indicator</div></td>
+        </tr>
+        <tr> 
+          <td>25%</td>
+          <td><img src="images/zoombar_01.png" alt="" width="50" height="25" /></td>
+        </tr>
+        <tr> 
+          <td>50%</td>
+          <td><img src="images/zoombar_02.png" alt="" width="50" height="25" /></td>
+        </tr>
+        <tr> 
+          <td>70%</td>
+          <td><img src="images/zoombar_03.png" alt="" width="50" height="25" /></td>
+        </tr>
+        <tr> 
+          <td>100% (Reset)</td>
+          <td><img src="images/zoombar_04.png" alt="" width="50" height="25" /></td>
+        </tr>
+        <tr> 
+          <td>150%</td>
+          <td><img src="images/zoombar_05.png" alt="" width="50" height="25" /></td>
+        </tr>
+        <tr> 
+          <td>200%</td>
+          <td><img src="images/zoombar_06.png" alt="" width="50" height="25" /></td>
+        </tr>
+        <tr> 
+          <td>400%</td>
+          <td><img src="images/zoombar_07.png" alt="" width="50" height="25" /></td>
+        </tr>
+        </table></td>
+  </tr>
+  <tr> 
+    <th class="part">4</th>
+    <td class="part"><strong>Enlarge</strong><br>
+    Enlarges  the size of the illustration.</td>
+  </tr>
+  <tr> 
+    <th class="part">5</th>
+    <td><strong>Compact Display</strong><br>
+      Displays only the circuit diagram for the selected  part.<br> 
+      For details, see <a href="#a010">Execute Compact Display</a>. <br> 
+      <div class="reference"> 
+        <div class="title">HINT</div>
+        <ul>
+          <li>This button is not displayed if the Internet Explorer version is 6.0/8.0.</li>
+        </ul>
+      </div></td>
+  </tr>
+  <tr> 
+    <th class="part">6</th>
+    <td><strong>Undo Compact Display</strong><br> 
+      Undo compact display and display the entire circuit diagram.<br> 
+      <div class="reference">  
+        <div class="title">HINT</div>
+        <ul>
+          <li>This button is not displayed if the Internet Explorer version is 6.0/8.0.</li>
+        </ul>
+      </div></td>
+  </tr>
+  <tr> 
+    <th class="part">7</th>
+    <td class="part"><strong>Cancel Compact Display</strong><br> 
+    Cancels Compact Display.</td>
+  </tr>
+  <tr> 
+        <th class="part">8</th>
+    <td class="part"><strong>Status Display</strong><br>
+        Displays  the screen refresh status.</td>
+      </tr>
+      <tr>
+        <th class="part">9</th>
+        <td class="part"><strong>Relocation</strong><br>
+        Displays  the Relocation Diagram in which the currently-displayed relay block or junction  block is placed.</td>
+      </tr>
+      <tr>
+        <th class="part">10</th>
+        <td class="part"><strong>J/B and R/B diagram</strong><br>
+        Displays  the J/B and R/B Diagram that corresponds to the currently displayed Internal  Circuit Diagram.</td>
+      </tr>
+      <tr>
+        <th class="part">11</th>
+        <td class="part"><strong>Internal Circuit Diagram</strong><br>
+        Displays  the relocation diagram in which the currently-displayed relay block or junction  block is placed.</td>
+      </tr>
+      <tr>
+        <th class="part">12</th>
+        <td class="part"><strong>Connectors and Other Details</strong><br>
+        Displays  detailed information for connectors relevant to parts selected in the System  Circuit Diagram, Relocation Diagram, or Internal Circuit Diagram.</td>
+      </tr>
+    </table>    
+<p><a name="a002"></a></p>
+<h3> System Circuit Diagram</h3>
+<p>System Circuit Diagrams consist of Power Supply Circuit Diagrams, Earth Point Circuit Diagrams, and System Circuit Diagrams. Circuit diagrams can be used to check the positions of connectors, wiring harnesses, fuses, relays, etc., and the wiring of systems.</p>
+<h4><strong>Display Connectors and Other Details from System Circuit Diagrams</strong></h4>
+<table  class="step">
+  <tr> 
+    <th class="step"><img src="common/images/step01.png" alt="" width="52" height="22"></th>
+    <td class="step">Select the part or wire and click on the Connectors and Other Details.<br>
+      Connectors  and Other Details are displayed for the selected part or for parts connected to  the wire.<br> 
+      <img src="images/i059.png" alt="" width="600" height="253" /> </td>
+  </tr>
+</table>
+<p><a name="a010" id="a010"></a></p>
+<h4><strong>Execute Compact Display</strong></h4>
+<p>In Compact Display, select multiple wires or parts and switch to a condensed display that only includes the connections between those wires.<br>
+</p>
+<table  class="step">
+  <tr> 
+    <th class="step"><img src="common/images/step01.png" alt="" width="52" height="22"></th>
+    <td><p>Select parts or wires in the System Circuit Diagram and click on the Compact Display button.<br> 
+      Wires are displayed flashing, and parts are displayed flashing (in red).<br> 
+      If a wire is selected, the parts at the two ends of that wire flash alternately.</p>
+      <p> <img src="images/i136.png" width="600" height="213"> </p>      
+	    <div class="reference">  
+        <div class="title">HINT</div>
+        <ul>
+          <li>Internet Explorer versions 6.0/8.0 do not support Compact Display.</li>
+        </ul>
+      </div></td>
+  </tr>
+</table>
+<p><a name="a003"></a></p>
+<h3> Fuse list</h3>
+    
+<p>The fuse list can be used to check the names and capacities of fuses. It can also be used to check which systems are supplied with power by which power supplies.</p>
+<h4><strong>Display the J/B and R/B Diagram from the fuse list</strong></h4>
+<table  class="step">
+  <tr> 
+    <th class="step"><img src="common/images/step01.png" alt="" width="52" height="22"></th>
+    <td class="step">Click on the J/B and R/B in the fuse list, or on the button for the fusible link block name.<br> 
+      The J/B and R/B Diagram is displayed.<br> 
+    <img src="images/i088.png" alt="" width="600" height="207" /></td>
+  </tr>
+</table>
+<h4><strong>Display the System Circuit Diagram from the fuse list</strong></h4>
+<table  class="step">
+  <tr> 
+    <th class="step"><img src="common/images/step01.png" alt="" width="52" height="22"></th>
+    <td class="step">Click on the System name.<br> 
+      The System Circuit Diagram is displayed, and the fuses associated with the selected system are displayed flashing. <img src="images/i137.png" width="600" height="220"> <br>
+      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="600" height="140">
+        <param name="movie" value="images/i089.swf">
+        <param name="quality" value="high">
+        <embed src="images/i089.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="600" height="140"></embed>
+      </object>
+    </td>
+  </tr>
+</table>
+<p>&nbsp;</p><p><a name="a004"></a></p>
+    
+<h3> Connectors and Other Details</h3>
+<p>The Connectors and Other Details screen can be used to check information such as the parts and connector numbers connected to each connector, and Part Nos. Information can be displayed about Harness Diagrams and System Circuit Diagrams etc. related to connectors.</p>
+    
+<h4>Description of the Repair Wiring Harness Screen</h4>
+<p>Click on Repair Wiring Harness to display information about repairing the wiring harness.</p>
+    
+<p> <img src="images/i048.png" alt="" width="700" height="680" /></p>
+    
+<table>
+  <tr> 
+    <th class="part">1</th>
+    <td class="part">Terminal Types</td>
+  </tr>
+  <tr> 
+    <th class="part">2</th>
+    <td class="part">Identification of Male and Female Terminals </td>
+  </tr>
+  <tr> 
+    <th class="part">3</th>
+    <td class="part">Terminal types and Part Nos.</td>
+  </tr>
+  <tr> 
+    <th class="part">4</th>
+    <td class="part">Sleeve forms and Part Nos.</td>
+  </tr>
+  <tr> 
+    <th class="part">5</th>
+    <td class="part">Connector Housing Sectional Diagram</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<h4>The list displays of Harness Diagrams and System Circuit Diagrams related to the selected terminal can be switched</h4>
+<p>Items from Harness Diagrams and System Circuit Diagrams can be displayed for all terminals, or only those that are related to the selected terminal.</p>
+<h5>Display a list of Harness Diagrams and System Circuit Diagrams for all terminals </h5>
+<table  class="step">
+  <tr> 
+    <th class="step"><img src="common/images/step01.png" alt="" width="52" height="22"></th>
+    <td class="step">Select all terminals and click on Switch Display.<br> 
+      All Harness Diagrams and System Circuit Diagrams related to all terminals are displayed.<br> 
+    <img src="images/i121.png" alt="" width="600" height="237" /></td>
+  </tr>
+</table>
+<h5>Display a list of Harness Diagrams and System Circuit Diagrams for the selected terminals only </h5>
+<table  class="step">
+  <tr> 
+    <th class="step"><img src="common/images/step01.png" alt="" width="52" height="22"></th>
+    <td class="step">Click on the connector number on the Connector Diagram.<br> 
+      The connector number that was clicked on is displayed in red.<br> 
+    <img src="images/i128.png" alt="" width="600" height="243" /></td>
+  </tr>
+</table>
+<table  class="step">
+  <tr> 
+    <th class="step"><img src="common/images/step02.png" width="52" height="22"></th>
+    <td class="step">Chose Selected Terminals and click on Switch Display.<br> 
+      All Harness Diagrams and System Circuit Diagrams related to the selected connector number are displayed.<br>
+	<img src="images/i122.png" alt="" width="600" height="222" /></td>
+  </tr>
+</table>
+<h4>Display the Harness Diagram (Wiring Harness Diagram or J/B and R/B Diagram) from Connectors and Other Details</h4>
+<table  class="step">
+  <tr> 
+    <th class="step"><img src="common/images/step01.png" alt="" width="52" height="22"></th>
+    <td class="step">Select a part name and click on the link.<br> 
+      The Wiring Harness Diagram is displayed and the connectors of the selected part are displayed flashing. <img src="images/i138.png" width="600" height="200"> <br>
+      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="600" height="140">
+        <param name="movie" value="images/i061.swf">
+        <param name="quality" value="high">
+        <embed src="images/i061.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="600" height="140"></embed>
+      </object>
+    </td>
+  </tr>
+</table>
+<div class="reference">
+        <div class="title">HINT</div>
+  <ul>
+    <li>If connector or earth point information is displayed, display the Wiring Harness Diagram. If relay or fuse information is displayed, display the J/B and R/B diagram.</li>
+        </ul>
+</div>
+<h4>Display System Circuit Diagrams from Connectors and Other Details</h4>
+<table  class="step">
+  <tr> 
+    <th class="step"><img src="common/images/step01.png" alt="" width="52" height="22"></th>
+    <td class="step">Click on a part name.<br> 
+      The System Circuit Diagram is displayed, and the selected part is displayed flashing. <img src="images/i139.png" width="600" height="181"> <br>
+      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="600" height="114">
+        <param name="movie" value="images/i062.swf">
+        <param name="quality" value="high">
+        <embed src="images/i062.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="600" height="114"></embed>
+      </object>
+    </td>
+  </tr>
+</table>
+<p><a name="a005"></a></p>
+<h3>Wiring Harness Diagram</h3>
+<p>Wiring Harness Diagrams can be used to check the mounted positions, earth points, and connector Nos. of the connectors and wiring harness used in all parts of the vehicle.</p>
+<h4>Display a list of wire names from the Wiring Harness Diagram</h4>
+<table  class="step">
+  <tr> 
+    <th class="step"><img src="common/images/step01.png" alt="" width="52" height="22"></th>
+    <td class="step">Click on a wire name.<br> 
+      Display a list of wire names.<br> 
+    <img src="images/i063.png" alt="" width="600" height="169" /></td>
+  </tr>
+</table>
+<h4>Display Connectors and Other Details from Wiring Harness Diagrams</h4>
+<table  class="step">
+  <tr> 
+    <th class="step"><img src="common/images/step01.png" alt="" width="52" height="22"></th>
+    <td class="step">Select the connector number and click on the Connectors and Other Details button.<br> 
+      Connectors and Other Details are displayed.<br> 
+    <img src="images/i090.png" alt="" width="600" height="279" /></td>
+  </tr>
+</table>
+<p><a name="a006"></a></p>
+<h3>J/B and R/B Diagram</h3>
+<p>J/B and R/B Diagrams can be used to check the positions and other detailed information on the positions of connectors, relays, and fuses that are connected to junction blocks and relay blocks.</p>
+<h4>Display Relocation from a J/B and R/B Diagram</h4>
+<table  class="step">
+  <tr> 
+    <th class="step"><img src="common/images/step01.png" alt="" width="52" height="22"></th>
+    <td class="step">Select the connector number and click on the Relocation button.<br> 
+      Relocation is displayed and the part with the selected connector number flashes. <img src="images/i143.png" width="600" height="310"> <br>
+      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="600" height="93">
+        <param name="movie" value="images/i055.swf">
+        <param name="quality" value="high">
+        <embed src="images/i129.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="600" height="93"></embed>
+      </object>
+    </td>
+  </tr>
+</table>
+<h4>Display Internal Circuit Diagrams from J/B and R/B Diagrams</h4>
+<table  class="step">
+  <tr> 
+    <th class="step"><img src="common/images/step01.png" alt="" width="52" height="22"></th>
+    <td class="step">Select a connector number and click on the Internal Circuit Diagram button.<br> 
+      The Internal Circuit Diagram is displayed and the selected connector No. is displayed flashing. <img src="images/i140.png" width="600" height="311"> <br>
+      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="600" height="114">
+        <param name="movie" value="images/i057.swf">
+        <param name="quality" value="high">
+        <embed src="images/i057.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="600" height="114"></embed>
+      </object>
+    </td>
+  </tr>
+</table>
+<h4>Display Connectors and Other Details from J/B and R/B Diagrams</h4>
+<table  class="step">
+  <tr> 
+    <th class="step"><img src="common/images/step01.png" alt="" width="52" height="22"></th>
+    <td class="step">Select the connector number and click on the Connectors and Other Details button.<br> 
+      Connectors and Other Details are displayed.<br> 
+    <img src="images/i130.png" alt="" width="600" height="310" /></td>
+  </tr>
+</table>
+<p><a name="a007"></a></p>
+<h3>Internal Circuit Diagram</h3>
+<p>Internal Circuit Diagrams can be used to check the internal circuits of junction blocks and relay blocks.</p>
+<h4>Display Relocation from an Internal Circuit Diagram</h4>
+<table  class="step">
+  <tr> 
+    <th class="step"><img src="common/images/step01.png" alt="" width="52" height="22"></th>
+    <td class="step">Select the connector number and click on the Relocation button.<br> 
+      Relocation is displayed and the part with the selected connector number flashes. <img src="images/i142.png" width="600" height="275"> <br>
+      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="600" height="93">
+        <param name="movie" value="images/i055.swf">
+        <param name="quality" value="high">
+        <embed src="images/i055.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="600" height="93"></embed>
+      </object>
+    </td>
+  </tr>
+</table>
+<h4>Display J/B and R/B Diagrams from Internal Circuit Diagrams</h4>
+<table  class="step">
+  <tr> 
+    <th class="step"><img src="common/images/step01.png" alt="" width="52" height="22"></th>
+    <td class="step">Select a connector number and click on the J/B and R/B Diagram button.<br> 
+      The J/B and R/B Diagram is displayed and the selected connector No. is displayed flashing. <img src="images/i144.png" width="600" height="265"> <br>
+      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="600" height="114">
+        <param name="movie" value="images/i056.swf">
+        <param name="quality" value="high">
+        <embed src="images/i056.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="600" height="114"></embed>
+      </object>
+    </td>
+  </tr>
+</table>
+<h4>Display Connectors and Other Details from Internal Circuit Diagrams</h4>
+<table  class="step">
+  <tr> 
+    <th class="step"><img src="common/images/step01.png" alt="" width="52" height="22"></th>
+    <td class="step">Select the connector number and click on the Connectors and Other Details button.<br> 
+      Connectors and Other Details are displayed.<br> 
+    <img src="images/i058.png" alt="" width="600" height="265" /></td>
+  </tr>
+</table>
+<p><a name="a008"></a></p>
+<h3>Relocation</h3>
+<p>Relocation can be used to check the mounted positions on the vehicle of relays, relay blocks, junction blocks, fusible links, computers, etc.</p>
+<h4>Display a J/B and R/B Diagram from Relocation</h4>
+<table  class="step">
+  <tr> 
+    <th class="step"><img src="common/images/step01.png" alt="" width="52" height="22"></th>
+    <td class="step">Select a part name and click on the J/B and R/B button.<br> 
+      The J/B and R/B Diagram is displayed.<br> 
+    <img src="images/i092.png" alt="" width="600" height="308" /></td>
+  </tr>
+</table>
+<h4>Display Internal Circuit Diagrams from Relocation</h4>
+<table  class="step">
+  <tr> 
+    <th class="step"><img src="common/images/step01.png" alt="" width="52" height="22"></th>
+    <td class="step">Select a part name and click on the Internal Circuit Diagram button.<br> 
+      The Internal Circuit Diagram is displayed and the connector Nos. of the selected part are displayed flashing. <img src="images/i141.png" width="600" height="312"> <br>
+      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="600" height="114">
+        <param name="movie" value="images/i131.swf">
+        <param name="quality" value="high">
+        <embed src="images/i131.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="600" height="114"></embed>
+      </object>
+    </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>
